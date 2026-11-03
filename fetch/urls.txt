@@ -1,3 +1,14 @@
-models.json https://api.polyhaven.com/assets?t=models
-hdris.json https://api.polyhaven.com/assets?t=hdris
-textures.json https://api.polyhaven.com/assets?t=textures
+f_magnifying_glass_01.json https://api.polyhaven.com/files/magnifying_glass_01
+f_round_spectacles.json https://api.polyhaven.com/files/round_spectacles
+f_stationery_supplies.json https://api.polyhaven.com/files/stationery_supplies
+f_potted_plant_02.json https://api.polyhaven.com/files/potted_plant_02
+f_ceramic_vase_02.json https://api.polyhaven.com/files/ceramic_vase_02
+f_desk_lamp_arm_01.json https://api.polyhaven.com/files/desk_lamp_arm_01
+f_brown_photostudio_02.json https://api.polyhaven.com/files/brown_photostudio_02
+f_photo_studio_loft_hall.json https://api.polyhaven.com/files/photo_studio_loft_hall
+f_american_walnut_veneer.json https://api.polyhaven.com/files/american_walnut_veneer
+f_oak_veneer_01.json https://api.polyhaven.com/files/oak_veneer_01
+f_clay_plaster.json https://api.polyhaven.com/files/clay_plaster
+f_rough_linen.json https://api.polyhaven.com/files/rough_linen
+f_marble_01.json https://api.polyhaven.com/files/marble_01
+f_postcard_set_01.json https://api.polyhaven.com/files/postcard_set_01
