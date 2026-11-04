@@ -19,6 +19,7 @@
 - UAE: bilingual done properly. Design for Arabic from the start, use logical CSS properties, /en/ and /ar/ folders with hreflang, Arabic fonts (IBM Plex Sans Arabic, Tajawal, Cairo), a visible language switcher, and WhatsApp CTAs in both languages (element8.ae)
 - Africa: WhatsApp Business Platform service replies inside the 24h window are now billable; in Nigeria that's about $0.01 per utility message and $0.06 per marketing message (msmeafricaonline.com)
 - Africa, what that means: the website has to answer questions, show prices and take bookings itself, so fewer chats are needed (msmeafricaonline.com)
+- Holographik DeepBook (Awwwards SOTD): black + one blue, isometric 3D icons, monitors in a dark room for the reveal; celebrate awards with a collage post (behance.net/Holographik)
 ## How we use it
 - Every concept: one art-direction idea that works as a still, then motion layered on. Test at 4x CPU throttle on a 390 mobile; hold 60fps or cut the 3D.
 - Use native CSS first (scroll-driven reveals, @starting-style, sibling-index stagger); bring in GSAP/Lenis only for choreography CSS can't do. Always ship a prefers-reduced-motion path.

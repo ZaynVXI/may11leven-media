@@ -1,5 +1,5 @@
 # Reference board (from Zayn)
-Studios Zayn sent to learn from: .raw, Nuevo.Tokyo, Blacklead, Artycoders, Leoverse, Advetree, WOB Studio, Obrazur, Serhii, kayvon.ai.
+Studios Zayn sent to learn from: Holographik, .raw, Nuevo.Tokyo, Blacklead, Artycoders, Leoverse, Advetree, WOB Studio, Obrazur, Serhii, kayvon.ai.
 Screenshots of their feeds and posts, plus frame sheets of their reels (wob-reel-*-frames.jpg).
 Use: before planning or designing, open at least 3 refs that match the job and name the one idea you take from each. Compare our next post side by side with one ref. Never copy layouts, lines or faces.
 The quality bar Zayn loved: the Inzu booking prototype reel (week3/inzu-booking-prototype.mp4) - real product feel, real states, sound, calm motion.
@@ -13,6 +13,7 @@ The quality bar Zayn loved: the Inzu booking prototype reel (week3/inzu-booking-
 - https://wob.studio/
 - Zachary Winterton: https://zacharywinterton.com (creative director, Nike/Adobe/Netflix work; ~200K audience; bi-weekly creativity newsletter) - study his ideas, creative-process posts and how content feeds his client work
 - Zachary Winterton reels (winterton-reel-*-frames.jpg): 'Design trend you should know' series (mixed type, rebus, ASCII art, micrographics), brand case breakdowns (Sitko Pizza), design-book reviews with a 'comment book' keyword, micrographic badge loops
+- Holographik (Zagreb; behance.net/Holographik, dribbble.com/holographik; holographik-*.jpg): MINIMALISM MASTERS - ANI.AI health-AI identity, app and site (greyscale + one orange, one grotesk, dots/lines/dashed lines, white space), DeepBook fintech site (black + one blue, isometric icons, Awwwards SOTD post), Bottone x Holographik event (red + black only, generative shapes, posters in situ, flash event photos, tees), Mars game app (rust, cream, orange)
 - Obrazur: instagram.com/obrazur (identity reels of 6-8 s, 100K-630K views; see obrazur-*.jpg)
 - https://www.onlinedesignawards.com/annual-awards (why winners won)
 - https://winners.lovieawards.com/
