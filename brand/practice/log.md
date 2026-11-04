@@ -15,3 +15,6 @@ Fixes to practise next:
 ## 02: barber app UI rebuilt at high fidelity
 Feedback: the app screen looked low fidelity and basic. Rebuilt as a dark product UI (brand/code/hifi/app.html): live-queue tick ring with big numeral, real queue states, busy-hours chart, service rows with real photo thumbnails from the shoot, quiet-hour slots with discounts, M-Pesa checkout with countdown ring, iOS status bar, tab bar with icons. Re-composited into the phone photo; slide 5 is now a three-screen collage.
 Lesson: show finished product states, never wireframe-level screens.
+## 03: Bathu rebrand concept rebuilt
+Old post: heavy condensed type, outline letters, flat laptop. New: 3D rendered soles (ink + gum rubber, tread with the wordmark) on concrete as the hero, a question card in a visible grid (Lebedev), the mark constructed with dashed lines, a dot map of South Africa from Alexandra (CoMinVi), a named street palette, rendered shoeboxes.
+Fixes during lookdev: sole outline faceted -> Chaikin smoothing; tread streaks on side walls -> bump only on top faces; pale lid print -> decal specular off (grazing-angle Fresnel).
