@@ -1,3 +1,5 @@
 bl-text.md https://r.jina.ai/https://blacklead.studio/
 bl-shot.jpg https://s.wordpress.com/mshots/v1/https%3A%2F%2Fblacklead.studio%2F?w=1440&h=2600
 bl-thum.png https://image.thum.io/get/width/1440/crop/4000/https://blacklead.studio/
+sp-text.md https://r.jina.ai/https://www.serhii-art.com/
+sp-shot.jpg https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.serhii-art.com%2F?w=1440&h=2600
