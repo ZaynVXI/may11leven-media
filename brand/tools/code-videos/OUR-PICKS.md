@@ -1,0 +1,387 @@
+# Code-made video prompts worth studying for May11Leven reels
+Filtered from awesome-opus5-5-videos (MIT). Each line: category · tech · prompt file. Study the method, then make it ours (minimal, our references, no copying).
+
+- explainer · canvas · prompts/ror-fly-880547.md
+- motion · svg · prompts/twoclipping-402193.md
+- motion · canvas, ai-image · prompts/anabology-491441.md
+- motion · svg, gsap · prompts/moritzkremb-466494.md
+- explainer · svg, gsap · prompts/deedydas-252537.md
+- explainer · canvas, svg, gsap, css · prompts/sudo-kiran-335993.md
+- motion · svg, gsap · prompts/daniel-mac8-306214.md
+- explainer · threejs, canvas · prompts/0xvalure-331584.md
+- explainer · canvas · prompts/verbove-268381.md
+- motion · canvas · prompts/ishaaqahamed-107563.md
+- explainer · threejs, shader, canvas · prompts/ajith-io-562538.md
+- motion · canvas · prompts/ann-nnng-852885.md
+- motion · canvas, particles · prompts/ajith-io-615243.md
+- interactive · threejs, shader, playable · prompts/0xchuckstock-879327.md
+- 3d · svg, css · prompts/twoclipping-000267.md
+- 3d · svg · prompts/morse-369333.md
+- motion · shader, svg · prompts/brainextends-606193.md
+- motion · canvas · prompts/1littlecoder-378066.md
+- 3d · threejs, shader, canvas, svg · prompts/lukasersil-726495.md
+- 3d · canvas, svg, css · prompts/bthreeagency-827092.md
+- explainer · svg, audio · prompts/linearuncle-971663.md
+- 3d · threejs, shader, canvas · prompts/alexalbert-274839.md
+- interactive · canvas, pixel, playable · prompts/zacxbt-944604.md
+- 3d · shader, canvas · prompts/michaelzsguo-782312.md
+- motion · canvas, ai-image · prompts/sab8a-475686.md
+- 3d · canvas · prompts/twoclipping-496100.md
+- motion · canvas, svg, gsap, css · prompts/viktoroddy-402509.md
+- motion · canvas, audio · prompts/kloss-xyz-941143.md
+- motion · canvas · prompts/majidmanzarpour-927543.md
+- 3d · shader, webgl · prompts/axtonliu-290566.md
+- motion · svg · prompts/demonugc-525162.md
+- explainer · svg, gsap · prompts/alex-prompter-997524.md
+- explainer · canvas · prompts/emollick-019567.md
+- explainer · canvas, svg, css · prompts/kloss-xyz-067876.md
+- 3d · threejs, shader, svg · prompts/mdaman010-111079.md
+- motion · canvas · prompts/ho-ba-761062.md
+- motion · canvas · prompts/howdevelop-733090.md
+- motion · svg, gsap · prompts/gouthamjay8-910269.md
+- interactive · svg · prompts/redpersongpt-284430.md
+- motion · canvas · prompts/mounnna-497266.md
+- explainer · svg · prompts/henkvaness-975279.md
+- motion · threejs, shader, canvas · prompts/johnsavage-ai-427263.md
+- interactive · threejs, canvas, physics, playable · prompts/froessell-562325.md
+- motion · canvas, svg · prompts/ratheejaisal-154698.md
+- motion · svg, gsap · prompts/wani-shola-459278.md
+- explainer · svg · prompts/amitsingha89-780553.md
+- 3d · threejs, shader, canvas, svg · prompts/sayan-shanky-868515.md
+- motion · svg · prompts/lester-tyy-480587.md
+- motion · canvas · prompts/doubleunplussed-181894.md
+- explainer · canvas, audio · prompts/tak3sh8-441895.md
+- motion · canvas, svg · prompts/ceowinkz-683602.md
+- explainer · canvas · prompts/astrothewizard-618782.md
+- motion · gsap · prompts/iammxfschr-955831.md
+- motion · canvas, svg, gsap · prompts/sachaarbonel-673648.md
+- motion · canvas · prompts/chrisjdimarco-808196.md
+- motion · css · prompts/dzhohola-249003.md
+- motion · svg, gsap · prompts/jhylee95-452427.md
+- motion · canvas, svg, gsap · prompts/astrodevil-392708.md
+- motion · svg, gsap · prompts/hicallmechai-878304.md
+- motion · svg · prompts/annacher-433425.md
+- motion · shader, webgl, canvas, css · prompts/reflex-cloud-304046.md
+- motion · canvas, svg · prompts/l3d1c-752011.md
+- motion · svg · prompts/thegrootdev-966114.md
+- motion · svg, css · prompts/charliie-334026.md
+- motion · svg, gsap · prompts/leanzubrezki-766171.md
+- motion · svg · prompts/nezbuilds-294391.md
+- explainer · canvas, svg, css · prompts/sudo-kiran-254201.md
+- 3d · threejs, canvas · prompts/buildfastwithai-597035.md
+- motion · svg · prompts/techyoutbe-588678.md
+- motion · canvas · prompts/fire-ozgur-130104.md
+- motion · canvas, css · prompts/iamtanzil-120030.md
+- motion · canvas · prompts/gdgtify-929495.md
+- motion · svg · prompts/sanjeevn72-457691.md
+- motion · canvas · prompts/hugon001-609629.md
+- motion · svg · prompts/mehul4795-417532.md
+- explainer · canvas · prompts/sarut0bisasuke-069973.md
+- 3d · css · prompts/raphaelaubryy-687877.md
+- motion · canvas · prompts/techhalla-498547.md
+- explainer · canvas, svg, gsap · prompts/tomandrieu96707-875264.md
+- motion · gsap · prompts/ai-baymax-416787.md
+- explainer · svg, gsap · prompts/0xnfrith-068999.md
+- motion · svg, gsap · prompts/hsanat-012699.md
+- motion · svg, gsap · prompts/drrickio-009558.md
+- motion · svg, gsap · prompts/davidmarcus-686217.md
+- explainer · gsap · prompts/1stnoel-603851.md
+- explainer · canvas, svg, gsap, ai-image · prompts/retropunkai-277590.md
+- motion · canvas, svg, gsap, ai-image · prompts/jake11moran-414633.md
+- motion · svg, gsap, css · prompts/techtactician-144474.md
+- explainer · canvas, physics · prompts/parkerrex-701462.md
+- motion · canvas, css · prompts/justincooperman-188876.md
+- interactive · canvas, gsap, css · prompts/deifosv-786581.md
+- 3d · threejs, shader, svg · prompts/anirockshady-032809.md
+- motion · svg, gsap, css · prompts/pbteja1998-651644.md
+- motion · canvas, pixel · prompts/anjmaxx-459455.md
+- motion · canvas · prompts/mattbean-917572.md
+- interactive · threejs, shader, canvas, physics · prompts/niegramotny-197521.md
+- motion · canvas · prompts/eric-khun-667455.md
+- 3d · threejs, canvas · prompts/anilraok-009118.md
+- explainer · canvas, svg, gsap · prompts/charlesmendez-476517.md
+- explainer · canvas · prompts/nikolajankovic-616097.md
+- 3d · threejs, shader, particles · prompts/ishuagra02-678129.md
+- explainer · svg, css · prompts/0xlangeai-178533.md
+- explainer · threejs, shader, physics · prompts/stephanferraro-224281.md
+- explainer · threejs, shader · prompts/chudry223-081860.md
+- explainer · threejs, shader, canvas, gsap · prompts/voxyz-ai-345550.md
+- explainer · threejs, shader, canvas · prompts/explorations-iq-921682.md
+- explainer · threejs, canvas · prompts/nybobs-680050.md
+- explainer · canvas, svg · prompts/garmdotcom-987439.md
+- explainer · canvas, physics · prompts/cyrilxbt-149036.md
+- explainer · canvas, audio, ai-image · prompts/miguel07code-091611.md
+- explainer · svg · prompts/kureshirfan-386691.md
+- explainer · canvas · prompts/amberpromptai-345137.md
+- explainer · threejs, svg, audio · prompts/iniyanai-856596.md
+- explainer · threejs, shader · prompts/acoramaa-053577.md
+- explainer · threejs, shader, canvas, particles · prompts/kgonia7-746268.md
+- explainer · threejs, shader, audio · prompts/nathanwilbanks-981110.md
+- explainer · canvas, audio · prompts/hunzai-842605.md
+- explainer · threejs, shader · prompts/konstantinsaifo-501736.md
+- explainer · canvas, audio · prompts/rakhsh-tech-544921.md
+- explainer · svg, gsap, audio · prompts/arthurkatcher-604161.md
+- explainer · svg, gsap, css · prompts/moguzbulbul-215591.md
+- explainer · threejs, shader, canvas · prompts/irinatoxi-962937.md
+- explainer · threejs, shader · prompts/konstantinsaifo-587629.md
+- explainer · threejs, shader, canvas · prompts/stefanostraus-971191.md
+- 3d · shader, webgl, canvas, audio · prompts/demitiyageekzen-818523.md
+- 3d · canvas, audio · prompts/gmgmgm1545-245507.md
+- 3d · threejs, shader, canvas · prompts/jarvis11x-544635.md
+- 3d · threejs, shader · prompts/kewai386772-276947.md
+- 3d · threejs, shader, canvas · prompts/nft-chen-350878.md
+- 3d · shader, webgl · prompts/0xsolty-735200.md
+- 3d · threejs, shader, canvas · prompts/curieuxexplorer-272483.md
+- 3d · threejs, canvas · prompts/myonisto-923578.md
+- 3d · threejs, shader · prompts/truenyl-447745.md
+- 3d · threejs, canvas · prompts/builtbysketch-114092.md
+- 3d · threejs, canvas, svg · prompts/per-simmons-944727.md
+- 3d · threejs, shader, canvas · prompts/nicolamanzini-156628.md
+- 3d · threejs, shader · prompts/0xwast3-222104.md
+- 3d · threejs · prompts/wzarok-283635.md
+- 3d · threejs, canvas, svg, gsap · prompts/goofyninjaaa-315331.md
+- 3d · threejs, shader, canvas · prompts/friskyggg-054427.md
+- 3d · threejs, shader, canvas · prompts/ai-ba-reza-113363.md
+- 3d · threejs, shader, svg, particles · prompts/souradip3000-800291.md
+- 3d · threejs, shader · prompts/techartist-786274.md
+- 3d · threejs · prompts/lribes4-742305.md
+- 3d · threejs, shader, canvas · prompts/eigeorguy-813651.md
+- 3d · threejs, canvas, svg · prompts/kum1ta-740521.md
+- 3d · threejs, canvas, svg · prompts/vectorcrossprod-436573.md
+- 3d · threejs, shader · prompts/sanjay-khadka07-620029.md
+- 3d · threejs, shader, canvas · prompts/ksmialowski-473410.md
+- 3d · threejs, shader, svg, audio · prompts/acoramaa-248467.md
+- 3d · threejs, shader, canvas · prompts/maruo-0314-998343.md
+- 3d · threejs, canvas · prompts/aayush4soni-644283.md
+- 3d · threejs, canvas, audio · prompts/allforbigfire-029657.md
+- 3d · threejs, canvas, svg · prompts/ewashoku-201053.md
+- 3d · threejs, svg · prompts/ajthemongol-318512.md
+- interactive · threejs, shader, canvas, gsap · prompts/op7418-814408.md
+- interactive · canvas, svg, gsap, css · prompts/op7418-818226.md
+- interactive · threejs, shader, canvas · prompts/rush3rx-342153.md
+- interactive · canvas, audio · prompts/taylorbereiter-189192.md
+- interactive · threejs, canvas, audio, pixel · prompts/izmaelmag-282849.md
+- explainer · svg · prompts/timguignard-623571.md
+- explainer · svg · prompts/itsahmedharoon-544194.md
+- explainer · canvas, svg · prompts/stokebuilder-356793.md
+- motion · canvas, svg · prompts/ik-builds-585923.md
+- 3d · threejs, shader · prompts/petert-540960.md
+- 3d · threejs, shader, canvas · prompts/petert-635793.md
+- motion · svg, css · prompts/georgejimenez98-427173.md
+- explainer · canvas, svg, gsap · prompts/henritoivar-445215.md
+- motion · svg · prompts/l3d1c-632524.md
+- motion · svg · prompts/wustep-884086.md
+- motion · svg · prompts/apoorvjain25-309680.md
+- explainer · svg · prompts/rpa-dake-593915.md
+- motion · svg, gsap, css · prompts/aschapmann-724497.md
+- explainer · canvas, svg · prompts/itsyashf-692347.md
+- motion · css · prompts/dannyverkissen-101463.md
+- motion · svg, gsap, css · prompts/qinelke-271655.md
+- motion · canvas, svg, css · prompts/daniel-haida-636937.md
+- motion · canvas, svg, gsap, css · prompts/dustindavis-644806.md
+- motion · canvas, svg · prompts/djadkison-394122.md
+- motion · canvas, svg, css · prompts/kingokings-992769.md
+- 3d · threejs, canvas, svg · prompts/ambiguous-ai-389509.md
+- motion · canvas, svg, css · prompts/helloshiva0801-438284.md
+- explainer · canvas, svg · prompts/itakahashikun-990109.md
+- explainer · canvas, svg · prompts/cboyack-407181.md
+- explainer · canvas, svg · prompts/salmanr2d2-661615.md
+- motion · canvas, svg · prompts/piyushaaryan2-196586.md
+- explainer · canvas · prompts/ninjaswebcom-684126.md
+- motion · svg, gsap · prompts/francoxavier33-341663.md
+- explainer · canvas · prompts/tony-tt-872147.md
+- motion · canvas, svg · prompts/tycenjm-098014.md
+- explainer · canvas, svg, gsap · prompts/samissudo-927179.md
+- explainer · canvas, svg, ai-image · prompts/imthatcarlos-133592.md
+- motion · svg · prompts/iamshankhadeep-506266.md
+- motion · threejs, svg, gsap · prompts/safaelmali-004843.md
+- motion · svg · prompts/localjulius-625706.md
+- motion · canvas, svg, gsap · prompts/priyansh0327-206409.md
+- motion · svg, gsap, css · prompts/bridgemindai-286423.md
+- 3d · threejs, shader · prompts/arumii-movie-622720.md
+- 3d · threejs · prompts/arumii-movie-249613.md
+- explainer · svg · prompts/0xlangeai-597929.md
+- motion · svg, gsap · prompts/maxhirsch13-600983.md
+- explainer · svg · prompts/xamfonos-004331.md
+- motion · canvas, svg, gsap, css · prompts/envoldev-017555.md
+- motion · canvas, svg, gsap · prompts/apoorvjain25-150112.md
+- 3d · threejs, shader, canvas · prompts/argbeknwn-466818.md
+- motion · shader, canvas, svg · prompts/leowenai-125931.md
+- motion · canvas · prompts/humzaakhalid-537875.md
+- motion · svg, gsap, css · prompts/sonali-sahu-09-350200.md
+- 3d · threejs, shader, canvas · prompts/aijipusi75693-284735.md
+- explainer · svg, gsap · prompts/tetsu-tetsu333-576886.md
+- explainer · canvas · prompts/aylmerth-356252.md
+- explainer · svg, gsap · prompts/falcong-j-277506.md
+- motion · canvas · prompts/heyiamnick-119558.md
+- 3d · threejs, shader · prompts/mondemsuraj-691517.md
+- explainer · threejs, shader, svg · prompts/aichrislee-408244.md
+- explainer · threejs, shader, svg · prompts/0xspikez-483865.md
+- explainer · threejs, canvas, audio · prompts/eyadnour-172216.md
+- explainer · threejs, canvas, audio · prompts/aichrislee-378670.md
+- 3d · threejs, canvas, audio · prompts/aichrislee-476025.md
+- 3d · threejs, shader, canvas, svg · prompts/thebuggeddev-482912.md
+- 3d ·  · prompts/youwareai-300653.md
+- 3d ·  · prompts/juancarlos17626-429530.md
+- 3d ·  · prompts/thusatharan-433543.md
+- motion ·  · prompts/n01ennn-597182.md
+- 3d ·  · prompts/rubenssoto-ai-802657.md
+- 3d ·  · prompts/thusatharan-640926.md
+- motion ·  · prompts/utsavchopra30-560359.md
+- motion ·  · prompts/0xkarmi-129839.md
+- 3d ·  · prompts/shunshu32385143-944719.md
+- 3d ·  · prompts/buildfastwithai-844291.md
+- interactive ·  · prompts/aichrislee-938609.md
+- motion ·  · prompts/screeendev-981790.md
+- 3d ·  · prompts/juancarlos17626-382690.md
+- 3d ·  · prompts/cryptowluha-060792.md
+- explainer ·  · prompts/fleyta88-443662.md
+- motion ·  · prompts/flxrnc-251921.md
+- 3d ·  · prompts/tonysurix-596746.md
+- 3d ·  · prompts/ultimaxbt-549714.md
+- motion ·  · prompts/0xverdao-776363.md
+- 3d ·  · prompts/simonasltu1-981181.md
+- 3d ·  · prompts/btcup99-311469.md
+- 3d ·  · prompts/mdaman010-207866.md
+- 3d ·  · prompts/wikiwayne-080350.md
+- 3d ·  · prompts/wikiwayne-486055.md
+- explainer ·  · prompts/wilzerjb-007630.md
+- 3d ·  · prompts/mdaman010-610173.md
+- motion ·  · prompts/federicoaltepo1-312496.md
+- explainer ·  · prompts/eleanorina-653042.md
+- 3d ·  · prompts/okazaky-084783.md
+- interactive ·  · prompts/twoclipping-041659.md
+- motion ·  · prompts/thegreatola-738411.md
+- 3d ·  · prompts/aicreataro-864070.md
+- explainer ·  · prompts/nakazakifam-831964.md
+- explainer ·  · prompts/incognitoprince-849212.md
+- 3d ·  · prompts/nft-chen-068069.md
+- 3d ·  · prompts/tanabe-fragm-322001.md
+- 3d ·  · prompts/earthwalkerx17-912577.md
+- 3d ·  · prompts/llama3dstudio-918962.md
+- 3d ·  · prompts/rossaxbt-312793.md
+- motion ·  · prompts/thegawdstiles-738178.md
+- 3d ·  · prompts/rafiroutes-596199.md
+- explainer ·  · prompts/rashadmirza404-020971.md
+- motion ·  · prompts/0xnicc0-516612.md
+- 3d ·  · prompts/ivanainai-190629.md
+- motion ·  · prompts/elitzavasileva-591465.md
+- explainer ·  · prompts/nilou-salehi-458567.md
+- interactive ·  · prompts/rossaxbt-707651.md
+- motion ·  · prompts/ligayabeebe-323995.md
+- explainer ·  · prompts/ivysparkleai-543294.md
+- 3d ·  · prompts/kisaka-ki-859326.md
+- motion ·  · prompts/gdgtify-393073.md
+- interactive ·  · prompts/konstantinsaifo-169107.md
+- 3d ·  · prompts/sadalbert10-856416.md
+- 3d ·  · prompts/ayi-ainotes-933194.md
+- motion ·  · prompts/thewevr-681887.md
+- explainer ·  · prompts/archiveexplorer-560622.md
+- explainer ·  · prompts/xodud-rkd-160324.md
+- motion ·  · prompts/leo114119-936422.md
+- motion ·  · prompts/elkrispis-872980.md
+- motion ·  · prompts/shengtang135754-900065.md
+- explainer ·  · prompts/cryptoxorz-359201.md
+- 3d ·  · prompts/dan-proggg-274533.md
+- 3d ·  · prompts/riyadbkhsh-300736.md
+- explainer ·  · prompts/haribuilds-007643.md
+- interactive ·  · prompts/tarunyadav9761-053244.md
+- explainer ·  · prompts/ulyssexbt-205279.md
+- explainer ·  · prompts/henrygsing-050247.md
+- motion ·  · prompts/twoclipping-551116.md
+- explainer ·  · prompts/michaelraspuzzi-740595.md
+- explainer ·  · prompts/woojinrad-455731.md
+- motion ·  · prompts/twoclipping-747965.md
+- 3d ·  · prompts/generussai-904308.md
+- 3d ·  · prompts/oab10don-457273.md
+- 3d ·  · prompts/xanares-738984.md
+- explainer ·  · prompts/koushikde-937635.md
+- 3d ·  · prompts/gdgtify-989608.md
+- motion ·  · prompts/wozu-co-893062.md
+- explainer ·  · prompts/gabzofar-852359.md
+- 3d ·  · prompts/akakuma0219-658335.md
+- explainer ·  · prompts/gdgtify-130294.md
+- explainer ·  · prompts/mablesjoseph-735781.md
+- 3d ·  · prompts/gorden-sun-797351.md
+- 3d ·  · prompts/grace-sunnyy-486816.md
+- interactive ·  · prompts/threeaus-886343.md
+- explainer ·  · prompts/blueoctopusai-270222.md
+- 3d ·  · prompts/filicroval-168898.md
+- motion ·  · prompts/notdwd-766641.md
+- interactive ·  · prompts/egeberkina-949521.md
+- explainer ·  · prompts/jdverolme-302685.md
+- 3d ·  · prompts/vic305-885957.md
+- 3d ·  · prompts/everestchris6-399895.md
+- 3d ·  · prompts/kopert0x-098349.md
+- motion ·  · prompts/sportyblocks-320796.md
+- motion ·  · prompts/humzaakhalid-011081.md
+- explainer ·  · prompts/sudo-kiran-670892.md
+- motion ·  · prompts/vignesh-rav-417649.md
+- 3d ·  · prompts/obydulme-052905.md
+- 3d ·  · prompts/nofollowers2023-974928.md
+- 3d ·  · prompts/btc5887899-288258.md
+- explainer ·  · prompts/king1818888-642123.md
+- 3d ·  · prompts/mochi-agi-421448.md
+- explainer ·  · prompts/charlessieg-370949.md
+- motion ·  · prompts/oliahmed205-069378.md
+- 3d ·  · prompts/saltyaom-620933.md
+- 3d ·  · prompts/twoclipping-762046.md
+- motion ·  · prompts/cipherwrk-451155.md
+- 3d ·  · prompts/niirajrshah-163739.md
+- explainer ·  · prompts/andrewmichaelsa-385936.md
+- motion ·  · prompts/deeprajo1-623150.md
+- motion ·  · prompts/punit-io-584518.md
+- explainer ·  · prompts/buildfastwithai-780900.md
+- motion ·  · prompts/listudio-023803.md
+- explainer ·  · prompts/noah-z-zhang-765393.md
+- explainer ·  · prompts/gandamu-ml-124280.md
+- explainer ·  · prompts/deedydas-407965.md
+- 3d ·  · prompts/muhamma61700589-512003.md
+- 3d ·  · prompts/0xcodez-474136.md
+- motion ·  · prompts/ryan-morr-666741.md
+- motion ·  · prompts/diamai-157697.md
+- motion ·  · prompts/thejohnnyhuy-282154.md
+- explainer ·  · prompts/koldo2k-741714.md
+- explainer ·  · prompts/linke1427832-343079.md
+- motion ·  · prompts/subraiz24-994209.md
+- explainer ·  · prompts/astroboysoup-861770.md
+- explainer ·  · prompts/bradmillscan-839974.md
+- explainer ·  · prompts/yunn260414-016888.md
+- motion ·  · prompts/tstfully-680192.md
+- explainer ·  · prompts/howlemont-503897.md
+- explainer ·  · prompts/cagrimbakirci-842869.md
+- motion ·  · prompts/notdwd-998633.md
+- 3d ·  · prompts/dan-riverbendai-163640.md
+- explainer ·  · prompts/dotey-927166.md
+- motion ·  · prompts/charumitradubey-328233.md
+- explainer ·  · prompts/ldataengineer-823010.md
+- motion ·  · prompts/fractadev-861266.md
+- explainer ·  · prompts/pluginplay-472343.md
+- motion ·  · prompts/sdinesh91-159008.md
+- 3d ·  · prompts/milos-gis-317580.md
+- motion ·  · prompts/zigapoto-942208.md
+- motion ·  · prompts/aydenspringer23-227772.md
+- 3d ·  · prompts/kadaliao-048854.md
+- motion ·  · prompts/tdinh-me-301409.md
+- explainer ·  · prompts/dotey-522564.md
+- 3d ·  · prompts/mizugame-22-719199.md
+- explainer ·  · prompts/bitfish-539054.md
+- motion ·  · prompts/0xvalure-354245.md
+- motion ·  · prompts/annacher-152174.md
+- explainer ·  · prompts/yankis0x-174321.md
+- 3d ·  · prompts/syntheticbeef-389075.md
+- explainer ·  · prompts/amol909s-607293.md
+- explainer ·  · prompts/sanjeevn72-151834.md
+- motion ·  · prompts/hakimieiqbal-762926.md
+- 3d ·  · prompts/essjaykay755-847163.md
+- explainer ·  · prompts/rneayan-417829.md
+- motion ·  · prompts/dimoff2000-260969.md
+- interactive ·  · prompts/artless101-964679.md
+- 3d ·  · prompts/victortaelin-875778.md
+- 3d ·  · prompts/sammmaing-702076.md
+- explainer ·  · prompts/retropunkai-060898.md
+- motion ·  · prompts/julianpscheid-494027.md
+- 3d ·  · prompts/agioyaz-397647.md
+- 3d ·  · prompts/agioyaz-986461.md
+- explainer ·  · prompts/so-ainsight-225926.md
+- interactive ·  · prompts/godsboy7777-150194.md

@@ -5,3 +5,4 @@ Daily: practice (brand/practice/log.md) + steal-like-an-artist.md rules + style.
 Rotation: Mon automation · Tue branding/identity + packaging and merch · Wed web · Thu marketing/social · Fri apps · Sat UI/UX · Sun gen-AI.
 Reels: study 3 sheets from brand/refs/reels/ daily; notes in brand/learning/reels.md; practise one short reel sequence in code (HyperFrames, PIL+ffmpeg or Blender animation).
 Feed: before planning or designing, open brand/refs/holographik-ig-grid-*.png, satto-ig-grid.png and the latest grid preview; every new post must fit that grid (clean covers, one focal point, dark/light balance, each product its own world).
+Code-made video library: brand/tools/code-videos (703 prompts for animations written as code: HTML, Canvas, SVG, Three.js). Start from OUR-PICKS.md for motion graphics, product, logo and kinetic type ideas for reels.
