@@ -43,3 +43,14 @@
 - Text is tight, sentence case, left aligned; centred only inside wheels/rings.
 ### For us
 - Add a "sage-white" paper (#EBF0EC) to the minimal palette; let the photographed material carry colour; one industry accent per concept; hierarchy by opacity lists.
+
+## Holographik Instagram grid: why it looks consistent (refs: holographik-ig-grid-1..6.png)
+- Colour changes per project (Bottone red, Buffalo green, Alaba purple, Sui blue, CoMinVi grey+orange) but the FRAME never changes: every tile is one finished, full-bleed image, no borders, no caption text added on top, no template.
+- Base is dark: roughly 6 in 10 tiles are black/night; white and light-grey tiles break it up; at most one loud colour tile per row.
+- A small set of presentation types repeats forever: device in a real scene (phone in hand, laptop on stone, monitor on desk); pages/boards collaged on grey or black; a giant type tile (award or poster); a logo/mark alone on black; one 3D object hero; merch on a chair or keys.
+- Projects arrive in clusters of 2-3 neighbouring tiles (CoMinVi phone + brand board + Site of the Day; Paul Kalkbrenner poster + laptop + stage), so a row reads as one chapter.
+- Type is huge and cropped or tiny; never a medium paragraph.
+- Recurring series: "Site of the Day" award tiles, each set in that project's own type and colour.
+- One focal point per tile; it still reads at thumbnail size.
+## For us
+- Keep every tile one finished frame (no added caption text), a dark/bone base, at most one loud tile per row, and post a project as a 3-tile row: device scene, system board, mark or type tile.
