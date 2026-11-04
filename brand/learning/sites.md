@@ -1,1 +1,2 @@
 - https://www.holographik.co (work index, CoMinVi, DeepBook, Sui) — check daily
+- https://artemiilebedev.com (series cards, product UI, device props)

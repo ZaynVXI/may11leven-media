@@ -54,3 +54,9 @@
 - One focal point per tile; it still reads at thumbnail size.
 ## For us
 - Keep every tile one finished frame (no added caption text), a dark/bone base, at most one loud tile per row, and post a project as a 3-tile row: device scene, system board, mark or type tile.
+
+## Artemii Lebedev lessons (colour + type)
+- Colour: near-white #F1F1F1 page, true black cards, grey hairlines #C8C8C8 with grey dots; colour only from one image (green glass) or the product itself; UI uses one functional colour (stock green pill, yellow Contact chip) and nothing else.
+- Type: one neo-grotesk, Medium, tight tracking, sentence case; a mono for product names, prices and labels (uppercase, tracked); headline top-left of the card, answer mid-card after "→". Hierarchy by black vs grey (#8A8A8A) text, not weight.
+- Presentation: the layout grid itself is part of the image (lines + intersection dots); one prop family per scene (black tube, sage sofa); background matches the prop colour.
+- Try this week: a question-card series for our studio (e.g. "Does my logo work at 16px?") with our own grid frame; and a device scene where prop and backdrop share one colour.
