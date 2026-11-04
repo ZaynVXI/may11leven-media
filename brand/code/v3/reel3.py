@@ -25,8 +25,8 @@ def seg(t):
 shade=Image.new('L',(W,H),0);sd=ImageDraw.Draw(shade)
 for y in range(H):
     v=0
-    if y<660: v=int(205*((660-y)/660)**1.1)
-    if y>1300: v=max(v,int(215*((y-1300)/620)**1.1))
+    if y<780: v=int(238*min(1,(780-y)/420)**1.1)
+    if y>1240: v=max(v,int(235*min(1,(y-1240)/220)**1.1))
     sd.line((0,y,W,y),fill=v)
 inkimg=Image.new('RGB',(W,H),INK);FADE=mix(INK,BONE,0.42)
 os.makedirs('fr3',exist_ok=True)
@@ -34,7 +34,7 @@ for n in range(int(TOT*FPS)):
     t=n/FPS
     if t>=11.2:
         im=Image.new('RGB',(W,H),INK);d=ImageDraw.Draw(im)
-        mono(d,M,120,'May11Leven Labs',FADE,20);mono(d,W-M,120,'Product photography',FADE,20,'r')
+        mono(d,M,150,'May11Leven Labs',FADE,24);mono(d,W-M,150,'Product photography',FADE,24,'r')
         if t<13.2:
             head(d,M,760,'',84,BONE,lines=['The bottle','never changed.'])
             if t>12.0: head(d,M,940,'',84,FADE,lines=['The price people','imagine did.'])
@@ -42,7 +42,7 @@ for n in range(int(TOT*FPS)):
             mark(d,M,640,110,IR)
             head(d,M,880,'',84,BONE,lines=['Product photos,','lit like they\'re','worth it.'])
             body(d,M,1200,'Comment 11 and send one phone photo. We send back a free shot idea.',32,FADE,820)
-            mono(d,M,1800,'@may11leven.labs',FADE,20)
+            mono(d,M,1400,'@may11leven.labs',FADE,24)
     else:
         i=seg(t);a,b=segs[i]
         im=zoom(shots[i],(t-a)/(b-a) if i<2 else (t-a)/5.8)
@@ -51,12 +51,12 @@ for n in range(int(TOT*FPS)):
             c=prev.copy();c.paste(im.crop((0,0,x,H)),(0,0));im=c
             ImageDraw.Draw(im).rectangle((x-6,0,x,H),fill=IR)
         im=Image.composite(inkimg,im,shade);d=ImageDraw.Draw(im)
-        mono(d,M,120,'May11Leven Labs',BONE,20);mono(d,W-M,120,'Product photography',BONE,20,'r')
+        mono(d,M,150,'May11Leven Labs',BONE,24);mono(d,W-M,150,'Product photography',BONE,24,'r')
         head(d,M,220,'',72,BONE,lines=['Same bottle.'])
         if t>=1.0: head(d,M,296,'',72,BONE,lines=['Three lights.'])
-        mono(d,M,1640,f'0{i+1} / 03',BONE,19)
-        tt(d,M,1676,names[i],SANS(64),BONE,-0.03)
-        mono(d,M,1776,'says: '+says[i],BONE,19)
+        mono(d,M,1400,f'0{i+1} / 03',BONE,24)
+        tt(d,M,1436,names[i],SANS(64),BONE,-0.03)
+        mono(d,M,1524,'says: '+says[i],BONE,24)
         if t>=10.9: im=Image.blend(im,inkimg,min(1,(t-10.9)/0.3))
         if t<0.18: im=Image.blend(im,Image.new('RGB',(W,H),(255,255,255)),1-t/0.18)
     im.save(f'fr3/{n:04d}.jpg',quality=90)

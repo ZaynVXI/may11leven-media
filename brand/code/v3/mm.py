@@ -34,7 +34,7 @@ def body(d,x,y,text,sz,fill,maxw,lead=1.32,w='Regular',tr=-0.01):
     return y
 def tag(d,x,y,idx,name,ink,paper,sz=17):
     """our section marker: index in a hairline box above a filled tag"""
-    f=MONO(sz,True);a=idx.upper();b=name.upper()
+    f=MONO(sz,True);sz=f.size;a=idx.upper();b=name.upper()
     wa=tl(f,a,0.1)+16;d.rounded_rectangle((x,y,x+wa,y+sz+12),radius=4,outline=ink,width=2)
     tt(d,x+8,y+5,a,f,ink,0.1)
     y2=y+sz+18;wb=tl(f,b,0.1)+18

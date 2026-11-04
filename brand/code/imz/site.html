@@ -4,21 +4,21 @@
 @font-face{font-family:IT;src:url(/home/claude/kit/fonts/InterTight-Medium.ttf);font-weight:500}
 @font-face{font-family:PM;src:url(/home/claude/kit/fonts/PlexMono.ttf);font-weight:400}
 @font-face{font-family:PM;src:url(/home/claude/kit/fonts/PlexMonoMed.ttf);font-weight:500}
-:root{--paper:#F2EEE8;--tile:#E7E1D8;--ink:#1E1A17;--mid:#8A837A;--line:#DCD5CA;--clay:#96442E;--moss:#5C684E}
+:root{--paper:#F2EEE8;--tile:#E7E1D8;--ink:#1E1A17;--mid:#6A635A;--line:#DCD5CA;--clay:#96442E;--moss:#5C684E}
 *{box-sizing:border-box;margin:0;padding:0}
 html,body{background:var(--paper);color:var(--ink);font-family:IT;-webkit-font-smoothing:antialiased;overflow:hidden}
 .scr{display:none;position:relative}
 .scr.on{display:block}
-.mono{font-family:PM;font-size:11px;letter-spacing:.06em;text-transform:uppercase}
+.mono{font-family:PM;font-size:12px;letter-spacing:.06em;text-transform:uppercase}
 .pill{display:inline-flex;align-items:center;gap:8px;height:34px;padding:0 14px;border-radius:6px;background:var(--tile);font-size:14px}
 .pill.dark{background:var(--ink);color:var(--paper)}
 .btn{display:inline-flex;align-items:center;justify-content:center;height:52px;padding:0 26px;border-radius:6px;background:var(--ink);color:var(--paper);font-size:15px;font-weight:500}
 .btn.ghost{background:transparent;color:var(--ink);border:1px solid var(--ink)}
-.tag{position:absolute;top:0;left:0;background:var(--paper);padding:6px 10px;font-family:PM;font-size:10px;letter-spacing:.06em;text-transform:uppercase}
+.tag{position:absolute;top:0;left:0;background:var(--paper);padding:6px 10px;font-family:PM;font-size:12px;letter-spacing:.06em;text-transform:uppercase}
 .wm{font-size:26px;font-weight:500;letter-spacing:-.04em}
 .tile{background:var(--tile);position:relative;overflow:hidden}
 .tile img{width:100%;height:100%;object-fit:cover;display:block}
-.stock{display:inline-flex;align-items:center;gap:6px;height:24px;padding:0 9px;border-radius:4px;background:#DCE5D3;color:#2F4A26;font-family:PM;font-size:10px;letter-spacing:.06em;text-transform:uppercase}
+.stock{display:inline-flex;align-items:center;gap:6px;height:24px;padding:0 9px;border-radius:4px;background:#DCE5D3;color:#2F4A26;font-family:PM;font-size:12px;letter-spacing:.06em;text-transform:uppercase}
 .stock:before{content:"";width:5px;height:5px;border-radius:50%;background:#3F6B32}
 </style></head><body>
 
@@ -80,7 +80,7 @@ html,body{background:var(--paper);color:var(--ink);font-family:IT;-webkit-font-s
   <div class="mono" style="color:var(--mid);margin-top:16px">Grind</div>
   <div style="display:flex;gap:6px;margin-top:8px;flex-wrap:wrap"><span class="pill dark" style="height:30px;font-size:13px">Whole bean</span><span class="pill" style="height:30px;font-size:13px">Espresso</span><span class="pill" style="height:30px;font-size:13px">Filter</span><span class="pill" style="height:30px;font-size:13px">French press</span></div>
   <div style="display:flex;gap:8px;margin-top:16px"><span class="btn" style="flex:1;height:50px">Add to bag</span></div>
-  <div class="mono" style="color:var(--mid);margin-top:12px;font-size:10px">Kigali: delivered tomorrow · MoMo or card</div>
+  <div class="mono" style="color:var(--mid);margin-top:12px;font-size:12px">Kigali: delivered tomorrow · MoMo or card</div>
   <div style="margin-top:18px;border-top:1px solid var(--line)">
    <div style="display:flex;justify-content:space-between;padding:13px 0;border-bottom:1px solid var(--line);font-size:14px"><span>Origin and farm</span><span>+</span></div>
    <div style="display:flex;justify-content:space-between;padding:13px 0;border-bottom:1px solid var(--line);font-size:14px"><span>How to brew</span><span>+</span></div>
@@ -100,7 +100,7 @@ html,body{background:var(--paper);color:var(--ink);font-family:IT;-webkit-font-s
   <div style="display:flex;justify-content:space-between;padding:6px 0 18px"><span class="mono">Total</span><span class="mono" style="font-size:14px">RWF 20,000</span></div>
   <span class="btn" style="width:100%;background:var(--clay)">Pay with MoMo</span>
   <span class="btn ghost" style="width:100%;margin-top:8px">Pay by card</span>
-  <div style="font-size:12px;color:var(--mid);margin-top:14px;text-align:center">Roasted Monday and Thursday. Ships the day it's roasted.</div>
+  <div style="font-size:13px;color:var(--mid);margin-top:14px;text-align:center">Roasted Monday and Thursday. Ships the day it's roasted.</div>
  </div>
 </div>
 <script>const id=location.hash.slice(1)||'dh';document.getElementById(id).classList.add('on')</script>
