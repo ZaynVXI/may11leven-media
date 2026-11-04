@@ -1,0 +1,76 @@
+<!doctype html><html><head><meta charset=utf-8><style>
+@font-face{font-family:C;font-weight:300;src:url(fonts/cormorant-garamond-latin-300-normal.woff2)}
+@font-face{font-family:C;font-style:italic;font-weight:300;src:url(fonts/cormorant-garamond-latin-300-italic.woff2)}
+@font-face{font-family:H;font-weight:400;src:url(fonts/hanken-grotesk-latin-400-normal.woff2)}
+@font-face{font-family:H;font-weight:500;src:url(fonts/hanken-grotesk-latin-500-normal.woff2)}
+:root{--pap:#EDE6D6;--lake:#22393A;--bas:#171614;--clay:#B0603A;--e:cubic-bezier(.22,1,.36,1)}
+*{box-sizing:border-box;margin:0;-webkit-tap-highlight-color:transparent}
+html{zoom:3}
+body{width:390px;height:844px;overflow:hidden;background:var(--pap);font-family:H;color:#1d1c19;position:relative}
+.cap{font-size:10.5px;letter-spacing:.16em;text-transform:uppercase}
+.status{position:absolute;top:0;left:0;right:0;height:54px;display:flex;justify-content:space-between;align-items:center;padding:0 30px;font:500 15px H;color:#f4efe4;z-index:20}
+.hero{position:absolute;inset:0;background:url(hero.png) 58% 50%/cover}
+.hero:after{content:'';position:absolute;inset:0;background:linear-gradient(180deg,rgba(15,20,20,.35),rgba(15,20,20,0) 25%,rgba(15,20,20,.1) 50%,rgba(15,20,20,.7))}
+.top{position:absolute;top:62px;left:22px;right:22px;display:flex;justify-content:space-between;align-items:center;color:#f4efe4;z-index:2}
+.word{font-family:C;font-size:24px;letter-spacing:.32em}
+.ht{position:absolute;left:22px;right:22px;bottom:118px;color:#f4efe4;z-index:2}
+.ht h1{font-family:C;font-weight:300;font-size:52px;line-height:.95;letter-spacing:-.02em;margin-bottom:18px}
+.cta{position:absolute;left:22px;right:22px;bottom:40px;height:58px;border-radius:99px;background:var(--clay);color:#f6efe4;display:flex;align-items:center;justify-content:center;font:500 16px H;z-index:3;transition:transform .18s var(--e)}
+.cta:active,.cta.p{transform:scale(.96)}
+.sheet{position:absolute;left:0;right:0;bottom:0;height:640px;background:var(--pap);border-radius:28px 28px 0 0;z-index:10;transform:translateY(105%);transition:transform .6s var(--e);padding:14px 22px 0;box-shadow:0 -20px 60px rgba(0,0,0,.25)}
+.sheet.on{transform:translateY(0)}
+.grab{width:40px;height:5px;border-radius:9px;background:#cfc6b2;margin:0 auto 18px}
+.steps{display:flex;gap:6px;margin-bottom:18px}.steps i{flex:1;height:2px;background:#d8cfbb;border-radius:2px;overflow:hidden;position:relative}
+.steps i b{position:absolute;inset:0;background:var(--clay);transform:scaleX(0);transform-origin:left;transition:transform .5s var(--e)}
+.steps i.d b{transform:scaleX(1)}
+.pane{position:absolute;left:22px;right:22px;top:70px;transition:opacity .35s var(--e),transform .5s var(--e)}
+.pane.out{opacity:0;transform:translateX(-30px);pointer-events:none}.pane.in{opacity:0;transform:translateX(30px);pointer-events:none}
+h2{font-family:C;font-weight:300;font-size:38px;line-height:1;margin-bottom:6px}
+.sub{font-size:13px;color:#6b665b;margin-bottom:18px}
+.cal{display:grid;grid-template-columns:repeat(7,1fr);gap:4px;text-align:center;font-size:13px}
+.cal span{height:40px;display:flex;align-items:center;justify-content:center;border-radius:99px;transition:background .25s var(--e),color .25s}
+.cal .h{color:#9a9384;font-size:10px;letter-spacing:.12em;height:24px}
+.cal .x{color:#c2b9a6;text-decoration:line-through}
+.cal .s{background:var(--lake);color:#eee6d6}.cal .r{background:#dcd3bf;border-radius:0}
+.room{display:grid;grid-template-columns:92px 1fr auto;gap:14px;align-items:center;padding:12px;border:1px solid #d8cfbb;border-radius:16px;margin-bottom:10px;transition:border-color .25s,background .25s,transform .18s var(--e)}
+.room img{width:92px;height:72px;object-fit:cover;border-radius:10px}
+.room b{font-family:C;font-weight:300;font-size:23px;display:block}.room small{font-size:12px;color:#6b665b}
+.room .pr{font-size:13px;text-align:right}
+.room.sel{border-color:var(--lake);background:#e4dcc9}
+.room.p{transform:scale(.98)}
+.btn{position:absolute;left:22px;right:22px;bottom:34px;height:56px;border-radius:99px;background:var(--bas);color:#eee6d6;display:flex;align-items:center;justify-content:space-between;padding:0 24px;font:500 15px H;transition:transform .18s var(--e),background .3s}
+.btn.p{transform:scale(.96)}
+.sum{border-top:1px solid #d8cfbb}.sum div{display:flex;justify-content:space-between;padding:14px 0;border-bottom:1px solid #d8cfbb;font-size:14px}
+.pay{display:flex;gap:8px;margin-top:18px}.pay span{flex:1;height:52px;border:1px solid #d8cfbb;border-radius:14px;display:flex;align-items:center;justify-content:center;font-size:13px;transition:all .25s}
+.pay .sel{border-color:var(--lake);background:#e4dcc9}
+.done{position:absolute;inset:0;z-index:30;background:var(--lake);color:#eee6d6;display:flex;flex-direction:column;justify-content:flex-end;padding:0 22px 60px;opacity:0;pointer-events:none;transition:opacity .6s var(--e)}
+.done.on{opacity:1}
+.done h2{font-size:58px;line-height:.95;margin-bottom:16px;transform:translateY(20px);transition:transform .9s var(--e) .1s}.done.on h2{transform:none}
+.check{width:64px;height:64px;border-radius:99px;border:1.5px solid #eee6d6;display:flex;align-items:center;justify-content:center;margin-bottom:28px}
+.check svg path{stroke-dasharray:40;stroke-dashoffset:40;transition:stroke-dashoffset .7s var(--e) .35s}.done.on .check svg path{stroke-dashoffset:0}
+.tap{position:absolute;width:44px;height:44px;margin:-22px 0 0 -22px;border-radius:99px;background:rgba(255,255,255,.55);box-shadow:0 0 0 1px rgba(0,0,0,.08);z-index:99;pointer-events:none;transform:scale(.4);opacity:0}
+.tap.go{animation:t .55s var(--e)}@keyframes t{0%{transform:scale(.4);opacity:.9}100%{transform:scale(1.4);opacity:0}}
+</style></head><body>
+<div class=status><span>9:41</span><span>●●● ▮</span></div>
+<div class=hero></div>
+<div class=top><div class=word>INZU</div><span class=cap>EN / RW</span></div>
+<div class=ht><h1>A house on the<br><i>quiet side</i><br>of the lake.</h1><div class=cap>Lake Kivu, Rwanda · Twelve rooms</div></div>
+<div class=cta id=cta>Check availability</div>
+<div class=sheet id=sheet><div class=grab></div><div class=steps><i id=s1><b></b></i><i id=s2><b></b></i><i id=s3><b></b></i></div>
+<div class=pane id=p1><div class=cap style="color:#B0603A;margin-bottom:10px">01 — Dates</div><h2>When are you<br><i>coming?</i></h2><p class=sub>December · 2 nights</p>
+<div class=cal id=cal></div></div>
+<div class="pane in" id=p2><div class=cap style="color:#B0603A;margin-bottom:10px">02 — Room</div><h2>Choose your<br><i>window.</i></h2><p class=sub>Fri 12 – Sun 14 Dec · 2 guests</p>
+<div class=room id=r1><img src=room.png><div><b>The Lake Room</b><small>King bed · west terrace</small></div><div class=pr>$240<br><small>/night</small></div></div>
+<div class=room id=r2><img src=hero.png style="object-position:30% 80%"><div><b>The Hill Room</b><small>Twin beds · garden</small></div><div class=pr>$190<br><small>/night</small></div></div>
+<div class=room id=r3><img src=d_boat.jpg><div><b>The Boathouse</b><small>On the water · 4 guests</small></div><div class=pr>$410<br><small>/night</small></div></div></div>
+<div class="pane in" id=p3><div class=cap style="color:#B0603A;margin-bottom:10px">03 — Confirm</div><h2>Almost<br><i>there.</i></h2><p class=sub>No payment taken until arrival.</p>
+<div class=sum><div><span>The Lake Room</span><span>2 nights</span></div><div><span>Fri 12 – Sun 14 Dec</span><span>2 guests</span></div><div><span>Total</span><span><b>$480</b></span></div></div>
+<div class=pay><span id=py1>MoMo</span><span id=py2 class=sel>Card</span><span id=py3>On arrival</span></div></div>
+<div class=btn id=btn><span id=bl>Continue</span><span>→</span></div></div>
+<div class=done id=done><div class=check><svg width=28 height=28 viewBox="0 0 28 28"><path d="M5 14.5l6 6L23 8" fill=none stroke="#eee6d6" stroke-width=1.8 stroke-linecap=round stroke-linejoin=round /></svg></div><div class=cap style="margin-bottom:14px;color:#b9c0b6">Booking INZ-0412</div><h2>See you on<br><i>the lake.</i></h2><p style="font-size:14px;color:#b9c0b6;max-width:300px;line-height:1.55">Fri 12 – Sun 14 Dec · The Lake Room. A boat will meet you at Karongi pier.</p></div>
+<div class=tap id=tap></div>
+<script>
+const cal=document.getElementById('cal');['M','T','W','T','F','S','S'].forEach(d=>cal.innerHTML+=`<span class=h>${d}</span>`);
+for(let i=0;i<1;i++)cal.innerHTML+='<span></span>';
+for(let d=1;d<=31;d++){const x=[3,4,5,19,20,24,25,26].includes(d);cal.innerHTML+=`<span id=d${d} class="${x?'x':''}">${d}</span>`}
+</script></body></html>
