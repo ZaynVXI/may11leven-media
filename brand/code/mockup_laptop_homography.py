@@ -1,0 +1,22 @@
+import cv2,numpy as np
+im=cv2.imread('u1.jpg').astype(np.float32)
+dst=(np.array([[134,253],[1000,144],[1039,698],[175,731]],np.float32)+np.array([550,750],np.float32)).astype(np.float32)
+src_img=cv2.imread('desk_hero.png').astype(np.float32)
+h,w=src_img.shape[:2]
+srcq=np.array([[0,0],[w,0],[w,h],[0,h]],dtype=np.float32)
+M=cv2.getPerspectiveTransform(srcq,dst)
+H,W=im.shape[:2]
+warp=cv2.warpPerspective(src_img,M,(W,H),flags=cv2.INTER_AREA)
+mask=cv2.warpPerspective(np.ones((h,w),np.float32),M,(W,H))
+mask=cv2.GaussianBlur(mask,(3,3),0)[:,:,None]
+warp=cv2.GaussianBlur(warp,(0,0),0.9)*0.93
+yy,xx=np.mgrid[0:H,0:W].astype(np.float32)
+glare=np.clip(1-((xx-1300)**2/700**2+(yy-950)**2/500**2),0,1)[:,:,None]*22
+warp=warp+glare
+out=im*(1-mask)+warp*mask
+spill=cv2.GaussianBlur(mask[:,:,0],(0,0),120)[:,:,None]*np.array([30,22,14],np.float32)
+out=np.clip(out+spill*0.35,0,255).astype(np.uint8)
+cv2.imwrite('laptop_full.jpg',out,[cv2.IMWRITE_JPEG_QUALITY,95])
+c=cv2.resize(out[0:3000,75:2325],(1080,1440),interpolation=cv2.INTER_AREA)
+cv2.imwrite('m_laptop.jpg',c,[cv2.IMWRITE_JPEG_QUALITY,95])
+cv2.imwrite('/tmp/claude-0/-home-claude/9bb6ffdd-e2cc-582d-b0a9-f807871f658c/scratchpad/lz.jpg',out[850:1550,620:1660])
