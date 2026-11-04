@@ -1,0 +1,20 @@
+[  0.0] Quad just killed web design agencies.
+[  2.0] Most people type build me a website into AI
+[  4.6] and get generic trash.
+[  6.2] Here's how you build a $10,000 website for completely free.
+[  9.9] First, you install the Emile Kowalski design skill.
+[ 12.7] This teaches Quad how to build professional animations,
+[ 15.8] fluid motion, and proper easing.
+[ 17.9] Next, you're gonna add in the impeccable design skill.
+[ 20.2] It gives Quad 23 commands,
+[ 22.0] covering modern layouts, typography, and spacing.
+[ 24.9] And lastly, you're gonna install the taste skill
+[ 26.8] to stop the AI from generating boring generic slot.
+[ 29.6] It forces the model to use real design aesthetics
+[ 32.2] instead of the same overused templates.
+[ 34.0] Finally, you connect Quad to Figma MCP and Playwright
+[ 37.0] so it can design, build, and test the website automatically.
+[ 40.2] Now you just described the site you want
+[ 41.7] and Quad ships a professional product in minutes.
+[ 44.2] Comment the word killed and I'll send you
+[ 45.6] the full setup guide right away.

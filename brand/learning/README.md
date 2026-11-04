@@ -12,3 +12,4 @@ Code-made video library: brand/tools/code-videos (703 prompts for animations wri
 - Free tools: before any paid app or credits, check openalternative.md (and openalternative.co) and use the free tool instead. Once a week, look at one new category there for tools that could raise our quality.
 - Refero Styles: study 1 new style page per session (rotate categories: agency, hardware, fintech, luxury e-commerce, AI) and add it to refero-styles.md.
 - Accessibility: each session, study one WCAG 2.2 topic or real accessible site, check one of our pieces (contrast, sizes, captions) and add notes to accessibility.md.
+- Web stack: once a week, check Taste, Impeccable and Emil's skills repos for new versions (git pull into brand/tools) and note what changed in web-stack.md.
