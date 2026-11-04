@@ -12,3 +12,6 @@ Fixes to practise next:
 - Give each concept its own layout system and type behaviour, not just new colours.
 - Build one hero object per project (Blender or 3D in code) and make it the cover.
 - Push one data graphic per post until it reads as art at thumbnail size.
+## 02: barber app UI rebuilt at high fidelity
+Feedback: the app screen looked low fidelity and basic. Rebuilt as a dark product UI (brand/code/hifi/app.html): live-queue tick ring with big numeral, real queue states, busy-hours chart, service rows with real photo thumbnails from the shoot, quiet-hour slots with discounts, M-Pesa checkout with countdown ring, iOS status bar, tab bar with icons. Re-composited into the phone photo; slide 5 is now a three-screen collage.
+Lesson: show finished product states, never wireframe-level screens.
