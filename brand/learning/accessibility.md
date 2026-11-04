@@ -42,3 +42,10 @@ Accessibility is part of quality. Minimal design and accessible design want the 
 axe-core / @axe-core/playwright, pa11y, Lighthouse, WebAIM contrast checker, VoiceOver (Mac/iOS), NVDA (Windows), TalkBack (Android). Local references: the design-skills accessibility-audit skill and the design-superpowers accessibility knowledge file.
 
 Sources: W3C WAI (WCAG 3 draft, March 2026), testparty.ai EAA checklist, OpusClip reels captions guide.
+
+## Pass on all scheduled posts (done)
+- Tool: brand/code/a11y (Pillow hook + HTML audit). 7 posts fixed: brand clinic, barber app, three-lights reel, Inzu, Bathu, ata reel, Imisozi.
+- Fixed: muted greys and faded list items below 4.5:1; white labels over light photo areas; labels on clay/moss/gum swatches; text under 20 px on posts (24 px on reels); Imisozi site grey #8A837A to #6A635A and labels 10-11 px to 12 px; Inzu booking button clay to #9E5532.
+- Reels: three-lights labels moved out of Instagram's bottom caption zone; stronger shade bands so white text stays white over bright shots (fix photos with shade, not by recolouring text).
+- Every post now has alt text per slide and CamelCase hashtags.
+- Lessons: measure the bulk of the background, not thin borders of the same colour; component boxes must size from the actual font size.
