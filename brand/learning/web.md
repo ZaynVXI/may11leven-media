@@ -38,3 +38,8 @@
 - Numbers as design: big figure + mono caption + tiny line icon, hairline above.
 - Section system: boxed index (S.01) + black pill label; same everywhere, so it feels engineered.
 - Photo-filled headline type for the story section.
+
+## Satto lessons (web templates)
+- Index-first portfolio: a numbered table (Num, Project, Client, Role, Year) where hovering a row floats its image; active row inverted black.
+- Header as a grid of small cells (page name, studio ©, email, nav) instead of a classic navbar.
+- Present sites as a stacked pair of screens on a blurred photo from the same project.
