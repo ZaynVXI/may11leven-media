@@ -12,6 +12,7 @@ The quality bar Zayn loved: the Inzu booking prototype reel (week3/inzu-booking-
 - https://advetree.com/
 - https://wob.studio/
 - Zachary Winterton: https://zacharywinterton.com (creative director, Nike/Adobe/Netflix work; ~200K audience; bi-weekly creativity newsletter) - study his ideas, creative-process posts and how content feeds his client work
+- Zachary Winterton reels (winterton-reel-*-frames.jpg): 'Design trend you should know' series (mixed type, rebus, ASCII art, micrographics), brand case breakdowns (Sitko Pizza), design-book reviews with a 'comment book' keyword, micrographic badge loops
 - Obrazur: instagram.com/obrazur (identity reels of 6-8 s, 100K-630K views; see obrazur-*.jpg)
 - https://www.onlinedesignawards.com/annual-awards (why winners won)
 - https://winners.lovieawards.com/
