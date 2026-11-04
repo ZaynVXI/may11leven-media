@@ -1,2 +1,8 @@
-cv-thumb.png https://media.canva.com/v2/image-resize/format:PNG/height:200/quality:100/uri:ifs%3A%2F%2FM%2Fff03cb28-01d6-48c6-9d80-347f5452f6cc/watermark:F/width:161?csig=AAAAAAAAAAAAAAAAAAAAADdWL6H9BHmrJaq3Hf4Qy_zlejJ_BJALlP4pThlzbbL_&exp=1793801967&osig=AAAAAAAAAAAAAAAAAAAAANCfBV-GKsr6AtmnS3-lsHAdevd7wTJVPhrNeoSri9yv&signer=media-rpc&token=AAIAAU0AJGZmMDNjYjI4LTAxZDYtNDhjNi05ZDgwLTM0N2Y1NDUyZjZjYwAAAAABoabt1ZhNzsPwu8R5uEVcMot2UZVasJ2YV1relvYSVduvtTZlRA&x-canva-quality=thumbnail
-cv-big.png https://media.canva.com/v2/image-resize/format:PNG/height:1408/quality:100/uri:ifs%3A%2F%2FM%2Fff03cb28-01d6-48c6-9d80-347f5452f6cc/watermark:F/width:1136?csig=AAAAAAAAAAAAAAAAAAAAADdWL6H9BHmrJaq3Hf4Qy_zlejJ_BJALlP4pThlzbbL_&exp=1793801967&osig=AAAAAAAAAAAAAAAAAAAAANCfBV-GKsr6AtmnS3-lsHAdevd7wTJVPhrNeoSri9yv&signer=media-rpc&token=AAIAAU0AJGZmMDNjYjI4LTAxZDYtNDhjNi05ZDgwLTM0N2Y1NDUyZjZjYwAAAAABoabt1ZhNzsPwu8R5uEVcMot2UZVasJ2YV1relvYSVduvtTZlRA&x-canva-quality=thumbnail
+u-white-tshirt-mockup.md https://r.jina.ai/https://unsplash.com/s/photos/white-tshirt-mockup?license=free
+u-blank-mug.md https://r.jina.ai/https://unsplash.com/s/photos/blank-mug?license=free
+u-tote-bag-mockup.md https://r.jina.ai/https://unsplash.com/s/photos/tote-bag-mockup?license=free
+u-phone-on-concrete.md https://r.jina.ai/https://unsplash.com/s/photos/phone-on-concrete?license=free
+u-serum-bottle.md https://r.jina.ai/https://unsplash.com/s/photos/serum-bottle?license=free
+u-billboard-mockup.md https://r.jina.ai/https://unsplash.com/s/photos/billboard-mockup?license=free
+u-hand-holding-card.md https://r.jina.ai/https://unsplash.com/s/photos/hand-holding-card?license=free
+u-blank-box-packaging.md https://r.jina.ai/https://unsplash.com/s/photos/blank-box-packaging?license=free
