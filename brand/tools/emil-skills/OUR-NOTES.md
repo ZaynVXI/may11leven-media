@@ -6,5 +6,5 @@ Our filter (minimal always wins):
 - Glass/blur only for a floating nav or sheet over a photo, never as decoration; one material per screen.
 - Type: tighten display (about -0.02em to -0.045em), body near 0, mono labels slightly positive. Matches our Inter Tight + Plex Mono kit.
 - Simplicity, not emptiness: every element earns its place.
-- Skipped: the accessibility / reduced-motion / Dynamic Type sections (our rule) and the canned "Initial Response" line.
+- Use the reduced-motion, reduced-transparency, contrast and Dynamic Type sections in full (see brand/learning/accessibility.md). Skip only the canned "Initial Response" line.
 Other skills in the same repo (not installed, available if needed): animate, choreograph, animation-vocabulary, improve-animations, review-animations, mobile-native, prototype.

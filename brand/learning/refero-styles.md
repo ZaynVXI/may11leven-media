@@ -47,5 +47,5 @@ How we use it: pick 3–4 styles that fit the client's world, choose ONE as the 
 - Imisozi (cream, clay, moss) sits near the "calm editorial" pattern. It is justified (coffee, soil, lake, hills), but the next posts should go in a sharper direction (e.g. monopo-style black/white with one colour moment, or teenage-engineering lightness) so the grid doesn't settle into earth tones.
 
 ## Skipped
-- Accessibility parts of the skill (our rule: we don't study accessibility).
+- (Accessibility is now studied: see accessibility.md.)
 - Paid Refero MCP.

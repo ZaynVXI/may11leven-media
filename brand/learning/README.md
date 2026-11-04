@@ -11,3 +11,4 @@ Code-made video library: brand/tools/code-videos (703 prompts for animations wri
 - Site rotation: visit one site from sites.md each day, Holographik daily.
 - Free tools: before any paid app or credits, check openalternative.md (and openalternative.co) and use the free tool instead. Once a week, look at one new category there for tools that could raise our quality.
 - Refero Styles: study 1 new style page per session (rotate categories: agency, hardware, fintech, luxury e-commerce, AI) and add it to refero-styles.md.
+- Accessibility: each session, study one WCAG 2.2 topic or real accessible site, check one of our pieces (contrast, sizes, captions) and add notes to accessibility.md.
