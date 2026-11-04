@@ -18,3 +18,9 @@
 - Motion: slow reveals, dots connecting, letters fading in with their grid, calm scrolls; event = posters in real streets + flash photos of the night
 ## Try this week
 - Make one minimal-mode concept for our markets (e.g. a Nairobi health or Lagos fintech app): greyscale + one place-derived accent, one grotesk, dot/line graphics, a brand-book page grid post and a calm prototype reel
+
+## Holographik presentation kit (from CoMinVi)
+- Phone tilted on a raw material from the client's world (ore rock) on white; laptop on rough stone on white seamless.
+- Pages floating in 3D on soft grey; mobile screens in a curved carousel; product objects (rocks) floating on white.
+- IG grid: site cards cropped so a headline continues across neighbouring tiles; rounded cards on light grey, 24px gutters.
+- Try this week: a concept for an African mining/industrial firm (Jos tin, Namibian uranium, Rwandan coltan) with the material inside its own letters.

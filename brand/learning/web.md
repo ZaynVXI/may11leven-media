@@ -31,3 +31,10 @@
 ## Tools
 - GSAP official agent skills (MIT): `npx skills add https://github.com/greensock/gsap-skills` (core, timeline, scrolltrigger, plugins, performance)
 - Already vendored: brand/tools/ui-skills, brand/tools/ui-ux-pro-max
+
+## Holographik CoMinVi lessons (web)
+- Industry sites can be premium: one cinematic 3D hero, then calm white cards. Dark for drama, white for reading.
+- Turn the client's product into the interface: a mineral list that swaps a 3D rock; clients as a wheel picker; operations on a dark map with one lit region.
+- Numbers as design: big figure + mono caption + tiny line icon, hairline above.
+- Section system: boxed index (S.01) + black pill label; same everywhere, so it feels engineered.
+- Photo-filled headline type for the story section.
