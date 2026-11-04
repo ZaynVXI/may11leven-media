@@ -3,3 +3,5 @@ One file per craft. The daily deep-dive adds what's new and what's working, and 
 Every May11Leven skill reads the matching file before designing. Lines are facts from research, with the source domain in brackets.
 Daily: practice (brand/practice/log.md) + steal-like-an-artist.md rules + style.md (minimal studios, Holographik first) + pulse.md (latest in every area).
 Rotation: Mon automation · Tue branding/identity + packaging and merch · Wed web · Thu marketing/social · Fri apps · Sat UI/UX · Sun gen-AI.
+Reels: study 3 sheets from brand/refs/reels/ daily; notes in brand/learning/reels.md; practise one short reel sequence in code (HyperFrames, PIL+ffmpeg or Blender animation).
+Feed: before planning or designing, open brand/refs/holographik-ig-grid-*.png, satto-ig-grid.png and the latest grid preview; every new post must fit that grid (clean covers, one focal point, dark/light balance, each product its own world).
