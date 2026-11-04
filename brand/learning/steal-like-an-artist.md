@@ -15,3 +15,5 @@ Our working notes on the book's ideas (paraphrased, not quoted).
 2. Transform: change market, material, product and layout system so it is ours.
 3. Practise by copying a reference layout 1:1 in private, then post only the transformed version.
 4. Fidelity: any UI we show must look like a shipped product (real states, real data, icons, status bar, spacing system, imagery). Wireframe-looking screens never go out.
+5. Wireframes too: even a wireframe, sketch or flow diagram is shown in a finished minimalist way (one grotesk, hairlines, greys plus one accent, real copy, a proper grid). Never rough boxes.
+6. References first, always: before designing any screen, site or product, open the reference videos and screens Zayn sent plus 2+ live tech/minimalist sites or products (Awwwards, Minimal Gallery, Holographik work, real shipped apps), and note what to steal before touching code.
