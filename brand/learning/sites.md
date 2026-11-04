@@ -1,3 +1,4 @@
 - https://www.holographik.co (work index, CoMinVi, DeepBook, Sui) — check daily
 - https://artemiilebedev.com (series cards, product UI, device props)
 - https://openalternative.co/alternatives (free, open-source replacements for paid tools; check before using any paid app) — notes in openalternative.md
+- https://styles.refero.design (2,000+ real-site style systems with DESIGN.md; pick one lead style per project) — notes in refero-styles.md

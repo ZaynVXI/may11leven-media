@@ -46,3 +46,6 @@ Files: satto-01..10.jpg, satto-ig-grid.png, satto-reel-*.jpg.
 
 ## OpenAlternative
 Free tool directory, not a design reference. Notes: brand/learning/openalternative.md
+
+## Refero Styles
+Style systems from real product sites. Notes: brand/learning/refero-styles.md. Studied: teenage engineering, monopo saigon, Apple iPhone, Raycast.
