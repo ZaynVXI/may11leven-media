@@ -16,3 +16,8 @@
 - New format: 'identity in 8 seconds' reels for concept brands in our markets, plus a 'concept marks collection'.
 - Always deliver a responsive mark set plus one motion behaviour; show it in a reel.
 - Offer "refresh, not rebrand" to businesses that already have recognition.
+
+## Holographik CoMinVi lessons (identity)
+- Borrow a symbol system the industry already owns (periodic table symbols) and put the real material inside the letters.
+- One industrial accent (safety orange) used only for frames, map dots, wireframes.
+- Icon set in one thin stroke; type specimen + numerals shown as part of the case study.

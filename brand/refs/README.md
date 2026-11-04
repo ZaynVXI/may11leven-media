@@ -19,3 +19,10 @@ The quality bar Zayn loved: the Inzu booking prototype reel (week3/inzu-booking-
 - https://winners.lovieawards.com/
 - https://www.awwwards.com/ (Sites of the Day), https://www.behance.net/, https://dribbble.com/
 Some sites block fetching or render only metadata: use r.jina.ai via the repo fetch bridge if allowed, or study their screenshots here. Never bypass bot checks.
+
+## Holographik: CoMinVi (underground mining contractor, Mexico), site + identity case study
+Files: cominvi-01..08.jpg (post grid), cominvi-reel-*.jpg (12 reel frame sheets). Studio: https://www.holographik.co (Zagreb; brand, digital, motion and 3D).
+- Site: dark cinematic 3D hero (truck in a misty mine, "Your trusted partner in underground mining"), then white rounded cards on light grey; stat grid with tiny line icons + mono labels (1M LINEAR METERS, 15,400,169 TONS); headline with photo-filled type ("The story of a family"); mineral selector (Gold/Silver/Lead/Copper/Zinc list, one black, rest faded) with a rotating 3D rock inside a tick-mark ring; client list as a vertical wheel picker; dark map of Mexico with one orange region; wireframe 3D machine in orange lines; 35% in a tick ring.
+- Labels: tiny boxed "S.03" over a black pill "MINERALS"; black pill buttons with a white arrow square.
+- Identity: periodic-symbol posters (Au, Ag, Pb, Cu, Zn) with a real rock sitting inside the letters, on white, framed by orange; line-icon set; type specimen (AaBb, 12345); orange used sparingly as the one accent.
+- How they posted it: phone tilted on a green ore rock (mineral selector cycling); laptop on rough stone, white seamless background; pages floating in 3D space on grey; mobile screens in a curved carousel; 3D rocks on white grid; site cards collaged on grey (IG grid of crops that continue across tiles).
