@@ -21,3 +21,5 @@ Fixes during lookdev: sole outline faceted -> Chaikin smoothing; tread streaks o
 ## 04: ata reel and Imisozi rebuilt
 - ata: same renders, new minimal type, a spec page for the label, cover without text.
 - Imisozi: 3D coffee pouches rendered in Blender (bevelled block, flat seal, label via Generated coords), a full shop (home, shop all, product, bag with MoMo) in HTML at 2x/3x, presented Lebedev/Satto-style as stacked pages on a blurred hills photo.
+## 05: ata bottle re-rendered at full fidelity
+Feedback: the bottle still looked low quality. New scene (brand/code/ata2/bottle2.py): 3 mm solidified glass with micro bump, oil with meniscus and volume absorption (density 140), knurled cap with coat, paper label with fibre bump, lobed wrinkled scotch bonnet with subsurface and coat, basalt slab, two tall strip lights for glass edges, a backlight through the oil, AgX, 24 bounces, 64 samples + denoise.
