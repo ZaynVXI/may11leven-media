@@ -37,3 +37,9 @@ Files: lebedev-01..17.jpg, lebedev-reel-*.jpg (5 frame sheets).
 
 ## Tools: blender-skills (arjun988, MIT) vendored at brand/tools/blender-skills
 94 Blender skills. For our work read: rendering, lighting, lookdev, materials, camera-cinematography, minimalist-style, realistic-style, prop-artist, qa-review, references/ (reference-image-match, visual-match-checklist). Our Cycles scenes live in bathu2/soles3d.py style scripts (bpy 5.2 as a Python module).
+
+## Satto.studio (https://satto.studio): Framer & Webflow templates
+Files: satto-01..10.jpg, satto-ig-grid.png, satto-reel-*.jpg.
+- Presentation: two page screenshots stacked as one tall card (top half + bottom half of a site) over a full-bleed, slightly blurred photo from the site's own world; or a split tile (black top with a dot-matrix vertical wordmark, page below).
+- Type: tiny neo-grotesk or mono nav in a 4-6 column header grid (Page / Name ©26 / email / Nav), huge one-word page titles ("All", "Archive"), index lists with number, project, client, role columns, one highlighted row in solid black.
+- Dot-matrix display type as the only decoration; colour from photography only.
