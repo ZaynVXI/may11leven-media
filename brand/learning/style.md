@@ -24,3 +24,22 @@
 - Pages floating in 3D on soft grey; mobile screens in a curved carousel; product objects (rocks) floating on white.
 - IG grid: site cards cropped so a headline continues across neighbouring tiles; rounded cards on light grey, 24px gutters.
 - Try this week: a concept for an African mining/industrial firm (Jos tin, Namibian uranium, Rwandan coltan) with the material inside its own letters.
+
+## Holographik colour + type, measured (CoMinVi)
+### Palette (sampled from the screenshots and reels)
+- Page grey #E0E0E0 (the IG/presentation backdrop) · White #FFFFFF cards · Sage-white #EBF0EC / #DDE2E1 (cool greenish off-white panels, never pure grey) · Near-black #151515 (dark cards, pills, text) · Mid grey ~#9B9795 (warm stone grey for faded list items)
+- Night blue #344968 lives only in the 3D hero photo, not in the UI
+- ONE accent: safety orange ~#E3782D–#F07018 (industry colour: hard hats, machines). Used for poster frames, one map region, the wireframe machine, a single services tile. Never on body text.
+- Colour comes from the material: green copper ore, red earth, crystal blue, the rocks carry the colour so the UI can stay grey.
+- Ratio: ~45% sage/grey, ~40% white, ~10% black, ≤5% orange.
+### Typography
+- One tight neo-grotesk (Neue Haas / Helvetica Now feel) for everything; our free match is Inter Tight Medium with -3% tracking.
+- Weights: Medium for headlines, Regular for body; no bold, no italic, no serif.
+- Scale: hero ~5% of width, statement paragraphs as headlines (3–4 lines, full sentences, tight 1.0 leading), stats large, body tiny (~1% of width) set in short justified/left blocks bottom-right.
+- Mono (Plex Mono-like) UPPERCASE tiny for data labels only: "OVER TIME +837.650 LINEAR METERS", "MINERALS WE EXTRACT", "PB [#82]".
+- Hierarchy by opacity, not size: active item black, the rest the same size at ~20% grey (mineral list, client wheel, values list Honesty/Respect/Integrity).
+- Statement headline starts after an inline label (S.04 box + black pill) so the label sits in the first line's indent.
+- Photo-filled type for one emotional headline only; huge periodic symbols (Au, Ag) as the identity's display type, with the rock overlapping letters.
+- Text is tight, sentence case, left aligned; centred only inside wheels/rings.
+### For us
+- Add a "sage-white" paper (#EBF0EC) to the minimal palette; let the photographed material carry colour; one industry accent per concept; hierarchy by opacity lists.
