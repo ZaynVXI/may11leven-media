@@ -34,3 +34,6 @@ Files: lebedev-01..17.jpg, lebedev-reel-*.jpg (5 frame sheets).
 - Device props: bent satin-black tube holding a phone/tablet on a grey gradient; phone on a sage boucle sofa with matching sage background (prop and background in one colour family).
 - Haven Foods: cream + navy condensed serif, globe map with sourcing cards; Std studio menu with dashed dividers and grey secondary text.
 - Motion: pages slide in over a blurred backdrop; phone screens scroll as a horizontal strip on black; a chrome 3D sculpture turning slowly on grey as pure mood.
+
+## Tools: blender-skills (arjun988, MIT) vendored at brand/tools/blender-skills
+94 Blender skills. For our work read: rendering, lighting, lookdev, materials, camera-cinematography, minimalist-style, realistic-style, prop-artist, qa-review, references/ (reference-image-match, visual-match-checklist). Our Cycles scenes live in bathu2/soles3d.py style scripts (bpy 5.2 as a Python module).
