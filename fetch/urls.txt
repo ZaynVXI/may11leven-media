@@ -1,7 +1,4 @@
-hero.png https://export-download.canva.com/MuDkE/DAHZ8_MuDkE/-1/0/0005-5836060333105783201.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH4R7NKVBA%2F20261103%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261103T131046Z&X-Amz-Expires=87786&X-Amz-Signature=2b7fa8e9cd127aa5d005142559b8981e241779ccb4d72fd0248e4725184ba215&X-Amz-SignedHeaders=host%3Bx-amz-expected-bucket-owner&response-expires=Wed%2C%2004%20Nov%202026%2013%3A33%3A52%20GMT
-room.png https://export-download.canva.com/MuDkE/DAHZ8_MuDkE/-1/0/0006-5836060333105783201.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH4R7NKVBA%2F20261103%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261103T231704Z&X-Amz-Expires=50421&X-Amz-Signature=f829f130cd6cdc3f0b581e5b269b41d7606dfa0008a18c2556cfd7b9dce16c19&X-Amz-SignedHeaders=host%3Bx-amz-expected-bucket-owner&response-expires=Wed%2C%2004%20Nov%202026%2013%3A17%3A25%20GMT
-u1.jpg https://unsplash.com/photos/ui7OcNKt3oA/download?force=true&w=2400
-u2.jpg https://unsplash.com/photos/yZFu3m8s5X0/download?force=true&w=2400
-u3.jpg https://unsplash.com/photos/zR6r-CpCnmg/download?force=true&w=2400
-u4.jpg https://unsplash.com/photos/C94rWoV37UE/download?force=true&w=2400
-u5.jpg https://unsplash.com/photos/5VUTQ3qTuc4/download?force=true&w=2400
+u1.jpg https://images.unsplash.com/photo-1732057226192-b17c55cf6fe0?w=2400&q=90&fm=jpg
+u2.jpg https://images.unsplash.com/photo-1625296278965-c883bfe4f6b3?w=2400&q=90&fm=jpg
+u4.jpg https://images.unsplash.com/photo-1625296277602-a9f0b67b3a99?w=2400&q=90&fm=jpg
+u5.jpg https://images.unsplash.com/photo-1686261241651-2bb38fd945d8?w=2400&q=90&fm=jpg
