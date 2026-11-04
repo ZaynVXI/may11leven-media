@@ -1,6 +1,3 @@
-ac-home.md https://r.jina.ai/https://www.artycoders.com/
-ac-pricing.md https://r.jina.ai/https://www.artycoders.com/pricing
-ac-services.md https://r.jina.ai/https://www.artycoders.com/services
-ac-works.md https://r.jina.ai/https://www.artycoders.com/works
-oda.md https://r.jina.ai/https://www.onlinedesignawards.com/annual-awards
-lovie.md https://r.jina.ai/https://winners.lovieawards.com/
+lv-home.md https://r.jina.ai/https://www.leoverse.com/
+lv-services.md https://r.jina.ai/https://www.leoverse.com/services
+lv-about.md https://r.jina.ai/https://www.leoverse.com/about
