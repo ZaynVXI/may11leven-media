@@ -8,6 +8,7 @@
 - Belief and belonging: identity built on cultural meaning and community; strong for African and Gulf brands rooted in place (creativebloq)
 - Obrazur (100K-630K views per reel): one brand per 6-8 s beat-cut reel - symbol on a backlit silhouette, construction grid, named swatches with HEX/RGB/CMYK/Pantone, type specimen, then the brand on its industry's own objects (truck, strap, flag, cap, billboard); one saturated colour per brand; collections of marks/app icons get saved (instagram.com/obrazur)
 - Graphic trends now (Winterton series): mixed type (several typefaces and styles in one composition), rebus (symbols/images replacing letters, e.g. I-heart-NY, Rand's IBM), ASCII art (images built from characters, retro-tech), micrographics (dense spec labels: asset IDs, barcodes, certification marks, coordinates - from industrial labels; Virgil Abloh, 3.11LABS) (zacharywinterton.com reels)
+- Holographik systems: palette = greyscale ramp (A01-A05) + white + warm off-white + ONE accent with tints, used for 'memorable moments'; one neutral grotesk with a 4-step type scale; wordmark spacing set by the golden ratio; graphic language of dot, line, dashed line; product naming family (ANI Lyzer, Sense, Biome, Qlinic) (behance.net/Holographik)
 ## How we use it
 - Make our own demos of each trend for concept brands; add a micrographics label set to our kit for packaging, merch and UI.
 - New format: 'identity in 8 seconds' reels for concept brands in our markets, plus a 'concept marks collection'.
