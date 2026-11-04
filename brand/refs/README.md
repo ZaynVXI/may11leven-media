@@ -43,3 +43,6 @@ Files: satto-01..10.jpg, satto-ig-grid.png, satto-reel-*.jpg.
 - Presentation: two page screenshots stacked as one tall card (top half + bottom half of a site) over a full-bleed, slightly blurred photo from the site's own world; or a split tile (black top with a dot-matrix vertical wordmark, page below).
 - Type: tiny neo-grotesk or mono nav in a 4-6 column header grid (Page / Name ©26 / email / Nav), huge one-word page titles ("All", "Archive"), index lists with number, project, client, role columns, one highlighted row in solid black.
 - Dot-matrix display type as the only decoration; colour from photography only.
+
+## OpenAlternative
+Free tool directory, not a design reference. Notes: brand/learning/openalternative.md
