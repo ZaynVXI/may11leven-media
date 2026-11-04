@@ -18,3 +18,6 @@ Lesson: show finished product states, never wireframe-level screens.
 ## 03: Bathu rebrand concept rebuilt
 Old post: heavy condensed type, outline letters, flat laptop. New: 3D rendered soles (ink + gum rubber, tread with the wordmark) on concrete as the hero, a question card in a visible grid (Lebedev), the mark constructed with dashed lines, a dot map of South Africa from Alexandra (CoMinVi), a named street palette, rendered shoeboxes.
 Fixes during lookdev: sole outline faceted -> Chaikin smoothing; tread streaks on side walls -> bump only on top faces; pale lid print -> decal specular off (grazing-angle Fresnel).
+## 04: ata reel and Imisozi rebuilt
+- ata: same renders, new minimal type, a spec page for the label, cover without text.
+- Imisozi: 3D coffee pouches rendered in Blender (bevelled block, flat seal, label via Generated coords), a full shop (home, shop all, product, bag with MoMo) in HTML at 2x/3x, presented Lebedev/Satto-style as stacked pages on a blurred hills photo.
