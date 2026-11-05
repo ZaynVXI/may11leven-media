@@ -60,3 +60,11 @@
 - Type: one neo-grotesk, Medium, tight tracking, sentence case; a mono for product names, prices and labels (uppercase, tracked); headline top-left of the card, answer mid-card after "→". Hierarchy by black vs grey (#8A8A8A) text, not weight.
 - Presentation: the layout grid itself is part of the image (lines + intersection dots); one prop family per scene (black tube, sage sofa); background matches the prop colour.
 - Try this week: a question-card series for our studio (e.g. "Does my logo work at 16px?") with our own grid frame; and a device scene where prop and backdrop share one colour.
+
+
+## Identity log (one decision a week; newest last)
+- Hairline rules under the top labels and above details on carousels (from Motto workbooks, Lebedev's grid).
+- One colour per service across the feed: Clay brand, Lake web, Cobalt apps, Ochre packaging and 3D, Moss automation, Signal social, Infrared the studio itself.
+- "Design decisions" series: one UI choice per loop, with construction lines and spacing overlays (from the Harvey II clips).
+- One object on cool grey for studio covers (eye-test card, service card deck), lit with a soft side key.
+- Emails and numbers set in a face where l and 1 differ (Hanken Grotesk).

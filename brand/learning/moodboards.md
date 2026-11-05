@@ -8,15 +8,27 @@ Zayn's rule: the screenshots and videos he sends ARE our moodboards, above every
 - Every new minimalist piece Zayn sends goes into `brand/refs/<studio>/` and onto the house sheet the same day. Rebuild the sheet with the snippet at the bottom of this file.
 - Use it per job: pick 3+ that match the task (a product still, a type page, a UI decision, a reel), and write the steal list (the thinking, never the surface).
 
-## 2. Top-up sources (only when the primary set doesn't cover the job)
-- Savee (savee.com; browsing only, since its MCP needs a paid plan)
-- Refero Styles
-- Minimal Gallery
-- Awwwards (Sites of the Day)
-- The Brand Identity
-- The Logo Archive
-- Behance and Dribbble curated pages of the studios above
-- Pinterest only through boards of those same studios
+## 2. Top-up sources (when the primary set doesn't cover the job)
+Zayn's list: Savee, Pinterest, Mobbin, Awwwards, Behance, Cosmos, "destockd" (not found yet; ask Zayn for the link) and every site he sends. Our own finds have been added below, each picked because its curation leans minimal.
+
+| Source | Best for | Notes |
+|---|---|---|
+| Savee (savee.com) | mood, art direction, product stills | browsing only; the MCP needs a paid plan |
+| Cosmos (cosmos.so) + Public Work (public.work) | calm visual boards; public-domain images | Public Work images are public domain, so usable as texture or reference |
+| Pinterest | quick boards | only via boards of studios we trust; lots of noise |
+| Mobbin (mobbin.com) | real app screens and flows | free web browsing; the MCP needs a paid plan |
+| Awwwards (Sites of the Day) | web craft, motion | design 40 / usability 30 / creativity 20 / content 10 |
+| Behance | full case studies | follow Holographik, Lebedev, Motto-level studios only |
+| Refero Styles | UI styles and tokens | vendored skill in brand/tools/refero |
+| Minimal Gallery, Siteinspire, Httpster, Admire the Web, Dead Simple Sites | minimal websites | our closest web taste |
+| Godly, Land-book, Lapa Ninja | web and landing pages | filter hard, many are trendy |
+| Storefront, Siiimple, Tiny Blocks | e-commerce pages | for shop concepts (Imisozi-type) |
+| Unsection, Design Spells | single sections, micro-interactions | for UI decision posts |
+| Fonts In Use | type in real projects | check type pairings before choosing |
+| Minimalissimo | minimal objects, architecture, products | close to our product-on-grey look |
+| The Brand Identity, The Logo Archive, BP&O | identity systems, marks | logo and brand work |
+| Eyecannndy | camera moves and visual effects | reel shot ideas (not to copy) |
+| It's Nice That, Ignant, Frame | editorial, spaces | studio-world and set ideas |
 
 Save anything kept to `brand/refs/external/<source>-<name>.jpg`, with its URL and studio in `brand/refs/external/SOURCES.md`. Never use people's faces from these in our work, and never copy a layout.
 
@@ -38,7 +50,17 @@ Reject on sight:
 - trend posters with no idea behind them
 - anything that looks like a template
 
-## 4. Rebuild the house sheet
+## 4. Building our own style and identity (keeps evolving)
+Moodboards feed our identity; they don't replace it. Each week:
+1. Pick the 3 strongest new references (from Zayn first, then our own finds).
+2. Write one line in `brand/learning/style.md` under "Identity log": the decision we're taking into our system. Examples:
+   - "hairline rules under labels on every carousel (from Motto workbooks and Lebedev's grid)"
+   - "one colour per service across the feed"
+   - "decision posts with construction lines (from the Harvey clips)"
+3. Try it once in a post. If it works, propose it into the matching skill (typography, feed-aesthetic, color, minimalism).
+4. Every month, rebuild the house sheet and put our own last 9 posts beside it. Ours should read as one studio and hold up next to them, without copying any of them.
+
+## 5. Rebuild the house sheet
 ```
 cd brand/refs && python3 - <<'EOF'
 from PIL import Image; import glob
