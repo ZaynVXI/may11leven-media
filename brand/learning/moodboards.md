@@ -27,6 +27,7 @@ Zayn's list: Savee, Pinterest, Mobbin, Awwwards, Behance, Cosmos, Destockd and e
 | Fonts In Use | type in real projects | check type pairings before choosing |
 | Minimalissimo | minimal objects, architecture, products | close to our product-on-grey look |
 | The Brand Identity, The Logo Archive, BP&O | identity systems, marks | logo and brand work |
+| Logos.ai (logos.ai) | curated logo and identity work, a showcase, directory, jobs and newsletter | study how winners show construction grids, type systems and credits. It also takes submissions: a free queue (up to 10 slides, 4:5 or 1:1, numbered files, vector geometry, grid construction and typeface credits) or paid slots ($35–$275, not for us). Submitting our concept work to the free queue is Zayn's call, since it publishes us on their channels |
 | Eyecannndy | camera moves and visual effects | reel shot ideas (not to copy) |
 | Destockd (destockd.com) | archival film footage you can USE, not just look at | 41,000+ public-domain shots from US government films (FedFlix), with visual search (describe what you see). Free. Good for grainy B&W cutaways (machines, hands, factories, landscapes, skies) in reels. Check its Legal page per clip; no identifiable faces in our work; grade to our world |
 | It's Nice That, Ignant, Frame | editorial, spaces | studio-world and set ideas |
