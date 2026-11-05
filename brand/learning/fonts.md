@@ -26,7 +26,8 @@ Not free for commercial use: Pangram Pangram (free for personal use only), most 
    - On the web, Inter (and Inter Tight) can switch features on: `font-feature-settings: "cv05", "cv08"` gives a tailed l and a serifed I.
 2. **Large x-height, open shapes.** Aim for an x-height of about 0.5 of the em or more for body text. Light weights only at display sizes.
 3. **Sizes and contrast:** follow accessibility.md (4.5:1 for body text, 3:1 at 48 px and up; at least 20 px on posts, 24 px on reels, 16 px for web body).
-4. **The languages our clients write in.** Many target markets write Latin letters that common fonts lack:
+4. **Language: English by default.** Zayn: we design in English, and only use an African language when a job truly needs it (a client's name or place with special letters, a bilingual Arabic brand for the Gulf). When that happens, check the font covers it:
+   **The languages our clients may write in.** Many target markets write Latin letters that common fonts lack:
    - Yoruba (ẹ ọ ṣ plus tone marks) and Igbo (ị ọ ụ ṅ) for Nigeria
    - Hausa (ɓ ɗ ƙ ƴ) for Nigeria, Niger and Ghana
    - Akan, Ewe, Lingala and Wolof (ɛ ɔ ŋ ɖ ʋ ɣ) for Ghana, DRC and Senegal
@@ -34,7 +35,7 @@ Not free for commercial use: Pangram Pangram (free for personal use only), most 
    - Arabic for North Africa and the Gulf
    - Naira ₦ and Cedi ₵ signs
 
-   Missing glyphs show up as empty boxes ("tofu"), which breaks the brand and excludes readers. Run the lab before choosing a font for a client in these markets.
+   Missing glyphs show up as empty boxes ("tofu"), which breaks the brand and excludes readers. Run the lab only when a job actually includes these letters.
 5. **Dyslexia:** no special "dyslexia font" has strong evidence behind it. What helps is clear letter shapes, generous spacing (line height 1.5 for body text), left-aligned text, short lines (60–75 characters) and no long italics or all-caps paragraphs.
 
 ## Our font lab
