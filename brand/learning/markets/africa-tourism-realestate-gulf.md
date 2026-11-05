@@ -65,3 +65,10 @@ Zayn: "a lot is going on". Rotate across all of these, and every study session a
 | **Startups at every stage** | Kenya $1.04bn, South Africa (equity lead), Egypt, Nigeria = 72% of 2025 money (Partech) | Pitch decks, launch identities, the 11-Day Launch |
 
 Sources: Partech Africa 2025 report via fundsforNGOs News (Feb 2026); TechMoran (Feb 2026); Beauty West Africa (June 2026); Milano Finanza (Pitti Fragranze 2026); The Guardian Nigeria / CNBC Africa (Afreximbank creative financing); The New Times Rwanda (BAL Innovation Summit, May 2025); Hospitality Net / W Hospitality Group (March 2026); Campaign Middle East (2026).
+
+## Study notes (latest)
+- East Africa hotel pipeline: Kenya 6,190 rooms / 35 properties, Ethiopia 5,964, Tanzania 4,159; roughly 78–80% under construction (W Hospitality Group 2026 pipeline report, via AllAfrica, Mar 2026). Rwanda and Uganda not counted.
+- Kigali Paramount Hotel (Kicukiro, 40+ rooms) is a new boutique opening with little visible web presence in coverage (Shore Africa, Feb 2026). Lead, to verify.
+- Saudi F&B: restaurant sales ~+7%/yr (Bain); Saudi/UAE volumes +4–6%/yr vs <2% global; foodservice ~$62.7B by 2033; 122M visitors in 2025, target 150M by 2030 (Arab News, May 2026).
+- Morocco: 75 hotels / 10,606 rooms in pipeline, ~70% opening 2026–27; 60,000 beds planned before the 2030 World Cup (Morocco World News, Oct 2026).
+- Chowdeck (Lagos): $9M Series A, Novastar-led, expanding Nigeria and Ghana with dark stores (TheCable).
