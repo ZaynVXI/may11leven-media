@@ -60,3 +60,7 @@ These are our install notes and how to use each one. To restore the skills in a 
 - **Installed:** `pip install -e` from the repo, plus the `skillopt-sleep` skill. Run it with `SKILLOPT_SLEEP_REPO=<repo> bash plugins/claude-code/scripts/sleep.sh dry-run|run|adopt --project <dir> --backend mock`.
 - **Tested:** a mock dry run (no model calls, no cost) worked end to end: harvest, then mine, then the gate. This workspace has only 1 session to learn from, so the gate correctly made no change.
 - **Making it useful:** run it where our history builds up (Zayn's computer, or a long-lived session) with `--backend claude`. That uses plan usage on every replay, so run it weekly and keep `--edit-budget` small. Point `--target-skill-path` at one of our skills (e.g. may11leven-preflight) and pass our house rules with `--preferences`. Always review the baseline-to-candidate score and the diff before adopting. Never adopt edits that weaken our rules.
+
+## Motion
+- **Installed: motion-design** (LottieFiles, MIT): timing, easing, choreography and Disney principles adapted for UI, for CSS, GSAP, Framer Motion and Lottie. Use it with may11leven-motion for every reel, site interaction and micro-interaction.
+- **Wanted: "Fluid Hero Tiles Motion System"**: it is listed only on claudeskillsmarket.com, which can't be reached from here, and it isn't on GitHub or skills.sh. Zayn can download its zip and attach it; then install with `unzip -o <file>.zip -d ~/.claude/skills/`. Check its licence before using it in client work.
