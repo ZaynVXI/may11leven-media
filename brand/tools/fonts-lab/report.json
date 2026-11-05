@@ -1,0 +1,646 @@
+[
+ {
+  "font": "atkinson-hyperlegible-next",
+  "coverage": {
+   "Yoruba": 40,
+   "Igbo": 0,
+   "Hausa": 0,
+   "Akan/Ewe/Lingala/Wolof": 10,
+   "Currency \u20a6 \u20b5": 50,
+   "Arabic": 0,
+   "Ge'ez (Amharic)": 0
+  },
+  "confusable": {
+   "I/l": 0.36,
+   "l/1": 0.11,
+   "I/1": 0.14,
+   "O/0": 0.76,
+   "rn/m": 0.76,
+   "b/d": 0.56,
+   "cl/d": 0.46
+  },
+  "worst_Il1": 0.36,
+  "x_height": 0.496
+ },
+ {
+  "font": "bricolage-grotesque",
+  "coverage": {
+   "Yoruba": 80,
+   "Igbo": 75,
+   "Hausa": 0,
+   "Akan/Ewe/Lingala/Wolof": 20,
+   "Currency \u20a6 \u20b5": 100,
+   "Arabic": 0,
+   "Ge'ez (Amharic)": 0
+  },
+  "confusable": {
+   "I/l": 1.0,
+   "l/1": 0.56,
+   "I/1": 0.56,
+   "O/0": 0.93,
+   "rn/m": 0.75,
+   "b/d": 0.48,
+   "cl/d": 0.63
+  },
+  "worst_Il1": 1.0,
+  "x_height": 0.517
+ },
+ {
+  "font": "cormorant-garamond",
+  "coverage": {
+   "Yoruba": 100,
+   "Igbo": 100,
+   "Hausa": 0,
+   "Akan/Ewe/Lingala/Wolof": 30,
+   "Currency \u20a6 \u20b5": 100,
+   "Arabic": 0,
+   "Ge'ez (Amharic)": 0
+  },
+  "confusable": {
+   "I/l": 0.69,
+   "l/1": 0.68,
+   "I/1": 0.89,
+   "O/0": 0.63,
+   "rn/m": 0.42,
+   "b/d": 0.09,
+   "cl/d": 0.27
+  },
+  "worst_Il1": 0.89,
+  "x_height": 0.386
+ },
+ {
+  "font": "dm-sans",
+  "coverage": {
+   "Yoruba": 40,
+   "Igbo": 0,
+   "Hausa": 0,
+   "Akan/Ewe/Lingala/Wolof": 30,
+   "Currency \u20a6 \u20b5": 50,
+   "Arabic": 0,
+   "Ge'ez (Amharic)": 0
+  },
+  "confusable": {
+   "I/l": 1.0,
+   "l/1": 0.48,
+   "I/1": 0.48,
+   "O/0": 0.89,
+   "rn/m": 0.88,
+   "b/d": 0.56,
+   "cl/d": 0.58
+  },
+  "worst_Il1": 1.0,
+  "x_height": 0.504
+ },
+ {
+  "font": "figtree",
+  "coverage": {
+   "Yoruba": 40,
+   "Igbo": 0,
+   "Hausa": 0,
+   "Akan/Ewe/Lingala/Wolof": 20,
+   "Currency \u20a6 \u20b5": 50,
+   "Arabic": 0,
+   "Ge'ez (Amharic)": 0
+  },
+  "confusable": {
+   "I/l": 1.0,
+   "l/1": 0.43,
+   "I/1": 0.43,
+   "O/0": 0.87,
+   "rn/m": 0.89,
+   "b/d": 0.57,
+   "cl/d": 0.61
+  },
+  "worst_Il1": 1.0,
+  "x_height": 0.5
+ },
+ {
+  "font": "fraunces",
+  "coverage": {
+   "Yoruba": 100,
+   "Igbo": 75,
+   "Hausa": 0,
+   "Akan/Ewe/Lingala/Wolof": 30,
+   "Currency \u20a6 \u20b5": 100,
+   "Arabic": 0,
+   "Ge'ez (Amharic)": 0
+  },
+  "confusable": {
+   "I/l": 0.86,
+   "l/1": 0.72,
+   "I/1": 0.69,
+   "O/0": 0.82,
+   "rn/m": 0.57,
+   "b/d": 0.33,
+   "cl/d": 0.53
+  },
+  "worst_Il1": 0.86,
+  "x_height": 0.482
+ },
+ {
+  "font": "geist",
+  "coverage": {
+   "Yoruba": 80,
+   "Igbo": 75,
+   "Hausa": 0,
+   "Akan/Ewe/Lingala/Wolof": 30,
+   "Currency \u20a6 \u20b5": 50,
+   "Arabic": 0,
+   "Ge'ez (Amharic)": 0
+  },
+  "confusable": {
+   "I/l": 0.61,
+   "l/1": 0.11,
+   "I/1": 0.44,
+   "O/0": 0.93,
+   "rn/m": 0.87,
+   "b/d": 0.59,
+   "cl/d": 0.46
+  },
+  "worst_Il1": 0.61,
+  "x_height": 0.53
+ },
+ {
+  "font": "hanken-grotesk",
+  "coverage": {
+   "Yoruba": 80,
+   "Igbo": 100,
+   "Hausa": 0,
+   "Akan/Ewe/Lingala/Wolof": 30,
+   "Currency \u20a6 \u20b5": 50,
+   "Arabic": 0,
+   "Ge'ez (Amharic)": 0
+  },
+  "confusable": {
+   "I/l": 0.54,
+   "l/1": 0.09,
+   "I/1": 0.38,
+   "O/0": 0.79,
+   "rn/m": 0.67,
+   "b/d": 0.54,
+   "cl/d": 0.38
+  },
+  "worst_Il1": 0.54,
+  "x_height": 0.493
+ },
+ {
+  "font": "host-grotesk",
+  "coverage": {
+   "Yoruba": 40,
+   "Igbo": 0,
+   "Hausa": 0,
+   "Akan/Ewe/Lingala/Wolof": 30,
+   "Currency \u20a6 \u20b5": 50,
+   "Arabic": 0,
+   "Ge'ez (Amharic)": 0
+  },
+  "confusable": {
+   "I/l": 1.0,
+   "l/1": 0.3,
+   "I/1": 0.3,
+   "O/0": 0.86,
+   "rn/m": 0.81,
+   "b/d": 0.56,
+   "cl/d": 0.63
+  },
+  "worst_Il1": 1.0,
+  "x_height": 0.496
+ },
+ {
+  "font": "ibm-plex-mono",
+  "coverage": {
+   "Yoruba": 80,
+   "Igbo": 75,
+   "Hausa": 0,
+   "Akan/Ewe/Lingala/Wolof": 30,
+   "Currency \u20a6 \u20b5": 100,
+   "Arabic": 0,
+   "Ge'ez (Amharic)": 0
+  },
+  "confusable": {
+   "I/l": 0.83,
+   "l/1": 0.61,
+   "I/1": 0.59,
+   "O/0": 0.91,
+   "rn/m": 0.27,
+   "b/d": 0.49,
+   "cl/d": 0.22
+  },
+  "worst_Il1": 0.83,
+  "x_height": 0.516
+ },
+ {
+  "font": "ibm-plex-sans-arabic",
+  "coverage": {
+   "Yoruba": 20,
+   "Igbo": 0,
+   "Hausa": 0,
+   "Akan/Ewe/Lingala/Wolof": 10,
+   "Currency \u20a6 \u20b5": 100,
+   "Arabic": 100,
+   "Ge'ez (Amharic)": 0
+  },
+  "confusable": {
+   "I/l": 0.39,
+   "l/1": 0.32,
+   "I/1": 0.58,
+   "O/0": 0.88,
+   "rn/m": 0.77,
+   "b/d": 0.49,
+   "cl/d": 0.4
+  },
+  "worst_Il1": 0.58,
+  "x_height": 0.516
+ },
+ {
+  "font": "inclusive-sans",
+  "coverage": {
+   "Yoruba": 80,
+   "Igbo": 75,
+   "Hausa": 0,
+   "Akan/Ewe/Lingala/Wolof": 60,
+   "Currency \u20a6 \u20b5": 50,
+   "Arabic": 0,
+   "Ge'ez (Amharic)": 0
+  },
+  "confusable": {
+   "I/l": 0.41,
+   "l/1": 0.37,
+   "I/1": 0.69,
+   "O/0": 0.71,
+   "rn/m": 0.75,
+   "b/d": 0.43,
+   "cl/d": 0.34
+  },
+  "worst_Il1": 0.69,
+  "x_height": 0.5
+ },
+ {
+  "font": "instrument-sans",
+  "coverage": {
+   "Yoruba": 40,
+   "Igbo": 0,
+   "Hausa": 0,
+   "Akan/Ewe/Lingala/Wolof": 20,
+   "Currency \u20a6 \u20b5": 50,
+   "Arabic": 0,
+   "Ge'ez (Amharic)": 0
+  },
+  "confusable": {
+   "I/l": 1.0,
+   "l/1": 0.37,
+   "I/1": 0.37,
+   "O/0": 0.87,
+   "rn/m": 0.82,
+   "b/d": 0.54,
+   "cl/d": 0.58
+  },
+  "worst_Il1": 1.0,
+  "x_height": 0.51
+ },
+ {
+  "font": "instrument-serif",
+  "coverage": {
+   "Yoruba": 40,
+   "Igbo": 0,
+   "Hausa": 0,
+   "Akan/Ewe/Lingala/Wolof": 20,
+   "Currency \u20a6 \u20b5": 50,
+   "Arabic": 0,
+   "Ge'ez (Amharic)": 0
+  },
+  "confusable": {
+   "I/l": 0.83,
+   "l/1": 0.8,
+   "I/1": 0.83,
+   "O/0": 0.89,
+   "rn/m": 0.59,
+   "b/d": 0.19,
+   "cl/d": 0.39
+  },
+  "worst_Il1": 0.83,
+  "x_height": 0.51
+ },
+ {
+  "font": "inter-tight",
+  "coverage": {
+   "Yoruba": 100,
+   "Igbo": 100,
+   "Hausa": 100,
+   "Akan/Ewe/Lingala/Wolof": 100,
+   "Currency \u20a6 \u20b5": 100,
+   "Arabic": 0,
+   "Ge'ez (Amharic)": 0
+  },
+  "confusable": {
+   "I/l": 1.0,
+   "l/1": 0.4,
+   "I/1": 0.4,
+   "O/0": 0.85,
+   "rn/m": 0.86,
+   "b/d": 0.58,
+   "cl/d": 0.66
+  },
+  "worst_Il1": 1.0,
+  "x_height": 0.546
+ },
+ {
+  "font": "lexend",
+  "coverage": {
+   "Yoruba": 100,
+   "Igbo": 100,
+   "Hausa": 0,
+   "Akan/Ewe/Lingala/Wolof": 30,
+   "Currency \u20a6 \u20b5": 100,
+   "Arabic": 0,
+   "Ge'ez (Amharic)": 0
+  },
+  "confusable": {
+   "I/l": 0.51,
+   "l/1": 0.42,
+   "I/1": 0.73,
+   "O/0": 0.86,
+   "rn/m": 0.79,
+   "b/d": 0.58,
+   "cl/d": 0.7
+  },
+  "worst_Il1": 0.73,
+  "x_height": 0.525
+ },
+ {
+  "font": "manrope",
+  "coverage": {
+   "Yoruba": 60,
+   "Igbo": 75,
+   "Hausa": 0,
+   "Akan/Ewe/Lingala/Wolof": 30,
+   "Currency \u20a6 \u20b5": 50,
+   "Arabic": 0,
+   "Ge'ez (Amharic)": 0
+  },
+  "confusable": {
+   "I/l": 1.0,
+   "l/1": 0.43,
+   "I/1": 0.43,
+   "O/0": 0.75,
+   "rn/m": 0.75,
+   "b/d": 0.57,
+   "cl/d": 0.58
+  },
+  "worst_Il1": 1.0,
+  "x_height": 0.54
+ },
+ {
+  "font": "mona-sans",
+  "coverage": {
+   "Yoruba": 80,
+   "Igbo": 75,
+   "Hausa": 0,
+   "Akan/Ewe/Lingala/Wolof": 30,
+   "Currency \u20a6 \u20b5": 50,
+   "Arabic": 0,
+   "Ge'ez (Amharic)": 0
+  },
+  "confusable": {
+   "I/l": 1.0,
+   "l/1": 0.4,
+   "I/1": 0.4,
+   "O/0": 0.87,
+   "rn/m": 0.89,
+   "b/d": 0.54,
+   "cl/d": 0.61
+  },
+  "worst_Il1": 1.0,
+  "x_height": 0.525
+ },
+ {
+  "font": "newsreader",
+  "coverage": {
+   "Yoruba": 80,
+   "Igbo": 75,
+   "Hausa": 0,
+   "Akan/Ewe/Lingala/Wolof": 30,
+   "Currency \u20a6 \u20b5": 100,
+   "Arabic": 0,
+   "Ge'ez (Amharic)": 0
+  },
+  "confusable": {
+   "I/l": 0.8,
+   "l/1": 0.59,
+   "I/1": 0.57,
+   "O/0": 0.82,
+   "rn/m": 0.64,
+   "b/d": 0.25,
+   "cl/d": 0.63
+  },
+  "worst_Il1": 0.8,
+  "x_height": 0.426
+ },
+ {
+  "font": "noto-sans",
+  "coverage": {
+   "Yoruba": 100,
+   "Igbo": 100,
+   "Hausa": 100,
+   "Akan/Ewe/Lingala/Wolof": 100,
+   "Currency \u20a6 \u20b5": 100,
+   "Arabic": 0,
+   "Ge'ez (Amharic)": 0
+  },
+  "confusable": {
+   "I/l": 0.46,
+   "l/1": 0.41,
+   "I/1": 0.13,
+   "O/0": 0.82,
+   "rn/m": 0.78,
+   "b/d": 0.57,
+   "cl/d": 0.76
+  },
+  "worst_Il1": 0.46,
+  "x_height": 0.536
+ },
+ {
+  "font": "noto-sans-ethiopic",
+  "coverage": {
+   "Yoruba": 40,
+   "Igbo": 0,
+   "Hausa": 0,
+   "Akan/Ewe/Lingala/Wolof": 20,
+   "Currency \u20a6 \u20b5": 50,
+   "Arabic": 0,
+   "Ge'ez (Amharic)": 100
+  },
+  "confusable": {
+   "I/l": 0.46,
+   "l/1": 0.41,
+   "I/1": 0.13,
+   "O/0": 0.82,
+   "rn/m": 0.78,
+   "b/d": 0.57,
+   "cl/d": 0.76
+  },
+  "worst_Il1": 0.46,
+  "x_height": 0.536
+ },
+ {
+  "font": "onest",
+  "coverage": {
+   "Yoruba": 100,
+   "Igbo": 100,
+   "Hausa": 100,
+   "Akan/Ewe/Lingala/Wolof": 100,
+   "Currency \u20a6 \u20b5": 50,
+   "Arabic": 0,
+   "Ge'ez (Amharic)": 0
+  },
+  "confusable": {
+   "I/l": 1.0,
+   "l/1": 0.44,
+   "I/1": 0.44,
+   "O/0": 0.9,
+   "rn/m": 0.78,
+   "b/d": 0.59,
+   "cl/d": 0.61
+  },
+  "worst_Il1": 1.0,
+  "x_height": 0.527
+ },
+ {
+  "font": "public-sans",
+  "coverage": {
+   "Yoruba": 100,
+   "Igbo": 100,
+   "Hausa": 0,
+   "Akan/Ewe/Lingala/Wolof": 30,
+   "Currency \u20a6 \u20b5": 75,
+   "Arabic": 0,
+   "Ge'ez (Amharic)": 0
+  },
+  "confusable": {
+   "I/l": 0.56,
+   "l/1": 0.1,
+   "I/1": 0.46,
+   "O/0": 0.89,
+   "rn/m": 0.76,
+   "b/d": 0.54,
+   "cl/d": 0.44
+  },
+  "worst_Il1": 0.56,
+  "x_height": 0.517
+ },
+ {
+  "font": "questrial",
+  "coverage": {
+   "Yoruba": 100,
+   "Igbo": 100,
+   "Hausa": 100,
+   "Akan/Ewe/Lingala/Wolof": 100,
+   "Currency \u20a6 \u20b5": 100,
+   "Arabic": 0,
+   "Ge'ez (Amharic)": 0
+  },
+  "confusable": {
+   "I/l": 1.0,
+   "l/1": 0.41,
+   "I/1": 0.41,
+   "O/0": 0.79,
+   "rn/m": 0.81,
+   "b/d": 0.56,
+   "cl/d": 0.56
+  },
+  "worst_Il1": 1.0,
+  "x_height": 0.5
+ },
+ {
+  "font": "readex-pro",
+  "coverage": {
+   "Yoruba": 100,
+   "Igbo": 100,
+   "Hausa": 0,
+   "Akan/Ewe/Lingala/Wolof": 30,
+   "Currency \u20a6 \u20b5": 100,
+   "Arabic": 100,
+   "Ge'ez (Amharic)": 0
+  },
+  "confusable": {
+   "I/l": 0.51,
+   "l/1": 0.42,
+   "I/1": 0.73,
+   "O/0": 0.86,
+   "rn/m": 0.79,
+   "b/d": 0.58,
+   "cl/d": 0.7
+  },
+  "worst_Il1": 0.73,
+  "x_height": 0.525
+ },
+ {
+  "font": "red-hat-display",
+  "coverage": {
+   "Yoruba": 40,
+   "Igbo": 0,
+   "Hausa": 0,
+   "Akan/Ewe/Lingala/Wolof": 20,
+   "Currency \u20a6 \u20b5": 50,
+   "Arabic": 0,
+   "Ge'ez (Amharic)": 0
+  },
+  "confusable": {
+   "I/l": 0.99,
+   "l/1": 0.45,
+   "I/1": 0.45,
+   "O/0": 0.89,
+   "rn/m": 0.89,
+   "b/d": 0.48,
+   "cl/d": 0.67
+  },
+  "worst_Il1": 0.99,
+  "x_height": 0.501
+ },
+ {
+  "font": "schibsted-grotesk",
+  "coverage": {
+   "Yoruba": 40,
+   "Igbo": 0,
+   "Hausa": 0,
+   "Akan/Ewe/Lingala/Wolof": 30,
+   "Currency \u20a6 \u20b5": 50,
+   "Arabic": 0,
+   "Ge'ez (Amharic)": 0
+  },
+  "confusable": {
+   "I/l": 0.41,
+   "l/1": 0.11,
+   "I/1": 0.21,
+   "O/0": 0.86,
+   "rn/m": 0.81,
+   "b/d": 0.54,
+   "cl/d": 0.4
+  },
+  "worst_Il1": 0.41,
+  "x_height": 0.527
+ },
+ {
+  "font": "space-grotesk",
+  "coverage": {
+   "Yoruba": 100,
+   "Igbo": 100,
+   "Hausa": 0,
+   "Akan/Ewe/Lingala/Wolof": 30,
+   "Currency \u20a6 \u20b5": 100,
+   "Arabic": 0,
+   "Ge'ez (Amharic)": 0
+  },
+  "confusable": {
+   "I/l": 1.0,
+   "l/1": 0.37,
+   "I/1": 0.37,
+   "O/0": 0.97,
+   "rn/m": 0.78,
+   "b/d": 0.55,
+   "cl/d": 0.54
+  },
+  "worst_Il1": 1.0,
+  "x_height": 0.486
+ }
+]
