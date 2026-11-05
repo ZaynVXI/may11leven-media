@@ -20,3 +20,9 @@ The site has no agent skills of its own; it is a tool directory. Agent tools lis
 - Before using any paid app or credits, look up its row here or on openalternative.co and use the free one.
 - Free tools still have to meet our standards: references first, minimal, high fidelity, preflight.
 - Ads on the site (for example sponsored schedulers) are not listings; ignore them.
+
+## Jitter (jitter.video): checked
+- A web motion design tool with Figma import, 4K/GIF/Lottie export on paid plans, AI agents and a Jitter MCP.
+- Free plan: 720p at 30 fps, 3 workspace files, limited AI credits. Watermark removal is Pro-only, so free exports likely carry a watermark.
+- Verdict: not good enough for our posts (we ship 1080x1920 and 1080x1350, unwatermarked), and its AI generation conflicts with our no-AI-imagery rule. Use it only for inspiration (its templates and motion ideas).
+- Our free motion stack does the same jobs: HyperFrames (HTML to video), GSAP/CSS in HTML recorded with Playwright and ffmpeg, the Pillow reel pipeline and Blender. Lottie export is possible via lottie-web workflows when a client needs it.
