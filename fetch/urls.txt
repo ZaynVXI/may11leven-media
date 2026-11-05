@@ -1,3 +1,4 @@
-motto_home.html https://wearemotto.com/
-motto_supply.html https://motto.supply/en-eur
-motto_method.html https://wearemotto.com/motto-method
+ov_piano.json https://api.openverse.org/v1/audio/?page_size=12&license=cc0,by&q=soft%20ambient%20piano&category=music&length=short,medium
+ov_lofi.json https://api.openverse.org/v1/audio/?page_size=12&license=cc0,by&q=calm%20minimal%20electronic%20instrumental&category=music
+ov_roomtone.json https://api.openverse.org/v1/audio/?page_size=12&license=cc0,by&q=room%20tone%20quiet%20office&category=sound_effect
+ov_phonetap.json https://api.openverse.org/v1/audio/?page_size=12&license=cc0,by&q=phone%20screen%20tap&category=sound_effect
