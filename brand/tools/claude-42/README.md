@@ -64,3 +64,8 @@ These are our install notes and how to use each one. To restore the skills in a 
 ## Motion
 - **Installed: motion-design** (LottieFiles, MIT): timing, easing, choreography and Disney principles adapted for UI, for CSS, GSAP, Framer Motion and Lottie. Use it with may11leven-motion for every reel, site interaction and micro-interaction.
 - **Wanted: "Fluid Hero Tiles Motion System"**: it is listed only on claudeskillsmarket.com, which can't be reached from here, and it isn't on GitHub or skills.sh. Zayn can download its zip and attach it; then install with `unzip -o <file>.zip -d ~/.claude/skills/`. Check its licence before using it in client work.
+
+## Design thinking (ORBWEVA/dt-skill)
+- **Installed:** the design-thinking skill plus the `/dt:*` commands: full, empathize (empathy maps, personas, pain points), define ("How might we" plus success criteria), ideate (impact/effort matrix), prototype (specs at the right fidelity), test (test plans), and audit (a 1–25 scorecard for an existing feature).
+- **Licence warning:** CC BY-NC-SA 4.0, which is **non-commercial**. We use it to train our own thinking and plan our own studio work. For paid client work we use the general design-thinking method (Stanford d.school and IDEO stages, which is public knowledge) through may11leven-problem-first, in our own words. We never copy its text or templates into client deliverables.
+- **Fits:** the start of any new site, app or agent build: empathize with the client's customers, then define one "How might we", then ideate, then prototype at the right fidelity, then test. Run `/dt:audit` on our own concepts.
