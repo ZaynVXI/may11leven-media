@@ -68,3 +68,31 @@
 - "Design decisions" series: one UI choice per loop, with construction lines and spacing overlays (from the Harvey II clips).
 - One object on cool grey for studio covers (eye-test card, service card deck), lit with a soft side key.
 - Emails and numbers set in a face where l and 1 differ (Hanken Grotesk).
+
+## Study: dark product sites and index lists (holographik-12 DeepBook, lebedev-14 Haven, satto-07 Pulvinar)
+### Colour (measured)
+- Holographik DeepBook: true black #000000 page, #141414 section bands, grey hairline grid with intersection dots #747579, ONE accent Sui blue ~#236BE3 (#356CC9 in shadows) only on the primary button, isometric tiles and the coin. Light tile (#EDEDE8-ish off-white) breaks one row of three cards.
+- Lebedev Haven: cream #FEF6EB page, navy #1B224E as the only ink (type, pills, globe UI); colour otherwise comes from aerial photos (sea teal, forest). Two-colour site + photo world.
+- Satto Pulvinar: #000000 and #E7E7E7 only (sampled: 608k black px, 516k light-grey px), white #FFFFFF selected row. No accent at all; the hero object (black gloss part on light grey) is the colour.
+### Typography
+- DeepBook: one neo-grotesk Medium; hero ~4.5% of page width, two lines, centred over the hero only; sections switch to left-aligned 2-col (label left, statement right). Small grey body under statements.
+- Haven: condensed serif caps for statements (tight, ~1.05 leading) + small grotesk caps for nav; serif carries the brand, sans carries the UI.
+- Pulvinar: ~13 px grotesk Medium for everything, list rows ~19 px tall, four columns snapped to a 7-dot top grid. Hierarchy = black/white inversion of ONE row, plus a dimmed "List" option at ~40% white. No size steps at all.
+### Layout and ideas
+- The top dot row marks the column grid; every text block starts on one of those dots (Satto, DeepBook blue cross-marks at section corners).
+- Index list + one preview tile: the selected row swaps the preview (Satto). The preview is a tight, abstract crop of a hero object, not the full product shot.
+- Product sections as a 3-card row with one light card among dark ones (DeepBook) = the "one loud tile" rule inside a page.
+- Haven layers windows over a full-bleed aerial photo: the place is the backdrop, the UI floats on it.
+### How they show it on Instagram
+- Holographik posts the whole long page as one tall frame on black, with the site's own hairline grid visible. Satto posts paired states (player view + index view) stacked in one tile. Lebedev collages 3 windows over the client's landscape.
+## Try this week
+- Build our own work index (list + one preview, one inverted row, 7-dot grid) and post it as a stacked two-state tile: preview open above, list below. Practice v1 is in brand/practice/thu-work-index-after.jpg.
+
+## Feed check (next 9 tiles, scheduled in Metricool, read only)
+Order newest-first: What we do (colour fan) · ata case study · Imisozi bags / Clinic eye-test card · ata reel · bathu soles / Inzu phone on linen · eleven bottle reel · fade. phone on walnut.
+- Clean covers: yes, all one finished frame, no added caption text except the small "Can you still read it?" and "What we do." on the card itself (inside the object, fine).
+- One focal point: yes on all 9.
+- Dark/light balance: 4 dark (fade., eleven, ata reel, ata cs) / 5 light-grey. Good overall, BUT all 3 dark bottle tiles stack in the centre column (eleven, ata, ata) -> a dark vertical stripe of bottles.
+- Loud tiles per row: top row has the six-colour card fan AND the clay/black/green Imisozi bags -> two colourful tiles in one row (borderline).
+- Each product its own world: BROKEN. The ata reel cover and the ata case study cover are almost the same frame, one above the other. Fix: use cs-3 (three lighting tests) or cs-2 (label close-up) as the case-study cover, or swap the case study with Imisozi so ata tiles are not in the same column.
+- Also: the published brand clinic carousel went out with Instagram's "AI info" label switched on (isAiGenerated true in Metricool). Every other post has it off. Check it in the app; it hints the page is made with AI.
