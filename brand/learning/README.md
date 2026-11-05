@@ -1,3 +1,6 @@
+## Step 0 (every task): check the skills first
+Before studying a brand, designing, rendering, writing or scheduling, look through the installed skills list and load every one that covers the job (e.g. may11leven-design-workflow, -logo-identity, -brand-platform, -refero, -web-stack, -render-realism, -blender, -reels, -preflight, -feed-aesthetic, -problem-first, brand-studio:brand-review). Only then research and build.
+
 # May11Leven learning log
 One file per craft. The daily deep-dive adds what's new and what's working, and trims stale lines (max ~40 lines per file).
 Every May11Leven skill reads the matching file before designing. Lines are facts from research, with the source domain in brackets.
