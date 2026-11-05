@@ -26,3 +26,14 @@ Feedback: the bottle still looked low quality. New scene (brand/code/ata2/bottle
 
 ## 06 Accessibility pass
 Built a contrast checker into the render pipeline and re-rendered every scheduled post. Two bugs caught on review: tag borders read as background (fixed with a 20th-percentile background), and tag boxes not growing with bigger text (mm.tag now sizes from the font).
+
+## 07 Reel: opacity list (practice/reels/opacity-list-v1.mp4 -> v2.mp4)
+After Holographik's CoMinVi values list. 8 s, Bone, six services, active row Ink, rest 18%, Infrared dot, counter, 11 mark, loop.
+- v1 scores: idea 3 · type 4 · colour 4 · air 4 · fidelity 3 · finish 3 · truth 5. Gaps: soft 4-frame crossfades and an eased dot made it feel like a slideshow (Holographik steps hard); the list flew up and left ~0.5 s of empty grid; the mark was small; "/ 06" floated far from the numeral.
+- Fix (v2): hard 1-frame state changes, dot snaps in 3 frames, list fades in place, mark 440 px 0.2 s after exit with "comment 11", label tight to the numeral.
+- v2 scores: idea 3 · type 4 · colour 4 · air 4 · fidelity 4 · finish 4 · truth 5. Still missing: a real-world plate (they show the list on a laptop on stone); next time put it on a device scene.
+## 08 Work index page (practice/thu-work-index-before.jpg -> -after.jpg, code brand/code/practice/index)
+After Satto's Pulvinar index (satto-07). Black page, 13 px grotesk, list + preview, one inverted row.
+- Before scores: idea 3 · type 4 · colour 4 · air 4 · fidelity 3 · finish 3 · truth 4. Gaps: 4-dot grid and list columns not snapped to it; the preview was the full ata render, dark on black, so the tile vanished; "Concept" repeated in every row as noise.
+- Fix: 7-dot column grid with every column snapped to it; Imisozi row selected so the preview is a light tile, cropped tight and abstract like Satto's; last column = market code (KE/NG/RW/ZA); "Concept" said once in the footer; 4 px row padding.
+- After scores: idea 3 · type 4 · colour 4 · air 4 · fidelity 4 · finish 4 · truth 5. Next: the preview crop is upscaled and slightly soft at 2x; render a dedicated square crop.

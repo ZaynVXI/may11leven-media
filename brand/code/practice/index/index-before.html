@@ -1,0 +1,38 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+@font-face{font-family:IT;src:url(../../../fonts/InterTight-Medium.ttf);font-weight:500}
+@font-face{font-family:IT;src:url(../../../fonts/InterTight-Regular.ttf);font-weight:400}
+@font-face{font-family:PM;src:url(../../../fonts/PlexMono.ttf)}
+:root{--ink:#000;--fg:#fff;--dim:rgba(255,255,255,.42);--ir:#FF4A1C}
+*{margin:0;box-sizing:border-box}
+body{width:1440px;height:900px;background:var(--ink);color:var(--fg);font:400 13px/1.25 IT;letter-spacing:-.01em;overflow:hidden;position:relative}
+.top{display:grid;grid-template-columns:repeat(4,1fr);padding:14px 16px;position:relative}
+.top span:last-child{text-align:right}
+.dots{position:absolute;top:8px;left:0;right:0;display:grid;grid-template-columns:repeat(4,1fr);padding:0 16px}
+.dots i{width:3px;height:3px;background:var(--fg);border-radius:50%;display:block}
+.view{position:absolute;top:150px;left:16px;right:16px;display:grid;grid-template-columns:1fr 1fr 1fr 1fr}
+.view .opt b{font-weight:400;color:var(--dim);margin-right:8px}.view .opt b.on{color:var(--fg)}
+.prev{position:absolute;left:0;top:388px;width:470px;height:470px;overflow:hidden}
+.prev img{width:100%;height:100%;object-fit:cover}
+.list{position:absolute;left:470px;right:0;top:388px;font-weight:500}
+.row{display:grid;grid-template-columns:2fr 1.1fr 1.2fr .25fr;padding:2px 16px 2px 8px;height:19px}
+.row .y{text-align:right}
+.row.on{background:var(--fg);color:#000}
+.row.dimmed{color:var(--fg)}
+.foot{position:absolute;bottom:14px;left:16px;font:11px PM;color:var(--dim)}
+</style></head><body>
+<div class="dots"><i></i><i></i><i></i><i></i></div>
+<div class="top"><span>May11Leven Labs</span><span>Index</span><span>Nairobi &nbsp;14:43 EAT</span><span>hello@may11levenlabs.com</span></div>
+<div class="view"><span>Work</span><span class="opt">View: <b class="on">List</b><b>Grid</b><b>Index</b></span></div>
+<div class="prev"><img src="ata.jpg"></div>
+<div class="list">
+<div class="row"><span>fade.</span><span>Barbershop, Westlands</span><span>App / Product</span><span class="y">Concept</span></div>
+<div class="row on"><span>ata</span><span>Pepper oil, Lagos</span><span>Packaging / 3D film</span><span class="y">Concept</span></div>
+<div class="row"><span>Inzu Lake House</span><span>Hotel, Lake Kivu</span><span>Identity / Web</span><span class="y">Concept</span></div>
+<div class="row"><span>Imisozi</span><span>Coffee, Kigali</span><span>Packaging / Shop</span><span class="y">Concept</span></div>
+<div class="row"><span>bathu</span><span>Sneakers, Johannesburg</span><span>Rebrand</span><span class="y">Concept</span></div>
+<div class="row"><span>eleven</span><span>Serum, Johannesburg</span><span>Product photography</span><span class="y">Concept</span></div>
+<div class="row"><span>Kora Dental</span><span>Clinic, Nairobi</span><span>WhatsApp automation</span><span class="y">Concept</span></div>
+<div class="row"><span>Brand clinic</span><span>Studio</span><span>Logo tests</span><span class="y">Ongoing</span></div>
+</div>
+<div class="foot">Selected work, 08 concepts</div>
+</body></html>
