@@ -50,7 +50,7 @@ if a.caption:
         if e not in c: rep('WARN',f'caption: missing {e}')
     tags=re.findall(r'#\w+',c)
     if len(tags)>5: rep('FAIL',f'caption: {len(tags)} hashtags (max 5)')
-    if '#may11levenlabs' not in tags: rep('WARN','caption: missing #may11levenlabs')
+    if '#may11levenlabs' not in [t.lower() for t in tags]: rep('WARN','caption: missing #may11levenlabs')
     if re.search(r'concept|invented',c,re.I) is None and re.search(r'\bclient\b',c,re.I): rep('WARN','caption: mentions a client but no concept/invented label - confirm it is real')
     if re.search(r'\b(pidgin|abeg|wahala|oya)\b',c,re.I): rep('FAIL','caption: pidgin')
     if len(c)>2200: rep('FAIL','caption over 2200 chars')
