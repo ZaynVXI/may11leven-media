@@ -1,0 +1,338 @@
+{
+  "a11y/a11y.py": {
+    "mtime": 1793833612.092781,
+    "seen": 1793906137.5804977,
+    "ast_hash": "6d71be7ed5e0983467114762c570920f",
+    "semantic_hash": ""
+  },
+  "a11y/run.sh": {
+    "mtime": 1793823230.5946264,
+    "seen": 1793906137.5805051,
+    "ast_hash": "efc81492ed89bab6596e06e26964ecd4",
+    "semantic_hash": ""
+  },
+  "a11y/webaudit.js": {
+    "mtime": 1793823230.594644,
+    "seen": 1793906137.5805085,
+    "ast_hash": "544e04d6672d27a6e67756f62526bfd1",
+    "semantic_hash": ""
+  },
+  "ata2/bottle2.py": {
+    "mtime": 1793819360.1334014,
+    "seen": 1793906137.5805097,
+    "ast_hash": "8d9e15ada0e5eb2a05dedb2bbaf27a37",
+    "semantic_hash": ""
+  },
+  "ata2/reel.py": {
+    "mtime": 1793817002.5480473,
+    "seen": 1793906137.580511,
+    "ast_hash": "3aa9dc83aa99c83c110f3ec6b2dd394c",
+    "semantic_hash": ""
+  },
+  "automation/compose.py": {
+    "mtime": 1793885270.3213522,
+    "seen": 1793906137.5805123,
+    "ast_hash": "1014533c9fb425d3c595d44a43820c4a",
+    "semantic_hash": ""
+  },
+  "automation/cover.py": {
+    "mtime": 1793885270.321606,
+    "seen": 1793906137.5805137,
+    "ast_hash": "5738b163068dcafaf13c9bdf2ffc1166",
+    "semantic_hash": ""
+  },
+  "automation/mix.py": {
+    "mtime": 1793885270.3213668,
+    "seen": 1793906137.580515,
+    "ast_hash": "7c1c408a3540ed90b10790bd10ac347d",
+    "semantic_hash": ""
+  },
+  "automation/phone3d.py": {
+    "mtime": 1793885270.3213077,
+    "seen": 1793906137.5805159,
+    "ast_hash": "c1e8a84f6ded0ab830f90ba0e602b5a9",
+    "semantic_hash": ""
+  },
+  "automation/rec.py": {
+    "mtime": 1793885270.3215911,
+    "seen": 1793906137.5805168,
+    "ast_hash": "9f1b7e7551bcf19d646a80abf5e1afc4",
+    "semantic_hash": ""
+  },
+  "bathu2/boxes.py": {
+    "mtime": 1793815787.9798489,
+    "seen": 1793906137.5805182,
+    "ast_hash": "d046235dad5d904fa6fef76b3cab33ac",
+    "semantic_hash": ""
+  },
+  "bathu2/decals.py": {
+    "mtime": 1793815787.9798758,
+    "seen": 1793906137.5805194,
+    "ast_hash": "f75cff67cb4207cdcf528949b7ab0e46",
+    "semantic_hash": ""
+  },
+  "bathu2/samap.py": {
+    "mtime": 1793815787.9802089,
+    "seen": 1793906137.5805202,
+    "ast_hash": "2a811fdeebdfc234e01ea316dc12dc03",
+    "semantic_hash": ""
+  },
+  "bathu2/slides.py": {
+    "mtime": 1793815787.9798968,
+    "seen": 1793906137.5805218,
+    "ast_hash": "929d1e51fcfc30ef4433ba25fbba47cd",
+    "semantic_hash": ""
+  },
+  "bathu2/sole.py": {
+    "mtime": 1793815787.9797637,
+    "seen": 1793906137.580523,
+    "ast_hash": "9ba1063f5ce9e921c321903d2b56d335",
+    "semantic_hash": ""
+  },
+  "bathu2/soles3d.py": {
+    "mtime": 1793815787.9798222,
+    "seen": 1793906137.5805237,
+    "ast_hash": "24890f9233cff84eaf22454dc12887d2",
+    "semantic_hash": ""
+  },
+  "bathu2/tread.py": {
+    "mtime": 1793815787.9797988,
+    "seen": 1793906137.5805247,
+    "ast_hash": "1bdab51778efe3bc74abda1c1ffc1fe0",
+    "semantic_hash": ""
+  },
+  "carousel_example.py": {
+    "mtime": 1793792918.01759,
+    "seen": 1793906137.5805259,
+    "ast_hash": "c72a1dcb9816b47d4d0abe7736c6fca0",
+    "semantic_hash": ""
+  },
+  "gimp.py": {
+    "mtime": 1793905931.173873,
+    "seen": 1793906137.580527,
+    "ast_hash": "57e0f04c16d6b1f07ae23efc43832a0a",
+    "semantic_hash": ""
+  },
+  "gimp.sh": {
+    "mtime": 1793877500.1477475,
+    "seen": 1793906137.580528,
+    "ast_hash": "26f5c8385b322eb00f572286cf07eb1f",
+    "semantic_hash": ""
+  },
+  "grid_preview.py": {
+    "mtime": 1793793972.447029,
+    "seen": 1793906137.5805292,
+    "ast_hash": "5affda8688d1a295612c2eb481564ed5",
+    "semantic_hash": ""
+  },
+  "hifi/shot.py": {
+    "mtime": 1793806101.1220338,
+    "seen": 1793906137.5805302,
+    "ast_hash": "a0eedc217e9b6648dcfc339f63bef533",
+    "semantic_hash": ""
+  },
+  "imz/labels.py": {
+    "mtime": 1793817858.4127264,
+    "seen": 1793906137.5805314,
+    "ast_hash": "c659d1826710b1bb42ccc8194d7826cf",
+    "semantic_hash": ""
+  },
+  "imz/pouch3d.py": {
+    "mtime": 1793817858.4126942,
+    "seen": 1793906137.5805326,
+    "ast_hash": "e3b3b370e08944a194863d57755969a3",
+    "semantic_hash": ""
+  },
+  "imz/shot.py": {
+    "mtime": 1793817858.4127698,
+    "seen": 1793906137.5805335,
+    "ast_hash": "86519b2c7ede171770ca19c4a2e8db7d",
+    "semantic_hash": ""
+  },
+  "imz/slides.py": {
+    "mtime": 1793817858.412789,
+    "seen": 1793906137.5805345,
+    "ast_hash": "d3548b7e6d622f35092fec385eb4c96b",
+    "semantic_hash": ""
+  },
+  "lap2.py": {
+    "mtime": 1793795957.1021945,
+    "seen": 1793906137.5805357,
+    "ast_hash": "5cfe7240f59096a3a1387f874b9e00ea",
+    "semantic_hash": ""
+  },
+  "mockup_laptop_homography.py": {
+    "mtime": 1793793972.4434772,
+    "seen": 1793906137.5805364,
+    "ast_hash": "8ecb419886ce5b02abc51ba8148a47f9",
+    "semantic_hash": ""
+  },
+  "mockup_phone_frame.py": {
+    "mtime": 1793793972.4452682,
+    "seen": 1793906137.5805373,
+    "ast_hash": "36f1aa555186772915da0134c88d69e2",
+    "semantic_hash": ""
+  },
+  "practice/index/shot.py": {
+    "mtime": 1793883750.3240194,
+    "seen": 1793906137.5805383,
+    "ast_hash": "628df4f03ed4edc05edd32f2520fba04",
+    "semantic_hash": ""
+  },
+  "practice/reel_opacity.py": {
+    "mtime": 1793883750.3240194,
+    "seen": 1793906137.5805395,
+    "ast_hash": "55f090152365153ede88954c3d09c26c",
+    "semantic_hash": ""
+  },
+  "preflight.py": {
+    "mtime": 1793875237.8794866,
+    "seen": 1793906137.5805404,
+    "ast_hash": "2f1611476d0cae1253ca333226df871c",
+    "semantic_hash": ""
+  },
+  "prototype/run.py": {
+    "mtime": 1793794381.3481898,
+    "seen": 1793906137.5805414,
+    "ast_hash": "292dd70d4f431790e1ed02310e7dfa91",
+    "semantic_hash": ""
+  },
+  "type2.py": {
+    "mtime": 1793792918.0139139,
+    "seen": 1793906137.5805426,
+    "ast_hash": "274ff0ec88f060b3b7ae9a1b8feedc59",
+    "semantic_hash": ""
+  },
+  "v3/barber.py": {
+    "mtime": 1793805798.2160738,
+    "seen": 1793906137.5805438,
+    "ast_hash": "d67630318a673080cdfd3563abf83000",
+    "semantic_hash": ""
+  },
+  "v3/clinic.py": {
+    "mtime": 1793805798.2157776,
+    "seen": 1793906137.5805447,
+    "ast_hash": "04aa0157e55cb3ce3a5d3ee1c46e7f94",
+    "semantic_hash": ""
+  },
+  "v3/inzu.py": {
+    "mtime": 1793805798.2163422,
+    "seen": 1793906137.580546,
+    "ast_hash": "d58c9b90041e87bd771ae94c15e2b130",
+    "semantic_hash": ""
+  },
+  "v3/mm.py": {
+    "mtime": 1793833612.036156,
+    "seen": 1793906137.580547,
+    "ast_hash": "afc5819e6000b67b68497429ec8c996b",
+    "semantic_hash": ""
+  },
+  "v3/reel3.py": {
+    "mtime": 1793833612.0364459,
+    "seen": 1793906137.580548,
+    "ast_hash": "de25c745a377eb1bd80eacf5e4602041",
+    "semantic_hash": ""
+  },
+  "a11y/README.md": {
+    "mtime": 1793823230.6199617,
+    "seen": 1793906137.580549,
+    "ast_hash": "c39beaa22f6a8920720a787fd5555d5c",
+    "semantic_hash": ""
+  },
+  "automation/chat_anim.html": {
+    "mtime": 1793885270.3215578,
+    "seen": 1793906137.58055,
+    "ast_hash": "74391f57e872dbd163c0fe0bddb08138",
+    "semantic_hash": ""
+  },
+  "hifi/app.html": {
+    "mtime": 1793806101.121982,
+    "seen": 1793906137.580551,
+    "ast_hash": "be8a4a338f40a990136ffd1fb7f92231",
+    "semantic_hash": ""
+  },
+  "imz/site.html": {
+    "mtime": 1793823230.6049736,
+    "seen": 1793906137.5805519,
+    "ast_hash": "9b992fa7e02045f71dd6bbeb9dbbf419",
+    "semantic_hash": ""
+  },
+  "kivu/site.html": {
+    "mtime": 1793823230.6184254,
+    "seen": 1793906137.5805545,
+    "ast_hash": "b26f2e1c0030818b4b8d7769235531ec",
+    "semantic_hash": ""
+  },
+  "practice/index/index-before.html": {
+    "mtime": 1793883750.3240194,
+    "seen": 1793906137.5805552,
+    "ast_hash": "c9bcf4832b8bc978f38a7b114d97a010",
+    "semantic_hash": ""
+  },
+  "practice/index/index.html": {
+    "mtime": 1793883750.3240194,
+    "seen": 1793906137.5805566,
+    "ast_hash": "76355c4f501e802421d8fdf66d5c4a76",
+    "semantic_hash": ""
+  },
+  "prototype/book.html": {
+    "mtime": 1793794381.3481472,
+    "seen": 1793906137.5805576,
+    "ast_hash": "20f9ca8e87ce502cabee15ccb82cb60f",
+    "semantic_hash": ""
+  },
+  "screen.html": {
+    "mtime": 1793795957.1021662,
+    "seen": 1793906137.5805585,
+    "ast_hash": "4ea3ab97b4ed66c80e7d268d92245800",
+    "semantic_hash": ""
+  },
+  "hifi/s1.png": {
+    "mtime": 1793806101.1220715,
+    "seen": 1793906137.5805597,
+    "ast_hash": "0d16e010f9e1bf343acc942145c3f4de",
+    "semantic_hash": ""
+  },
+  "hifi/s2.png": {
+    "mtime": 1793806101.1222985,
+    "seen": 1793906137.5805607,
+    "ast_hash": "a63a0f1eed6b7869a45b7f8659a49848",
+    "semantic_hash": ""
+  },
+  "hifi/s3.png": {
+    "mtime": 1793806101.1224608,
+    "seen": 1793906137.5805616,
+    "ast_hash": "84fc3966f4e75e4461364b412fbaf3dc",
+    "semantic_hash": ""
+  },
+  "hifi/t_clip.jpg": {
+    "mtime": 1793806101.122565,
+    "seen": 1793906137.5805626,
+    "ast_hash": "c85696ce776640aabab556f6b6bbeaca",
+    "semantic_hash": ""
+  },
+  "hifi/t_comb.jpg": {
+    "mtime": 1793806101.122594,
+    "seen": 1793906137.5805638,
+    "ast_hash": "307d1145c9dd37e052592a2c72abe302",
+    "semantic_hash": ""
+  },
+  "hifi/t_razor.jpg": {
+    "mtime": 1793806101.1226137,
+    "seen": 1793906137.5805647,
+    "ast_hash": "8c95afccc88f1fe18e1e5eac453b9c89",
+    "semantic_hash": ""
+  },
+  "practice/index/ata.jpg": {
+    "mtime": 1793883750.2370107,
+    "seen": 1793906137.5805657,
+    "ast_hash": "670043a14b176adcb7aeb26e79c8700b",
+    "semantic_hash": ""
+  },
+  "practice/index/imz.jpg": {
+    "mtime": 1793883750.3240194,
+    "seen": 1793906137.5805666,
+    "ast_hash": "76e905c09d42753bce32fa12ac0c2b48",
+    "semantic_hash": ""
+  }
+}
