@@ -1,4 +1,5 @@
-ov_piano.json https://api.openverse.org/v1/audio/?page_size=12&license=cc0,by&q=soft%20ambient%20piano&category=music&length=short,medium
-ov_lofi.json https://api.openverse.org/v1/audio/?page_size=12&license=cc0,by&q=calm%20minimal%20electronic%20instrumental&category=music
-ov_roomtone.json https://api.openverse.org/v1/audio/?page_size=12&license=cc0,by&q=room%20tone%20quiet%20office&category=sound_effect
-ov_phonetap.json https://api.openverse.org/v1/audio/?page_size=12&license=cc0,by&q=phone%20screen%20tap&category=sound_effect
+ova_piano.json https://api.openverse.org/v1/audio/?page_size=15&license=cc0,by&q=ambient%20piano
+ova_calm.json https://api.openverse.org/v1/audio/?page_size=15&license=cc0,by&q=calm%20instrumental
+ova_roomtone.json https://api.openverse.org/v1/audio/?page_size=15&license=cc0,by&q=room%20tone
+ova_tap.json https://api.openverse.org/v1/audio/?page_size=15&license=cc0,by&q=phone%20tap
+ova_nolic.json https://api.openverse.org/v1/audio/?q=piano&page_size=5
