@@ -95,3 +95,21 @@ Steal the thinking, never the look or their trademarks. Mix them with our other 
 - **"11 on the shelf, edition 001":** a carousel of the free tools, books and sites we actually learn from (Steal Like an Artist, Logo Archive's free notes, Refero, Poly Haven, Blender, the EAA guide). Numbered 11.01-11.08, white page, one grotesk, product shots on grey tiles (Blender-rendered books or free stock). It shows taste and builds trust. Credit every source.
 - **Series colour coding:** each service gets one accent in our posts (brand, web, apps, packaging, AI automation), on the same grid and layout. It reads like Motto's workbooks.
 - **Report pages:** the 11 Field Notes as a dark page with one display device. For us that's a dot or tick device from our ring kit, not a copy of their dot-matrix.
+
+## How Motto presents work on Instagram (from Zayn's 13 clips and grid screenshots)
+- **One continuous take, almost no cuts.** Scene detection found 0-1 cuts across 14-20 s clips. Reels are smooth screen recordings: a store page scrolling (products on light grey tiles), an article scrolling on a phone, a case-study guideline page scrolling, and a report page whose dot-matrix type keeps morphing. The motion is the scroll or the type, never flashy transitions.
+- **Short loops for carousels and grid tiles:** 2-8 s silent loops (a device in hand, a report page with type animating). Built to loop seamlessly.
+- **Sound: instrumental only, no voiceover, no speech.** Measured on the two clips with audio:
+  - Soft, tonal music (low spectral flatness: real instruments or synths, not noise or SFX).
+  - Mid-tempo pulse: about 92 BPM on the store scroll (warm, low-mid tone, fades down halfway, under the content) and about 72 BPM (half-time feel) on the article scroll (a bit brighter and steady).
+  - Loudness around -13 to -16 dB: present but calm. The music sets a mood; it never drives cuts.
+  - It's likely licensed library or Instagram tracks. We don't copy tracks; we use our own designed sound or free-licence ambient music.
+- **Frames:** lots of white or cool-grey space, one object centred, a tiny "Motto" wordmark at the left edge and a small item label at the right. Dark frames are used for reports and the AI theme. Devices are shown real (iPad, iPhone) and straight-on, often held in a hand or on a plain ground.
+- **Grid rhythm:** it alternates light product and store tiles, dark report tiles, client identity tiles (each with its own colour world: ivo green, Cresta blue and chrome) and a mark on its construction grid. Every tile has one subject.
+- **Captions:** a positioning line, the idea, the scope list ("What we did") and a link CTA.
+
+### Steal like an artist for our reels
+- More one-take reels: a calm continuous scroll of the real site we built (Inzu, Imisozi), recorded with Playwright at 60 fps using an eased scroll, framed on a plain ground or in a held device (free stock hand, or Blender).
+- Sound: our own soft tonal bed at 72-92 BPM, mixed around -14 LUFS, no voiceover, with gentle swells at section changes instead of hard hits. Keep a subtle UI tick only where a tap happens.
+- Loops: 4-6 s seamless loops for carousel covers (a ring ticking, the mark breathing).
+- Cuts only when the story needs them (before/after, three lights); otherwise let one take breathe.
