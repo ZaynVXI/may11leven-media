@@ -1,5 +1,8 @@
-ova_piano.json https://api.openverse.org/v1/audio/?page_size=15&license=cc0,by&q=ambient%20piano
-ova_calm.json https://api.openverse.org/v1/audio/?page_size=15&license=cc0,by&q=calm%20instrumental
-ova_roomtone.json https://api.openverse.org/v1/audio/?page_size=15&license=cc0,by&q=room%20tone
-ova_tap.json https://api.openverse.org/v1/audio/?page_size=15&license=cc0,by&q=phone%20tap
-ova_nolic.json https://api.openverse.org/v1/audio/?q=piano&page_size=5
+snd_pianoambiance4.mp3 https://cdn.freesound.org/previews/387/387588_9497060-hq.mp3
+snd_ambientpianoloop85.mp3 https://cdn.freesound.org/previews/506/506692_11009121-hq.mp3
+snd_hakrenjazzy.mp3 https://cdn.freesound.org/previews/414/414813_9497060-hq.mp3
+snd_hakrenjazzy.mp3 https://cdn.freesound.org/previews/426/426751_9497060-hq.mp3
+snd_hakrenjazzy.mp3 https://cdn.freesound.org/previews/426/426750_9497060-hq.mp3
+snd_roomtoneofficequie.mp3 https://cdn.freesound.org/previews/135/135097_658546-hq.mp3
+snd_iphonetaps.mp3 https://cdn.freesound.org/previews/171/171424_553852-hq.mp3
+snd_smartphoneclick.mp3 https://cdn.freesound.org/previews/444/444683_5357386-hq.mp3
