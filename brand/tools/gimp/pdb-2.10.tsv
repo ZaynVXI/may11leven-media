@@ -1,0 +1,1602 @@
+gimp-image-set-colormap	Sets the entries in the image's colormap.	image num-bytes colormap 
+gimp-brushes-get-brush-data	Deprecated: Use 'gimp-brush-get-pixels' instead.	name 
+gimp-context-get-transform-direction	Get the transform direction.	
+gimp-image-scale	Scale the image using the default interpolation method.	image new-width new-height 
+gimp-vectors-bezier-stroke-cubicto	Extends a bezier stroke with a cubic bezier spline.	vectors stroke-id x0 y0 x1 y1 x2 y2 
+plug-in-blinds	Simulate an image painted on window blinds	run-mode image drawable angle-dsp num-segments orientation bg-transparent 
+gimp-floating-sel-remove	Remove the specified floating selection from its associated drawable.	floating-sel 
+plug-in-gfig	Create geometric shapes	run-mode image drawable dummy 
+file-raw-placeholder-mef-load	Load files in the MEF raw format via raw-placeholder	run-mode filename raw-filename 
+gimp-image-pick-correlate-layer	Find the layer visible at the specified coordinates.	image x y 
+gimp-palettes-popup	Invokes the Gimp palette selection.	palette-callback popup-title initial-palette 
+script-fu-convolution-presets-sharp	Set of presets for convolution matrix (Sharp)	run-mode image drawable option value toggle option toggle toggle toggle toggle toggle 
+script-fu-Eg-AddFilmGrain	Add realistic film grain to BW images	run-mode image drawable toggle color value value value value value 
+gimp-plugin-help-register	Register a help path for a plug-in.	domain-name domain-uri 
+gimp-unit-get-factor	Returns the factor of the unit.	unit-id 
+gimp-gradient-segment-set-right-color	Sets the right endpoint color of the specified segment	name segment color opacity 
+elsamuko-color-tint	Add color tint layer.
+Latest version can be downloaded from http://registry.gimp.org/	run-mode image drawable color value value toggle 
+script-fu-make-brush-elliptical	Create an elliptical brush	run-mode string value value value 
+file-raw-placeholder-raf-load	Load files in the RAF raw format via raw-placeholder	run-mode filename raw-filename 
+file-png-set-defaults	Set the current set of defaults used by the PNG file export plug-in	interlace compression bkgd gama offs phys time comment svtrans 
+elsamuko-rainy-landscape	After rain effect.	run-mode image drawable color color value value 
+elsamuko-escape-lines	Paint Escape Lines
+Newest version can be downloaded from http://registry.gimp.org	run-mode image drawable value value value value value value value value value value value value color 
+script-fu-make-a-pentagon	Makes an ordinary pentagon inside the selection on current layer, no questions asked	run-mode image drawable 
+gimp-context-set-interpolation	Set the interpolation type.	interpolation 
+gimp-context-list-paint-methods	Lists the available paint methods.	
+script-fu-selection-to-image	Convert a selection to an image	run-mode image drawable 
+gimp-image-get-item-position	Returns the position of the item in its level of its item tree.	image item 
+gimp-gradient-segment-range-move	Move the position of an entire segment range by a delta.	name start-segment end-segment delta control-compress 
+plug-in-borderaverage	Set foreground to the average color of the image border	run-mode image drawable thickness bucket-exponent 
+extension-dbp	Batch processes multiple images	run-mode 
+script-fu-anim-settings	Sets the Frame delay and mode of GIF animations by renaming visible layers.	run-mode image drawable value option 
+script-fu-convolution-presets-color-invert	Set of presets for convolution matrix (Color Invert)	run-mode image drawable option value toggle option toggle toggle toggle toggle toggle 
+script-fu-midtone-sharp	Sharpen the midtones of an image	run-mode image drawable 
+gimp-image-undo-group-end	Finish a group undo.	image 
+file-xmc-load	Loads files of X11 Mouse Cursor file format	run-mode filename raw-filename 
+gimp-item-get-lock-content	Get the 'lock content' state of the specified item.	item 
+gimp-item-get-name	Get the name of the specified item.	item 
+gimp-gradient-get-uniform-samples	Sample the specified in uniform parts.	name num-samples reverse 
+gimp-image-flatten	Flatten all visible layers into a single layer. Discard all invisible layers.	image 
+gimp-selection-translate	Translate the selection by the specified offsets.	image offx offy 
+plug-in-qbist	Generate a huge variety of abstract patterns	run-mode image drawable 
+gimp-gradient-segment-range-flip	Flip the segment range	name start-segment end-segment 
+gimp-brush-get-spacing	Gets the brush spacing.	name 
+gimp-context-get-gradient-blend-color-space	Get the gradient blend color space.	
+gimp-vectors-bezier-stroke-new-ellipse	Adds a bezier stroke describing an ellipse the vectors object.	vectors x0 y0 radius-x radius-y angle 
+plug-in-cml-explorer	Create abstract Coupled-Map Lattice patterns	ru--mode image drawable parameter-filename 
+file-dds-load	Loads files in DDS image format	run-mode filename raw-filename load-mipmaps decode-images 
+gimp-image-convert-set-dither-matrix	Set dither matrix for conversion to indexed	width height matrix-length matrix 
+gimp-register-thumbnail-loader	Associates a thumbnail loader with a file load procedure.	load-proc thumb-proc 
+gimp-drawable-transform-rotate-default	Deprecated: Use 'gimp-item-transform-rotate' instead.	drawable angle auto-center center-x center-y interpolate clip-result 
+gimp-text-layer-set-antialias	Enable/disable anti-aliasing in a text layer.	layer antialias 
+script-fu-Paintwithlight	Add black dodge layer and white burn layer. Painting on the black layer will add lighter regions to the layer below, and painting on the white layer will add darker regions to the layer below. BEST WHEN USED GENTLY! Try soft brush set to 3% opacity.	run-mode image drawable 
+file-png-get-defaults	Get the current set of defaults used by the PNG file export plug-in	
+script-fu-Land-paint	Add Darken Only layer and blur it	run-mode image drawable value toggle 
+gimp-edit-copy-visible	Copy from the projection.	image 
+file-sgi-load	Loads files in SGI image file format	run-mode filename raw-filename 
+gimp-desaturate	Deprecated: Use 'gimp-drawable-desaturate' instead.	drawable 
+gimp-brush-set-spikes	Sets the number of spikes for a generated brush.	name spikes-in 
+file-gif-save	exports files in Compuserve GIF file format	run-mode image drawable uri raw-uri interlace loop default-delay default-dispose 
+script-fu-lomo-effect	Give LOMO look to a photos.	run-mode image drawable toggle toggle 
+plug-in-max-rgb	Reduce image to pure red, green, and blue	run-mode image drawable max-p 
+file-pcx-save	Exports files in ZSoft PCX file format	run-mode image drawable filename raw-filename 
+elsamuko-sunny-landscape	Artificial sunshine effect.	run-mode image drawable value value value value value color color value value toggle 
+elsamuko-erosion-sharpen	Sharpens the image with erosion and dilation	run-mode image drawable value value 
+script-fu-fuzzy-border	Add a jagged, fuzzy border to an image	run-mode image drawable color value toggle value toggle value toggle toggle 
+gimp-image-reorder-item	Reorder the specified item within its item tree	image item parent position 
+file-raw-placeholder-erf-load	Load files in the ERF raw format via raw-placeholder	run-mode filename raw-filename 
+file-csource-save	Dump image data in RGB(A) format for C source	run-mode image drawable filename raw-filename 
+gimp-levels-stretch	Deprecated: Use 'gimp-drawable-levels-stretch' instead.	drawable 
+gimp-image-pick-color	Determine the color at the given drawable coordinates	image drawable x y sample-merged sample-average average-radius 
+gimp-layer-get-composite-mode	Get the composite mode of the specified layer.	layer 
+gimp-brush-set-spacing	Sets the brush spacing.	name spacing 
+gimp-drawable-width	Returns the width of the drawable.	drawable 
+script-fu-matchpoints	Aligns two points on the current layer with two
+points on any other layer(s) by scaling the layer, moving
+point 1 onto point 2, and rotating point 3 onto point 4.
+You must create a path containing these four points in the
+order 1, 2, 3, 4 (where 1 moves to 2, 3 moves to 4) prior
+to executing this script.	run-mode image drawable string option 
+gimp-context-set-ink-angle	Set ink angle in degrees.	angle 
+gimp-drawable-transform-scale-default	Deprecated: Use 'gimp-item-transform-scale' instead.	drawable x0 y0 x1 y1 interpolate clip-result 
+plug-in-pixelize	Simplify image into an array of solid-colored squares	run-mode image drawable pixel-width 
+gimp-context-get-line-width-unit	Get the line width unit setting.	
+script-fu-add-mat	Add a single mat around an image	run-mode image drawable value option color value value option color toggle pattern toggle toggle value value value value toggle toggle 
+script-fu-convolution-presets-posterize	Set of presets for convolution matrix (Posterize)	run-mode image drawable value value toggle option toggle toggle toggle toggle toggle 
+gimp-channel-new-from-component	Create a new channel from a color component	image component name 
+script-fu-Eg-HighPassSharpen	Eg High-Pass Filter Sharpen	run-mode image drawable value value toggle 
+gimp-patterns-close-popup	Close the pattern selection dialog.	pattern-callback 
+file-pfm-save	Exports files in the PFM file format	run-mode image drawable filename raw-filename 
+gimp-gradients-get-gradient-data	Deprecated: Use 'gimp-gradient-get-uniform-samples' instead.	name sample-size reverse 
+gimp-text-layer-resize	Resize the box of a text layer.	layer width height 
+gimp-clone-default	Clone from the source to the dest drawable using the current brush	drawable num-strokes strokes 
+gimp-gradient-segment-get-blending-function	Retrieves the gradient segment's blending function	name segment 
+file-save-rgbe	Saves files in the RGBE file format	run-mode image drawable filename raw-filename 
+gimp-gradient-new	Creates a new gradient	name 
+file-ps-load	load PostScript documents	run-mode filename raw-filename 
+script-fu-convolution-presets-brightness-contrast	Set of presets for convolution matrix (Brightness-Contrast)	run-mode image drawable value value toggle option toggle toggle toggle toggle toggle 
+gimp-image-get-channels	Returns the list of channels contained in the specified image.	image 
+gimp-brush-duplicate	Duplicates a brush.	name 
+script-fu-gothic-glow	Add blurred multiply layer and a blurred screen layer with optional masks. Good for adding a surreal effect to images, especially landscapes.	run-mode image drawable value value toggle 
+gimp-image-resize-to-layers	Resize the image to fit all layers.	image 
+elsamuko-antique-border	Adding an Antique Photo Border
+Newest version can be downloaded from http://registry.gimp.org	run-mode image drawable value value color value value value toggle 
+file-bmp-save	Saves files in Windows BMP file format	run-mode image drawable filename raw-filename 
+gimp-image-select-color	Create a selection by selecting all pixels (in the specified drawable) with the same (or similar) color to that specified.	image operation drawable color 
+gimp-drawable-type	Returns the drawable's type.	drawable 
+gimp-flip	Deprecated: Use 'gimp-item-transform-flip-simple' instead.	drawable flip-type 
+gimp-get-parasite-list	List all parasites.	
+file-header-save	saves files as C unsigned character array	run-mode image drawable filename raw-filename 
+gimp-image-lower-item	Lower the specified item in its level in its item tree	image item 
+gimp-debug-timer-end	Finishes measuring elapsed time.	
+gimp-image-set-metadata	Set the image's metadata.	image metadata-string 
+file-raw-placeholder-bay-load	Load files in the BAY raw format via raw-placeholder	run-mode filename raw-filename 
+file-fli-save	export FLI-movies	run-mode image drawable filename raw-filename from-frame to-frame 
+plug-in-smooth-palette	Derive a smooth color palette from the image	run-mode image drawable width height ntries show-image 
+script-fu-xmedia-bw-photo	Creates a black & white photograph style image.	run-mode image drawable value value value toggle option 
+gimp-context-get-line-join-style	Get the line join style setting.	
+elsamuko-grain	Simulating Film Grain.
+Newest version can be downloaded from http://registry.gimp.org/node/8108	run-mode image drawable value value value value toggle 
+gimp-image-get-vectors-by-name	Find a vectors with a given name in an image.	image name 
+gimp-text-layer-get-justification	Get the text justification information of the text layer.	layer 
+gimp-gradients-close-popup	Close the gradient selection dialog.	gradient-callback 
+gimp-edit-named-cut	Cut into a named buffer.	drawable buffer-name 
+gimp-image-get-selection	Returns the specified image's selection.	image 
+gimp-item-get-visible	Get the visibility of the specified item.	item 
+photo-RoyLichtenstein	Add Roy Lichtenstein effect to an image	run-mode image toggle toggle value color value option value toggle toggle value option value value value value value value toggle 
+script-fu-spyrogimp	This procedure is deprecated! Use 'plug-in-spyrogimp' instead.	run-mode image drawable option option value value value value value option brush option color gradient 
+plug-in-blur	Simple blur, fast but not very strong	run-mode image drawable 
+gimp-context-get-foreground	Get the current GIMP foreground color.	
+script-fu-layer-effects-satin	Create the Satin effect on the layer with alpha	run-mode image drawable color value value value value option toggle 
+script-fu-Liquid-Water-logo-alpha	Liquid water effect	run-mode image drawable color value value value 
+script-fu-copy-visible	This procedure is deprecated! Use 'gimp-edit-copy-visible' instead.	run-mode image drawable 
+gimp-vectors-stroke-rotate	rotates the given stroke.	vectors stroke-id center-x center-y angle 
+gimp-item-transform-rotate-simple	Rotate the specified item about given coordinates through the specified angle.	item rotate-type auto-center center-x center-y 
+gimp-register-file-handler-uri	Registers a file handler procedure as capable of handling URIs.	procedure-name 
+gimp-image-add-channel	Deprecated: Use 'gimp-image-insert-channel' instead.	image channel position 
+script-fu-layer-effects-drop-shadow	Create the Drop Shadow on the layer with alpha	run-mode image drawable color value value value value value option 
+gimp-image-get-metadata	Returns the image's metadata.	image 
+gimp-layer-translate	Translate the layer by the specified offsets.	layer offx offy 
+script-fu-layers-scalecrop	Scales or Crops layers from the specified layer range	run-mode image drawable value value option option value value value value option 
+script-fu-cross-light	Cross light effect	run-mode image drawable value value value value 
+gimp-context-set-ink-tilt-sensitivity	Set ink tilt sensitivity.	tilt 
+gimp-fonts-refresh	Refresh current fonts. This function always succeeds.	
+plug-in-zealouscrop	Autocrop unused space from edges and middle	run-mode image drawable 
+power-toning	Adds a neutral gray and color of choice to an existing image. Almost an IR effect.	run-mode image drawable color toggle 
+script-fu-pandora-combine	Line up layers as a panorama	run-mode image drawable value toggle toggle 
+file-gif-save2	exports files in Compuserve GIF file format	run-mode image drawable uri raw-uri interlace loop default-delay default-dispose as-animation force-delay force-dispose 
+gimp-plugin-menu-branch-register	Register a sub-menu.	menu-path menu-name 
+gimp-item-set-visible	Set the visibility of the specified item.	item visible 
+gimp-file-save-thumbnail	Saves a thumbnail for the given image	image filename 
+plug-in-icc-profile-apply-rgb	Apply default RGB color profile on the image	run-mode image intent bpc 
+gimp-context-set-stroke-method	Set the specified stroke method as the active stroke method.	stroke-method 
+plug-in-cubism	Convert the image into randomly rotated square blobs	run-mode image drawable tile-size tile-saturation bg-color 
+script-fu-Eg-StairInterpolation	Scale up images with minimal cost in quality but larger cost in time. Enlarges the image step by step	run-mode image drawable value 
+gimp-item-get-children	Returns the item's list of children.	item 
+plug-in-lighting	Apply various lighting effects to an image	run-mode image drawable bumpdrawable envdrawable dobumpmap doenvmap bumpmaptype lighttype lightcolor lightposition-x lightposition-y lightposition-z lightdirection-x lightdirection-y lightdirection-z ambient-intensity diffuse-intensity diffuse-reflectivity specular-reflectivity highlight antialiasing newimage transparentbackground 
+plug-in-gauss-iir2	Apply a gaussian blur	run-mode image drawable horizontal vertical 
+gimp-context-set-sample-threshold-int	Set the sample threshold setting as an integer value.	sample-threshold 
+gimp-layer-set-mode	Set the combination mode of the specified layer.	layer mode 
+gimp-register-file-handler-mime	Associates MIME types with a file handler procedure.	procedure-name mime-types 
+script-fu-analogize	A simple analog camera faking effect	run-mode image drawable value value value value toggle toggle toggle 
+gimp-text-layer-get-antialias	Check if antialiasing is used in the text layer.	layer 
+gimp-image-select-contiguous-color	Create a selection by selecting all pixels around specified coordinates with the same (or similar) color to that at the coordinates.	image operation drawable x y 
+gimp-image-set-component-active	Sets if the specified image's image component is active.	image component active 
+gimp-help-using-photography	Bookmark to the user manual	run-mode 
+script-fu-convolution-presets-smudge	Set of presets for convolution matrix (Smudge)	run-mode image drawable option value value toggle option toggle toggle toggle toggle toggle 
+gimp-item-is-group	Returns whether the item is a group item.	item 
+script-fu-letter-drop	Given a text string, generates an animated sequence where letters drop onto the background individually.	run-mode string color color toggle font value value value value value value toggle toggle gradient 
+plug-in-colormap-remap	Rearrange the colormap	run-mode image drawable num-colors map 
+script-fu-resize-image-to-layers	Resize the image to fit to the layers, leaving outside of the image boundaries anything that was already out of boundaries. It allows to add a border.	run-mode image drawable value toggle 
+gimp-item-set-color-tag	Set the color tag of the specified item.	item color-tag 
+gimp-item-is-vectors	Returns whether the item is a vectors.	item 
+gimp-palette-add-entry	Adds a palette entry to the specified palette.	name entry-name color 
+file-raw-placeholder-minolta-load	Load files in the Minolta raw formats via raw-placeholder	run-mode filename raw-filename 
+gimp-vectors-to-selection	Deprecated: Use 'gimp-image-select-item' instead.	vectors operation antialias feather feather-radius-x feather-radius-y 
+gimp-message	Displays a dialog box with a message.	message 
+script-fu-convolution-presets-sharp-symmetric	Set of presets for convolution matrix (Symmetric Sharp)	run-mode image drawable option value value toggle toggle option toggle toggle toggle toggle toggle 
+plug-in-ifscompose	Create an Iterated Function System (IFS) fractal	run-mode image drawable 
+script-fu-Eg-Border	Generate a border around an image	run-mode image drawable value toggle toggle value color color toggle 
+script-fu-mirror-dup	Duplicates the image with mirror images	run-mode image drawable value toggle toggle toggle 
+gimp-image-select-item	Transforms the specified item into a selection	image operation item 
+gimp-image-get-default-new-layer-mode	Get the default mode for newly created layers of this image.	image 
+file-tiff-save2	Exports files in the TIFF file format	run-mode image drawable filename raw-filename compression save-transp-pixels 
+gimp-file-load-layers	Loads an image file as layers for an existing image.	run-mode image filename 
+script-fu-difference-clouds	Solid noise applied with Difference layer mode	run-mode image drawable 
+script-fu-make-a-common-star	Makes an ordinary star shape inside the selection on current layer, no questions asked	run-mode image drawable 
+gimp-context-set-brush	Set the specified brush as the active brush.	name 
+plug-in-randomize-hurl	Completely randomize a fraction of pixels	run-mode image drawable rndm-pct rndm-rcount randomize seed 
+gimp-image-merge-layer-group	Merge the passed layer group's layers into one normal layer.	image layer-group 
+gimp-context-get-ink-angle	Get ink angle in degrees.	
+script-fu-layer-effects-styles-sample	Layer Style sample script	run-mode image drawable value pattern 
+file-webp-save2	Saves files in the WebP image format	run-mode image drawable filename raw-filename preset lossless quality alpha-quality animation anim-loop minimize-size kf-distance exif iptc xmp thumbnail delay force-delay 
+gimp-context-set-line-miter-limit	Set the line miter limit setting.	miter-limit 
+gimp-image-get-parasite	Look up a parasite in an image	image name 
+gimp-context-get-mypaint-brush	Retrieve the currently active MyPaint brush.	
+script-fu-convolution-presets-artistic	Set of presets for convolution matrix (Artistic)	run-mode image drawable option value value toggle toggle option toggle toggle toggle toggle toggle 
+gimp-path-set-locked	Deprecated: Use 'gimp-vectors-set-linked' instead.	image name locked 
+gimp-vectors-stroke-interpolate	returns polygonal approximation of the stroke.	vectors stroke-id precision 
+plug-in-fractal-trace	Transform image with the Mandelbrot Fractal	run-mode image drawable xmin xmax ymin ymax depth outside-type 
+gimp-edit-stroke	Stroke the current selection	drawable 
+script-fu-convolution-presets-edge-detect-sobel	Set of presets for convolution matrix (Edge Detect Sobel)	run-mode image drawable option value option toggle toggle toggle option toggle toggle toggle toggle toggle 
+gimp-register-magic-load-handler	Registers a file load handler procedure.	procedure-name extensions prefixes magics 
+script-fu-convolution-presets-edge-detect-laplace	Set of presets for convolution matrix (Edge Detect Laplace)	run-mode image drawable option value option toggle toggle toggle toggle option toggle toggle toggle toggle toggle 
+file-raw-placeholder-dng-load	Load files in the DNG raw format via raw-placeholder	run-mode filename raw-filename 
+gimp-get-icon-theme-dir	Get the directory of the current icon theme.	
+elsamuko-glass-displacement	Create a glass gravure from first two layers.
+Latest version can be downloaded from http://registry.gimp.org	run-mode image drawable value 
+gimp-palette-set-columns	Sets the number of columns to use when displaying the palette	name columns 
+script-fu-convolution-presets-edge-detect-line	Set of presets for convolution matrix (Edge Detect Line Detection)	run-mode image drawable value option option toggle toggle option toggle toggle toggle toggle toggle 
+plug-in-edge	Several simple methods for detecting edges	run-mode image drawable amount warpmode edgemode 
+file-psd-load	Loads images from the Photoshop PSD file format	run-mode filename raw-filename 
+file-bmp-save2	Saves files in Windows BMP file format	run-mode image drawable filename raw-filename use-rle write-color-space rgb-format 
+gimp-image-get-floating-sel	Return the floating selection of the image.	image 
+gimp-gradients-sample-custom	Deprecated: Use 'gimp-gradient-get-custom-samples' instead.	num-samples positions reverse 
+gimp-image-scale-full	Deprecated: Use 'gimp-image-scale' instead.	image new-width new-height interpolation 
+plug-in-goat-exercise	Exercise a goat	run-mode image drawable 
+script-fu-Eg-InfraredChannelswitch	Switch Red and Blue channels in color IR images, autolevel colors	run-mode image drawable toggle toggle 
+plug-in-script-fu-text-console	Provides a text console mode for script-fu development	run-mode 
+gimp-context-set-sample-criterion	Set the sample criterion setting.	sample-criterion 
+gimp-image-new-with-precision	Creates a new image with the specified width, height, type and precision.	width height type precision 
+gimp-drawable-brightness-contrast	Modify brightness/contrast in the specified drawable.	drawable brightness contrast 
+gimp-gradient-segment-get-left-color	Retrieves the left endpoint color of the specified segment	name segment 
+gimp-curves-explicit	Deprecated: Use 'gimp-drawable-curves-explicit' instead.	drawable channel num-bytes curve 
+file-pat-load	Loads GIMP patterns	dummy-param uri raw-uri 
+gimp-patterns-set-popup	Sets the current pattern in a pattern selection dialog.	pattern-callback pattern-name 
+gimp-selection-invert	Invert the selection mask.	image 
+file-png-load	Loads files in PNG file format	run-mode filename raw-filename 
+file-pdf-load	Load file in PDF format	run-mode filename raw-filename 
+elsamuko-photochrom	Photochrom effect from 1890.	run-mode image drawable color color value value value value toggle toggle 
+plug-in-normalize	Stretch brightness values to cover the full range	run-mode image drawable 
+script-fu-stair-resize	Resizes the image to desired size in small steps	run-mode image drawable option value value 
+gimp-progress-cancel	Cancels a running progress.	progress-callback 
+script-fu-shiny-logo-alpha	Scott-effect: Shiny Corroded Painting	run-mode image drawable color value value value value color toggle value 
+script-fu-red-eye	Removes red eye; given selection is seed.	run-mode image drawable value value value value value 
+script-fu-convolution-presets-effects-test	Set of presets for convolution matrix (Effects)	run-mode image drawable option value option 
+gimp-layer-copy	Copy a layer.	layer add-alpha 
+gimp-drawable-edit-gradient-fill	Draw a gradient between the starting and ending coordinates with the specified gradient type.	drawable gradient-type offset supersample supersample-max-depth supersample-threshold dither x1 y1 x2 y2 
+gimp-by-color-select-full	Deprecated: Use 'gimp-image-select-color' instead.	drawable color threshold operation antialias feather feather-radius-x feather-radius-y sample-merged select-transparent select-criterion 
+gimp-layer-set-composite-space	Set the composite space of the specified layer.	layer composite-space 
+gimp-selection-feather	Feather the image's selection	image radius 
+gimp-item-transform-shear	Shear the specified item about its center by the specified magnitude.	item shear-type magnitude 
+plug-in-separate-light	Generate CMYK separations	run-mode image drawable input-profile use-embedded-profile output-profile rendering-intent use-bpc preserve-black overprint-black use-dither 
+plug-in-icc-profile-apply	Apply a color profile on the image	run-mode image profile intent bpc 
+gimp-get-theme-dir	Get the directory of the current GUI theme.	
+gimp-drawable-fill	Fill the drawable with the specified fill mode.	drawable fill-type 
+diana-holga2c	This script-fu for The Gimp is a attempt to simulate the Diana/Holga Toys Cameras effect.
+Last version can be found at:
+http://www.vide.memoire.free.fr/photo/contrefacons/diana-holga2c.scm
+Examples of use can be seen at:
+http://www.vide.memoire.free.fr/photo/contrefacons/contrefacons2.php
+A tutorial in French at:
+http://www.vide.memoire.free.fr/photo/contrefacons/contrefacons.php
+
+Ce script-fu pour The Gimp est une tentative pour simuler l'effet Toy Camera Diana/Holga.
+La derni`ere version peut ^etre obtenue `a:
+http://www.vide.memoire.free.fr/photo/contrefacons/diana-holga2c.scm
+Des exemples d'utilisation peuvent tre vus : http://www.vide.memoire.free.fr/photo/contrefacons/contrefacons2.php
+Une description :
+http://www.vide.memoire.free.fr/photo/contrefacons/contrefacons.php	run-mode image drawable value value value value value toggle 
+elsamuko-lomo	Do a lomo effect on image. 
+Latest version can be downloaded from http://registry.gimp.org/node/7870	run-mode image drawable value value value value value value value value option toggle toggle toggle toggle value value value 
+plug-in-gflare	Produce a lense flare effect using gradients	run-mode image drawable gflare-name xcenter ycenter radius rotation hue vangle vlength use-asupsample asupsample-max-depth asupsample-threshold 
+gimp-drawable-edit-stroke-item	Stroke the specified item	drawable item 
+gimp-by-color-select	Deprecated: Use 'gimp-image-select-color' instead.	drawable color threshold operation antialias feather feather-radius sample-merged 
+gimp-drawable-colorize-hsl	Render the drawable as a grayscale image seen through a colored glass.	drawable hue saturation lightness 
+gimp-item-set-expanded	Sets the expanded state of the item.	item expanded 
+gimp-palette-export-text	Write all the colors in a palette to a text file, one hexadecimal value per line (no names)	run-mode dirname string 
+script-fu-chrominium-logo-alpha	Chrominium logo	run-mode image drawable toggle gradient color color toggle 
+file-pdf-load-thumb	Loads a preview from a PDF file.	filename thumb-size 
+file-raw-placeholder-qtk-load	Load files in the QTK raw format via raw-placeholder	run-mode filename raw-filename 
+gimp-floating-sel-anchor	Anchor the specified floating selection to its associated drawable.	floating-sel 
+gimp-channel-get-opacity	Get the opacity of the specified channel.	channel 
+gimp-layer-get-opacity	Get the opacity of the specified layer.	layer 
+plug-in-unit-editor	Create or alter units used in GIMP	run-mode 
+script-fu-gm-ultra-vivid-solarize	Version 2.0
+Lasm's fancy solarize effect. Toggle the (Ultra) Vivid button for a turbo-charged boost to the solarize effect.	run-mode image drawable toggle toggle value 
+gimp-channel-get-color	Get the compositing color of the specified channel.	channel 
+script-fu-delete-layers	Deletes layers within the specified range	run-mode image drawable value value 
+gimp-image-set-active-channel	Sets the specified image's active channel.	image active-channel 
+gimp-airbrush-default	Paint in the current brush with varying pressure. Paint application is time-dependent.	drawable num-strokes strokes 
+script-fu-layers-copy-to-new	Copies a range of layers and opens them as a new image	run-mode image drawable value value 
+gimp-context-set-defaults	Reset context settings to their default values.	
+file-pnm-load	Loads files in the PNM file format	run-mode filename raw-filename 
+gimp-context-set-sample-transparent	Set the sample transparent setting.	sample-transparent 
+gimp-procedural-db-proc-exists	Checks if the specified procedure exists in the procedural database	procedure-name 
+gimp-context-set-ink-speed-sensitivity	Set ink speed sensitivity.	speed 
+gimp-displays-flush	Flush all internal changes to the user interface	
+plug-in-pagecurl	Curl up one of the image corners	run-mode image drawable colors edge orientation shade 
+script-fu-fit-canvas-to-layer	Resize the canvas to the boundaries of the active layer	run-mode image drawable 
+gimp-item-transform-scale	Scale the specified item.	item x0 y0 x1 y1 
+gimp-item-get-color-tag	Get the color tag of the specified item.	item 
+file-pbm-save	Exports files in the PBM file format	run-mode image drawable filename raw-filename raw 
+gimp-online-wiki	Bookmark to the wiki of GIMP	run-mode 
+gimp-context-set-gradient-fg-bg-rgb	Sets the built-in FG-BG RGB gradient as the active gradient.	
+gimp-get-default-unit	Get the default unit (taken from the user's locale).	
+gimp-floating-sel-relax	Deprecated: There is no replacement for this procedure.	floating-sel undo 
+file-pgm-save	Exports files in the PGM file format	run-mode image drawable filename raw-filename raw 
+gimp-posterize	Deprecated: Use 'gimp-drawable-posterize' instead.	drawable levels 
+gimp-selection-flood	Remove holes from the image's selection	image 
+gimp-layer-set-opacity	Set the opacity of the specified layer.	layer opacity 
+gimp-channel-set-opacity	Set the opacity of the specified channel.	channel opacity 
+gimp-image-convert-color-profile	Convert the image's layers to a color profile	image num-bytes color-profile intent bpc 
+gimp-drawable-merge-shadow	Merge the shadow buffer with the specified drawable.	drawable undo 
+script-fu-planet-render	Creates a planet.(Color, size and sun orientation can be set)	run-mode value color value value 
+gimp-context-get-font	Retrieve the currently active font.	
+gimp-item-get-image	Returns the item's image.	item 
+script-fu-guide-new-percent	Add a guide at the position specified as a percentage of the image size	run-mode image drawable option value 
+file-raw-placeholder-hasselblad-load	Load files in the Hasselblad raw formats via raw-placeholder	run-mode filename raw-filename 
+batch-gimp-lqr-full-use-id	Invokes the Liquid Rescale plugin 
+	   noninteractively. 
+	   This is an alternate full-options version 
+	   in which layed ID's are passed as arguments 
+	   instead of layer names.	run-mode string string value value drawable drawable value drawable value value drawable value value toggle toggle value toggle value value value toggle value toggle 
+elsamuko-sprocketholes	Simulating a complete exposed film strip.
+Newest version can be downloaded from http://registry.gimp.org/	run-mode image drawable string value value font value value value color color 
+gimp-patterns-get-pattern	Deprecated: Use 'gimp-context-get-pattern' instead.	
+gimp-image-new	Creates a new image with the specified width, height, and type.	width height type 
+gimp-image-get-channel-by-name	Find a channel with a given name in an image.	image name 
+gimp-edit-paste-as-new-image	Paste buffer to a new image.	
+gimp-item-set-name	Set the name of the specified item.	item name 
+file-xbm-save	Export a file in X10 or X11 bitmap (XBM) file format	run-mode image drawable filename raw-filename comment x10 x-hot y-hot prefix write-mask mask-extension 
+script-fu-chrominium-logo	Chrominium logo	run-mode string font value toggle gradient color color toggle 
+gimp-text-layer-set-justification	Set the justification of the text in a text layer.	layer justify 
+gimp-context-set-ink-size	Set ink blob size in pixels.	size 
+script-fu-convolution-presets-emboss-standard	Set of presets for convolution matrix (Emboss Standard)	run-mode image drawable option option value toggle toggle toggle option toggle toggle toggle toggle toggle 
+script-fu-circuit	Fill the selected region (or alpha) with traces like those on a circuit board	run-mode image drawable value value toggle toggle toggle 
+gimp-layer-get-composite-space	Get the composite space of the specified layer.	layer 
+script-fu-lomo	Turn an image into a 'LOMO' snap. 
+
+www.lomography.com for those that are not sure what lomo's are.
+
+Enjoy!	run-mode image drawable value toggle 
+file-raw-placeholder-ari-load	Load files in the ARI raw format via raw-placeholder	run-mode filename raw-filename 
+gimp-hue-saturation	Deprecated: Use 'gimp-drawable-hue-saturation' instead.	drawable hue-range hue-offset lightness saturation 
+script-fu-match-colors	Match the colors of a single layer image to the colors of another single layer image.	run-mode image drawable image 
+file-ps-load-setargs	set additional parameters for procedure file-ps-load	resolution width height check-bbox pages coloring text-alpha-bits graphic-alpha-bits 
+gimp-image-grid-get-offset	Gets the offset of an image's grid.	image 
+file-dicom-load	loads files of the dicom file format	run-mode filename raw-filename 
+gimp-gradient-delete	Deletes a gradient	name 
+plug-in-drawable-compose	Compose an image from multiple drawables of gray images	run-mode image1 drawable1 drawable2 drawable3 drawable4 compose-type 
+gimp-image-undo-thaw	Thaw the image's undo stack.	image 
+gimp-unit-get-singular	Returns the singular form of the unit.	unit-id 
+gimp-display-is-valid	Returns TRUE if the display is valid.	display 
+gimp-context-set-gradient-reverse	Set the gradient reverse setting.	reverse 
+gimp-brightness-contrast	Deprecated: Use 'gimp-drawable-brightness-contrast' instead.	drawable brightness contrast 
+gimp-edit-cut	Cut from the specified drawable.	drawable 
+file-gbr-load	Loads GIMP brushes	dummy-param uri raw-uri 
+gimp-edit-fill	Fill selected area of drawable.	drawable fill-type 
+gimp-fuzzy-select	Deprecated: Use 'gimp-image-select-contiguous-color' instead.	drawable x y threshold operation antialias feather feather-radius sample-merged 
+gimp-help	Load a help page.	help-domain help-id 
+plug-in-curve-bend	Bend the image using two control curves	run-mode image drawable rotation smoothing antialias work-on-copy curve-type argc-upper-point-x upper-point-x argc-upper-point-y upper-point-y argc-lower-point-x lower-point-x argc-lower-point-y lower-point-y argc-upper-val-y upper-val-y argc-lower-val-y lower-val-y 
+gimp-item-is-layer	Returns whether the item is a layer.	item 
+gimp-image-lower-item-to-bottom	Lower the specified item to the bottom of its level in its item tree	image item 
+gimp-layer-resize-to-image-size	Resize a layer to the image size.	layer 
+file-webp-load	Loads images in the WebP file format	run-mode filename raw-filename 
+gimp-item-transform-flip-simple	Flip the specified item either vertically or horizontally.	item flip-type auto-center axis 
+script-fu-convolution-presets-blur-gaussian	Set of presets for convolution matrix (Blur Gaussian)	run-mode image drawable option value option value toggle option toggle toggle toggle toggle toggle 
+plug-in-gimpressionist	Performs various artistic operations	run-mode image drawable preset 
+gimp-palette-get-info	Retrieve information about the specified palette.	name 
+script-fu-fade-animator		run-mode image drawable value 
+gimp-context-get-ink-size	Get ink blob size in pixels.	
+gimp-image-flip	Flips the image horizontally or vertically.	image flip-type 
+script-fu-reverse-layers	Reverse the order of layers in the image	run-mode image drawable 
+script-fu-convolution-presets-blur-edge	Set of presets for convolution matrix (Blur Edge)	run-mode image drawable option value toggle option toggle toggle toggle toggle toggle 
+gimp-drawable-equalize	Equalize the contents of the specified drawable.	drawable mask-only 
+script-fu-lab-sharpening	Sharpen images intelligently. Smart sharpen only sharpens images on the edges, where sharpening counts. Even areas are not sharpened, so noise levels are kept down when compared to normal unsharp mask. You may need to tweak the parameters for best result.	run-mode image drawable value value value 
+script-fu-tone-mapping	Performs a tone mapping operation with a specified blur on the open image	run-mode image drawable value value 
+gimp-image-floating-sel-attached-to	Return the drawable the floating selection is attached to.	image 
+script-fu-convolution-presets-blur	Set of presets for convolution matrix (Blur)	run-mode image drawable option value option toggle option toggle toggle toggle toggle toggle 
+gimp-palettes-close-popup	Close the palette selection dialog.	palette-callback 
+gimp-context-set-gradient-fg-bg-hsv-ccw	Sets the built-in FG-BG HSV (ccw) gradient as the active gradient.	
+script-fu-convolution-presets-edge-detect	Set of presets for convolution matrix (Edge Detect)	run-mode image drawable option value option toggle option toggle toggle toggle toggle toggle 
+plug-in-lic	Special effects that nobody understands	run-mode image drawable 
+script-fu-add-bevel	Add a beveled border to an image	run-mode image drawable value toggle toggle 
+gimp-context-set-transform-direction	Set the transform direction.	transform-direction 
+script-fu-weave	Create a new layer filled with a weave effect to be used as an overlay or bump map	run-mode image drawable value value value value value value value 
+gimp-heal	Heal from the source to the dest drawable using the current brush	drawable src-drawable src-x src-y num-strokes strokes 
+gimp-context-get-sample-threshold	Get the sample threshold setting.	
+gimp-vectors-get-strokes	List the strokes associated with the passed path.	vectors 
+plug-in-gauss	Simplest, most commonly used way of blurring	run-mode image drawable horizontal vertical method 
+gimp-image-is-dirty	Checks if the image has unsaved changes.	image 
+gimp-selection-border	Border the image's selection	image radius 
+plug-in-lens-distortion	Corrects lens distortion	run-mode image drawable offset-x offset-y main-adjust edge-adjust rescale brighten 
+plug-in-warp	Twist or smear image in many different ways	run-mode image drawable amount warp-map iter dither angle wrap-type mag-map mag-use substeps grad-map grad-scale vector-map vector-scale vector-angle 
+plug-in-separate-separate	Generate CMYK separations	run-mode image drawable input-profile use-embedded-profile output-profile rendering-intent use-bpc preserve-black overprint-black use-dither pseudo-composite 
+gimp-path-get-points	Deprecated: Use 'gimp-vectors-stroke-get-points' instead.	image name 
+gimp-image-undo-enable	Enable the image's undo stack.	image 
+gimp-context-get-sample-merged	Get the sample merged setting.	
+gimp-buffer-get-image-type	Retrieves the specified buffer's image type.	buffer-name 
+gimp-palettes-get-palette	Deprecated: Use 'gimp-context-get-palette' instead.	
+script-fu-fiery-steel	An effect inspired by the Terminator 2: Judgement Day
+ opening titles. Metallic letters in hellfire.	run-mode string font value gradient value value toggle toggle value value toggle toggle value 
+gimp-item-delete	Delete a item.	item 
+script-fu-paste-as-pattern	Paste the clipboard contents into a new pattern	run-mode string string 
+gimp-context-get-ink-blob-type	Get ink blob type.	
+script-fu-exposure-blend-align-dark	Differencing Mode for Aligning Exposures: dark	run-mode image drawable 
+gimp-channel-set-color	Set the compositing color of the specified channel.	channel color 
+plug-in-emboss	Simulate an image created by embossing	run-mode image drawable azimuth elevation depth emboss 
+gimp-gradient-segment-range-split-midpoint	Splits each segment in the segment range at midpoint	name start-segment end-segment 
+plug-in-dbbrowser	List available procedures in the PDB	run-mode 
+gimp-drawable-posterize	Posterize the specified drawable.	drawable levels 
+gimp-image-get-tattoo-state	Returns the tattoo state associated with the image.	image 
+file-gif-load-thumb	Loads only the first frame of a GIF image, to be used as a thumbnail	filename thumb-size 
+gimp-image-merge-down	Merge the layer passed and the first visible layer below.	image merge-layer merge-type 
+gimp-procedural-db-get-data	Returns data associated with the specified identifier.	identifier 
+gimp-gradient-rename	Rename a gradient	name new-name 
+script-fu-draw-box	Draw a box by filling in numeric values	run-mode image drawable value value value value value toggle 
+plug-in-oilify	Smear colors to simulate an oil painting	run-mode image drawable mask-size mode 
+plug-in-c-astretch	Stretch contrast to cover the maximum possible range	run-mode image drawable 
+gimp-dynamics-get-list	Retrieve the list of loaded paint dynamics.	filter 
+gimp-pattern-get-pixels	Retrieve information about the specified pattern (including pixels).	name 
+photo-diffusion-filter	Fakes a diffusion filter	run-mode image drawable value value value toggle 
+file-eps-save	export image as Encapsulated PostScript image	run-mode image drawable filename raw-filename width height x-offset y-offset unit keep-ratio rotation eps-flag preview level 
+file-raw-set-defaults	Set the current set of defaults used by the raw image dump plug-in	image-type palette-type 
+script-fu-BSSS	Creates a layer set to screen mode and another layer above it set to subtract mode. The subtract layer is then blurred and merged down with the screen layer, the result of which is merged down with the original layer (if so selected).  You may duplicate the screen layer as many times as desired to increase the effect.	run-mode image drawable value toggle 
+gimp-smudge-default	Smudge image with varying pressure.	drawable num-strokes strokes 
+gimp-image-set-active-layer	Sets the specified image's active layer.	image active-layer 
+plug-in-gauss-rle2	Apply a gaussian blur	run-mode image drawable horizontal vertical 
+script-fu-radial-fade-blur	Add a radially fading blur at a specified location.	run-mode image drawable value value value value value 
+plug-in-nova	Add a starburst to the image	run-mode image drawable xcenter ycenter color radius nspoke randomhue 
+gimp-brush-get-pixels	Retrieves information about the specified brush.	name 
+gimp-eraser-default	Erase using the current brush.	drawable num-strokes strokes 
+gimp-brushes-get-spacing	Deprecated: Use 'gimp-brush-get-spacing' instead.	
+gimp-layer-create-mask	Create a layer mask for the specified layer.	layer mask-type 
+script-fu-make-brush-rectangular-feathered	Create a rectangular brush with feathered edges	run-mode string value value value value 
+gimp-drawable-transform-shear	Deprecated: Use 'gimp-item-transform-shear' instead.	drawable shear-type magnitude transform-direction interpolation supersample recursion-level clip-result 
+gimp-pattern-get-info	Retrieve information about the specified pattern.	name 
+gimp-context-set-default-colors	Set the current GIMP foreground and background colors to black and white.	
+file-aa-save	Saves grayscale image in various text formats	run-mode image drawable filename raw-filename file-type 
+gimp-help-concepts-usage	Bookmark to the user manual	run-mode 
+gimp-brush-is-editable	Tests if brush can be edited.	name 
+gimp-edit-named-copy-visible	Copy from the projection into a named buffer.	image buffer-name 
+script-fu-split-tone	Turns a B&W image into a split tone image	run-mode image drawable color value color value 
+gimp-layer-scale	Scale the layer using the default interpolation method.	layer new-width new-height local-origin 
+gimp-context-set-ink-size-sensitivity	Set ink size sensitivity.	size 
+elsamuko-obama-hope	Shadow Style Portrait.
+Newest version can be downloaded from http://registry.gimp.org	run-mode image drawable value value value color value color string value color value color value color 
+gimp-gradient-segment-range-blend-opacity	Blend the opacity of the segment range.	name start-segment end-segment 
+file-jpegxl-save	Saves files in the JPEG XL file format	run-mode image drawable filename raw-filename 
+gimp-context-set-brush-force	Set brush application force.	force 
+plug-in-unsharp-mask	The most widely useful method for sharpening an image	run-mode image drawable radius amount threshold 
+plug-in-animationoptimize	Modify image to reduce size when saved as GIF animation	run-mode image drawable 
+gimp-image-convert-precision	Convert the image to the specified precision	image precision 
+gimp-layer-get-blend-space	Get the blend space of the specified layer.	layer 
+gimp-drawable-edit-fill	Fill selected area of drawable.	drawable fill-type 
+plug-in-video	Simulate distortion produced by a fuzzy or low-res monitor	run-mode image drawable pattern-number additive rotated 
+file-raw-placeholder-kodak-load	Load files in the Kodak raw formats via raw-placeholder	run-mode filename raw-filename 
+gimp-brushes-refresh	Refresh current brushes. This function always succeeds.	
+gimp-context-set-feather	Set the feather setting.	feather 
+script-fu-EZRedSkinFix	Add screen layer and a value layer.  Adjust layer opacities to suit.	run-mode image drawable value toggle 
+gimp-edit-named-copy	Copy into a named buffer.	drawable buffer-name 
+gimp-context-set-background	Set the current GIMP background color.	background 
+gimp-buffer-rename	Renames a named buffer.	buffer-name new-name 
+gimp-image-insert-vectors	Add the specified vectors to the image.	image vectors parent position 
+gimp-vectors-stroke-new-from-points	Adds a stroke of a given type to the vectors object.	vectors type num-points controlpoints closed 
+gimp-file-save	Saves a file by extension.	run-mode image drawable filename raw-filename 
+gimp-drawable-offsets	Returns the offsets for the drawable.	drawable 
+file-j2k-load	Loads JPEG 2000 codestream.	run-mode filename raw-filename colorspace 
+gimp-gradient-segment-range-set-coloring-type	Change the coloring type of a segments range	name start-segment end-segment coloring-type 
+gimp-drawable-transform-2d-default	Deprecated: Use 'gimp-item-transform-2d' instead.	drawable source-x source-y scale-x scale-y angle dest-x dest-y interpolate clip-result 
+gimp-context-get-stroke-method	Retrieve the currently active stroke method.	
+gimp-clone	Clone from the source to the dest drawable using the current brush	drawable src-drawable clone-type src-x src-y num-strokes strokes 
+gimp-image-add-layer	Deprecated: Use 'gimp-image-insert-layer' instead.	image layer position 
+gimp-path-import	Deprecated: Use 'gimp-vectors-import-from-file' instead.	image filename merge scale 
+plug-in-alienmap2	Alter colors in various psychedelic ways	run-mode image drawable redfrequency redangle greenfrequency greenangle bluefrequency blueangle colormodel redmode greenmode bluemode 
+file-raw-get-defaults	Get the current set of defaults used by the raw image data dump plug-in	
+gimp-drawable-transform-scale	Deprecated: Use 'gimp-item-transform-scale' instead.	drawable x0 y0 x1 y1 transform-direction interpolation supersample recursion-level clip-result 
+gimp-gradient-segment-range-split-uniform	Splits each segment in the segment range uniformly	name start-segment end-segment split-parts 
+gimp-drawable-curves-explicit	Modifies the intensity curve(s) for specified drawable.	drawable channel num-values values 
+gimp-context-set-distance-metric	Set the distance metric used in some computations.	metric 
+plug-in-mosaic	Convert the image into irregular tiles	run-mode image drawable tile-size tile-height tile-spacing tile-neatness tile-allow-split light-dir color-variation antialiasing color-averaging tile-type tile-surface grout-color 
+script-fu-hue-change-animator		run-mode image drawable value 
+script-fu-sv-gloss-orb-light	Creates a gloss orb in Web 2.0 style	run-mode value color 
+gimp-drawable-color-balance	Modify the color balance of the specified drawable.	drawable transfer-mode preserve-lum cyan-red magenta-green yellow-blue 
+script-fu-gm-channel-extract	Version 1.1 
+This utility works on any RGBA image and let you extract all or any one of the 17 greyscale channels of the image for photo-retouch, black and white conversion, creating masks and many other image processing purposes. Caution: it may run slowly on large images.	run-mode image drawable toggle toggle toggle toggle toggle toggle toggle toggle toggle toggle toggle toggle toggle toggle toggle toggle toggle toggle 
+plug-in-screenshot	Create an image from an area of the screen	run-mode shoot-type window-id x1 y1 x2 y2 
+gimp-item-get-lock-position	Get the 'lock position' state of the specified item.	item 
+gimp-xcf-save	Saves file in the .xcf file format	dummy-param image drawable filename raw-filename 
+file-raw-placeholder-rwl-load	Load files in the RWL raw format via raw-placeholder	run-mode filename raw-filename 
+script-fu-round-corners	Round the corners of an image and optionally add a drop-shadow and background	run-mode image drawable value toggle value value value toggle toggle 
+gimp-online-roadmap	Bookmark to the roadmap of GIMP	run-mode 
+file-mng-save	Saves images in the MNG file format	run-mode image drawable filename raw-filename interlace compression quality smoothing loop default-delay default-chunks default-dispose bkgd gama phys time 
+gimp-gradient-segment-get-coloring-type	Retrieves the gradient segment's coloring type	name segment 
+gimp-levels	Deprecated: Use 'gimp-drawable-levels' instead.	drawable channel low-input high-input gamma low-output high-output 
+file-wmf-load-thumb	Loads a small preview from a WMF image	filename thumb-size 
+elsamuko-technicolor-3-color	Simulating Technicolor Film.
+                     Newest version can be downloaded from http://registry.gimp.org	run-mode image drawable value value value color color color value toggle toggle toggle 
+plug-in-busy-dialog	Show a dialog while waiting for an operation to finish	run-mode read-fd write-fd message cancelable 
+gimp-image-get-xcf-uri	Returns the XCF URI for the specified image.	image 
+gimp-register-file-handler-priority	Sets the priority of a file handler procedure.	procedure-name priority 
+gimp-gradients-get-list	Retrieve the list of loaded gradients.	filter 
+gimp-drawable-transform-rotate	Deprecated: Use 'gimp-item-transform-rotate' instead.	drawable angle auto-center center-x center-y transform-direction interpolation supersample recursion-level clip-result 
+script-fu-colorize	Applies a colour to a given selection or to the whole layer if no selection exists.	run-mode image drawable color option 
+gimp-drawable-free-shadow	Free the specified drawable's shadow data (if it exists).	drawable 
+gimp-drawable-offset	Offset the drawable by the specified amounts in the X and Y directions	drawable wrap-around fill-type offset-x offset-y 
+plug-in-metadata-editor	Edit metadata (IPTC, EXIF, XMP)	run-mode image 
+gimp-gradients-popup	Invokes the Gimp gradients selection.	gradient-callback popup-title initial-gradient sample-size 
+gimp-floating-sel-to-layer	Transforms the specified floating selection into a layer.	floating-sel 
+gimp-invert	Deprecated: Use 'gimp-drawable-invert' instead.	drawable 
+plug-in-sparkle	Turn bright spots into starry sparkles	run-mode image drawable lum-threshold flare-inten spike-len spike-pts spike-angle density transparency random-hue random-saturation preserve-luminosity inverse border color-type 
+gimp-image-set-component-visible	Sets if the specified image's image component is visible.	image component visible 
+gimp-image-rotate	Rotates the image by the specified degrees.	image rotate-type 
+gimp-image-free-shadow	Deprecated: Use 'gimp-drawable-free-shadow' instead.	image 
+gimp-help-using-selections	Bookmark to the user manual	run-mode 
+gimp-drawable-curves-spline	Modifies the intensity curve(s) for specified drawable.	drawable channel num-points points 
+plug-in-film	Combine several images on a film strip	run-mode image drawable film-height film-color number-start number-font number-color at-top at-bottom num-images image-ids 
+plug-in-lqr-Iterator	This procedure calculates the modified values for one iterationstep for the call of plug-in-lqr	run-mode total-steps current-step len-struct 
+script-fu-dynamic-range-extender	Blend two differently exposed images together thus increasing dynamic range. Image must contain 2 layers - lighter (eg. exposed for shadows) MUST be the lower layer and darker (eg. exposed for sky) MUST be the upper layer. Please note that the upper layer must be anchored, floating selection is not sufficent.
+
+Blur strength controls the amount of gaussian blue applied to the mask. Different values are suitable for images with variable amount of details. Opacity is the opacity of the darker layer with the mask, usually 100 is just fine.	run-mode image drawable value value toggle 
+script-fu-guide-new	Add a guide at the orientation and position specified (in pixels)	run-mode image drawable option value 
+script-fu-thirds-rule-grid	Generate a New Layer with a Rule Of Thirds Grid	run-mode image drawable color value toggle 
+script-fu-grid-system	Draw a grid as specified by the lists of X and Y locations using the current brush	run-mode image drawable value value 
+script-fu-LCE	Runs USM plug-in to remove haze/enhance details. Since this is used frequently, it's nice to have so that the standard values are always available for use.	run-mode image drawable value value 
+gimp-context-set-line-dash-offset	Set the line dash offset setting.	dash-offset 
+gimp-context-set-line-width-unit	Set the line width unit setting.	line-width-unit 
+gimp-brush-get-shape	Gets the shape of a generated brush.	name 
+file-dds-save2	Saves files in DDS image format with additional export options	run-mode image drawable filename raw-filename compression-format mipmaps savetype format transparent-index mipmap-filter mipmap-wrap gamma-correct srgb gamma perceptual-metric preserve-alpha-coverage alpha-test-threshold flip-image 
+file-exr-save	Saves files in the OpenEXR file format	run-mode image drawable filename raw-filename 
+gimp-gradient-segment-range-redistribute-handles	Uniformly redistribute the segment range's handles	name start-segment end-segment 
+plug-in-dog	Edge detection with control of edge thickness	run-mode image drawable inner outer normalize invert 
+gimp-context-set-ink-blob-angle	Set ink blob angle in degrees.	angle 
+gimp-palettes-refresh	Refreshes current palettes. This function always succeeds.	
+gimp-context-set-brush-default-size	Set brush size to its default.	
+plug-in-sobel	Specialized direction-dependent edge detection	run-mode image drawable horizontal vertical keep-sign 
+gimp-vectors-bezier-stroke-new-moveto	Adds a bezier stroke with a single moveto to the vectors object.	vectors x0 y0 
+gimp-drawable-transform-matrix	Deprecated: Use 'gimp-item-transform-matrix' instead.	drawable coeff-0-0 coeff-0-1 coeff-0-2 coeff-1-0 coeff-1-1 coeff-1-2 coeff-2-0 coeff-2-1 coeff-2-2 transform-direction interpolation supersample recursion-level clip-result 
+gimp-selection-layer-alpha	Deprecated: Use 'gimp-image-select-item' instead.	layer 
+gimp-text-layer-get-line-spacing	Get the spacing between lines of text.	layer 
+gimp-fonts-get-list	Retrieve the list of loaded fonts.	filter 
+plug-in-bump-map	Create an embossing effect using a bump map	run-mode image drawable bumpmap azimuth elevation depth xofs yofs waterlevel ambient compensate invert type 
+gimp-context-get-distance-metric	Get the distance metric used in some computations.	
+gimp-get-monitor-resolution	Get the monitor resolution as specified in the Preferences.	
+script-fu-make-a-polygon	Makes any regular polygon inside the current selection using current fg color and brush. Use Ctrl-F to repeat the script while making new selections. It's FUN :)	run-mode image drawable value value toggle toggle toggle 
+gimp-image-grid-get-style	Gets the style of an image's grid.	image 
+gimp-unit-set-deletion-flag	Sets the deletion flag of a unit.	unit-id deletion-flag 
+plug-in-engrave	Simulate an antique engraving	run-mode image drawable height limit 
+gimp-context-set-brush-angle	Set brush angle in degrees.	angle 
+gimp-layer-add-alpha	Add an alpha channel to the layer if it doesn't already have one.	layer 
+script-mr-grey-point	Linear conversion of RGB colour space.
+
+The purpose of this script is to transform the foreground colour (as chosen with the colour pick tool) to a chosen target colour. The entire RGB colour space is linearly converted to achieve the desired mapping of the foreground colour. There are three possible choices for the target colour:
+(a) a grey colour of the same density as the foreground colour (desaturation)
+(b) white
+(c) the background colour (as chosen with the colour pick tool)
+
+The main application area of this script should be the correction of the colour temperature of digital images.
+
+Your feedback is welcome. ;^)	run-mode image drawable option 
+file-svg-load	Loads files in the SVG file format	run-mode filename raw-filename resolution width height paths 
+file-xwd-load	Loads files in the XWD (X Window Dump) format	run-mode filename raw-filename 
+gimp-gradient-segment-get-middle-pos	Retrieves the middle point position of the specified segment	name segment 
+script-fu-paste-as-brush	Paste the clipboard contents into a new brush	run-mode string string value 
+plug-in-neon	Simulate the glowing boundary of a neon light	run-mode image drawable radius amount 
+file-pdf-save2	Save files in PDF format	run-mode image drawable filename raw-filename vectorize ignore-hidden apply-masks layers-as-pages reverse-order 
+script-fu-convolution-presets-edge-detect-blur	Set of presets for convolution matrix (Edge Detect using Blur)	run-mode image drawable option value option option toggle toggle option toggle toggle toggle toggle toggle 
+file-sunras-save	export file in the SunRaster file format	run-mode image drawable filename raw-filename rle 
+file-raw-placeholder-pxn-load	Load files in the PXN raw format via raw-placeholder	run-mode filename raw-filename 
+gimp-image-remove-layer	Remove the specified layer from the image.	image layer 
+gimp-plugin-precision-enabled	Whether this plug-in is using the real bit depth of drawables.	
+gimp-vectors-stroke-flip-free	flips the given stroke about an arbitrary axis.	vectors stroke-id x1 y1 x2 y2 
+gimp-context-set-line-join-style	Set the line join style setting.	join-style 
+script-fu-pastel-image	Create a pastel like image	run-mode image drawable value value value value toggle 
+script-fu-set-cmap	Change the colormap of an image to the colors in a specified palette.	run-mode image drawable palette 
+gimp-context-set-brush-size	Set brush size in pixels.	size 
+gimp-gradients-set-popup	Sets the current gradient in a gradient selection dialog.	gradient-callback gradient-name 
+gimp-palette-entry-get-name	Gets the specified palette entry from the specified palette.	name entry-num 
+gimp-drawable-type-with-alpha	Returns the drawable's type with alpha.	drawable 
+plug-in-sel-gauss	Blur neighboring pixels, but only in low-contrast areas	run-mode image drawable radius max-delta 
+script-fu-convolution-presets-vibration	Set of presets for convolution matrix (Vibration)	run-mode image drawable option value toggle toggle option toggle toggle toggle toggle toggle 
+file-cel-save	Exports files in KISS CEL file format	run-mode image drawable filename raw-filename palette-filename 
+plug-in-flarefx	Add a lens flare effect	run-mode image drawable pos-x pos-y 
+file-pdf-load2	Load file in PDF format	run-mode filename raw-filename pdf-password n-pages pages 
+file-ico-load-thumb	Loads a preview from an Windows ICO file	filename thumb-size 
+script-fu-old-photo	Make an image look like an old photo	run-mode image drawable toggle value toggle toggle toggle 
+gimp-equalize	Deprecated: Use 'gimp-drawable-equalize' instead.	drawable mask-only 
+gimp-gradient-segment-get-right-pos	Retrieves the right endpoint position of the specified segment	name segment 
+gimp-paintbrush-default	Paint in the current brush. The fade out parameter and pull colors from a gradient parameter are set from the paintbrush options dialog. If this dialog has not been activated then the dialog defaults will be used.	drawable num-strokes strokes 
+gimp-palette-export-css	Export the active palette as a CSS stylesheet with the color entry name as their class name, and the color itself as the color attribute	run-mode dirname string 
+gimp-drawable-transform-rotate-simple	Deprecated: Use 'gimp-item-transform-rotate-simple' instead.	drawable rotate-type auto-center center-x center-y clip-result 
+gimp-drawable-is-gray	Returns whether the drawable is a grayscale type.	drawable 
+gimp-text-get-extents-fontname	Get extents of the bounding box for the specified text.	text size size-type fontname 
+gimp-drawable-get-thumbnail-format	Returns the drawable's thumbnail Babl format	drawable 
+plug-in-photocopy	Simulate color distortion produced by a copy machine	run-mode image drawable mask-radius sharpness pct-black pct-white 
+gimp-vectors-import-from-string	Import paths from an SVG string.	image string length merge scale 
+script-fu-waves-anim	Create a multi-layer image with an effect like a stone was thrown into the current image	run-mode image drawable value value value toggle 
+gimp-unit-new	Creates a new unit and returns it's integer ID.	identifier factor digits symbol abbreviation singular plural 
+gimp-context-set-gradient-repeat-mode	Set the gradient repeat mode.	repeat-mode 
+gimp-procedural-db-proc-val	Queries the procedural database for information on the specified procedure's return value.	procedure-name val-num 
+gimp-palettes-get-list	Retrieves a list of all of the available palettes	filter 
+file-ico-save	Saves files in Windows ICO file format	run-mode image drawable filename raw-filename 
+plug-in-gradmap	Recolor the image using colors from the active gradient	run-mode image drawable 
+script-fu-exposure-blend-align-off	Differencing Mode for Aligning Exposures: off	run-mode image drawable 
+file-tga-load	Loads files of Targa file format	run-mode filename raw-filename 
+gimp-gimprc-set	Sets a gimprc token to a value and saves it in the gimprc.	token value 
+script-fu-selection-to-brush	Convert a selection to a brush	run-mode image drawable string string value 
+gimp-layer-get-mask	Get the specified layer's mask if it exists.	layer 
+gimp-brush-set-hardness	Sets the hardness of a generated brush.	name hardness-in 
+gimp-patterns-refresh	Refresh current patterns. This function always succeeds.	
+gimp-context-set-ink-blob-type	Set ink blob type.	type 
+gimp-image-set-resolution	Sets the specified image's resolution.	image xresolution yresolution 
+gimp-context-set-sample-merged	Set the sample merged setting.	sample-merged 
+gimp-context-set-font	Set the specified font as the active font.	name 
+gimp-image-remove-channel	Remove the specified channel from the image.	image channel 
+plug-in-newsprint	Halftone the image to give newspaper-like effect	run-mode image drawable cell-width colorspace k-pullout gry-ang gry-spotfn red-ang red-spotfn grn-ang grn-spotfn blu-ang blu-spotfn oversample 
+file-gih-save	exports images in GIMP brush pipe format	run-mode image drawable uri raw-uri spacing description cell-width cell-height display-cols display-rows dimension rank dimension sel 
+file-ppm-save	Exports files in the PPM file format	run-mode image drawable filename raw-filename raw 
+gimp-item-transform-rotate	Rotate the specified item about given coordinates through the specified angle.	item angle auto-center center-x center-y 
+gimp-selection-save	Copy the selection mask to a new channel.	image 
+gimp-image-attach-parasite	Add a parasite to an image.	image parasite 
+plug-in-median-blur	Blur using the median color near each pixel	run-mode image drawable radius percentile 
+plug-in-wavelet-decompose	Wavelet decompose	run-mode image drawable scales create-group create-masks 
+gimp-gimprc-query	Queries the gimprc file parser for information on a specified token.	token 
+plug-in-jigsaw	Add a jigsaw-puzzle pattern to the image	run-mode image drawable x y style blend-lines blend-amount 
+gimp-unit-get-plural	Returns the plural form of the unit.	unit-id 
+gimp-brush-get-info	Retrieves information about the specified brush.	name 
+gimp-item-get-linked	Get the linked state of the specified item.	item 
+plug-in-whirl-pinch	Distort an image by whirling and pinching	run-mode image drawable whirl pinch radius 
+gimp-context-set-line-width	Set the line width setting.	line-width 
+plug-in-semiflatten	Replace partial transparency with the current background color	run-mode image drawable 
+gimp-layer-set-composite-mode	Set the composite mode of the specified layer.	layer composite-mode 
+plug-in-flame	Create cosmic recursive fractal flames	run-mode image drawable 
+gimp-context-get-paint-method	Retrieve the currently active paint method.	
+gimp-brush-get-hardness	Gets the hardness of a generated brush.	name 
+gimp-image-grid-set-offset	Sets the offset of an image's grid.	image xoffset yoffset 
+extension-script-fu	A scheme interpreter for scripting GIMP operations	
+file-xpm-save	Export files in XPM (X11 Pixmap) format.	run-mode image drawable filename raw-filename threshold 
+gimp-layer-is-floating-sel	Is the specified layer a floating selection?	layer 
+gimp-context-get-transform-recursion	Deprecated: There is no replacement for this procedure.	
+gimp-help-concepts-paths	Bookmark to the user manual	run-mode 
+gimp-image-get-effective-color-profile	Returns the color profile that is used for the image	image 
+gimp-brush-set-shape	Sets the shape of a generated brush.	name shape-in 
+script-fu-burn-in-anim	Create intermediate layers to produce an animated 'burn-in' transition between two layers	run-mode image drawable color toggle value value value toggle toggle value 
+file-raw-placeholder-rdc-load	Load files in the RDC raw format via raw-placeholder	run-mode filename raw-filename 
+gimp-image-undo-group-start	Starts a group undo.	image 
+script-fu-draw-polygon	Draw all regular polygonos by exact numbers. Input: center, radius, number segment.	run-mode image drawable value value value value 
+script-fu-guides-from-selection	Create four guides around the bounding box of the current selection	run-mode image drawable 
+gimp-procedural-db-get-data-size	Returns size of data associated with the specified identifier.	identifier 
+elsamuko-photo-border	Simulating the border of the first overexposed picture of a film.
+	Newest version can be downloaded from http://registry.gimp.org/	run-mode image drawable option value value value 
+gimp-progress-install	Installs a progress callback for the current plug-in.	progress-callback 
+gimp-perspective	Deprecated: Use 'gimp-item-transform-perspective' instead.	drawable interpolation x0 y0 x1 y1 x2 y2 x3 y3 
+gimp-image-merge-visible-layers	Merge the visible image layers into one.	image merge-type 
+gimp-item-set-lock-position	Set the 'lock position' state of the specified item.	item lock-position 
+gimp-unit-get-symbol	Returns the symbol of the unit.	unit-id 
+gimp-drawable-is-rgb	Returns whether the drawable is an RGB type.	drawable 
+script-fu-erase-rows	Erase every other row or column	run-mode image drawable option option option 
+plug-in-vpropagate	Propagate certain colors to neighboring pixels	run-mode image drawable propagate-mode propagating-channel propagating-rate direction-mask lower-limit upper-limit 
+gimp-image-grid-set-style	Sets the style unit of an image's grid.	image style 
+gimp-drawable-has-alpha	Returns TRUE if the drawable has an alpha channel.	drawable 
+gimp-gradient-segment-get-right-color	Retrieves the right endpoint color of the specified segment	name segment 
+gimp-image-get-active-vectors	Returns the specified image's active vectors.	image 
+gimp-layer-remove-mask	Remove the specified layer mask from the layer.	layer mode 
+gimp-image-get-vectors	Returns the list of vectors contained in the specified image.	image 
+gimp-context-get-line-miter-limit	Get the line miter limit setting.	
+script-fu-med	Based on the mandrake method for Photoshop. Translated to GIMP by meddler. See www.scubaboard.com for the original articles.	run-mode image drawable 
+script-fu-layer-effects-bevel-and-emboss	Create the Bevel and Emboss effects on the layer with alpha	run-mode image drawable option value value value color value option color value option 
+plug-in-randomize-slur	Randomly slide some pixels downward (similar to melting	run-mode image drawable rndm-pct rndm-rcount randomize seed 
+file-xz-save	saves files compressed with xz	run-mode image drawable filename raw-filename 
+gimp-plugins-query	Queries the plug-in database for its contents.	search-string 
+script-fu-erase-nth-rows	Erase every nth row or column	run-mode image drawable option value option value 
+batch-gimp-lqr	Invokes the Liquid Rescale plugin 
+	   noninteractively. 
+	   This is a simplified version in which most 
+	   options take their default values.	run-mode string value value string string string 
+gimp-plugin-icon-register	Register an icon for a plug-in procedure.	procedure-name icon-type icon-data-length icon-data 
+script-fu-convolution-presets-random-color	Set of presets for convolution matrix (Random Color)	run-mode image drawable option value option 
+script-fu-xach-effect	Add a subtle translucent 3D effect to the selected region (or alpha)	run-mode image drawable value value color value color value value value value toggle 
+gimp-image-get-parasite-list	List all parasites.	image 
+plug-in-separate-proof	Softproofing CMYK colour	run-mode image drawable display-profile proofing-profile use-attached-profile mode 
+script-fu-orton-effect	Gives the Orton effect to a photo	run-mode image drawable value toggle value 
+plug-in-animationplay	Preview a GIMP layer-based animation	run-mode image drawable 
+gimp-context-get-sample-transparent	Get the sample transparent setting.	
+plug-in-red-eye-removal	Remove the red eye effect caused by camera flashes	run-mode image drawable threshold 
+gimp-image-resize	Resize the image to the specified extents.	image new-width new-height offx offy 
+file-gif-load	Loads files of Compuserve GIF file format	run-mode filename raw-filename 
+plug-in-decompose-registered	Decompose an image into separate colorspace components	run-mode image drawable decompose-type layers-mode 
+script-fu-clothify	Add a cloth-like texture to the selected region (or alpha)	run-mode image drawable value value value value value 
+gimp-path-set-points	Deprecated: Use 'gimp-vectors-stroke-new-from-points' instead.	image name ptype num-path-points points-pairs 
+gimp-text-fontname	Add text at the specified location as a floating selection or a new layer.	image drawable x y text border antialias size size-type fontname 
+file-pcx-load	Loads files in Zsoft PCX file format	run-mode filename raw-filename 
+file-heif-load	Loads HEIF images	run-mode uri raw-uri 
+script-fu-convolution-presets-general-symmetric	Set of presets for convolution matrix (Symmetric General)	run-mode image drawable option value value value toggle toggle option toggle toggle toggle toggle toggle 
+gimp-vectors-export-to-file	save a path as an SVG file.	image filename vectors 
+gimp-image-raise-item	Raise the specified item in its level in its item tree	image item 
+gimp-context-get-sample-criterion	Get the sample criterion setting.	
+gimp-color-balance	Modify the color balance of the specified drawable.	drawable transfer-mode preserve-lum cyan-red magenta-green yellow-blue 
+gimp-airbrush	Paint in the current brush with varying pressure. Paint application is time-dependent.	drawable pressure num-strokes strokes 
+file-pdf-save-multi	Save files in PDF format	run-mode count images vectorize ignore-hidden apply-masks filename raw-filename 
+gimp-vectors-new	Creates a new empty vectors object.	image name 
+gimp-fuzzy-select-full	Deprecated: Use 'gimp-image-select-contiguous-color' instead.	drawable x y threshold operation antialias feather feather-radius-x feather-radius-y sample-merged select-transparent select-criterion 
+script-fu-double-border	Gives two borders with a dropped shadow	run-mode image drawable color value color value color value value value toggle 
+gimp-edit-clear	Clear selected area of drawable.	drawable 
+plug-in-make-seamless	Alters edges to make the image seamlessly tileable	run-mode image drawable 
+plug-in-deinterlace	Fix images where every other row is missing	run-mode image drawable evenodd 
+gimp-selection-bounds	Find the bounding box of the current selection.	image 
+gimp-palette-get-columns	Retrieves the number of columns to use to display this palette	name 
+gimp-procedural-db-set-data	Associates the specified identifier with the supplied data.	identifier bytes data 
+gimp-brushes-close-popup	Close the brush selection dialog.	brush-callback 
+plug-in-softglow	Simulate glow by making highlights intense and fuzzy	run-mode image drawable glow-radius brightness sharpness 
+gimp-image-grid-get-background-color	Sets the background color of an image's grid.	image 
+script-fu-Liquid-Water-logo	Create a Water logo with random drops	run-mode font value string color value value value 
+script-fu-copy-mask-to-layers	Copy the mask from the current layer to all visible layers	run-mode image drawable 
+plug-in-mail-image	Send the image by email	run-mode image drawable filename to-address from-address subject comment encapsulation 
+plug-in-retinex	Enhance contrast using the Retinex method	run-mode image drawable scale nscales scales-mode cvar 
+gimp-drawable-levels	Modifies intensity levels in the specified drawable.	drawable channel low-input high-input clamp-input gamma low-output high-output clamp-output 
+script-fu-vintage-effect	Give that vintage look to a photo.	run-mode image drawable toggle toggle 
+script-fu-film-grain	Performs a tone mapping operation with a specified blur on an opened image	run-mode image drawable value value toggle value 
+script-fu-selection-round	This procedure is deprecated! Use 'script-fu-selection-rounded-rectangle' instead.	run-mode image drawable value 
+gimp-eraser	Erase using the current brush.	drawable num-strokes strokes hardness method 
+gimp-text-layer-get-kerning	Check if kerning is used in the text layer.	layer 
+gimp-drawable-height	Returns the height of the drawable.	drawable 
+gimp-message-get-handler	Returns the current state of where warning messages are displayed.	
+file-raw-placeholder-pef-load	Load files in the PEF raw format via raw-placeholder	run-mode filename raw-filename 
+file-bmp-load	Loads files of Windows BMP file format	run-mode filename raw-filename 
+gimp-curves-spline	Deprecated: Use 'gimp-drawable-curves-spline' instead.	drawable channel num-points control-pts 
+gimp-context-get-feather-radius	Get the feather radius setting.	
+gimp-paintbrush	Paint in the current brush with optional fade out parameter and pull colors from a gradient.	drawable fade-out num-strokes strokes method gradient-length 
+gimp-displays-reconnect	Reconnect displays from one image to another image.	old-image new-image 
+script-fu-Land-illust	Similar to Landscape Painter, but with a bit of a sketch effect as well. Oversharpen, then add Darken Only layer and blur it	run-mode image drawable value toggle toggle value 
+gimp-image-select-rectangle	Create a rectangular selection over the specified image;	image operation x y width height 
+script-fu-unsharp-mask	Make a new image from the current layer by applying the unsharp mask method	run-mode image drawable value value 
+file-raw-placeholder-nikon-load	Load files in the Nikon raw formats via raw-placeholder	run-mode filename raw-filename 
+file-fli-load	load FLI-movies	run-mode filename raw-filename 
+gimp-gradient-segment-range-blend-colors	Blend the colors of the segment range.	name start-segment end-segment 
+gimp-unit-get-number-of-units	Returns the number of units.	
+script-fu-draw-arch	Draw arch and circles, at center point specified, from initial angle to final angle.	run-mode image drawable value value value value value value 
+script-fu-Eg-DuotoneSimulation	Simulate Duotones in GIMP	run-mode image drawable option color toggle 
+gimp-image-select-polygon	Create a polygonal selection over the specified image.	image operation num-segs segs 
+plug-in-wind	Smear image to give windblown effect	run-mode image drawable threshold direction strength algorithm edge 
+gimp-text-layer-set-kerning	Enable/disable kerning in a text layer.	layer kerning 
+gimp-selection-sharpen	Sharpen the selection mask.	image 
+gimp-brush-set-aspect-ratio	Sets the aspect ratio of a generated brush.	name aspect-ratio-in 
+gimp-message-set-handler	Controls where warning messages are displayed.	handler 
+plug-in-erode	Shrink lighter areas of the image	run-mode image drawable propagate-mode propagating-channel propagating-rate direction-mask lower-limit upper-limit 
+script-fu-guides-remove	Remove all horizontal and vertical guides	run-mode image drawable 
+gimp-context-get-brush-hardness	Get brush hardness in paint options.	
+gimp-progress-end	Ends the progress bar for the current plug-in.	
+gimp-text-layer-get-font	Get the font from a text layer as string.	layer 
+plug-in-gmic-qt	G'MIC-Qt (2.9.4)	run-mode image drawable input output command 
+gimp-vectors-new-from-text-layer	Creates a new vectors object from a text layer.	image layer 
+gimp-text-layer-set-language	Set the language of the text layer.	layer language 
+gimp-image-thaw-layers	Thaw the image's layer list.	image 
+file-desktop-link-load	Follows a link to an image in a .desktop file	run-mode filename raw-filename 
+gimp-image-add-vguide	Add a vertical guide to an image.	image xposition 
+plug-in-sinus	Generate complex sinusoidal textures	run-mode image drawable xscale yscale complex seed tiling perturb colors col1 col2 alpha1 alpha2 blend blend-power 
+gimp-dynamics-refresh	Refresh current paint dynamics. This function always succeeds.	
+script-fu-make-brush-elliptical-feathered	Create an elliptical brush with feathered edges	run-mode string value value value value 
+gimp-image-convert-indexed	Convert specified image to and Indexed image	image dither-type palette-type num-cols alpha-dither remove-unused palette 
+gimp-context-set-brush-default-spacing	Set brush spacing to its default.	
+file-web-export	Optimize & save image for web	run-mode image drawable 
+tuxcomputers-split-tone	Turns a B&W image into a split tone image	run-mode image drawable color value color value toggle 
+gimp-image-get-imported-uri	Returns the imported URI for the specified image.	image 
+gimp-round-rect-select	Deprecated: Use 'gimp-image-select-round-rectangle' instead.	image x y width height corner-radius-x corner-radius-y operation antialias feather feather-radius-x feather-radius-y 
+gimp-drawable-shadows-highlights	Perform shadows and highlights correction.	drawable shadows highlights whitepoint radius compress shadows-ccorrect highlights-ccorrect 
+gimp-image-is-valid	Returns TRUE if the image is valid.	image 
+gimp-drawable-bpp	Returns the bytes per pixel.	drawable 
+script-fu-Paintwithlight2	Add 50% gray overlay layer.  Painting on the layer in white will lighten regions below, and painting on the layer in black will will darken the regions below.  BEST USED GENTLY!  Try soft brush set to 3% opacity.	run-mode image drawable 
+plug-in-antialias	Antialias using the Scale3X edge-extrapolation algorithm	run-mode image drawable 
+gimp-image-freeze-layers	Freeze the image's layer list.	image 
+gimp-text-layer-set-hint-style	Control how font outlines are hinted in a text layer.	layer style 
+gimp-heal-default	Heal from the source to the dest drawable using the current brush	drawable num-strokes strokes 
+plug-in-grid	Draw a grid on the image	run-mode image drawable hwidth hspace hoffset hcolor hopacity vwidth vspace voffset vcolor vopacity iwidth ispace ioffset icolor iopacity 
+file-pat-save-internal	Exports Gimp pattern file (.PAT)	dummy-param image drawable uri raw-uri name 
+gimp-image-get-guide-position	Get position of a guide on an image.	image guide 
+gimp-palette-export-java	Export the active palette as a java.util.Hashtable<String, Color>	run-mode dirname string 
+file-jpeg-save	saves files in the JPEG file format	run-mode image drawable filename raw-filename quality smoothing optimize progressive comment subsmp baseline restart dct 
+script-fu-multi-effect-text	Creates a Multi-Effect Text with a drop shadow	run-mode string value font color color value color color value value value option value value toggle toggle 
+gimp-text-layer-get-language	Get the language used in the text layer.	layer 
+gimp-detach-parasite	Removes a global parasite.	name 
+gimp-gradient-duplicate	Duplicates a gradient	name 
+file-gz-save	saves files compressed with gzip	run-mode image drawable filename raw-filename 
+plug-in-animationoptimize-diff	Reduce file size where combining layers is possible	run-mode image drawable 
+gimp-path-delete	Deprecated: Use 'gimp-image-remove-vectors' instead.	image name 
+mm1-vintage-look	Simulation of a 70s vintage look.
+Last version can be found at:
+http://registry.gimp.org/node/1348	run-mode image drawable value value value toggle 
+file-pix-save	export file in the Alias|Wavefront pix/matte file format	run-mode image drawable filename raw-filename 
+plug-in-tile	Create an array of copies of the image	run-mode image drawable new-width new-height new-image 
+script-fu-water-paint-effect	Draw with water paint effect	run-mode image drawable value 
+gimp-selection-all	Select all of the image.	image 
+plug-in-separate-export	Export separated image	run-mode image drawable filename embed-profile filetype compression vectors 
+gimp-procedural-db-proc-info	Queries the procedural database for information on the specified procedure.	procedure-name 
+script-fu-contrast	Create a contrast layer with hue and saturation copies of original image	run-mode image drawable value value 
+script-fu-draw-ellipse	Draw an ellipse.	run-mode image drawable value value value value value value 
+gimp-fonts-close-popup	Close the font selection dialog.	font-callback 
+plug-in-icc-profile-set	Set a color profile on the image	run-mode image profile 
+script-fu-lava	Fill the current selection with lava	run-mode image drawable value value value gradient toggle toggle toggle 
+gimp-layer-set-lock-alpha	Set the lock alpha channel setting of the specified layer.	layer lock-alpha 
+gimp-layer-from-mask	Get the specified mask's layer.	mask 
+gimp-image-find-next-guide	Find next guide on an image.	image guide 
+plug-in-oilify-enhanced	Smear colors to simulate an oil painting	run-mode image drawable mode mask-size mask-size-map exponent exponent-map 
+elsamuko-movie-300	Color effect from the movie 300.	run-mode image drawable color color value value value value value value toggle toggle 
+gimp-register-file-handler-raw	Registers a file handler procedure as capable of handling raw camera files.	procedure-name 
+gimp-vectors-stroke-get-points	returns the control points of a stroke.	vectors stroke-id 
+gimp-item-detach-parasite	Removes a parasite from an item.	item name 
+gimp-brushes-set-popup	Sets the current brush in a brush selection dialog.	brush-callback brush-name opacity spacing paint-mode 
+gimp-unit-get-identifier	Returns the textual identifier of the unit.	unit-id 
+file-raw-save	Dump images to disk in raw format	run-mode image drawable filename raw-filename 
+file-raw-placeholder-panasonic-load	Load files in the Panasonic raw formats via raw-placeholder	run-mode filename raw-filename 
+script-fu-autocrop-all-layers	Apply autocrop layer to all available layers	run-mode image drawable 
+gimp-layer-group-new	Create a new layer group.	image 
+gimp-rotate	Deprecated: Use 'gimp-item-transform-rotate' instead.	drawable interpolation angle 
+script-fu-Eg-Infrared	Simulate a B&W Infra-red image	run-mode image drawable value value toggle toggle 
+gimp-drawable-transform-2d	Deprecated: Use 'gimp-item-transform-2d' instead.	drawable source-x source-y scale-x scale-y angle dest-x dest-y transform-direction interpolation supersample recursion-level clip-result 
+gimp-brushes-get-list	Retrieve a complete listing of the available brushes.	filter 
+gimp-context-set-brush-aspect-ratio	Set brush aspect ratio.	aspect 
+gimp-edit-bucket-fill-full	Fill the area specified either by the current selection if there is one, or by a seed fill starting at the specified coordinates.	drawable fill-mode paint-mode opacity threshold sample-merged fill-transparent select-criterion x y 
+file-psp-load	loads images from the Paint Shop Pro PSP file format	run-mode filename raw-filename 
+file-gtm-save	GIMP Table Magic	run-mode image drawable filename raw-filename 
+gimp-context-get-line-cap-style	Get the line cap style setting.	
+gimp-edit-named-paste-as-new-image	Paste named buffer to a new image.	buffer-name 
+file-psd-load-merged	Loads merged images from the Photoshop PSD file format	run-mode filename raw-filename 
+gimp-path-stroke-current	Deprecated: Use 'gimp-edit-stroke-vectors' instead.	image 
+gimp-colorize	Deprecated: Use 'gimp-drawable-colorize-hsl' instead.	drawable hue saturation lightness 
+gimp-image-grid-get-foreground-color	Sets the foreground color of an image's grid.	image 
+gimp-unit-get-deletion-flag	Returns the deletion flag of the unit.	unit-id 
+script-fu-Eg-ShadowRecovery	Lighten-up Shadows	run-mode image drawable option value toggle 
+script-fu-cross-processing-effect	Give cross processing look to a photo.	run-mode image drawable toggle toggle color 
+plug-in-laplace	High-resolution edge detection	run-mode image drawable 
+gimp-context-set-brush-default-hardness	Set brush spacing to its default.	
+plug-in-palettemap	Recolor the image using colors from the active palette	run-mode image drawable 
+gimp-palette-entry-set-name	Sets the specified palette entry in the specified palette.	name entry-num entry-name 
+gimp-image-width	Return the width of the image	image 
+script-fu-layer-effects-color-overlay	Create the Color overlay effect on the layer with alpha	run-mode image drawable color value option 
+plug-in-polar-coords	Convert image to or from polar coordinates	run-mode image drawable circle angle backwards inverse polrec 
+file-bz2-save	saves files compressed with bzip2	run-mode image drawable filename raw-filename 
+script-fu-lava-logo	Creates a lava logo with a drop shadow	run-mode string value font color color color value value value gradient toggle value toggle toggle 
+gimp-item-is-drawable	Returns whether the item is a drawable.	item 
+plug-in-separate-save	Save separated image	run-mode image drawable filename embed-profile 
+plug-in-glasstile	Simulate distortion caused by square glass tiles	run-mode image drawable tilex tiley 
+gimp-channel-copy	Copy a channel.	channel 
+gimp-item-get-parent	Returns the item's parent item.	item 
+file-raw-placeholder-sinar-load	Load files in the Sinar raw formats via raw-placeholder	run-mode filename raw-filename 
+gimp-image-thaw-vectors	Thaw the image's vectors list.	image 
+file-fits-save	export file in the FITS file format	run-mode image drawable filename raw-filename 
+script-fu-pencil-sketch	Creates an interesting simulation of a pencil sketch by placing a textured layer mask on the original image, above a white layer, and below a layer containing edges from the original image.
+
+This script does most of the work, but you may want to adjust the levels of thelayer mask to vary the amount of image texture. If you have additional edge detector plugins (such as the ipx suite), you may want to use one of them for the edges instead of the built-in laplacian. I did not include this option, since the ipx tools are still very much beta at this time.
+
+Additional interesting effects can be obtained by varying the levels of the Paper Layer.	run-mode image drawable value option pattern toggle pattern 
+script-fu-Sepia-Toning	Automatic version of the great
+Sepia Toning tutorial
+by Eric R. Jeschke (redskiesatnight.com/):
+www.gimp.org/tutorials/Sepia_Toning/	run-mode image drawable toggle toggle color 
+gimp-context-set-paint-mode	Set the paint mode.	paint-mode 
+gimp-vectors-stroke-scale	scales the given stroke.	vectors stroke-id scale-x scale-y 
+file-print-gtk	Print the image	run-mode image 
+script-fu-orton	Ortonize an image.
+  The loaded image should be exposed at +1 EV.
+  You will also need the same image exposed at +2 EV.	run-mode image drawable filename 
+plug-in-mblur-inward	Simulate movement using directional blur	run-mode image drawable type length angle center-x center-y 
+file-bigtiff-save	Exports files in the TIFF or BigTIFF file format	run-mode image drawable filename raw-filename compression save-transp-pixels bigtiff 
+script-fu-layer-effects-pattern-overlay	Create the Pattern overlay effect on the layer with alpha	run-mode image drawable pattern value option 
+gimp-drawable-transform-perspective-default	Deprecated: Use 'gimp-item-transform-perspective' instead.	drawable x0 y0 x1 y1 x2 y2 x3 y3 interpolate clip-result 
+gimp-floating-sel-attach	Attach the specified layer as floating to the specified drawable.	layer drawable 
+gimp-brush-get-angle	Gets the rotation angle of a generated brush.	name 
+gimp-context-set-line-cap-style	Set the line cap style setting.	cap-style 
+gimp-text-layer-get-markup	Get the markup from a text layer as string.	layer 
+plug-in-compose	Create an image using multiple gray images as color channels	run-mode image1 drawable image2 image3 image4 compose-type 
+gimp-image-insert-layer	Add the specified layer to the image.	image layer parent position 
+gimp-palette-duplicate	Duplicates a palette	name 
+gimp-edit-named-paste	Paste named buffer to the specified drawable.	drawable buffer-name paste-into 
+gimp-image-select-ellipse	Create an elliptical selection over the specified image.	image operation x y width height 
+gimp-item-is-text-layer	Returns whether the item is a text layer.	item 
+script-fu-pixelgradient	Pixelizes a selection (or layer) from left to right with increasing pixel sizes.	run-mode image drawable value value value 
+gimp-drawable-sub-thumbnail	Get a thumbnail of a sub-area of a drawable drawable.	drawable src-x src-y src-width src-height dest-width dest-height 
+gimp-buffer-delete	Deletes a named buffer.	buffer-name 
+gimp-image-get-component-visible	Returns if the specified image's image component is visible.	image component 
+gimp-context-get-ink-tilt-sensitivity	Get ink tilt sensitivity.	
+gimp-path-get-tattoo	Deprecated: Use 'gimp-vectors-get-tattoo' instead.	image name 
+gimp-context-set-foreground	Set the current GIMP foreground color.	foreground 
+script-fu-sota-chrome-it	Add a chrome effect to the selected region (or alpha) using a specified (grayscale) stencil	run-mode image drawable value value value filename color color toggle 
+gimp-quit	Causes GIMP to exit gracefully.	force 
+gimp-image-convert-grayscale	Convert specified image to grayscale	image 
+gimp-dodgeburn	Dodgeburn image with varying exposure.	drawable exposure dodgeburn-type dodgeburn-mode num-strokes strokes 
+gimp-context-set-diagonal-neighbors	Set the diagonal neighbors setting.	diagonal-neighbors 
+file-tiff-save	Exports files in the TIFF file format	run-mode image drawable filename raw-filename compression 
+gimp-item-is-valid	Returns TRUE if the item is valid.	item 
+script-fu-SepoinaGrafix	Alter a picture into a scratched image or a watercoloured paint.	run-mode image drawable toggle toggle value value value value value pattern color option 
+plug-in-shift	Shift each row or column of pixels by a random amount	run-mode image drawable shift-amount orientation 
+gimp-context-get-sample-threshold-int	Get the sample threshold setting as an integer value.	
+gimp-buffer-get-width	Retrieves the specified buffer's width.	buffer-name 
+script-fu-auto-contrast	Automatically adjust contrast of drawable. Brightens dull photos.	run-mode image drawable toggle toggle 
+gimp-channel-combine-masks	Combine two channel masks.	channel1 channel2 operation offx offy 
+gimp-online-docs-web-site	Bookmark to the GIMP web site	run-mode 
+gimp-layer-set-show-mask	Set the show mask setting of the specified layer.	layer show-mask 
+file-load-rgbe	Load files in the RGBE file format	run-mode filename raw-filename 
+gimp-item-get-tattoo	Get the tattoo of the specified item.	item 
+gimp-file-load-thumbnail	Loads the thumbnail for a file.	filename 
+gimp-item-set-linked	Set the linked state of the specified item.	item linked 
+gimp-layer-add-mask	Add a layer mask to the specified layer.	layer mask 
+gimp-progress-init	Initializes the progress bar for the current plug-in.	message gdisplay 
+gimp-gradient-is-editable	Tests if gradient can be edited	name 
+gimp-temp-name	Generates a unique filename.	extension 
+gimp-image-get-resolution	Returns the specified image's resolution.	image 
+plug-in-curve-bend-Iterator	This procedure calculates the modified values for one iterationstep for the call of plug_in_curve_bend	run-mode total-steps current-step len-struct 
+photo-midnightSepia	Add Midnight Sepia Effect to an image	run-mode image drawable toggle toggle toggle toggle value value value value color 
+gimp-image-get-sample-point-position	Get position of a sample point on an image.	image sample-point 
+gimp-image-freeze-vectors	Freeze the image's vectors list.	image 
+gimp-channel-set-show-masked	Set the composite method of the specified channel.	channel show-masked 
+script-fu-stamp	Make a stamp from the image	run-mode image drawable color value 
+elsamuko-error-level-analysis	Error level analysis shows differing error levels throughout this image,
+ strongly suggesting some form of digital manipulation. More info here:
+http://errorlevelanalysis.com/	run-mode image drawable value string 
+plug-in-animationunoptimize	Remove optimization to make editing easier	run-mode image drawable 
+gimp-context-get-feather	Get the feather setting.	
+gimp-context-get-line-width	Get the line width setting.	
+gimp-selection-shrink	Shrink the image's selection	image steps 
+gimp-help-using-web	Bookmark to the user manual	run-mode 
+plug-in-spheredesigner	Create an image of a textured sphere	run-mode image drawable 
+gimp-text-layer-get-letter-spacing	Get the letter spacing used in a text layer.	layer 
+gimp-context-set-transform-resize	Set the transform resize type.	transform-resize 
+plug-in-applylens	Simulate an elliptical lens over the image	run-mode image drawable refraction keep-surroundings set-background set-transparent 
+script-fu-grad-diff	Uses the gradient tool to generate a random design	run-mode image drawable value option 
+script-fu-blend-anim	Create intermediate layers to blend two or more layers over a background as an animation	run-mode image drawable value value toggle 
+gimp-palette-delete-entry	Deletes a palette entry from the specified palette.	name entry-num 
+file-hgt-load	Load HGT data as images	run-mode filename raw-filename samplespacing 
+file-xbm-load	Load a file in X10 or X11 bitmap (XBM) file format	run-mode filename raw-filename 
+plug-in-gauss-iir	Apply a gaussian blur	run-mode image drawable radius horizontal vertical 
+script-fu-ripply-anim	Create a multi-layer image by adding a ripple effect to the current layer	run-mode image drawable value value option 
+gimp-vectors-stroke-get-length	Measure the length of the given stroke.	vectors stroke-id precision 
+script-fu-shiny-logo	Create corroded painted logo	run-mode font string color color value value value value value color toggle value 
+gimp-image-undo-is-enabled	Check if the image's undo stack is enabled.	image 
+plug-in-hsv-noise	Randomize hue, saturation and value independently	run-mode image drawable holdness hue-distance saturation-distance value-distance 
+file-png-save-defaults	Exports files in PNG file format	run-mode image drawable filename raw-filename 
+gimp-progress-pulse	Pulses the progress bar for the current plug-in.	
+script-fu-merge-up	Merge the active layer with the one above it	run-mode image drawable 
+script-fu-layer-effects-add-border	Create the Add Border effect on the layer with alpha	run-mode image drawable option value option value option color color color option gradient value value option option pattern toggle 
+plug-in-despeckle	Remove speckle noise from the image	run-mode image drawable radius type black white 
+script-fu-gm-solarize	Solarize effect. This works on any RGB image.	run-mode image drawable value value toggle 
+script-fu-aquarel	Gives an image an aquarelled look	run-mode image drawable value value value 
+script-fu-exposure-blend-set-masks	Set Blended Exposure Masks	run-mode image drawable value option option option toggle toggle toggle 
+gimp-context-get-line-dash-offset	Get the line dash offset setting.	
+gimp-palettes-set-popup	Sets the current palette in a palette selection dialog.	palette-callback palette-name 
+gimp-image-get-exported-uri	Returns the exported URI for the specified image.	image 
+file-jp2-load	Loads JPEG 2000 images.	run-mode filename raw-filename 
+script-fu-coffee-stain	Add realistic looking coffee stains to the image	run-mode image drawable value toggle 
+gimp-vectors-import-from-file	Import paths from an SVG file.	image filename merge scale 
+plug-in-depth-merge	Combine two images using depth maps (z-buffers)	run-mode image result source1 source2 depthMap1 depthMap2 overlap offset scale1 scale2 
+gimp-drawable-transform-perspective	Deprecated: Use 'gimp-item-transform-perspective' instead.	drawable x0 y0 x1 y1 x2 y2 x3 y3 transform-direction interpolation supersample recursion-level clip-result 
+gimp-text-layer-get-base-direction	Get the base direction used for rendering the text layer.	layer 
+script-fu-lab-ultra-vivid	Lasm's famous special effect for photographs. Uncheck Ultra-Vivid for a different saturation. You can use the hue saturation plugin to change colors. Caution: it runs slowly on large images.	run-mode image drawable toggle value value value toggle 
+plug-in-separate-import	Import CMYK TIFF image	run-mode filename 
+elsamuko-difference-layers	Creates difference layers from first two layers.
+Latest version can be downloaded from http://registry.gimp.org/node/20340	run-mode image drawable 
+plug-in-plasma	Create a random plasma texture	run-mode image drawable seed turbulence 
+script-fu-blood-logo	Draws the given text string with a border of dripping blood!	run-mode string font value value value 
+gimp-image-grid-get-spacing	Gets the spacing of an image's grid.	image 
+gimp-drawable-mask-intersect	Find the bounding box of the current selection in relation to the specified drawable.	drawable 
+gimp-gradient-get-custom-samples	Sample the specified gradient in custom positions.	name num-samples positions reverse 
+gimp-path-get-locked	Deprecated: Use 'gimp-vectors-get-linked' instead.	image name 
+script-fu-glow	Makes a glow around the outside of the current selection.	run-mode image drawable value value color value toggle 
+file-xmc-save	Exports files of X11 cursor file	run-mode image drawable filename raw-filename x-hot y-hot crop size size-replace delay delay-replace copyright license other 
+script-fu-layer-effects-inner-glow	Create the Inner Glow on the layer with alpha	run-mode image drawable color value value value option option 
+script-fu-soft-focus	Soft focus effect	run-mode image drawable value 
+gimp-edit-copy	Copy from the specified drawable.	drawable 
+gimp-brush-set-angle	Sets the rotation angle of a generated brush.	name angle-in 
+gimp-layer-set-offsets	Set the layer offsets.	layer offx offy 
+script-fu-convolution-presets-emboss	Set of presets for convolution matrix (Emboss)	run-mode image drawable option option value value toggle option toggle toggle toggle toggle toggle 
+script-fu-rgb-swapscale	Swaps and scales RGB channels	run-mode image drawable value value value option 
+gimp-palette-rename	Rename a palette	name new-name 
+tone-adjust	Warm or cool an image using one of several methods	run-mode image drawable option option value toggle 
+file-dds-save	Saves files in DDS image format	run-mode image drawable filename raw-filename compression-format mipmaps savetype format transparent-index mipmap-filter mipmap-wrap gamma-correct srgb gamma perceptual-metric preserve-alpha-coverage alpha-test-threshold 
+script-fu-Eg-Black-White	Black and White conversions	run-mode image drawable option toggle 
+gimp-selection-grow	Grow the image's selection	image steps 
+gimp-selection-is-empty	Determine whether the selection is empty.	image 
+gimp-desaturate-full	Deprecated: Use 'gimp-drawable-desaturate' instead.	drawable desaturate-mode 
+file-psd-load-thumb	Loads thumbnails from the Photoshop PSD file format	filename thumb-size 
+gimp-context-set-brush-spacing	Set brush spacing as percent of size.	spacing 
+plug-in-filter-pack	Interactively modify the image colors	run-mode image drawable 
+script-fu-convolution-presets-others	Set of presets for convolution matrix (Others)	run-mode image drawable option toggle option toggle toggle toggle toggle toggle 
+file-sgi-save	Exports files in SGI image file format	run-mode image drawable filename raw-filename compression 
+gimp-gradients-refresh	Refresh current gradients. This function always succeeds.	
+plug-in-pixelize2	Simplify image into an array of solid-colored rectangles	run-mode image drawable pixel-width pixel-height 
+gimp-image-grid-set-spacing	Sets the spacing of an image's grid.	image xspacing yspacing 
+gimp-image-list	Returns the list of images currently open.	
+gimp-context-set-transform-recursion	Deprecated: There is no replacement for this procedure.	transform-recursion 
+gimp-edit-stroke-vectors	Stroke the specified vectors object	drawable vectors 
+gimp-image-remove-vectors	Remove the specified path from the image.	image vectors 
+plug-in-plug-in-details	Display information about plug-ins	run-mode 
+gimp-image-thaw-channels	Thaw the image's channel list.	image 
+plug-in-sel2path-advanced	Converts a selection to a path (with advanced user menu)	run-mode image drawable align-threshold corner-always-threshold corner-surround corner-threshold error-threshold filter-alternative-surround filter-epsilon filter-iteration-count filter-percent filter-secondary-surround filter-surround keep-knees line-reversion-threshold line-threshold reparameterize-improvement reparameterize-threshold subdivide-search subdivide-surround subdivide-threshold tangent-surround 
+plug-in-wavelet-denoise	Removes noise in the image using wavelets.	run-mode image drawable 
+script-fu-vivid-saturation	Vivid saturation of image. Gives similar effect as many Digital Velvia filters do for the Other Product.	run-mode image drawable value 
+file-wmf-load	Loads files in the WMF file format	run-mode filename raw-filename resolution width height 
+script-fu-bw-film	Black and White Film Simulation	run-mode image drawable option option toggle toggle toggle toggle toggle toggle 
+gimp-path-get-point-at-dist	Deprecated: Use 'gimp-vectors-stroke-get-point-at-dist' instead.	image distance 
+gimp-layer-get-show-mask	Get the show mask setting of the specified layer.	layer 
+gimp-levels-auto	Deprecated: Use 'gimp-drawable-levels-stretch' instead.	drawable 
+gimp-help-using-simpleobjects	Bookmark to the user manual	run-mode 
+script-fu-exposure-blend-save-mask	Save the mask of the current layer as a new channel	run-mode image drawable 
+gimp-drawable-get-pixel	Gets the value of the pixel at the specified coordinates.	drawable x-coord y-coord 
+gimp-text-layer-set-font	Set the font of a text layer.	layer font 
+plug-in-fractalexplorer	Render fractal art	run-mode image drawable fractaltype xmin xmax ymin ymax iter cx cy colormode redstretch greenstretch bluestretch redmode greenmode bluemode redinvert greeninvert blueinvert ncolors 
+gimp-buffers-get-list	Retrieve a complete listing of the available buffers.	filter 
+script-fu-labwow	Version 4.3 
+Lasm's famous special effect for photographs. This works on any RGB image. Caution: it runs slowly on large images.
+
+  Shaolin Line Art works best on sharp macro photos with high contrast. Try using various options in 18 Dragon Subduing Palm	run-mode image drawable option value option option toggle toggle toggle toggle toggle 
+gimp-layer-resize	Resize the layer to the specified extents.	layer new-width new-height offx offy 
+script-fu-Eg-SmartSeparateSharpen	Smart Sharpening, Redux version	run-mode image drawable value value value value value value value value value value value value toggle 
+gimp-fonts-set-popup	Sets the current font in a font selection dialog.	font-callback font-name 
+gimp-fonts-popup	Invokes the Gimp font selection.	font-callback popup-title initial-font 
+gimp-palette-is-editable	Tests if palette can be edited	name 
+gimp-plugin-domain-register	Registers a textdomain for localisation.	domain-name domain-path 
+gimp-item-transform-flip	Flip the specified item around a given line.	item x0 y0 x1 y1 
+gimp-brush-is-generated	Tests if brush is generated.	name 
+gimp-drawable-foreground-extract	Extract the foreground of a drawable using a given trimap.	drawable mode mask 
+file-ps-save	export image as PostScript document	run-mode image drawable filename raw-filename width height x-offset y-offset unit keep-ratio rotation eps-flag preview level 
+plug-in-spread	Move pixels around randomly	run-mode image drawable spread-amount-x spread-amount-y 
+plug-in-rgb-noise	Distort colors by random amounts	run-mode image drawable independent correlated noise-1 noise-2 noise-3 noise-4 
+script-fu-convolution-presets-blur-symmetric	Set of presets for convolution matrix (Symmetric Blur)	run-mode image drawable option value value toggle toggle option toggle toggle toggle toggle toggle 
+gimp-vectors-bezier-stroke-conicto	Extends a bezier stroke with a conic bezier spline.	vectors stroke-id x0 y0 x1 y1 
+script-fu-cut-layers-out-of-boundaries	Cut the portion of the active layer or of all layers that are outside of the image boundaries	run-mode image drawable toggle 
+file-eps-load	load Encapsulated PostScript images	run-mode filename raw-filename 
+script-fu-exposure-blend-apply-mask	Use the first visible channel as the mask for the selected layer	run-mode image drawable 
+script-fu-make-brush-rectangular	Create a rectangular brush	run-mode string value value value 
+gimp-context-set-line-dash-pattern	Set the line dash pattern setting.	num-dashes dashes 
+gimp-plugin-menu-register	Register an additional menu path for a plug-in procedure.	procedure-name menu-path 
+gimp-gradients-sample-uniform	Deprecated: Use 'gimp-gradient-get-uniform-samples' instead.	num-samples reverse 
+file-jpegxl-load	Loads files in the JPEG XL file format	run-mode filename raw-filename 
+gimp-layer-set-edit-mask	Set the edit mask setting of the specified layer.	layer edit-mask 
+gimp-progress-set-text	Changes the text in the progress bar for the current plug-in.	message 
+gimp-image-add-vectors	Deprecated: Use 'gimp-image-insert-vectors' instead.	image vectors position 
+gimp-channel-new	Create a new channel.	image width height name opacity color 
+plug-in-solid-noise	Create a random cloud-like texture	run-mode image drawable tileable turbulent seed detail xsize ysize 
+gimp-image-set-filename	Sets the specified image's filename.	image filename 
+gimp-image-get-layers	Returns the list of layers contained in the specified image.	image 
+gimp-path-list	Deprecated: Use 'gimp-image-get-vectors' instead.	image 
+gimp-image-base-type	Get the base type of the image.	image 
+plug-in-colors-channel-mixer	Alter colors by mixing RGB Channels	run-mode image drawable monochrome rr-gain rg-gain rb-gain gr-gain gg-gain gb-gain br-gain bg-gain bb-gain 
+gimp-text-layer-get-indent	Get the line indentation of text layer.	layer 
+plug-in-icc-profile-info	Retrieve information about an image's color profile	image 
+script-fu-modify-layers-attributes	Edits layer attributes of the specified layer range	run-mode image drawable value value toggle string toggle option toggle value toggle option toggle option toggle option 
+plug-in-bump-map-tiled	Create an embossing effect using a tiled image as a bump map	run-mode image drawable bumpmap azimuth elevation depth xofs yofs waterlevel ambient compensate invert type 
+gimp-text-layer-new	Creates a new text layer.	image text fontname size unit 
+gimp-drawable-mask-bounds	Find the bounding box of the current selection in relation to the specified drawable.	drawable 
+gimp-online-bugs-features	Bookmark to the bug tracker of GIMP	run-mode 
+gimp-context-get-brush-force	Get brush force in paint options.	
+gimp-file-load	Loads an image file by invoking the right load handler.	run-mode filename raw-filename 
+gimp-get-module-load-inhibit	Get the list of modules which should not be loaded.	
+extension-gimp-help		num-domain-names domain-names num-domain-uris domain-uris 
+gimp-image-set-color-profile-from-file	Sets the image's color profile from an ICC file	image uri 
+gimp-procedural-db-dump	Dumps the current contents of the procedural database	filename 
+script-fu-convolution-presets-posterize-variation	Set of presets for convolution matrix (Posterize Variation)	run-mode image drawable option value toggle option toggle toggle toggle toggle toggle 
+gimp-help-using-fileformats	Bookmark to the user manual	run-mode 
+gimp-pencil	Paint in the current brush without sub-pixel sampling.	drawable num-strokes strokes 
+gimp-text-layer-get-hint-style	Get information about hinting in the specified text layer.	layer 
+script-fu-make-a-star	Makes a star with any number of tips inside the current selection using current fg color and brush. Use Ctrl-F to repeat the script while making new selections. It's FUN :)	run-mode image drawable value value value value toggle toggle toggle 
+script-fu-selection-to-pattern	Convert a selection to a pattern	run-mode image drawable string string 
+gimp-drawable-edit-stroke-selection	Stroke the current selection	drawable 
+script-fu-old-photo-2	Makes the image look like an old photo (more configurable)	run-mode image drawable toggle toggle value toggle toggle value toggle 
+file-raw-placeholder-cine-load	Load files in the CINE raw format via raw-placeholder	run-mode filename raw-filename 
+script-fu-lineart	Lasm's famous Line Art effect for photographs. (Version 3.5) This works on any RGB image.
+The technique may not be effective when used on images with large areas of high saturation.
+The default values adjust for that. If the image is too dark, you may want to adjust brightness/contrast values only slightly before starting the script.
+Tip: If you do not have a good Gimpressionist preset, simply hit cancel at the Gimpressionist dialog window, and you will still get a good greyscale line-art.	run-mode image drawable option toggle toggle toggle toggle color option option value value value value 
+gimp-image-get-filename	Returns the specified image's filename.	image 
+gimp-xcf-load	Loads file saved in the .xcf file format	dummy-param filename raw-filename 
+gimp-image-get-colormap	Returns the image's colormap	image 
+plug-in-displace-polar	Displace pixels as indicated by displacement maps	run-mode image drawable amount-x amount-y do-x do-y displace-map-x displace-map-y displace-type 
+plug-in-cartoon	Simulate a cartoon by enhancing edges	run-mode image drawable mask-radius pct-black 
+plug-in-icc-profile-file-info	Retrieve information about a color profile	profile 
+file-faxg3-load	loads g3 fax files	run-mode filename raw-filename 
+script-fu-shrek-text	Creates a text layer with an iMac-like effect	run-mode string font value color 
+script-fu-convolution-presets-shake	Set of presets for convolution matrix (Shake)	run-mode image drawable option value toggle toggle option toggle toggle toggle toggle toggle 
+script-fu-duotone	Produces a duotone photograph.
+
+Some interesting values for the colour are Sepia (162 138 101) and Selenium (229 232 234). Play with the colour saturation for more interesting effects, or uncheck the Flatten box and then modify the new layer's opacity.	run-mode image drawable color toggle toggle 
+gimp-image-delete	Delete the specified image.	image 
+file-raw-placeholder-mos-load	Load files in the MOS raw format via raw-placeholder	run-mode filename raw-filename 
+gimp-image-detach-parasite	Removes a parasite from an image.	image name 
+gimp-patterns-get-pattern-data	Deprecated: Use 'gimp-pattern-get-pixels' instead.	name 
+gimp-layer-get-lock-alpha	Get the lock alpha channel setting of the specified layer.	layer 
+gimp-image-insert-channel	Add the specified channel to the image.	image channel parent position 
+gimp-unit-get-number-of-built-in-units	Returns the number of built-in units.	
+script-fu-Eg-Copyright	Generate a copyright mark on an image	run-mode image drawable string font value value value option color option toggle toggle 
+gimp-image-get-layer-by-tattoo	Find a layer with a given tattoo in an image.	image tattoo 
+gimp-brushes-popup	Invokes the Gimp brush selection.	brush-callback popup-title initial-brush opacity spacing paint-mode 
+plug-in-decompose	Decompose an image into separate colorspace components	run-mode image drawable decompose-type layers-mode 
+gimp-drawable-transform-flip-default	Deprecated: Use 'gimp-item-transform-flip' instead.	drawable x0 y0 x1 y1 interpolate clip-result 
+file-raw-placeholder-srw-load	Load files in the SRW raw format via raw-placeholder	run-mode filename raw-filename 
+gimp-progress-get-window-handle	Returns the native window ID of the toplevel window this plug-in's progress is displayed in.	
+gimp-image-duplicate	Duplicate the specified image	image 
+script-fu-drop-shadow	Add a drop shadow to the selected region (or alpha)	run-mode image drawable value value value color value toggle 
+gimp-item-get-parasite	Look up a parasite in an item	item name 
+gimp-image-get-component-active	Returns if the specified image's image component is active.	image component 
+script-fu-selective-coloring	Allows you to change the overall color or the color balance of a selection and all the area around it at the same time, using two different adjustments.	run-mode image drawable value value value option toggle color toggle value value value option toggle color toggle toggle toggle 
+gimp-brushes-get-brush	Deprecated: Use 'gimp-context-get-brush' instead.	
+file-exr-load	Loads files in the OpenEXR file format	run-mode filename raw-filename 
+plug-in-web-browser	Open an URL in the user specified web browser	url 
+gimp-item-transform-2d	Transform the specified item in 2d.	item source-x source-y scale-x scale-y angle dest-x dest-y 
+gimp-image-get-active-layer	Returns the specified image's active layer.	image 
+gimp-context-set-gradient-blend-color-space	Set the gradient blend color space.	blend-color-space 
+gimp-text-layer-get-text	Get the text from a text layer as string.	layer 
+gimp-context-get-brush	Retrieve the currently active brush.	
+gimp-drawable-levels-stretch	Automatically modifies intensity levels in the specified drawable.	drawable 
+gimp-item-transform-matrix	Transform the specified item in 2d.	item coeff-0-0 coeff-0-1 coeff-0-2 coeff-1-0 coeff-1-1 coeff-1-2 coeff-2-0 coeff-2-1 coeff-2-2 
+gimp-plugin-set-pdb-error-handler	Sets an error handler for procedure calls.	handler 
+gimp-threshold	Deprecated: Use 'gimp-drawable-threshold' instead.	drawable low-threshold high-threshold 
+gimp-drawable-set-pixel	Sets the value of the pixel at the specified coordinates.	drawable x-coord y-coord num-channels pixel 
+gimp-vectors-stroke-translate	translate the given stroke.	vectors stroke-id off-x off-y 
+elsamuko-che-guevara	Shadow Style Portrait.
+Latest version can be downloaded from http://registry.gimp.org	run-mode image drawable value value value value value option color 
+gimp-brush-delete	Deletes a brush.	name 
+script-fu-quick-sketch	Create a sketch from a photo	run-mode image drawable value 
+plug-in-ccanalyze	Analyze the set of colors in the image	run-mode image drawable 
+gimp-plugin-enable-precision	Switches this plug-in to using the real bit depth of drawables.	
+gimp-text-layer-get-hinting	Deprecated: Use 'gimp-text-layer-get-hint-style' instead.	layer 
+gimp-shear	Deprecated: Use 'gimp-item-transform-shear' instead.	drawable interpolation shear-type magnitude 
+gimp-progress-uninstall	Uninstalls the progress callback for the current plug-in.	progress-callback 
+gimp-image-get-precision	Get the precision of the image.	image 
+plug-in-icc-profile-set-rgb	Set the default RGB color profile on the image	run-mode image 
+file-sunras-load	load file of the SunRaster file format	run-mode filename raw-filename 
+plug-in-lqr	scaling which keeps layer features (or removes them)	run-mode image drawable width height pres-layer pres-coeff disc-layer disc-coeff rigidity rigidity-mask-layer delta-x enl-step resize-aux-layers resize-canvas output-target seams nrg-func res-order mask-behavior scaleback scaleback-mode no-disc-on-enlarge pres-layer-name disc-layer-name rigmask-layer-name selected-layer-name 
+gimp-palette-export-php	Export the active palette as a PHP dictionary (name => color)	run-mode dirname string 
+gimp-context-get-ink-size-sensitivity	Get ink size sensitivity.	
+gimp-path-set-tattoo	Deprecated: Use 'gimp-vectors-set-tattoo' instead.	image name tattovalue 
+gimp-context-get-brush-angle	Get brush angle in degrees.	
+gimp-image-add-hguide	Add a horizontal guide to an image.	image yposition 
+script-fu-edge-mask-sharpen	Perform a smart sharpen on an image.	run-mode image drawable value value toggle 
+gimp-image-convert-rgb	Convert specified image to RGB color	image 
+gimp-context-get-paint-mode	Get the paint mode.	
+gimp-drawable-transform-flip	Deprecated: Use 'gimp-item-transform-flip' instead.	drawable x0 y0 x1 y1 transform-direction interpolation supersample recursion-level clip-result 
+file-cel-load	Loads files in KISS CEL file format	run-mode filename raw-filename palette-filename 
+gimp-layer-get-edit-mask	Get the edit mask setting of the specified layer.	layer 
+file-pdf-save-transparent	Save files in PDF format	run-mode image drawable filename raw-filename vectorize ignore-hidden apply-masks layers-as-pages fill-background-color 
+gimp-image-get-guide-orientation	Get orientation of a guide on an image.	image guide 
+gimp-get-parasite	Look up a global parasite.	name 
+file-gbr-save-internal	Exports Gimp brush file (.GBR)	dummy-param image drawable uri raw-uri spacing name 
+batch-gimp-lqr-full	Invokes the Liquid Rescale plugin 
+	   noninteractively. 
+	   This is the full-options version.	run-mode string string value value string string value string value value string value value toggle toggle value toggle value value value toggle value toggle 
+gimp-text-layer-set-hinting	Enable/disable the use of hinting in a text layer.	layer hinting autohint 
+script-fu-convolution-presets-edge-symmetric	Set of presets for convolution matrix (Symmetric Edge Detect)	run-mode image drawable option value option toggle option toggle toggle toggle toggle toggle 
+elsamuko-wb-puzzle	Creating a Puzzle of white balanced pieces.
+ Newest version can be downloaded from http://registry.gimp.org/	run-mode image drawable value value value 
+file-psd-save	saves files in the Photoshop(tm) PSD file format	run-mode image drawable filename raw-filename compression fill-order 
+file-pat-save	Exports Gimp pattern file (.PAT)	run-mode image drawable uri raw-uri description 
+gimp-item-set-tattoo	Set the tattoo of the specified item.	item tattoo 
+gimp-image-unset-active-channel	Unsets the active channel in the specified image.	image 
+file-png-save	Exports files in PNG file format	run-mode image drawable filename raw-filename interlace compression bkgd gama offs phys time 
+gimp-transform-2d	Deprecated: Use 'gimp-item-transform-2d' instead.	drawable interpolation source-x source-y scale-x scale-y angle dest-x dest-y 
+gimp-smudge	Smudge image with varying pressure.	drawable pressure num-strokes strokes 
+file-pdf-save	Save files in PDF format	run-mode image drawable filename raw-filename vectorize ignore-hidden apply-masks 
+gimp-drawable-set-image	Deprecated: There is no replacement for this procedure.	drawable image 
+gimp-image-raise-item-to-top	Raise the specified item to the top of its level in its item tree	image item 
+gimp-scale	Deprecated: Use 'gimp-item-transform-scale' instead.	drawable interpolation x0 y0 x1 y1 
+file-ico-load	Loads files of Windows ICO file format	run-mode filename raw-filename 
+plug-in-mblur	Simulate movement using directional blur	run-mode image drawable type length angle center-x center-y 
+gimp-vectors-remove-stroke	remove the stroke from a vectors object.	vectors stroke-id 
+elsamuko-national-geographic	Simulating high quality photos.
+Latest version can be downloaded from http://registry.gimp.org/node/9592	run-mode image drawable value value value value value toggle option 
+gimp-image-undo-freeze	Freeze the image's undo stack.	image 
+script-fu-perspective-shadow	Add a perspective shadow to the selected region (or alpha)	run-mode image drawable value value value value color value enum toggle 
+gimp-image-set-active-vectors	Sets the specified image's active vectors.	image active-vectors 
+gimp-palette-new	Creates a new palette	name 
+plug-in-script-fu-console	Interactive console for Script-Fu development	run-mode 
+gimp-context-get-brush-aspect-ratio	Get brush aspect ratio.	
+script-fu-number-layers	Edits layer names to number them. Numbering starts at user's specified number. Effect is culmulative if layers maintain original names.	run-mode image drawable value toggle 
+plug-in-diffraction	Generate diffraction patterns	run-mode image drawable lam-r lam-g lam-b contour-r contour-g contour-b edges-r edges-g edges-b brightness scattering polarization 
+gimp-context-push	Pushes a context to the top of the plug-in's context stack.	
+gimp-layer-set-apply-mask	Set the apply mask setting of the specified layer.	layer apply-mask 
+gimp-online-developer-web-site	Bookmark to the GIMP web site	run-mode 
+gimp-floating-sel-rigor	Deprecated: There is no replacement for this procedure.	floating-sel undo 
+gimp-text-get-extents	Deprecated: Use 'gimp-text-get-extents-fontname' instead.	text size size-type foundry family weight slant set-width spacing registry encoding 
+gimp-convolve-default	Convolve (Blur, Sharpen) using the current brush.	drawable num-strokes strokes 
+plug-in-metadata-viewer	View metadata (Exif, IPTC, XMP)	run-mode image 
+plug-in-small-tiles	Tile image into smaller versions of the original	run-mode image drawable num-tiles 
+gimp-unit-get-abbreviation	Returns the abbreviation of the unit.	unit-id 
+gimp-free-select	Deprecated: Use 'gimp-image-select-polygon' instead.	image num-segs segs operation antialias feather feather-radius 
+plug-in-colormap-swap	Swap two colors in the colormap	run-mode image drawable index1 index2 
+file-gih-load	Loads GIMP animated brushes	dummy-param uri raw-uri 
+script-fu-Eg-ColorSaturation	Saturate or desaturate color images	run-mode image drawable value toggle 
+script-fu-distress-selection	Distress the selection	run-mode image drawable value value value value toggle toggle 
+file-pdf-save-multi-transparent	Save files in PDF format	run-mode count images vectorize ignore-hidden apply-masks filename raw-filename fill-background-color 
+gimp-context-set-gradient	Sets the specified gradient as the active gradient.	name 
+plug-in-colorify	Replace all colors with shades of a specified color	run-mode image drawable color 
+gimp-selection-load	Deprecated: Use 'gimp-image-select-item' instead.	channel 
+gimp-drawable-invert	Invert the contents of the specified drawable.	drawable linear 
+gimp-display-get-window-handle	Get a handle to the native window for an image display.	display 
+gimp-brush-rename	Renames a brush.	name new-name 
+gimp-image-add-layer-mask	Deprecated: Use 'gimp-layer-add-mask' instead.	image layer mask 
+gimp-image-freeze-channels	Freeze the image's channel list.	image 
+plug-in-align-layers	Align all visible layers of the image	run-mode image drawable link-after-alignment use-bottom 
+gimp-image-get-channel-by-tattoo	Find a channel with a given tattoo in an image.	image tattoo 
+gimp-context-get-ink-blob-aspect-ratio	Get ink blob aspect ratio.	
+gimp-rect-select	Deprecated: Use 'gimp-image-select-rectangle' instead.	image x y width height operation feather feather-radius 
+gimp-image-add-sample-point	Add a sample point to an image.	image position-x position-y 
+gimp-gradient-segment-range-set-blending-function	Change the blending function of a segments range	name start-segment end-segment blending-function 
+script-fu-fireanim	FireAnim	run-mode image drawable value value value gradient value value value toggle drawable 
+script-fu-tile-blur	Blur the edges of an image so the result tiles seamlessly	run-mode image drawable value toggle toggle option 
+gimp-image-height	Return the height of the image	image 
+gimp-drawable-extract-component	Extract a color model component.	drawable component invert linear 
+gimp-selection-float	Float the selection from the specified drawable with initial offsets as specified.	drawable offx offy 
+script-fu-gradient-example	Create an image filled with an example of the current gradient	run-mode value value toggle 
+file-pnm-save	Exports files in the PNM file format	run-mode image drawable filename raw-filename raw 
+gimp-brush-get-radius	Gets the radius of a generated brush.	name 
+script-fu-lab-color-punch	Lasm's famous special effect for photographs. This works on any RGB image. LAB Color Punch gives you the power and freedom to change the color you want ! Caution: it runs slowly on large images.	run-mode image drawable option value option value toggle option value option value toggle 
+file-xpm-load	Load files in XPM (X11 Pixmap) format.	run-mode filename raw-filename 
+gimp-drawable-transform-matrix-default	Deprecated: Use 'gimp-item-transform-matrix' instead.	drawable coeff-0-0 coeff-0-1 coeff-0-2 coeff-1-0 coeff-1-1 coeff-1-2 coeff-2-0 coeff-2-1 coeff-2-2 interpolate clip-result 
+gimp-drawable-threshold	Threshold the specified drawable.	drawable channel low-threshold high-threshold 
+gimp-item-transform-translate	Translate the item by the specified offsets.	item off-x off-y 
+gimp-image-get-unit	Returns the specified image's unit.	image 
+gimp-image-get-active-drawable	Get the image's active drawable	image 
+gimp-context-get-gradient	Retrieve the currently active gradient.	
+gimp-image-get-layer-by-name	Find a layer with a given name in an image.	image name 
+file-raw-placeholder-sony-load	Load files in the Sony raw formats via raw-placeholder	run-mode filename raw-filename 
+script-fu-convolution-presets-unsharp-mask	Set of presets for convolution matrix (Unsharp Mask)	run-mode image drawable option value value toggle option toggle toggle toggle toggle toggle 
+file-raw-placeholder-orf-load	Load files in the ORF raw format via raw-placeholder	run-mode filename raw-filename 
+plug-in-sharpen	Make image sharper (less powerful than Unsharp Mask)	run-mode image drawable percent 
+gimp-get-color-configuration	Get a serialized version of the color management configuration.	
+gimp-context-get-background	Get the current GIMP background color.	
+gimp-context-get-palette	Retrieve the currently active palette.	
+plug-in-autocrop-layer	Crop the active layer based on empty borders of the input drawable	run-mode image drawable 
+gimp-image-set-tattoo-state	Set the tattoo state associated with the image.	image tattoo-state 
+file-svg-load-thumb	Generates a thumbnail of an SVG image	filename thumb-size 
+script-fu-anim-combine-background	Combine each layer of the image with a copy of the background layer	run-mode image drawable 
+script-fu-anim-overlay-background	Overlay each layer of the image with a copy of the background layer	run-mode image drawable 
+gimp-path-to-selection	Deprecated: Use 'gimp-vectors-to-selection' instead.	image name op antialias feather feather-radius-x feather-radius-y 
+gimp-context-get-diagonal-neighbors	Get the diagonal neighbors setting.	
+script-fu-layer-effects-inner-shadow	Create the Inner Shadow on the layer with alpha	run-mode image drawable color value value value value value option 
+gimp-context-set-feather-radius	Set the feather radius setting.	feather-radius-x feather-radius-y 
+gimp-vectors-copy	Copy a vectors object.	vectors 
+plug-in-imagemap	Create a clickable imagemap	run-mode image drawable 
+gimp-display-delete	Delete the specified display.	display 
+script-fu-colortemp	Convert Color Temperature 2.0
+
+For help, go to http://www.dealfaro.org/home/code/colortemp.html
+	run-mode image drawable option value value value value 
+file-xz-load	loads files compressed with xz	run-mode filename raw-filename 
+gimp-help-using-docks	Bookmark to the user manual	run-mode 
+gimp-gradient-get-number-of-segments	Returns the number of segments of the specified gradient	name 
+gimp-image-get-vectors-by-tattoo	Find a vectors with a given tattoo in an image.	image tattoo 
+plug-in-rotate	Rotates a layer or the whole image by 90, 180 or 270 degrees	run-mode image drawable angle everything 
+gimp-vectors-stroke-flip	flips the given stroke.	vectors stroke-id flip-type axis 
+gimp-context-set-palette	Set the specified palette as the active palette.	name 
+file-ps-load-thumb	Loads a small preview from a PostScript or PDF document	filename thumb-size 
+plug-in-colortoalpha	Convert a specified color to transparency	run-mode image drawable color 
+plug-in-nlfilt	Nonlinear swiss army knife filter	run-mode img drw alpha radius filter 
+gimp-context-set-brush-hardness	Set brush hardness.	hardness 
+gimp-convolve	Convolve (Blur, Sharpen) using the current brush.	drawable pressure convolve-type num-strokes strokes 
+gimp-gradient-segment-set-middle-pos	Sets the middle point position of the specified segment	name segment pos 
+gimp-context-get-ink-speed-sensitivity	Get ink speed sensitivity.	
+file-gbr-save	Exports files in the GIMP brush file format	run-mode image drawable uri raw-uri spacing description 
+elsamuko-technicolor-2-color	Simulating Technicolor Film.
+Newest version can be downloaded from http://registry.gimp.org/node/9129	run-mode image drawable value value color color color toggle 
+gimp-image-delete-guide	Deletes a guide from an image.	image guide 
+gimp-context-set-ink-blob-aspect-ratio	Set ink blob aspect ratio.	aspect 
+gimp-context-get-gradient-reverse	Get the gradient reverse setting.	
+gimp-image-remove-layer-mask	Deprecated: Use 'gimp-layer-remove-mask' instead.	image layer mode 
+gimp-path-get-current	Deprecated: Use 'gimp-image-get-active-vectors' instead.	image 
+file-webp-save	Saves files in the WebP image format	run-mode image drawable filename raw-filename preset lossless quality alpha-quality animation anim-loop minimize-size kf-distance exif iptc xmp delay force-delay 
+script-fu-EZImprover	Add screen layer and a saturation layer. Works best on photos described as 'dingy' or 'dull'.	run-mode image drawable toggle 
+gimp-help-main	Bookmark to the user manual	run-mode 
+file-dicom-save	Save file in the DICOM file format	run-mode image drawable filename raw-filename 
+script-fu-sv-gloss-orb-dark	Creates a Web2.0 style gloss orb	run-mode value color 
+gimp-procedural-db-query	Queries the procedural database for its contents using regular expression matching.	name blurb help author copyright date proc-type 
+gimp-histogram	Deprecated: Use 'gimp-drawable-histogram' instead.	drawable channel start-range end-range 
+gimp-context-get-brush-spacing	Get brush spacing as percent of size.	
+gimp-image-get-active-channel	Returns the specified image's active channel.	image 
+file-raw-placeholder-x3f-load	Load files in the X3F raw format via raw-placeholder	run-mode filename raw-filename 
+gimp-context-get-gradient-repeat-mode	Get the gradient repeat mode.	
+plug-in-separate-duotone	Generate duotone separations	run-mode image drawable 
+plug-in-sel2path	Converts a selection to a path	run-mode image drawable 
+gimp-image-grid-set-background-color	Gets the background color of an image's grid.	image bgcolor 
+script-fu-add-frame	Add a frame around an image	run-mode image drawable value option color toggle pattern toggle toggle value value value toggle toggle toggle 
+script-fu-texturizer	Creates textured canvas image to simulate Photoshop's Texturizer filter	run-mode image drawable pattern option value value option toggle toggle 
+plug-in-checkerboard	Create a checkerboard pattern	run-mode image drawable check-mode check-size 
+gimp-drawable-get-format	Returns the drawable's Babl format	drawable 
+gimp-gradient-segment-range-replicate	Replicate the segment range	name start-segment end-segment replicate-times 
+plug-in-gimpmask	GIMP MASK	run-mode image drawable mask-type cp-code direction 
+script-fu-glass-effect-text	Creates glass-effect text with a dropped shadow	run-mode string value font color pattern value value color value value value value toggle toggle 
+gimp-drawable-update	Update the specified region of the drawable.	drawable x y width height 
+plug-in-autostretch-hsv	Stretch contrast to cover the maximum possible range	run-mode image drawable 
+gimp-file-load-layer	Loads an image file as a layer for an existing image.	run-mode image filename 
+gimp-path-set-current	Deprecated: Use 'gimp-image-set-active-vectors' instead.	image name 
+gimp-selection-none	Deselect the entire image.	image 
+plug-in-autocrop	Remove empty borders from the image	run-mode image drawable 
+gimp-image-delete-sample-point	Deletes a sample point from an image.	image sample-point 
+script-fu-exposure-blend	Blend Bracketed Exposures	run-mode filename filename filename value option option option toggle toggle string 
+script-fu-line-nova	Fill a layer with rays emanating outward from its center using the foreground color	run-mode image drawable value value value value 
+gimp-vectors-stroke-get-point-at-dist	Get point at a specified distance along the stroke.	vectors stroke-id dist precision 
+gimp-drawable-desaturate	Desaturate the contents of the specified drawable, with the specified formula.	drawable desaturate-mode 
+gimp-item-is-channel	Returns whether the item is a channel.	item 
+gimp-progress-update	Updates the progress bar for the current plug-in.	percentage 
+Fix-CA	Fix-CA Version 3.0.2	run-mode image drawable blue red interpolation x-blue x-red y-blue y-red 
+gimp-brush-get-spikes	Gets the number of spikes for a generated brush.	name 
+gimp-text	Deprecated: Use 'gimp-text-fontname' instead.	image drawable x y text border antialias size size-type foundry family weight slant set-width spacing registry encoding 
+gimp-layer-scale-full	Deprecated: Use 'gimp-layer-scale' instead.	layer new-width new-height local-origin interpolation 
+gimp-attach-parasite	Add a global parasite.	parasite 
+plug-in-ripple	Displace pixels in a ripple pattern	run-mode image drawable period amplitude orientation edges waveform antialias tile 
+gimp-drawable-edit-bucket-fill	Fill the area by a seed fill starting at the specified coordinates.	drawable fill-type x y 
+gimp-layer-new-from-visible	Create a new layer from what is visible in an image.	image dest-image name 
+gimp-text-layer-set-indent	Set the indentation of the first line in a text layer.	layer indent 
+script-fu-gm-color-invert-0	Version 2.0
+Lasm's color invert effect. This turns the photo into a photo negative without changing the colors and the effect is reversible.
+
+Cycle through all 3 effects in random order and you will arrive back to the original image	run-mode image drawable 
+gimp-palette-get-colors	Gets all colors from the specified palette.	name 
+gimp-item-is-layer-mask	Returns whether the item is a layer mask.	item 
+gimp-edit-blend	Blend between the starting and ending coordinates with the specified blend mode and gradient type.	drawable blend-mode paint-mode gradient-type opacity offset repeat reverse supersample max-depth threshold dither x1 y1 x2 y2 
+gimp-image-get-color-profile	Returns the image's color profile	image 
+plug-in-convmatrix	Apply a generic 5x5 convolution matrix	run-mode image drawable argc-matrix matrix alpha-alg divisor offset argc-channels channels bmode 
+gimp-register-save-handler	Registers a file save handler procedure.	procedure-name extensions prefixes 
+gimp-selection-combine	Deprecated: Use 'gimp-image-select-item' instead.	channel operation 
+gimp-gradient-segment-set-left-pos	Sets the left endpoint position of the specified segment	name segment pos 
+gimp-get-default-comment	Get the default image comment as specified in the Preferences.	
+gimp-item-transform-perspective	Perform a possibly non-affine transformation on the specified item.	item x0 y0 x1 y1 x2 y2 x3 y3 
+script-fu-grumbel-wonderful	Creates a new tuxracer level	run-mode image drawable value value value toggle 
+script-fu-gm-color-invert-1	Version 2.0
+Lasm's color invert effect. This inverts color only, leaving brightness alone on any RGB image and the effect is reversible.
+
+Cycle through all 3 effects in random order and you will arrive back to the original image	run-mode image drawable 
+gimp-item-get-expanded	Returns whether the item is expanded.	item 
+gimp-context-get-brush-size	Get brush size in pixels.	
+script-fu-gm-color-invert-2	Version 2.0
+Lasm's color invert effect. This is vanilla color invert and the effect is reversible.
+
+Cycle through all 3 effects in random order and you will arrive back to the original image	run-mode image drawable 
+gimp-text-layer-set-line-spacing	Adjust the line spacing in a text layer.	layer line-spacing 
+gimp-layer-set-blend-space	Set the blend space of the specified layer.	layer blend-space 
+script-fu-Eg-ISONoiseReduction	Reduce sensor noise at high ISO values	run-mode image drawable option value value toggle 
+gimp-item-attach-parasite	Add a parasite to an item.	item parasite 
+plug-in-waves	Distort the image with waves	run-mode image drawable amplitude phase wavelength type reflective 
+script-fu-gm-color-invert-3	Version 2.0
+The solarize effect is irreversible.	run-mode image drawable 
+plug-in-maze	Draw a labyrinth	run-mode image drawable width height tileable algorithm seed multiple offset 
+script-fu-convolution-presets-edge-detect-prewitt	Set of presets for convolution matrix (Edge Detect Prewitt)	run-mode image drawable value option toggle toggle toggle option toggle toggle toggle toggle toggle 
+gimp-context-get-transform-resize	Get the transform resize type.	
+gimp-context-set-antialias	Set the antialias setting.	antialias 
+script-fu-convolution-presets-sharp-adjustable	Set of presets for convolution matrix (Adjustable Sharp)	run-mode image drawable option value value toggle option toggle toggle toggle toggle toggle 
+script-fu-gm-color-invert-4	Version 2.0
+Produces a highly saturated version of v-invert. Compare this image with the regular plug-in-vinvert! Toggle it twice and it will stay in the V-invert mode, but the effect is not reversible to the original image.	run-mode image drawable 
+plug-in-threshold-alpha	Make transparency all-or-nothing	run-mode image drawable threshold 
+gimp-context-get-interpolation	Get the interpolation type.	
+gimp-item-set-lock-content	Set the 'lock content' state of the specified item.	item lock-content 
+gimp-getpid	Returns the PID of the host GIMP process.	
+file-jpeg-load	loads files in the JPEG file format	run-mode filename raw-filename 
+plug-in-sample-colorize	Colorize image using a sample image as a guide	run-mode image dst-drawable sample-drawable hold-inten orig-inten rnd-subcolors guess-missing in-low in-high gamma out-low out-high 
+gimp-gradient-segment-get-left-pos	Retrieves the left endpoint position of the specified segment	name segment 
+gimp-display-new	Create a new display for the specified image.	image 
+script-fu-predator	Add a 'Predator' effect to the selected region (or alpha)	run-mode image drawable value toggle value toggle toggle 
+gimp-image-undo-disable	Disable the image's undo stack.	image 
+gimp-item-get-parasite-list	List all parasites.	item 
+file-gz-load	loads files compressed with gzip	run-mode filename raw-filename 
+file-pix-load	loads files of the Alias|Wavefront Pix file format	run-mode filename raw-filename 
+gimp-unit-get-digits	Returns the number of digits of the unit.	unit-id 
+gimp-drawable-histogram	Returns information on the intensity histogram for the specified drawable.	drawable channel start-range end-range 
+gimp-drawable-hue-saturation	Modify hue, lightness, and saturation in the specified drawable.	drawable hue-range hue-offset lightness saturation overlap 
+script-fu-spinning-globe	Create an animation by mapping the current image onto a spinning sphere	run-mode image drawable value toggle toggle value toggle 
+gimp-get-path-by-tattoo	Deprecated: Use 'gimp-image-get-vectors-by-tattoo' instead.	image tattoo 
+gimp-text-layer-set-font-size	Set the font size.	layer font-size unit 
+plug-in-hot	Find and fix pixels that may be unsafely bright	run-mode image drawable mode action new-layer 
+gimp-layer-new-from-drawable	Create a new layer by copying an existing drawable.	drawable dest-image 
+gimp-text-layer-get-color	Get the color of the text in a text layer.	layer 
+gimp-edit-paste	Paste buffer to the specified drawable.	drawable paste-into 
+gimp-item-is-selection	Returns whether the item is a selection.	item 
+gimp-palette-entry-get-color	Gets the specified palette entry from the specified palette.	name entry-num 
+gimp-context-set-dynamics	Set the specified paint dynamics as the active paint dynamics.	name 
+gimp-ellipse-select	Deprecated: Use 'gimp-image-select-ellipse' instead.	image x y width height operation antialias feather feather-radius 
+gimp-palette-delete	Deletes a palette	name 
+plug-in-illusion	Superimpose many altered copies of the image	run-mode image drawable division type 
+gimp-image-find-next-sample-point	Find next sample point on an image.	image sample-point 
+plug-in-destripe	Remove vertical stripe artifacts from the image	run-mode image drawable avg-width 
+gimp-text-layer-set-text	Set the text of a text layer.	layer text 
+script-fu-wrap-effect	Draws with wrap effect to simulate Photoshop's Wrap filter	run-mode image drawable value value value toggle 
+gimp-gradient-segment-range-delete	Delete the segment range	name start-segment end-segment 
+gimp-vectors-bezier-stroke-lineto	Extends a bezier stroke with a lineto.	vectors stroke-id x0 y0 
+file-raw-load	Load raw images, specifying image information	run-mode filename raw-filename 
+gimp-context-get-line-dash-pattern	Get the line dash pattern setting.	
+script-fu-convolution-presets-emboss-variation	Set of presets for convolution matrix (Emboss Variation)	run-mode image drawable option option value toggle option toggle toggle toggle toggle toggle 
+script-fu-grad-kp	Add a graduated filter to an image	run-mode image drawable color toggle 
+gimp-context-get-opacity	Get the opacity.	
+script-fu-slide	Add a slide-film like frame, sprocket holes, and labels to an image	run-mode image drawable string string font color toggle 
+gimp-image-clean-all	Set the image dirty count to 0.	image 
+plug-in-map-object	Map the image to an object (plane, sphere, box or cylinder)	run-mode image drawable maptype viewpoint-x viewpoint-y viewpoint-z position-x position-y position-z firstaxis-x firstaxis-y firstaxis-z secondaxis-x secondaxis-y secondaxis-z rotationangle-x rotationangle-y rotationangle-z lighttype lightcolor lightposition-x lightposition-y lightposition-z lightdirection-x lightdirection-y lightdirection-z ambient-intensity diffuse-intensity diffuse-reflectivity specular-reflectivity highlight antialiasing tiled newimage transparentbackground radius x-scale y-scale z-scale cylinder-length box-front-drawable box-back-drawable box-top-drawable box-bottom-drawable box-left-drawable box-right-drawable cyl-top-drawable cyl-bottom-drawable 
+script-fu-addborder	Add a border around an image	run-mode image drawable value value color value 
+gimp-brush-new	Creates a new brush.	name 
+script-fu-make-a-square	Makes an ordinary square inside the selection on current layer, no questions asked	run-mode image drawable 
+gimp-image-grid-set-foreground-color	Gets the foreground color of an image's grid.	image fgcolor 
+file-png-save2	Exports files in PNG file format	run-mode image drawable filename raw-filename interlace compression bkgd gama offs phys time comment svtrans 
+gimp-context-get-dynamics	Retrieve the currently active paint dynamics.	
+gimp-buffer-get-height	Retrieves the specified buffer's height.	buffer-name 
+gimp-edit-bucket-fill	Fill the area specified either by the current selection if there is one, or by a seed fill starting at the specified coordinates.	drawable fill-mode paint-mode opacity threshold sample-merged x y 
+gimp-layer-get-mode	Get the combination mode of the specified layer.	layer 
+plug-in-vinvert	Invert the brightness of each pixel	run-mode image drawable 
+script-fu-selection-rounded-rectangle	Round the corners of the current selection	run-mode image drawable value toggle 
+file-fli-info	Get information about a Fli movie	filename 
+plug-in-guillotine	Slice the image into subimages using guides	run-mode image drawable 
+plug-in-script-fu-server	Server for remote Script-Fu operation	run-mode ip port logfile 
+script-fu-photo-frame	Frame a photograph	run-mode image drawable color value color value toggle toggle 
+gimp-brush-get-aspect-ratio	Gets the aspect ratio of a generated brush.	name 
+gimp-image-crop	Crop the image to the specified extents.	image new-width new-height offx offy 
+elsamuko-cyanotype	Cyanotype effect from 1842.	run-mode image drawable color color value value toggle 
+gimp-drawable-transform-shear-default	Deprecated: Use 'gimp-item-transform-shear' instead.	drawable shear-type magnitude interpolate clip-result 
+gimp-drawable-edit-clear	Clear selected area of drawable.	drawable 
+gimp-context-set-opacity	Set the opacity.	opacity 
+file-bz2-load	loads files compressed with bzip2	run-mode filename raw-filename 
+gimp-dodgeburn-default	Dodgeburn image with varying exposure. This is the same as the gimp_dodgeburn() function except that the exposure, type and mode are taken from the tools option dialog. If the dialog has not been activated then the defaults as used by the dialog will be used.	drawable num-strokes strokes 
+gimp-context-get-pattern	Retrieve the currently active pattern.	
+gimp-patterns-get-list	Retrieve a complete listing of the available patterns.	filter 
+plug-in-randomize-pick	Randomly interchange some pixels with neighbors	run-mode image drawable rndm-pct rndm-rcount randomize seed 
+gimp-patterns-popup	Invokes the Gimp pattern selection.	pattern-callback popup-title initial-pattern 
+file-xmc-load-thumb	Loads only first frame of X11 Mouse Cursor's animation sequence which nominal size is the closest of thumb-size to be used as a thumbnail	filename thumb-size 
+gimp-procedural-db-temp-name	Generates a unique temporary PDB name.	
+gimp-register-load-handler	Registers a file load handler procedure.	procedure-name extensions prefixes 
+plug-in-color-enhance	Stretch color saturation to cover maximum possible range	run-mode image drawable 
+plug-in-dilate	Grow lighter areas of the image	run-mode image drawable propagate-mode propagating-channel propagating-rate direction-mask lower-limit upper-limit 
+gimp-context-set-mypaint-brush	Set the specified MyPaint brush as the active MyPaint brush.	name 
+gimp-context-set-paint-method	Set the specified paint method as the active paint method.	name 
+plug-in-streak	Streak image creation	run-mode image-id drawable-id slit-position slit-width vertical 
+plug-in-gauss-rle	Apply a gaussian blur	run-mode image drawable radius horizontal vertical 
+file-fits-load	load file of the FITS file format	run-mode filename raw-filename 
+gimp-image-convert-color-profile-from-file	Convert the image's layers to a color profile	image uri intent bpc 
+gimp-vectors-export-to-string	Save a path as an SVG string.	image vectors 
+script-fu-layer-effects-outer-glow	Create the Outer Glow on the layer with alpha	run-mode image drawable color value value value option 
+gimp-debug-timer-start	Starts measuring elapsed time.	
+gimp-text-layer-set-letter-spacing	Adjust the letter spacing in a text layer.	layer letter-spacing 
+gimp-image-get-name	Returns the specified image's name.	image 
+script-fu-exposure-blend-crop-image	Trim image to combined layer overlap	run-mode image drawable 
+gimp-context-swap-colors	Swap the current GIMP foreground and background colors.	
+gimp-image-select-round-rectangle	Create a rectangular selection with round corners over the specified image;	image operation x y width height corner-radius-x corner-radius-y 
+file-raw-placeholder-phaseone-load	Load files in the Phase One raw formats via raw-placeholder	run-mode filename raw-filename 
+plug-in-noisify	Adds random noise to image channels	run-mode image drawable independent noise-1 noise-2 noise-3 noise-4 
+file-tiff-load	Loads files of the TIFF and BigTIFF file formats	run-mode filename raw-filename 
+gimp-context-set-pattern	Set the specified pattern as the active pattern.	name 
+file-xwd-save	Exports files in the XWD (X Window Dump) format	run-mode image drawable filename raw-filename 
+gimp-drawable-is-indexed	Returns whether the drawable is an indexed type.	drawable 
+gimp-gradient-segment-set-left-color	Sets the left endpoint color of the specified segment	name segment color opacity 
+gimp-buffer-get-bytes	Retrieves the specified buffer's bytes.	buffer-name 
+script-fu-exposure-blend-align-bright	Differencing Mode for Aligning Exposures: bright	run-mode image drawable 
+gimp-context-set-sample-threshold	Set the sample threshold setting.	sample-threshold 
+script-fu-layer-effects-gradient-overlay	Create the Gradient overlay effect on the layer with alpha	run-mode image drawable color color option gradient value value value option option option 
+gimp-image-thumbnail	Get a thumbnail of an image.	image width height 
+gimp-palette-export-python	Export the active palette as a Python dictionary (name: color)	run-mode dirname string 
+plug-in-separate-full	Generate CMYK separations	run-mode image drawable input-profile use-embedded-profile output-profile rendering-intent use-bpc preserve-black overprint-black use-dither 
+gimp-context-get-antialias	Get the antialias setting.	
+script-fu-refresh	Re-read all available Script-Fu scripts	run-mode 
+gimp-gradient-segment-set-right-pos	Sets the right endpoint position of the specified segment	name segment pos 
+plug-in-recompose	Recompose an image that was previously decomposed	run-mode image drawable 
+gimp-online-main-web-site	Bookmark to the GIMP web site	run-mode 
+gimp-brushes-set-spacing	Deprecated: Use 'gimp-brush-set-spacing' instead.	spacing 
+script-fu-make-a-triangle	Makes an ordinary triangle inside the selection on current layer, no questions asked	run-mode image drawable 
+gimp-layer-get-apply-mask	Get the apply mask setting of the specified layer.	layer 
+gimp-layer-flatten	Remove the alpha channel from the layer if it has one.	layer 
+gimp-text-layer-set-base-direction	Set the base direction in the text layer.	layer direction 
+plug-in-apply-canvas	Add a canvas texture to the image	run-mode image drawable direction depth 
+gimp-version	Returns the host GIMP version.	
+gimp-selection-value	Find the value of the selection at the specified coordinates.	image x y 
+plug-in-exchange	Swap one color with another	run-mode image drawable from-red from-green from-blue to-red to-green to-blue red-threshold green-threshold blue-threshold 
+gimp-plugin-get-pdb-error-handler	Retrieves the active error handler for procedure calls.	
+gimp-vectors-stroke-close	closes the specified stroke.	vectors stroke-id 
+gimp-layer-new	Create a new layer.	image width height type name opacity mode 
+gimp-brush-set-radius	Sets the radius of a generated brush.	name radius-in 
+gimp-drawable-transform-flip-simple	Deprecated: Use 'gimp-item-transform-flip-simple' instead.	drawable flip-type auto-center axis clip-result 
+gimp-text-layer-get-font-size	Get the font size from a text layer.	layer 
+gimp-text-layer-set-color	Set the color of the text in the text layer.	layer color 
+file-jpeg-load-thumb	Loads a thumbnail from a JPEG image	filename thumb-size 
+gimp-image-set-unit	Sets the specified image's unit.	image unit 
+gimp-context-get-ink-blob-angle	Get ink blob angle in degrees.	
+gimp-drawable-thumbnail	Get a thumbnail of a drawable.	drawable width height 
+gimp-palette-entry-set-color	Sets the specified palette entry in the specified palette.	name entry-num color 
+file-raw-placeholder-canon-load	Load files in the Canon raw formats via raw-placeholder	run-mode filename raw-filename 
+file-tga-save	exports files in the Targa file format	run-mode image drawable filename raw-filename rle origin 
+gimp-context-pop	Pops the topmost context from the plug-in's context stack.	
+plug-in-displace	Displace pixels as indicated by displacement maps	run-mode image drawable amount-x amount-y do-x do-y displace-map-x displace-map-y displace-type 
+file-gih-save-internal	Exports Gimp animated brush file (.gih)	dummy-param image drawable uri raw-uri spacing name params 
+script-fu-convolution-presets-edge-detect-compass	Set of presets for convolution matrix (Edge Detect Compass)	run-mode image drawable value option option toggle toggle option toggle toggle toggle toggle toggle 
+script-fu-amazing-circles	Does the amazing circles on a square image	run-mode image drawable value option 
+gimp-palettes-get-palette-entry	Deprecated: Use 'gimp-palette-entry-get-color' instead.	name entry-num 
+script-fu-carve-it	Use the specified drawable as a stencil to carve from the specified image.	run-mode image drawable drawable toggle 
+plug-in-script-fu-eval	Evaluate scheme code	run-mode code 
+script-fu-layers-transform	Transforms layers from the specified layer range	run-mode image drawable value value toggle option value toggle option toggle value value option toggle value value 
+gimp-channel-get-show-masked	Get the composite method of the specified channel.	channel 
+gimp-context-set-gradient-fg-bg-hsv-cw	Sets the built-in FG-BG HSV (cw) gradient as the active gradient.	
+file-raw-save2	Dump images to disk in raw format	run-mode image drawable filename raw-filename image-type palette-type 
+gimp-procedural-db-proc-arg	Queries the procedural database for information on the specified procedure's argument.	procedure-name arg-num 
+gimp-context-set-gradient-fg-transparent	Sets the built-in FG-Transparent gradient as the active gradient.	
+plug-in-papertile	Cut image into paper tiles, and slide them	run-mode image drawable tile-size move-max fractional-type wrap-around centering background-type background-color background-alpha 
+gimp-image-get-uri	Returns the URI for the specified image.	image 
+gimp-image-set-color-profile	Sets the image's color profile	image num-bytes color-profile 
+file-glob	Returns a list of matching filenames	pattern encoding 
+script-fu-red-eye-no-cm	Removes red eye; given selection is seed.	run-mode image drawable value value 
+script-fu-font-map	Create an image filled with previews of fonts matching a fontname filter	run-mode string toggle toggle string value value option 
+gimp-vectors-set-visible	This procedure is deprecated! Use 'gimp-item-set-visible' instead.	item visible 
+gimp-palette-swap-colors	This procedure is deprecated! Use 'gimp-context-swap-colors' instead.	
+gimp-layer-set-name	This procedure is deprecated! Use 'gimp-item-set-name' instead.	item name 
+gimp-brushes-set-opacity	This procedure is deprecated! Use 'gimp-context-set-opacity' instead.	opacity 
+gimp-channel-get-visible	This procedure is deprecated! Use 'gimp-item-get-visible' instead.	item 
+gimp-undo-push-group-end	This procedure is deprecated! Use 'gimp-image-undo-group-end' instead.	image 
+gimp-blend	This procedure is deprecated! Use 'gimp-edit-blend' instead.	drawable blend-mode paint-mode gradient-type opacity offset repeat reverse supersample max-depth threshold dither x1 y1 x2 y2 
+gimp-channel-delete	This procedure is deprecated! Use 'gimp-item-delete' instead.	item 
+gimp-drawable-parasite-find	This procedure is deprecated! Use 'gimp-item-get-parasite' instead.	item name 
+gimp-drawable-get-tattoo	This procedure is deprecated! Use 'gimp-item-get-tattoo' instead.	item 
+gimp-drawable-get-visible	This procedure is deprecated! Use 'gimp-item-get-visible' instead.	item 
+gimp-parasite-attach	This procedure is deprecated! Use 'gimp-attach-parasite' instead.	parasite 
+gimp-layer-set-tattoo	This procedure is deprecated! Use 'gimp-item-set-tattoo' instead.	item tattoo 
+gimp-drawable-is-layer-mask	This procedure is deprecated! Use 'gimp-item-is-layer-mask' instead.	item 
+gimp-drawable-set-name	This procedure is deprecated! Use 'gimp-item-set-name' instead.	item name 
+gimp-drawable-is-channel	This procedure is deprecated! Use 'gimp-item-is-channel' instead.	item 
+gimp-drawable-bytes	This procedure is deprecated! Use 'gimp-drawable-bpp' instead.	drawable 
+gimp-drawable-parasite-attach	This procedure is deprecated! Use 'gimp-item-attach-parasite' instead.	item parasite 
+gimp-gradients-get-gradient	This procedure is deprecated! Use 'gimp-context-get-gradient' instead.	
+gimp-layer-get-visible	This procedure is deprecated! Use 'gimp-item-get-visible' instead.	item 
+gimp-palette-set-foreground	This procedure is deprecated! Use 'gimp-context-set-foreground' instead.	foreground 
+gimp-vectors-set-name	This procedure is deprecated! Use 'gimp-item-set-name' instead.	item name 
+gimp-image-raise-channel	This procedure is deprecated! Use 'gimp-image-raise-item' instead.	image item 
+gimp-vectors-parasite-find	This procedure is deprecated! Use 'gimp-item-get-parasite' instead.	item name 
+gimp-palette-set-default-colors	This procedure is deprecated! Use 'gimp-context-set-default-colors' instead.	
+gimp-drawable-set-tattoo	This procedure is deprecated! Use 'gimp-item-set-tattoo' instead.	item tattoo 
+gimp-vectors-set-linked	This procedure is deprecated! Use 'gimp-item-set-linked' instead.	item linked 
+gimp-image-parasite-list	This procedure is deprecated! Use 'gimp-image-get-parasite-list' instead.	image 
+gimp-layer-get-name	This procedure is deprecated! Use 'gimp-item-get-name' instead.	item 
+gimp-bucket-fill	This procedure is deprecated! Use 'gimp-edit-bucket-fill' instead.	drawable fill-mode paint-mode opacity threshold sample-merged x y 
+gimp-drawable-get-image	This procedure is deprecated! Use 'gimp-item-get-image' instead.	item 
+gimp-image-get-channel-position	This procedure is deprecated! Use 'gimp-image-get-item-position' instead.	image item 
+gimp-palette-set-background	This procedure is deprecated! Use 'gimp-context-set-background' instead.	background 
+gimp-parasite-find	This procedure is deprecated! Use 'gimp-get-parasite' instead.	name 
+gimp-channel-get-tattoo	This procedure is deprecated! Use 'gimp-item-get-tattoo' instead.	item 
+gimp-drawable-is-valid	This procedure is deprecated! Use 'gimp-item-is-valid' instead.	item 
+gimp-vectors-is-valid	This procedure is deprecated! Use 'gimp-item-is-valid' instead.	item 
+gimp-vectors-get-name	This procedure is deprecated! Use 'gimp-item-get-name' instead.	item 
+gimp-drawable-get-name	This procedure is deprecated! Use 'gimp-item-get-name' instead.	item 
+gimp-image-parasite-detach	This procedure is deprecated! Use 'gimp-image-detach-parasite' instead.	image name 
+gimp-vectors-get-tattoo	This procedure is deprecated! Use 'gimp-item-get-tattoo' instead.	item 
+gimp-brushes-set-brush	This procedure is deprecated! Use 'gimp-context-set-brush' instead.	name 
+gimp-brushes-set-paint-mode	This procedure is deprecated! Use 'gimp-context-set-paint-mode' instead.	paint-mode 
+gimp-image-active-drawable	This procedure is deprecated! Use 'gimp-image-get-active-drawable' instead.	image 
+gimp-vectors-get-image	This procedure is deprecated! Use 'gimp-item-get-image' instead.	item 
+gimp-channel-ops-duplicate	This procedure is deprecated! Use 'gimp-image-duplicate' instead.	image 
+gimp-layer-get-linked	This procedure is deprecated! Use 'gimp-item-get-linked' instead.	item 
+gimp-edit-named-paste-as-new	This procedure is deprecated! Use 'gimp-edit-named-paste-as-new-image' instead.	buffer-name 
+gimp-palette-refresh	This procedure is deprecated! Use 'gimp-palettes-refresh' instead.	
+gimp-palette-get-foreground	This procedure is deprecated! Use 'gimp-context-get-foreground' instead.	
+gimp-layer-delete	This procedure is deprecated! Use 'gimp-item-delete' instead.	item 
+gimp-channel-set-name	This procedure is deprecated! Use 'gimp-item-set-name' instead.	item name 
+gimp-gradients-get-active	This procedure is deprecated! Use 'gimp-context-get-gradient' instead.	
+gimp-palettes-set-palette	This procedure is deprecated! Use 'gimp-context-set-palette' instead.	name 
+gimp-color-picker	This procedure is deprecated! Use 'gimp-image-pick-color' instead.	image drawable x y sample-merged sample-average average-radius 
+gimp-vectors-get-visible	This procedure is deprecated! Use 'gimp-item-get-visible' instead.	item 
+gimp-image-lower-channel	This procedure is deprecated! Use 'gimp-image-lower-item' instead.	image item 
+gimp-gradients-set-gradient	This procedure is deprecated! Use 'gimp-context-set-gradient' instead.	name 
+gimp-brushes-get-opacity	This procedure is deprecated! Use 'gimp-context-get-opacity' instead.	
+gimp-drawable-set-visible	This procedure is deprecated! Use 'gimp-item-set-visible' instead.	item visible 
+gimp-image-raise-layer-to-top	This procedure is deprecated! Use 'gimp-image-raise-item-to-top' instead.	image item 
+gimp-drawable-get-linked	This procedure is deprecated! Use 'gimp-item-get-linked' instead.	item 
+gimp-image-lower-layer	This procedure is deprecated! Use 'gimp-image-lower-item' instead.	image item 
+gimp-selection-clear	This procedure is deprecated! Use 'gimp-selection-none' instead.	image 
+gimp-image-set-cmap	This procedure is deprecated! Use 'gimp-image-set-colormap' instead.	image num-bytes colormap 
+gimp-palette-get-background	This procedure is deprecated! Use 'gimp-context-get-background' instead.	
+gimp-patterns-set-pattern	This procedure is deprecated! Use 'gimp-context-set-pattern' instead.	name 
+gimp-image-raise-layer	This procedure is deprecated! Use 'gimp-image-raise-item' instead.	image item 
+gimp-layer-set-preserve-trans	This procedure is deprecated! Use 'gimp-layer-set-lock-alpha' instead.	layer lock-alpha 
+gimp-channel-set-tattoo	This procedure is deprecated! Use 'gimp-item-set-tattoo' instead.	item tattoo 
+gimp-drawable-is-layer	This procedure is deprecated! Use 'gimp-item-is-layer' instead.	item 
+gimp-channel-ops-offset	This procedure is deprecated! Use 'gimp-drawable-offset' instead.	drawable wrap-around fill-type offset-x offset-y 
+gimp-layer-set-visible	This procedure is deprecated! Use 'gimp-item-set-visible' instead.	item visible 
+gimp-convert-rgb	This procedure is deprecated! Use 'gimp-image-convert-rgb' instead.	image 
+gimp-patterns-list	This procedure is deprecated! Use 'gimp-patterns-get-list' instead.	filter 
+gimp-brushes-get-paint-mode	This procedure is deprecated! Use 'gimp-context-get-paint-mode' instead.	
+gimp-layer-get-preserve-trans	This procedure is deprecated! Use 'gimp-layer-get-lock-alpha' instead.	layer 
+gimp-image-get-layer-position	This procedure is deprecated! Use 'gimp-image-get-item-position' instead.	image item 
+gimp-channel-set-visible	This procedure is deprecated! Use 'gimp-item-set-visible' instead.	item visible 
+gimp-image-lower-layer-to-bottom	This procedure is deprecated! Use 'gimp-image-lower-item-to-bottom' instead.	image item 
+gimp-image-raise-vectors	This procedure is deprecated! Use 'gimp-image-raise-item' instead.	image item 
+gimp-layer-set-linked	This procedure is deprecated! Use 'gimp-item-set-linked' instead.	item linked 
+gimp-channel-get-name	This procedure is deprecated! Use 'gimp-item-get-name' instead.	item 
+gimp-image-parasite-attach	This procedure is deprecated! Use 'gimp-image-attach-parasite' instead.	image parasite 
+gimp-image-raise-vectors-to-top	This procedure is deprecated! Use 'gimp-image-raise-item-to-top' instead.	image item 
+gimp-drawable-parasite-detach	This procedure is deprecated! Use 'gimp-item-detach-parasite' instead.	item name 
+gimp-image-parasite-find	This procedure is deprecated! Use 'gimp-image-get-parasite' instead.	image name 
+gimp-drawable-parasite-list	This procedure is deprecated! Use 'gimp-item-get-parasite-list' instead.	item 
+gimp-gradients-set-active	This procedure is deprecated! Use 'gimp-context-set-gradient' instead.	name 
+gimp-vectors-parasite-list	This procedure is deprecated! Use 'gimp-item-get-parasite-list' instead.	item 
+gimp-layer-get-tattoo	This procedure is deprecated! Use 'gimp-item-get-tattoo' instead.	item 
+gimp-undo-push-group-start	This procedure is deprecated! Use 'gimp-image-undo-group-start' instead.	image 
+gimp-vectors-set-tattoo	This procedure is deprecated! Use 'gimp-item-set-tattoo' instead.	item tattoo 
+gimp-brushes-list	This procedure is deprecated! Use 'gimp-brushes-get-list' instead.	filter 
+gimp-image-get-cmap	This procedure is deprecated! Use 'gimp-image-get-colormap' instead.	image 
+gimp-drawable-is-text-layer	This procedure is deprecated! Use 'gimp-item-is-text-layer' instead.	item 
+gimp-vectors-get-linked	This procedure is deprecated! Use 'gimp-item-get-linked' instead.	item 
+gimp-convert-grayscale	This procedure is deprecated! Use 'gimp-image-convert-grayscale' instead.	image 
+gimp-drawable-delete	This procedure is deprecated! Use 'gimp-item-delete' instead.	item 
+gimp-temp-PDB-name	This procedure is deprecated! Use 'gimp-procedural-db-temp-name' instead.	
+gimp-drawable-set-linked	This procedure is deprecated! Use 'gimp-item-set-linked' instead.	item linked 
+gimp-image-floating-selection	This procedure is deprecated! Use 'gimp-image-get-floating-sel' instead.	image 
+gimp-layer-mask	This procedure is deprecated! Use 'gimp-layer-get-mask' instead.	layer 
+gimp-image-get-vectors-position	This procedure is deprecated! Use 'gimp-image-get-item-position' instead.	image item 
+gimp-image-lower-vectors	This procedure is deprecated! Use 'gimp-image-lower-item' instead.	image item 
+gimp-parasite-list	This procedure is deprecated! Use 'gimp-get-parasite-list' instead.	
+gimp-vectors-parasite-attach	This procedure is deprecated! Use 'gimp-item-attach-parasite' instead.	item parasite 
+gimp-edit-paste-as-new	This procedure is deprecated! Use 'gimp-edit-paste-as-new-image' instead.	
+gimp-vectors-parasite-detach	This procedure is deprecated! Use 'gimp-item-detach-parasite' instead.	item name 
+gimp-crop	This procedure is deprecated! Use 'gimp-image-crop' instead.	image new-width new-height offx offy 
+gimp-image-lower-vectors-to-bottom	This procedure is deprecated! Use 'gimp-image-lower-item-to-bottom' instead.	image item 
+gimp-parasite-detach	This procedure is deprecated! Use 'gimp-detach-parasite' instead.	name 
+gimp-convert-indexed	This procedure is deprecated! Use 'gimp-image-convert-indexed' instead.	image dither-type palette-type num-cols alpha-dither remove-unused palette 

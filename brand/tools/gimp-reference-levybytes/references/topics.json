@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "topics": [
+    {
+      "topic": "Interface and Workflow",
+      "file": "references/interface-and-workflow.md",
+      "summary": "Open when arranging GIMP windows, docks, or dialogs, navigating images, undoing edits, or choosing image mode and encoding.",
+      "keywords": ["interface", "single-window mode", "docks", "dialogs", "menu", "undo history", "image mode", "encoding", "precision"]},
+    {
+      "topic": "Tools Overview",
+      "file": "references/tools-overview.md",
+      "summary": "Open when choosing a GIMP tool, finding its keyboard shortcut, or configuring Tool Options.",
+      "keywords": ["toolbox", "tool options", "tools", "shortcuts", "selection tools", "paint tools", "transform tools"]},
+    {
+      "topic": "Layers and Layer Modes",
+      "file": "references/layers-and-modes.md",
+      "summary": "Open when organizing layers or groups, adjusting opacity and alpha, or choosing blend and paint modes.",
+      "keywords": ["layers", "layer modes", "blend modes", "opacity", "layer groups", "alpha channel", "pass through", "flatten"]},
+    {
+      "topic": "Selections",
+      "file": "references/selections.md",
+      "summary": "Open when creating, combining, feathering, growing, or inverting selections.",
+      "keywords": ["selection", "marching ants", "feather", "antialiasing", "replace add subtract intersect", "select menu", "grow", "invert"]},
+    {
+      "topic": "Layer Masks, Channels, and Quick Mask",
+      "file": "references/masks-and-channels.md",
+      "summary": "Open when editing layer masks, storing selections in channels, or using Quick Mask.",
+      "keywords": ["layer mask", "channels", "quick mask", "save to channel", "alpha", "red green blue", "selection mask"]},
+    {
+      "topic": "Paths",
+      "file": "references/paths.md",
+      "summary": "Open when editing Bézier paths, stroking paths, converting paths and selections, or importing and exporting SVG.",
+      "keywords": ["paths", "bezier", "paths dialog", "stroke path", "path to selection", "selection to path", "svg"]},
+    {
+      "topic": "Colors and Adjustments",
+      "file": "references/colors-and-adjustments.md",
+      "summary": "Open when adjusting colors, levels, curves, or hue and saturation, or assigning and converting ICC profiles.",
+      "keywords": ["colors menu", "levels", "curves", "hue-saturation", "color management", "assign color profile", "convert to color profile", "rendering intent"]},
+    {
+      "topic": "Filters",
+      "file": "references/filters.md",
+      "summary": "Open when choosing a filter category or repeating and reopening the last filter.",
+      "keywords": ["filters", "blur", "distort filters", "edge-detect", "repeat last", "re-show last", "filter categories"]},
+    {
+      "topic": "File Formats and Export",
+      "file": "references/file-formats-and-export.md",
+      "summary": "Open when opening images, saving XCF projects, exporting or overwriting images, or configuring PNG and JPEG options.",
+      "keywords": ["file formats", "xcf", "export", "overwrite", "png", "jpeg", "save", "import", "open as layers"]},
+    {
+      "topic": "Scripting and Plug-ins",
+      "file": "references/scripting-overview.md",
+      "summary": "Open when choosing Script-Fu or Python-Fu, installing scripts and plug-ins, using consoles, or configuring headless batch calls.",
+      "keywords": ["scripting", "script-fu", "python-fu", "console", "plug-in", "batch", "no-interface", "batch-interpreter", "mcp"]},
+    {
+      "topic": "The Procedural Database (PDB)",
+      "file": "references/pdb-reference.md",
+      "summary": "Open when looking up exact PDB procedure names, parameter and return types, or language-specific calling conventions.",
+      "keywords": ["pdb", "procedural database", "procedure browser", "naming", "return values", "car", "procedure types"]},
+    {
+      "topic": "Script-Fu Language Essentials",
+      "file": "references/script-fu.md",
+      "summary": "Open when writing Scheme expressions, invoking PDB procedures, or registering Script-Fu procedures and menus.",
+      "keywords": ["script-fu", "scheme", "let*", "car", "cdr", "script-fu-register", "script-fu-menu-register", "SF-ADJUSTMENT"]},
+    {
+      "topic": "Python-Fu Plug-ins",
+      "file": "references/python-fu.md",
+      "summary": "Open when implementing a Python 3 plug-in with GObject Introspection and the Gimp.PlugIn registration model.",
+      "keywords": ["python-fu", "gobject introspection", "gi.require_version", "Gimp.PlugIn", "do_create_procedure", "Gimp.ImageProcedure", "run"]},
+    {
+      "topic": "PDB Recipes: Images and Layers",
+      "file": "references/pdb-recipes-images-layers.md",
+      "summary": "Open when automating image or layer creation, filling, resizing, movement, or flattening.",
+      "keywords": ["recipe", "gimp-image-new", "gimp-layer-new", "gimp-image-insert-layer", "gimp-image-flatten", "fill", "resize"]},
+    {
+      "topic": "PDB Recipes: Selections and Paths",
+      "file": "references/pdb-recipes-selections-paths.md",
+      "summary": "Open when automating selections or paths with Procedure Browser-verified PDB names.",
+      "keywords": ["recipe", "selection", "paths", "save to channel", "procedure browser", "stroke", "feather"]},
+    {
+      "topic": "PDB Recipes: Colors and Filters",
+      "file": "references/pdb-recipes-color-filters.md",
+      "summary": "Open when automating color adjustments or filters with Procedure Browser-verified PDB names.",
+      "keywords": ["recipe", "brightness-contrast", "levels", "curves", "desaturate", "filter", "procedure browser"]},
+    {
+      "topic": "PDB Recipes: File I/O and Batch",
+      "file": "references/pdb-recipes-io-batch.md",
+      "summary": "Open when converting an image to JPEG with the bundled script, automating file save or export, flattening before export, or running headless batch processing.",
+      "keywords": ["recipe", "export", "batch", "headless", "no-interface", "batch-interpreter", "gimp-image-flatten", "xcf", "jpeg", "convert_to_jpeg"]},
+    {
+      "topic": "Reference Language Selection",
+      "file": "references/languages.md",
+      "summary": "Open when you need a language version of this skill's references other than English.",
+      "keywords": ["reference language", "translated references", "language selection"]}
+  ]
+}
