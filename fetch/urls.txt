@@ -1,1 +1,3 @@
-yt_motto.xml https://www.youtube.com/feeds/videos.xml?channel_id=UC35QyC4H8XHUh5Qf5cJNqEA
+motto_home.html https://wearemotto.com/
+motto_supply.html https://motto.supply/en-eur
+motto_method.html https://wearemotto.com/motto-method
