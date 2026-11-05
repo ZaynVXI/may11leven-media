@@ -68,3 +68,30 @@ Steal the thinking, never the look or their trademarks. Mix them with our other 
 4. **Generative identity**, from the Maisa icons. Transformed: we code a small tool that grows assets from a client's mark (an icon per branch, product or agent) as a premium add-on. No AI imagery: it's code-made.
 5. **Manifesto film**, from the Motto films. Transformed: a 20-second minimal reel with kinetic type, real renders and our core markets ("Built for the brands Africa will export next").
 6. **Client fit**, from "rare breed" leaders. Transformed: a short fit questionnaire before free audits (why do you exist, what's changing, will you act on the notes?).
+
+## Motto's style: type, colour and why
+### Type
+- Motto Supply's site uses **PP Neue Montreal** (Pangram Pangram), found in the store's own code. The Motto site itself is behind a bot check, so we didn't look further. Their decks, reports and posts use the same family of look: a neutral neo-grotesk, set big and tight in uppercase for headlines ("WHAT'S ON OUR SHELF", "FUTURE OF BRAND REPORT 2026") and sentence case for statements.
+- Why a neo-grotesk: it reads as neutral, confident and "operating system" rather than decorative. It lets the idea and the work be the hero, and it works at every size from a billboard to UI.
+- A second voice, only when it carries meaning: a **dot-matrix display type** for the AI/future report (machine and signal), and serif or soft custom letterforms inside client brands where warmth is the point (ivo).
+- The logotype has custom ink traps. Small craft details make a plain grotesk feel owned.
+- Numbering as structure: 001, 002 lists; 01/02/03 workbooks; "(1)". Numbers carry the sequence. This is the same device as our 11.01 tag.
+- PP Neue Montreal is paid for commercial use. Our free equivalents are Inter Tight (already ours), Host Grotesk, Instrument Sans and Hanken Grotesk. Use them the same way: one grotesk, big and tight, with hierarchy from size and grey.
+
+### Colour
+- Base: almost black and white, now cool grey and white ("more approachable" than all-black, per the-brandidentity interview). It's monochrome because the Brutalist, honest, direct voice wants nothing decorative.
+- Accent: one saturated colour per item or category, used to tell content apart. Coral, neon green and electric blue workbooks; Klein blue planner; mint on deep green; orange and magenta on the Rare Breed book. Colour is a filing system, not decoration.
+- Client work: each client gets its own world. Cresta is electric blue with chrome and silver 3D ribbons and device UI; ivo is deep moss green with misty landscapes; Maisa is black with one acid-green dot.
+- Secondary text is mid grey for hierarchy (we keep our contrast floor).
+
+### Layout and presentation
+- Big white or grey canvas, generous margins, product shots on light grey tiles with soft shadows, centred objects, and a tiny brand mark in a corner.
+- A store page scroll: a centred product column on grey, with the logo left and the item name right. It's calm, gallery-like and slow.
+- Article and report pages on phones: a big image, a grotesk headline and short paragraphs. They show editorial thinking, not just visuals.
+- Guidelines shown as clean web pages: sections in a list (logo, typography, colour, photography, motion, signature language), with each one opening into a full-bleed visual.
+- Taste curation as content: "What's on our shelf, edition 001" lists the books, tools and podcasts they use (Pith planner, Cosmos, New Utilitarian, Acquired, Rare Breed, Jitter, Browsing Mode, Patch Work by Logo Archive). It builds authority without selling.
+
+### Steal like an artist (our versions)
+- **"11 on the shelf, edition 001":** a carousel of the free tools, books and sites we actually learn from (Steal Like an Artist, Logo Archive's free notes, Refero, Poly Haven, Blender, the EAA guide). Numbered 11.01-11.08, white page, one grotesk, product shots on grey tiles (Blender-rendered books or free stock). It shows taste and builds trust. Credit every source.
+- **Series colour coding:** each service gets one accent in our posts (brand, web, apps, packaging, AI automation), on the same grid and layout. It reads like Motto's workbooks.
+- **Report pages:** the 11 Field Notes as a dark page with one display device. For us that's a dot or tick device from our ring kit, not a copy of their dot-matrix.
