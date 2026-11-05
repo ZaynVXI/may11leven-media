@@ -1,0 +1,55 @@
+<!doctype html><html><head><meta charset=utf-8><style>
+@font-face{font-family:IT;src:url(/home/claude/kit/fonts/InterTight-Regular.ttf)}
+@font-face{font-family:IT;src:url(/home/claude/kit/fonts/InterTight-Medium.ttf);font-weight:500}
+@font-face{font-family:PM;src:url(/home/claude/kit/fonts2/PlexMono.ttf)}
+*{margin:0;box-sizing:border-box}
+body{width:390px;height:844px;background:#F3F4F1;font-family:IT;color:#141414;position:relative;overflow:hidden}
+.sb{height:46px;display:flex;justify-content:space-between;align-items:center;padding:0 26px;font:500 15px IT}
+.top{display:flex;align-items:center;gap:12px;padding:10px 18px 14px;border-bottom:1px solid #E1E3DE;background:#fff}
+.av{width:38px;height:38px;border-radius:50%;background:#4F6B3A;display:flex;align-items:center;justify-content:center;color:#fff;font:500 16px IT}
+.nm{font:500 16px IT}.st{font:12px IT;color:#5C6157;display:flex;align-items:center;gap:6px}
+.dot{width:7px;height:7px;border-radius:50%;background:#3F9A55}
+.msgs{padding:16px 14px;display:flex;flex-direction:column;gap:10px}
+.m{max-width:78%;padding:11px 14px;border-radius:18px;font-size:15px;line-height:1.38}
+.me{align-self:flex-end;background:#141414;color:#fff;border-bottom-right-radius:6px}
+.bot{align-self:flex-start;background:#fff;border:1px solid #E1E3DE;border-bottom-left-radius:6px}
+.t{font:11px PM;color:#6A6F64;letter-spacing:.04em;margin-top:2px}
+.chips{display:flex;gap:8px;flex-wrap:wrap;align-self:flex-start}
+.c{padding:9px 14px;border-radius:999px;border:1.5px solid #4F6B3A;color:#2F4423;font:500 14px IT;background:#fff}
+.c.on{background:#4F6B3A;color:#fff}
+.pay{align-self:flex-start;width:78%;background:#fff;border:1px solid #E1E3DE;border-radius:18px;padding:14px}
+.pay b{display:block;font:500 15px IT}.pay span{font-size:13px;color:#5C6157}
+.btn{margin-top:12px;background:#141414;color:#fff;border-radius:12px;padding:11px;text-align:center;font:500 14px IT}
+.hand{align-self:center;font:11px PM;color:#6A6F64;letter-spacing:.06em;margin-top:4px;text-transform:uppercase}
+.in{position:absolute;bottom:0;left:0;right:0;padding:12px 14px 28px;background:#fff;border-top:1px solid #E1E3DE;display:flex;gap:10px;align-items:center}
+.fld{flex:1;height:40px;border-radius:20px;background:#F1F2EE;padding:0 16px;display:flex;align-items:center;color:#7A7F74;font-size:14px}
+.snd{width:40px;height:40px;border-radius:50%;background:#4F6B3A}
+.a{display:none}.typ{display:none;gap:5px;padding:14px 16px}.typ .d{width:7px;height:7px;border-radius:50%;background:#9AA095;display:inline-block}
+.c.on{background:#4F6B3A;color:#fff}.btn.paid{background:#4F6B3A}
+</style><script>
+const ev=[['m1',1.4],['t1',2.0,3.1],['m2',3.1],['ch',3.8],['m3',5.2],['t2',5.8,6.8],['pc',6.8],['m4',9.4],['hd',10.2]];
+function ez(x){x=Math.max(0,Math.min(1,x));return 1-Math.pow(1-x,3)}
+window.setT=function(t){
+ for(const [id,a,b] of ev){const e=document.getElementById(id);const on=t>=a&&(b===undefined||t<b);
+  e.style.display=on?(e.classList.contains('typ')?'flex':(id=='ch'?'flex':'block')):'none';
+  if(on){const k=ez((t-a)/0.35);e.style.opacity=k;e.style.transform=`translateY(${(1-k)*10}px)`;
+   if(e.classList.contains('typ')){[...e.children].forEach((d,i)=>d.style.opacity=0.35+0.65*Math.abs(Math.sin((t*4)-i*0.6)))}}}
+ document.getElementById('c1').classList.toggle('on',t>=4.9);
+ const b=document.getElementById('btn');if(t>=8.4){b.classList.add('paid');b.textContent='Paid · KES 2,000 ✓'}else{b.classList.remove('paid');b.textContent='Pay with M-Pesa'}
+ b.style.transform=(t>=8.15&&t<8.4)?'scale(.97)':'none';
+ document.getElementById('c1').style.transform=(t>=4.75&&t<4.95)?'scale(.95)':'none';
+}
+</script></head><body>
+<div class="sb"><span>21:47</span><span style="display:flex;gap:6px;align-items:center"><svg width="18" height="11"><rect x="0" y="7" width="3" height="4" rx="1" fill="#141414"/><rect x="5" y="5" width="3" height="6" rx="1" fill="#141414"/><rect x="10" y="2.5" width="3" height="8.5" rx="1" fill="#141414"/><rect x="15" y="0" width="3" height="11" rx="1" fill="#141414"/></svg><svg width="16" height="11" viewBox="0 0 16 11"><path d="M8 10.5l2.2-2.6a3.2 3.2 0 0 0-4.4 0z M8 3.2c2 0 3.8.8 5.1 2.1l1.4-1.6A9 9 0 0 0 8 1 9 9 0 0 0 1.5 3.7l1.4 1.6A7.2 7.2 0 0 1 8 3.2z" fill="#141414"/></svg><svg width="26" height="12"><rect x=".5" y=".5" width="22" height="11" rx="3" fill="none" stroke="#141414" opacity=".4"/><rect x="2.5" y="2.5" width="17" height="7" rx="1.5" fill="#141414"/><rect x="23.5" y="4" width="1.8" height="4" rx=".8" fill="#141414" opacity=".4"/></svg></span></div>
+<div class="top"><div class="av">K</div><div><div class="nm">Kora Dental</div><div class="st"><span class="dot"></span>Assistant · replies instantly</div></div></div>
+<div class="msgs">
+<div class="m me a" id="m1">Hi, can I book a cleaning this Saturday?</div><div class="m bot typ a" id="t1"><span class="d"></span><span class="d"></span><span class="d"></span></div>
+<div class="m bot a" id="m2">Hi! Saturday has two free times with Dr. Amani. Which suits you?<div class="t">ASSISTANT · 21:47</div></div>
+<div class="chips a" id="ch"><span class="c" id="c1">10:30</span><span class="c">14:00</span><span class="c">Another day</span></div>
+<div class="m me a" id="m3">10:30 please</div><div class="m bot typ a" id="t2"><span class="d"></span><span class="d"></span><span class="d"></span></div>
+<div class="pay a" id="pc"><b>Saturday, 10:30 · Cleaning</b><span>Dr. Amani · KES 2,000 deposit to confirm</span><div class="btn" id="btn">Pay with M-Pesa</div></div>
+<div class="m bot a" id="m4">Done. I'll remind you on Friday evening. Need a person? Type "team" any time.<div class="t">ASSISTANT · 21:48</div></div>
+<div class="hand a" id="hd">A team member can take over at any point</div>
+</div>
+<div class="in"><div class="fld">Message</div><div class="snd" style="display:flex;align-items:center;justify-content:center"><svg width="18" height="18" viewBox="0 0 18 18"><path d="M9 14V4M4.5 8.5L9 4l4.5 4.5" stroke="#fff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg></div></div>
+</body></html>
