@@ -9,7 +9,7 @@ Zayn's rule: the screenshots and videos he sends ARE our moodboards, above every
 - Use it per job: pick 3+ that match the task (a product still, a type page, a UI decision, a reel), and write the steal list (the thinking, never the surface).
 
 ## 2. Top-up sources (when the primary set doesn't cover the job)
-Zayn's list: Savee, Pinterest, Mobbin, Awwwards, Behance, Cosmos, "destockd" (not found yet; ask Zayn for the link) and every site he sends. Our own finds have been added below, each picked because its curation leans minimal.
+Zayn's list: Savee, Pinterest, Mobbin, Awwwards, Behance, Cosmos, Destockd and every site he sends. Our own finds have been added below, each picked because its curation leans minimal.
 
 | Source | Best for | Notes |
 |---|---|---|
@@ -28,6 +28,7 @@ Zayn's list: Savee, Pinterest, Mobbin, Awwwards, Behance, Cosmos, "destockd" (no
 | Minimalissimo | minimal objects, architecture, products | close to our product-on-grey look |
 | The Brand Identity, The Logo Archive, BP&O | identity systems, marks | logo and brand work |
 | Eyecannndy | camera moves and visual effects | reel shot ideas (not to copy) |
+| Destockd (destockd.com) | archival film footage you can USE, not just look at | 41,000+ public-domain shots from US government films (FedFlix), with visual search (describe what you see). Free. Good for grainy B&W cutaways (machines, hands, factories, landscapes, skies) in reels. Check its Legal page per clip; no identifiable faces in our work; grade to our world |
 | It's Nice That, Ignant, Frame | editorial, spaces | studio-world and set ideas |
 
 Save anything kept to `brand/refs/external/<source>-<name>.jpg`, with its URL and studio in `brand/refs/external/SOURCES.md`. Never use people's faces from these in our work, and never copy a layout.
