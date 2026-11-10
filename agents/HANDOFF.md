@@ -2,6 +2,9 @@
 
 Both agents read this file at the start of work (see AGENTS.md) and update it at the end. Zayn owns all decisions; neither agent publishes, posts, spends money or contacts anyone without his approval. Work on branches, open pull requests, never push to main.
 
+## Rule from Zayn
+Never wait on the other agent. If a task is not picked up or ChatGPT is unavailable, Claude does it directly and notes it here.
+
 ## How to use
 - Add a task under **Open** with: who it is for, what "done" means, and the files involved.
 - When you pick it up, move it to **In progress** with your name and branch.

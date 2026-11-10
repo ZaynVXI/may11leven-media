@@ -40,9 +40,9 @@ fab.data.materials.append(m)
 # --- embroidery: two offset bars (the 11 mark), satin stitch along the long axis
 def bar(x, y, w, h, name):
     bpy.ops.mesh.primitive_cube_add(size=1); o = bpy.context.object; o.name = name
-    o.scale = (w / 2, h / 2, 0.0007); o.location = (x, y, 0.0016 + 0.012 * 0)
+    o.scale = (w / 2, h / 2, 0.0013); o.location = (x, y, 0.0016 + 0.012 * 0)
     bpy.ops.object.transform_apply(scale=True)
-    bv = o.modifiers.new('bev', 'BEVEL'); bv.width = 0.0011; bv.segments = 5
+    bv = o.modifiers.new('bev', 'BEVEL'); bv.width = 0.0024; bv.segments = 6
     sb = o.modifiers.new('sub', 'SUBSURF'); sb.levels = 2; sb.render_levels = 3
     return o
 u = 0.0082  # logo ratios: bar 41, gap 29, height 181, offset 30
@@ -71,8 +71,8 @@ rbu = rn.nodes.new('ShaderNodeBump'); rbu.inputs['Strength'].default_value = 1.0
 rtc = rn.nodes.new('ShaderNodeTexCoord'); rn.links.new(rtc.outputs['Object'], rw.inputs['Vector']); rn.links.new(rw.outputs['Fac'], rbu.inputs['Height']); rn.links.new(rbu.outputs['Normal'], rb.inputs['Normal'])
 col.data.materials.append(rm)
 # --- light: big soft window key from upper left, faint fill
-bpy.ops.object.light_add(type='AREA', location=(-0.35, 0.45, 0.55)); k = bpy.context.object; k.data.energy = 4.5; k.data.size = 0.5
-k.rotation_euler = (math.radians(-38), math.radians(-28), 0)
+bpy.ops.object.light_add(type='AREA', location=(-0.55, 0.25, 0.22)); k = bpy.context.object; k.data.energy = 6.0; k.data.size = 0.35
+k.rotation_euler = (math.radians(-40), math.radians(-62), 0)
 bpy.ops.object.light_add(type='AREA', location=(0.4, -0.3, 0.4)); f = bpy.context.object; f.data.energy = 0.6; f.data.size = 0.8
 f.rotation_euler = (math.radians(35), math.radians(30), 0)
 w0 = bpy.data.worlds.new('w'); sc.world = w0; w0.use_nodes = True; w0.node_tree.nodes['Background'].inputs['Strength'].default_value = 0.02
