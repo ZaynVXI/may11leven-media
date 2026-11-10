@@ -72,3 +72,10 @@ Sources: Partech Africa 2025 report via fundsforNGOs News (Feb 2026); TechMoran 
 - Saudi F&B: restaurant sales ~+7%/yr (Bain); Saudi/UAE volumes +4–6%/yr vs <2% global; foodservice ~$62.7B by 2033; 122M visitors in 2025, target 150M by 2030 (Arab News, May 2026).
 - Morocco: 75 hotels / 10,606 rooms in pipeline, ~70% opening 2026–27; 60,000 beds planned before the 2030 World Cup (Morocco World News, Oct 2026).
 - Chowdeck (Lagos): $9M Series A, Novastar-led, expanding Nigeria and Ghana with dark stores (TheCable).
+
+## Study notes (Nov)
+- **Nigeria funding is back on top:** $635M raised Jan–Sep 2026, 2.6x the $247M of the same period in 2025, 37% of country-specific funding; Egypt $445M (+10%), Kenya $201M (−73%), South Africa $182M (−58%). Logistics and transport ($780M) overtook fintech ($760M) across Africa. Source: Africa: The Big Deal via Nairametrics, 21 Oct 2026. For us: Lagos founders have fresh money; mobility and delivery brands are the biggest spenders.
+- **Lagos food delivery:** Swoop raised a $7.3M seed (Long Journey, Variant, Version One and others) and is live in Yaba, building a super app (food first, then groceries, rides, payments). Source: TechBuild Africa, Apr 2026.
+- **Saudi hospitality supply:** licensed tourism establishments up 34.2% to 5,937 in Q4 2025 (3,090 serviced apartments, 2,847 hotels); occupancy 57.3%, average daily rate down 11.7% to SR389. Source: GASTAT via Arab News, Apr 2026. More rooms and falling rates mean properties must compete on brand and direct booking.
+- **Dubai proptech:** Rewa (rent paid by card, rewards with 150+ partners) scaling across Dubai before the GCC. Source: Arab News, Mar 2026.
+- **Packaging, 2027 signals (Bigeye):** shoppers often see packs at 200 px or less online; one colour per variant; heritage-led modernisation; minimal shelf signal. Sustainability-claim products grew 28% vs 20%.
