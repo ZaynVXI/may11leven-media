@@ -7,7 +7,7 @@ The repository now has a shared skill-discovery system for Claude Code and Agent
 - Full skill registry: `brand/skills/manifest.json`
 - Canonical skill instructions and supporting resources: `brand/tools/`
 
-The registry indexes **472 skills** across 17 source collections. The router selects relevant skills, loads their original `SKILL.md` files, and follows supporting references from their canonical source directories. This avoids copying thousands of support files or maintaining duplicate versions.
+The registry indexes **485 skills** across 19 source collections. The router selects relevant skills, loads their original `SKILL.md` files, and follows supporting references from their canonical source directories. This avoids copying thousands of support files or maintaining duplicate versions.
 
 ## Registry
 
@@ -32,7 +32,9 @@ The registry indexes **472 skills** across 17 source collections. The router sel
 | `refero` | 1 |
 | `taste-skill` | 1 |
 | `ui-ux-pro-max` | 1 |
-| **Total** | **472** |
+| `founder-skill` | 11 |
+| `juliobsz-skills` | 2 |
+| **Total** | **485** |
 
 The separate `brand/tools/everything-claude-code/AGENTS.md` file is an agent instruction document, not a skill.
 
