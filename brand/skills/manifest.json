@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "generated_from_commit": "9eb5240a96124290b951265bec1e8dbf18597560",
-  "skill_count": 472,
+  "skill_count": 485,
   "installed_targets": [
     ".claude/skills",
     ".agents/skills"
@@ -31,7 +31,9 @@
     "replica": 11,
     "taste-skill": 1,
     "ui-skills": 4,
-    "ui-ux-pro-max": 1
+    "ui-ux-pro-max": 1,
+    "founder-skill": 11,
+    "juliobsz-skills": 2
   },
   "skills": [
     {
@@ -4281,6 +4283,123 @@
       "source_file": "brand/tools/ui-ux-pro-max/SKILL.md",
       "license_file": "brand/tools/ui-ux-pro-max/LICENSE",
       "license_status": "license-file-present-review"
+    },
+    {
+      "id": "founder-skill-founder-board",
+      "group": "founder-skill",
+      "skill_name": "founder-board",
+      "source_dir": "brand/tools/founder-skill/skills/founder-board",
+      "source_file": "brand/tools/founder-skill/skills/founder-board/SKILL.md",
+      "license_file": "brand/tools/founder-skill/LICENSE",
+      "license_status": "mit-verified"
+    },
+    {
+      "id": "founder-skill-founder-brand",
+      "group": "founder-skill",
+      "skill_name": "founder-brand",
+      "source_dir": "brand/tools/founder-skill/skills/founder-brand",
+      "source_file": "brand/tools/founder-skill/skills/founder-brand/SKILL.md",
+      "license_file": "brand/tools/founder-skill/LICENSE",
+      "license_status": "mit-verified"
+    },
+    {
+      "id": "founder-skill-founder-cfo",
+      "group": "founder-skill",
+      "skill_name": "founder-cfo",
+      "source_dir": "brand/tools/founder-skill/skills/founder-cfo",
+      "source_file": "brand/tools/founder-skill/skills/founder-cfo/SKILL.md",
+      "license_file": "brand/tools/founder-skill/LICENSE",
+      "license_status": "mit-verified"
+    },
+    {
+      "id": "founder-skill-founder-competitors",
+      "group": "founder-skill",
+      "skill_name": "founder-competitors",
+      "source_dir": "brand/tools/founder-skill/skills/founder-competitors",
+      "source_file": "brand/tools/founder-skill/skills/founder-competitors/SKILL.md",
+      "license_file": "brand/tools/founder-skill/LICENSE",
+      "license_status": "mit-verified"
+    },
+    {
+      "id": "founder-skill-founder-consumer",
+      "group": "founder-skill",
+      "skill_name": "founder-consumer",
+      "source_dir": "brand/tools/founder-skill/skills/founder-consumer",
+      "source_file": "brand/tools/founder-skill/skills/founder-consumer/SKILL.md",
+      "license_file": "brand/tools/founder-skill/LICENSE",
+      "license_status": "mit-verified"
+    },
+    {
+      "id": "founder-skill-founder-launch",
+      "group": "founder-skill",
+      "skill_name": "founder-launch",
+      "source_dir": "brand/tools/founder-skill/skills/founder-launch",
+      "source_file": "brand/tools/founder-skill/skills/founder-launch/SKILL.md",
+      "license_file": "brand/tools/founder-skill/LICENSE",
+      "license_status": "mit-verified"
+    },
+    {
+      "id": "founder-skill-founder-marketing",
+      "group": "founder-skill",
+      "skill_name": "founder-marketing",
+      "source_dir": "brand/tools/founder-skill/skills/founder-marketing",
+      "source_file": "brand/tools/founder-skill/skills/founder-marketing/SKILL.md",
+      "license_file": "brand/tools/founder-skill/LICENSE",
+      "license_status": "mit-verified"
+    },
+    {
+      "id": "founder-skill-founder-offer",
+      "group": "founder-skill",
+      "skill_name": "founder-offer",
+      "source_dir": "brand/tools/founder-skill/skills/founder-offer",
+      "source_file": "brand/tools/founder-skill/skills/founder-offer/SKILL.md",
+      "license_file": "brand/tools/founder-skill/LICENSE",
+      "license_status": "mit-verified"
+    },
+    {
+      "id": "founder-skill-founder-ops",
+      "group": "founder-skill",
+      "skill_name": "founder-ops",
+      "source_dir": "brand/tools/founder-skill/skills/founder-ops",
+      "source_file": "brand/tools/founder-skill/skills/founder-ops/SKILL.md",
+      "license_file": "brand/tools/founder-skill/LICENSE",
+      "license_status": "mit-verified"
+    },
+    {
+      "id": "founder-skill-founder-plan",
+      "group": "founder-skill",
+      "skill_name": "founder-plan",
+      "source_dir": "brand/tools/founder-skill/skills/founder-plan",
+      "source_file": "brand/tools/founder-skill/skills/founder-plan/SKILL.md",
+      "license_file": "brand/tools/founder-skill/LICENSE",
+      "license_status": "mit-verified"
+    },
+    {
+      "id": "founder-skill-founder-pricing",
+      "group": "founder-skill",
+      "skill_name": "founder-pricing",
+      "source_dir": "brand/tools/founder-skill/skills/founder-pricing",
+      "source_file": "brand/tools/founder-skill/skills/founder-pricing/SKILL.md",
+      "license_file": "brand/tools/founder-skill/LICENSE",
+      "license_status": "mit-verified"
+    },
+    {
+      "id": "juliobsz-skills-awwwards",
+      "group": "juliobsz-skills",
+      "skill_name": "awwwards",
+      "source_dir": "brand/tools/juliobsz-skills/awwwards",
+      "source_file": "brand/tools/juliobsz-skills/awwwards/SKILL.md",
+      "license_file": "brand/tools/juliobsz-skills/LICENSE",
+      "license_status": "mit-verified"
+    },
+    {
+      "id": "juliobsz-skills-jury",
+      "group": "juliobsz-skills",
+      "skill_name": "jury",
+      "source_dir": "brand/tools/juliobsz-skills/jury",
+      "source_file": "brand/tools/juliobsz-skills/jury/SKILL.md",
+      "license_file": "brand/tools/juliobsz-skills/LICENSE",
+      "license_status": "mit-verified"
     }
   ]
 }
