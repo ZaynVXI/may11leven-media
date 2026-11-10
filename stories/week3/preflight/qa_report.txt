@@ -1,0 +1,1 @@
+WARN: OCR/spell unavailable: No module named 'spellchecker'
