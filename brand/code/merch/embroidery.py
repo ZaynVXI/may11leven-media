@@ -20,13 +20,13 @@ d = fab.modifiers.new('fold', 'DISPLACE'); d.texture = tex; d.strength = 0.02
 m = bpy.data.materials.new('knit'); m.use_nodes = True; nt = m.node_tree; N = nt.nodes; L = nt.links
 bs = N['Principled BSDF']; bs.inputs['Base Color'].default_value = lin(FAB); bs.inputs['Roughness'].default_value = 0.92
 bs.inputs['Sheen Weight'].default_value = 0.6; bs.inputs['Sheen Roughness'].default_value = 0.5; bs.inputs['Sheen Tint'].default_value = (0.6, 0.6, 0.6, 1)
-tc = N.new('ShaderNodeTexCoord'); mp = N.new('ShaderNodeMapping'); mp.inputs['Scale'].default_value = (420, 300, 1)
-w = N.new('ShaderNodeTexWave'); w.wave_type = 'BANDS'; w.bands_direction = 'X'; w.inputs['Distortion'].default_value = 1.2; w.inputs['Detail'].default_value = 2
+tc = N.new('ShaderNodeTexCoord'); mp = N.new('ShaderNodeMapping'); mp.inputs['Scale'].default_value = (620, 460, 1)
+w = N.new('ShaderNodeTexWave'); w.wave_type = 'BANDS'; w.bands_direction = 'X'; w.inputs['Distortion'].default_value = 3.0; w.inputs['Detail'].default_value = 3
 w2 = N.new('ShaderNodeTexWave'); w2.wave_type = 'BANDS'; w2.bands_direction = 'Y'; w2.inputs['Scale'].default_value = 1.4
 nz = N.new('ShaderNodeTexNoise'); nz.inputs['Scale'].default_value = 900; nz.inputs['Detail'].default_value = 4
 mx = N.new('ShaderNodeMath'); mx.operation = 'MULTIPLY'
-mx2 = N.new('ShaderNodeMix'); mx2.data_type = 'FLOAT'; mx2.inputs[0].default_value = 0.25
-bump = N.new('ShaderNodeBump'); bump.inputs['Strength'].default_value = 0.9; bump.inputs['Distance'].default_value = 0.0006
+mx2 = N.new('ShaderNodeMix'); mx2.data_type = 'FLOAT'; mx2.inputs[0].default_value = 0.45
+bump = N.new('ShaderNodeBump'); bump.inputs['Strength'].default_value = 0.6; bump.inputs['Distance'].default_value = 0.0006
 L.new(tc.outputs['UV'], mp.inputs['Vector']); L.new(mp.outputs['Vector'], w.inputs['Vector']); L.new(mp.outputs['Vector'], w2.inputs['Vector'])
 L.new(w.outputs['Fac'], mx.inputs[0]); L.new(w2.outputs['Fac'], mx.inputs[1])
 L.new(mx.outputs[0], mx2.inputs[2]); L.new(nz.outputs['Fac'], mx2.inputs[3]); L.new(mx2.outputs[0], bump.inputs['Height'])
@@ -40,18 +40,18 @@ fab.data.materials.append(m)
 # --- embroidery: two offset bars (the 11 mark), satin stitch along the long axis
 def bar(x, y, w, h, name):
     bpy.ops.mesh.primitive_cube_add(size=1); o = bpy.context.object; o.name = name
-    o.scale = (w / 2, h / 2, 0.0011); o.location = (x, y, 0.0016 + 0.012 * 0)
+    o.scale = (w / 2, h / 2, 0.0007); o.location = (x, y, 0.0016 + 0.012 * 0)
     bpy.ops.object.transform_apply(scale=True)
-    bv = o.modifiers.new('bev', 'BEVEL'); bv.width = 0.0010; bv.segments = 4
+    bv = o.modifiers.new('bev', 'BEVEL'); bv.width = 0.0011; bv.segments = 5
     sb = o.modifiers.new('sub', 'SUBSURF'); sb.levels = 2; sb.render_levels = 3
     return o
 u = 0.0082  # logo ratios: bar 41, gap 29, height 181, offset 30
 b1 = bar(-0.0070, 0.0030, u, 0.036, 'bar1'); b2 = bar(0.0070, -0.0030, u, 0.036, 'bar2')
 th = bpy.data.materials.new('thread'); th.use_nodes = True; tn = th.node_tree; TN = tn.nodes; TL = tn.links
-tb = TN['Principled BSDF']; tb.inputs['Base Color'].default_value = lin(THR); tb.inputs['Roughness'].default_value = 0.42
-tb.inputs['Sheen Weight'].default_value = 0.8; tb.inputs['Sheen Tint'].default_value = (1, 1, 1, 1); tb.inputs['Specular IOR Level'].default_value = 0.6
+tb = TN['Principled BSDF']; tb.inputs['Base Color'].default_value = lin(THR); tb.inputs['Roughness'].default_value = 0.35; tb.inputs['Anisotropic'].default_value = 0.6
+tb.inputs['Sheen Weight'].default_value = 0.25; tb.inputs['Sheen Tint'].default_value = lin(THR); tb.inputs['Specular IOR Level'].default_value = 0.6
 ttc = TN.new('ShaderNodeTexCoord'); tw = TN.new('ShaderNodeTexWave'); tw.wave_type = 'BANDS'; tw.bands_direction = 'Y'
-tw.inputs['Scale'].default_value = 900; tw.inputs['Distortion'].default_value = 0.4; tw.inputs['Detail Scale'].default_value = 3
+tw.inputs['Scale'].default_value = 1100; tw.inputs['Distortion'].default_value = 2.2; tw.inputs['Detail'].default_value = 4; tw.inputs['Detail Scale'].default_value = 1.5
 tbu = TN.new('ShaderNodeBump'); tbu.inputs['Strength'].default_value = 0.8; tbu.inputs['Distance'].default_value = 0.0004
 TL.new(ttc.outputs['Object'], tw.inputs['Vector']); TL.new(tw.outputs['Fac'], tbu.inputs['Height']); TL.new(tbu.outputs['Normal'], tb.inputs['Normal'])
 for o in (b1, b2):
