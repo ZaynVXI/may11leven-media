@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Rebuild the May11Leven workspace tools after a fresh container (idempotent).
-set -e
+set -eo pipefail
 pip install -q --break-system-packages bpy faster-whisper pyspellchecker soxr pyloudnorm soundfile graphifyy 2>&1 | tail -1
 apt-get install -y -q ffmpeg sox tesseract-ocr >/dev/null 2>&1 || true
 command -v gimp-console >/dev/null || (apt-get update -q >/dev/null; apt-get install -y -q gimp gimp-plugin-registry gmic gimp-gmic >/dev/null 2>&1 || true)
