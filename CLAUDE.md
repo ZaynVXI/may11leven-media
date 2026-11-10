@@ -1,6 +1,6 @@
 # May11Leven Labs — Claude Code project guide
 
-Read `AGENTS.md` and `brand/skills/README.md` at the start of work. Use `.claude/skills/may11leven-skill-library/SKILL.md` as the shared skill router and `brand/skills/manifest.json` as the complete 472-skill registry.
+Read `AGENTS.md` and `brand/skills/README.md` at the start of work. Use `.claude/skills/may11leven-skill-library/SKILL.md` as the shared skill router and `brand/skills/manifest.json` as the complete 485-skill registry.
 
 Select only relevant skills, read their canonical `SKILL.md` files under `brand/tools/`, and resolve supporting references from each source directory. For brand/design/media work, also read `brand/learning/README.md` and matching learning notes.
 
