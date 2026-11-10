@@ -1,6 +1,7 @@
 # May11Leven Labs — agent operating instructions
 
 ## Before each task
+0. Read `agents/HANDOFF.md` (the shared task board between Claude and ChatGPT) and update it when you finish.
 1. Read `brand/skills/README.md` and consult `brand/skills/manifest.json`.
 2. Use the shared skill-library router at `.agents/skills/may11leven-skill-library/SKILL.md` to select relevant skills.
 3. Read selected canonical skill files under `brand/tools/` and resolve supporting references from their source directories.
