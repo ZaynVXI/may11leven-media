@@ -1,5 +1,5 @@
 import json
-g = json.load(open('a.json'))
+g = json.load(open(__import__('os').path.join(__import__('os').path.dirname(__import__('os').path.abspath(__file__)),'a.json')))
 S = 0.36  # font units -> px
 W, H = 1080, 1350
 X0 = (W - g['adv'] * S) / 2; BASE = 900
@@ -32,11 +32,11 @@ hl = ''.join(f'<line x1="{a[0]:.1f}" y1="{a[1]:.1f}" x2="{b[0]:.1f}" y2="{b[1]:.
 on = ''.join(f'<rect x="{x - 6:.1f}" y="{y - 6:.1f}" width="12" height="12" class="on"/>' for x, y in pts_on)
 off = ''.join(f'<circle cx="{x:.1f}" cy="{y:.1f}" r="5" class="off"/>' for x, y in pts_off)
 css = '''
-@font-face{font-family:IT;src:url(InterTight-Medium.ttf);font-weight:500}
-@font-face{font-family:IT;src:url(InterTight-Regular.ttf);font-weight:400}
-@font-face{font-family:IT;src:url(InterTight-Light.ttf);font-weight:300}
-@font-face{font-family:IS;src:url(InstrumentSerif-Italic.ttf)}
-@font-face{font-family:PM;src:url(PlexMonoMed.ttf)}
+@font-face{font-family:IT;src:url(../../brand/fonts/InterTight-Medium.ttf);font-weight:500}
+@font-face{font-family:IT;src:url(../../brand/fonts/InterTight-Regular.ttf);font-weight:400}
+@font-face{font-family:IT;src:url(../../brand/fonts/InterTight-Light.ttf);font-weight:300}
+@font-face{font-family:IS;src:url(../../brand/fonts/InstrumentSerif-Italic.ttf)}
+@font-face{font-family:PM;src:url(../../brand/fonts/PlexMonoMed.ttf)}
 *{margin:0;box-sizing:border-box} body{width:1080px;height:1350px;background:#EDEDEF;color:#141213;font-family:IT;position:relative;overflow:hidden}
 .lab{position:absolute;top:72px;left:72px;right:72px;display:flex;justify-content:space-between;font:22px PM;letter-spacing:.08em;color:#141213;opacity:.72}
 .foot{position:absolute;bottom:72px;left:72px;right:72px;display:flex;justify-content:space-between;font:22px PM;letter-spacing:.08em;opacity:.72}
