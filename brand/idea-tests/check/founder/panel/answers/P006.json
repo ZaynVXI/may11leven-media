@@ -1,0 +1,13 @@
+{
+  "id": "P006",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "need",
+  "reason": "I scrolled past because it reads like a design studio showing off a concept, not a tool for a business like mine. It is labelled concept, not a live product, so I cannot buy it anyway, and I cannot see how a scam-SMS checker connects to my hotel or shop.",
+  "objection": "Is this even something I can use next month, or is it a pitch deck dressed up as an Instagram post? I have no idea what the agents cost or what they would do for my own customers.",
+  "would_change_my_mind": "A clear live product, a price I can see, and a short example of an agent answering my own customers' messages for a business like mine.",
+  "price_too_cheap": 15,
+  "price_cheap": 49,
+  "price_expensive": 149,
+  "price_too_expensive": 300
+}

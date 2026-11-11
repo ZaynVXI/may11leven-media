@@ -1,0 +1,13 @@
+{
+  "id": "P003",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "need",
+  "reason": "The carousel is a concept for a scam-check tool, not a service I can hire. It shows a WhatsApp chat about an M-Pesa message and never says what an agent would do for my business, so I can't tell what I'd be paying for. I already have a designer and a team that handles client messages.",
+  "objection": "We already have a designer. Why would I pay a studio for AI agents when they haven't shown me one working on a business like mine?",
+  "would_change_my_mind": "A live demo run on a sample of my own customer messages, showing the drafts it would send and how many I would have to fix, with a short trial before any commitment.",
+  "price_too_cheap": 40,
+  "price_cheap": 150,
+  "price_expensive": 600,
+  "price_too_expensive": 1500
+}

@@ -1,0 +1,13 @@
+{
+  "id": "P010",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "trust",
+  "reason": "The carousel is nicely made, but it talks about how they measure letters and marks, not about what happens to my business after. I might comment for the free look out of curiosity, but I wouldn't pay a studio I can't meet or check against clients like mine.",
+  "objection": "Is a remote studio worth it compared to someone local? I'd be paying for a brand I can't sit down with, and I have no proof they understand a lodge or a clinic.",
+  "would_change_my_mind": "Three named case studies from businesses like mine, with the before and after and the revenue or bookings change, plus a call with the people who would actually do the work.",
+  "price_too_cheap": 300,
+  "price_cheap": 1500,
+  "price_expensive": 5000,
+  "price_too_expensive": 12000
+}

@@ -1,0 +1,13 @@
+{
+  "id": "P015",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "need",
+  "reason": "The slides are about letters, anchor points and measurements, and nothing in them tells me how a logo or a new look brings me a single extra guest or customer. I already have a designer I trust, so I would need a reason to change, not a pretty carousel.",
+  "objection": "I cannot see the link between a measured letter and more bookings or sales for a business like mine. Design looks good in a feed, but I have seen plenty of nice work that did not move the numbers.",
+  "would_change_my_mind": "A case study from a business like mine, showing the before and after numbers, such as more enquiries or bookings, not just the finished design.",
+  "price_too_cheap": 150,
+  "price_cheap": 400,
+  "price_expensive": 1200,
+  "price_too_expensive": 2500
+}

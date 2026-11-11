@@ -1,0 +1,13 @@
+{
+  "id": "P002",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "price",
+  "reason": "I'm watching what I spend this year, and this is a design studio talking about letters and measurements with no price anywhere. I'd assume a proper brand job costs more than I can justify for a business my size, so I'd scroll past.",
+  "objection": "There's no price or package, so I can't tell if this is a few hundred dollars or several thousand, and the 'free first look' could just be a way to start a sales pitch.",
+  "would_change_my_mind": "A clear fixed price with a list of what I get for it, and proof from a business my size that it paid off in more customers.",
+  "price_too_cheap": 150,
+  "price_cheap": 600,
+  "price_expensive": 2000,
+  "price_too_expensive": 3500
+}

@@ -1,0 +1,13 @@
+{
+  "id": "P006",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "trust",
+  "reason": "It's a concept, not a live product, from a studio I've never heard of, and it's built around someone else's M-Pesa till. I can't see how it would work on my own shop without a real demo first, so I'd pass for now.",
+  "objection": "Is a remote studio worth it compared to someone local? I'd be paying for something I can't test, and I can't see anyone local to call if it breaks.",
+  "would_change_my_mind": "A free trial on my own till and payments, with a clear monthly price I can cancel before I pay anything.",
+  "price_too_cheap": 15,
+  "price_cheap": 60,
+  "price_expensive": 200,
+  "price_too_expensive": 350
+}

@@ -1,0 +1,13 @@
+{
+  "id": "P010",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "trust",
+  "reason": "I'm not running a till that gets faked M-Pesa messages, and the slide says concept, not a live product, so I'd be paying for a studio's idea of my problem. My nephew and my freelancer already handle my design work, and I don't see why a remote studio would know my business better than someone I can call.",
+  "objection": "Is a remote studio worth it compared to someone local? I'd want to see it running in a real shop before I trust a design studio with my payments.",
+  "would_change_my_mind": "A live case from a business like mine, with real numbers, and a local contact I can call if the agent gets a payment wrong.",
+  "price_too_cheap": 30,
+  "price_cheap": 150,
+  "price_expensive": 400,
+  "price_too_expensive": 600
+}

@@ -1,0 +1,13 @@
+{
+  "id": "P002",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "trust",
+  "reason": "It's labelled a concept, not a live product, so I'd be paying a studio I've never met to build something for a till I'd have to explain to my team. I'd want to see it working before I'd sign anything.",
+  "objection": "Is a remote studio worth it compared to someone local? If something goes wrong with a payment check, I need someone I can call on the same day, not an agency across a border.",
+  "would_change_my_mind": "A working demo I can test on my own till data, plus a named local partner or a clear same-day support promise.",
+  "price_too_cheap": 300,
+  "price_cheap": 1200,
+  "price_expensive": 3500,
+  "price_too_expensive": 7000
+}

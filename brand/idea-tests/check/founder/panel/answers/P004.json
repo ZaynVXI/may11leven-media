@@ -1,0 +1,13 @@
+{
+  "id": "P004",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "trust",
+  "reason": "The carousel is clearly labelled as a concept, not a live product, and it shows no price, no client results and no way to try it. I already have a designer and I post my own flyers, so an AI agent service from a studio I have never met is a hard sell for me, even if the scam-check idea is clever.",
+  "objection": "Is a remote studio worth it compared to someone local? I would need to trust that an agent reading my customers' messages is safe and works before I hand it over.",
+  "would_change_my_mind": "A live product I can try for a month with a clear price, a short demo on a real inbox, and a named case study from a business like mine.",
+  "price_too_cheap": 30,
+  "price_cheap": 150,
+  "price_expensive": 500,
+  "price_too_expensive": 1000
+}

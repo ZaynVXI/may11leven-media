@@ -1,0 +1,13 @@
+{
+  "id": "P005",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "need",
+  "reason": "I already have a designer and a nephew who does logos, and I don't see how a WhatsApp check on M-Pesa messages is my problem as a hotel owner. Looks like a clever demo, not something I'd pay for this month.",
+  "objection": "Who is actually sending me these messages, and why would I give an AI agent access to my customer chats and my business? I'd need to trust it with my data before I trusted it with my replies.",
+  "would_change_my_mind": "A clear, free trial on my own WhatsApp inbox showing it drafts correct replies that save me hours each week, with the owner able to approve every message.",
+  "price_too_cheap": 5,
+  "price_cheap": 15,
+  "price_expensive": 60,
+  "price_too_expensive": 120
+}

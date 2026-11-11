@@ -1,0 +1,60 @@
+# Buyer panel: May11Leven Labs, a small design studio (brand identity, websites, apps, 3D, automation, AI agents, content) that markets itself on Instagram
+
+**0 buy · 10 pass** (0% buy) out of 10 simulated buyers. Seed 285485, so the same cards can be dealt again.
+
+These are simulated buyers, not customers. Use this to find objections and weak spots, then confirm the big ones with real people before you spend.
+
+## By segment
+
+| group | buyers | buy rate |
+| --- | ---: | ---: |
+| Growing business owner or founder (10-50 staff) | 3 | 0%  (thin) |
+| Small business owner (1-10 staff) | 5 | 0%  (thin) |
+| Marketing lead at an established company | 2 | 0%  (thin) |
+
+## By buying behaviour
+
+| group | buyers | buy rate |
+| --- | ---: | ---: |
+| Busy scroller | 3 | 0%  (thin) |
+| Price-first | 2 | 0%  (thin) |
+| Ready to rebrand | 1 | 0%  (thin) |
+| Trust-checker | 1 | 0%  (thin) |
+| Has a designer already | 1 | 0%  (thin) |
+| Design-aware | 2 | 0%  (thin) |
+
+## By income
+
+| group | buyers | buy rate |
+| --- | ---: | ---: |
+| $113,000 and up | 4 | 0%  (thin) |
+| $44,000 to $113,000 | 3 | 0%  (thin) |
+| under $44,000 | 3 | 0%  (thin) |
+
+## Why they pass
+
+| reason | buyers | in their words |
+| --- | ---: | --- |
+| trust | 6 | "It's nice to look at, but it's all about letter spacing and logo measurements. I run a growing business and I need to know that a new brand will bring me more customers, and this post never says that." (P001) · "The slides are nice to look at, but it is the studio talking about its own letters and logo. Nothing shows a business like mine that they rebranded, what it looked like before and after, or what it cost. I might drop a comment for a free look because it costs me nothing, but I would not pay anyone off this carousel." (P003) |
+| price | 3 | "I'm watching what I spend this year, and this is a design studio talking about letters and measurements with no price anywhere. I'd assume a proper brand job costs more than I can justify for a business my size, so I'd scroll past." (P002) · "I run a small business on tight money, and this post never says what anything costs. Pretty letters are nice, but I'd still want to know the price before I give up a WhatsApp break to think about it." (P005) |
+| need | 1 | "We already have a designer and I can make our flyers in Canva myself. Five slides about measuring letters are nice to look at, but I can't see what a brand rebuild would change for a business like mine that is worth paying for." (P009) |
+
+## Why they buy
+
+| reason | buyers | in their words |
+| --- | ---: | --- |
+
+## What would flip a no
+
+- A real before-and-after case where a business like mine got more enquiries or sales after a rebrand, with the numbers shown.
+- A clear fixed price with a list of what I get for it, and proof from a business my size that it paid off in more customers.
+- Real before-and-after work from hotels or clinics like mine, with a clear price range I can see before I speak to anyone.
+- Named clients in my kind of business, with before and after results and a local office or a phone number I can call and visit.
+- A clear price range for a brand identity and a few examples of small local businesses like mine they have already done, with a local contact I can call.
+- Real before-and-after work for businesses like mine, with a named client and a measurable result such as more bookings or enquiries.
+- A clear starting price, plus two or three real client examples showing what changed for their business.
+- A plain-English example of a brand they've done for a business like mine, with a clear price and what I'd get in writing.
+- Seeing a real before and after for a business like mine, such as a hotel or clinic they rebranded, with the results they got from it.
+- Three named case studies from businesses like mine, with the before and after and the revenue or bookings change, plus a call with the people who would actually do the work.
+
+10 buyers gave all four price answers. Run founder-pricing's van_westendorp.py on the answers folder.
