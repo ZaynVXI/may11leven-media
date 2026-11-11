@@ -1,0 +1,13 @@
+{
+  "id": "P004",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "trust",
+  "reason": "I've got no proof this is for a business like mine. A six-second video with a rolling word and a comment prompt looks like something made for other designers, and $800 is a lot of money for me to hand to a studio I've never heard of.",
+  "objection": "Who have they actually done this for? I don't see any local clients or results, just a clever clip and a caption.",
+  "would_change_my_mind": "Named local businesses like mine, with real before and after numbers (bookings, enquiries or sales), and a fixed price with a refund if the work doesn't deliver.",
+  "price_too_cheap": 150,
+  "price_cheap": 400,
+  "price_expensive": 900,
+  "price_too_expensive": 1200
+}

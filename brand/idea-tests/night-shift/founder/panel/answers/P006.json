@@ -1,0 +1,13 @@
+{
+  "id": "P006",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "trust",
+  "reason": "I like the look of it, and the 'your business works while you sleep' idea is one I think about. But the post never shows a single client, a result, or a business like mine, so I have nothing to judge them by. I'd want proof before I hand over money for a brand.",
+  "objection": "I do not see real clients or results. Who have they done this for, and what changed for those businesses after 6pm?",
+  "would_change_my_mind": "A short case study from a hotel or clinic like mine, with real before-and-after numbers on enquiries or bookings.",
+  "price_too_cheap": 200,
+  "price_cheap": 600,
+  "price_expensive": 1500,
+  "price_too_expensive": 3000
+}

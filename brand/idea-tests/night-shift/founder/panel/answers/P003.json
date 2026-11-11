@@ -1,0 +1,13 @@
+{
+  "id": "P003",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "price",
+  "reason": "I run a small shop on thin margins and $800 is a lot of money for a logo and some pages. The video looks nice but it doesn't tell me what I actually get for the money, and I'm not paying for a brand identity from a studio I've never seen when my cousin can knock up something for a few hundred.",
+  "objection": "Why would a remote studio understand my town and my customers better than someone local who I can meet and pay in person?",
+  "would_change_my_mind": "A clear list of what the $800 includes, a few real client examples from businesses like mine, and a smaller starting package I could try before committing the full amount.",
+  "price_too_cheap": 100,
+  "price_cheap": 250,
+  "price_expensive": 500,
+  "price_too_expensive": 800
+}

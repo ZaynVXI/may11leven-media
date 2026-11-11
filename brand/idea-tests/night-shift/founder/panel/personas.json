@@ -1,0 +1,112 @@
+[
+ {
+  "id": "P001",
+  "name": "Min",
+  "age": 30,
+  "segment": "Growing business owner or founder (10-50 staff)",
+  "income": 127000,
+  "behaviour": "Has a designer already",
+  "behaviour_how": "Works with a freelancer or a nephew who does logos.",
+  "objection": "I do not see real clients or results",
+  "habit": "you are planning a launch or expansion this year"
+ },
+ {
+  "id": "P002",
+  "name": "Ethan",
+  "age": 35,
+  "segment": "Marketing lead at an established company",
+  "income": 71000,
+  "behaviour": "Busy scroller",
+  "behaviour_how": "Scrolls between tasks, stops only for something instantly clear.",
+  "objection": "Will better design actually bring more customers?",
+  "habit": "your competitor just opened with a slick new look"
+ },
+ {
+  "id": "P003",
+  "name": "Daniel",
+  "age": 25,
+  "segment": "Small business owner (1-10 staff)",
+  "income": 25000,
+  "behaviour": "Price-first",
+  "behaviour_how": "Assumes good design is expensive, looks for the cheapest option.",
+  "objection": "Is a remote studio worth it compared to someone local?",
+  "habit": "your competitor just opened with a slick new look"
+ },
+ {
+  "id": "P004",
+  "name": "Ezra",
+  "age": 28,
+  "segment": "Small business owner (1-10 staff)",
+  "income": 25000,
+  "behaviour": "Trust-checker",
+  "behaviour_how": "Wants proof: real clients, results, a local presence.",
+  "objection": "This looks like design for designers, not for my business",
+  "habit": "your competitor just opened with a slick new look"
+ },
+ {
+  "id": "P005",
+  "name": "Theo",
+  "age": 45,
+  "segment": "Small business owner (1-10 staff)",
+  "income": 41000,
+  "behaviour": "Ready to rebrand",
+  "behaviour_how": "Knows the brand looks dated and is actively looking.",
+  "objection": "It is probably too expensive for us",
+  "habit": "you check Instagram on WhatsApp breaks during the work day"
+ },
+ {
+  "id": "P006",
+  "name": "Ines",
+  "age": 39,
+  "segment": "Growing business owner or founder (10-50 staff)",
+  "income": 150000,
+  "behaviour": "Design-aware",
+  "behaviour_how": "Follows studios, saves nice work, compares feeds before hiring.",
+  "objection": "I do not see real clients or results",
+  "habit": "you are planning a launch or expansion this year"
+ },
+ {
+  "id": "P007",
+  "name": "Amara",
+  "age": 35,
+  "segment": "Growing business owner or founder (10-50 staff)",
+  "income": 103000,
+  "behaviour": "Price-first",
+  "behaviour_how": "Assumes good design is expensive, looks for the cheapest option.",
+  "objection": "We already have a designer",
+  "habit": "you check Instagram on WhatsApp breaks during the work day"
+ },
+ {
+  "id": "P008",
+  "name": "Maya",
+  "age": 41,
+  "segment": "Marketing lead at an established company",
+  "income": 58000,
+  "behaviour": "Busy scroller",
+  "behaviour_how": "Scrolls between tasks, stops only for something instantly clear.",
+  "objection": "Is a remote studio worth it compared to someone local?",
+  "habit": "you are planning a launch or expansion this year"
+ },
+ {
+  "id": "P009",
+  "name": "Idris",
+  "age": 39,
+  "segment": "Small business owner (1-10 staff)",
+  "income": 41000,
+  "behaviour": "Design-aware",
+  "behaviour_how": "Follows studios, saves nice work, compares feeds before hiring.",
+  "objection": "We already have a designer",
+  "habit": "you check Instagram on WhatsApp breaks during the work day"
+ },
+ {
+  "id": "P010",
+  "name": "Luca",
+  "age": 43,
+  "segment": "Small business owner (1-10 staff)",
+  "income": 59000,
+  "behaviour": "Busy scroller",
+  "behaviour_how": "Scrolls between tasks, stops only for something instantly clear.",
+  "objection": "We already have a designer",
+  "habit": "your competitor just opened with a slick new look"
+ }
+]
