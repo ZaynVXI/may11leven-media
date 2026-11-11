@@ -1,0 +1,13 @@
+{
+  "id": "P007",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "price",
+  "reason": "The slides look sharp and I'd save the post, but it's a pitch for a free look, not a price. A brand project is a big cheque for a business my size, so I'd want to see what it costs and a couple of past clients before I'd even reply.",
+  "objection": "It's probably too expensive for us, and I can't tell what I'd actually get for the money.",
+  "would_change_my_mind": "A clear starting price, plus two or three real client examples showing what changed for their business.",
+  "price_too_cheap": 150,
+  "price_cheap": 600,
+  "price_expensive": 2500,
+  "price_too_expensive": 4000
+}
