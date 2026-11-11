@@ -96,3 +96,30 @@ Order newest-first: What we do (colour fan) · ata case study · Imisozi bags / 
 - Loud tiles per row: top row has the six-colour card fan AND the clay/black/green Imisozi bags -> two colourful tiles in one row (borderline).
 - Each product its own world: BROKEN. The ata reel cover and the ata case study cover are almost the same frame, one above the other. Fix: use cs-3 (three lighting tests) or cs-2 (label close-up) as the case-study cover, or swap the case study with Imisozi so ata tiles are not in the same column.
 - Also: the published brand clinic carousel went out with Instagram's "AI info" label switched on (isAiGenerated true in Metricool). Every other post has it off. Check it in the app; it hints the page is made with AI.
+
+## Nuevo.Tokyo (rotation study; refs nuevo-01..11, nuevotokyo AgBr page, Supply Family "Japanese Gradients [for UI]")
+### What they make
+Tools, not only identities: AgBr (a black-and-white film emulator for iPhone, iPad and Mac, made with Héliographe; film presets named by short codes such as FP3, LLG, AX4, LS1), Japanese Gradients [for UI] (45 gradients over 9 versions plus a noise texture, 496 files, from their Japanese Colours research series), VWFNDR, photo work.
+### Colour (measured from our IG screenshots)
+- Near-black #0C0F14 (slightly blue, never pure #000), paper #F0F0F0 / #F7F7F5, mid greys #B0B0B0 and #5D5A5A.
+- One signal: orange #F03C00 (sampled range #E43C00 to #F03C00). Yellow #F0E400 appears rarely, green #00C018 once. Most tiles are pure greyscale.
+### Typography
+- IBM Plex (credited on the AgBr page) for UI and labels, plus Il Vorkurs. Mono labels in caps, small, wide line gaps.
+- Product names as codes and chemistry (Ag, Br, "AgBr" as the silver bromide of film). Big numerals ("16", "496") as the hero of a tile.
+### Grid and ideas
+- The IG grid alternates: device mockup (Mac, phone) with one B&W photo inside; a flat orange tile with a white geometric mark; abstract gradient or grain studies; spec sheets with mono type.
+- The product truth is always visible: a real app screen, a real preset name, a real file count.
+- Research is the brand: a colour series running over years makes the studio the authority on that subject.
+### How they present on Instagram
+- One focal object per tile, centred, on grey or black. Orange tiles act as rhythm, roughly one per row.
+- Covers are almost never text-led. The caption carries the explanation.
+### Try this week
+Name things like materials: give every practice palette and preset a short code (KL-06B, IMZ-HUY) and show the code in mono beside the swatch. It makes a system look researched, and it is useful in handoff.
+
+## Feed check (next tiles in Metricool, read only)
+Grid, newest first: [type study 01 · Kora reel 05 · what we do (all)] / [ata 04 · Imisozi 02 · brand clinic 01 (live)].
+- Clean covers, one focal point: yes on all six; ata, Imisozi and the type study have a single object.
+- Dark/light: only ata is dark. The next post should be a dark tile to balance the top row.
+- Loud tiles: "what we do" (seven coloured cards) is the one loud tile in its row; fine. Brand clinic's coloured test slides sit inside the carousel, cover is calm.
+- Service rotation: 01 brand identity twice in a week (clinic, type study); 03 apps, 06 agents and 07 social have no tile of their own. Only 5 tiles queued, so the grid needs 3-4 more to reach 9.
+- Flag: suggest the next tile is a dark 03 or 06 post, and that a 02 availability-page post waits until after Imisozi (two web posts too close).

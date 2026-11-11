@@ -1,0 +1,104 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><title>Kilele Residences, availability</title><style>
+@font-face{font-family:IT;src:url(../../../fonts/InterTight-Light.ttf);font-weight:300}
+@font-face{font-family:IT;src:url(../../../fonts/InterTight-Regular.ttf);font-weight:400}
+@font-face{font-family:IT;src:url(../../../fonts/InterTight-Medium.ttf);font-weight:500}
+@font-face{font-family:PM;src:url(../../../fonts/PlexMono.ttf)}
+:root{--bone:#EEEBE4;--ink:#111110;--dim:rgba(17,17,16,.62);--line:rgba(17,17,16,.16);--ir:#FF4A1C}
+*{margin:0;box-sizing:border-box}
+body{width:1440px;height:900px;background:var(--bone);color:var(--ink);font:400 14px/1.3 IT;letter-spacing:-.01em;overflow:hidden;position:relative}
+header{display:grid;grid-template-columns:repeat(12,1fr);gap:16px;padding:18px 24px;border-bottom:1px solid var(--line)}
+header .wm{grid-column:span 3;font-weight:500}
+header .a{grid-column:span 3;color:var(--dim)}
+header nav{grid-column:span 4;display:flex;gap:24px}
+header nav a{color:var(--dim);text-decoration:none}header nav a.on{color:var(--ink)}
+header .cta{grid-column:span 2;text-align:right}
+header .cta a{color:var(--ink);text-decoration:none;font-weight:500}
+a:focus-visible,button:focus-visible{outline:2px solid var(--ir);outline-offset:3px}
+h1{position:absolute;left:24px;top:84px;font:300 64px/1 IT;letter-spacing:-.035em}
+.sub{position:absolute;left:24px;top:162px;width:420px;color:var(--dim)}
+.filters{position:absolute;left:24px;top:236px;display:flex;gap:8px}
+.filters button{font:400 13px IT;background:none;border:1px solid var(--line);border-radius:20px;padding:6px 14px;color:var(--ink)}
+.filters button.on{background:var(--ink);color:var(--bone);border-color:var(--ink)}
+table{position:absolute;left:24px;top:292px;width:584px;border-collapse:collapse}
+th{font:400 12px PM;text-transform:uppercase;color:var(--dim);text-align:left;padding:0 0 10px;border-bottom:1px solid var(--line)}
+td{padding:11px 0;border-bottom:1px solid var(--line);color:var(--dim)}
+td:last-child,th:last-child{text-align:right}
+tr.on td{color:var(--ink)}
+tr.gone td{text-decoration:line-through;text-decoration-thickness:1px}
+tr.gone td:nth-last-child(2){text-decoration:none}
+tr.on td:first-child::before{content:"";display:inline-block;width:6px;height:6px;border-radius:50%;background:var(--ir);margin-right:8px;vertical-align:middle}
+.plan{position:absolute;left:640px;top:70px;width:776px;height:680px}
+.cap{position:absolute;left:680px;right:24px;top:788px;display:flex;align-items:center;gap:32px;border-top:1px solid var(--line);padding-top:20px}
+.cap p{color:var(--dim)}.cap .k{color:var(--ink);font-weight:500;margin-right:6px}
+.cap .pr{color:var(--ink);font:400 22px IT;letter-spacing:-.02em;margin-left:auto;white-space:nowrap}
+.btn{display:inline-flex;align-items:center;height:44px;padding:0 20px;background:var(--ink);color:var(--bone);text-decoration:none;border-radius:2px;white-space:nowrap}
+footer{position:absolute;left:24px;bottom:18px;font:12px PM;color:var(--dim)}
+</style><style id="gesso-font-smoothing">html{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}</style><style id="gesso-text-wrap">h1,h2,h3{text-wrap:balance}p,li{text-wrap:pretty}</style></head><body>
+<header><span class="wm">Kilele Residences</span><span class="a">Kileleshwa, Nairobi</span>
+<nav><a href="#">Building</a><a class="on" href="#" aria-current="page">Availability</a><a href="#">Materials</a><a href="#">Location</a></nav>
+<span class="cta"><a href="#">Book a viewing</a></span></header>
+<h1>Availability</h1>
+<p class="sub">24 homes over eight floors. Every plan faces the Ngong Hills. Prices include parking and a store room.</p>
+<div class="filters"><button class="on">All</button><button>1 bed</button><button>2 bed</button><button>3 bed</button><button>Available</button></div>
+<table><thead><tr><th>Unit</th><th>Type</th><th>Area</th><th>Floor</th><th>Status</th><th>Price KES</th></tr></thead><tbody>
+<tr class="gone"><td>6A</td><td>3 bed</td><td>142 m²</td><td>06</td><td>Sold</td><td>–</td></tr>
+<tr class="on"><td>6B</td><td>2 bed</td><td>96 m²</td><td>06</td><td>Available</td><td>21,400,000</td></tr>
+<tr><td>6C</td><td>1 bed</td><td>61 m²</td><td>06</td><td>Available</td><td>13,900,000</td></tr>
+<tr><td>5A</td><td>3 bed</td><td>142 m²</td><td>05</td><td>Available</td><td>29,800,000</td></tr>
+<tr class="gone"><td>5B</td><td>2 bed</td><td>96 m²</td><td>05</td><td>Reserved</td><td>–</td></tr>
+<tr><td>5C</td><td>1 bed</td><td>61 m²</td><td>05</td><td>Available</td><td>13,600,000</td></tr>
+<tr><td>4A</td><td>3 bed</td><td>142 m²</td><td>04</td><td>Available</td><td>29,200,000</td></tr>
+<tr><td>4B</td><td>2 bed</td><td>96 m²</td><td>04</td><td>Available</td><td>20,800,000</td></tr>
+</tbody></table>
+<svg class="plan" viewBox="0 0 776 680" role="img" aria-label="Floor 6 plan. Unit 6B, two bedrooms, 96 square metres, sits between 6A (sold) and 6C, with its living room on the glazed west facade facing the Ngong Hills."><defs><pattern id="h" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="rgba(17,17,16,.14)" stroke-width="1"/></pattern></defs>
+<rect x="40" y="150" width="330" height="336" fill="url(#h)"/>
+<rect x="370" y="486" width="224" height="112" fill="rgba(17,17,16,.06)"/>
+<line x1="370" y1="284" x2="520" y2="284" stroke="#111110" stroke-width="2"/>
+<line x1="560" y1="284" x2="594" y2="284" stroke="#111110" stroke-width="2"/>
+<line x1="482" y1="284" x2="482" y2="486" stroke="#111110" stroke-width="2"/>
+<line x1="370" y1="404" x2="594" y2="404" stroke="#111110" stroke-width="2"/>
+<line x1="40" y1="300" x2="160" y2="300" stroke="#111110" stroke-width="2"/>
+<line x1="200" y1="300" x2="370" y2="300" stroke="#111110" stroke-width="2"/>
+<line x1="150" y1="300" x2="150" y2="486" stroke="#111110" stroke-width="2"/>
+<line x1="260" y1="300" x2="260" y2="486" stroke="#111110" stroke-width="2"/>
+<line x1="594" y1="290" x2="736" y2="290" stroke="#111110" stroke-width="2"/>
+<rect x="32" y="142" width="712" height="8" fill="#111110"/>
+<rect x="32" y="486" width="338" height="8" fill="#111110"/>
+<rect x="594" y="486" width="150" height="8" fill="#111110"/>
+<rect x="32" y="142" width="8" height="352" fill="#111110"/>
+<rect x="736" y="142" width="8" height="352" fill="#111110"/>
+<rect x="367" y="150" width="6" height="336" fill="#111110"/>
+<rect x="591" y="150" width="6" height="336" fill="#111110"/>
+<rect x="367" y="486" width="6" height="120" fill="#111110"/>
+<rect x="591" y="486" width="6" height="120" fill="#111110"/>
+<rect x="367" y="598" width="230" height="8" fill="#111110"/>
+<rect x="64" y="142" width="140" height="8" fill="#EEEBE4"/>
+<line x1="64" y1="145" x2="204" y2="145" stroke="#111110" stroke-width="1"/><line x1="64" y1="148" x2="204" y2="148" stroke="#111110" stroke-width="1"/>
+<rect x="240" y="142" width="110" height="8" fill="#EEEBE4"/>
+<line x1="240" y1="145" x2="350" y2="145" stroke="#111110" stroke-width="1"/><line x1="240" y1="148" x2="350" y2="148" stroke="#111110" stroke-width="1"/>
+<rect x="388" y="142" width="188" height="8" fill="#EEEBE4"/>
+<line x1="388" y1="145" x2="576" y2="145" stroke="#111110" stroke-width="1"/><line x1="388" y1="148" x2="576" y2="148" stroke="#111110" stroke-width="1"/>
+<rect x="610" y="142" width="110" height="8" fill="#EEEBE4"/>
+<line x1="610" y1="145" x2="720" y2="145" stroke="#111110" stroke-width="1"/><line x1="610" y1="148" x2="720" y2="148" stroke="#111110" stroke-width="1"/>
+<rect x="410" y="483" width="26" height="6" fill="#EEEBE4"/>
+<path d="M410 486 L410 460 A26 26 0 0 1 436 486" fill="none" stroke="#111110" stroke-width="1"/>
+<rect x="378" y="156" width="208" height="324" fill="none" stroke="#FF4A1C" stroke-width="2"/>
+<text x="54" y="176" font-family="PM" font-size="12" fill="rgba(17,17,16,.62)" text-anchor="start">6A  SOLD</text>
+<text x="388" y="178" font-family="PM" font-size="13" fill="#FF4A1C" text-anchor="start">6B</text>
+<text x="608" y="176" font-family="PM" font-size="12" fill="rgba(17,17,16,.62)" text-anchor="start">6C</text>
+<text x="388" y="220" font-family="IT" font-size="13" fill="#111110" text-anchor="start">Living, dining</text>
+<text x="388" y="238" font-family="PM" font-size="12" fill="rgba(17,17,16,.62)" text-anchor="start">38.4 m²</text>
+<text x="382" y="314" font-family="IT" font-size="13" fill="#111110" text-anchor="start">Bed 1</text>
+<text x="382" y="332" font-family="PM" font-size="12" fill="rgba(17,17,16,.62)" text-anchor="start">17.2 m²</text>
+<text x="494" y="314" font-family="IT" font-size="13" fill="#111110" text-anchor="start">Bed 2</text>
+<text x="494" y="332" font-family="PM" font-size="12" fill="rgba(17,17,16,.62)" text-anchor="start">17.2 m²</text>
+<text x="494" y="430" font-family="IT" font-size="13" fill="#111110" text-anchor="start">Bath</text><text x="494" y="448" font-family="PM" font-size="12" fill="rgba(17,17,16,.62)">11.6 m²</text><text x="382" y="430" font-family="IT" font-size="13" fill="#111110">Kitchen</text><text x="382" y="448" font-family="PM" font-size="12" fill="rgba(17,17,16,.62)">11.6 m²</text>
+<text x="482.0" y="546.0" font-family="PM" font-size="12" fill="rgba(17,17,16,.62)" text-anchor="middle">LIFT, STAIR</text>
+<text x="40" y="120" font-family="PM" font-size="12" fill="rgba(17,17,16,.62)" text-anchor="start">WEST FACADE, NGONG HILLS</text>
+<text x="736" y="120" font-family="PM" font-size="12" fill="rgba(17,17,16,.62)" text-anchor="end">N →</text>
+<text x="40" y="642" font-family="PM" font-size="12" fill="rgba(17,17,16,.62)" text-anchor="start">0</text>
+<line x1="40" y1="650" x2="180" y2="650" stroke="#111110" stroke-width="1.5"/>
+<text x="180" y="642" font-family="PM" font-size="12" fill="rgba(17,17,16,.62)" text-anchor="end">5 m</text></svg>
+<div class="cap"><p><span class="k">6B</span> 2 bed, 96 m², floor 06. 6.7 m of glass on the hills.</p><p class="pr">KES 21,400,000</p><a class="btn" href="#">View 6B</a></div>
+<footer>Practice concept by May11Leven Labs. Fictional development.</footer>
+</body></html>

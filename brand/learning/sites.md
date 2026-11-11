@@ -6,6 +6,9 @@
 - https://weberruss.com (WEBERRUSS Studio, agency portfolio on minimal.gallery, black theme)
 - https://www.framer.com/community/creator/@sattostudio/ (Satto's 16 Framer templates: Chromakey newest, Pulvinar, ZeroFrame, Monocromo; Oblica and Gordian are free to study)
 - https://www.behance.net/Artemiylebedev (newest: Portfolio '26, 21 Oaks, Cantor8, Ponder AI, Institute of Health)
+- https://nuevotokyo.squarespace.com/agbr (Nuevo.Tokyo AgBr page: product page as a film catalogue, preset codes, B&W photography, IBM Plex)
+- https://blog.readymag.com/the-minimal-portfolio/ (minimal portfolio patterns: two text styles, image show/hide toggle, hover reveal)
+- https://www.suitcasetype.com/editorial/new-web (every line of a type page is a live tester; no account needed to buy)
 ## Rotation notes
 - Lebedev Behance revisit: new "Portfolio '26" leads the page; recent work leans to wellness (Frequency Breathwork, Diamond Rose Sanctuary, Institute of Health) and AI/fintech UI (Ponder AI, Cantor8). Same system: one grotesk + mono, colour from photography.
 - Holographik Dribbble: only the SUI shot is public; holographik.co itself could not be loaded from here, so the newest work check stays on the saved refs.

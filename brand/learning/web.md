@@ -43,3 +43,19 @@
 - Index-first portfolio: a numbered table (Num, Project, Client, Role, Year) where hovering a row floats its image; active row inverted black.
 - Header as a grid of small cells (page name, studio ©, email, nav) instead of a classic navbar.
 - Present sites as a stacked pair of screens on a blurred photo from the same project.
+
+## Deep dive: availability pages and the product as the interface
+The practice question: how should a property, hotel or product site show "what can I actually buy right now"? Answer from CoMinVi, Satto's index and today's Kilele study: make the inventory the interface. A list on one side, the real drawing on the other, one item active, everything else quiet.
+### Africa (Kenya, Rwanda, Tanzania, Uganda first)
+- Data is paid by the visitor. A page with a few unoptimised phone photos can cost several MB; on mid-range Android over mobile data that is the difference between 2 s and 15 s (Techweez, "Heavy websites are charging your visitors money").
+- So the plan as SVG is the right hero here: a few KB, sharp on any screen, accessible with a label. Photos lazy-load below the fold, WebP, one size per breakpoint, and a page-weight budget tested on real mobile data.
+- Prices in local currency with the full number (KES 21,400,000), a status column (Available, Reserved, Sold), and "Book a viewing" that opens WhatsApp. Never only a contact form.
+### Gulf
+- Bilingual by default: the whole layout mirrors for Arabic (nav, table column order, plan labels), but the plan drawing and photos are not flipped; north stays north. Choose separate images where direction matters (Creative Bloq on Arabic web design).
+- Pair the Latin family with an Arabic face of similar weight and x-height, and expect fewer Arabic web fonts; budget time for it.
+- Off-plan buyers compare payment plans; add a payment-plan row to the unit panel.
+### Rest of the world
+- Studio sites and Awwwards winners keep moving to index-first pages: a table you can sort, a quiet preview, hover or focus that brings one item forward. The craft is in the table, not in the hero animation.
+- Type foundries show the next step: every line on a page is a live tester (Suitcase Type). For property, that means a live filter and a plan that answers immediately.
+### For our services
+- 02 web: offer "availability page" as a product for developers and lodges: inventory table + SVG plan or site map + WhatsApp booking, under 500 KB.

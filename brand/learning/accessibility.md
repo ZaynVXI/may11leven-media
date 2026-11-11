@@ -49,3 +49,11 @@ Sources: W3C WAI (WCAG 3 draft, March 2026), testparty.ai EAA checklist, OpusCli
 - Reels: three-lights labels moved out of Instagram's bottom caption zone; stronger shade bands so white text stays white over bright shots (fix photos with shade, not by recolouring text).
 - Every post now has alt text per slide and CamelCase hashtags.
 - Lessons: measure the bulk of the background, not thin borders of the same colour; component boxes must size from the actual font size.
+
+## Lesson: quiet text still has a floor; targets and focus (WCAG 2.2 AA)
+- 1.4.3 Contrast: secondary text in an opacity hierarchy must still reach 4.5:1. On Bone #EEEBE4, Ink at 45% is 2.94:1 (fail); 60% is 4.68:1 (pass). Our tint floor on Bone is now 62%.
+- 2.5.8 Target Size (Minimum): pointer targets at least 24x24 CSS px, or spaced so a 24 px circle around each doesn't touch another. Our buttons are 44 px tall; table rows used as links are 41 px.
+- 2.4.11 Focus Not Obscured (Minimum): a focused control must not be fully hidden by author content (sticky headers, cookie bars). Keep sticky bars short and add scroll-padding-top.
+- Also: plans and diagrams are images; give the SVG role="img" and a label that says what is highlighted and why, not "floor plan".
+- Applied today on the Kilele page: dim tint 45% to 62%, mono labels 11 px to 12 px, a visible 2 px Infrared focus ring, SVG label naming 6B, its size and its west facade. webaudit: v1 had 50 failures, v2 has 0.
+- Source: W3C WAI "What's new in WCAG 2.2".

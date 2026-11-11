@@ -74,3 +74,9 @@ for k,x in enumerate(pick):
 s.save('moodboard-house.jpg',quality=88)
 EOF
 ```
+
+## Steal list: Kilele availability page (web practice)
+Picked: motto/workbook-01 (structure as decoration), Motto Attend (one family, tint hierarchy), nuevo-02/nuevo-06 (mono codes, one orange signal), satto-07 (index list + preview), reel-48688b0a CoMinVi (one services cell lit at a time), Readymag minimal portfolios (quiet secondary text).
+1. The inventory is the interface: list on one side, the real drawing on the other, one item lit.
+2. One family, hierarchy by tint; the accent marks the one thing you can act on.
+3. Show product truth as numbers and codes (m², floor, status, KES) instead of adjectives.

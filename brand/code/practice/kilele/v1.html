@@ -1,0 +1,68 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><title>Kilele Residences, availability</title><style>
+@font-face{font-family:IT;src:url(../../../fonts/InterTight-Light.ttf);font-weight:300}
+@font-face{font-family:IT;src:url(../../../fonts/InterTight-Regular.ttf);font-weight:400}
+@font-face{font-family:IT;src:url(../../../fonts/InterTight-Medium.ttf);font-weight:500}
+@font-face{font-family:PM;src:url(../../../fonts/PlexMono.ttf)}
+:root{--bone:#EEEBE4;--ink:#111110;--dim:rgba(17,17,16,.45);--line:rgba(17,17,16,.16);--ir:#FF4A1C}
+*{margin:0;box-sizing:border-box}
+body{width:1440px;height:900px;background:var(--bone);color:var(--ink);font:400 14px/1.3 IT;letter-spacing:-.01em;overflow:hidden;position:relative}
+header{display:grid;grid-template-columns:repeat(12,1fr);gap:16px;padding:18px 24px;border-bottom:1px solid var(--line)}
+header .wm{grid-column:span 3;font-weight:500}
+header .a{grid-column:span 3;color:var(--dim)}
+header nav{grid-column:span 4;display:flex;gap:24px}
+header nav a{color:var(--dim);text-decoration:none}header nav a.on{color:var(--ink)}
+header .cta{grid-column:span 2;text-align:right}
+header .cta a{color:var(--ink)}
+h1{position:absolute;left:24px;top:84px;font:300 64px/1 IT;letter-spacing:-.035em}
+.sub{position:absolute;left:24px;top:162px;width:420px;color:var(--dim)}
+.filters{position:absolute;left:24px;top:236px;display:flex;gap:8px}
+.filters button{font:400 13px IT;background:none;border:1px solid var(--line);border-radius:20px;padding:6px 14px;color:var(--ink)}
+.filters button.on{background:var(--ink);color:var(--bone);border-color:var(--ink)}
+table{position:absolute;left:24px;top:292px;width:560px;border-collapse:collapse}
+th{font:400 11px PM;text-transform:uppercase;color:var(--dim);text-align:left;padding:0 0 10px;border-bottom:1px solid var(--line)}
+td{padding:11px 0;border-bottom:1px solid var(--line);color:var(--dim)}
+td:last-child,th:last-child{text-align:right}
+tr.on td{color:var(--ink)}
+tr.on td:first-child::before{content:"";display:inline-block;width:6px;height:6px;border-radius:50%;background:var(--ir);margin-right:8px;vertical-align:middle}
+.plan{position:absolute;left:640px;top:84px;width:776px;height:640px}
+.cap{position:absolute;left:640px;top:744px;display:grid;grid-template-columns:repeat(4,1fr);width:776px;gap:16px}
+.cap div span{display:block;font:400 11px PM;color:var(--dim);text-transform:uppercase;margin-bottom:4px}
+.cap div b{font:400 22px IT;letter-spacing:-.02em}
+footer{position:absolute;left:24px;bottom:18px;font:11px PM;color:var(--dim)}
+</style></head><body>
+<header><span class="wm">Kilele Residences</span><span class="a">Kileleshwa, Nairobi</span>
+<nav><a href="#">Building</a><a class="on" href="#" aria-current="page">Availability</a><a href="#">Materials</a><a href="#">Location</a></nav>
+<span class="cta"><a href="#">Book a viewing</a></span></header>
+<h1>Availability</h1>
+<p class="sub">24 homes over eight floors. Every plan faces the Ngong Hills. Prices include parking and a store room.</p>
+<div class="filters"><button class="on">All</button><button>1 bed</button><button>2 bed</button><button>3 bed</button><button>Available</button></div>
+<table><thead><tr><th>Unit</th><th>Type</th><th>Area</th><th>Floor</th><th>Price KES</th></tr></thead><tbody>
+<tr><td>6A</td><td>3 bed</td><td>142 m²</td><td>06</td><td>Sold</td></tr>
+<tr class="on"><td>6B</td><td>2 bed</td><td>96 m²</td><td>06</td><td>21,400,000</td></tr>
+<tr><td>6C</td><td>1 bed</td><td>61 m²</td><td>06</td><td>13,900,000</td></tr>
+<tr><td>5A</td><td>3 bed</td><td>142 m²</td><td>05</td><td>29,800,000</td></tr>
+<tr><td>5B</td><td>2 bed</td><td>96 m²</td><td>05</td><td>Reserved</td></tr>
+<tr><td>5C</td><td>1 bed</td><td>61 m²</td><td>05</td><td>13,600,000</td></tr>
+<tr><td>4A</td><td>3 bed</td><td>142 m²</td><td>04</td><td>29,200,000</td></tr>
+<tr><td>4B</td><td>2 bed</td><td>96 m²</td><td>04</td><td>20,800,000</td></tr>
+</tbody></table>
+<svg class="plan" viewBox="0 0 776 640" role="img" aria-label="Floor 6 plan. Unit 6B, two bedrooms, 96 square metres, is highlighted in the middle of the floor.">
+<g fill="none" stroke="#111110" stroke-width="1.5">
+<rect x="60" y="80" width="660" height="440"/>
+<line x1="300" y1="80" x2="300" y2="520"/><line x1="520" y1="80" x2="520" y2="520"/>
+<line x1="300" y1="380" x2="520" y2="380"/>
+</g>
+<rect x="300" y="80" width="220" height="300" fill="#FF4A1C" fill-opacity=".14" stroke="#FF4A1C" stroke-width="2"/>
+<g stroke="rgba(17,17,16,.3)" stroke-width="1" fill="none">
+<line x1="60" y1="260" x2="300" y2="260"/><line x1="180" y1="80" x2="180" y2="260"/>
+<line x1="300" y1="230" x2="420" y2="230"/><line x1="420" y1="80" x2="420" y2="230"/>
+<line x1="520" y1="300" x2="720" y2="300"/>
+</g>
+<g font-family="PM" font-size="11" fill="#111110">
+<text x="76" y="104">6A</text><text x="316" y="104">6B</text><text x="536" y="104">6C</text><text x="316" y="404" fill="rgba(17,17,16,.55)">CORE</text>
+</g>
+<g font-family="PM" font-size="11" fill="rgba(17,17,16,.55)"><text x="60" y="560">0</text><line x1="60" y1="568" x2="160" y2="568" stroke="#111110"/><text x="152" y="560">10 m</text><text x="690" y="560">N ↑</text></g>
+</svg>
+<div class="cap"><div><span>Unit</span><b>6B</b></div><div><span>Area</span><b>96 m²</b></div><div><span>Aspect</span><b>West, hills</b></div><div><span>Price KES</span><b>21.4 m</b></div></div>
+<footer>Practice concept by May11Leven Labs. Fictional development.</footer>
+</body></html>

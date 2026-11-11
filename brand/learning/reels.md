@@ -19,3 +19,18 @@ Sheets: reel-3113c18e (merch, hands only), reel-24210ed3 (creator "5 plugins" li
 - Sound: whoosh starts just before a transition, hit on the new state; soft tick on small highlights; only 3-5 accent sounds per piece; one music bed; test at low volume; short tails.
 ## Practice: "opacity list" (brand/practice/reels/opacity-list-v1/v2.mp4, 8 s, 1080x1920)
 - Six services on Bone; active item Ink 100%, others 18%; Infrared dot follows the active row; big counter 01/06; ends on the 11 mark + "comment 11"; last 0.45 s returns to frame 1 for the loop. Ticks lead picture by 2 frames, whoosh into the exit, low hit on the mark.
+
+## Study: ASCII-art explainer (reel-ffec80eb) and CoMinVi site walk-through (reel-48688b0a)
+- Hook: ASCII = a bright green slide card with ASCII art layered on three other cards, first frame already busy; caption bar "This is called ASCII art" at frame 1. CoMinVi = 3 s of dark rock landscape with the mark fading in, no text.
+- Cut rhythm: ASCII cuts every ~1 s with a voice-over; one example per cut. CoMinVi holds 3 long shots, then steps through screens at ~0.7 s each, then slows on the mineral picker (gold, silver, lead, copper, zinc) one per beat.
+- Camera: ASCII is flat 2D cards and a talking head (we skip the face). CoMinVi is screen-only, no device, no cursor; the page scrolls and the frame stays still.
+- Type in/out: ASCII uses burned-in subtitles centred low, white on black bar. CoMinVi has no added type; the site's own type is the copy.
+- Transitions: hard cuts in both. CoMinVi's only "move" is the services grid where one cell fills orange, then the next: a state change, not a transition.
+- Sound (from pace): ASCII voice-led with a bed; CoMinVi slow ambient, a soft tick on each mineral.
+- Cover: CoMinVi's frame 1 (mark on dark landscape) works as a still; ASCII's cover is busy and would break a calm grid.
+## External: Clueso "How to make tasteful screen-capture videos"
+- Record 1:1 pixels at 100% zoom; 60 fps for scrolling.
+- Cursor still when not acting; slower than natural; pause 250-400 ms after a click before any zoom.
+- Push-ins of 5-10% centred on the focal element, never over 15%; ease 120-200 ms.
+- One change per cut; hold dense screens 0.5-1 s; silence before the reveal; sound only on state changes.
+- For us: the Kilele availability page as a reel would be CoMinVi-style. Still frame, rows step one per beat, the plan outline jumps to each unit, one tick per state, no cursor.
