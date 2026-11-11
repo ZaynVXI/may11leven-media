@@ -1,0 +1,24 @@
+name: research-zanzibar-lh
+on:
+  push:
+    paths: ["research/zanzibar/run-lh.txt"]
+permissions:
+  contents: write
+jobs:
+  lighthouse:
+    runs-on: ubuntu-latest
+    timeout-minutes: 340
+    defaults:
+      run:
+        working-directory: research/zanzibar
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 20 }
+      - run: ./lh3.sh
+      - name: commit
+        if: always()
+        run: |
+          cd "$GITHUB_WORKSPACE"
+          git config user.name "research-bot"; git config user.email "research-bot@users.noreply.github.com"
+          git add research/zanzibar/out/lh3 && git commit -m "Zanzibar: 3x Lighthouse" && git pull --rebase && git push || echo "nothing"
