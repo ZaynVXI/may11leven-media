@@ -1,0 +1,13 @@
+{
+  "id": "P008",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "trust",
+  "reason": "The reel is slick, but I scrolled past it. The caption talks about my customers' night hours without saying what this studio has actually done for a business like mine, and 'comment 11' feels like a lead-gen hook, not an answer. I would need to see proof before I spend anything.",
+  "objection": "Is a remote studio worth it compared to someone local? I can't judge the quality or the follow-up from a video, and I would still have to manage a team across time zones.",
+  "would_change_my_mind": "A named example from a hotel, clinic or real estate business like mine, with the before and after numbers shown, plus a clear price for what the brand identity includes.",
+  "price_too_cheap": 250,
+  "price_cheap": 500,
+  "price_expensive": 1200,
+  "price_too_expensive": 2000
+}
