@@ -1,0 +1,13 @@
+{
+  "id": "P008",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "trust",
+  "reason": "I have a design studio's concept of someone else's guesthouse in front of me, not a single booking from it. Booking.com already brings me the guests I need, and I'd be paying a studio to build a site that might pull them away from it.",
+  "objection": "If I push guests to my own site, I lose the Booking.com ranking and reviews that fill my rooms, and I can't afford to go quiet for a month while a direct page catches on.",
+  "would_change_my_mind": "A real lodge like mine showing direct bookings went up while its Booking.com visibility stayed the same, with the numbers to prove it.",
+  "price_too_cheap": 150,
+  "price_cheap": 400,
+  "price_expensive": 1500,
+  "price_too_expensive": 3000
+}

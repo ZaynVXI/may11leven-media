@@ -1,0 +1,13 @@
+{
+  "id": "P005",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "trust",
+  "reason": "It is a pretty concept for a guesthouse I have never seen, with no booking numbers behind it. Every agency that has pitched our group has promised more direct bookings and I have never seen the figures.",
+  "objection": "Nothing here shows that a new site and a WhatsApp bot will move bookings off Booking.com. A design studio can make a lovely demo, and a boat transfer and breakfast bundle is something any hotel could offer without a new brand.",
+  "would_change_my_mind": "A named hotel of similar size showing its direct booking share before and after, with the figures checked by someone I know.",
+  "price_too_cheap": 200,
+  "price_cheap": 500,
+  "price_expensive": 1500,
+  "price_too_expensive": 3000
+}

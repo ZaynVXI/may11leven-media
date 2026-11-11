@@ -1,0 +1,13 @@
+{
+  "id": "P002",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "need",
+  "reason": "I already pay for a booking engine and a channel manager, and they take bookings and send confirmations. I don't see what a guest app and a WhatsApp bot add that I can't do myself on my phone at midnight.",
+  "objection": "I already pay for a booking engine or channel manager. Another system to set up, pay for and keep running sounds like more work for me, not less, and a designer's 'from $800' is only the start of the bill.",
+  "would_change_my_mind": "Proof, in numbers from a property like mine, that direct bookings rise enough to cover the full cost, with the setup done by someone who stays on to fix it.",
+  "price_too_cheap": 150,
+  "price_cheap": 400,
+  "price_expensive": 800,
+  "price_too_expensive": 1500
+}
