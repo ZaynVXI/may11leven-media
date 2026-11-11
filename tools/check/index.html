@@ -1,0 +1,154 @@
+<title>Check: M-Pesa Message Checker</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="Paste a suspicious M-Pesa message and see the warning signs before you send anything back. Free, and nothing you paste leaves the page.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: one narrow column, a paper "message slip" you paste into, then a verdict and a short checklist. */
+:root{
+  --paper:#F1EEE8; --card:#FBFAF7; --ink:#1A1918; --muted:#5E5B55; --line:#D9D4CA;
+  --scam:#B3261E; --scam-bg:#F7E3E0; --warn:#8A5A00; --warn-bg:#F6ECD6; --ok:#2F6B47; --ok-bg:#E2EEE6;
+  --focus:#1F5E5A;
+  --sans:"Inter Tight",ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --paper:#151413; --card:#1E1C1A; --ink:#EDEAE4; --muted:#A8A39A; --line:#36332F;
+  --scam:#F2867C; --scam-bg:#3A1C19; --warn:#E3B562; --warn-bg:#352A15; --ok:#7CC39A; --ok-bg:#16301F; --focus:#7CC3BC; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --paper:#151413; --card:#1E1C1A; --ink:#EDEAE4; --muted:#A8A39A; --line:#36332F;
+  --scam:#F2867C; --scam-bg:#3A1C19; --warn:#E3B562; --warn-bg:#352A15; --ok:#7CC39A; --ok-bg:#16301F; --focus:#7CC3BC; color-scheme:dark}
+html,body{background:var(--paper);color:var(--ink)}
+body{font:400 16px/1.55 var(--sans);-webkit-font-smoothing:antialiased}
+.wrap{max-width:640px;margin:0 auto;padding-block:40px 56px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:grid;gap:28px}
+header{display:grid;gap:10px}
+.mark{font:500 12px/1 var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+h1{font:600 clamp(32px,7vw,46px)/1.04 var(--sans);letter-spacing:-.03em;margin:0;text-wrap:balance}
+.lede{margin:0;color:var(--muted);max-width:52ch}
+form{display:grid;gap:14px;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px}
+label{font:500 13px/1.3 var(--sans);display:grid;gap:6px}
+label span.hint{font-weight:400;color:var(--muted)}
+input,textarea{font:400 15px/1.5 var(--mono);color:var(--ink);background:var(--paper);border:1px solid var(--line);border-radius:10px;padding:10px 12px;width:100%;box-sizing:border-box}
+textarea{min-height:150px;resize:vertical}
+input:focus-visible,textarea:focus-visible,button:focus-visible,a:focus-visible{outline:2px solid var(--focus);outline-offset:2px}
+.row{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+button{font:600 15px/1 var(--sans);border-radius:999px;padding:13px 20px;cursor:pointer;border:1px solid var(--ink)}
+.primary{background:var(--ink);color:var(--paper)}
+.ghost{background:transparent;color:var(--ink);border-color:var(--line)}
+.example-tag{font:500 11px/1 var(--mono);letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.verdict{border-radius:14px;padding:18px;display:grid;gap:6px;border:1px solid transparent}
+.verdict h2{margin:0;font:600 22px/1.2 var(--sans);letter-spacing:-.015em;text-wrap:balance}
+.verdict p{margin:0}
+.v-scam{background:var(--scam-bg);color:var(--scam);border-color:color-mix(in srgb,var(--scam) 30%,transparent)}
+.v-warn{background:var(--warn-bg);color:var(--warn);border-color:color-mix(in srgb,var(--warn) 30%,transparent)}
+.v-ok{background:var(--ok-bg);color:var(--ok);border-color:color-mix(in srgb,var(--ok) 30%,transparent)}
+.verdict p{color:var(--ink)}
+ul.signs{list-style:none;margin:0;padding:0;display:grid;gap:10px}
+.signs li{display:grid;grid-template-columns:auto 1fr;gap:12px;align-items:start;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 14px}
+.chip{font:500 11px/1 var(--mono);letter-spacing:.06em;text-transform:uppercase;padding:6px 8px;border-radius:6px;white-space:nowrap;margin-top:2px}
+.c-scam{background:var(--scam-bg);color:var(--scam)} .c-warn{background:var(--warn-bg);color:var(--warn)} .c-ok{background:var(--ok-bg);color:var(--ok)}
+.signs strong{display:block;font-weight:600}
+.signs span.d{color:var(--muted);font-size:14px}
+.signs > li > div{min-width:0}
+code{font:500 14px var(--mono)}
+section.todo{display:grid;gap:12px}
+h3{margin:0;font:600 18px/1.25 var(--sans)}
+ol.steps{margin:0;padding-left:22px;display:grid;gap:8px}
+ol.steps b{font-weight:600}
+.dial{font:500 15px var(--mono);background:var(--card);border:1px solid var(--line);border-radius:6px;padding:1px 6px}
+.note{font-size:14px;color:var(--muted);margin:0}
+footer{border-top:1px solid var(--line);padding-top:20px;display:grid;gap:8px;font-size:14px;color:var(--muted)}
+footer .studio{color:var(--ink);font-weight:500}
+.email{font-family:var(--mono);color:var(--ink);user-select:all}
+@media (prefers-reduced-motion:no-preference){.verdict,.signs li{animation:in .25s ease-out both}@keyframes in{from{transform:translateY(4px)}to{transform:none}}}
+</style>
+
+<main class="wrap">
+  <header>
+    <div class="mark">Check · free M-Pesa message checker</div>
+    <h1>Got money "by mistake"? Check before you send it back.</h1>
+    <p class="lede">Paste the message and who sent it. Check looks for the warning signs Safaricom and fraud reporters describe. Nothing you paste leaves this page.</p>
+  </header>
+
+  <form id="f" novalidate>
+    <div class="row" style="justify-content:space-between"><span class="example-tag" id="exTag">Example loaded: a typical fake</span><button type="button" class="ghost" id="clear">Clear</button></div>
+    <label for="sender">Who sent it? <span class="hint">The name or number shown at the top of the SMS</span>
+      <input id="sender" autocomplete="off" inputmode="text" placeholder="MPESA or 0712 345 678">
+    </label>
+    <label for="msg">The message
+      <textarea id="msg" spellcheck="false" placeholder="Paste the SMS here"></textarea>
+    </label>
+    <div class="row"><button class="primary" type="submit">Check this message</button></div>
+  </form>
+
+  <div id="out" aria-live="polite"></div>
+
+  <section class="todo" aria-labelledby="todo-h">
+    <h3 id="todo-h">Whatever the result, do this</h3>
+    <ol class="steps">
+      <li><b>Check your real balance.</b> Dial <span class="dial">*334#</span> or open the M-PESA app. If the money isn't there, it was never sent.</li>
+      <li><b>Don't send money back, reverse it or call the number back.</b> If someone says they sent money by mistake, ask them to forward their message to <span class="dial">456</span> so Safaricom can reverse it.</li>
+      <li><b>Report the fake.</b> Forward the message to <span class="dial">333</span> so the number can be blocked.</li>
+    </ol>
+    <p class="note">Check looks for common warning signs. It can't see your M-Pesa account, so it can never prove a message is real. Your balance is the only proof. Check is an independent tool and isn't connected to Safaricom.</p>
+  </section>
+
+  <footer>
+    <div class="studio">Made by May11Leven Labs, a design and technology studio.</div>
+    <div>We build tools, apps and AI agents that solve everyday problems for businesses. Want one for yours? Email <span class="email">hello@may11levenlabs.com</span></div>
+  </footer>
+</main>
+
+<script>
+const EX_SENDER = "0712 345 678";
+const EX_MSG = "SH47KQ2P9X Confirmed.You have received Ksh 4,500 from JOHN KAMAU 0722xxx118 on 11/11/26 at 7:42 PM New M-PESA balance is LOCKED. Dear customer i have sent you money by mistake kindly send it back to 0712345678 God bless.";
+const $ = id => document.getElementById(id);
+
+function analyse(sender, msg){
+  const s = [], t = msg.trim(), low = t.toLowerCase(), snd = sender.trim();
+  const phone = /(\+?254|\b0)\s?[17]\d{2}[\s-]?\d{3}[\s-]?\d{3}\b/;
+  if(!snd){
+    s.push(["warn","Sender not entered","Add who the SMS came from. It's the strongest single sign."]);
+  } else if(phone.test(snd) || /\d{7,}/.test(snd.replace(/\s/g,""))){
+    s.push(["scam","Sent from a phone number","Real M-Pesa messages come from the sender name M-PESA, never from a personal number."]);
+  } else if(/m-?\s?pesa/i.test(snd)){
+    s.push(["ok","Sender shows as M-PESA","A good sign. Still check your balance: what matters is whether the money is really there."]);
+  } else {
+    s.push(["warn","Unusual sender","Real M-Pesa confirmations show the sender as M-PESA."]);
+  }
+  if(!t){ return s; }
+  if(/locked/i.test(t)) s.push(["scam","Balance shown as \"LOCKED\"","Safaricom warns that fake messages often show the new balance as LOCKED. A real message shows a number."]);
+  if(/(by mistake|wrongly|wrong number|send (it |the money )?back|return (it|the money|my money)|reverse|refund|nimekosea|urudishe|rudisha)/i.test(t))
+    s.push(["scam","Asks you to send money back","This is the classic script. A genuine mistake is fixed by Safaricom through 456, never by you sending money."]);
+  if(/(https?:\/\/|www\.|bit\.ly|\.com\b|\.co\.ke\b)/i.test(t)) s.push(["scam","Contains a link","Real M-Pesa confirmations don't contain links."]);
+  if(/\b(call|piga)\b/i.test(t) && phone.test(t)) s.push(["warn","Asks you to call a number","Don't call back. Use *334# or the M-PESA app to check instead."]);
+  const code = (t.match(/\b[A-Z][A-Z0-9]{9}\b/g)||[]).find(c=>/\d/.test(c));
+  if(code) s.push(["ok","Has a 10-character code ("+code+")","Real messages have one, but scammers copy the format, so a code proves nothing on its own."]);
+  else s.push(["warn","No transaction code","Real confirmations start with a 10-character code like SH47KQ2P9X."]);
+  if(!/confirmed\./i.test(t)) s.push(["warn","Missing \"Confirmed.\"","Real confirmations say \"Confirmed.\" right after the code."]);
+  const amt = t.match(/ksh\.?\s*[\d,]+(\.\d{2})?/i);
+  if(amt && (/ksh\.?\s+\d/i.test(amt[0]) || !amt[1] || !/^Ksh/.test(amt[0])))
+    s.push(["warn","Amount written differently","Real messages write amounts like Ksh4,500.00, with no space and two decimals. Typed fakes often get this wrong."]);
+  if(/\s{2,}/.test(t) || /\b(dear customer|god bless|pls|plz|kindly)\b/i.test(t))
+    s.push(["warn","Personal or oddly typed wording","Real confirmations are short and machine-written. Greetings, blessings and pleading come from a person."]);
+  return s;
+}
+
+function render(signs){
+  const order = {scam:0,warn:1,ok:2}; signs.sort((a,b)=>order[a[0]]-order[b[0]]);
+  const has = k => signs.some(x=>x[0]===k);
+  const v = has("scam") ? ["v-scam","Strong signs of a scam. Don't send anything.","Check your balance first. If the money isn't there, nobody sent it."]
+          : has("warn") ? ["v-warn","Some warning signs. Check before you act.","Confirm with *334# or the M-PESA app before you send or release anything."]
+          : ["v-ok","No obvious warning signs.","That doesn't prove it's real. Check your balance before you act."];
+  const label = {scam:"Warning",warn:"Check",ok:"Looks normal"};
+  const esc = x => x.replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;"}[c]));
+  $("out").innerHTML = `<div class="verdict ${v[0]}"><h2>${v[1]}</h2><p>${v[2]}</p></div>
+  <ul class="signs" style="margin-top:14px">${signs.map(([k,h,d])=>`<li><span class="chip c-${k}">${label[k]}</span><div><strong>${esc(h)}</strong><span class="d">${esc(d)}</span></div></li>`).join("")}</ul>`;
+}
+
+function run(){ render(analyse($("sender").value, $("msg").value)); }
+$("f").addEventListener("submit", e=>{ e.preventDefault(); $("exTag").hidden = true; run(); });
+$("clear").addEventListener("click", ()=>{ $("sender").value=""; $("msg").value=""; $("out").innerHTML=""; $("exTag").hidden=true; $("sender").focus(); });
+$("sender").value = EX_SENDER; $("msg").value = EX_MSG; run();
+</script>
