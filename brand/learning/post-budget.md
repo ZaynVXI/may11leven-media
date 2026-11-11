@@ -24,3 +24,6 @@ Metricool's free plan publishes 20 posts a month, counted on the 1st. A story us
 
 - **One platform per day, never two.** Each post goes to a single network, and the same piece goes to another network on a different day.
 - Weekday rhythm: LinkedIn on Mon/Wed/Fri mornings (09:00 Vienna, 11:00 Nairobi), Instagram on Tue/Thu/Sat, Facebook on Sundays.
+
+## Pricing (Zayn approved)
+- Brand identity from $800. Other services have no public price yet.
