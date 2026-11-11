@@ -39,6 +39,9 @@ for (const s of sites) {
         bookWords: /book now|check availability|reserve|book your stay|book direct/.test(text),
         directPerk: /book direct|best rate guarantee|best price guarantee|direct booking/.test(text),
         title: document.title,
+        blocked: /you have been blocked|security check|checking your browser|access denied|attention required|just a moment|verify you are human|something went wrong|maintenance mode|under maintenance|site is undergoing maintenance|coming soon|account suspended|domain (is )?for sale/.test(text) || /just a moment|attention required|access denied/i.test(document.title),
+        waAnywhere: /wa\.me|api\.whatsapp|whatsapp/i.test(document.documentElement.outerHTML),
+        snippet: text.slice(0, 400),
         words: text.split(/\s+/).length
       };
     });
@@ -49,7 +52,7 @@ for (const s of sites) {
     r.instagram = d.links.some(l => /instagram\.com/i.test(l.href));
     r.bookLinks = d.links.filter(l => /book|reserv|availab/.test(l.text)).map(l => l.href).slice(0, 5);
     r.bookLeavesSite = r.bookLinks.length ? r.bookLinks.every(h => { try { return !new URL(h).host.endsWith(new URL(r.finalUrl).host.replace(/^www\./, '')); } catch { return false; } }) : null;
-    Object.assign(r, { overflowX: d.overflowX, viewportMeta: d.viewportMeta, mpesa: d.mpesa, priceShown: d.priceShown, bookWords: d.bookWords, directPerk: d.directPerk, title: d.title, words: d.words });
+    Object.assign(r, { overflowX: d.overflowX, viewportMeta: d.viewportMeta, mpesa: d.mpesa, priceShown: d.priceShown, bookWords: d.bookWords, directPerk: d.directPerk, title: d.title, words: d.words, blocked: d.blocked, waAnywhere: d.waAnywhere, snippet: d.snippet });
     await page.screenshot({ path: `out/shots/${s.host.replace(/[^a-z0-9.-]/gi, '_')}.jpg`, quality: 60 });
   } catch (e) { r.error = String(e.message || e).slice(0, 160); }
   await ctx.close();
