@@ -1,6 +1,6 @@
 # 20 posts a month: every slot has to earn its place
 
-Metricool's free plan publishes 20 posts a month, counted on the 1st. A story uses a slot just like a carousel does, so we plan about 14 feed posts and 6 stories, and we only post when a post clears every gate below.
+Metricool's free plan publishes 20 posts a month, counted on the 1st. A story uses a slot just like a carousel does, and **one post sent to two networks counts twice** (Metricool help centre). The 20 is shared across all platforms. We only post when a post clears every gate below.
 
 ## The gate (in order, no skipping)
 1. **Research dossier first, before any idea:** what's in the moodboards (Motto, .raw, Nuevo.Tokyo, Holographik), what has won recently (Lovie, Webby, Awwwards, Site of the Day), real evidence of the problem (news, data, forums), and how real products in that category handle it. Write it in `brand/ideas/<slug>/research.md` with sources.
@@ -14,3 +14,13 @@ Metricool's free plan publishes 20 posts a month, counted on the 1st. A story us
 - Something people can try (a working tool or a live demo) beats a mockup.
 - Proof from our own work in use (merch, our site, our process) beats a concept with no proof.
 - A price or a "from" price, once Zayn sets one.
+
+## Split across platforms (Zayn: LinkedIn and Instagram before Facebook)
+| Platform | Per month | What goes there |
+|---|---|---|
+| Instagram | 10 | 7 feed posts (carousels, reels) and 3 stories |
+| LinkedIn | 7 | Professional versions: PDF documents, sentence case, insight first, 3 hashtags, "message us here" |
+| Facebook | 3 | The month's three strongest Instagram posts, re-posted a few days later |
+
+- **One platform per day, never two.** Each post goes to a single network, and the same piece goes to another network on a different day.
+- Weekday rhythm: LinkedIn on Mon/Wed/Fri mornings (09:00 Vienna, 11:00 Nairobi), Instagram on Tue/Thu/Sat, Facebook on Sundays.
