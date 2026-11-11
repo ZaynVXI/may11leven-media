@@ -1,0 +1,32 @@
+name: research-zanzibar
+on:
+  push:
+    paths: ["research/zanzibar/run.txt"]
+permissions:
+  contents: write
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    defaults:
+      run:
+        working-directory: research/zanzibar
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 20 }
+      - name: list sites from OpenStreetMap
+        run: mkdir -p out/shots && python3 overpass.py
+      - name: phone audit
+        run: |
+          npm init -y >/dev/null && npm i playwright@1.48.2 >/dev/null
+          npx playwright install --with-deps chromium >/dev/null
+          node audit.mjs
+      - name: lighthouse
+        run: ./lighthouse.sh
+      - name: commit results
+        if: always()
+        run: |
+          cd "$GITHUB_WORKSPACE"
+          git config user.name "research-bot"; git config user.email "research-bot@users.noreply.github.com"
+          git add research/zanzibar/out && git commit -m "Zanzibar website audit results" && git pull --rebase && git push || echo "nothing to commit"
