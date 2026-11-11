@@ -82,7 +82,7 @@ S[10] = page(10, f"""
 <h1 style="top:566px;color:#A8A49D">Or bring us <i style="color:#ECEAE4">all seven.</i></h1>
 <p style="top:780px;color:#A8A49D">Comment 11 and the number you need, 01 to 07. Every project starts with a free first look.</p>
 <div style="position:absolute;left:64px;top:930px;font:500 34px HK;line-height:1.55;color:{BONE}">hello@may11levenlabs.com<br>may11leven.labs@gmail.com</div>
-<div style="position:absolute;left:64px;bottom:72px;font:21px PM;letter-spacing:.12em;color:#8C8884">YOUR TASTE. OUR MACHINES.</div>""", bg=INK, fg=BONE, mid='#A8A49D')
+<div style="position:absolute;left:64px;bottom:72px;font:21px PM;letter-spacing:.12em;color:#8C8884">@MAY11LEVEN.LABS</div>""", bg=INK, fg=BONE, mid='#A8A49D')
 async def main():
     async with async_playwright() as p:
         b = await p.chromium.launch(); pg = await b.new_page(viewport={'width': 1080, 'height': 1440})
