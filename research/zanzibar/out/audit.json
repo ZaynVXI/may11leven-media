@@ -5,7 +5,7 @@
   "rooms": "15",
   "url": "https://blueoysterhotel.com/",
   "host": "blueoysterhotel.com",
-  "loadMs": 2287,
+  "loadMs": 2094,
   "status": 200,
   "finalUrl": "https://blueoysterhotel.com/",
   "https": true,
@@ -28,7 +28,10 @@
   "bookWords": true,
   "directPerk": false,
   "title": "Blue Oyster Hotel | The pearl of the Indian Ocean",
-  "words": 536
+  "words": 536,
+  "blocked": false,
+  "waAnywhere": true,
+  "snippet": "book now\nvideo player\n\nmedia error: format(s) not supported or source(s) not found\n\ndownload file: https://blueoysterhotel.com/wp-content/uploads/2023/03/movie-720.mp4download file: https://blueoysterhotel.com/wp-content/uploads/2023/03/movie-720.webm\n\nthe pearl of the indian ocean\n\nblue oyster hotel\nbook your getaway\nkaribu sana\nwelcome to the\nblue oyster hotel\n\nthe blue oyster is a small and cos"
  },
  {
   "name": "Baobab Beach Resort",
@@ -44,7 +47,7 @@
   "rooms": null,
   "url": "https://www.asminipalace.com/",
   "host": "asminipalace.com",
-  "loadMs": 1845,
+  "loadMs": 2094,
   "status": 200,
   "finalUrl": "https://www.asminipalace.com/",
   "https": true,
@@ -61,7 +64,10 @@
   "bookWords": false,
   "directPerk": false,
   "title": "Asmini Palace Hotel is under maintenance",
-  "words": 25
+  "words": 25,
+  "blocked": true,
+  "waAnywhere": false,
+  "snippet": "site is undergoing maintenance\nmaintenance mode is on\nsite will be available soon. thank you for your patience!\n© maintenance 2026\nuser login\nlost password"
  },
  {
   "name": "Clove Hotel",
@@ -69,7 +75,7 @@
   "rooms": null,
   "url": "http://www.clovehotel.com",
   "host": "clovehotel.com",
-  "loadMs": 4096,
+  "loadMs": 4621,
   "status": 200,
   "finalUrl": "http://www.clovehotel.com/",
   "https": false,
@@ -90,7 +96,10 @@
   "bookWords": true,
   "directPerk": false,
   "title": "Clove Hotel",
-  "words": 310
+  "words": 310,
+  "blocked": false,
+  "waAnywhere": true,
+  "snippet": " book now\nfind the perfect room for every moment of your stay\n\nat clove hotel bandung, every room is a gentle pause — a quiet place where mornings begin with birdsong, and nights are wrapped in the scent of mountain air.\n\neach space is thoughtfully designed to help you feel grounded, calm, and connected to what matters: the moment, your breath, your loved ones.\n\nlooking for something more spacious"
  },
  {
   "name": "Dhow Palace Hotel",
@@ -98,7 +107,7 @@
   "rooms": null,
   "url": "http://dhowpalace-hotel.com/",
   "host": "dhowpalace-hotel.com",
-  "loadMs": 8244,
+  "loadMs": 6803,
   "status": 200,
   "finalUrl": "https://dhowpalace-hotel.com/",
   "https": true,
@@ -118,7 +127,10 @@
   "bookWords": true,
   "directPerk": false,
   "title": "dhow – hotel website",
-  "words": 508
+  "words": 508,
+  "blocked": false,
+  "waAnywhere": false,
+  "snippet": "home\nabout us\nour rooms\nblog\ncontact us\nexperience the\ntimeless charm of\nstone town\nwelcome to dhow palace hotel\nour rooms\ndhow palace hotel\na boutique jewel in stone town's heart\n\nfurnished extensively with antiques in a truly zanzibar style, this graceful building has been modernized to take care of all your desires. the hotel offers an open-air interior courtyard with a spacious swimming pool a"
  },
  {
   "name": "Mbweni Ruins Hotel",
@@ -134,7 +146,7 @@
   "rooms": null,
   "url": "http://www.seacliffzanzibar.com",
   "host": "seacliffzanzibar.com",
-  "loadMs": 5017,
+  "loadMs": 3917,
   "status": 200,
   "finalUrl": "https://seacliffzanzibar.com/",
   "https": true,
@@ -158,7 +170,10 @@
   "bookWords": true,
   "directPerk": false,
   "title": "SEA CLIFF RESORT & SPA ZANZIBAR",
-  "words": 794
+  "words": 794,
+  "blocked": false,
+  "waAnywhere": false,
+  "snippet": "kama village, mangapwani p.o.box: 1763, zanzibar tanzania +255 (0)767 702 241-9 ext 1005 reservations@seacliffzanzibar.com\nenglish\n\nbook now\n\n \nclick for menu\nwelcome to sea cliff resort & spa zanzibar\n\nthe makuti roofs and glowing arabic towers of the luxurious sea cliff resort and spa, on a cliff overlooking the indian ocean, forms an exotic backdrop for travellers looking forward to escaping to"
  },
  {
   "name": "Ndame Beach Lodge",
@@ -166,24 +181,7 @@
   "rooms": null,
   "url": "https://ndamezanzibar.com/",
   "host": "ndamezanzibar.com",
-  "loadMs": 472,
-  "status": 401,
-  "finalUrl": "http://ww547.ndamezanzibar.com/?tkn=19vnMT3S",
-  "https": false,
-  "engines": [],
-  "otaLinks": 0,
-  "whatsapp": false,
-  "instagram": false,
-  "bookLinks": [],
-  "bookLeavesSite": null,
-  "overflowX": false,
-  "viewportMeta": false,
-  "mpesa": false,
-  "priceShown": false,
-  "bookWords": false,
-  "directPerk": false,
-  "title": "",
-  "words": 1
+  "error": "page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://ndamezanzibar.com/\nCall log:\n  - navigating to \"https://ndamezanzibar.com/\", waiting until \"load\"\n"
  },
  {
   "name": "Ras Michamvi",
@@ -199,7 +197,7 @@
   "rooms": null,
   "url": "https://www.hotelzanzibar.com/shaba-boutique-hotel/",
   "host": "hotelzanzibar.com",
-  "loadMs": 6602,
+  "loadMs": 4896,
   "status": 200,
   "finalUrl": "https://beachsafari.com/accommodation/shaba-boutique-hotel",
   "https": true,
@@ -225,7 +223,10 @@
   "bookWords": true,
   "directPerk": false,
   "title": "Shaba Boutique Hotel: In the heart of Stone Town | Beach Safari",
-  "words": 1553
+  "words": 1553,
+  "blocked": false,
+  "waAnywhere": true,
+  "snippet": "we value your privacy\n\nwe use cookies to enhance your browsing experience, serve personalised ads or content, and analyse our traffic. by clicking \"accept all\", you consent to our use of cookies.\n\ncustomise\nreject all\naccept all\nshaba boutique hotel\n\na charming bed and breakfast in the heart of the old town - perfect for travellers seeking an authentic stay, central location, and stylish accommoda"
  },
  {
   "name": "Zanzibar Ocean View",
@@ -233,7 +234,7 @@
   "rooms": null,
   "url": "https://www.oceangrouphotel.com/zanzibar-ocean-view.php",
   "host": "oceangrouphotel.com",
-  "loadMs": 1708,
+  "loadMs": 1543,
   "status": 404,
   "finalUrl": "https://oceangrouphotel.com/zanzibar-ocean-view.php",
   "https": true,
@@ -250,7 +251,10 @@
   "bookWords": false,
   "directPerk": false,
   "title": "404 Not Found",
-  "words": 4
+  "words": 4,
+  "blocked": false,
+  "waAnywhere": false,
+  "snippet": "404 not found\nnginx"
  },
  {
   "name": "Emerson Spice Hotel",
@@ -258,7 +262,7 @@
   "rooms": null,
   "url": "https://www.emersonspice.com/",
   "host": "emersonspice.com",
-  "loadMs": 3779,
+  "loadMs": 3515,
   "status": 200,
   "finalUrl": "https://emersonspice.com/",
   "https": true,
@@ -281,7 +285,10 @@
   "bookWords": false,
   "directPerk": false,
   "title": "Emerson Spice Hotel",
-  "words": 823
+  "words": 823,
+  "blocked": false,
+  "waAnywhere": true,
+  "snippet": "skip to content\nen\nfr\nde\nes\nsv\npl\nno\nnl\nru\nzh\nja\nid\nha\nar\nbook rooms≫\nemerson spice hotel\nthe heartbeat of heritage\nperfect location\n\n▪ in the historic centre of stone town, a unesco world heritage site.\n▪ restored 19th‑century palace.\n▪ 8 km (15–20 minutes) drive from zanzibar international airport.\n▪ 8 minutes walk from the seafront.\n▪ surrounded by iconic landmarks, markets, museums, and windin"
  },
  {
   "name": "Zanzibar Ocean Blue",
@@ -297,7 +304,7 @@
   "rooms": null,
   "url": "https://www.dhowinn.com/",
   "host": "dhowinn.com",
-  "loadMs": 1296,
+  "loadMs": 849,
   "status": 200,
   "finalUrl": "https://www.dhowinn.com/",
   "https": true,
@@ -317,7 +324,10 @@
   "bookWords": true,
   "directPerk": false,
   "title": "Dhow Inn | Hotel Paje | Dhow Inn Boutique Hotel Zanzibar, Paje, Tanzania",
-  "words": 461
+  "words": 461,
+  "blocked": false,
+  "waAnywhere": true,
+  "snippet": "skip to main content\n\nlaidback\n\nluxury\n\n​\n\nexplore our living quarters ranging from 33 to 40 square meters, each featuring a private terrace. our premium rooms are enhanced with a small private pool, exclusively for guest use.\n\n​\n\n​\n\nrooms \ndiscover us\n\nlocated on zanzibar's paje beach, dhow inn offers a tranquil retreat, blending traditional dhow culture with modern luxury. this boutique hotel fe"
  },
  {
   "name": "Savana & Ocean",
@@ -333,7 +343,7 @@
   "rooms": null,
   "url": "https://www.baraza-zanzibar.com/",
   "host": "baraza-zanzibar.com",
-  "loadMs": 147,
+  "loadMs": 255,
   "status": 403,
   "finalUrl": "https://www.baraza-zanzibar.com/",
   "https": true,
@@ -350,7 +360,10 @@
   "bookWords": false,
   "directPerk": false,
   "title": "Attention Required! | Cloudflare",
-  "words": 117
+  "words": 117,
+  "blocked": true,
+  "waAnywhere": false,
+  "snippet": "sorry, you have been blocked\nyou are unable to access baraza-zanzibar.com\nwhy have i been blocked?\n\nthis website is using a security service to protect itself from online attacks. the action you just performed triggered the security solution. there are several actions that could trigger this block including submitting a certain word or phrase, a sql command or malformed data.\n\nwhat can i do to res"
  },
  {
   "name": "Breezes Beach Club Zanzibar",
@@ -358,7 +371,7 @@
   "rooms": null,
   "url": "https://www.breezes-zanzibar.com/",
   "host": "breezes-zanzibar.com",
-  "loadMs": 226,
+  "loadMs": 249,
   "status": 403,
   "finalUrl": "https://www.breezes-zanzibar.com/",
   "https": true,
@@ -375,7 +388,10 @@
   "bookWords": false,
   "directPerk": false,
   "title": "Attention Required! | Cloudflare",
-  "words": 117
+  "words": 117,
+  "blocked": true,
+  "waAnywhere": false,
+  "snippet": "sorry, you have been blocked\nyou are unable to access breezes-zanzibar.com\nwhy have i been blocked?\n\nthis website is using a security service to protect itself from online attacks. the action you just performed triggered the security solution. there are several actions that could trigger this block including submitting a certain word or phrase, a sql command or malformed data.\n\nwhat can i do to re"
  },
  {
   "name": "The Palms Zanzibar",
@@ -383,7 +399,7 @@
   "rooms": null,
   "url": "https://www.palms-zanzibar.com/",
   "host": "palms-zanzibar.com",
-  "loadMs": 145,
+  "loadMs": 222,
   "status": 403,
   "finalUrl": "https://www.palms-zanzibar.com/",
   "https": true,
@@ -400,7 +416,10 @@
   "bookWords": false,
   "directPerk": false,
   "title": "Attention Required! | Cloudflare",
-  "words": 117
+  "words": 117,
+  "blocked": true,
+  "waAnywhere": false,
+  "snippet": "sorry, you have been blocked\nyou are unable to access palms-zanzibar.com\nwhy have i been blocked?\n\nthis website is using a security service to protect itself from online attacks. the action you just performed triggered the security solution. there are several actions that could trigger this block including submitting a certain word or phrase, a sql command or malformed data.\n\nwhat can i do to reso"
  },
  {
   "name": "Demani Lodge",
@@ -408,7 +427,7 @@
   "rooms": null,
   "url": "https://www.demanilodge.com/",
   "host": "demanilodge.com",
-  "loadMs": 1155,
+  "loadMs": 2324,
   "status": 200,
   "finalUrl": "https://www.demanilodge.com/",
   "https": true,
@@ -429,7 +448,10 @@
   "bookWords": false,
   "directPerk": true,
   "title": "Demani Lodge Zanzibar | relaxed and easy-going atmosphere | Paje, East Coast Zanzibar",
-  "words": 211
+  "words": 211,
+  "blocked": false,
+  "waAnywhere": true,
+  "snippet": "skip to main content\n\nkaribu means welcome\n\n​\n\nwelcome to demani lodge, the ultimate retreat for barefoot lovers and travellers seeking to simply relax. \n\n \n\n​nestled on the vibrant southeast coast of zanzibar, demani lodge is a charming hideaway that blends authentic island living with warm swahili hospitality. just steps from the pristine white sands of paje beach, the lodge offers a relaxed atm"
  },
  {
   "name": "Evergreen Bungalows",
@@ -437,7 +459,7 @@
   "rooms": null,
   "url": "http://www.evergreen-bungalows.com",
   "host": "evergreen-bungalows.com",
-  "loadMs": 513,
+  "loadMs": 358,
   "status": 200,
   "finalUrl": "http://www.evergreen-bungalows.com/",
   "https": false,
@@ -454,7 +476,10 @@
   "bookWords": false,
   "directPerk": false,
   "title": "Untitled Document",
-  "words": 13
+  "words": 13,
+  "blocked": false,
+  "waAnywhere": false,
+  "snippet": "evergreen bungalows zanzibar\n&\nafrican blue divers\nthis website is currently not available"
  },
  {
   "name": "Summer Dream Lodge",
@@ -462,7 +487,7 @@
   "rooms": null,
   "url": "https://www.summerdreamlodge.com/",
   "host": "summerdreamlodge.com",
-  "loadMs": 1171,
+  "loadMs": 1219,
   "status": 500,
   "finalUrl": "https://www.summerdreamlodge.com/",
   "https": true,
@@ -479,7 +504,10 @@
   "bookWords": false,
   "directPerk": false,
   "title": "WordPress › Error",
-  "words": 14
+  "words": 14,
+  "blocked": false,
+  "waAnywhere": false,
+  "snippet": "there has been a critical error on this website.\n\nlearn more about troubleshooting wordpress."
  },
  {
   "name": "Crazy Mzungo's Beach Lounge",
@@ -495,7 +523,7 @@
   "rooms": null,
   "url": "http://www.masharikipalacehotel.com",
   "host": "masharikipalacehotel.com",
-  "loadMs": 2969,
+  "loadMs": 2807,
   "status": 200,
   "finalUrl": "https://keonhacai550.com/",
   "https": true,
@@ -512,7 +540,10 @@
   "bookWords": true,
   "directPerk": false,
   "title": "Kèo Nhà Cái 5: Soi Kèo Chuẩn, Cập Nhật Tỷ Lệ Kèo Bóng Đá Nhanh 24/7",
-  "words": 4862
+  "words": 4869,
+  "blocked": false,
+  "waAnywhere": true,
+  "snippet": "bỏ qua nội dung\ncài 1.1.1.1 rồi truy cập hit.club - hệ thống sẽ tự động chuyển hướng đến link chính thức mới nhất hitclub.one | domain chính hãng duy nhất sun.win - dùng 1.1.1.1 để truy cập. hệ thống sẽ tự động chuyển hướng đến domain mới nhất sunwin.amsterdam, tránh các trang giả mạo.\ncài 1.1.1.1 rồi truy cập hit.club - hệ thống sẽ tự động chuyển hướng đến link chính thức mới nhất hitclub.one | d"
  },
  {
   "name": "The Swahili House",
@@ -520,7 +551,7 @@
   "rooms": null,
   "url": "http://www.theswahilihouse.com",
   "host": "theswahilihouse.com",
-  "loadMs": 689,
+  "loadMs": 1110,
   "status": 200,
   "finalUrl": "https://tellybong.com/",
   "https": true,
@@ -537,7 +568,10 @@
   "bookWords": false,
   "directPerk": false,
   "title": "tellybong.com",
-  "words": 30
+  "words": 30,
+  "blocked": false,
+  "waAnywhere": false,
+  "snippet": "tellybong.com\nfind information, resources and relevant links for tellybong.com.\nthis domain may be for sale.\nterms of service | privacy policy\ntellybong.com has expired. please click here for renew instructions"
  },
  {
   "name": "TUI Blue Bahari Zanzibar Hotel",
@@ -545,7 +579,7 @@
   "rooms": null,
   "url": "https://www.tui.com/hotels/tui-blue-bahari-zanzibar-134347",
   "host": "tui.com",
-  "loadMs": 2618,
+  "loadMs": 2482,
   "status": 404,
   "finalUrl": "https://www.tui.com/hotels/tui-blue-bahari-zanzibar-134347/",
   "https": true,
@@ -562,7 +596,10 @@
   "bookWords": false,
   "directPerk": false,
   "title": "404: Die Seite wurde nicht gefunden | TUI",
-  "words": 309
+  "words": 309,
+  "blocked": false,
+  "waAnywhere": false,
+  "snippet": "tui.com404: die seite wurde nicht gefunden | tui\n\nhoppla! diese seite ist wohl gerade baden gegangen...\n\ntut uns leid, die gesuchte seite konnte leider nicht gefunden werden.\n\ntrotzdem unterstützen wir dich gerne bei deiner weiteren urlaubsplanung!\n\nunser internet servicecenter steht dir zur verfügung: täglich von 8-23 uhr\n\n\tunter der kostenlosen hotline: ✆ 0511 87 9898 - 98\n\toder per email an ✉ i"
  },
  {
   "name": "Garden Beach Bungalow",
@@ -578,7 +615,7 @@
   "rooms": "75",
   "url": "http://paradisebeachresort.com/",
   "host": "paradisebeachresort.com",
-  "loadMs": 6867,
+  "loadMs": 5379,
   "status": 200,
   "finalUrl": "https://beachsafari.com/accommodation/paradise-beach-resort",
   "https": true,
@@ -604,7 +641,10 @@
   "bookWords": true,
   "directPerk": false,
   "title": "Paradise Beach Resort: The Best Zanzibar Beach Resort | Beach Safari",
-  "words": 2349
+  "words": 2330,
+  "blocked": false,
+  "waAnywhere": true,
+  "snippet": "we value your privacy\n\nwe use cookies to enhance your browsing experience, serve personalised ads or content, and analyse our traffic. by clicking \"accept all\", you consent to our use of cookies.\n\ncustomise\nreject all\naccept all\nparadise beach resort\n\n\nparadise beach resort is a boutique-style, all-inclusive luxury resort set on the white sands of uroa, just 40 km from stone town and 45 km from th"
  },
  {
   "name": "Ally Key's Bungalows",
@@ -628,7 +668,7 @@
   "rooms": "4",
   "url": "https://freddiemercurymuseum.com/",
   "host": "freddiemercurymuseum.com",
-  "loadMs": 1834,
+  "loadMs": 2916,
   "status": 200,
   "finalUrl": "https://freddiemercurymuseum.com/",
   "https": true,
@@ -645,7 +685,10 @@
   "bookWords": true,
   "directPerk": false,
   "title": "Freddie Mercury Museum",
-  "words": 160
+  "words": 160,
+  "blocked": false,
+  "waAnywhere": true,
+  "snippet": "skip to content\nhome\nthe museum\nplan your visit\nmedia\ncontact\nx\nthe official museum - stone town, zanzibar\nfreddie mercury\nmuseum\nmore about\nwelcome\n\nthe world’s only museum dedicated entirely to freddie mercury, built inside the childhood home of farrokh bulsara on shangani street, stone town. this is where it all started.\n\nborn farrokh bulsara on 5th of september 1946, the museum is located in t"
  },
  {
   "name": "Paje Hotel",
@@ -677,7 +720,7 @@
   "rooms": null,
   "url": "https://www.mamamapambo.com/",
   "host": "mamamapambo.com",
-  "loadMs": 2574,
+  "loadMs": 4806,
   "status": 200,
   "finalUrl": "https://m.mamamapambo.com/",
   "https": true,
@@ -694,7 +737,10 @@
   "bookWords": false,
   "directPerk": false,
   "title": "老牛影视-最新最全电影全集未删减电视剧动漫-影视大全免费在线观看",
-  "words": 63
+  "words": 63,
+  "blocked": false,
+  "waAnywhere": false,
+  "snippet": "首页　\n短剧　\n电影　\n综艺　\n电视剧　\n更多\n短剧\n更多\n电影\n剧情片\n恐怖片\n战争片\n更多\n综艺\n更多\n电视剧\n大陆剧\n港台剧\n日剧\n更多\n动漫\n更多\n福利\n正片\n美丽的小蜜桃6电视剧在线播放\n9.02017/福利\n正片\n桃色在线观看\n7.02025/福利\n正片\n午夜情深深\n6.02026/福利\n正片\n电影爱的色放\n6.02026/福利\n正片\n嫂子的职业2\n2.02019/福利\n第7集\n新妈妈在线\n2.02024/福利\n正片\n年轻的妈妈7\n9.02025/福利\n正片\n表妹在线\n3.01973/福利\n正片\n爱的色放电影在线观看\n10.02025/福利\n正片\n交换妻子电影\n1.02022/福利\n第9集完结\n《爱的色放》菲律宾版\n1.02023/福利\n正片\n灵与欲电影全集播放免费观看\n5.02022/福利\n友情链接\n最近更新rss订阅百度蜘蛛bing地图360地图搜狗地图\n\n声明：本站仅提供"
  },
  {
   "name": "Kikoi Boutique Hotel",
@@ -702,7 +748,7 @@
   "rooms": null,
   "url": "https://kikoiboutiquehotel.com/",
   "host": "kikoiboutiquehotel.com",
-  "loadMs": 4419,
+  "loadMs": 2232,
   "status": 200,
   "finalUrl": "https://kikoiboutiquehotel.com/",
   "https": true,
@@ -722,7 +768,10 @@
   "bookWords": true,
   "directPerk": false,
   "title": "kikoiboutiquehotel",
-  "words": 1775
+  "words": 1775,
+  "blocked": true,
+  "waAnywhere": false,
+  "snippet": "kikoi boutique hotel\nstay with us in comfort\n\nan unforgettable accommodation experiences awaits you!\n\n\n\n\nbook now\nabout us\nwelcome to kikoi boutique hotel\n\n we offer a variety of amenities to make your stay with us as comfortable as possible. we provide a unique blend of luxury comfort in a paradise exotic island.\n\n\n\n\n\n\n\n\n\n\n    \n\nour exceptional restaurant serves international and local delights p"
  },
  {
   "name": "Lulu Home",
@@ -730,7 +779,7 @@
   "rooms": null,
   "url": "https://www.lulu-home.net/",
   "host": "lulu-home.net",
-  "loadMs": 3005,
+  "loadMs": 2090,
   "status": 200,
   "finalUrl": "https://www.lulu-home.net/",
   "https": true,
@@ -754,7 +803,10 @@
   "bookWords": false,
   "directPerk": false,
   "title": "Lulu Home - Bungalows in Nungwi Village - Sansibar",
-  "words": 239
+  "words": 239,
+  "blocked": false,
+  "waAnywhere": false,
+  "snippet": "home\ngallery\nrooms\nlocation\nguestbook\ncontact\nkaribu welcome\nlulu home bungalows sansibar\nnungwi village\n\nlulu home bungalows sansibar befindet sich in nungwi village in ruhiger umgebung.\n\nzum traumhaften strand sind es nur 7 minuten zu fuß. zur haupt-busstation am kreisverkehr sind es 5 minuten zu fuß.\n\n(busse von / nach stone town). es gibt einige läden und eine menge günstige suaheli restaurant"
  },
  {
   "name": "Seyyida Hotel and Spa",
@@ -762,7 +814,7 @@
   "rooms": null,
   "url": "https://theseyyida-zanzibar.com",
   "host": "theseyyida-zanzibar.com",
-  "loadMs": 639,
+  "loadMs": 859,
   "status": 200,
   "finalUrl": "https://theseyyida-zanzibar.com/",
   "https": true,
@@ -787,7 +839,10 @@
   "bookWords": true,
   "directPerk": false,
   "title": "Home",
-  "words": 348
+  "words": 348,
+  "blocked": false,
+  "waAnywhere": false,
+  "snippet": "home\naccommodation\nreservations\nseasonal specials\ndining\noccasions\nexperiences\nspa & wellness\npool\ngallery\naccolades\nzanzibar portfolio\ncontact us\nprivacy policy\n\nthe seyyida\n\nhotel & spa\n\na stone town boutique hotel \n\nbook\nthe seyyida hotel & spa \n\n\nthe princess of stone town \n\n\n\nthe seyyida hotel and spa, a boutique hotel standing proudly on the edge of zanzibar’s stone town , captures the spiri"
  },
  {
   "name": "Jacob's Inn Jambiani",
@@ -795,7 +850,7 @@
   "rooms": "6",
   "url": "https://jacobs-inn-jambiani.business.site/",
   "host": "jacobs-inn-jambiani.business.site",
-  "loadMs": 300,
+  "loadMs": 294,
   "status": 404,
   "finalUrl": "https://jacobs-inn-jambiani.business.site/",
   "https": true,
@@ -812,7 +867,10 @@
   "bookWords": false,
   "directPerk": false,
   "title": "Error 404 (Not Found)!!1",
-  "words": 18
+  "words": 18,
+  "blocked": false,
+  "waAnywhere": false,
+  "snippet": "404. that’s an error.\n\nthe requested url / was not found on this server. that’s all we know."
  },
  {
   "name": "Pongwe Beach Hotel",
@@ -820,7 +878,7 @@
   "rooms": null,
   "url": "https://pongwe.com/",
   "host": "pongwe.com",
-  "loadMs": 384,
+  "loadMs": 1426,
   "status": 403,
   "finalUrl": "https://pongwe.com/",
   "https": true,
@@ -837,7 +895,10 @@
   "bookWords": false,
   "directPerk": false,
   "title": "Just a moment...",
-  "words": 37
+  "words": 37,
+  "blocked": true,
+  "waAnywhere": false,
+  "snippet": "pongwe.com\nperforming security verification\n\nthis website uses a security service to protect against malicious bots. this page is displayed while the website verifies you are not a bot.\n\nray id: a590f98b6812d8d3\nperformance and security by cloudflare\nprivacy"
  },
  {
   "name": "Al-Minar",
@@ -861,7 +922,7 @@
   "rooms": "24",
   "url": "https://www.mahalizanzibar.com/",
   "host": "mahalizanzibar.com",
-  "loadMs": 4198,
+  "loadMs": 2778,
   "status": 200,
   "finalUrl": "https://www.mahalizanzibar.com/",
   "https": true,
@@ -883,7 +944,10 @@
   "bookWords": true,
   "directPerk": false,
   "title": "Mahali Zanzibar – The spot on Zanzibar",
-  "words": 644
+  "words": 644,
+  "blocked": false,
+  "waAnywhere": true,
+  "snippet": "skip to content\n\nmahali zanzibar\n\nthe spot on zanzibar\na little piece of paradise\n\ncheck-in *\n\n\ncheck-out *\n\n\nguests\n\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30\n31\n32\n33\n34\n35\n36\n37\n38\n39\n40\n41\n42\n43\n44\n45\n46\n47\n48\n49\n50\n51\n52\n53\n54\n\nin swahili mahali means ‘the spot’. we have no doubt that our small resort is on the best location in paje, zanzibar, tanzania. "
  },
  {
   "name": "GOasis",
@@ -899,7 +963,7 @@
   "rooms": null,
   "url": "https://konokonozanzibar.com/",
   "host": "konokonozanzibar.com",
-  "loadMs": 986,
+  "loadMs": 648,
   "status": 200,
   "finalUrl": "https://konokonozanzibar.com/",
   "https": true,
@@ -924,7 +988,10 @@
   "bookWords": true,
   "directPerk": false,
   "title": "Welcome",
-  "words": 162
+  "words": 162,
+  "blocked": false,
+  "waAnywhere": false,
+  "snippet": "welcome\nspecial offers\nvillas\nrestaurant & bar\nbeach & pool\nspa\nmeetings & events\ndetination weddings\nreservations\ngallery\nzanzibar portfolio\ncontact\nprivacy policy\n\n konokono\n\nbeach resort & spa \n\na zanzibar beach resort \n\n+255 776 165431\n\nbook now\nwelcome to konokono, where 5-star luxury meets pristine nature\n\nkonokono beach resort is located on the michamvi peninsula, on the south east coast of"
  },
  {
   "name": "Sarabi Zanzibar",
@@ -940,7 +1007,7 @@
   "rooms": null,
   "url": "https://beytalsalaam.com/",
   "host": "beytalsalaam.com",
-  "loadMs": 3214,
+  "loadMs": 2689,
   "status": 200,
   "finalUrl": "https://beytalsalaam.com/",
   "https": true,
@@ -964,7 +1031,10 @@
   "bookWords": true,
   "directPerk": false,
   "title": "Home - Beyt Al Salaam",
-  "words": 596
+  "words": 596,
+  "blocked": false,
+  "waAnywhere": false,
+  "snippet": "  \nhome\nrooms\nspecial offers\nlocation\nrestaurant\ndirections\ngallery\ncontact us\nslider\nwelcome to\nthe beyt al salaam\n(place of peace)\ncheck availability\nbook now\nrooms\n\neverything about beyt al salaam rooms is as authentic old zanzibari as the great house itself.\n\nstandard room\n\nstandard room\n\ndeluxe room\n\ndeluxe room\n\nsuperior room\n\nsuperior room\n\nabout us\n\nfor those who want to experience the cha"
  },
  {
   "name": "Olamanga Guest House",
@@ -972,14 +1042,14 @@
   "rooms": null,
   "url": "https://abnb.me/QmHWZe93m0",
   "host": "abnb.me",
-  "loadMs": 1061,
+  "loadMs": 1163,
   "status": 200,
   "finalUrl": "https://www.airbnb.com/",
   "https": true,
   "engines": [
    "airbnb"
   ],
-  "otaLinks": 195,
+  "otaLinks": 204,
   "whatsapp": false,
   "instagram": true,
   "bookLinks": [],
@@ -991,7 +1061,10 @@
   "bookWords": false,
   "directPerk": false,
   "title": "Airbnb | Vacation rentals, cabins, beach houses, & more",
-  "words": 1053
+  "words": 1889,
+  "blocked": false,
+  "waAnywhere": false,
+  "snippet": "skip to content\nairbnb homepage\nget the app\nthe fastest, easiest way to airbnb\nuse app\nstart your search\ncurrently showing anytime. change search.\nall\nhomes\nhotels\nexperiences\nservices\nplaces to stay in lake of the ozarks\nmissouri lake with boating and resorts\n2 of 9 items showing\nguest favorite\nguest favorite\ncondo in lake ozark\n$313\n \nfor 2 nights\n$313 for 2 nights\n,\n · \n4.99 out of 5 average ra"
  },
  {
   "name": "Jambiani Villas",
@@ -999,7 +1072,7 @@
   "rooms": null,
   "url": "https://jambiani-villas.com/",
   "host": "jambiani-villas.com",
-  "loadMs": 5409,
+  "loadMs": 3979,
   "status": 200,
   "finalUrl": "https://jambiani-villas.com/",
   "https": true,
@@ -1025,7 +1098,10 @@
   "bookWords": true,
   "directPerk": false,
   "title": "Home - Jambiani Villas",
-  "words": 868
+  "words": 868,
+  "blocked": false,
+  "waAnywhere": true,
+  "snippet": "private\nluxury villas\nin zanzibar\nbook with us\nour villas are found on one of most beautiful stretches of beach on the east coast of zanzibar\n\nthe south-east coast is famous for its white sandy beaches and turquoise waters of the indian ocean. away from the hustle and bustle, the village of jambiani, rooted in local tradition, is the perfect destination for those seeking harmony, peace, and tranqu"
  },
  {
   "name": "The African Paradise Beach Hotel",
@@ -1033,7 +1109,7 @@
   "rooms": null,
   "url": "https://www.theafricanparadise.com/",
   "host": "theafricanparadise.com",
-  "loadMs": 7678,
+  "loadMs": 5261,
   "status": 200,
   "finalUrl": "https://www.theafricanparadise.com/",
   "https": true,
@@ -1057,7 +1133,10 @@
   "bookWords": true,
   "directPerk": false,
   "title": "The African Paradise | Hotel & Restaurant & Travel | Zanzibar",
-  "words": 613
+  "words": 613,
+  "blocked": false,
+  "waAnywhere": false,
+  "snippet": "home\naccommodation\nrestaurant\nactivities\nrental\nzanzibar\ncontact\nbook now\na place to remember\n\nlet every sunrise paint unforgettable memories. the african paradise beach hotel offers more than just a stay – it's an experience woven with local culture, ocean views, and heartfelt hospitality. zanzibar begins here.\n\nread more\nenjoy your life\n\nbreathe deeply, relax fully. whether you're walking barefo"
  },
  {
   "name": "Meliá Zanzibar",
@@ -1065,7 +1144,7 @@
   "rooms": null,
   "url": "https://www.melia.com/fr/hotels/tanzanie/zanzibar/melia-zanzibar",
   "host": "melia.com",
-  "loadMs": 135,
+  "loadMs": 413,
   "status": 403,
   "finalUrl": "https://www.melia.com/fr/hotels/tanzanie/zanzibar/melia-zanzibar",
   "https": true,
@@ -1082,7 +1161,10 @@
   "bookWords": false,
   "directPerk": false,
   "title": "Access Denied",
-  "words": 15
+  "words": 15,
+  "blocked": true,
+  "waAnywhere": false,
+  "snippet": "access denied\nyou don't have permission to access \"http://www.melia.com/fr/hotels/tanzanie/zanzibar/melia-zanzibar\" on this server.\n\nreference #18.10aa2c17.1794438710.19482351\n\nhttps://errors.edgesuite.net/18.10aa2c17.1794438710.19482351"
  },
  {
   "name": "Makofi Guest House",
@@ -1090,7 +1172,7 @@
   "rooms": null,
   "url": "https://www.makofiguesthouse.com/",
   "host": "makofiguesthouse.com",
-  "loadMs": 2716,
+  "loadMs": 2358,
   "status": 200,
   "finalUrl": "https://makofizanzibar.com/",
   "https": true,
@@ -1116,7 +1198,10 @@
   "bookWords": true,
   "directPerk": true,
   "title": "Authentic Accommodation in Nungwi | Makofi Zanzibar",
-  "words": 793
+  "words": 793,
+  "blocked": false,
+  "waAnywhere": false,
+  "snippet": "to provide the best experiences, we use technologies like cookies to store and/or access device information. consenting to these technologies will allow us to process data such as browsing behavior or unique ids on this site. not consenting or withdrawing consent, may adversely affect certain features and functions.\naccept\ndeny\nview preferences\nprivacy statement\nskip to content\n\nbook here\n\nenglish"
  },
  {
   "name": "Bitcoin Beach Hotel Zanzibar",
@@ -1124,7 +1209,7 @@
   "rooms": null,
   "url": "https://taplink.cc/bitcoinhotel_zanzibar",
   "host": "taplink.cc",
-  "loadMs": 2994,
+  "loadMs": 2509,
   "status": 200,
   "finalUrl": "https://taplink.cc/bitcoinhotel_zanzibar",
   "https": true,
@@ -1136,7 +1221,7 @@
   "rooms": null,
   "url": "http://www.santamaria-zanzibar.com/",
   "host": "santamaria-zanzibar.com",
-  "loadMs": 702,
+  "loadMs": 1292,
   "status": 200,
   "finalUrl": "https://www.queenofsheba-zanzibar.com/",
   "https": true,
@@ -1153,7 +1238,10 @@
   "bookWords": false,
   "directPerk": false,
   "title": "Queen of Sheba",
-  "words": 258
+  "words": 258,
+  "blocked": false,
+  "waAnywhere": true,
+  "snippet": "weiter zum hauptinhalt\n\nqueen of sheba beach lodge\n\nzanzibar\n\nqueen of sheba\nbeach lodge\nif you are looking for a typical small zanzibarian setting, which allows you to relax and enjoy the wonderful island, you will find it here at our lodge. the beautiful snow-white sandy beaches and the turquoise-blue indian ocean will create a feeling of paradise. \nrooms\n \nour bungalows are comfortable and styl"
  },
  {
   "name": "Residence Gadea Zanzibar",
@@ -1169,7 +1257,7 @@
   "rooms": null,
   "url": "https://zanzibar-airport.goldentulip.com/en-us/",
   "host": "zanzibar-airport.goldentulip.com",
-  "loadMs": 88,
+  "loadMs": 121,
   "status": 403,
   "finalUrl": "https://zanzibar-airport.goldentulip.com/en-us/",
   "https": true,
@@ -1186,7 +1274,10 @@
   "bookWords": false,
   "directPerk": false,
   "title": "Access Denied",
-  "words": 15
+  "words": 15,
+  "blocked": true,
+  "waAnywhere": false,
+  "snippet": "access denied\nyou don't have permission to access \"http://zanzibar-airport.goldentulip.com/en-us/\" on this server.\n\nreference #18.f318d017.1794438727.a0317a1b\n\nhttps://errors.edgesuite.net/18.f318d017.1794438727.a0317a1b"
  },
  {
   "name": "Zanzibar Queen",
@@ -1194,7 +1285,7 @@
   "rooms": null,
   "url": "https://www.zanzibarqueen.com/",
   "host": "zanzibarqueen.com",
-  "loadMs": 3409,
+  "loadMs": 3185,
   "status": 200,
   "finalUrl": "https://www.zanzibarqueen.com/",
   "https": true,
@@ -1220,7 +1311,10 @@
   "bookWords": false,
   "directPerk": false,
   "title": "Zanzibar Queen Hotel - Matemwe Beach",
-  "words": 352
+  "words": 352,
+  "blocked": false,
+  "waAnywhere": false,
+  "snippet": "zanzibar\nsense\nspecial offers\nsee all\nsafari and ocean\nfrom \n1925\n$\n / stay\nromantic getaway\nfrom \n1200\n$\n / stay\nstay active\nfrom \n1555\n$\n / stay\nsee\nexperience zanzibar's finest\n\nvibrant greens and blues pouring in through your room’s windows - a truly ‘one-of-a-kind’ view. embrace the splendid isolation from the chaos of a globalised world.\n\nabout us\nplay\nget wild\nrelax\nrevitalize yourself\n\nbri"
  },
  {
   "name": "Sea Crest Hotel",
@@ -1228,7 +1322,7 @@
   "rooms": null,
   "url": "https://sea-crest-hotel.business.site/",
   "host": "sea-crest-hotel.business.site",
-  "loadMs": 322,
+  "loadMs": 290,
   "status": 404,
   "finalUrl": "https://sea-crest-hotel.business.site/",
   "https": true,
@@ -1245,7 +1339,10 @@
   "bookWords": false,
   "directPerk": false,
   "title": "Error 404 (Not Found)!!1",
-  "words": 18
+  "words": 18,
+  "blocked": false,
+  "waAnywhere": false,
+  "snippet": "404. that’s an error.\n\nthe requested url / was not found on this server. that’s all we know."
  },
  {
   "name": "Jambiani Guest Lodge Beach",
@@ -1253,7 +1350,7 @@
   "rooms": "3",
   "url": "https://mbaliparadise.com/jambiani-guest-lodge/die-lodge/",
   "host": "mbaliparadise.com",
-  "loadMs": 1843,
+  "loadMs": 1509,
   "status": 404,
   "finalUrl": "https://mbaliparadise.com/jambiani-guest-lodge/die-lodge/",
   "https": true,
@@ -1270,7 +1367,10 @@
   "bookWords": false,
   "directPerk": false,
   "title": "Page Not Found - Jambiani Guest Lodge at Zanzibar",
-  "words": 71
+  "words": 71,
+  "blocked": false,
+  "waAnywhere": false,
+  "snippet": "skip to content\n\t\n menu\n404: page not found\n>404 not found\nthis page could not be found!\n\nwe are sorry, but the page you are looking for is not available.\nperhaps you can try a new search.\n\nsearch this website \npress escape to close the search panel.\nback to homepage\n\nprivacy policy\n\nterms & conditions\n\ncopyright © 2026 mbali paradise\n\nget in touch\n\nmwandewima, jambiani, tanzania\n\n+255 717 739 704"
  },
  {
   "name": "Majani Breeze guest house",
@@ -1278,7 +1378,7 @@
   "rooms": null,
   "url": "https://majanibreeze.com/",
   "host": "majanibreeze.com",
-  "loadMs": 1508,
+  "loadMs": 1215,
   "status": 200,
   "finalUrl": "https://majanibreeze.com/",
   "https": true,
@@ -1303,7 +1403,10 @@
   "bookWords": true,
   "directPerk": false,
   "title": "Home - Majani Breeze Lodge Zanzibar",
-  "words": 164
+  "words": 164,
+  "blocked": false,
+  "waAnywhere": true,
+  "snippet": "home - majani breeze zanzibar\nmore about majani breeze\nguest reviews\ncontact us\neur\nwelcome to majani breeze\nunwind in the zanzibar breeze, surrounded by lush gardens\n\nrelax with whole family or with friends at this peaceful place.\n\n\nlocated in serene environment and slope with short walk to the beach and village, with ample parking, reliable wifi, secured perimeter wall and breezy garden surround"
  },
  {
   "name": "Golden Palm Boutique Hotel",
@@ -1311,7 +1414,7 @@
   "rooms": "11",
   "url": "https://www.goldenpalmzanzibar.com/",
   "host": "goldenpalmzanzibar.com",
-  "loadMs": 3885,
+  "loadMs": 3199,
   "status": 200,
   "finalUrl": "https://www.goldenpalmzanzibar.com/",
   "https": true,
@@ -1328,7 +1431,10 @@
   "bookWords": true,
   "directPerk": false,
   "title": "Golden Palm Zanzibar Boutique Hotel – Your perfect island life getaway",
-  "words": 364
+  "words": 364,
+  "blocked": false,
+  "waAnywhere": false,
+  "snippet": "unwind, relax and\nexplore the very best\nof tanzania\nview our rooms\nwelcome to golden palm boutique zanzibar\nyour perfect island life getaway\n\nset in zanzibar city, golden palm boutique zanzibar is the perfect destination for travelers who are looking to unwind, relax and explore the very best tanzania has to offer.\n\nzanzibar is an incredible place full of memorable natural, historical and cultural"
  },
  {
   "name": "BaraBara Boutique Hotel",
@@ -1336,7 +1442,7 @@
   "rooms": "8",
   "url": "https://www.barabara-zanzibar.com/",
   "host": "barabara-zanzibar.com",
-  "loadMs": 2627,
+  "loadMs": 1722,
   "status": 200,
   "finalUrl": "https://www.barabara-zanzibar.com/",
   "https": true,
@@ -1353,7 +1459,10 @@
   "bookWords": false,
   "directPerk": false,
   "title": "BaraBara Zanzibar",
-  "words": 32
+  "words": 32,
+  "blocked": false,
+  "waAnywhere": true,
+  "snippet": "barabara. eat&sleep\ndesign | community | environment\ndaily brunch\n\n8am-6pm with @atomcoffeehub ☕️\n\n6pm-10pm\n\npizza & boutique hotel\n\nfind us on google maps\nwhatsapp us: +255778121088\nunmute mute\npage created by zanziholics"
  },
  {
   "name": "Zanzibar White Sand Luxury Villas & Spa - Relais & Chateaux",
@@ -1361,9 +1470,9 @@
   "rooms": null,
   "url": "https://www.whitesandvillas.com/",
   "host": "whitesandvillas.com",
-  "loadMs": 7512,
+  "loadMs": 997,
   "status": 200,
-  "finalUrl": "https://www.whitesandvillas.com/en",
+  "finalUrl": "https://www.whitesandvillas.com/",
   "https": true,
   "engines": [],
   "otaLinks": 0,
@@ -1384,7 +1493,10 @@
   "bookWords": true,
   "directPerk": false,
   "title": "Zanzibar White Sand Luxury Villas & Spa | Paje Beach",
-  "words": 571
+  "words": 571,
+  "blocked": false,
+  "waAnywhere": true,
+  "snippet": "skip to main content\nbook\nzanzibar white sand luxury villas & spa - relais & châteaux resort on paje beach\n11 nov - 12 nov\nbook a stay\n\nrooted in nature, crafted with care\n\na relais & châteaux retreat on paje beach\n\nwith just 19 villas and 3 rooms nestled along the white sandy beachfront of paje, every stay is an intimate and personal experience of zanzibar — a sanctuary of peace and harmony.\n\na r"
  },
  {
   "name": "AVO Boutique Hotel",
@@ -1392,7 +1504,7 @@
   "rooms": null,
   "url": "https://avohotelznz.com/",
   "host": "avohotelznz.com",
-  "loadMs": 6158,
+  "loadMs": 6981,
   "status": 200,
   "finalUrl": "https://avohotelznz.com/",
   "https": true,
@@ -1418,7 +1530,10 @@
   "bookWords": true,
   "directPerk": false,
   "title": "Avo Boutique Hotel Zanzibar - beach hotel in zanzibar",
-  "words": 1171
+  "words": 1160,
+  "blocked": false,
+  "waAnywhere": true,
+  "snippet": "search site by typing (esc to close)\n\nbook\nyour\nstay\nhome services gallery activities contact us\nbook your stay\navo boutique hotel\n\n\ncheck in:\n\n \n\ncheck out:\n\n go\n\navo excursionsavo packages\nexperience the best of zanzibar at avo boutique hotel, a premier hotel in zanzibar. enjoy stunning sea view rooms, delicious meals in our beachfront restaurant, and relax by the pool at our beautiful beachfron"
  },
  {
   "name": "Dreamer‘s Island",
@@ -1434,7 +1549,7 @@
   "rooms": null,
   "url": "https://www.themora.com/",
   "host": "themora.com",
-  "loadMs": 2727,
+  "loadMs": 2968,
   "status": 200,
   "finalUrl": "https://www.themora.com/",
   "https": true,
@@ -1456,7 +1571,10 @@
   "bookWords": true,
   "directPerk": false,
   "title": "The Mora - Follow your mood into the moment",
-  "words": 1397
+  "words": 1397,
+  "blocked": false,
+  "waAnywhere": false,
+  "snippet": "skip to content\nopen toolbar\n\naccessibility tools\n\nincrease text\ndecrease text\ngrayscale\nhigh contrast\nnegative contrast\nlight background\nlinks underline\nreadable font\n reset\nskip to content\ntoggle navigation\nzanzibar\nsahara tozeur\nenglish\nlocation\nfind location\nen\ncheck-in / check-out\nadd dates\nguest\n2 adults · 0 childrens\ncheck availability\nfollow your mood into the moment\n\nembrace spontaneity, "
  },
  {
   "name": "Khulala Ocean Blue Bungalows",
@@ -1464,7 +1582,7 @@
   "rooms": null,
   "url": "https://khulala-ocean-blue-bungalows.zanzibarhotelstoday.com/en/",
   "host": "khulala-ocean-blue-bungalows.zanzibarhotelstoday.com",
-  "loadMs": 1536,
+  "loadMs": 9943,
   "status": 200,
   "finalUrl": "https://www.zanzibarhotelstoday.com/en/",
   "https": true,
@@ -1481,7 +1599,10 @@
   "bookWords": false,
   "directPerk": false,
   "title": "Hotels in Zanzibar — Best Prices and Free Cancellation",
-  "words": 2604
+  "words": 2571,
+  "blocked": false,
+  "waAnywhere": false,
+  "snippet": "zanzibar hotels\nfind the right hotel in zanzibar\n\ntop-rated hotels, great locations, and flexible options for every kind of trip.\n\ndestination\nselect city\ncheck-in\n12 nov 2026\ncheck-out\n13 nov 2026\nguests\n2\nguests\nsearch\n2000+ places to stay\nhotels, apartments & more\nbest price comparison\nfrom trusted booking partners\nfree cancellation\non many stays\nbased on 3000+ reviews\nverified guest ratings\nwe"
  },
  {
   "name": "Zula Zanzibar",
@@ -1489,7 +1610,7 @@
   "rooms": null,
   "url": "https://www.zulazanzibar.com/",
   "host": "zulazanzibar.com",
-  "loadMs": 5047,
+  "loadMs": 3188,
   "status": 200,
   "finalUrl": "https://www.zulazanzibar.com/",
   "https": true,
@@ -1513,7 +1634,10 @@
   "bookWords": true,
   "directPerk": false,
   "title": "Zula Zanzibar – The center of Paje",
-  "words": 730
+  "words": 730,
+  "blocked": false,
+  "waAnywhere": true,
+  "snippet": "skip to content\n\nzula zanzibar\n\nwe think we have found the most beautiful beach in zanzibar…\nreserve your best room right now\n\ncheck-in *\n\n\ncheck-out *\n\n\nguests\n\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30\n31\n32\n33\n34\n35\n36\n37\n38\n39\n40\n41\n42\n43\n44\n45\n46\n47\n48\n49\n50\n51\n52\n53\n54\n55\n56\n57\n58\n\nthe ocean’s tidal changes that bring in cooling winds make zula the perf"
  },
  {
   "name": "SBH Kilindini Resort",
@@ -1521,7 +1645,7 @@
   "rooms": "80",
   "url": "https://www.sbhfue.com/hoteles/sbh-kilindini-resort",
   "host": "sbhfue.com",
-  "loadMs": 4577,
+  "loadMs": 2837,
   "status": 200,
   "finalUrl": "https://www.sbhfue.com/hoteles/sbh-kilindini-resort",
   "https": true,
@@ -1543,7 +1667,10 @@
   "bookWords": true,
   "directPerk": false,
   "title": "SBH Kilindini Resort • Pwani Mchangani, Zanzibar",
-  "words": 859
+  "words": 859,
+  "blocked": false,
+  "waAnywhere": false,
+  "snippet": "email\n*\nemail\n*\n *\nreferencia\n*\nreferencia\n*\n *\ngestionar mi reserva\nemail\n*\nemail\n*\n *\ncontraseña\n*\ncontraseña\n*\n *\nentrar\n¿olvidaste la contraseña?\n|¡regístrate!\nesp\nhome\nhoteles\ndestinos\nofertas\nexperiencias\ncontacto\ncheck-in online\ntoggle navigation\ntoggle login\ntoggle my booking\n\nadéntrese en el paraíso de zanzíbar\n\nhotel\nhabitaciones\ninstalaciones\ngastronomía\nofertas\ngalería\ncontacto\nsbh kil"
  },
  {
   "name": "little.pompeji boutique hotel",
@@ -1551,7 +1678,7 @@
   "rooms": null,
   "url": "https://www.littlepompeji.org/",
   "host": "littlepompeji.org",
-  "loadMs": 1343,
+  "loadMs": 836,
   "status": 200,
   "finalUrl": "https://www.littlepompeji.org/",
   "https": true,
@@ -1574,7 +1701,10 @@
   "bookWords": true,
   "directPerk": true,
   "title": "LITTLE POMPEJI Villa Jambiani — Adults Only Boutique Villa Zanzibar",
-  "words": 228
+  "words": 228,
+  "blocked": false,
+  "waAnywhere": true,
+  "snippet": "skip to main content\nbook via e-mail\nbook via whatsapp\nlittle pompeji\nprivate boutique villa for adults in jambiani - zanzibar\npeace, privacy, authentic zanzibar — just a short walk from the indian ocean lies the\nseven-room boutique villa, personally managed by a swiss couple.\n\n​\n\n \nlittle pompeji is not a typical hotel\n\n \n\nit was born from the desire to create a place where you don't have to\n\nfun"
  },
  {
   "name": "Kameleon Blue",
@@ -1582,7 +1712,7 @@
   "rooms": null,
   "url": "https://www.kameleonblue.com",
   "host": "kameleonblue.com",
-  "loadMs": 1543,
+  "loadMs": 1137,
   "status": 200,
   "finalUrl": "https://www.kameleonblue.com/",
   "https": true,
@@ -1604,7 +1734,10 @@
   "bookWords": true,
   "directPerk": false,
   "title": "Welcome to Kameleon Blue Arts Lodge, Zanzibar",
-  "words": 432
+  "words": 432,
+  "blocked": false,
+  "waAnywhere": true,
+  "snippet": "we use essential cookies to make our site work. with your consent, we may also use non-essential cookies to improve user experience, personalize content, customize advertisements, and analyze website traffic. for these reasons, we may share your site usage data with our advertising and analytics partners. by clicking “accept,” you agree to store on your device all the technologies described in our"
  },
  {
   "name": "The Island Pongwe Lodge",
@@ -1612,7 +1745,7 @@
   "rooms": null,
   "url": "https://www.theislandpongwe.com/",
   "host": "theislandpongwe.com",
-  "loadMs": 611,
+  "loadMs": 746,
   "status": 200,
   "finalUrl": "https://www.theislandpongwe.com/",
   "https": true,
@@ -1634,7 +1767,10 @@
   "bookWords": false,
   "directPerk": false,
   "title": "The Island Pongwe | Zanzibar Resort",
-  "words": 634
+  "words": 634,
+  "blocked": false,
+  "waAnywhere": false,
+  "snippet": "skip to main content\nzanzibar, tanzania\nthe island pongwe\n\nthe island is an adults-only lodge in zanzibar offering a unique and unforgettable experience. whether staying with us or visiting for lunch or dinner, this is the ultimate romantic escape for couples, experienced travelers, nature lovers and food lovers. nestled between our lush gardens and the blue waters of the indian ocean, you will en"
  },
  {
   "name": "Your Zanzibar Place",
@@ -1642,7 +1778,7 @@
   "rooms": null,
   "url": "https://yourzanzibarplace.com/",
   "host": "yourzanzibarplace.com",
-  "loadMs": 1435,
+  "loadMs": 1019,
   "status": 200,
   "finalUrl": "https://www.yourzanzibarplace.com/",
   "https": true,
@@ -1654,19 +1790,20 @@
   "whatsapp": false,
   "instagram": true,
   "bookLinks": [
-   "https://www.facebook.com/YourZanzibarPlace",
-   "https://book.nightsbridge.com/20444",
-   "https://letsbook.me/booking/yourzanzibarplace?checkin=2026-11-07&checkout=2026-11-08&adults=2&children=0"
+   "https://www.facebook.com/YourZanzibarPlace"
   ],
   "bookLeavesSite": true,
   "overflowX": false,
   "viewportMeta": true,
   "mpesa": false,
-  "priceShown": true,
-  "bookWords": true,
-  "directPerk": true,
+  "priceShown": false,
+  "bookWords": false,
+  "directPerk": false,
   "title": "HOME | Your Zanzibar Place Hostel in Paje, Zanzibar",
-  "words": 813
+  "words": 787,
+  "blocked": false,
+  "waAnywhere": false,
+  "snippet": "skip to main content\nyour zanzibar place\n\nwhere every night is a story\n\nexplore more\nabout us\n\nour story\n\nyour zanzibar place was born out of a love for simple living, meaningful connections, and barefoot freedom. tucked just a two-minute walk from paje beach, the island’s beating heart for beach life and nightlife, we set out to build something different: a place that feels like home, but better."
  },
  {
   "name": "The Neela",
@@ -1674,7 +1811,7 @@
   "rooms": null,
   "url": "https://neelacollection.com",
   "host": "neelacollection.com",
-  "loadMs": 2704,
+  "loadMs": 2671,
   "status": 200,
   "finalUrl": "https://neelacollection.com/",
   "https": true,
@@ -1700,7 +1837,10 @@
   "bookWords": true,
   "directPerk": false,
   "title": "Neela Boutique Hotel | Stone Town | Zanzibar",
-  "words": 91
+  "words": 91,
+  "blocked": false,
+  "waAnywhere": true,
+  "snippet": "skip to content\nhome\nabout\nrooms\neat & drink\nexperiences\ndestination\ngallery\noffers\ncontact us\nbook now\ndiscover tranquility\nbook online \ncheck-in\n11 nov 2026\ncheck-out\n12 nov 2026\n \ncheck availability\nview our rooms\neat & drink\nexperiences\n\ncontact details:\n\nhouse no. 67 shangani, stone town, zanzibar, tanzania\nt. +255 777 603 559 | e. res@neelacollection.com\n\nlocal time:\n\n02:13:39\n\ntemperature:\n"
  },
  {
   "name": "Zanbluu Beach Hotel",
@@ -1708,7 +1848,7 @@
   "rooms": null,
   "url": "https://www.zanbluu.com/",
   "host": "zanbluu.com",
-  "loadMs": 3522,
+  "loadMs": 3421,
   "status": 200,
   "finalUrl": "https://www.zanbluu.com/",
   "https": true,
@@ -1731,7 +1871,10 @@
   "bookWords": true,
   "directPerk": false,
   "title": "Home - Zanbluu Beach Hotel",
-  "words": 367
+  "words": 367,
+  "blocked": false,
+  "waAnywhere": true,
+  "snippet": "skip to content\nfeel the island’s rhythm,\nlet yourself discover\n4.5 /5\n\nexcellent\n\nbased on 335 reviews\n\nread reviews\n\ntripadvisor\n\n4.6 /5\n\nbooking .com\n\n9.2 /10\nguests' favourite for good reason\n\nwhat brings our guests back isn’t only the breath taking ocean views—it’s the way they feel while staying here. calm. cared for. surrounded by the natural beauty of zanzibar’s north-east coast.\n\nat our s"
  },
  {
   "name": "Marafiki Bungalows",
@@ -1739,7 +1882,7 @@
   "rooms": null,
   "url": "http://marafikizanzibar.com/en/",
   "host": "marafikizanzibar.com",
-  "loadMs": 3032,
+  "loadMs": 1910,
   "status": 200,
   "finalUrl": "http://marafikizanzibar.com/en/",
   "https": false,
@@ -1761,7 +1904,10 @@
   "bookWords": true,
   "directPerk": false,
   "title": "Just like at friend's place",
-  "words": 680
+  "words": 680,
+  "blocked": false,
+  "waAnywhere": false,
+  "snippet": "hotel\nrooms\nhoneymoon suite\ndouble room\ntriple room\nfamily room\nrestaurant\noffers\nactivities\ngallery\ntourist's guide\nabout the island\ntravel & documents\npractical information\nhealth\ncontact us\nbook now!\nen\npl\ncertificate of excellence 2019\nread reviews\ngo to gallery \nbook\nnow \njust like at a friend's place\n\nhere, in kiwengwa, on the eastern coast of the island, far from the hustle of cities and re"
  },
  {
   "name": "Mia Boutique Hotel",
@@ -1769,7 +1915,7 @@
   "rooms": null,
   "url": "https://mia-boutique.zanzibarhotelstoday.com/de/",
   "host": "mia-boutique.zanzibarhotelstoday.com",
-  "loadMs": 1184,
+  "loadMs": 1681,
   "status": 200,
   "finalUrl": "https://mia-boutique.zanzibarhotelstoday.com/de/",
   "https": true,
@@ -1786,7 +1932,10 @@
   "bookWords": false,
   "directPerk": false,
   "title": "MIA BOUTIQUE HOTEL 4⋆ ::: TANZANIA ::: VERGLEICHEN SIE HOTELPREISE",
-  "words": 867
+  "words": 867,
+  "blocked": false,
+  "waAnywhere": false,
+  "snippet": "zanzibar hotels\n1 / 97\nmia boutique hotel & restaurant michamvi\nmichamvi, tansania\nview on map\n8.9\nklasse\nbasierend auf 163 bewertungen\nempfehlung der redaktion\n\n\"authentische swahili-gerichte ergänzen ein internationales frühstück, das zusammen mit erfrischenden fruchtsäften serviert wird. jedes zimmer bietet vom balkon aus einen blick auf das meer. ideal für strandbegeisterte paare, weniger geei"
  },
  {
   "name": "Le Saint Tropez",
@@ -1794,7 +1943,7 @@
   "rooms": null,
   "url": "https://www.lesainttropezzanzibar.com/",
   "host": "lesainttropezzanzibar.com",
-  "loadMs": 520,
+  "loadMs": 704,
   "status": 200,
   "finalUrl": "https://www.lesainttropezzanzibar.com/",
   "https": true,
@@ -1811,7 +1960,10 @@
   "bookWords": true,
   "directPerk": false,
   "title": "Le Saint Tropez | Beach Club Zanzibar | Zanzibar, Tanzania",
-  "words": 87
+  "words": 87,
+  "blocked": false,
+  "waAnywhere": false,
+  "snippet": "book a stay\n\nfrom sun - drenched lounging to sunset dj sets, our beach club is the heartbeat of le saint tropez.\n\n​\n\nwhether you are sipping on signature cocktails or dancing barefoot under the stars - every moment is made to remember.\n\n​\n\nno online reservation & adult only.\n\nview more\n\ndiscover the charm of french cuisine in the heart of zanzibar. click here to reserve your table now and learn mo"
  },
  {
   "name": "Paradise city and Jetsurf",
@@ -1819,7 +1971,7 @@
   "rooms": null,
   "url": "https://www.paradisecity.top/",
   "host": "paradisecity.top",
-  "loadMs": 5693,
+  "loadMs": 5396,
   "status": 200,
   "finalUrl": "https://www.paradisecity.top/",
   "https": true,
@@ -1843,7 +1995,10 @@
   "bookWords": true,
   "directPerk": false,
   "title": "Home - Paradise city and Jetsurf",
-  "words": 743
+  "words": 743,
+  "blocked": false,
+  "waAnywhere": true,
+  "snippet": "paradise city and jetsurf\n\nrooms - jetsurf - restaurant\n\nwelcome to\nparadise city\n\naccommodation - jetsurf - restaurant\n\nbook now\nfollow us on social media\nfacebook-f\n \ninstagram\nour offers\nfor your holiday in paradise.\naccommodation in glamping domes\nretreat venue / event space\njetsurfing\nrestaurant\nparadise city and jetsurf\nabout us\n\nparadise city is an oasis of tranquility, set right on the sea"
  },
  {
   "name": "Kholle House",
@@ -1851,7 +2006,7 @@
   "rooms": null,
   "url": "https://khollehouse.com/",
   "host": "khollehouse.com",
-  "loadMs": 3041,
+  "loadMs": 21054,
   "status": 200,
   "finalUrl": "https://khollehouse.com/",
   "https": true,
@@ -1870,7 +2025,10 @@
   "bookWords": false,
   "directPerk": false,
   "title": "HOME - Kholle House",
-  "words": 77
+  "words": 77,
+  "blocked": false,
+  "waAnywhere": true,
+  "snippet": "home\nhistory\nrooms\nexperiences\nspecial\ncontact\nswahili style\nindulge in the elegance of 1860\nswahili style\nindulge in the elegance of 1860\n\ncheck in\n\n\n\ncheck out\n\n\n\nrooms\n\n\n1\n2\n3\n4\n5+\n\nadults\n\n\n1\n2\n3\n4+\n\nour signature apartments\n01\n\nspacious elegance overlooking the gardens of stone town.\n\ngarden view apartment\nlearn more\n02\n\na tranquil retreat with shimmering poolside views.\n\npool view apartment\n"
  },
  {
   "name": "Subanda Boutique Hotel",
@@ -1878,7 +2036,7 @@
   "rooms": null,
   "url": "https://subanda.info",
   "host": "subanda.info",
-  "loadMs": 1784,
+  "loadMs": 1445,
   "status": 200,
   "finalUrl": "https://subanda.info/",
   "https": true,
@@ -1897,7 +2055,10 @@
   "bookWords": true,
   "directPerk": false,
   "title": "Serene Boutique Hotel in Zanzibar | Subanda Makunduchi",
-  "words": 361
+  "words": 361,
+  "blocked": false,
+  "waAnywhere": true,
+  "snippet": "english\ndeutsch\nbook now\nyour peaceful escape in zanzibar\na quiet sanctuary for deep rest, romance and mindful travel\nexplore our rooms\nour location\nmakunduchi, zanzibar\nopening times\nall year round\nour rates\nstarting from tzs 200.000,-\nsome of our rooms\n\n2 guests\n\n29 sqm\n\n200.000 tzs\nbungalow\nsituated on the ground floor, this bungalow combines convenience and elegance, offering a peaceful atmosp"
  },
  {
   "name": "HA Beach Boutique Hotel",
@@ -1913,7 +2074,7 @@
   "rooms": null,
   "url": "https://fireflycollection.co.tz/",
   "host": "fireflycollection.co.tz",
-  "loadMs": 850,
+  "loadMs": 819,
   "status": 401,
   "finalUrl": "https://fireflycollection.co.tz/",
   "https": true,
@@ -1930,7 +2091,10 @@
   "bookWords": false,
   "directPerk": false,
   "title": "Security Verification",
-  "words": 13
+  "words": 13,
+  "blocked": true,
+  "waAnywhere": false,
+  "snippet": "to access this website, please wait while we complete a security check.\n\nloading..."
  },
  {
   "name": "Palumbo Mnemba View",
@@ -1938,7 +2102,7 @@
   "rooms": null,
   "url": "https://www.palumboresorts.com/palumbo-mnemba-view/",
   "host": "palumboresorts.com",
-  "loadMs": 6406,
+  "loadMs": 6786,
   "status": 200,
   "finalUrl": "https://www.palumboresorts.com/palumbo-mnemba-view/",
   "https": true,
@@ -1957,7 +2121,10 @@
   "bookWords": true,
   "directPerk": false,
   "title": "Palumbo Mnemba View – Palumbo Resorts",
-  "words": 531
+  "words": 531,
+  "blocked": false,
+  "waAnywhere": true,
+  "snippet": "book now\npalumbo mnemba view resort\n\nthe palumbo mnemba view resort is a 4* superior hotel located in matemwe (zanzibar), directly on the beach\noverlooking the island of mnemba, 45km from stone town and its airport.\nthe resort is spread over a large 17-hectare property with 400 meters of seafront.\nthe rooms are surrounded by lush tropical gardens and equipped with all comforts\n\ndiscover our offers"
  },
  {
   "name": "Waridi Beach Resort",
@@ -1965,7 +2132,7 @@
   "rooms": null,
   "url": "https://www.waridibeachresort.com/",
   "host": "waridibeachresort.com",
-  "loadMs": 3034,
+  "loadMs": 2365,
   "status": 200,
   "finalUrl": "https://www.waridibeachresort.com/",
   "https": true,
@@ -1988,7 +2155,10 @@
   "bookWords": true,
   "directPerk": false,
   "title": "AHG Waridi Beach Resort & SPA - Zanzibar",
-  "words": 585
+  "words": 585,
+  "blocked": false,
+  "waAnywhere": false,
+  "snippet": "book\nnow\nclose\nenfrdeit\nbook now\nhotel\ncontacts\nfaq\nwaridi beach\nresort & spa\n4 star resort in zanzibar\n\non the north-east coast\n\nbook now\nask for a tailored offer\nwaridi\nexplore zanzibar’s retreat, where comfort meets island charm. delve into a world of unique experiences and rich flavors.\nwaridi\nexplore zanzibar’s retreat, where comfort meets island charm. delve into a world of unique experience"
  },
  {
   "name": "Zoi Retreat Hotel Zanzibar",
@@ -1996,7 +2166,7 @@
   "rooms": null,
   "url": "https://www.zoiretreatzanzibar.com/",
   "host": "zoiretreatzanzibar.com",
-  "loadMs": 2292,
+  "loadMs": 1820,
   "status": 200,
   "finalUrl": "https://www.zoiretreatzanzibar.com/",
   "https": true,
@@ -2021,7 +2191,10 @@
   "bookWords": true,
   "directPerk": false,
   "title": "Zoi Retreat Hotel & Villas Zanzibar, Matemwe, Zanzibar: matemwe hotels, zanzibar traditional hotel, beachfront hotel zanzibar, boutique hotels zanzibar, ocean front zanzibar hotel",
-  "words": 659
+  "words": 659,
+  "blocked": false,
+  "waAnywhere": false,
+  "snippet": "menu\nen \nbook now\nplay\n00:00\n00:37\nunmute\nsettings\npip\nenter fullscreen\nplay\ngoogle rating\n4.5 \nbooking rating\n8.9 \nhotels.com rating\n9.8 \ntripadvisor rating\n4.7 \nmatemwe, zanzibar\nzoi retreat hotel & villas zanzibar\n\nzoi retreat hotel & villas zanzibar is a small picturesque hotel situated right on the beach in the small fishing village of matemwe on zanzibar’s north eastern coast. the white cora"
  },
  {
   "name": "Shoki Shoki Guest House",
@@ -2029,7 +2202,7 @@
   "rooms": null,
   "url": "https://shokishokiguesthouse.com/",
   "host": "shokishokiguesthouse.com",
-  "loadMs": 7527,
+  "loadMs": 6123,
   "status": 200,
   "finalUrl": "https://shokishokiguesthouse.com/",
   "https": true,
@@ -2052,7 +2225,10 @@
   "bookWords": true,
   "directPerk": false,
   "title": "Shoki Shoki Guest House",
-  "words": 2934
+  "words": 2934,
+  "blocked": false,
+  "waAnywhere": true,
+  "snippet": "przejdź do treści\nhome\nrooms\nreviews\ngallery\nbooking\nsafari\ncontact\nbook now\nmobile/whatsapp\n     +255 658179187\nshokishokiguesthouse@gmail.com\nsoko muhogo street stone town tz, 25555, tanzania\nhome\nrooms\ngallery\nshoki shoki guest house\nzanzibar is a magical, unique place, unlike any other. an island that has everything to offer from lounging on sandy beaches, diving, water sports to hiking where "
  },
  {
   "name": "Fun Beach Hotel",
@@ -2060,7 +2236,7 @@
   "rooms": null,
   "url": "https://www.our-zanzibar.com/hotel/fun-beach-hotel/",
   "host": "our-zanzibar.com",
-  "loadMs": 2604,
+  "loadMs": 2552,
   "status": 200,
   "finalUrl": "https://www.our-zanzibar.com/hotel/fun-beach-hotel/",
   "https": true,
@@ -2083,7 +2259,10 @@
   "bookWords": true,
   "directPerk": false,
   "title": "Fun Beach Hotel - Zanzibar Hotel | Our Zanzibar Hotel Group",
-  "words": 1937
+  "words": 2079,
+  "blocked": false,
+  "waAnywhere": true,
+  "snippet": "skip to content\nhome\nstay\ndine\nexperience\nspecial offers\ngallery\ncontact us\nour hotels\nbook now\nselect hotel\nselect hotel\nfun beach hotel\nnur beach resort\ncasa beach hotel\nuzuri boutique hotel\nqambani luxury resort\nmwezi & la luna\nthe loop beach resort\nnyumbani residence\nlegendary zanzibar\nall hotels\ncheck in\ncheck out\ncheck availability\nwhy book with us?\n\nbest guaranteed rate\n\nwelcome to\n\nfun bea"
  },
  {
   "name": "Kiziparadise",
@@ -2091,7 +2270,7 @@
   "rooms": null,
   "url": "https://green-zanzibar.org/",
   "host": "green-zanzibar.org",
-  "loadMs": 2915,
+  "loadMs": 1158,
   "status": 200,
   "finalUrl": "https://green-zanzibar.org/",
   "https": true,
@@ -2110,7 +2289,10 @@
   "bookWords": false,
   "directPerk": false,
   "title": "Green_Zanzibar_Mainpage",
-  "words": 361
+  "words": 361,
+  "blocked": false,
+  "waAnywhere": false,
+  "snippet": "home\nour goals\nabout\nprojects\nbecome a volunteer\ncontact\n\nbe a part of it→\n\n\nthree​ green\n\ngoa​ls!\n\n\nless plastic waste\n\n\nenvironment ​education\n\n\nwomen ​empowerment\n\n\nwho we are\n\n\ngreen zanzibar is an initiative of ​the women's group tufahamiane ​based in kizimkazi/zanzibar.\n\n\nthe women's group is a registered ​local ngo and was founded in ​2004.\n\n\nthe women's group advocates for ​many local soci"
  },
  {
   "name": "Bamboo Zanzibar",
@@ -2118,7 +2300,7 @@
   "rooms": "17",
   "url": "https://bamboozanzibar.com/",
   "host": "bamboozanzibar.com",
-  "loadMs": 1978,
+  "loadMs": 1810,
   "status": 200,
   "finalUrl": "https://bamboozanzibar.com/",
   "https": true,
@@ -2142,7 +2324,10 @@
   "bookWords": true,
   "directPerk": false,
   "title": "Sustainable Design Hotel in Zanzibar | Bamboo Zanzibar",
-  "words": 559
+  "words": 559,
+  "blocked": false,
+  "waAnywhere": true,
+  "snippet": "this website uses cookies\nwe use cookies to personalise content and ads, to provide social media features and to analyse our traffic. we also share information about your use of our site with our social media, advertising and analytics partners who may combine it with other information that you’ve provided to them or that they’ve collected from your use of their services.\nconsent selection\nnecessa"
  },
  {
   "name": "Boutique Hotel Matlai",
@@ -2150,7 +2335,7 @@
   "rooms": "6",
   "url": "https://www.hotelmatlai.com/",
   "host": "hotelmatlai.com",
-  "loadMs": 462,
+  "loadMs": 572,
   "status": 200,
   "finalUrl": "https://www.hotelmatlai.com/",
   "https": true,
@@ -2176,7 +2361,10 @@
   "bookWords": true,
   "directPerk": true,
   "title": "Boutique Hotel Matlai Zanzibar | Beachfront, Michamvi Pingwe",
-  "words": 1987
+  "words": 1987,
+  "blocked": false,
+  "waAnywhere": true,
+  "snippet": "skip to content\nask for our direct-booking offer\n×\nen\n\nmichamvi pingwe · zanzibar\n\ntwo villas on a quiet beach\n\n“paradise is not on earth but you might find a piece of it here....”\n\nfrom us$535 per night, half board included\n\nbook direct, 3+ nights at the standard rate: floating breakfast for two + a 50-min lemongrass massage each, on us. terms\n\nyour dates\n\nmchanga island is a sandbank that appear"
  },
  {
   "name": "Eco Kayak Beach Lodge",
@@ -2184,7 +2372,7 @@
   "rooms": null,
   "url": "https://ecokayakbeachlodge.com/",
   "host": "ecokayakbeachlodge.com",
-  "loadMs": 836,
+  "loadMs": 816,
   "status": 401,
   "finalUrl": "https://ecokayakbeachlodge.com/",
   "https": true,
@@ -2201,7 +2389,10 @@
   "bookWords": false,
   "directPerk": false,
   "title": "Security Verification",
-  "words": 13
+  "words": 13,
+  "blocked": true,
+  "waAnywhere": false,
+  "snippet": "to access this website, please wait while we complete a security check.\n\nloading..."
  },
  {
   "name": "",
@@ -2209,7 +2400,7 @@
   "rooms": "97",
   "url": "https://www.hilton.com/en/hotels/znzdtdi-doubletree-resort-zanzibar-nungwi/",
   "host": "hilton.com",
-  "loadMs": 10834,
+  "loadMs": 11277,
   "status": 403,
   "finalUrl": "https://www.hilton.com/en/hotels/znzdtdi-doubletree-resort-zanzibar-nungwi/",
   "https": true,
@@ -2226,7 +2417,10 @@
   "bookWords": false,
   "directPerk": false,
   "title": "Hilton Page Reference Code",
-  "words": 93
+  "words": 93,
+  "blocked": true,
+  "waAnywhere": false,
+  "snippet": "something went wrong\n\nmaybe it’s us, maybe it’s you.\n(it’s probably us).\n\nreference no. 18.8651c317.1794438925.2bc6e7a7\ngo back\n\nor try:\nhilton.com customer service\n\nglobal sites:\nالعربية\n \nбългарски\n \n简体中文\n \n繁體中文\n \nčesky\n \ndansk\n \nnederlands\n \nsuomi\n \ndeutsch\n \nfrançais\n \nitaliano\n \n日本語\n \n한국어\n \nnorsk\n \npolski\n \nportuguês\n \nromânia\n \npусский\n \nespañol\n \nไทย\n \ntürkçe\n svenska\nhilton\n \nabout hilton "
  },
  {
   "name": "Echo Beach Hotel",
@@ -2250,7 +2444,7 @@
   "rooms": "51",
   "url": "https://www.marumaruzanzibar.com/",
   "host": "marumaruzanzibar.com",
-  "loadMs": 959,
+  "loadMs": 1795,
   "status": 200,
   "finalUrl": "https://www.marumaruzanzibar.com/",
   "https": true,
@@ -2272,7 +2466,10 @@
   "bookWords": true,
   "directPerk": false,
   "title": "Maru Maru Hotel Zanzibar",
-  "words": 131
+  "words": 131,
+  "blocked": false,
+  "waAnywhere": false,
+  "snippet": "click for menu\nfamily room\n\nelegantly designed family room offers comfort and luxury with modern facilities for the entire family. located in the main restored- […]\n\nking room\n\nspacious rooms with perfect blend of zanzibari culture, comfort and modern amenities. rooms ( en-suite bathroom) compromises of a 4 […]\n\ntwin room\n\nwith a touch of zanzibar culture and modern facilities, twin room offers tw"
  },
  {
   "name": "Africa House Hotel",
@@ -2288,7 +2485,7 @@
   "rooms": "67",
   "url": "https://www.hyatt.com/park-hyatt/en-US/znzph-park-hyatt-zanzibar",
   "host": "hyatt.com",
-  "loadMs": 167,
+  "loadMs": 190,
   "status": 403,
   "finalUrl": "https://www.hyatt.com/park-hyatt/en-US/znzph-park-hyatt-zanzibar",
   "https": true,
@@ -2305,7 +2502,10 @@
   "bookWords": false,
   "directPerk": false,
   "title": "Hyatt Hotels and Resorts",
-  "words": 30
+  "words": 30,
+  "blocked": false,
+  "waAnywhere": false,
+  "snippet": "we’re sorry.\n\nyour browser did something unexpected and we were unable to process your request.\n\nfor reservation assistance, please call:\n\n1-800-720-0059 (within the u.s.)\n\n+1-402-593-5064 (outside the u.s.)\n\nerror:e6020\nreference:0.a451c317.1794438944.8a3f1803"
  },
  {
   "name": "Tembo House Hotel",
@@ -2313,7 +2513,7 @@
   "rooms": null,
   "url": "https://tembohotel.com/",
   "host": "tembohotel.com",
-  "loadMs": 1316,
+  "loadMs": 984,
   "status": 200,
   "finalUrl": "https://tembohotel.com/",
   "https": true,
@@ -2338,7 +2538,10 @@
   "bookWords": true,
   "directPerk": false,
   "title": "Tembo House Hotel | Seafront Boutique Hotel in Stone Town, Zanzibar",
-  "words": 950
+  "words": 950,
+  "blocked": false,
+  "waAnywhere": true,
+  "snippet": "en\ndiscover zanzibar’s hidden jewel\n\nwelcome to tembo house hotel, a sanctuary of elegance where swahili charm meets world-class comfort.\n\nexplore our suites\ncheck availability\nzanzibar’s historical gem\n\nas the first beachfront hotel within the unesco heritage site of stone town, tembo house hotel has always been one of zanzibar’s finest hospitality gems. the hotel has welcomed and wowed guests si"
  },
  {
   "name": "Mapenzi Beach Resort",
@@ -2346,7 +2549,7 @@
   "rooms": null,
   "url": "https://mapenzibeach.diamondsresorts.com/",
   "host": "mapenzibeach.diamondsresorts.com",
-  "loadMs": 5513,
+  "loadMs": 4140,
   "status": 200,
   "finalUrl": "https://mapenzibeach.diamondsresorts.com/",
   "https": true,
@@ -2371,7 +2574,10 @@
   "bookWords": true,
   "directPerk": false,
   "title": "Official Website Diamonds Mapenzi Beach in Zanzibar - Book an exclusive resort hotel",
-  "words": 1566
+  "words": 1566,
+  "blocked": false,
+  "waAnywhere": false,
+  "snippet": "this website uses cookies\n\nwe may use cookies to customize the website content, to provide social media functionalities and analyze website traffic. below you'll find more detailed informations about which cookie we're using and their purpose.\n\nsettings\naccept all cookies\ncookie declaration by d-edge macaron cmp. last update: 2022-02-07.\nwhat are cookies?\n\ncookies are little bits of textual inform"
  },
  {
   "name": "Princess Salme Inn",
@@ -2379,7 +2585,7 @@
   "rooms": null,
   "url": "https://www.princesssalmeinn.com/",
   "host": "princesssalmeinn.com",
-  "loadMs": 2255,
+  "loadMs": 1835,
   "status": 503,
   "finalUrl": "https://www.princesssalmeinn.com/",
   "https": true,
@@ -2398,7 +2604,10 @@
   "bookWords": false,
   "directPerk": false,
   "title": "Under Construction",
-  "words": 72
+  "words": 72,
+  "blocked": true,
+  "waAnywhere": true,
+  "snippet": "we are getting ready for the launch, but you can still book your room here:\n\n\n\n\nto book a room click here\n\n\n\n\ncontact us:\n\n\n\n\ninfo@princesssalmeinn.com\n\n\n\n\n+255777435303\n\n\n\n\nour website is in maintenance mode, we are doing our best to ensure the best experience for you after its launch.\n\n\n\n\nbe patient and get ready, we will be back soon.\n\nthis website uses cookies to ensure you get the best experi"
  },
  {
   "name": "Tulia Zanzibar Unique Beach Resort",
@@ -2406,7 +2615,7 @@
   "rooms": "8",
   "url": "https://www.tuliazanzibar.com/",
   "host": "tuliazanzibar.com",
-  "loadMs": 4598,
+  "loadMs": 4125,
   "status": 200,
   "finalUrl": "https://tuliazanzibar.com/",
   "https": true,
@@ -2426,7 +2635,10 @@
   "bookWords": true,
   "directPerk": false,
   "title": "Tulia Zanzibar - Luxury Beach Resort in Zanzibar",
-  "words": 2211
+  "words": 2211,
+  "blocked": false,
+  "waAnywhere": true,
+  "snippet": "we value your privacy\n\nwe use cookies to enhance your browsing experience, serve personalised ads or content, and analyse our traffic. by clicking \"accept all\", you consent to our use of cookies.\n\ncustomise\nreject all\naccept all\nskip to content\n  \ntulia zanzibar\n\nluxury romantic resort\n\narrival\ndeparture\nadults\n1\n2\n3\n4\n5\n6\nchildren\n0\n1\n2\n3\n4\n5\n6\nholiday in paradise\n\nthe location is perfect! the ho"
  },
  {
   "name": "Chumbe Island Coral Park",
@@ -2434,7 +2646,7 @@
   "rooms": null,
   "url": "https://chumbeisland.com/",
   "host": "chumbeisland.com",
-  "loadMs": 4543,
+  "loadMs": 2588,
   "status": 200,
   "finalUrl": "https://chumbeisland.com/",
   "https": true,
@@ -2457,7 +2669,10 @@
   "bookWords": true,
   "directPerk": false,
   "title": "Chumbe Island Zanzibar: Nature at Its Best",
-  "words": 1897
+  "words": 1897,
+  "blocked": false,
+  "waAnywhere": true,
+  "snippet": "skip to content\nskip to footer\nbook now\nwelcome to\nchumbe island\ncoral reef sanctuary\nand forest reserve\nan exclusive island experience\nbook now\nwelcome to\nchumbe island\ncoral reef sanctuary\nand forest reserve\nan exclusive island experience\nbook now\nwelcome to\nchumbe island\ncoral reef sanctuary\nand forest reserve\nan exclusive island experience\nbook now\nwelcome to\nchumbe island\ncoral reef sanctuary"
  },
  {
   "name": "Coral Bay Hotel",
@@ -2465,7 +2680,7 @@
   "rooms": null,
   "url": "https://www.coralbayzanzibar.com/",
   "host": "coralbayzanzibar.com",
-  "loadMs": 1076,
+  "loadMs": 1137,
   "status": 200,
   "finalUrl": "https://www.coralbayzanzibar.com/",
   "https": true,
@@ -2486,7 +2701,10 @@
   "bookWords": false,
   "directPerk": false,
   "title": "Seaside B&B",
-  "words": 271
+  "words": 271,
+  "blocked": false,
+  "waAnywhere": false,
+  "snippet": "skip to main content\nwelcome\n\nwelcome to coral bay zanzibar! get ready for an unforgettable vacation experience.\n\ndiscover a paradise on the sandy beach of pongwe, at coral bay zanzibar. our small hotel offers a unique experience of relaxation and comfort, with a stunning view of the indian ocean. come and enjoy our friendly service and delicious cuisine.\n\ngallery\nwelcome to coral bay zanzibar\nzan"
  },
  {
   "name": "Kwanza Resort",
@@ -2494,7 +2712,7 @@
   "rooms": null,
   "url": "https://www.sunrise-resorts.com/kwanza",
   "host": "sunrise-resorts.com",
-  "loadMs": 4236,
+  "loadMs": 3959,
   "status": 200,
   "finalUrl": "https://www.sunrise-resorts.com/kwanza",
   "https": true,
@@ -2517,7 +2735,10 @@
   "bookWords": true,
   "directPerk": false,
   "title": "Kwanza Resort | Sunrise Resorts & Cruises",
-  "words": 793
+  "words": 793,
+  "blocked": false,
+  "waAnywhere": false,
+  "snippet": "skip to content (press enter)\nglobal home\n*}\nour locations\nmenu\nmenu\nen\nde\nru\nopen map modal\ncheck availability\nprevious\nkwanza resort\n\nzanzibar, tanzania\nnext\nfar from ordinary, deep in paradise.\noverview\n\nfeaturing an earthy, coastal design in an utterly cozy ambiance, the ocean-front resort, kwanza, is here to purvey modern living amidst the authentic african culture of zanzibar. adopting the g"
  },
  {
   "name": "Pongwe Bay Resort",
@@ -2525,7 +2746,7 @@
   "rooms": null,
   "url": "https://pongwebayresort.co/",
   "host": "pongwebayresort.co",
-  "loadMs": 3558,
+  "loadMs": 3405,
   "status": 200,
   "finalUrl": "https://pongwebayresort.co/",
   "https": true,
@@ -2548,7 +2769,10 @@
   "bookWords": true,
   "directPerk": false,
   "title": "Pongwe Bay Resort Zanzibar | Five Star Hotel in Zanzibar | Official Website",
-  "words": 761
+  "words": 761,
+  "blocked": false,
+  "waAnywhere": false,
+  "snippet": "home\nrooms\njunior suite\njunior suite beach front\nfamily suite garden\nfamily beach front\nmaster suite\nfood & drink\nthe club\nspa\ngallery\nactivities\nsustainability\ncontact us\npongwe bay\n\neco-luxury beach resort\n\ncheck availability\n\nwelcome to pongwe bay\n\nan intimate eco-luxury retreat in zanzibar\n\nnestled along one of zanzibar’s most beautiful beaches, pongwe bay resort is a peaceful sanctuary surrou"
  },
  {
   "name": "Iberostar Selection Zanzibar",
@@ -2556,7 +2780,7 @@
   "rooms": "360",
   "url": "https://www.iberostar.com/en/hotels/zanzibar/iberostar-selection-zanzibar/",
   "host": "iberostar.com",
-  "loadMs": 2841,
+  "loadMs": 2440,
   "status": 200,
   "finalUrl": "https://www.iberostar.com/en/hotels/zanzibar/iberostar-selection-zanzibar/",
   "https": true,
@@ -2581,7 +2805,10 @@
   "bookWords": true,
   "directPerk": false,
   "title": "Iberostar Selection Zanzíbar 5* | 5-Star Hotel on Muyuni Beach",
-  "words": 1025
+  "words": 1025,
+  "blocked": false,
+  "waAnywhere": true,
+  "snippet": "skip to main content\nbook your stay!\nhotel\nflight + hotel\n\nwe are going to redirect you to our official partner’s page\n\non it, you can complete your flight reservation with a hotel in a 100% secure way.\n\n*when booking on this website, you are not eligible for ihg one rewards benefits.\n\nno, thank youcontinue\nwhere would you like to go?\ndates\n\nwhen would you like to go?\n\nmm/dd/yyyy - mm/dd/yyyy\n\nhow"
  },
  {
   "name": "Ô TALIA HOTEL & SPA",
@@ -2589,7 +2816,7 @@
   "rooms": "10",
   "url": "https://otaliazanzibar.com/",
   "host": "otaliazanzibar.com",
-  "loadMs": 4349,
+  "loadMs": 3373,
   "status": 200,
   "finalUrl": "https://otaliazanzibar.com/",
   "https": true,
@@ -2613,6 +2840,9 @@
   "bookWords": true,
   "directPerk": false,
   "title": "Hotel in Nungwi Zanzibar | Ô Talia Hotel & Spa",
-  "words": 1142
+  "words": 1142,
+  "blocked": false,
+  "waAnywhere": true,
+  "snippet": "skip to content\nhome\nabout\nrooms\nservices\nexperiences\ncontact\nx\n\nwelcome to ô talia hotel & spa\n\nexperience authentic hospitality at ô talia hotel & spa in nungwi, zanzibar\nbook now\nour rooms\n\nwhere turquoise waters meet swahili soul –\n\nabout ô talia hotel & spa\n\nyour hotel in nungwi, zanzibar for unforgettable island stays\n\nelegant rooms, modern comfort, and authentic hospitality await at ô talia"
  }
 ]
