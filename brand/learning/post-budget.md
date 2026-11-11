@@ -27,3 +27,7 @@ Metricool's free plan publishes 20 posts a month, counted on the 1st. A story us
 
 ## Pricing (Zayn approved)
 - Brand identity from $800. Other services have no public price yet.
+
+## No repeats
+- A project that has already been posted on a platform does not go to that platform again. Before scheduling, check the published history in Metricool for the project name. ata (reels on 4 and 10 Nov) and Imisozi (3 Nov) are done on Instagram and Facebook.
+- A different platform is fine: LinkedIn is a new audience, so the ata and Imisozi documents can run there once.
