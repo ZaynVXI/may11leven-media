@@ -1,0 +1,86 @@
+{
+ "n": 10,
+ "seed": 285485,
+ "customer": {
+  "business": "May11Leven Labs, a small design studio (brand identity, websites, apps, 3D, automation, AI agents, content) that markets itself on Instagram",
+  "target": "Owners and marketing leads of growing businesses that sell on looks and trust: hotels and lodges, real estate, clinics, restaurants and cafes, fashion and beauty brands, schools",
+  "where": "Kenya, Rwanda, Tanzania, Uganda, Nigeria, Ghana, South Africa first; UAE and Saudi Arabia second; anywhere else third. Scrolling Instagram on a phone.",
+  "age": [
+   25,
+   50
+  ],
+  "segments": [
+   {
+    "name": "Small business owner (1-10 staff)",
+    "share": 0.45,
+    "income": [
+     12000,
+     60000
+    ]
+   },
+   {
+    "name": "Growing business owner or founder (10-50 staff)",
+    "share": 0.35,
+    "income": [
+     40000,
+     150000
+    ]
+   },
+   {
+    "name": "Marketing lead at an established company",
+    "share": 0.2,
+    "income": [
+     30000,
+     120000
+    ]
+   }
+  ],
+  "behaviours": [
+   {
+    "name": "Busy scroller",
+    "share": 0.25,
+    "how": "Scrolls between tasks, stops only for something instantly clear."
+   },
+   {
+    "name": "Design-aware",
+    "share": 0.15,
+    "how": "Follows studios, saves nice work, compares feeds before hiring."
+   },
+   {
+    "name": "Price-first",
+    "share": 0.2,
+    "how": "Assumes good design is expensive, looks for the cheapest option."
+   },
+   {
+    "name": "Has a designer already",
+    "share": 0.15,
+    "how": "Works with a freelancer or a nephew who does logos."
+   },
+   {
+    "name": "Trust-checker",
+    "share": 0.15,
+    "how": "Wants proof: real clients, results, a local presence."
+   },
+   {
+    "name": "Ready to rebrand",
+    "share": 0.1,
+    "how": "Knows the brand looks dated and is actively looking."
+   }
+  ],
+  "objections": [
+   "Is a remote studio worth it compared to someone local?",
+   "Will better design actually bring more customers?",
+   "It is probably too expensive for us",
+   "We already have a designer",
+   "This looks like design for designers, not for my business",
+   "I do not see real clients or results"
+  ],
+  "habits": [
+   "you check Instagram on WhatsApp breaks during the work day",
+   "your competitor just opened with a slick new look",
+   "you post your own flyers made in Canva",
+   "you are planning a launch or expansion this year"
+  ]
+ },
+ "pitch": "An Instagram carousel from May11Leven Labs, a design studio (5 slides):\nCover: the lowercase \"a\" of the Inter Tight typeface drawn as an outline with its anchor points and dashed guide lines (baseline, x-height, cap height) on cool grey.\nSlide 2: type specimen \"Quiet / work / that / sells.\" in three weights plus a serif italic.\nSlide 3: the studio's two-bar \"11\" logo with measurements and \"Two bars. One offset. The eleven, measured.\"\nSlide 4: a photo-real render of the studio's own business card in an open brushed-steel case, with the 11 mark: the brand in use.\nSlide 5: \"People judge a business before they read a word. We measure the letters, the mark and the system so your brand looks as trustworthy as the work behind it. Brand identity, websites, apps, 3D, automation, AI agents and content. Comment 11 for a free first look at yours.\"\nCaption opens: \"every letter we set and every mark we draw is measured first.\" It also says: \"people decide whether to trust a business before they read a word. that's why we measure first, so a brand looks as solid as the work behind it.\"\nAsk: comment 11 for a free first look at your brand."
+}
