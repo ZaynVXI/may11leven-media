@@ -1,0 +1,160 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<style>
+@font-face{font-family:IT;src:url(InterTight-Regular.ttf);font-weight:400}
+@font-face{font-family:IT;src:url(InterTight-Medium.ttf);font-weight:500}
+@font-face{font-family:IT;src:url(InterTight-Light.ttf);font-weight:300}
+@font-face{font-family:IS;src:url(InstrumentSerif-Italic.ttf);font-style:italic}
+@font-face{font-family:PM;src:url(PlexMono.ttf);font-weight:400}
+@font-face{font-family:PM;src:url(PlexMonoMed.ttf);font-weight:500}
+:root{--paper:#F3F0EA;--card:#FBFAF7;--tile:#E8E3DA;--line:#DCD5CA;--ink:#1C1916;--mid:#6E675E;--clay:#96442E;--moss:#5C684E;--huye:#1E1A17;--mist:#E3E6E4}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{background:#888}
+.scr{width:390px;height:844px;position:relative;overflow:hidden;background:var(--paper);color:var(--ink);font-family:IT;-webkit-font-smoothing:antialiased;display:none}
+.scr.on{display:block}
+.sb{height:54px;display:flex;align-items:center;justify-content:space-between;padding:6px 30px 0 40px;font-weight:600;font-size:17px;font-family:IT}
+.sb svg{display:block}
+.nav{height:48px;display:flex;align-items:center;justify-content:space-between;padding:0 20px;border-bottom:1px solid var(--line)}
+.wm{font-weight:500;font-size:21px;letter-spacing:-.04em}
+.nav .r{display:flex;gap:16px;align-items:center;font-size:14px}
+.u{border-bottom:1px solid currentColor;padding-bottom:1px}
+.lab{font-family:PM;font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--mid)}
+.dot{display:inline-flex;align-items:center;gap:7px;font-size:13px}
+.dot:before{content:"";width:7px;height:7px;border-radius:50%;background:currentColor}
+h1{font-weight:500;letter-spacing:-.045em;line-height:.92}
+.serif{font-family:IS;font-style:italic;font-weight:400;letter-spacing:-.01em}
+.btn{height:52px;border-radius:10px;display:flex;align-items:center;justify-content:space-between;padding:0 16px;font-size:15px;font-weight:500}
+.btn.dark{background:var(--ink);color:var(--paper)}
+.btn.light{background:var(--card);color:var(--ink);border:1px solid var(--line)}
+.arrow{width:22px;height:22px;border-radius:50%;display:grid;place-items:center;font-size:12px}
+.dark .arrow{background:var(--paper);color:var(--ink)}
+.light .arrow{background:var(--ink);color:var(--paper)}
+.home{position:absolute;bottom:8px;left:50%;transform:translateX(-50%);width:134px;height:5px;border-radius:3px;background:var(--ink)}
+.contours{position:absolute;left:0;right:0;height:120px}
+.tabbar{position:absolute;bottom:0;left:0;right:0;height:84px;border-top:1px solid var(--line);background:var(--paper);display:grid;grid-template-columns:repeat(4,1fr);padding-top:10px}
+.tab{display:flex;flex-direction:column;align-items:center;gap:5px;font-size:10.5px;color:var(--mid)}
+.tab.on{color:var(--ink)}
+.tab svg{width:22px;height:22px}
+.cardx{background:var(--card);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.num{font-family:PM;font-size:11px;color:var(--mid)}
+.pill{display:inline-flex;align-items:center;height:26px;padding:0 10px;border-radius:13px;border:1px solid var(--line);font-size:12px;background:var(--card)}
+.pill.on{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.row{display:flex;justify-content:space-between;align-items:center}
+.tnum{font-variant-numeric:tabular-nums}
+</style></head><body>
+
+<!-- shared status bar -->
+<template id="sbt"><div class="sb"><span>9:41</span><span style="display:flex;gap:6px;align-items:center"><svg width="18" height="12" viewBox="0 0 18 12"><rect x="0" y="8" width="3" height="4" rx="1" fill="currentColor"/><rect x="5" y="5.5" width="3" height="6.5" rx="1" fill="currentColor"/><rect x="10" y="3" width="3" height="9" rx="1" fill="currentColor"/><rect x="15" y="0" width="3" height="12" rx="1" fill="currentColor"/></svg><svg width="16" height="12" viewBox="0 0 16 12"><path d="M8 2.2c2.4 0 4.6.9 6.2 2.5l1.2-1.2A10.4 10.4 0 0 0 8 .5 10.4 10.4 0 0 0 .6 3.5l1.2 1.2A8.7 8.7 0 0 1 8 2.2zm0 3.4c1.5 0 2.8.6 3.8 1.5l1.2-1.2A7 7 0 0 0 8 3.9a7 7 0 0 0-5 2l1.2 1.2c1-.9 2.3-1.5 3.8-1.5zM8 9l2.1-2.1A3 3 0 0 0 8 6.1a3 3 0 0 0-2.1.8z" fill="currentColor"/></svg><svg width="27" height="13" viewBox="0 0 27 13"><rect x=".5" y=".5" width="23" height="12" rx="3.5" fill="none" stroke="currentColor" opacity=".4"/><rect x="2" y="2" width="17" height="9" rx="2" fill="currentColor"/><path d="M25 4.5v4c.8-.3 1.3-1.1 1.3-2s-.5-1.7-1.3-2z" fill="currentColor" opacity=".45"/></svg></span></div></template>
+
+<!-- 1 HOME -->
+<div class="scr" id="s1">
+  <div class="sbslot"></div>
+  <div class="nav"><span class="wm">imisozi</span><span class="r"><span>Bag (0)</span><span class="u">Menu</span></span></div>
+  <div style="padding:20px 20px 0"><h1 style="font-size:70px">Grown on<br>a thousand<br><span class="serif" style="font-size:78px">hills.</span></h1></div>
+  <div class="row" style="padding:26px 20px 0;align-items:flex-start">
+    <span class="dot">New harvest</span>
+    <p style="font-size:14px;line-height:1.4;max-width:190px;color:var(--mid)">Single-origin Rwandan coffee, roasted in Kigali, at your door in 48 hours.</p>
+  </div>
+  <div style="position:absolute;left:0;right:0;top:470px;height:290px;overflow:hidden">
+    <img src="trio.png" style="width:100%;height:100%;object-fit:cover;object-position:50% 48%">
+    <svg class="contours" style="top:178px" viewBox="0 0 390 120" preserveAspectRatio="none"></svg>
+  </div>
+  <div style="position:absolute;left:20px;right:20px;top:690px"><div class="btn light"><span>Shop the harvest</span><span class="arrow">→</span></div></div>
+  <div class="row" style="position:absolute;left:20px;right:20px;top:760px;font-size:12px" >
+    <span class="lab">3 origins</span><span class="lab">1,700–1,900 m</span><span class="lab">MoMo · card</span>
+  </div>
+  <div class="home"></div>
+</div>
+
+<!-- 2 ORIGINS -->
+<div class="scr" id="s2">
+  <div class="sbslot"></div>
+  <div class="nav"><span class="wm">imisozi</span><span class="r"><span>Bag (0)</span><span class="u">Menu</span></span></div>
+  <div style="background:var(--tile);padding:18px 20px 22px"><h1 style="font-size:64px">Origins</h1>
+    <div class="row" style="margin-top:22px"><span class="dot">Three hills</span><span style="font-size:13px;color:var(--mid)">Three provinces</span></div></div>
+  <div style="padding:14px 16px;display:grid;gap:10px">
+    <div class="cardx" data-origin="0"></div>
+    <div class="cardx" data-origin="1"></div>
+    <div class="cardx" data-origin="2"></div>
+  </div>
+  <div class="tabbar"></div><div class="home"></div>
+</div>
+
+<!-- 3 PRODUCT -->
+<div class="scr" id="s3">
+  <div class="sbslot"></div>
+  <div class="nav"><span style="font-size:14px">← Origins</span><span class="wm">imisozi</span><span style="font-size:14px">Bag (1)</span></div>
+  <div style="height:300px;position:relative;background:#E2E0DC;overflow:hidden"><img src="huye1.png" style="width:100%;height:100%;object-fit:cover;object-position:50% 45%">
+    <span class="num" style="position:absolute;left:14px;top:12px;background:var(--paper);padding:5px 8px;border-radius:6px">01 / 03</span>
+    <span class="pill" style="position:absolute;right:14px;top:10px">● In stock</span></div>
+  <div style="padding:16px 20px 0">
+    <div class="row"><span class="lab">Southern Province · washed</span><span class="tnum" style="font-size:15px;font-weight:500">RWF 9,500</span></div>
+    <h1 style="font-size:40px;margin-top:8px">Huye <span class="serif" style="font-size:44px">Mountain</span></h1>
+    <p style="font-size:14px;line-height:1.45;color:var(--mid);margin-top:8px">Red plum and black tea, from smallholder farms on the slopes of Mount Huye.</p>
+    <svg id="alt" viewBox="0 0 350 66" style="width:100%;height:66px;margin-top:10px"></svg>
+    <div class="lab" style="margin-top:12px">Grind</div>
+    <div style="display:flex;gap:6px;margin-top:8px"><span class="pill on">Whole bean</span><span class="pill">Espresso</span><span class="pill">Filter</span><span class="pill">French press</span></div>
+    <div class="row" style="margin-top:16px;gap:10px">
+      <div class="row" style="width:112px;height:52px;border:1px solid var(--line);border-radius:10px;padding:0 14px;background:var(--card)"><span>−</span><span class="tnum" style="font-weight:500">1</span><span>+</span></div>
+      <div class="btn dark" style="flex:1"><span>Add to bag</span><span class="arrow">→</span></div>
+    </div>
+    <div class="lab" style="margin-top:12px;text-align:center">Kigali: delivered tomorrow · MoMo or card</div>
+  </div>
+  <div class="home"></div>
+</div>
+
+<!-- 4 MOMO CHECKOUT -->
+<div class="scr" id="s4">
+  <div class="sbslot"></div>
+  <div class="nav"><span style="font-size:14px">← Bag</span><span class="wm">imisozi</span><span class="lab">Step 3 of 3</span></div>
+  <div style="padding:18px 20px 0"><h1 style="font-size:52px">Pay with<br><span class="serif" style="font-size:58px">MoMo.</span></h1></div>
+  <div style="margin:22px 16px 0" class="cardx">
+    <div style="padding:16px">
+      <div class="row"><span class="lab">MTN MoMo number</span><span style="font-size:12px;color:var(--moss)">● Verified</span></div>
+      <div class="tnum" style="font-size:24px;font-weight:500;letter-spacing:-.01em;margin-top:8px">078 512 4412</div>
+    </div>
+    <div style="border-top:1px solid var(--line);padding:16px;display:flex;gap:14px;align-items:center">
+      <svg width="44" height="44" viewBox="0 0 44 44"><circle cx="22" cy="22" r="19" fill="none" stroke="var(--line)" stroke-width="3"/><circle cx="22" cy="22" r="19" fill="none" stroke="var(--clay)" stroke-width="3" stroke-linecap="round" stroke-dasharray="119.4" stroke-dashoffset="44" transform="rotate(-90 22 22)"/></svg>
+      <div><div style="font-size:15px;font-weight:500">Approve on your phone</div><div style="font-size:13px;color:var(--mid);margin-top:2px">Enter your MoMo PIN in the prompt. <span class="tnum">0:48</span> left.</div></div>
+    </div>
+  </div>
+  <div style="margin:12px 16px 0;padding:4px 16px" class="cardx">
+    <div class="row" style="padding:12px 0;border-bottom:1px solid var(--line);font-size:14px"><span>Huye Mountain · whole bean</span><span class="tnum">9,500</span></div>
+    <div class="row" style="padding:12px 0;border-bottom:1px solid var(--line);font-size:14px"><span>Nyamasheke · filter</span><span class="tnum">10,500</span></div>
+    <div class="row" style="padding:12px 0;border-bottom:1px solid var(--line);font-size:14px"><span>Delivery · Kigali, tomorrow</span><span style="color:var(--moss)">Free</span></div>
+    <div class="row" style="padding:14px 0 10px"><span class="lab">Total</span><span class="tnum" style="font-size:22px;font-weight:500">RWF 20,000</span></div>
+  </div>
+  <div style="position:absolute;left:16px;right:16px;bottom:44px"><div class="btn light"><span>Pay by card instead</span><span class="arrow">→</span></div></div>
+  <div class="home"></div>
+</div>
+
+<!-- 5 ORDER -->
+<div class="scr" id="s5" style="background:var(--huye);color:var(--paper)">
+  <div class="sbslot"></div>
+  <div class="nav" style="border-color:#3a3530"><span class="wm">imisozi</span><span class="r"><span class="u">Menu</span></span></div>
+  <div style="padding:18px 20px 0"><span class="lab" style="color:#9d958a">Order IMZ-2047</span>
+    <h1 style="font-size:58px;margin-top:12px">Roasting<br><span class="serif" style="font-size:64px">now.</span></h1>
+    <p style="font-size:14px;color:#b5ada2;margin-top:12px;max-width:280px;line-height:1.45">Paid with MoMo. We roast on Monday and Thursday and send it the same day.</p></div>
+  <div style="margin:26px 20px 0;display:grid;gap:0" id="steps"></div>
+  <svg class="contours" style="bottom:0;height:150px;opacity:.9" viewBox="0 0 390 150" preserveAspectRatio="none" id="dk"></svg>
+  <div class="home" style="background:var(--paper)"></div>
+</div>
+
+<script>
+const t=document.getElementById('sbt');document.querySelectorAll('.sbslot').forEach(s=>s.replaceWith(t.content.cloneNode(true)));
+// contour band: stacked hill lines, like a survey drawing of the three hills
+function contours(svg,n,col,w,h){let p='';for(let i=0;i<n;i++){const y=12+i*(h-12)/n;let d=`M0 ${y}`;for(let x=0;x<=w;x+=6){const k=1-i/n;const yy=y-k*(14*Math.exp(-(((x-70)/48)**2))+22*Math.exp(-(((x-200)/60)**2))+12*Math.exp(-(((x-320)/44)**2)));d+=` L${x} ${yy.toFixed(1)}`}p+=`<path d="${d}" fill="none" stroke="${col}" stroke-width="${i%4==0?1.1:.6}"/>`}svg.innerHTML=p}
+
+contours(document.getElementById('dk'),14,'#5a534b',390,150);
+// origins cards
+const O=[['01','Huye Mountain','Southern Province · washed','Red plum, black tea','1,800 m','9,500','50%','huye1.png'],['02','Nyamasheke','Lake Kivu · natural','Hibiscus, cacao','1,700 m','10,500','12%','nyam1.png'],['03','Gakenke','Northern Province · honey','Brown sugar, citrus','1,900 m','9,500','90%','gak1.png']];
+document.querySelectorAll('[data-origin]').forEach(el=>{const o=O[+el.dataset.origin];el.innerHTML=`<div style="display:grid;grid-template-columns:104px 1fr;"><div style="height:150px;overflow:hidden;background:#E2E0DC"><img src="${o[7]}" style="width:100%;height:100%;object-fit:cover;object-position:50% 50%"></div><div style="padding:12px 14px;display:flex;flex-direction:column;justify-content:space-between"><div class="row"><span class="num">${o[0]}</span><span class="tnum" style="font-size:13px;font-weight:500">RWF ${o[5]}</span></div><div><div style="font-size:19px;font-weight:500;letter-spacing:-.02em">${o[1]}</div><div style="font-size:12.5px;color:var(--mid);margin-top:2px">${o[2]}</div></div><div class="row"><span style="font-size:12.5px">${o[3]}</span><span class="lab">${o[4]}</span></div></div></div>`});
+// tab bar
+const tabs=[['Shop','M4 7h16l-1.5 12h-13zM8 7a4 4 0 0 1 8 0'],['Origins','M3 19l6-9 4 5 3-4 5 8z'],['Orders','M5 4h14v16H5zM8 9h8M8 13h8M8 17h5'],['Account','M12 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM4 20c1.5-4 4.5-5 8-5s6.5 1 8 5']];
+document.querySelectorAll('.tabbar').forEach(tb=>tb.innerHTML=tabs.map((t,i)=>`<div class="tab ${i==1?'on':''}"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="${t[1]}"/></svg>${t[0]}</div>`).join(''));
+// altitude profile on product page
+(function(){const s=document.getElementById('alt');let d='M0 60';for(let x=0;x<=350;x+=5){const y=60-(30*Math.exp(-(((x-175)/70)**2))+10*Math.exp(-(((x-60)/40)**2))+8*Math.exp(-(((x-290)/40)**2)));d+=` L${x} ${y.toFixed(1)}`}
+s.innerHTML=`<path d="${d} L350 66 L0 66Z" fill="#E8E3DA"/><path d="${d}" fill="none" stroke="#1C1916" stroke-width="1.2"/><line x1="175" y1="10" x2="175" y2="66" stroke="#96442E" stroke-dasharray="2 3"/><circle cx="175" cy="30" r="3.5" fill="#96442E"/><text x="183" y="20" font-family="PM" font-size="9.5" letter-spacing=".6" fill="#1C1916">FARMS · 1,800 M</text><text x="0" y="8" font-family="PM" font-size="9" fill="#6E675E">ALTITUDE</text>`})();
+// order steps
+const S=[['Paid','MoMo · 14:32','done'],['Roasting','Started 15:10','now'],['Packed','Thursday',''],['On the way','Kigali · by 18:00','']];
+document.getElementById('steps').innerHTML=S.map((s,i)=>`<div style="display:grid;grid-template-columns:22px 1fr auto;gap:12px;align-items:center;padding:14px 0;border-top:1px solid #3a3530;${s[2]==''?'opacity:.45':''}"><span style="width:12px;height:12px;border-radius:50%;${s[2]=='done'?'background:#F3F0EA':s[2]=='now'?'background:#96442E;box-shadow:0 0 0 5px rgba(150,68,46,.25)':'border:1px solid #9d958a'}"></span><span style="font-size:17px;font-weight:500">${s[0]}</span><span class="lab" style="color:#9d958a">${s[1]}</span></div>`).join('');
+</script></body></html>
