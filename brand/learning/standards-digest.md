@@ -26,6 +26,11 @@ One page to read before every build. Sources: motto-captions, motto-ivo, motto-i
 - Case studies run as a series: problem, decisions (→ bullets), type and colour with reasons, one true result or "concept", link.
 - Credit everyone. Never fake a testimonial or a result. No repeat projects on the same platform.
 
+## Beating "AI could make this" (minimalism-2026)
+- Empty space alone now reads as cheap. Add precision (grid, measured construction), specificity (a sourced motif, a typeface with a reason) and a human trace.
+- Concepts are whole worlds (line → voice → mark → system → product → merch → site → posts), never one-off frames. Flagship 01: `brand/ideas/flagship-01.md`.
+- One construction idea per brand generates the mark, pattern, UI, merch and motion.
+
 ## Business
 - Sell to trigger moments (funding, a second branch, moving from Instagram to a shop, the Gulf, a hotel launch).
 - Named paths with prices (Mark from $800). Every project page ends with a live link and one call to action.
