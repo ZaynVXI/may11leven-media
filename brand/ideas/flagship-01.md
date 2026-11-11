@@ -63,3 +63,14 @@ Then the case study carousel and a "View live site" link.
 - https://hospitalitydesign.com/people/independent-hoteliers-boutique-hotels/188916
 - https://www.casestudies.com/company/motto/case-study/studio-dado-refreshes-its-brand-across-7-service-areas-with-motto
 - https://wearemotto.com/blog/motto-rebrand
+
+## Idea test results (10 simulated small-hotel owners, same buyers both rounds)
+- **v1:** 0/10. New confusion it created: "guests don't download apps", "I already pay for a booking engine", "I'd lose Booking.com visibility".
+- **v2 changes:** the arrival page opens from a WhatsApp link (no app); "keep Booking.com for new guests"; plugs into the booking engine they already use; a worked commission example labelled as an illustration; a free calculator as the ask.
+- **v2:** 0/10 buy, as expected with no client proof. Gate **passed**: the app and visibility confusion is gone, and two owners said they'd run their own numbers through the calculator first.
+- **Still open:** (1) proof from a real guesthouse; nothing replaces it, and we never fake it. (2) The example must say it only counts guests who found you on Instagram or came back, not guests Booking.com brought. (3) Show what the page adds that their booking engine doesn't: on-brand flow, deposit, day-before reminder, arrival page.
+
+## Decisions
+1. **Build the free Commission calculator first** (a working tool, like Check): rooms, nightly rate, commission %, share of guests from Instagram, WhatsApp and repeat stays → what they pay each month for guests they found themselves. Nothing leaves the page.
+2. Then the Kusi House world, with the calculator as the post's ask.
+3. Real proof needs one real pilot guesthouse. That's Zayn's call; we never contact anyone ourselves.
