@@ -56,4 +56,5 @@ Sources: W3C WAI (WCAG 3 draft, March 2026), testparty.ai EAA checklist, OpusCli
 - 2.4.11 Focus Not Obscured (Minimum): a focused control must not be fully hidden by author content (sticky headers, cookie bars). Keep sticky bars short and add scroll-padding-top.
 - Also: plans and diagrams are images; give the SVG role="img" and a label that says what is highlighted and why, not "floor plan".
 - Applied today on the Kilele page: dim tint 45% to 62%, mono labels 11 px to 12 px, a visible 2 px Infrared focus ring, SVG label naming 6B, its size and its west facade. webaudit: v1 had 50 failures, v2 has 0.
+- Infrared #FF4A1C on Bone is 2.82:1: never for text on Bone, and too weak even for outlines and focus rings (3:1). On Bone use deep Infrared #D9380F (3.9:1) for non-text marks and Ink for any label. Our webaudit now checks SVG text by its fill.
 - Source: W3C WAI "What's new in WCAG 2.2".

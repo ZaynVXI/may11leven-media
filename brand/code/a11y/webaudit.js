@@ -15,9 +15,9 @@ const fs=require('fs');
     const bgOf=el=>{while(el){const s=getComputedStyle(el);const c=P(s.backgroundColor);if(c&&(c.length<4||c[3]>0.5))return c.slice(0,3);if(el.tagName==='IMG')return null;el=el.parentElement}return [255,255,255]};
     const res=[];
     for(const el of document.querySelectorAll('body *')){
-      if(!el.offsetParent&&getComputedStyle(el).position!=='fixed')continue;
+      const isSvg=el instanceof SVGElement;if(!isSvg&&!el.offsetParent&&getComputedStyle(el).position!=='fixed')continue;if(isSvg&&el.tagName.toLowerCase()!=='text'&&el.tagName.toLowerCase()!=='tspan')continue;
       const t=[...el.childNodes].filter(n=>n.nodeType===3).map(n=>n.textContent).join('').trim();if(!t)continue;
-      const s=getComputedStyle(el);const fg=P(s.color);let op=1,e=el;while(e){op*=+getComputedStyle(e).opacity;e=e.parentElement}
+      const s=getComputedStyle(el);const fg=P(isSvg?s.fill:s.color);let op=1,e=el;while(e){op*=+getComputedStyle(e).opacity;e=e.parentElement}
       const bg=bgOf(el);if(!bg)continue;
       const fgc=fg.slice(0,3).map((v,i)=>v*(fg[3]!==undefined?fg[3]:1)*op+bg[i]*(1-(fg[3]!==undefined?fg[3]:1)*op));
       const a=L(fgc),bb=L(bg);const ratio=(Math.max(a,bb)+.05)/(Math.min(a,bb)+.05);
