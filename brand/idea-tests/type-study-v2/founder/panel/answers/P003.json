@@ -1,0 +1,13 @@
+{
+  "id": "P003",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "trust",
+  "reason": "The slides are nice to look at, but it is the studio talking about its own letters and logo. Nothing shows a business like mine that they rebranded, what it looked like before and after, or what it cost. I might drop a comment for a free look because it costs me nothing, but I would not pay anyone off this carousel.",
+  "objection": "A free first look usually turns into a sales call, and I have no idea what I would be paying for or how much it is.",
+  "would_change_my_mind": "Real before-and-after work from hotels or clinics like mine, with a clear price range I can see before I speak to anyone.",
+  "price_too_cheap": 150,
+  "price_cheap": 600,
+  "price_expensive": 2000,
+  "price_too_expensive": 3500
+}

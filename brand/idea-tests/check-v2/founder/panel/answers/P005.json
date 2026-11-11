@@ -1,0 +1,13 @@
+{
+  "id": "P005",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "need",
+  "reason": "The problem on the cover is a Nairobi shop getting fake M-Pesa texts, and that is not my problem. Pretty slides about a till I don't have, from a design studio talking to other designers, don't get me to pay anything this year.",
+  "objection": "I can't see what this does for my business in particular. It reads like something built for a shop in Kenya, and I'd have to work out whether any of it fits my own takings before I could trust it.",
+  "would_change_my_mind": "A short example using the card or booking system I already run, showing the exact money it would have caught last month, with a clear price I could cancel in a month.",
+  "price_too_cheap": 15,
+  "price_cheap": 60,
+  "price_expensive": 150,
+  "price_too_expensive": 250
+}

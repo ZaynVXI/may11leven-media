@@ -1,0 +1,13 @@
+{
+  "id": "P001",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "trust",
+  "reason": "It is a pretty carousel about a concept, labelled 'not a live product', with no client, no result and no number from a real till. I follow studios for their work, but I would not hand my money or my payment checks to a design studio on the strength of a story slide.",
+  "objection": "I do not see real clients or results. Where is one business that ran this and what changed?",
+  "would_change_my_mind": "A named client, or a live trial on my own till data showing it catches a fake payment before I release goods, with the results shown to me first.",
+  "price_too_cheap": 99,
+  "price_cheap": 250,
+  "price_expensive": 900,
+  "price_too_expensive": 2000
+}

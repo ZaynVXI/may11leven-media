@@ -1,0 +1,13 @@
+{
+  "id": "P003",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "price",
+  "reason": "A free first look costs me nothing, so I would comment 11 out of curiosity and to see what they would say about my brand. I would not pay a studio for a full identity this year, because I assume a design like this is out of my budget and I can get a logo done cheaper elsewhere.",
+  "objection": "The carousel shows nice craft on a letter and a logo, but it never shows a price or a business like mine, so I cannot tell if a full identity from them is affordable or worth more than a cheap designer.",
+  "would_change_my_mind": "A clear starting price on the page and a case study from a hotel, clinic or restaurant that looks like my business and shows what the identity earned them.",
+  "price_too_cheap": 400,
+  "price_cheap": 1200,
+  "price_expensive": 4500,
+  "price_too_expensive": 8000
+}

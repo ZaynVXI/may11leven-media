@@ -1,0 +1,13 @@
+{
+  "id": "P002",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "need",
+  "reason": "I run a small business and I do want a new look, but this is a scam-checker for M-Pesa messages, and the slides say it is only a concept. I can't buy a concept, and it doesn't touch my rebrand at all, so I'd scroll past it.",
+  "objection": "This looks like design for designers, not for my business. I don't see what it does for my bookings or my brand, and it's not even a product I can sign up for.",
+  "would_change_my_mind": "A clear, priced offer that rebuilds my brand and shows me before-and-after work for a business like mine, with a live product I can try.",
+  "price_too_cheap": 15,
+  "price_cheap": 49,
+  "price_expensive": 149,
+  "price_too_expensive": 300
+}

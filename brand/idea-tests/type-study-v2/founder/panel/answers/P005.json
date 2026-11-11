@@ -1,0 +1,13 @@
+{
+  "id": "P005",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "price",
+  "reason": "I run a small business on tight money, and this post never says what anything costs. Pretty letters are nice, but I'd still want to know the price before I give up a WhatsApp break to think about it.",
+  "objection": "Is a remote studio worth it compared to someone local? I can't sit across a table from them, and a designer who isn't here worries me when something goes wrong.",
+  "would_change_my_mind": "A clear price range for a brand identity and a few examples of small local businesses like mine they have already done, with a local contact I can call.",
+  "price_too_cheap": 30,
+  "price_cheap": 120,
+  "price_expensive": 350,
+  "price_too_expensive": 700
+}

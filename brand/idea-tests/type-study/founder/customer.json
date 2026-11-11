@@ -1,0 +1,33 @@
+{
+  "business": "May11Leven Labs, a small design studio (brand identity, websites, apps, 3D, automation, AI agents, content) that markets itself on Instagram",
+  "target": "Owners and marketing leads of growing businesses that sell on looks and trust: hotels and lodges, real estate, clinics, restaurants and cafes, fashion and beauty brands, schools",
+  "where": "Kenya, Rwanda, Tanzania, Uganda, Nigeria, Ghana, South Africa first; UAE and Saudi Arabia second; anywhere else third. Scrolling Instagram on a phone.",
+  "age": [25, 50],
+  "segments": [
+    {"name": "Small business owner (1-10 staff)", "share": 0.45, "income": [12000, 60000]},
+    {"name": "Growing business owner or founder (10-50 staff)", "share": 0.35, "income": [40000, 150000]},
+    {"name": "Marketing lead at an established company", "share": 0.20, "income": [30000, 120000]}
+  ],
+  "behaviours": [
+    {"name": "Busy scroller", "share": 0.25, "how": "Scrolls between tasks, stops only for something instantly clear."},
+    {"name": "Design-aware", "share": 0.15, "how": "Follows studios, saves nice work, compares feeds before hiring."},
+    {"name": "Price-first", "share": 0.20, "how": "Assumes good design is expensive, looks for the cheapest option."},
+    {"name": "Has a designer already", "share": 0.15, "how": "Works with a freelancer or a nephew who does logos."},
+    {"name": "Trust-checker", "share": 0.15, "how": "Wants proof: real clients, results, a local presence."},
+    {"name": "Ready to rebrand", "share": 0.10, "how": "Knows the brand looks dated and is actively looking."}
+  ],
+  "objections": [
+    "Is a remote studio worth it compared to someone local?",
+    "Will better design actually bring more customers?",
+    "It is probably too expensive for us",
+    "We already have a designer",
+    "This looks like design for designers, not for my business",
+    "I do not see real clients or results"
+  ],
+  "habits": [
+    "you check Instagram on WhatsApp breaks during the work day",
+    "your competitor just opened with a slick new look",
+    "you post your own flyers made in Canva",
+    "you are planning a launch or expansion this year"
+  ]
+}

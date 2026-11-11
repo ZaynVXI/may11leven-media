@@ -1,0 +1,13 @@
+{
+  "id": "P007",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "price",
+  "reason": "I scrolled past it. I don't run a shop with an M-Pesa till, so the cover is a problem I don't have, and it's labelled a concept, not a product. Even if I did run a till, my first thought is that this is probably too expensive for a team like ours.",
+  "objection": "I would have to give a studio I've never heard of read access to my payment statements. Who holds that data, and what happens when the feed breaks at closing time?",
+  "would_change_my_mind": "A live product with a free trial, a named M-Pesa integration, and a demo run on a real till that shows the reply in two seconds.",
+  "price_too_cheap": 5,
+  "price_cheap": 15,
+  "price_expensive": 40,
+  "price_too_expensive": 80
+}

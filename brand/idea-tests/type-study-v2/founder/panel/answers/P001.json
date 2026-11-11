@@ -1,0 +1,13 @@
+{
+  "id": "P001",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "trust",
+  "reason": "It's nice to look at, but it's all about letter spacing and logo measurements. I run a growing business and I need to know that a new brand will bring me more customers, and this post never says that.",
+  "objection": "Will better design actually bring more customers? The post talks about measuring letters and a logo, not about bookings, sales or clients, so I can't tell what I'd get for my money.",
+  "would_change_my_mind": "A real before-and-after case where a business like mine got more enquiries or sales after a rebrand, with the numbers shown.",
+  "price_too_cheap": 500,
+  "price_cheap": 2000,
+  "price_expensive": 6000,
+  "price_too_expensive": 12000
+}

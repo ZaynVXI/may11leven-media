@@ -1,0 +1,13 @@
+{
+  "id": "P005",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "need",
+  "reason": "I make my own flyers in Canva and I'm not in the market for a brand identity right now. A post about letter outlines and measured logo bars makes me think it's for designers, not for someone running marketing at a company like mine.",
+  "objection": "Nothing on the slides tells me what a brand identity costs or what I'd actually get back, so I assume it's out of our budget and I scroll on.",
+  "would_change_my_mind": "A clear price range for a full identity, and a before-and-after from a business like ours, such as a hotel or a clinic, that shows the result we'd get.",
+  "price_too_cheap": 300,
+  "price_cheap": 1500,
+  "price_expensive": 5000,
+  "price_too_expensive": 10000
+}

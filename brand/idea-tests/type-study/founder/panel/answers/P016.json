@@ -1,0 +1,13 @@
+{
+  "id": "P016",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "trust",
+  "reason": "I already have a designer I trust, and a freelancer or my nephew handles the logos. The carousel is nice to look at, but it does not tell me why a studio that is not local would understand my business better than the people I already work with.",
+  "objection": "Is a remote studio worth it compared to someone local? I cannot tell from a feed post whether they would know my market or answer my calls.",
+  "would_change_my_mind": "A clear example of a business like mine, close to my market, that they redesigned and that did better afterwards, plus a price I can see before I commit time to a call.",
+  "price_too_cheap": 150,
+  "price_cheap": 400,
+  "price_expensive": 900,
+  "price_too_expensive": 1500
+}
