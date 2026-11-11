@@ -1,0 +1,751 @@
+[
+ {
+  "name": "Blue Oyster Hotel",
+  "type": "hotel",
+  "rooms": "15",
+  "url": "https://blueoysterhotel.com/",
+  "host": "blueoysterhotel.com"
+ },
+ {
+  "name": "Baobab Beach Resort",
+  "type": "hotel",
+  "rooms": null,
+  "url": "http://kiwiresorts.it/resorts/baobab-beach-resort",
+  "host": "kiwiresorts.it"
+ },
+ {
+  "name": "Asmini Palace",
+  "type": "hotel",
+  "rooms": null,
+  "url": "https://www.asminipalace.com/",
+  "host": "asminipalace.com"
+ },
+ {
+  "name": "Clove Hotel",
+  "type": "hotel",
+  "rooms": null,
+  "url": "http://www.clovehotel.com",
+  "host": "clovehotel.com"
+ },
+ {
+  "name": "Dhow Palace Hotel",
+  "type": "hotel",
+  "rooms": null,
+  "url": "http://dhowpalace-hotel.com/",
+  "host": "dhowpalace-hotel.com"
+ },
+ {
+  "name": "Mbweni Ruins Hotel",
+  "type": "hotel",
+  "rooms": null,
+  "url": "https://beach-resort-zanzibar.com/",
+  "host": "beach-resort-zanzibar.com"
+ },
+ {
+  "name": "Sea Cliff Resort & Spa",
+  "type": "hotel",
+  "rooms": null,
+  "url": "http://www.seacliffzanzibar.com",
+  "host": "seacliffzanzibar.com"
+ },
+ {
+  "name": "Ndame Beach Lodge",
+  "type": "hotel",
+  "rooms": null,
+  "url": "https://ndamezanzibar.com/",
+  "host": "ndamezanzibar.com"
+ },
+ {
+  "name": "Ras Michamvi",
+  "type": "hotel",
+  "rooms": null,
+  "url": "https://www.ras-michamvi.com",
+  "host": "ras-michamvi.com"
+ },
+ {
+  "name": "Shaba Boutique Hotel",
+  "type": "hotel",
+  "rooms": null,
+  "url": "https://www.hotelzanzibar.com/shaba-boutique-hotel/",
+  "host": "hotelzanzibar.com"
+ },
+ {
+  "name": "Zanzibar Ocean View",
+  "type": "hotel",
+  "rooms": null,
+  "url": "https://www.oceangrouphotel.com/zanzibar-ocean-view.php",
+  "host": "oceangrouphotel.com"
+ },
+ {
+  "name": "Emerson Spice Hotel",
+  "type": "hotel",
+  "rooms": null,
+  "url": "https://www.emersonspice.com/",
+  "host": "emersonspice.com"
+ },
+ {
+  "name": "Zanzibar Ocean Blue",
+  "type": "hotel",
+  "rooms": null,
+  "url": "http://www.zanzibaroceanblue.com/",
+  "host": "zanzibaroceanblue.com"
+ },
+ {
+  "name": "Dhow Inn",
+  "type": "hotel",
+  "rooms": null,
+  "url": "https://www.dhowinn.com/",
+  "host": "dhowinn.com"
+ },
+ {
+  "name": "Savana & Ocean",
+  "type": "hotel",
+  "rooms": null,
+  "url": "http://hotel.savanna-ocean.com/en/",
+  "host": "hotel.savanna-ocean.com"
+ },
+ {
+  "name": "Baraza Resort & Spa Zanzibar",
+  "type": "hotel",
+  "rooms": null,
+  "url": "https://www.baraza-zanzibar.com/",
+  "host": "baraza-zanzibar.com"
+ },
+ {
+  "name": "Breezes Beach Club Zanzibar",
+  "type": "hotel",
+  "rooms": null,
+  "url": "https://www.breezes-zanzibar.com/",
+  "host": "breezes-zanzibar.com"
+ },
+ {
+  "name": "The Palms Zanzibar",
+  "type": "hotel",
+  "rooms": null,
+  "url": "https://www.palms-zanzibar.com/",
+  "host": "palms-zanzibar.com"
+ },
+ {
+  "name": "Demani Lodge",
+  "type": "hostel",
+  "rooms": null,
+  "url": "https://www.demanilodge.com/",
+  "host": "demanilodge.com"
+ },
+ {
+  "name": "Evergreen Bungalows",
+  "type": "guest_house",
+  "rooms": null,
+  "url": "http://www.evergreen-bungalows.com",
+  "host": "evergreen-bungalows.com"
+ },
+ {
+  "name": "Summer Dream Lodge",
+  "type": "hostel",
+  "rooms": null,
+  "url": "https://www.summerdreamlodge.com/",
+  "host": "summerdreamlodge.com"
+ },
+ {
+  "name": "Crazy Mzungo's Beach Lounge",
+  "type": "hostel",
+  "rooms": null,
+  "url": "http://www.crazymzungos.com",
+  "host": "crazymzungos.com"
+ },
+ {
+  "name": "Mashariki Palace Hotel",
+  "type": "hotel",
+  "rooms": null,
+  "url": "http://www.masharikipalacehotel.com",
+  "host": "masharikipalacehotel.com"
+ },
+ {
+  "name": "The Swahili House",
+  "type": "hotel",
+  "rooms": null,
+  "url": "http://www.theswahilihouse.com",
+  "host": "theswahilihouse.com"
+ },
+ {
+  "name": "TUI Blue Bahari Zanzibar Hotel",
+  "type": "hotel",
+  "rooms": null,
+  "url": "https://www.tui.com/hotels/tui-blue-bahari-zanzibar-134347",
+  "host": "tui.com"
+ },
+ {
+  "name": "Garden Beach Bungalow",
+  "type": "hotel",
+  "rooms": null,
+  "url": "https://www.garden-Bungalows.com",
+  "host": "garden-bungalows.com"
+ },
+ {
+  "name": "Paradise Beach Hotel Resort",
+  "type": "hotel",
+  "rooms": "75",
+  "url": "http://paradisebeachresort.com/",
+  "host": "paradisebeachresort.com"
+ },
+ {
+  "name": "Ally Key's Bungalows",
+  "type": "hotel",
+  "rooms": null,
+  "url": "http://www.allykeys.com",
+  "host": "allykeys.com"
+ },
+ {
+  "name": "Baraka Beach Bungalows",
+  "type": "hotel",
+  "rooms": null,
+  "url": "http://barakabungalows.atspace.com",
+  "host": "barakabungalows.atspace.com"
+ },
+ {
+  "name": "Freddy Mercury House",
+  "type": "hotel",
+  "rooms": "4",
+  "url": "https://freddiemercurymuseum.com/",
+  "host": "freddiemercurymuseum.com"
+ },
+ {
+  "name": "Paje Hotel",
+  "type": "hotel",
+  "rooms": null,
+  "url": "http://www.pajehotel.com",
+  "host": "pajehotel.com"
+ },
+ {
+  "name": "Menai Beach Bungalows",
+  "type": "guest_house",
+  "rooms": null,
+  "url": "http://www.visitzanzibar.se",
+  "host": "visitzanzibar.se"
+ },
+ {
+  "name": "Mango Beach House",
+  "type": "guest_house",
+  "rooms": null,
+  "url": "https://www.mango-beachhouse.com/",
+  "host": "mango-beachhouse.com"
+ },
+ {
+  "name": "Mama Mapambo",
+  "type": "hotel",
+  "rooms": null,
+  "url": "https://www.mamamapambo.com/",
+  "host": "mamamapambo.com"
+ },
+ {
+  "name": "Kikoi Boutique Hotel",
+  "type": "hotel",
+  "rooms": null,
+  "url": "https://kikoiboutiquehotel.com/",
+  "host": "kikoiboutiquehotel.com"
+ },
+ {
+  "name": "Lulu Home",
+  "type": "guest_house",
+  "rooms": null,
+  "url": "https://www.lulu-home.net/",
+  "host": "lulu-home.net"
+ },
+ {
+  "name": "Seyyida Hotel and Spa",
+  "type": "hotel",
+  "rooms": null,
+  "url": "https://theseyyida-zanzibar.com",
+  "host": "theseyyida-zanzibar.com"
+ },
+ {
+  "name": "Jacob's Inn Jambiani",
+  "type": "guest_house",
+  "rooms": "6",
+  "url": "https://jacobs-inn-jambiani.business.site/",
+  "host": "jacobs-inn-jambiani.business.site"
+ },
+ {
+  "name": "Pongwe Beach Hotel",
+  "type": "hotel",
+  "rooms": null,
+  "url": "https://pongwe.com/",
+  "host": "pongwe.com"
+ },
+ {
+  "name": "Al-Minar",
+  "type": "hotel",
+  "rooms": null,
+  "url": "https://alminarhotel.com/",
+  "host": "alminarhotel.com"
+ },
+ {
+  "name": "Surfescape",
+  "type": "apartment",
+  "rooms": null,
+  "url": "http://surfescapevillages.com",
+  "host": "surfescapevillages.com"
+ },
+ {
+  "name": "Mahali Zanzibar",
+  "type": "hotel",
+  "rooms": "24",
+  "url": "https://www.mahalizanzibar.com/",
+  "host": "mahalizanzibar.com"
+ },
+ {
+  "name": "GOasis",
+  "type": "hotel",
+  "rooms": null,
+  "url": "https://www.goasisznz.com/",
+  "host": "goasisznz.com"
+ },
+ {
+  "name": "Konokono Beach Resort",
+  "type": "hotel",
+  "rooms": null,
+  "url": "https://konokonozanzibar.com/",
+  "host": "konokonozanzibar.com"
+ },
+ {
+  "name": "Sarabi Zanzibar",
+  "type": "hotel",
+  "rooms": null,
+  "url": "https://www.sarabizanzibar.com/",
+  "host": "sarabizanzibar.com"
+ },
+ {
+  "name": "Beyt Al Salaam",
+  "type": "hotel",
+  "rooms": null,
+  "url": "https://beytalsalaam.com/",
+  "host": "beytalsalaam.com"
+ },
+ {
+  "name": "Olamanga Guest House",
+  "type": "guest_house",
+  "rooms": null,
+  "url": "https://abnb.me/QmHWZe93m0",
+  "host": "abnb.me"
+ },
+ {
+  "name": "Jambiani Villas",
+  "type": "hotel",
+  "rooms": null,
+  "url": "https://jambiani-villas.com/",
+  "host": "jambiani-villas.com"
+ },
+ {
+  "name": "The African Paradise Beach Hotel",
+  "type": "hotel",
+  "rooms": null,
+  "url": "https://www.theafricanparadise.com/",
+  "host": "theafricanparadise.com"
+ },
+ {
+  "name": "Meli\u00e1 Zanzibar",
+  "type": "hotel",
+  "rooms": null,
+  "url": "https://www.melia.com/fr/hotels/tanzanie/zanzibar/melia-zanzibar",
+  "host": "melia.com"
+ },
+ {
+  "name": "Makofi Guest House",
+  "type": "hotel",
+  "rooms": null,
+  "url": "https://www.makofiguesthouse.com/",
+  "host": "makofiguesthouse.com"
+ },
+ {
+  "name": "Bitcoin Beach Hotel Zanzibar",
+  "type": "hotel",
+  "rooms": null,
+  "url": "https://taplink.cc/bitcoinhotel_zanzibar",
+  "host": "taplink.cc"
+ },
+ {
+  "name": "Santa Maria Coral Park",
+  "type": "hotel",
+  "rooms": null,
+  "url": "http://www.santamaria-zanzibar.com/",
+  "host": "santamaria-zanzibar.com"
+ },
+ {
+  "name": "Residence Gadea Zanzibar",
+  "type": "hotel",
+  "rooms": null,
+  "url": "https://www.residencegadeazanzibar.com/",
+  "host": "residencegadeazanzibar.com"
+ },
+ {
+  "name": "Golden Tulip Zanzibar Airport",
+  "type": "hotel",
+  "rooms": null,
+  "url": "https://zanzibar-airport.goldentulip.com/en-us/",
+  "host": "zanzibar-airport.goldentulip.com"
+ },
+ {
+  "name": "Zanzibar Queen",
+  "type": "hotel",
+  "rooms": null,
+  "url": "https://www.zanzibarqueen.com/",
+  "host": "zanzibarqueen.com"
+ },
+ {
+  "name": "Sea Crest Hotel",
+  "type": "hotel",
+  "rooms": null,
+  "url": "https://sea-crest-hotel.business.site/",
+  "host": "sea-crest-hotel.business.site"
+ },
+ {
+  "name": "Jambiani Guest Lodge Beach",
+  "type": "guest_house",
+  "rooms": "3",
+  "url": "https://mbaliparadise.com/jambiani-guest-lodge/die-lodge/",
+  "host": "mbaliparadise.com"
+ },
+ {
+  "name": "Majani Breeze guest house",
+  "type": "guest_house",
+  "rooms": null,
+  "url": "https://majanibreeze.com/",
+  "host": "majanibreeze.com"
+ },
+ {
+  "name": "Golden Palm Boutique Hotel",
+  "type": "hotel",
+  "rooms": "11",
+  "url": "https://www.goldenpalmzanzibar.com/",
+  "host": "goldenpalmzanzibar.com"
+ },
+ {
+  "name": "BaraBara Boutique Hotel",
+  "type": "hotel",
+  "rooms": "8",
+  "url": "https://www.barabara-zanzibar.com/",
+  "host": "barabara-zanzibar.com"
+ },
+ {
+  "name": "Zanzibar White Sand Luxury Villas & Spa - Relais & Chateaux",
+  "type": "hotel",
+  "rooms": null,
+  "url": "https://www.whitesandvillas.com/",
+  "host": "whitesandvillas.com"
+ },
+ {
+  "name": "AVO Boutique Hotel",
+  "type": "hotel",
+  "rooms": null,
+  "url": "https://avohotelznz.com/",
+  "host": "avohotelznz.com"
+ },
+ {
+  "name": "Dreamer\u2018s Island",
+  "type": "hostel",
+  "rooms": "4",
+  "url": "https://www.itraveltanzania.com/dreamers-island",
+  "host": "itraveltanzania.com"
+ },
+ {
+  "name": "The Mora",
+  "type": "hostel",
+  "rooms": null,
+  "url": "https://www.themora.com/",
+  "host": "themora.com"
+ },
+ {
+  "name": "Khulala Ocean Blue Bungalows",
+  "type": "hotel",
+  "rooms": null,
+  "url": "https://khulala-ocean-blue-bungalows.zanzibarhotelstoday.com/en/",
+  "host": "khulala-ocean-blue-bungalows.zanzibarhotelstoday.com"
+ },
+ {
+  "name": "Zula Zanzibar",
+  "type": "hotel",
+  "rooms": null,
+  "url": "https://www.zulazanzibar.com/",
+  "host": "zulazanzibar.com"
+ },
+ {
+  "name": "SBH Kilindini Resort",
+  "type": "hotel",
+  "rooms": "80",
+  "url": "https://www.sbhfue.com/hoteles/sbh-kilindini-resort",
+  "host": "sbhfue.com"
+ },
+ {
+  "name": "little.pompeji boutique hotel",
+  "type": "hotel",
+  "rooms": null,
+  "url": "https://www.littlepompeji.org/",
+  "host": "littlepompeji.org"
+ },
+ {
+  "name": "Kameleon Blue",
+  "type": "hotel",
+  "rooms": null,
+  "url": "https://www.kameleonblue.com",
+  "host": "kameleonblue.com"
+ },
+ {
+  "name": "The Island Pongwe Lodge",
+  "type": "hotel",
+  "rooms": null,
+  "url": "https://www.theislandpongwe.com/",
+  "host": "theislandpongwe.com"
+ },
+ {
+  "name": "Your Zanzibar Place",
+  "type": "hostel",
+  "rooms": null,
+  "url": "https://yourzanzibarplace.com/",
+  "host": "yourzanzibarplace.com"
+ },
+ {
+  "name": "The Neela",
+  "type": "hotel",
+  "rooms": null,
+  "url": "https://neelacollection.com",
+  "host": "neelacollection.com"
+ },
+ {
+  "name": "Zanbluu Beach Hotel",
+  "type": "hotel",
+  "rooms": null,
+  "url": "https://www.zanbluu.com/",
+  "host": "zanbluu.com"
+ },
+ {
+  "name": "Marafiki Bungalows",
+  "type": "hotel",
+  "rooms": null,
+  "url": "http://marafikizanzibar.com/en/",
+  "host": "marafikizanzibar.com"
+ },
+ {
+  "name": "Mia Boutique Hotel",
+  "type": "hotel",
+  "rooms": null,
+  "url": "https://mia-boutique.zanzibarhotelstoday.com/de/",
+  "host": "mia-boutique.zanzibarhotelstoday.com"
+ },
+ {
+  "name": "Le Saint Tropez",
+  "type": "hotel",
+  "rooms": null,
+  "url": "https://www.lesainttropezzanzibar.com/",
+  "host": "lesainttropezzanzibar.com"
+ },
+ {
+  "name": "Paradise city and Jetsurf",
+  "type": "hotel",
+  "rooms": null,
+  "url": "https://www.paradisecity.top/",
+  "host": "paradisecity.top"
+ },
+ {
+  "name": "Kholle House",
+  "type": "hotel",
+  "rooms": null,
+  "url": "https://khollehouse.com/",
+  "host": "khollehouse.com"
+ },
+ {
+  "name": "Subanda Boutique Hotel",
+  "type": "hotel",
+  "rooms": null,
+  "url": "https://subanda.info",
+  "host": "subanda.info"
+ },
+ {
+  "name": "HA Beach Boutique Hotel",
+  "type": "hotel",
+  "rooms": "5",
+  "url": "https://www.habeachzanzibar.com/",
+  "host": "habeachzanzibar.com"
+ },
+ {
+  "name": "Firefly Zanzibar",
+  "type": "hotel",
+  "rooms": null,
+  "url": "https://fireflycollection.co.tz/",
+  "host": "fireflycollection.co.tz"
+ },
+ {
+  "name": "Palumbo Mnemba View",
+  "type": "hotel",
+  "rooms": null,
+  "url": "https://www.palumboresorts.com/palumbo-mnemba-view/",
+  "host": "palumboresorts.com"
+ },
+ {
+  "name": "Waridi Beach Resort",
+  "type": "hotel",
+  "rooms": null,
+  "url": "https://www.waridibeachresort.com/",
+  "host": "waridibeachresort.com"
+ },
+ {
+  "name": "Zoi Retreat Hotel Zanzibar",
+  "type": "hotel",
+  "rooms": null,
+  "url": "https://www.zoiretreatzanzibar.com/",
+  "host": "zoiretreatzanzibar.com"
+ },
+ {
+  "name": "Shoki Shoki Guest House",
+  "type": "guest_house",
+  "rooms": null,
+  "url": "https://shokishokiguesthouse.com/",
+  "host": "shokishokiguesthouse.com"
+ },
+ {
+  "name": "Fun Beach Hotel",
+  "type": "hotel",
+  "rooms": null,
+  "url": "https://www.our-zanzibar.com/hotel/fun-beach-hotel/",
+  "host": "our-zanzibar.com"
+ },
+ {
+  "name": "Kiziparadise",
+  "type": "guest_house",
+  "rooms": null,
+  "url": "https://green-zanzibar.org/",
+  "host": "green-zanzibar.org"
+ },
+ {
+  "name": "Bamboo Zanzibar",
+  "type": "hotel",
+  "rooms": "17",
+  "url": "https://bamboozanzibar.com/",
+  "host": "bamboozanzibar.com"
+ },
+ {
+  "name": "Boutique Hotel Matlai",
+  "type": "hotel",
+  "rooms": "6",
+  "url": "https://www.hotelmatlai.com/",
+  "host": "hotelmatlai.com"
+ },
+ {
+  "name": "Eco Kayak Beach Lodge",
+  "type": "hotel",
+  "rooms": null,
+  "url": "https://ecokayakbeachlodge.com/",
+  "host": "ecokayakbeachlodge.com"
+ },
+ {
+  "name": "",
+  "type": "hotel",
+  "rooms": "97",
+  "url": "https://www.hilton.com/en/hotels/znzdtdi-doubletree-resort-zanzibar-nungwi/",
+  "host": "hilton.com"
+ },
+ {
+  "name": "Echo Beach Hotel",
+  "type": "hotel",
+  "rooms": null,
+  "url": "https://www.echobeachhotel.com/",
+  "host": "echobeachhotel.com"
+ },
+ {
+  "name": "Anna of Zanzibar",
+  "type": "hotel",
+  "rooms": null,
+  "url": "http://www.annaofzanzibar.com",
+  "host": "annaofzanzibar.com"
+ },
+ {
+  "name": "Maru Maru Hotel",
+  "type": "hotel",
+  "rooms": "51",
+  "url": "https://www.marumaruzanzibar.com/",
+  "host": "marumaruzanzibar.com"
+ },
+ {
+  "name": "Africa House Hotel",
+  "type": "hotel",
+  "rooms": null,
+  "url": "http://www.africahousehotel.co.tz",
+  "host": "africahousehotel.co.tz"
+ },
+ {
+  "name": "Park Hyatt Zanzibar",
+  "type": "hotel",
+  "rooms": "67",
+  "url": "https://www.hyatt.com/park-hyatt/en-US/znzph-park-hyatt-zanzibar",
+  "host": "hyatt.com"
+ },
+ {
+  "name": "Tembo House Hotel",
+  "type": "hotel",
+  "rooms": null,
+  "url": "https://tembohotel.com/",
+  "host": "tembohotel.com"
+ },
+ {
+  "name": "Mapenzi Beach Resort",
+  "type": "hotel",
+  "rooms": null,
+  "url": "https://mapenzibeach.diamondsresorts.com/",
+  "host": "mapenzibeach.diamondsresorts.com"
+ },
+ {
+  "name": "Princess Salme Inn",
+  "type": "hotel",
+  "rooms": null,
+  "url": "https://www.princesssalmeinn.com/",
+  "host": "princesssalmeinn.com"
+ },
+ {
+  "name": "Tulia Zanzibar Unique Beach Resort",
+  "type": "hotel",
+  "rooms": "8",
+  "url": "https://www.tuliazanzibar.com/",
+  "host": "tuliazanzibar.com"
+ },
+ {
+  "name": "Chumbe Island Coral Park",
+  "type": "hotel",
+  "rooms": null,
+  "url": "https://chumbeisland.com/",
+  "host": "chumbeisland.com"
+ },
+ {
+  "name": "Coral Bay Hotel",
+  "type": "hotel",
+  "rooms": null,
+  "url": "https://www.coralbayzanzibar.com/",
+  "host": "coralbayzanzibar.com"
+ },
+ {
+  "name": "Kwanza Resort",
+  "type": "hotel",
+  "rooms": null,
+  "url": "https://www.sunrise-resorts.com/kwanza",
+  "host": "sunrise-resorts.com"
+ },
+ {
+  "name": "Pongwe Bay Resort",
+  "type": "hotel",
+  "rooms": null,
+  "url": "https://pongwebayresort.co/",
+  "host": "pongwebayresort.co"
+ },
+ {
+  "name": "Iberostar Selection Zanzibar",
+  "type": "hotel",
+  "rooms": "360",
+  "url": "https://www.iberostar.com/en/hotels/zanzibar/iberostar-selection-zanzibar/",
+  "host": "iberostar.com"
+ },
+ {
+  "name": "\u00d4 TALIA HOTEL & SPA",
+  "type": "hotel",
+  "rooms": "10",
+  "url": "https://otaliazanzibar.com/",
+  "host": "otaliazanzibar.com"
+ }
+]
