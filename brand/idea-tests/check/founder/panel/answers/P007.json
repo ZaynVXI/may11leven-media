@@ -1,0 +1,13 @@
+{
+  "id": "P007",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "trust",
+  "reason": "It is a concept, not a live product, from a design studio that has not shown me a single client or result. I would not hand my customer messages to an agent I cannot verify, and I am not paying for a nice carousel.",
+  "objection": "Will better design actually bring more customers? I have seen plenty of slick new looks and my customers still came or did not come based on price and whether they trust us.",
+  "would_change_my_mind": "Real businesses like mine using it, with named results I can call and check, and a local team I can meet.",
+  "price_too_cheap": 15,
+  "price_cheap": 40,
+  "price_expensive": 120,
+  "price_too_expensive": 250
+}

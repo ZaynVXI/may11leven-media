@@ -1,0 +1,86 @@
+{
+ "n": 10,
+ "seed": 275012,
+ "customer": {
+  "business": "May11Leven Labs, a small design studio (brand identity, websites, apps, 3D, automation, AI agents, content) that markets itself on Instagram",
+  "target": "Owners and marketing leads of growing businesses that sell on looks and trust: hotels and lodges, real estate, clinics, restaurants and cafes, fashion and beauty brands, schools",
+  "where": "Kenya, Rwanda, Tanzania, Uganda, Nigeria, Ghana, South Africa first; UAE and Saudi Arabia second; anywhere else third. Scrolling Instagram on a phone.",
+  "age": [
+   25,
+   50
+  ],
+  "segments": [
+   {
+    "name": "Small business owner (1-10 staff)",
+    "share": 0.45,
+    "income": [
+     12000,
+     60000
+    ]
+   },
+   {
+    "name": "Growing business owner or founder (10-50 staff)",
+    "share": 0.35,
+    "income": [
+     40000,
+     150000
+    ]
+   },
+   {
+    "name": "Marketing lead at an established company",
+    "share": 0.2,
+    "income": [
+     30000,
+     120000
+    ]
+   }
+  ],
+  "behaviours": [
+   {
+    "name": "Busy scroller",
+    "share": 0.25,
+    "how": "Scrolls between tasks, stops only for something instantly clear."
+   },
+   {
+    "name": "Design-aware",
+    "share": 0.15,
+    "how": "Follows studios, saves nice work, compares feeds before hiring."
+   },
+   {
+    "name": "Price-first",
+    "share": 0.2,
+    "how": "Assumes good design is expensive, looks for the cheapest option."
+   },
+   {
+    "name": "Has a designer already",
+    "share": 0.15,
+    "how": "Works with a freelancer or a nephew who does logos."
+   },
+   {
+    "name": "Trust-checker",
+    "share": 0.15,
+    "how": "Wants proof: real clients, results, a local presence."
+   },
+   {
+    "name": "Ready to rebrand",
+    "share": 0.1,
+    "how": "Knows the brand looks dated and is actively looking."
+   }
+  ],
+  "objections": [
+   "Is a remote studio worth it compared to someone local?",
+   "Will better design actually bring more customers?",
+   "It is probably too expensive for us",
+   "We already have a designer",
+   "This looks like design for designers, not for my business",
+   "I do not see real clients or results"
+  ],
+  "habits": [
+   "you check Instagram on WhatsApp breaks during the work day",
+   "your competitor just opened with a slick new look",
+   "you post your own flyers made in Canva",
+   "you are planning a launch or expansion this year"
+  ]
+ },
+ "pitch": "An Instagram carousel from May11Leven Labs, a design studio, showing a concept (labelled \"concept, not a live product\") for its AI agents service.\nCover: a shop counter in Nairobi, a customer's phone showing an M-Pesa \"payment received\" SMS for KES 8,200. Headline: \"He showed you the payment. It never arrived.\"\nSlide 2: the problem. Shops, landlords and delivery riders hand over goods after seeing a fake M-Pesa confirmation, and find out at closing time.\nSlide 3: how the agent works: it watches your own till's real payments (from your M-Pesa business statement feed), and when a customer says \"I've paid\", your staff type the code into WhatsApp and get a one-line answer in two seconds: \"Received, KES 8,200, from J. Mwangi, 14:32\" or \"Not received. Don't release the goods.\"\nSlide 4: at closing time it sends the owner one message: today's real takings, any mismatches, and who served them.\nSlide 5: \"Your business has a question like this every day. We design agents that check, sort and answer it for you.\" Comment 11 for a free agent task map for your business."
+}

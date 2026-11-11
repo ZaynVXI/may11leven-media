@@ -1,0 +1,13 @@
+{
+  "id": "P010",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "trust",
+  "reason": "It says concept, not a live product, so there is nothing to buy yet. The slides look like something a design studio makes to show off, and I cannot see how it fits a business that sells rooms, cuts or coffee.",
+  "objection": "Who is this really for? It looks like design for designers, not for my business, and I have no idea what it would cost me per month.",
+  "would_change_my_mind": "A live product with a clear monthly price, a free trial on my own customer messages, and a case study from a business my size.",
+  "price_too_cheap": 5,
+  "price_cheap": 20,
+  "price_expensive": 120,
+  "price_too_expensive": 250
+}
