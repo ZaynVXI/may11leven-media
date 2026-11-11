@@ -1,0 +1,13 @@
+{
+  "id": "P004",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "trust",
+  "reason": "The slide says it is a concept, not a live product, so I would be paying for something nobody has used yet. I run a small team on a tight budget and I cannot risk money on a tool with no real clients behind it.",
+  "objection": "I do not see any real clients or results. Who is already using this, and what happened to their takings?",
+  "would_change_my_mind": "A named local shop or business that uses it every day, with real numbers from their own till, and a way for me to try it on my own M-Pesa feed before I pay.",
+  "price_too_cheap": 10,
+  "price_cheap": 25,
+  "price_expensive": 60,
+  "price_too_expensive": 100
+}
