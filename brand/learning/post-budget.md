@@ -36,4 +36,4 @@ Metricool's free plan publishes 20 posts a month, counted on the 1st. A story us
 Rule from Zayn: nothing goes out to keep the accounts active. The monthly budget is a ceiling, not a target.
 - **Kept:** LinkedIn what we do (13 Nov 09:00), five logo tests (16 Nov), Imisozi document (20 Nov), ata document (25 Nov); Instagram services (1 Dec).
 - **Pulled to drafts:** Kora Dental video (LinkedIn 18 Nov, Instagram 3 Dec). The phone sits small and flat in an empty grey field, the chat is unreadable at feed size, and there's no real light or scene. Night shift type loop (LinkedIn 23 Nov, Instagram 8 Dec): only type, so a template could make it, and the panel scored it 0/10.
-- **Asked Zayn about:** six text-only LinkedIn posts created outside this workflow (13, 14, 18, 19, 21 and 25 Nov at 11:00). They clash with the one-post-a-day rule, and the 14 Nov one repeats Imisozi.
+- **Also pulled to drafts (Zayn: "do what you think is right"):** six text-only LinkedIn posts created outside this workflow (13, 14, 18, 19, 21 and 25 Nov at 11:00). They clashed with the one-post-a-day rule, the 14 Nov one repeated Imisozi, and the copy was generic. They are drafts, not deleted.
