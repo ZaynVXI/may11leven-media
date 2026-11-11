@@ -1,0 +1,223 @@
+<title>May11Leven Labs</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="A design and technology studio for growing businesses in Africa, the Gulf and beyond. Brand identity, websites, apps, packaging and 3D, AI automation, AI agents and content.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500&family=Instrument+Serif:ital@1&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: an editorial grid. Giant tracked titles on pale panels, dot labels, numbered cards, one Infrared accent, two-bar motif from the 11 mark. Single look (bone and ink) by design. */
+:root{
+  --bone:#EEEBE5; --paper:#F7F5F1; --panel:#E4E0D8; --ink:#141213; --mid:#6A655E; --line:#D6D1C7; --ir:#FF4A1C;
+  --sans:"Inter Tight",ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;
+  --serif:"Instrument Serif",Georgia,serif; --mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
+  --pad:max(16px,env(safe-area-inset-left,0px)); --padr:max(16px,env(safe-area-inset-right,0px));
+  color-scheme:light;
+}
+html,body{background:var(--bone);color:var(--ink)}
+body{font:400 16px/1.5 var(--sans);-webkit-font-smoothing:antialiased;letter-spacing:-.005em}
+a{color:inherit}
+.w{max-width:1440px;margin:0 auto;padding-left:var(--pad);padding-right:var(--padr)}
+@media (min-width:900px){:root{--pad:max(32px,env(safe-area-inset-left,0px));--padr:max(32px,env(safe-area-inset-right,0px))}}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--bone)}
+/* nav */
+nav{position:sticky;top:env(safe-area-inset-top,0px);z-index:9;background:color-mix(in srgb,var(--bone) 92%,transparent);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+nav .w{display:flex;align-items:center;justify-content:space-between;height:60px;gap:16px}
+.logo{display:flex;align-items:center;gap:10px;font-weight:500;letter-spacing:-.03em;font-size:17px;text-decoration:none}
+.logo i{display:flex;gap:4px;align-items:flex-start;height:16px}
+.logo i b{display:block;width:4px;height:16px;background:var(--ir)} .logo i b+b{margin-top:3px;height:13px}
+.links{display:none;gap:28px;font-size:14px}
+.links a{text-decoration:none} .links a:hover{text-decoration:underline;text-underline-offset:4px}
+@media (min-width:900px){.links{display:flex}}
+.cta{font-size:14px;text-decoration:none;border-bottom:1px solid var(--ink);padding-bottom:1px;white-space:nowrap}
+/* type */
+.giant{font-weight:500;letter-spacing:-.05em;line-height:.9;font-size:clamp(60px,12.5vw,196px);margin:0;text-wrap:balance}
+.h2{font-weight:500;letter-spacing:-.045em;line-height:.95;font-size:clamp(48px,8.6vw,128px);margin:0}
+.it{font-family:var(--serif);font-style:italic;font-weight:400;letter-spacing:-.01em}
+.dot{display:inline-flex;align-items:center;gap:8px;font-size:14px}
+.dot::before{content:"";width:8px;height:8px;border-radius:50%;background:currentColor}
+.mono{font-family:var(--mono);font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--mid)}
+.lead{font-size:clamp(20px,2.3vw,30px);line-height:1.22;letter-spacing:-.02em;font-weight:500;max-width:28ch;margin:0}
+.body{color:var(--mid);max-width:52ch;margin:0}
+section{border-bottom:1px solid var(--line)}
+/* hero */
+.hero .top{padding-block:28px 0}
+.hero .split{display:grid;gap:28px;padding-block:40px 32px}
+@media (min-width:900px){.hero .split{grid-template-columns:1fr 1fr;align-items:end;padding-block:64px 40px}}
+.bars{height:96px;display:grid;grid-template-columns:repeat(22,1fr);gap:clamp(8px,2.2vw,32px);align-items:start;overflow:hidden}
+.bars span{background:var(--ink);height:100%}
+.bars span:nth-child(2n){margin-top:22px;height:calc(100% - 22px)}
+.bars span:nth-child(11){background:var(--ir)}
+/* headers with panel */
+.phead{background:var(--panel)}
+.phead .w{padding-block:28px 0;display:grid;gap:40px}
+.phead .row{display:flex;justify-content:space-between;align-items:end;gap:20px;flex-wrap:wrap;padding-bottom:20px}
+/* work */
+.work{display:grid;gap:12px;padding-block:12px 40px}
+@media (min-width:700px){.work{grid-template-columns:repeat(2,1fr)}}
+@media (min-width:1100px){.work{grid-template-columns:repeat(3,1fr)}}
+.card{background:var(--paper);border:1px solid var(--line);border-radius:10px;overflow:hidden;display:flex;flex-direction:column;text-decoration:none}
+.card .ch{display:flex;justify-content:space-between;align-items:center;padding:10px 14px;border-bottom:1px solid var(--line)}
+.card .st{width:8px;height:8px;border-radius:50%;background:var(--line)}
+.card:hover .st{background:var(--ir)}
+.card .img{aspect-ratio:4/5;overflow:hidden;background:var(--panel)}
+.card img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .6s cubic-bezier(.2,.7,.2,1)}
+.card:hover img{transform:scale(1.03)}
+.card .cb{padding:14px;display:grid;gap:6px}
+.card .t{font-size:22px;font-weight:500;letter-spacing:-.025em}
+.card .d{font-size:14px;color:var(--mid)}
+.card .cf{display:flex;justify-content:space-between;border-top:1px dashed var(--line);padding:10px 14px;font-size:13px;color:var(--mid)}
+/* paths */
+.paths{display:grid;gap:12px;padding-block:12px 40px}
+@media (min-width:1000px){.paths{grid-template-columns:repeat(3,1fr)}}
+.path{background:var(--paper);border:1px solid var(--line);border-radius:10px;display:flex;flex-direction:column}
+.path.feat{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.path .ph{display:flex;justify-content:space-between;padding:12px 16px;border-bottom:1px solid var(--line)}
+.path.feat .ph{border-color:#2e2b2a}
+.path .pb{padding:18px 16px 8px;display:grid;gap:10px}
+.path .nm{font-size:40px;font-weight:500;letter-spacing:-.04em;line-height:1}
+.path .who{font-size:15px;color:var(--mid)} .path.feat .who{color:#B4ADA4}
+.price{font-size:20px;font-weight:500;letter-spacing:-.02em;font-variant-numeric:tabular-nums}
+.path ul{list-style:none;padding:0 16px;margin:6px 0 0;display:grid}
+.path li{padding:10px 0;border-top:1px solid var(--line);font-size:14px;display:flex;gap:10px}
+.path.feat li{border-color:#2e2b2a}
+.path li::before{content:"";flex:none;width:6px;height:6px;border-radius:50%;background:currentColor;margin-top:8px}
+.path .go{margin:auto 16px 16px;padding-top:16px}
+.btn{display:flex;justify-content:space-between;align-items:center;height:52px;border-radius:10px;padding:0 16px;text-decoration:none;font-weight:500;font-size:15px;border:1px solid var(--line);background:var(--paper);color:var(--ink)}
+.btn .ar{width:24px;height:24px;border-radius:50%;background:var(--ink);color:var(--paper);display:grid;place-items:center;font-size:13px}
+.path.feat .btn{border-color:var(--paper)}
+.btn:focus-visible,.step:focus-visible,a:focus-visible{outline:2px solid var(--ir);outline-offset:3px}
+.addons{display:flex;flex-wrap:wrap;gap:8px;padding-bottom:40px}
+.pill{border:1px solid var(--line);border-radius:999px;padding:6px 12px;font-size:13px;background:var(--paper)}
+/* process */
+.proc{padding-block:24px 48px}
+.step{display:grid;grid-template-columns:1fr;gap:8px;border-top:1px solid var(--line);padding:10px 0;cursor:pointer;background:none;border-left:0;border-right:0;border-bottom:0;width:100%;text-align:left;font:inherit;color:inherit}
+.step .sn{font-weight:500;letter-spacing:-.05em;line-height:.95;font-size:clamp(44px,8vw,112px);color:#D2CCC2;transition:color .3s}
+.step .sd{display:none;color:var(--mid);max-width:44ch;font-size:15px}
+.step.on .sn{color:var(--ink)} .step.on .sd{display:block}
+@media (min-width:900px){.step{grid-template-columns:1.4fr 1fr;align-items:end}.step .sd{padding-bottom:14px}}
+/* moments */
+.moments{display:grid;gap:12px;padding-block:12px 40px}
+@media (min-width:900px){.moments{grid-template-columns:repeat(3,1fr)}}
+.mo{border-top:1px solid var(--ink);padding-top:12px;display:grid;gap:6px}
+.mo b{font-weight:500;font-size:20px;letter-spacing:-.02em}
+.mo span{color:var(--mid);font-size:15px}
+/* tool */
+.tool{display:grid;gap:24px;padding-block:40px}
+@media (min-width:900px){.tool{grid-template-columns:1fr 1fr;align-items:center}}
+.slip{background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:16px;font-family:var(--mono);font-size:13px;line-height:1.55;display:grid;gap:12px}
+.verdict{border-radius:10px;padding:12px 14px;background:#F7E3E0;color:#B3261E;font-family:var(--sans);font-weight:500}
+/* footer */
+footer{background:var(--ink);color:var(--paper)}
+footer .w{padding-block:40px 24px;display:grid;gap:32px}
+.rules{display:grid;gap:8px}
+.rules i{display:block;height:3px;background:var(--paper)} .rules i:nth-child(2){height:2px} .rules i:nth-child(3){height:1px}
+.wordmark{font-weight:500;letter-spacing:-.06em;line-height:.8;font-size:clamp(64px,19vw,290px);margin:0;white-space:nowrap}
+.fgrid{display:grid;gap:24px}
+@media (min-width:900px){.fgrid{grid-template-columns:2fr 1fr 1fr 1fr}}
+.fgrid h4{margin:0 0 8px;font-weight:500;font-size:14px}
+.fgrid p,.fgrid a{color:#A8A29A;font-size:14px;margin:0;display:block;text-decoration:none;line-height:1.7}
+.email{user-select:all;color:var(--paper)!important}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+
+<nav aria-label="Main"><div class="w">
+  <a class="logo" href="#top"><i aria-hidden="true"><b></b><b></b></i>May11Leven Labs</a>
+  <div class="links"><a href="#work">Work</a><a href="#paths">Services</a><a href="#process">Process</a><a href="#tools">Tools</a></div>
+  <a class="cta" href="#contact">Get a free first look</a>
+</div></nav>
+
+<main id="top">
+<section class="hero"><div class="w">
+  <div class="top"><span class="dot">Design and technology studio</span></div>
+  <div class="split">
+    <h1 class="giant">Quiet work<br>that <span class="it">sells.</span></h1>
+    <div style="display:grid;gap:18px">
+      <p class="lead">We help growing businesses look as good as they really are, and take orders, bookings and payments while they sleep.</p>
+      <p class="body">Brand identity, websites, apps, packaging and 3D, AI automation, AI agents and content. For businesses in Africa, the Gulf and beyond.</p>
+    </div>
+  </div>
+  <div class="bars" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
+</div></section>
+
+<section id="work">
+  <div class="phead"><div class="w"><h2 class="h2">Work</h2><div class="row"><span class="dot">Selected studies</span><span class="body" style="font-size:14px">Concepts for invented brands, built to client standard. Real clients soon.</span></div></div></div>
+  <div class="w"><div class="work">
+    <a class="card" href="#contact"><div class="ch"><span class="mono">01 · Web + packaging</span><span class="st"></span></div><div class="img"><img src="img/imisozi-web.jpg" alt="The Imisozi coffee website on desktop with three origin bags" loading="lazy"></div><div class="cb"><span class="t">Imisozi</span><span class="d">A coffee roaster in Kigali, built for the phone first. Pay with MoMo, delivered in 48 hours.</span></div><div class="cf"><span>Concept</span><span>Kigali</span></div></a>
+    <a class="card" href="#contact"><div class="ch"><span class="mono">02 · App</span><span class="st"></span></div><div class="img"><img src="img/imisozi-app.jpg" alt="Three phones showing the Imisozi app: origins, product and MoMo checkout" loading="lazy"></div><div class="cb"><span class="t">Imisozi app</span><span class="d">Origins, altitude, grind and a MoMo checkout with a live approval state.</span></div><div class="cf"><span>Concept</span><span>iOS · Android</span></div></a>
+    <a class="card" href="#contact"><div class="ch"><span class="mono">03 · Packaging + 3D</span><span class="st"></span></div><div class="img"><img src="img/ata.jpg" alt="A rendered glass bottle of ata pepper oil with a red pepper" loading="lazy"></div><div class="cb"><span class="t">ata</span><span class="d">A Lagos pepper oil that looked ready to sell before the first bottle was filled.</span></div><div class="cf"><span>Concept</span><span>Lagos</span></div></a>
+    <a class="card" href="#contact"><div class="ch"><span class="mono">04 · Website</span><span class="st"></span></div><div class="img"><img src="img/inzu.jpg" alt="The Inzu Lake House website on a phone resting on linen" loading="lazy"></div><div class="cb"><span class="t">Inzu Lake House</span><span class="d">A lodge on Lake Kivu. Book the quiet side of the lake in three taps.</span></div><div class="cf"><span>Concept</span><span>Lake Kivu</span></div></a>
+    <a class="card" href="#contact"><div class="ch"><span class="mono">05 · App</span><span class="st"></span></div><div class="img"><img src="img/fade.jpg" alt="The fade. barber queue app on a phone on a wooden table" loading="lazy"></div><div class="cb"><span class="t">fade.</span><span class="d">A barber's live queue, so customers wait at home instead of on the bench.</span></div><div class="cf"><span>Concept</span><span>Nairobi</span></div></a>
+    <a class="card" href="#contact"><div class="ch"><span class="mono">06 · AI automation</span><span class="st"></span></div><div class="img"><img src="img/kora.jpg" alt="A WhatsApp booking chat for Kora Dental on a phone" loading="lazy"></div><div class="cb"><span class="t">Kora Dental</span><span class="d">A WhatsApp assistant that books, takes the M-Pesa deposit and reminds, after the clinic closes.</span></div><div class="cf"><span>Concept</span><span>Nairobi</span></div></a>
+  </div></div>
+</section>
+
+<section id="paths">
+  <div class="phead"><div class="w"><h2 class="h2">Pick your <span class="it">path.</span></h2><div class="row"><span class="dot">Services</span><span class="body" style="font-size:14px">Three ways in, named for where your business is. Every project starts with a free first look.</span></div></div></div>
+  <div class="w">
+    <div class="paths">
+      <div class="path"><div class="ph"><span class="mono">01</span><span class="mono">Starting or fixing your look</span></div>
+        <div class="pb"><span class="nm">Mark</span><span class="who">A brand people remember and trust at a glance.</span><span class="price">From $800</span></div>
+        <ul><li>Name check and positioning line</li><li>Logo suite that works at 16 px and on a shopfront</li><li>Colour and type system</li><li>Brand guide</li></ul>
+        <div class="go"><a class="btn" href="#contact"><span>Start with Mark</span><span class="ar">→</span></a></div></div>
+      <div class="path feat"><div class="ph"><span class="mono" style="color:#B4ADA4">02</span><span class="mono" style="color:#B4ADA4">Ready to sell online</span></div>
+        <div class="pb"><span class="nm">Storefront</span><span class="who">Mark, plus a phone-first website that takes bookings or orders.</span><span class="price">Fixed quote in 48 hours</span></div>
+        <ul><li>Everything in Mark</li><li>Website design and build</li><li>Bookings, shop, mobile money or card</li><li>Copy and SEO basics</li></ul>
+        <div class="go"><a class="btn" href="#contact"><span>Ask about Storefront</span><span class="ar">→</span></a></div></div>
+      <div class="path"><div class="ph"><span class="mono">03</span><span class="mono">Losing customers after hours</span></div>
+        <div class="pb"><span class="nm">Night shift</span><span class="who">Storefront, plus an assistant that answers, books and takes payment.</span><span class="price">Fixed quote in 48 hours</span></div>
+        <ul><li>Everything in Storefront</li><li>WhatsApp assistant or AI agent</li><li>Deposits by M-Pesa or MoMo</li><li>Your team can take over in one tap</li></ul>
+        <div class="go"><a class="btn" href="#contact"><span>Ask about Night shift</span><span class="ar">→</span></a></div></div>
+    </div>
+    <div class="addons"><span class="mono" style="align-self:center;margin-right:6px">Also</span><span class="pill">App design and development</span><span class="pill">Packaging and 3D</span><span class="pill">AI agents</span><span class="pill">Social and content</span></div>
+  </div>
+</section>
+
+<section id="moments">
+  <div class="w" style="padding-block:40px 0"><span class="dot">Sound like you?</span><h2 class="h2" style="margin-top:20px;font-size:clamp(40px,6vw,88px)">When the business changes, the <span class="it">look</span> should too.</h2></div>
+  <div class="w"><div class="moments">
+    <div class="mo"><b>You've outgrown your logo.</b><span>It was fine for the first year. Now you're pitching hotels, investors or the Gulf.</span></div>
+    <div class="mo"><b>You sell on Instagram, by hand.</b><span>Every order is a DM, a screenshot and a payment check.</span></div>
+    <div class="mo"><b>Your phone rings after closing.</b><span>Bookings and questions arrive at night, and they go somewhere else by morning.</span></div>
+  </div></div>
+</section>
+
+<section id="process">
+  <div class="phead"><div class="w"><h2 class="h2">How it <span class="it">works.</span></h2><div class="row"><span class="dot">The process</span><span class="body" style="font-size:14px">Tap a step.</span></div></div></div>
+  <div class="w proc" id="steps">
+    <button class="step on" aria-expanded="true"><span class="sn">01 Listen</span><span class="sd">We learn your customers, your competitors and what you're really selling. A short call and a look at what you have.</span></button>
+    <button class="step" aria-expanded="false"><span class="sn">02 One line</span><span class="sd">We find the one sentence your brand stands on, so every word and colour pulls the same way.</span></button>
+    <button class="step" aria-expanded="false"><span class="sn">03 Voice</span><span class="sd">How you sound in a caption, a reply and a price list. Plain, warm and recognisably you.</span></button>
+    <button class="step" aria-expanded="false"><span class="sn">04 Look</span><span class="sd">Mark, colour, type and imagery, tested at 16 px, on a shopfront and in a WhatsApp chat.</span></button>
+    <button class="step" aria-expanded="false"><span class="sn">05 Build</span><span class="sd">The website, app or assistant, built for the phone first and wired to mobile money.</span></button>
+    <button class="step" aria-expanded="false"><span class="sn">06 Launch</span><span class="sd">Launch posts, templates and a handover, so your team can keep it looking like day one.</span></button>
+  </div>
+</section>
+
+<section id="tools">
+  <div class="w tool">
+    <div style="display:grid;gap:18px"><span class="dot">Free tools</span><h2 class="h2" style="font-size:clamp(44px,6.5vw,96px)">Check.</h2>
+      <p class="lead" style="max-width:24ch">Got money "by mistake"? Check the message before you send anything back.</p>
+      <p class="body">A free M-Pesa message checker we built. Paste the message and see the warning signs. Nothing you paste leaves the page.</p>
+      <a class="btn" style="max-width:320px" href="https://claude.ai/artifact/3ufPqiWSWqRibrYo9GpCCH" target="_blank" rel="noopener"><span>Try Check</span><span class="ar">→</span></a></div>
+    <div class="slip" aria-label="Example of Check"><span class="mono">From 0712 345 678</span><span>SH47KQ2P9X Confirmed. You have received Ksh 4,500 … New M-PESA balance is LOCKED. Dear customer i have sent you money by mistake kindly send it back.</span><div class="verdict">Strong signs of a scam. Don't send anything.</div><span class="mono" style="text-transform:none;letter-spacing:0">Check your real balance with *334# first.</span></div>
+  </div>
+</section>
+</main>
+
+<footer id="contact"><div class="w">
+  <div class="rules" aria-hidden="true"><i></i><i></i><i></i></div>
+  <p class="wordmark">may11leven</p>
+  <div class="fgrid">
+    <div style="display:grid;gap:14px"><h4 style="font-size:clamp(24px,3vw,40px);letter-spacing:-.03em;line-height:1.05">Get a free first look<br>at your brand.</h4>
+      <p>Send us your logo, your website or the problem, and we will reply with an honest note.</p>
+      <p class="email">hello@may11levenlabs.com</p><p class="email">may11leven.labs@gmail.com</p></div>
+    <div><h4>Studio</h4><a href="#work">Work</a><a href="#paths">Services</a><a href="#process">Process</a></div>
+    <div><h4>Tools</h4><a href="https://claude.ai/artifact/3ufPqiWSWqRibrYo9GpCCH" target="_blank" rel="noopener">Check</a></div>
+    <div><h4>Follow</h4><a href="https://www.instagram.com/may11leven.labs/" target="_blank" rel="noopener">Instagram</a><a href="https://x.com/May11Leven_Labs" target="_blank" rel="noopener">X</a></div>
+  </div>
+  <p class="mono" style="color:#7d776f">All work shown is concept work for invented brands.</p>
+</div></footer>
+
+<script>
+const steps=[...document.querySelectorAll('.step')];
+steps.forEach(s=>s.addEventListener('click',()=>{steps.forEach(x=>{x.classList.toggle('on',x===s);x.setAttribute('aria-expanded',x===s)})}));
+</script>
