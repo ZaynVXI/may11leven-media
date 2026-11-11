@@ -39,3 +39,20 @@ They show the thinking first, the look second, then the proof and the rollout. T
 5. **Case-study pages follow their order**, and each section becomes one post in a series.
 6. **The sales page follows the Flagship structure:** pain → self-check → 3 outcomes → sequence → proof → one call to action. Ours shows the price, because the panels keep asking for it and our buyers are smaller businesses.
 7. **We won't copy:** their ® names, the "Idea Worth Rallying Around" wording or their phrasing. The thinking is what we take.
+
+## Services page (wearemotto.com/services)
+- **They sell three programs, not a menu.** "Modern brands need more than a list of services." / "Pick your path to progress."
+  - **FastTrack:** category challengers. A visual identity sprint: identity and guidelines.
+  - **Foundation:** brands defining their category. Strategy only: landscape audit, 1:1 interviews, leadership workshops, brand strategy, verbal identity.
+  - **Flagship:** category leaders. Everything above plus visual identity, guidelines, assets and internal launch.
+  - Each program is named by **who it's for** (challenger, definer, leader), with a "Compare engagements" table. No prices.
+- **Four service areas** back the programs, each with 6 capabilities: Strategy, Culture, Identity, Experience (web, UI/UX, motion, product, interaction).
+- **Page order:** hero (who they work with) → what we do → trusted-by logos → areas of expertise → spaces we work in (industry tags) → discovery call → programs + compare table → client praise → "Ready to rally around your big idea?"
+
+## Our version (draft for Zayn; prices are his call)
+We keep our seven services, but sell them as **three paths** named by the buyer's moment:
+- **Mark**, for businesses starting or fixing their look: a fast brand identity (name check, logo suite, colour and type, a 12-page guide). **From $800.**
+- **Storefront**, for businesses ready to sell online: Mark plus a phone-first website that takes bookings or orders.
+- **Night shift**, for businesses losing customers after hours: Storefront plus a WhatsApp assistant or AI agent that answers, books and takes payment.
+- Packaging and 3D, apps and social are add-ons, or quoted on their own.
+- The services page follows Motto's order, but **shows prices** and a compare table, and uses "Get a free first look" as the call to action.
