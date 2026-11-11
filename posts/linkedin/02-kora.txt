@@ -1,0 +1,17 @@
+A dental clinic closes at 18:00. A patient asks to book at 21:47.
+
+In most businesses that message waits until morning, and by then the patient has booked somewhere else. Clinics, salons, restaurants, hotels and shops lose bookings this way every night, simply because nobody is there to answer.
+
+This is a concept we built for an invented clinic, Kora Dental, to show what a WhatsApp assistant can do in that gap:
+
+→ It offers the real free slots from the clinic's calendar
+→ It books the one the patient picks
+→ It takes the deposit by M-Pesa
+→ It sends a reminder the day before
+→ It hands over to a member of staff in one tap whenever a person is needed
+
+The assistant doesn't replace the front desk. It covers the hours the front desk can't.
+
+If your business takes bookings or orders by message, we'll sketch your first chat flow for free. Message us here or email hello@may11levenlabs.com.
+
+#AIAutomation #WhatsAppBusiness #CustomerExperience
