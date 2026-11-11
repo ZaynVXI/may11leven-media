@@ -3,11 +3,11 @@
   "buys": false,
   "purchases_first_month": 0,
   "reason_code": "need",
-  "reason": "I already pay SiteMinder for the booking engine and channel manager, so a studio selling me a booking page and a WhatsApp bot sounds like a second system I would have to run. The 15-25% Booking.com cut is my real pain, but nothing here shows me how it saves money on my own bookings.",
-  "objection": "Does this plug into the SiteMinder I already pay for, or is it another login and another thing to check every morning during the season?",
-  "would_change_my_mind": "A clear answer that it connects to my existing channel manager, plus a real guesthouse of my size showing its share of direct bookings went up with the same setup.",
+  "reason": "I already pay for a booking engine and a channel manager, and they already give me a booking page on my own site. A studio asking $800 for a 'concept' that plugs into the same tools feels like paying twice for one thing. I would need to see that my current setup cannot do this before I spend anything.",
+  "objection": "The page they show is the same kind of thing SiteMinder or Cloudbeds already gives me, so what exactly am I buying for $800? And I still need Booking.com for new guests, so the saving depends on how many people actually come back to my site, which I do not know yet.",
+  "would_change_my_mind": "Proof from my own booking engine that it cannot take a deposit and send the day-before reminder, plus a free look at my real commission numbers from last season that shows the saving is real.",
   "price_too_cheap": 150,
-  "price_cheap": 400,
-  "price_expensive": 800,
-  "price_too_expensive": 1500
+  "price_cheap": 300,
+  "price_expensive": 600,
+  "price_too_expensive": 800
 }

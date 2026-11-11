@@ -1,0 +1,13 @@
+{
+  "id": "P010",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "price",
+  "reason": "The look is lovely and I do follow design hotels, but this reads as a studio selling a whole system before I know what it costs. 'Brand identity from $800' is only the start, and a guest app plus a WhatsApp assistant sounds like more money and more work for me to run every week.",
+  "objection": "I cannot tell the real total price. 'From $800' is a floor, and the guest app and automation could double or triple that, which is a lot for a 5-12 room guesthouse.",
+  "would_change_my_mind": "A clear, all-in price for my size of property, plus a worked example from a guesthouse like mine showing the direct bookings it actually brought in.",
+  "price_too_cheap": 300,
+  "price_cheap": 600,
+  "price_expensive": 1000,
+  "price_too_expensive": 1500
+}

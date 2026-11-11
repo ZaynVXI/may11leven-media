@@ -1,0 +1,13 @@
+{
+  "id": "P009",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "trust",
+  "reason": "It's a concept for a hotel that doesn't exist, with no real guests and no booking numbers. I can't take a made-up example to my bank manager or my guests, so I wouldn't pay for it this month.",
+  "objection": "Where are the real hotels you've built this for, and what did their bookings do after? A mock-up with a dhow logo tells me nothing about whether my no-shows would drop.",
+  "would_change_my_mind": "Two or three named guesthouses they have actually worked with, with booking figures I can phone and check, showing commission and no-show numbers before and after.",
+  "price_too_cheap": 200,
+  "price_cheap": 500,
+  "price_expensive": 1200,
+  "price_too_expensive": 2000
+}

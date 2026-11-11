@@ -3,11 +3,11 @@
   "buys": false,
   "purchases_first_month": 0,
   "reason_code": "trust",
-  "reason": "The commission pain is real, I paid Booking.com on a no-show last week. But a studio in another city building a guest app and a WhatsApp assistant for my island is a lot to hand over, and I would not pay $800 or more for something I have not seen work for a guesthouse like mine.",
-  "objection": "A remote studio does not know my island or my guests, and my guests message me on WhatsApp, not in an app.",
-  "would_change_my_mind": "A free trial month where a few of my own Booking.com guests book the direct page and the boat transfer and deposit work with M-Pesa, with no fee until the guests arrive.",
-  "price_too_cheap": 200,
-  "price_cheap": 500,
-  "price_expensive": 1200,
-  "price_too_expensive": 2000
+  "reason": "The slides make sense, and Booking.com's commission does sting. But I have never met these people and they have never stayed on my island. My guests book because they trust my face on Instagram and my WhatsApp, and handing my booking page to a studio far away feels like giving a stranger my front door.",
+  "objection": "A remote studio does not know my island or my guests, and when the booking page breaks on a Sunday night, I am the one who answers the angry WhatsApp messages.",
+  "would_change_my_mind": "Seeing a finished booking page from a guesthouse on my own coast, with the owner willing to tell me how it went and how many no-shows it stopped.",
+  "price_too_cheap": 100,
+  "price_cheap": 300,
+  "price_expensive": 800,
+  "price_too_expensive": 1500
 }
