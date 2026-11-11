@@ -1,0 +1,13 @@
+{
+  "id": "P014",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "trust",
+  "reason": "I already make my flyers in Canva and they do the job. I can't tell from four slides whether a studio across the world would understand my shop or my customers, and I'd rather pay someone I can call in person.",
+  "objection": "Is a remote studio worth it compared to someone local? I can't meet them, and I don't know if they'd get my market right.",
+  "would_change_my_mind": "Seeing a finished brand from a business like mine, my town or my kind of trade, with the price stated up front.",
+  "price_too_cheap": 100,
+  "price_cheap": 300,
+  "price_expensive": 900,
+  "price_too_expensive": 1500
+}

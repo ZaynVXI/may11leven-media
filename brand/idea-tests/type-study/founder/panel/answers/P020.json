@@ -1,0 +1,13 @@
+{
+  "id": "P020",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "need",
+  "reason": "I am planning an expansion this year and my brand has to look like we are worth trusting before anyone walks in. A free first look costs me one comment, so I would take it to see whether they understand a small business like mine.",
+  "objection": "A free look is easy to give and easy to skip. I have been burned by agencies that show a nice deck and then send a bill I cannot afford, and a pretty carousel does not tell me whether they know how a lodge or a clinic actually gets customers.",
+  "would_change_my_mind": "Seeing two or three past clients in my kind of business, with real before and after results and not just their logos, would make me want a paid quote.",
+  "price_too_cheap": 300,
+  "price_cheap": 900,
+  "price_expensive": 2500,
+  "price_too_expensive": 4000
+}
