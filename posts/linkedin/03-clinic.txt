@@ -1,0 +1,13 @@
+Five tests we run on every logo before we call it finished, our own included.
+
+1. Shrink it to 16 px. That's the size of a browser tab or app icon. If it turns into a smudge, it fails.
+2. Print it in one colour. A rubber stamp, an embroidered shirt, a receipt. No gradients, no shadows, no second colour to lean on.
+3. Read it from across the street. A shop sign is seen from 10 metres, often from a moving car or motorbike.
+4. Photocopy it. Fax, cheap receipt printers and WhatsApp compression all strip a mark down to black and white.
+5. Look for three seconds, then draw it from memory. If people can't recall the shape, they won't recognise it next time.
+
+Most logos we're shown pass two or three of these. That's rarely a design emergency, but it usually means the brand is working harder than it should.
+
+The test card in this document uses a mark we invented for the purpose. If you'd like us to run the five tests on your logo, send it to us here or to hello@may11levenlabs.com. We'll reply with an honest note, free.
+
+#Branding #LogoDesign #BrandIdentity
