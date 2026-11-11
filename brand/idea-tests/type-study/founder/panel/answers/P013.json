@@ -1,0 +1,13 @@
+{
+  "id": "P013",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "trust",
+  "reason": "The carousel shows letter outlines, a type specimen and a logo with measurements, but nothing that tells me a real business ever got results from them. Comment 11 for a free look is just a way to start a sales conversation, and I would not hand my brand to a studio I have never heard of on that basis.",
+  "objection": "I do not see real clients or results. Pretty letters and measurements do not show me that anyone's sales went up.",
+  "would_change_my_mind": "Named client work with before and after results, such as bookings or sales figures, from businesses like mine in hotels, clinics or real estate.",
+  "price_too_cheap": 250,
+  "price_cheap": 800,
+  "price_expensive": 2500,
+  "price_too_expensive": 4000
+}

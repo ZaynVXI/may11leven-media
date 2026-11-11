@@ -1,0 +1,13 @@
+{
+  "id": "P002",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "need",
+  "reason": "My competitor just opened with a slick new look and mine feels dated next to it. A free first look costs me nothing but a comment, so I would take it to see what they would change.",
+  "objection": "A pretty brand does not fill a hotel or a restaurant table. I have paid designers before and the work looked good but the phone did not ring any more.",
+  "would_change_my_mind": "Before and after examples from a business like mine that show more bookings or enquiries after the rebrand, not just nicer pictures.",
+  "price_too_cheap": 200,
+  "price_cheap": 700,
+  "price_expensive": 2000,
+  "price_too_expensive": 3500
+}
