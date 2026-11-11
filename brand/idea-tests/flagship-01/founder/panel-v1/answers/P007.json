@@ -1,0 +1,13 @@
+{
+  "id": "P007",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "trust",
+  "reason": "The commission pain is real, I paid Booking.com on a no-show last week. But a studio in another city building a guest app and a WhatsApp assistant for my island is a lot to hand over, and I would not pay $800 or more for something I have not seen work for a guesthouse like mine.",
+  "objection": "A remote studio does not know my island or my guests, and my guests message me on WhatsApp, not in an app.",
+  "would_change_my_mind": "A free trial month where a few of my own Booking.com guests book the direct page and the boat transfer and deposit work with M-Pesa, with no fee until the guests arrive.",
+  "price_too_cheap": 200,
+  "price_cheap": 500,
+  "price_expensive": 1200,
+  "price_too_expensive": 2000
+}

@@ -3,11 +3,11 @@
   "buys": false,
   "purchases_first_month": 0,
   "reason_code": "trust",
-  "reason": "Booking.com is where my guests already find me and trust the payment. A pretty site and an app for a 12-room place sounds nice, but my guests don't download apps, and I'm not paying $800 to fight Booking.com when my template site already works.",
-  "objection": "Will guests really book on my own site and send a deposit by M-Pesa when they already trust Booking.com? I've heard of owners losing bookings that way.",
-  "would_change_my_mind": "Proof from a guesthouse like mine, in Lamu or Diani, that direct bookings went up by enough to cover the fee and the cost of the site, shown to me in numbers.",
-  "price_too_cheap": 150,
-  "price_cheap": 400,
+  "reason": "I like the idea of keeping the 18% but I'm not going to pay $800 to a studio to move my guests off Booking.com. Guests trust Booking.com more than my own website, and the ones who find me on Instagram still look for the reviews before they pay anything.",
+  "objection": "Will guests actually book on my own page when Booking.com is where they already feel safe? And the $650 is commission I'd save only if the bookings really come direct, plus I'd have to pay for the booking engine on top.",
+  "would_change_my_mind": "A guesthouse like mine showing me real direct bookings coming in each month, with the figures, before I spend anything.",
+  "price_too_cheap": 50,
+  "price_cheap": 250,
   "price_expensive": 800,
   "price_too_expensive": 1500
 }

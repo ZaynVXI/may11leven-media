@@ -2,12 +2,12 @@
   "id": "P004",
   "buys": false,
   "purchases_first_month": 0,
-  "reason_code": "need",
-  "reason": "The commission problem is real, we pay Booking.com a lot and no-shows hurt. But this is a pretty logo and a website from a studio I have never heard of, and a logo does not fill rooms in low season. I would only look at it if someone showed me the booking numbers first.",
-  "objection": "I would be paying $800 for a brand, and I still would not know if one extra direct booking comes out of it. Who checks that it works?",
-  "would_change_my_mind": "A clear before and after on a hotel like mine, with real direct booking numbers and the cost of the deposit and WhatsApp setup written down.",
+  "reason_code": "trust",
+  "reason": "The commission maths is real, I have seen it in our own statements. But this is a design studio I have never heard of, and the $650 is an illustration, not our numbers. I would run the free calculator on my own figures before I would pay anyone $800 to touch a booking page that already works.",
+  "objection": "Pretty design does not fill rooms in low season. Who builds this, who maintains it when SiteMinder or Cloudbeds changes, and what do we do when the deposit link breaks at 11pm?",
+  "would_change_my_mind": "Our own commission figures run through the calculator, plus a reference from a hotel of similar size that moved bookings to direct and kept them there after a year.",
   "price_too_cheap": 150,
-  "price_cheap": 400,
-  "price_expensive": 1200,
-  "price_too_expensive": 2000
+  "price_cheap": 350,
+  "price_expensive": 700,
+  "price_too_expensive": 900
 }
