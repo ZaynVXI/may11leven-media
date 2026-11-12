@@ -1,0 +1,112 @@
+[
+ {
+  "id": "P001",
+  "name": "Aria",
+  "age": 57,
+  "segment": "Owner-manager of a 5-12 room guesthouse",
+  "income": 66000,
+  "behaviour": "Price-first",
+  "behaviour_how": "Assumes agencies are expensive; has a cheap template site from a local developer.",
+  "objection": "Guests trust Booking.com more than my own website",
+  "habit": "you are planning to raise rates for high season"
+ },
+ {
+  "id": "P002",
+  "name": "Zara",
+  "age": 57,
+  "segment": "Owner or GM of a 12-30 room boutique hotel or lodge",
+  "income": 121000,
+  "behaviour": "Price-first",
+  "behaviour_how": "Assumes agencies are expensive; has a cheap template site from a local developer.",
+  "objection": "I already pay for a booking engine or channel manager",
+  "habit": "you answer guest WhatsApps yourself late at night"
+ },
+ {
+  "id": "P003",
+  "name": "Sofia",
+  "age": 37,
+  "segment": "Owner-manager of a 5-12 room guesthouse",
+  "income": 22000,
+  "behaviour": "Already has a booking engine",
+  "behaviour_how": "Uses a channel manager and booking engine (SiteMinder, Cloudbeds, Nightsbridge) already.",
+  "objection": "I already pay for a booking engine or channel manager",
+  "habit": "you are planning to raise rates for high season"
+ },
+ {
+  "id": "P004",
+  "name": "Tariq",
+  "age": 55,
+  "segment": "Marketing or revenue lead at a small hotel group",
+  "income": 54000,
+  "behaviour": "Instagram-led",
+  "behaviour_how": "Gets enquiries by DM and WhatsApp from their own posts, handles payment by bank transfer or M-Pesa.",
+  "objection": "Pretty design does not fill rooms in low season",
+  "habit": "you are planning to raise rates for high season"
+ },
+ {
+  "id": "P005",
+  "name": "Ben",
+  "age": 59,
+  "segment": "Marketing or revenue lead at a small hotel group",
+  "income": 68000,
+  "behaviour": "OTA-dependent",
+  "behaviour_how": "Gets most bookings from Booking.com and Airbnb, hates the commission but fears losing visibility.",
+  "objection": "Pretty design does not fill rooms in low season",
+  "habit": "your neighbour lodge just launched a new website"
+ },
+ {
+  "id": "P006",
+  "name": "Farah",
+  "age": 46,
+  "segment": "Owner or GM of a 12-30 room boutique hotel or lodge",
+  "income": 117000,
+  "behaviour": "OTA-dependent",
+  "behaviour_how": "Gets most bookings from Booking.com and Airbnb, hates the commission but fears losing visibility.",
+  "objection": "Guests trust Booking.com more than my own website",
+  "habit": "your neighbour lodge just launched a new website"
+ },
+ {
+  "id": "P007",
+  "name": "Hana",
+  "age": 50,
+  "segment": "Owner-manager of a 5-12 room guesthouse",
+  "income": 45000,
+  "behaviour": "Instagram-led",
+  "behaviour_how": "Gets enquiries by DM and WhatsApp from their own posts, handles payment by bank transfer or M-Pesa.",
+  "objection": "A remote studio does not know my island or my guests",
+  "habit": "a guest no-showed last week and you still paid commission"
+ },
+ {
+  "id": "P008",
+  "name": "Levi",
+  "age": 53,
+  "segment": "Owner or GM of a 12-30 room boutique hotel or lodge",
+  "income": 200000,
+  "behaviour": "OTA-dependent",
+  "behaviour_how": "Gets most bookings from Booking.com and Airbnb, hates the commission but fears losing visibility.",
+  "objection": "Guests trust Booking.com more than my own website",
+  "habit": "you answer guest WhatsApps yourself late at night"
+ },
+ {
+  "id": "P009",
+  "name": "Maya",
+  "age": 35,
+  "segment": "Owner-manager of a 5-12 room guesthouse",
+  "income": 55000,
+  "behaviour": "Trust-checker",
+  "behaviour_how": "Wants to see real hotels the studio has worked with and real booking numbers.",
+  "objection": "This is a made-up hotel, not a real result",
+  "habit": "a guest no-showed last week and you still paid commission"
+ },
+ {
+  "id": "P010",
+  "name": "Selin",
+  "age": 41,
+  "segment": "Owner-manager of a 5-12 room guesthouse",
+  "income": 57000,
+  "behaviour": "Design-aware",
+  "behaviour_how": "Follows design hotels and Design Hotels-style accounts, cares about the brand feeling.",
+  "objection": "It is probably too expensive for a small guesthouse",
+  "habit": "your neighbour lodge just launched a new website"
+ }
+]

@@ -1,0 +1,13 @@
+{
+  "id": "P003",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "need",
+  "reason": "I already pay for a booking engine and a channel manager, and they already give me a booking page on my own site. A studio asking $800 for a 'concept' that plugs into the same tools feels like paying twice for one thing. I would need to see that my current setup cannot do this before I spend anything.",
+  "objection": "The page they show is the same kind of thing SiteMinder or Cloudbeds already gives me, so what exactly am I buying for $800? And I still need Booking.com for new guests, so the saving depends on how many people actually come back to my site, which I do not know yet.",
+  "would_change_my_mind": "Proof from my own booking engine that it cannot take a deposit and send the day-before reminder, plus a free look at my real commission numbers from last season that shows the saving is real.",
+  "price_too_cheap": 150,
+  "price_cheap": 300,
+  "price_expensive": 600,
+  "price_too_expensive": 800
+}

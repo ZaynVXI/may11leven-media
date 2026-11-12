@@ -1,0 +1,13 @@
+{
+  "id": "P010",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "trust",
+  "reason": "The sums look right, but it is a concept for a guesthouse I don't run, from a studio I found on Instagram. I would want to see a real property it has done before I pay $800 to someone who doesn't know my guests or my Booking.com listing.",
+  "objection": "I already have a booking engine and a Booking.com listing that works. What exactly changes for my rooms, and who fixes it when the WhatsApp reminder or the deposit link breaks in the middle of the season?",
+  "would_change_my_mind": "A real guesthouse like mine that has used this setup for a few months, with the direct bookings and commission saved shown in its own numbers.",
+  "price_too_cheap": 150,
+  "price_cheap": 400,
+  "price_expensive": 800,
+  "price_too_expensive": 1500
+}

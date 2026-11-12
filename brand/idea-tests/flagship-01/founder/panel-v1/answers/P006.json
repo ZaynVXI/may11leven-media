@@ -1,0 +1,13 @@
+{
+  "id": "P006",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "trust",
+  "reason": "Booking.com is where my guests actually come from, and a new website with a WhatsApp bot and a deposit page sounds like one more thing to run while my bookings still depend on the OTA. I would look at the free look, but I would not pay for a system I cannot see working in my own lodge yet.",
+  "objection": "Will guests who already trust Booking.com really type in my own site and pay a deposit by M-Pesa, and what happens to my visibility if I stop listing there?",
+  "would_change_my_mind": "A month of real case numbers from a lodge like mine showing direct bookings rising without a drop in Booking.com visibility, with the setup run for me by the studio.",
+  "price_too_cheap": 150,
+  "price_cheap": 400,
+  "price_expensive": 1200,
+  "price_too_expensive": 2500
+}

@@ -1,0 +1,127 @@
+{
+ "business": "May11Leven Labs, a small design and technology studio (brand identity, websites, apps, 3D, automation, AI agents, content) that markets itself on Instagram and LinkedIn",
+ "seed": 188446,
+ "dealt": 10,
+ "answered": 10,
+ "skipped": [],
+ "buys": 0,
+ "passes": 10,
+ "buy_rate": 0.0,
+ "by_segment": [
+  [
+   "Owner-manager of a 5-12 room guesthouse",
+   5,
+   0.0
+  ],
+  [
+   "Owner or GM of a 12-30 room boutique hotel or lodge",
+   3,
+   0.0
+  ],
+  [
+   "Marketing or revenue lead at a small hotel group",
+   2,
+   0.0
+  ]
+ ],
+ "by_behaviour": [
+  [
+   "Price-first",
+   2,
+   0.0
+  ],
+  [
+   "Already has a booking engine",
+   1,
+   0.0
+  ],
+  [
+   "Instagram-led",
+   2,
+   0.0
+  ],
+  [
+   "OTA-dependent",
+   3,
+   0.0
+  ],
+  [
+   "Trust-checker",
+   1,
+   0.0
+  ],
+  [
+   "Design-aware",
+   1,
+   0.0
+  ]
+ ],
+ "by_income": [
+  [
+   "$55,000 to $68,000",
+   3,
+   0.0
+  ],
+  [
+   "$68,000 and up",
+   4,
+   0.0
+  ],
+  [
+   "under $55,000",
+   3,
+   0.0
+  ]
+ ],
+ "why_not": [
+  [
+   "trust",
+   6,
+   [
+    "Booking.com is where my guests already find me and trust the payment. A pretty site and an app for a 12-room place sounds nice, but my guests don't download apps, and I'm not paying $800 to fight Booking.com when my template site already works.",
+    "It is a pretty concept for a guesthouse I have never seen, with no booking numbers behind it. Every agency that has pitched our group has promised more direct bookings and I have never seen the figures."
+   ],
+   [
+    "P001",
+    "P005"
+   ]
+  ],
+  [
+   "need",
+   3,
+   [
+    "I already pay for a booking engine and a channel manager, and they take bookings and send confirmations. I don't see what a guest app and a WhatsApp bot add that I can't do myself on my phone at midnight.",
+    "I already pay SiteMinder for the booking engine and channel manager, so a studio selling me a booking page and a WhatsApp bot sounds like a second system I would have to run. The 15-25% Booking.com cut is my real pain, but nothing here shows me how it saves money on my own bookings."
+   ],
+   [
+    "P002",
+    "P003"
+   ]
+  ],
+  [
+   "price",
+   1,
+   [
+    "The look is lovely and I do follow design hotels, but this reads as a studio selling a whole system before I know what it costs. 'Brand identity from $800' is only the start, and a guest app plus a WhatsApp assistant sounds like more money and more work for me to run every week."
+   ],
+   [
+    "P010"
+   ]
+  ]
+ ],
+ "why_yes": [],
+ "flip": [
+  "Proof from a guesthouse like mine, in Lamu or Diani, that direct bookings went up by enough to cover the fee and the cost of the site, shown to me in numbers.",
+  "Proof, in numbers from a property like mine, that direct bookings rise enough to cover the full cost, with the setup done by someone who stays on to fix it.",
+  "A clear answer that it connects to my existing channel manager, plus a real guesthouse of my size showing its share of direct bookings went up with the same setup.",
+  "A clear before and after on a hotel like mine, with real direct booking numbers and the cost of the deposit and WhatsApp setup written down.",
+  "A named hotel of similar size showing its direct booking share before and after, with the figures checked by someone I know.",
+  "A month of real case numbers from a lodge like mine showing direct bookings rising without a drop in Booking.com visibility, with the setup run for me by the studio.",
+  "A free trial month where a few of my own Booking.com guests book the direct page and the boat transfer and deposit work with M-Pesa, with no fee until the guests arrive.",
+  "A real lodge like mine showing direct bookings went up while its Booking.com visibility stayed the same, with the numbers to prove it.",
+  "Two or three named guesthouses they have actually worked with, with booking figures I can phone and check, showing commission and no-show numbers before and after.",
+  "A clear, all-in price for my size of property, plus a worked example from a guesthouse like mine showing the direct bookings it actually brought in."
+ ],
+ "purchases_first_month_per_buyer": null,
+ "price_answers": 10
+}

@@ -1,0 +1,13 @@
+{
+  "id": "P001",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "trust",
+  "reason": "Booking.com is where my guests already find me and trust the payment. A pretty site and an app for a 12-room place sounds nice, but my guests don't download apps, and I'm not paying $800 to fight Booking.com when my template site already works.",
+  "objection": "Will guests really book on my own site and send a deposit by M-Pesa when they already trust Booking.com? I've heard of owners losing bookings that way.",
+  "would_change_my_mind": "Proof from a guesthouse like mine, in Lamu or Diani, that direct bookings went up by enough to cover the fee and the cost of the site, shown to me in numbers.",
+  "price_too_cheap": 150,
+  "price_cheap": 400,
+  "price_expensive": 800,
+  "price_too_expensive": 1500
+}

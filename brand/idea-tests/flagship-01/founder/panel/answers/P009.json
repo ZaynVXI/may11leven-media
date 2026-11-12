@@ -1,0 +1,13 @@
+{
+  "id": "P009",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "trust",
+  "reason": "I run a guesthouse and I need to see real hotels and real booking numbers before I hand over money. This is a concept for a hotel that does not exist, so I cannot tell whether the idea works for anyone, and I would not pay $800 to find out.",
+  "objection": "This is a made-up hotel, not a real result. Who have they actually done this for, and what happened to their bookings?",
+  "would_change_my_mind": "Named East African or Gulf hotels they have already set up, with the owners willing to talk to me and real before-and-after booking numbers.",
+  "price_too_cheap": 150,
+  "price_cheap": 400,
+  "price_expensive": 800,
+  "price_too_expensive": 1200
+}
