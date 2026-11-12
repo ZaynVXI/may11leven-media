@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<style>
+@font-face{font-family:T;font-weight:300;src:url(fonts/InterTight-Light.ttf)}
+@font-face{font-family:T;font-weight:400;src:url(fonts/InterTight-Regular.ttf)}
+@font-face{font-family:T;font-weight:500;src:url(fonts/InterTight-Medium.ttf)}
+@font-face{font-family:S;src:url(fonts/InstrumentSerif-Regular.ttf)}
+@font-face{font-family:S;font-style:italic;src:url(fonts/InstrumentSerif-Italic.ttf)}
+@font-face{font-family:M;font-weight:400;src:url(fonts/PlexMono.ttf)}
+@font-face{font-family:M;font-weight:500;src:url(fonts/PlexMonoMed.ttf)}
+:root{--ink:#141213;--bone:#ECEAE4;--ash:#8C8884;--line:rgba(20,18,19,.14);--red:#FF4A1C}
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#777;font-family:T;color:var(--ink);-webkit-font-smoothing:antialiased}
+.page{width:1080px;height:1350px;position:relative;overflow:hidden;background:var(--bone);margin:0 0 40px}
+.dark{background:var(--ink);color:var(--bone)}
+.dark{--line:rgba(236,234,228,.16)}
+.mono{font-family:M;font-size:15px;letter-spacing:.04em;text-transform:uppercase}
+.head{position:absolute;left:56px;right:56px;top:48px;display:grid;grid-template-columns:1fr 1fr 1fr;padding-bottom:16px;border-bottom:1px solid var(--line)}
+.head span:nth-child(2){text-align:center}.head span:last-child{text-align:right}
+.foot{position:absolute;left:56px;right:56px;bottom:44px;display:flex;justify-content:space-between;color:var(--ash)}
+.serif{font-family:S;font-weight:400}
+.muted{color:var(--ash)}
+/* cover */
+.cover .num{position:absolute;left:44px;top:250px;font-family:S;font-size:470px;line-height:.8;letter-spacing:-.04em}
+.cover .num i{font-size:200px;font-style:italic;letter-spacing:0}
+.cover .lede{position:absolute;left:56px;right:56px;top:720px;font-size:48px;line-height:1.08;letter-spacing:-.02em;font-weight:400}
+.cover .bar{position:absolute;left:56px;right:56px;top:1010px}
+.track{height:10px;background:rgba(20,18,19,.08);position:relative}
+.fill{position:absolute;left:0;top:0;bottom:0;background:var(--ink)}
+.tick{position:absolute;top:-16px;bottom:-16px;width:1px;background:var(--red)}
+.ticklab{position:absolute;top:30px;font-family:M;font-size:13px;letter-spacing:.04em;text-transform:uppercase}
+/* generic */
+.title{position:absolute;left:56px;right:56px;top:150px;font-family:S;font-size:92px;line-height:.95;letter-spacing:-.02em}
+.title i{font-style:italic}
+.body{position:absolute;left:56px;width:600px;font-size:22px;line-height:1.45;font-weight:300}
+.rows{position:absolute;left:56px;right:56px;border-top:1px solid var(--line)}
+.row{display:grid;grid-template-columns:80px 1fr auto;align-items:baseline;padding:26px 0;border-bottom:1px solid var(--line)}
+.row .k{font-family:M;font-size:14px;color:var(--ash)}
+.row .t{font-size:28px;letter-spacing:-.01em}
+.row .v{font-family:S;font-size:88px;line-height:.8;letter-spacing:-.03em}
+.row .v.red{color:var(--red)}
+/* dots */
+.dots{position:absolute;left:56px;right:56px}
+.sq{position:absolute;width:56px;height:56px}
+</style></head><body>
+
+<!-- 1 COVER -->
+<section class="page cover" id="p1">
+  <div class="head mono"><span>May11Leven Labs</span><span>Field study 01</span><span>Zanzibar</span></div>
+  <div class="num">9.6<i>s</i></div>
+  <p class="lede">The median small hotel website in Zanzibar takes 9.6 seconds to show its main image or headline on a mid-range phone.</p>
+  <div class="bar">
+    <div class="track"><div class="fill" style="width:44.6%"></div><div class="tick" style="left:18.6%"></div></div>
+    <span class="ticklab" style="left:18.6%;transform:translateX(-50%);color:var(--red)">4 s · Google's "poor" line</span>
+    <span class="ticklab" style="left:44.6%;transform:translateX(-50%)">9.6 s · Zanzibar median</span>
+  </div>
+  <div class="foot mono"><span>51 independent hotels and guesthouses</span><span>Swipe</span></div>
+</section>
+
+<!-- 2 METHOD -->
+<section class="page" id="p2">
+  <div class="head mono"><span>01</span><span>How we measured</span><span>Field study 01</span></div>
+  <h2 class="title">Every listed hotel,<br><i>opened like a guest would.</i></h2>
+  <div class="rows" style="top:520px">
+    <div class="row"><span class="k">A</span><span class="t">Places to stay on Unguja that OpenStreetMap lists with their own website</span><span class="v">107</span></div>
+    <div class="row"><span class="k">B</span><span class="t">Independent ones with a working site, after removing chains, bot checks and dead links</span><span class="v">51</span></div>
+    <div class="row"><span class="k">C</span><span class="t">Google Lighthouse speed tests on a simulated mid-range phone, 3 per site</span><span class="v">150</span></div>
+  </div>
+  <p class="body muted" style="top:1040px;width:820px;font-size:19px">Homepage only. Speed figures are lab estimates (median of three runs), not measurements from real guests. Every price and "book direct" match was checked by eye. We publish totals only and never name a business.</p>
+  <div class="foot mono"><span>Full method in the caption</span><span>02 / 08</span></div>
+</section>
+
+<!-- 3 SPEED -->
+<section class="page" id="p3">
+  <div class="head mono"><span>02</span><span>Speed</span><span>Field study 01</span></div>
+  <h2 class="title">86% are slower than<br><i>Google's "poor" line.</i></h2>
+  <div id="chart" style="position:absolute;left:56px;right:56px;top:470px;height:560px"></div>
+  <p class="body" style="top:1080px;width:900px;font-size:21px">Each line is one hotel: seconds until its main image or headline appears. Only 3 of 49 are rated "good" (2.5 s or less). Nearly half take more than 10 seconds. Most homepages weigh over 3 MB.</p>
+  <div class="foot mono"><span>Lighthouse 12, mobile, median of 3 runs, n=49</span><span>03 / 08</span></div>
+</section>
+
+<!-- 4 DEAD -->
+<section class="page dark" id="p4">
+  <div class="head mono"><span>03</span><span>The link on the map</span><span>Field study 01</span></div>
+  <h2 class="title">1 in 6 listed websites<br><i>is gone or taken over.</i></h2>
+  <div id="grid" style="position:absolute;left:56px;top:470px;width:968px;height:560px"></div>
+  <div class="rows" style="top:1080px;border-color:var(--line)">
+    <div class="row" style="grid-template-columns:28px 1fr auto;padding:16px 0"><span style="width:16px;height:16px;background:var(--red);display:block;align-self:center"></span><span class="t" style="font-size:22px">Domain no longer exists, or lapsed and now shows gambling, pirated video or a "for sale" page</span><span class="mono">18 of 107</span></div>
+    <div class="row" style="grid-template-columns:28px 1fr auto;padding:16px 0"><span style="width:16px;height:16px;border:1.5px solid var(--bone);display:block;align-self:center"></span><span class="t" style="font-size:22px">Opens to an error: certificate warning, redirect loop, 404 or 500</span><span class="mono">13 of 107</span></div>
+  </div>
+  <div class="foot mono" style="color:rgba(236,234,228,.45)"><span>Rechecked on two DNS resolvers and WHOIS</span><span>04 / 08</span></div>
+</section>
+
+<!-- 5 BOOKING -->
+<section class="page" id="p5">
+  <div class="head mono"><span>04</span><span>Booking</span><span>Field study 01</span></div>
+  <h2 class="title">The guest is ready.<br><i>The site isn't.</i></h2>
+  <div class="rows" style="top:470px">
+    <div class="row"><span class="k">51</span><span class="t">"Book" sends the guest to a different web address to finish</span><span class="v">51%</span></div>
+    <div class="row"><span class="k">51</span><span class="t">No booking button on the homepage at all</span><span class="v">18%</span></div>
+    <div class="row"><span class="k">51</span><span class="t">Show a room price on the homepage</span><span class="v">16%</span></div>
+    <div class="row"><span class="k">51</span><span class="t">Give a real reason to book direct, like a perk or a discount</span><span class="v red">4%</span></div>
+  </div>
+  <p class="body muted" style="top:1100px;width:880px;font-size:19px">Most of the 51% go to the hotel's own booking engine on another address, 3 go to Booking.com or Airbnb. Either way the guest leaves the brand mid-decision.</p>
+  <div class="foot mono"><span>n = 51 independent sites</span><span>05 / 08</span></div>
+</section>
+
+<!-- 6 MISMATCH -->
+<section class="page" id="p6">
+  <div class="head mono"><span>05</span><span>Where guests come from</span><span>Field study 01</span></div>
+  <h2 class="title">Guests come from Instagram.<br><i>The website loses them.</i></h2>
+  <div style="position:absolute;left:56px;right:56px;top:560px;display:grid;grid-template-columns:repeat(3,1fr);gap:24px">
+    <div style="border-top:1px solid var(--line);padding-top:24px"><div class="serif" style="font-size:150px;line-height:.85;letter-spacing:-.03em">78%</div><p style="font-size:22px;line-height:1.35;margin-top:22px">link to their Instagram</p></div>
+    <div style="border-top:1px solid var(--line);padding-top:24px"><div class="serif" style="font-size:150px;line-height:.85;letter-spacing:-.03em">27%</div><p style="font-size:22px;line-height:1.35;margin-top:22px">show a visible WhatsApp button</p></div>
+    <div style="border-top:1px solid var(--line);padding-top:24px"><div class="serif" style="font-size:150px;line-height:.85;letter-spacing:-.03em;color:var(--red)">0%</div><p style="font-size:22px;line-height:1.35;margin-top:22px">mention M-Pesa or any mobile money</p></div>
+  </div>
+  <p class="body" style="top:1040px;width:880px;font-size:21px">The feed does the selling. Then the guest taps through to a slow page with no price, no chat and no familiar way to pay, and books wherever it feels easier.</p>
+  <div class="foot mono"><span>n = 51 independent sites</span><span>06 / 08</span></div>
+</section>
+
+<!-- 7 FIXES -->
+<section class="page dark" id="p7">
+  <div class="head mono"><span>06</span><span>What to fix first</span><span>Field study 01</span></div>
+  <h2 class="title">Five fixes,<br><i>in the order we'd do them.</i></h2>
+  <div class="rows" style="top:470px">
+    <div class="row"><span class="k">01</span><span class="t">Compress the hero image. On 7 in 10 sites it's what the guest is waiting for.</span><span></span></div>
+    <div class="row"><span class="k">02</span><span class="t">Show a "from" price on the homepage.</span><span></span></div>
+    <div class="row"><span class="k">03</span><span class="t">Keep booking on your own address, in your own colours.</span><span></span></div>
+    <div class="row"><span class="k">04</span><span class="t">Give one reason to book direct: the transfer, breakfast, a late checkout.</span><span></span></div>
+    <div class="row"><span class="k">05</span><span class="t">Add WhatsApp and the payment methods your guests already use.</span><span></span></div>
+  </div>
+  <p class="body" style="top:1110px;width:880px;font-size:19px;color:rgba(236,234,228,.6)">And check the link on your map listing still opens your website.</p>
+  <div class="foot mono" style="color:rgba(236,234,228,.45)"><span>None of these needs a new website</span><span>07 / 08</span></div>
+</section>
+
+<!-- 8 CLOSE -->
+<section class="page" id="p8">
+  <div class="head mono"><span>07</span><span>About this study</span><span>Field study 01</span></div>
+  <h2 class="title">Want your own<br><i>numbers?</i></h2>
+  <p class="body" style="top:470px;width:860px;font-size:28px;line-height:1.35;font-weight:400">Comment 11 and we'll run the same check on your hotel's website, free, and send you what we find.</p>
+  <div class="rows" style="top:760px">
+    <div class="row" style="grid-template-columns:240px 1fr"><span class="mono muted">Who we are</span><span style="font-size:21px;line-height:1.45">May11Leven Labs, a design and technology studio. We build brands, websites, apps and booking automation, so we have an interest in this topic. That's why the method is public and no business is named.</span></div>
+    <div class="row" style="grid-template-columns:240px 1fr"><span class="mono muted">Contact</span><span style="font-size:21px">hello@may11levenlabs.com</span></div>
+  </div>
+  <div class="foot mono"><span>Field study 01 · Zanzibar</span><span>08 / 08</span></div>
+</section>
+
+<script>
+const V=__VALUES__;
+// speed chart: one vertical line per hotel, sorted, height = seconds
+(function(){
+  const el=document.getElementById('chart'); const W=968,H=560,max=45; const n=V.length; const gap=W/n;
+  let s=`<svg width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" style="overflow:visible">`;
+  const y=v=>H-(v/max)*H;
+  [0,10,20,30,40].forEach(t=>{s+=`<line x1="0" x2="${W}" y1="${y(t)}" y2="${y(t)}" stroke="rgba(20,18,19,.10)"/><text x="${W}" y="${y(t)-8}" text-anchor="end" font-family="M" font-size="13" fill="#8C8884">${t} S</text>`});
+  V.forEach((v,i)=>{const x=i*gap+gap/2; s+=`<line x1="${x}" x2="${x}" y1="${H}" y2="${y(v)}" stroke="${v<=4?'#8C8884':'#141213'}" stroke-width="${gap*0.42}"/>`});
+  s+=`<line x1="0" x2="${W}" y1="${y(4)}" y2="${y(4)}" stroke="#FF4A1C" stroke-width="1.5"/><text x="0" y="${y(4)-10}" font-family="M" font-size="13" fill="#FF4A1C">4 S · POOR</text>`;
+  s+=`</svg>`; el.innerHTML=s;
+})();
+// dead-link grid: 107 squares
+(function(){
+  const el=document.getElementById('grid'); const cols=15, size=50, g=14; let h='';
+  const marks=Array(107).fill(0); // spread the 18 + 13 evenly so no position implies a business
+  for(let i=0;i<18;i++) marks[Math.round(i*107/18)+2]=1;
+  let k=0; for(let i=0;i<107&&k<13;i++){ if(!marks[(i*7+5)%107]){marks[(i*7+5)%107]=2;k++;} }
+  marks.forEach((m,i)=>{const x=(i%cols)*(size+g), y=Math.floor(i/cols)*(size+g)*1.0;
+    const st=m===1?'background:#FF4A1C':m===2?'border:1.5px solid #ECEAE4':'background:rgba(236,234,228,.12)';
+    h+=`<div style="position:absolute;left:${x}px;top:${y}px;width:${size}px;height:${size}px;${st}"></div>`});
+  el.innerHTML=h;
+})();
+</script>
+</body></html>
