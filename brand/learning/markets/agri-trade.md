@@ -38,3 +38,10 @@
 - Skynaps reel (uploaded) and skynapsng.com.
 - Ecofin Agency on the Afreximbank outlook 2026.
 - BusinessDay archive (2016) on export rejections.
+
+## East Africa Foods: retailer-trust brands (evening study)
+
+- East Africa Foods (Dar es Salaam) raised about US$40M, including a US$26M Series B led by InfraCo with Oikocredit and FMO, to expand across East Africa and enter Kenya. It has 28,000+ registered farmers and 10,000+ retailers (WeeTracker, Oct 2026; Nairametrics, Nov 2026).
+- Africa's October funding was US$324.42M across 38 disclosed deals, and the top 10 took 92.94% (Nairametrics, 10 Nov 2026).
+- What a distributor entering a new country needs from us: shopkeeper trust at first sight. That means van livery, sack and shelf-strip packaging, a reorder app that works offline on a cheap Android, and a bilingual Swahili/English launch reel.
+- Showcase idea: "the shop on the corner". An invented staples brand shown as the sack, the shelf strip and the reorder screen, all one system, rendered in Blender on a real duka shelf.
