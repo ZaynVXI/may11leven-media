@@ -64,3 +64,16 @@ First applied: `concepts/kusi-house/` (kusi-loop.mp4).
   - a "Discover the full project on Behance" end card
 - **Self-initiated exploration:** one visual (a flower under CRT scanlines), one strict mono layout, repeated over four images. Each card floats over a blurred, enlarged copy of its own image. A dark phone-in-hand shot. Caption: "Visual and typography exploration before the next website drop." Sharing the exploration builds anticipation and shows thinking.
 - **Applied:** Kusi type pairing board (credits from the licences, with what each face is used for); Kusi phones staggered on the mangrove-dark field.
+
+## Fourth study: measured, bit by bit (numbers from his frames vs our first report)
+| Measure | Lebedev / Cantor8 | Our report v1 | Rule now |
+|---|---|---|---|
+| Dominant colour share | 67–85% one saturated hue (cobalt), or a full photograph | 85–91% pale bone | Commit: a saturated field, or a real photo, or ink. Never a pale page without imagery. |
+| Contrast (std of luminance) | 65–86 on photo/UI frames; 45 on the type board | 31–48 | Push contrast: ink on red, bone on ink. |
+| Outer edge | ~1.7–3% of width for labels and hairline rules | 5.2% uniform | Tight 32 px edges for labels and rules. Content sits on a column. |
+| Grid | Asymmetric: a label column (~26% width) and content from there | Centred, symmetric | 280 px label column; content starts at 312 px. |
+| Labels | Mono uppercase, ■ markers, numbered circles, hairline header bar | Mono, no markers | Hairline header bar with ■ markers; numbered circles. |
+| Photography | Black-and-white photo, with brand colour only on the UI | None in the report | B&W photo from the place, one colour (Infrared) only on what matters. |
+| Cover | An image moment: a screen over a real scene | Type only | The cover gets a scene: a phone still loading, over a Stone Town street. |
+
+Applied in Field study 01 v2 (`concepts/field-study-01/v1–v8.jpg`).

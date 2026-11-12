@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<style>
+@font-face{font-family:T;font-weight:300;src:url(fonts/InterTight-Light.ttf)}
+@font-face{font-family:T;font-weight:400;src:url(fonts/InterTight-Regular.ttf)}
+@font-face{font-family:T;font-weight:500;src:url(fonts/InterTight-Medium.ttf)}
+@font-face{font-family:S;src:url(fonts/InstrumentSerif-Regular.ttf)}
+@font-face{font-family:S;font-style:italic;src:url(fonts/InstrumentSerif-Italic.ttf)}
+@font-face{font-family:M;src:url(fonts/PlexMono.ttf)}
+:root{--ink:#141213;--bone:#ECEAE4;--red:#FF4A1C;--ash:#8C8884}
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#666;font-family:T;-webkit-font-smoothing:antialiased}
+.page{width:1080px;height:1350px;position:relative;overflow:hidden;margin-bottom:40px}
+.red{background:var(--red);color:var(--ink)} .ink{background:var(--ink);color:var(--bone)} .bone{background:var(--bone);color:var(--ink)}
+/* hairline header, tight edges (Lebedev): 32px edge, rule at 3% */
+.hd{position:absolute;left:0;right:0;top:40px;height:44px;border-top:1px solid currentColor;border-bottom:1px solid currentColor;display:grid;grid-template-columns:280px 1fr 1fr;align-items:center;padding:0 32px;font-family:M;font-size:14px;letter-spacing:.06em;text-transform:uppercase;opacity:.9}
+.hd b{font-weight:400;display:flex;align-items:center;gap:10px}.hd b:before{content:"";width:7px;height:7px;background:currentColor;display:inline-block}
+.ft{position:absolute;left:32px;right:32px;bottom:36px;display:flex;justify-content:space-between;font-family:M;font-size:13px;letter-spacing:.06em;text-transform:uppercase;opacity:.6}
+/* asymmetric grid: label column 32..280, content from 312 */
+.lab{position:absolute;left:32px;width:240px;font-family:M;font-size:13px;letter-spacing:.05em;text-transform:uppercase;line-height:1.5}
+.lab span{display:block;opacity:.55;margin-top:14px}.lab span:first-child{margin-top:0}
+.c{position:absolute;left:312px;right:32px}
+.h{font-family:S;font-weight:400;font-size:96px;line-height:.92;letter-spacing:-.025em}.h i{font-style:italic}
+.p{font-size:22px;line-height:1.42;font-weight:300}
+.n{position:absolute;right:32px;width:40px;height:40px;border:1px solid currentColor;border-radius:50%;display:grid;place-items:center;font-family:M;font-size:14px}
+.big{font-family:T;font-weight:300;letter-spacing:-.055em;line-height:.82}
+.rule{border-top:1px solid currentColor;opacity:.25}
+.list .r{display:grid;grid-template-columns:1fr auto;align-items:baseline;padding:24px 0;border-bottom:1px solid rgba(20,18,19,.22)}
+.list .r .t{font-size:26px;letter-spacing:-.01em;max-width:520px}
+.list .r .v{font-weight:300;font-size:104px;letter-spacing:-.05em;line-height:.8}
+/* cover */
+.cover .photo{position:absolute;inset:0;background:url(img/street_bw.jpg) center 40%/cover}
+.cover .shade{position:absolute;inset:0;background:linear-gradient(to bottom,rgba(20,18,19,.55),rgba(20,18,19,0) 30%,rgba(20,18,19,0) 55%,rgba(20,18,19,.82))}
+.phone{position:absolute;width:356px;height:740px;border-radius:44px;background:#F4F2EE;overflow:hidden}
+.phone .bar{display:flex;justify-content:space-between;padding:20px 30px 0;font-family:T;font-weight:500;font-size:15px;color:#141213}
+.sk{background:#E3E0DA;border-radius:6px;position:absolute}
+.load{position:absolute;left:28px;right:28px;height:3px;background:#E3E0DA}
+.load i{position:absolute;left:0;top:0;bottom:0;width:38%;background:var(--red)}
+</style></head><body>
+
+<!-- 01 COVER: B&W street, phone still loading -->
+<section class="page cover ink" id="p1">
+  <div class="photo"></div><div class="shade"></div>
+  <div class="hd"><b>May11Leven Labs</b><span>Field study 01</span><span style="text-align:right">Zanzibar · Hotel websites</span></div>
+  <div class="phone" style="left:362px;top:210px">
+    <div class="bar"><span>9:41</span><span>●●● ▮</span></div>
+    <div style="position:absolute;left:28px;top:62px;font-family:M;font-size:12px;letter-spacing:.06em;color:#8C8884">YOURHOTEL.CO.TZ</div>
+    <div class="load" style="top:90px"><i></i></div>
+    <div class="sk" style="left:28px;right:28px;top:120px;height:300px"></div>
+    <div class="sk" style="left:28px;width:220px;top:446px;height:26px"></div>
+    <div class="sk" style="left:28px;width:160px;top:484px;height:26px"></div>
+    <div class="sk" style="left:28px;right:28px;top:540px;height:14px"></div>
+    <div class="sk" style="left:28px;right:90px;top:566px;height:14px"></div>
+    <div style="position:absolute;left:0;right:0;bottom:46px;text-align:center;font-family:T;font-weight:300;font-size:92px;letter-spacing:-.05em;color:var(--red);line-height:1">9.6s</div>
+  </div>
+  <div style="position:absolute;left:32px;right:32px;bottom:120px;display:grid;grid-template-columns:280px 1fr;color:var(--bone)">
+    <div style="font-family:M;font-size:13px;letter-spacing:.06em;text-transform:uppercase;opacity:.75">51 independent hotels<br>3 speed tests each</div>
+    <div style="font-family:S;font-size:58px;line-height:1;letter-spacing:-.02em">The median hotel website in Zanzibar makes a guest wait <i>9.6 seconds</i> for its main image on a phone.</div>
+  </div>
+  <div class="ft" style="color:var(--bone)"><span>Swipe</span><span>01 / 08</span></div>
+</section>
+
+<!-- 02 METHOD (bone, B&W waterfront strip) -->
+<section class="page bone" id="p2">
+  <div class="hd"><b>How we measured</b><span>Field study 01</span><span style="text-align:right">02</span></div>
+  <div style="position:absolute;left:0;right:0;top:84px;height:430px;background:url(img/boats_bw.jpg) center 55%/cover"></div>
+  <div class="lab" style="top:580px"><span>Source</span>OpenStreetMap, Unguja<span>Tools</span>Playwright, Lighthouse 12<span>Device</span>Simulated mid-range phone, slow 4G</div>
+  <div class="c" style="top:572px"><h2 class="h" style="font-size:80px">Every listed hotel,<br><i>opened like a guest would.</i></h2></div>
+  <div class="c list" style="top:820px">
+    <div class="r"><span class="t">Places to stay listed with their own website</span><span class="v">107</span></div>
+    <div class="r"><span class="t">Independent, with a website that works</span><span class="v">51</span></div>
+    <div class="r" style="border:0"><span class="t">Homepages only. Totals only. No business named.</span><span></span></div>
+  </div>
+  <div class="ft"><span>Lab estimates, median of 3 runs</span><span>02 / 08</span></div>
+</section>
+
+<!-- 03 SPEED (red field) -->
+<section class="page red" id="p3">
+  <div class="hd"><b>Speed</b><span>Field study 01</span><span style="text-align:right">03</span></div>
+  <div class="lab" style="top:150px"><span>Measure</span>Largest Contentful Paint<span>Google's line</span>4 s = poor<span>Sample</span>49 sites, 3 runs each</div>
+  <div class="c" style="top:142px"><h2 class="h">86% are slower than<br><i>Google's "poor" line.</i></h2></div>
+  <div id="chart" class="c" style="top:470px;height:600px;left:32px"></div>
+  <div class="c" style="top:1130px"><p class="p">Each bar is one hotel. 3 of 49 are rated good. Nearly half make guests wait over 10 seconds.</p></div>
+  <div class="ft"><span>Lab estimates</span><span>03 / 08</span></div>
+</section>
+
+<!-- 04 DEAD (ink) -->
+<section class="page ink" id="p4">
+  <div class="hd"><b>The link on the map</b><span>Field study 01</span><span style="text-align:right">04</span></div>
+  <div class="lab" style="top:150px"><span>Checked</span>Two DNS resolvers<br>and WHOIS</div>
+  <div class="c" style="top:142px"><h2 class="h">1 in 6 listed websites<br><i>is gone or taken over.</i></h2></div>
+  <div id="grid" style="position:absolute;left:312px;top:470px;width:736px;height:600px"></div>
+  <div class="lab" style="top:470px"><span style="opacity:1;color:var(--red)">■ 18 of 107</span>Gone, or lapsed and now gambling, pirated video or "for sale"<span style="opacity:1;margin-top:28px">□ 13 of 107</span>Opens to an error</div>
+  <div class="ft" style="color:var(--bone)"><span>Each square is one listing</span><span>04 / 08</span></div>
+</section>
+
+<!-- 05 BOOKING (bone) -->
+<section class="page bone" id="p5">
+  <div class="hd"><b>Booking</b><span>Field study 01</span><span style="text-align:right">05</span></div>
+  <div class="lab" style="top:150px"><span>Sample</span>51 independent sites<span>Checked</span>Prices and perks<br>read by eye</div>
+  <div class="c" style="top:142px"><h2 class="h">The guest is ready.<br><i>The website isn't.</i></h2></div>
+  <div class="c list" style="top:470px">
+    <div class="r"><span class="t">"Book" sends the guest to a different web address</span><span class="v">51%</span></div>
+    <div class="r"><span class="t">No booking button on the homepage</span><span class="v">18%</span></div>
+    <div class="r"><span class="t">Show a room price</span><span class="v">16%</span></div>
+    <div class="r"><span class="t">Give a reason to book direct</span><span class="v" style="color:var(--red)">4%</span></div>
+  </div>
+  <div class="ft"><span>3 of the 51% go to Booking.com or Airbnb</span><span>05 / 08</span></div>
+</section>
+
+<!-- 06 MISMATCH (red) -->
+<section class="page red" id="p6">
+  <div class="hd"><b>Where guests come from</b><span>Field study 01</span><span style="text-align:right">06</span></div>
+  <div class="c" style="top:142px"><h2 class="h" style="font-size:84px">Guests come from Instagram.<br><i>The website loses them.</i></h2></div>
+  <div style="position:absolute;left:32px;right:32px;top:560px;display:grid;grid-template-columns:280px 1fr 1fr 1fr;column-gap:20px">
+    <div class="lab" style="position:static">Of 51 sites</div>
+    <div><div class="big" style="font-size:128px">78%</div><p class="p" style="margin-top:26px">link to Instagram</p></div>
+    <div><div class="big" style="font-size:128px">27%</div><p class="p" style="margin-top:26px">show WhatsApp</p></div>
+    <div><div class="big" style="font-size:128px;color:var(--bone)">0%</div><p class="p" style="margin-top:26px">mention M-Pesa or mobile money</p></div>
+  </div>
+  <div class="c" style="top:1040px"><p class="p">The feed sells the stay. Then a slow page, no price, no chat and no familiar way to pay.</p></div>
+  <div class="ft"><span>Homepages, n=51</span><span>06 / 08</span></div>
+</section>
+
+<!-- 07 FIXES (ink) -->
+<section class="page ink" id="p7">
+  <div class="hd"><b>What to fix first</b><span>Field study 01</span><span style="text-align:right">07</span></div>
+  <div class="lab" style="top:150px"><span>Cost</span>None of these needs<br>a new website</div>
+  <div class="c" style="top:142px"><h2 class="h">Five fixes,<br><i>in this order.</i></h2></div>
+  <div class="c" style="top:470px">
+    <div style="border-top:1px solid rgba(236,234,228,.22)"></div>
+    <div style="display:grid;grid-template-columns:70px 1fr;padding:26px 0;border-bottom:1px solid rgba(236,234,228,.22);font-size:26px;line-height:1.3"><span style="font-family:M;font-size:14px;color:var(--red);padding-top:8px">01</span>Compress the hero image. On 7 in 10 sites it's what the guest is waiting for.</div>
+    <div style="display:grid;grid-template-columns:70px 1fr;padding:26px 0;border-bottom:1px solid rgba(236,234,228,.22);font-size:26px;line-height:1.3"><span style="font-family:M;font-size:14px;color:var(--red);padding-top:8px">02</span>Show a "from" price on the homepage.</div>
+    <div style="display:grid;grid-template-columns:70px 1fr;padding:26px 0;border-bottom:1px solid rgba(236,234,228,.22);font-size:26px;line-height:1.3"><span style="font-family:M;font-size:14px;color:var(--red);padding-top:8px">03</span>Keep booking on your own address, in your own colours.</div>
+    <div style="display:grid;grid-template-columns:70px 1fr;padding:26px 0;border-bottom:1px solid rgba(236,234,228,.22);font-size:26px;line-height:1.3"><span style="font-family:M;font-size:14px;color:var(--red);padding-top:8px">04</span>Give one reason to book direct: the transfer, breakfast, a late checkout.</div>
+    <div style="display:grid;grid-template-columns:70px 1fr;padding:26px 0;border-bottom:1px solid rgba(236,234,228,.22);font-size:26px;line-height:1.3"><span style="font-family:M;font-size:14px;color:var(--red);padding-top:8px">05</span>Add WhatsApp, and the ways your guests already pay.</div>
+  </div>
+  <div class="ft" style="color:var(--bone)"><span>And check your map link still works</span><span>07 / 08</span></div>
+</section>
+
+<!-- 08 CLOSE (red) -->
+<section class="page red" id="p8">
+  <div class="hd"><b>Your numbers</b><span>Field study 01</span><span style="text-align:right">08</span></div>
+  <div class="c" style="top:142px"><h2 class="h" style="font-size:150px">Want yours<br><i>checked?</i></h2></div>
+  <div class="c" style="top:560px"><p style="font-size:34px;line-height:1.25;letter-spacing:-.01em;max-width:640px">Comment 11. We'll run the same test on your hotel's website, free, and send you what we find.</p></div>
+  <div class="lab" style="top:1000px"><span>Who we are</span>May11Leven Labs</div>
+  <div class="c" style="top:1000px"><p class="p" style="font-size:19px;max-width:620px">A design and technology studio. We build brands, websites, apps and booking automation, so we have an interest in this topic. That's why the method is public and no business is named.</p><p style="font-family:M;font-size:14px;letter-spacing:.05em;margin-top:22px">HELLO@MAY11LEVENLABS.COM</p></div>
+  <div class="ft"><span>Field study 01 · Zanzibar</span><span>08 / 08</span></div>
+</section>
+
+<script>
+const V=__VALUES__;
+(function(){ const el=document.getElementById('chart'); const W=1016,H=600,max=45,n=V.length,gap=W/n; const y=v=>H-(v/max)*H;
+ let s=`<svg width="${W}" height="${H}" style="overflow:visible">`;
+ [10,20,30,40].forEach(t=>{s+=`<line x1="0" x2="${W}" y1="${y(t)}" y2="${y(t)}" stroke="rgba(20,18,19,.18)"/><text x="${W}" y="${y(t)-8}" text-anchor="end" font-family="M" font-size="13" fill="#141213" opacity=".6">${t} S</text>`});
+ V.forEach((v,i)=>{const x=i*gap+gap/2; s+=`<line x1="${x}" x2="${x}" y1="${H}" y2="${y(v)}" stroke="${v<=4?'#ECEAE4':'#141213'}" stroke-width="${gap*0.46}"/>`});
+ s+=`<line x1="0" x2="${W}" y1="${y(4)}" y2="${y(4)}" stroke="#ECEAE4" stroke-width="2"/><text x="0" y="${y(4)-12}" font-family="M" font-size="13" fill="#ECEAE4">4 S · POOR</text>`;
+ const mi=Math.floor(n/2), mx=mi*gap+gap/2; s+=`<text x="${mx}" y="${y(V[mi])-16}" text-anchor="middle" font-family="M" font-size="13" fill="#141213">MEDIAN 9.6 S</text>`;
+ el.innerHTML=s+`</svg>`; })();
+(function(){ const el=document.getElementById('grid'); const cols=11,size=52,g=12; let h=''; const m=Array(107).fill(0);
+ for(let i=0;i<18;i++) m[Math.round(i*107/18)+2]=1; let k=0; for(let i=0;i<107&&k<13;i++){const j=(i*7+5)%107; if(!m[j]){m[j]=2;k++;}}
+ m.forEach((v,i)=>{const x=(i%cols)*(size+g), yy=Math.floor(i/cols)*(size+g)*0.9;
+  const st=v===1?'background:#FF4A1C':v===2?'border:1.5px solid #ECEAE4':'background:rgba(236,234,228,.13)';
+  h+=`<div style="position:absolute;left:${x}px;top:${yy}px;width:${size}px;height:${size*0.9-4}px;${st}"></div>`}); el.innerHTML=h; })();
+</script>
+</body></html>
