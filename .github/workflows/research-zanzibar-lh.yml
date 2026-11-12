@@ -1,0 +1,25 @@
+name: research-zanzibar-lh
+on:
+  push:
+    paths: ["research/zanzibar/run-lh.txt"]
+permissions:
+  contents: read
+jobs:
+  lighthouse:
+    runs-on: ubuntu-latest
+    timeout-minutes: 340
+    defaults:
+      run:
+        working-directory: research/zanzibar
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 20 }
+      - run: ./lh3.sh
+      - name: keep results private (short-lived artifact, never committed to this public repo)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: results
+          path: research/zanzibar/out/lh3
+          retention-days: 1

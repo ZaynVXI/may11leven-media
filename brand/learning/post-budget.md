@@ -31,3 +31,18 @@ Metricool's free plan publishes 20 posts a month, counted on the 1st. A story us
 ## No repeats
 - A project that has already been posted on a platform does not go to that platform again. Before scheduling, check the published history in Metricool for the project name. ata (reels on 4 and 10 Nov) and Imisozi (3 Nov) are done on Instagram and Facebook.
 - A different platform is fine: LinkedIn is a new audience, so the ata and Imisozi documents can run there once.
+
+## Queue audit (quality over quantity)
+Rule from Zayn: nothing goes out to keep the accounts active. The monthly budget is a ceiling, not a target.
+- **Kept:** LinkedIn what we do (13 Nov 09:00), five logo tests (16 Nov), Imisozi document (20 Nov), ata document (25 Nov); Instagram services (1 Dec).
+- **Pulled to drafts:** Kora Dental video (LinkedIn 18 Nov, Instagram 3 Dec). The phone sits small and flat in an empty grey field, the chat is unreadable at feed size, and there's no real light or scene. Night shift type loop (LinkedIn 23 Nov, Instagram 8 Dec): only type, so a template could make it, and the panel scored it 0/10.
+- **Also pulled to drafts (Zayn: "do what you think is right"):** six text-only LinkedIn posts created outside this workflow (13, 14, 18, 19, 21 and 25 Nov at 11:00). They clashed with the one-post-a-day rule, the 14 Nov one repeated Imisozi, and the copy was generic. They are drafts, not deleted.
+- **Zayn, later the same night:** "everything we post from now on has to be on the same standards as Motto or even better." Measured honestly, none of the remaining posts (services deck, logo tests, Imisozi, ata) reaches Motto's level, so all of them are now drafts too. **The queue is empty on purpose.** The next post is whatever first clears the bar, most likely Flagship 01. There's no deadline, and the LinkedIn trial ending doesn't change that.
+
+## The Motto test (every post, before scheduling)
+1. Could it sit in Motto's or Holographik's portfolio without looking cheaper?
+2. Does it solve a real problem, with a researched number?
+3. Is it a whole world (line, system, product, presentation), or just one frame?
+4. Could one AI prompt have made it? If yes, it isn't ready.
+5. Would a stranger stop, save or share it?
+If any answer is no, it stays in drafts.

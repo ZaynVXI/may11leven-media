@@ -1,0 +1,13 @@
+{
+  "id": "P004",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "trust",
+  "reason": "The commission maths is real, I have seen it in our own statements. But this is a design studio I have never heard of, and the $650 is an illustration, not our numbers. I would run the free calculator on my own figures before I would pay anyone $800 to touch a booking page that already works.",
+  "objection": "Pretty design does not fill rooms in low season. Who builds this, who maintains it when SiteMinder or Cloudbeds changes, and what do we do when the deposit link breaks at 11pm?",
+  "would_change_my_mind": "Our own commission figures run through the calculator, plus a reference from a hotel of similar size that moved bookings to direct and kept them there after a year.",
+  "price_too_cheap": 150,
+  "price_cheap": 350,
+  "price_expensive": 700,
+  "price_too_expensive": 900
+}

@@ -1,0 +1,86 @@
+{
+ "n": 10,
+ "seed": 188446,
+ "customer": {
+  "business": "May11Leven Labs, a small design and technology studio (brand identity, websites, apps, 3D, automation, AI agents, content) that markets itself on Instagram and LinkedIn",
+  "target": "Owners and managers of small hotels, guesthouses, lodges and boutique villas (5-30 rooms) in coastal and safari East Africa and the Gulf, who get guests from Instagram and Booking.com",
+  "where": "Lamu, Diani, Watamu, Zanzibar, Arusha, Nairobi, Kigali, Musanze first; Dubai, Muscat second. Scrolling Instagram or LinkedIn on a phone.",
+  "age": [
+   28,
+   60
+  ],
+  "segments": [
+   {
+    "name": "Owner-manager of a 5-12 room guesthouse",
+    "share": 0.45,
+    "income": [
+     15000,
+     70000
+    ]
+   },
+   {
+    "name": "Owner or GM of a 12-30 room boutique hotel or lodge",
+    "share": 0.35,
+    "income": [
+     50000,
+     200000
+    ]
+   },
+   {
+    "name": "Marketing or revenue lead at a small hotel group",
+    "share": 0.2,
+    "income": [
+     30000,
+     100000
+    ]
+   }
+  ],
+  "behaviours": [
+   {
+    "name": "OTA-dependent",
+    "share": 0.25,
+    "how": "Gets most bookings from Booking.com and Airbnb, hates the commission but fears losing visibility."
+   },
+   {
+    "name": "Instagram-led",
+    "share": 0.2,
+    "how": "Gets enquiries by DM and WhatsApp from their own posts, handles payment by bank transfer or M-Pesa."
+   },
+   {
+    "name": "Price-first",
+    "share": 0.15,
+    "how": "Assumes agencies are expensive; has a cheap template site from a local developer."
+   },
+   {
+    "name": "Trust-checker",
+    "share": 0.15,
+    "how": "Wants to see real hotels the studio has worked with and real booking numbers."
+   },
+   {
+    "name": "Design-aware",
+    "share": 0.15,
+    "how": "Follows design hotels and Design Hotels-style accounts, cares about the brand feeling."
+   },
+   {
+    "name": "Already has a booking engine",
+    "share": 0.1,
+    "how": "Uses a channel manager and booking engine (SiteMinder, Cloudbeds, Nightsbridge) already."
+   }
+  ],
+  "objections": [
+   "Guests trust Booking.com more than my own website",
+   "I already pay for a booking engine or channel manager",
+   "A remote studio does not know my island or my guests",
+   "It is probably too expensive for a small guesthouse",
+   "This is a made-up hotel, not a real result",
+   "Pretty design does not fill rooms in low season"
+  ],
+  "habits": [
+   "you answer guest WhatsApps yourself late at night",
+   "a guest no-showed last week and you still paid commission",
+   "your neighbour lodge just launched a new website",
+   "you are planning to raise rates for high season"
+  ]
+ },
+ "pitch": "A LinkedIn document post and Instagram carousel from May11Leven Labs, a design and technology studio. Clearly labelled \"Concept: Kusi House, Lamu\".\nSlide 1: a phone in a hand on a wooden boat bench at a jetty, showing a simple arrival page opened from a WhatsApp link (nothing to download): \"Your boat leaves Manda jetty at 14:20. Ali will meet you.\"\nSlide 2: \"Keep Booking.com for new guests. Stop paying it for the guests who already found you on Instagram, and for the ones who come back.\"\nSlide 3: a worked example, labelled \"illustration\": 9 rooms, $120 a night. If 10 bookings a month of 3 nights come direct instead of through an 18% commission, the guesthouse keeps about $650 a month.\nSlide 4: the direct booking page on the guesthouse's own site, plugged into the booking engine it already uses (SiteMinder, Cloudbeds, Nightsbridge). \"Book direct: boat transfer and breakfast included.\" A small M-Pesa or card deposit holds the room, and a reminder goes out the day before, so fewer no-shows.\nSlide 5: \"Concept by May11Leven Labs. Brand, booking page, arrival page, WhatsApp reminders. Brand identity from $800. Free tool: work out what commission costs you at the link in bio. Comment 11 and we'll run your numbers with you.\"\nCaption first line: \"Your guests find you on Instagram. Then someone else takes a cut of the booking.\"\nAsk: try the free commission calculator, or comment 11 and we'll run your numbers with you."
+}
