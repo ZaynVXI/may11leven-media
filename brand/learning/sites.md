@@ -6,6 +6,10 @@
 - https://weberruss.com (WEBERRUSS Studio, agency portfolio on minimal.gallery, black theme)
 - https://www.framer.com/community/creator/@sattostudio/ (Satto's 16 Framer templates: Chromakey newest, Pulvinar, ZeroFrame, Monocromo; Oblica and Gordian are free to study)
 - https://www.behance.net/Artemiylebedev (newest: Portfolio '26, 21 Oaks, Cantor8, Ponder AI, Institute of Health)
+- https://details.so (website inspiration, sorted by page type and section; good for references before a site build)
+- https://refero.design (product and app design inspiration: real web and iOS screens, flows and patterns; free tier, Pro is paid, so free tier only) — style systems at styles.refero.design
+- https://designspells.com ("Design details that feel like magic": micro-interactions and small delights, by category such as animation, 404, motion, occasion)
 ## Rotation notes
 - Lebedev Behance revisit: new "Portfolio '26" leads the page; recent work leans to wellness (Frequency Breathwork, Diamond Rose Sanctuary, Institute of Health) and AI/fintech UI (Ponder AI, Cantor8). Same system: one grotesk + mono, colour from photography.
 - Holographik Dribbble: only the SUI shot is public; holographik.co itself could not be loaded from here, so the newest work check stays on the saved refs.
+- Reference-first prompting (reel Zayn shared): AI design only looks good when it's fed references. Pick a real reference from details.so, refero.design or designspells.com, copy the screen or its style notes, then build from it. Steal the thinking, never the surface.
