@@ -11,24 +11,24 @@
 | | Result |
 |---|---|
 | Listed websites that are dead (domain gone) or taken over by spam after the domain lapsed | **21 of 107 (20%)**: 18 dead, 3 now showing gambling or video spam |
-| Median time until the main content appears on a mid-range phone (LCP) | **7.6 s** |
-| Slower than Google's 4 s "poor" line | **82%** |
-| Over 10 s | **39%** |
-| "Good" (2.5 s or less) | **10%** |
-| Lighthouse performance 90+ | **12%** |
-| Median homepage weight | **5.4 MB**; 51% are over 5 MB |
+| Median time until the main content appears on a mid-range phone (LCP, median of 3 runs, n=50) | **9.2 s** |
+| Slower than Google's 4 s "poor" line | **84%** |
+| Over 10 s | **46%** |
+| "Good" (2.5 s or less) | **8%** |
+| Lighthouse performance 90+ | **10%** |
+| Median homepage weight | **5.2 MB**; 50% are over 5 MB |
 | Booking buttons that send the guest to another site | **35%** |
 | Give any reason to book direct (perk, best-rate promise) | **8%** |
 | Show any price on the homepage | **18%** |
 | Mention M-Pesa or any mobile money | **0%** |
 | Link to Instagram | **78%** |
 | Offer WhatsApp somewhere on the page | **59%** |
-| Accessibility score under 90 | **61%** |
+| Accessibility score under 90 | **62%** |
 
 ## The story in one line
-Guests find Zanzibar's small hotels on Instagram and maps, then meet a website that takes 7.6 seconds to show anything, doesn't show a price, and sends them somewhere else to book. One in five listed websites is already dead.
+Guests find Zanzibar's small hotels on Instagram and maps, then meet a website that takes over 9 seconds to show anything, doesn't show a price, and sends them somewhere else to book. One in five listed websites is already dead.
 
 ## Before publishing
-- [ ] Re-run Lighthouse three times per site and use the median.
+- [x] Re-ran Lighthouse three times per site; the speed figures are medians of 3 runs (150 runs; one site failed every run, so n=50).
 - [ ] Cold review by a separate agent (high-stakes claim).
 - [ ] Keep it to totals only, with the method shown in full.
