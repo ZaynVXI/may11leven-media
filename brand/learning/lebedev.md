@@ -77,3 +77,24 @@ First applied: `concepts/kusi-house/` (kusi-loop.mp4).
 | Cover | An image moment: a screen over a real scene | Type only | The cover gets a scene: a phone still loading, over a Stone Town street. |
 
 Applied in Field study 01 v2 (`concepts/field-study-01/v1–v8.jpg`).
+
+## Fifth study: "Designer's Inner Voice", D.Vol. 4 (7 slides, measured)
+- **Canvas** 1440×1800 (4:5). One card, 672×900 (3:4), centred: 47% of the width, 50% of the height. Radius about 6 px. Pure black (#010101) and light grey (#F1F1F1), no other colour.
+- **Grid:** four hairlines cross at the card's corners, with a dot at each crossing. The card sits 16 px inside that cell, so it looks placed on a drawing board.
+- **Cover is inverted:** a light card on black. Inside slides are black cards on light grey.
+- **Type:** one neo-grotesque with tight tracking. Two sizes only: about 60 px for the doubt, 34 px for the answer. Text inset is 32 px. The answer always sits on the same line, the card's vertical middle, so swiping feels like one card flipping.
+- **Copy, word for word:**
+  - Cover: "Designer's Inner Voice". "Fear of stillness. / Flow of creation." Footer: date and "D.Vol. 4".
+  - "What if I'm burned out?" → "Don't stare at ashes, light a new fire."
+  - "Work feels boring." → "Boredom is training. Use it."
+  - "I hate the result." → "Stop chasing fireworks, enjoy sparks."
+  - "What if I'm stuck?" → "Better stuck in motion than lying still."
+  - "And if no one sees?" → "You're not doing it for 'no one.' You're doing it for yourself."
+  - "Perfection?" → "Ship raw, refine later."
+- **The pattern:** a doubt in the reader's own voice (1–5 words), then "→" and a one-line answer (4–8 words). Six doubts, one cover. No logo, no CTA, no image. The voice is the reader's, not the studio's.
+- **Why it works:** it costs almost nothing to make, reads at thumbnail size, gets saved and shared, and builds a numbered series people come back to.
+
+### Our version (never his card, grid or name)
+- **Series:** "Second Thoughts". The doubts a business owner has before hiring a studio, each answered in one line. One service per issue (No. 01 Websites, then Branding, Apps, 3D, Automation, AI agents, Content).
+- **Form:** our own system, not a card on a grid. A full-bleed field, a hairline header with ■ markers, the 26% label column, Instrument Serif for the doubt and Inter Tight for the answer. Cover on Infrared, inside on Ink. No dates.
+- **Last slide** is the only selling slide: the service and "Comment 11".
