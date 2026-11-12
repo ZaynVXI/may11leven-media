@@ -1,0 +1,49 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><title>9.6 seconds</title>
+<style>
+:root{--bg:#0B0B0B;--fg:#F2F0EC;--mute:#8F8F8F;--line:#2C2C2C;--zone:#161616;--ir:#FF4A1C;--c:158.667px}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{background:var(--bg)}
+body{width:1080px;height:1350px;color:var(--fg);font-family:"Inter Display","Inter",sans-serif;font-weight:400;position:relative;overflow:hidden;-webkit-font-smoothing:antialiased}
+p{text-wrap:pretty}
+.frame{position:absolute;left:64px;top:64px;width:952px;height:1222px;border:1px solid var(--line)}
+.h{position:absolute;left:0;right:0;height:1px;background:var(--line)}
+.v{position:absolute;width:1px;background:var(--line)}
+.cell{position:absolute;font-size:22px;line-height:1.3}
+.num{position:absolute;left:14px;top:150px;font-size:400px;line-height:.8;letter-spacing:-.02em}
+.num span{font-size:150px;margin-left:14px;letter-spacing:0}
+.lede{position:absolute;left:24px;top:520px;width:586px;font-size:38px;line-height:1.18}
+.zone{position:absolute;top:760px;height:300px;background:var(--zone)}
+.lab{position:absolute;font-size:20px;color:var(--mute);white-space:nowrap}
+.axis{position:absolute;top:960px;height:2px;background:var(--mute);left:0;right:0}
+.fill{position:absolute;top:959px;height:4px;background:var(--fg);left:0}
+.tick{position:absolute;top:952px;width:1px;height:18px;background:var(--mute)}
+.mark{position:absolute;width:2px}
+.dot{position:absolute;top:949px;width:24px;height:24px;border-radius:50%;background:var(--ir);margin-left:-11px}
+.foot{position:absolute;top:1080px;font-size:20px;line-height:1.4;color:var(--mute)}
+.foot b{font-weight:400;color:var(--fg)}
+</style></head><body>
+<div class="frame" id="f">
+  <div class="h" style="top:96px"></div>
+  <div class="h" style="top:760px"></div>
+  <div class="h" style="top:1060px"></div>
+  <div class="v" style="left:calc(var(--c)*4);top:0;height:96px"></div>
+  <div class="cell" style="left:24px;top:34px">Study 01 · Zanzibar hotel websites</div>
+  <div class="cell" style="left:calc(var(--c)*4 + 24px);top:34px">May11Leven Labs</div>
+  <div class="num">9.6<span>s</span></div>
+  <p class="lede">Median time before the main image or headline shows on an independent Zanzibar hotel website, on a mid-range phone.</p>
+  <div class="v" style="left:calc(var(--c)*4);top:1060px;height:162px"></div>
+  <p class="foot" style="left:24px;width:586px">49 sites. Lighthouse mobile profile, lab estimate,<br>median of 3 runs per site.</p>
+  <p class="foot" style="left:calc(var(--c)*4 + 24px);width:270px"><b>86%</b> are past Google's “poor” line of 4 s.</p>
+</div>
+<script>
+const f=document.getElementById('f'),W=952,x=t=>t/12*W,add=h=>f.insertAdjacentHTML('beforeend',h);
+add(`<div class="zone" style="left:${x(4)}px;width:${W-x(4)}px"></div>`);
+add(`<span class="lab" style="left:${x(4)+16}px;top:784px">Poor, over 4 s</span>`);
+for(let t=0;t<=12;t++){ if(t%2===0&&t>0&&t<12) add(`<div class="v" style="left:${x(t)}px;top:760px;height:300px"></div>`);
+  else if(t%2) add(`<i class="tick" style="left:${x(t)}px"></i>`);
+  if(t%2===0) add(`<span class="lab" style="top:1000px;left:${t===12?x(t)-48:x(t)+(t?8:24)}px">${t}${t===12?' s':''}</span>`);}
+add(`<div class="axis"></div><div class="fill" style="width:${x(9.6)}px"></div>`);
+add(`<div class="mark" style="left:${x(3.5)}px;top:860px;height:100px;background:var(--mute)"></div><span class="lab" style="left:${x(3.5)-150}px;top:866px;width:138px;text-align:right;white-space:normal">First thing<br>appears, 3.5 s</span>`);
+add(`<div class="mark" style="left:${x(9.6)}px;top:760px;height:200px;background:var(--ir)"></div><span class="lab" style="left:${x(9.6)+16}px;top:866px;color:var(--fg)">Main content,<br>9.6 s</span>`);
+add(`<i class="dot" style="left:${x(9.6)}px"></i>`);
+</script></body></html>

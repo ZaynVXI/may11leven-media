@@ -9,3 +9,6 @@
 ## Rotation notes
 - Lebedev Behance revisit: new "Portfolio '26" leads the page; recent work leans to wellness (Frequency Breathwork, Diamond Rose Sanctuary, Institute of Health) and AI/fintech UI (Ponder AI, Cantor8). Same system: one grotesk + mono, colour from photography.
 - Holographik Dribbble: only the SUI shot is public; holographik.co itself could not be loaded from here, so the newest work check stays on the saved refs.
+- https://minimal.gallery newest: Petrillo.studio, In My Shoes, Spyker Cars, Onlines, Mathias Adolfsson, Melike Turgut, Carter Ogunsola. Open Petrillo.studio next for a studio index.
+- https://the-brandidentity.com (RN Arquitectura by Estudio Repúblicas: one weight, one colour, no symbol)
+- https://wearemotto.com/blog (Behind the Big Idea series: Nomina and others; read one per week)

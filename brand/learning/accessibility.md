@@ -49,3 +49,8 @@ Sources: W3C WAI (WCAG 3 draft, March 2026), testparty.ai EAA checklist, OpusCli
 - Reels: three-lights labels moved out of Instagram's bottom caption zone; stronger shade bands so white text stays white over bright shots (fix photos with shade, not by recolouring text).
 - Every post now has alt text per slide and CamelCase hashtags.
 - Lessons: measure the bulk of the background, not thin borders of the same colour; component boxes must size from the actual font size.
+
+## Lesson: alt text for a data graphic (WCAG 1.1.1, nightingaledvs.com)
+- A chart's alt text says three things: the chart type, what it measures, and the point it makes. The source link goes in the caption, not in the alt text.
+- Applied to the Zanzibar tile: "Timeline chart from 0 to 12 seconds of how long independent Zanzibar hotel websites take to show their main content on a mid-range phone. The median is 9.6 seconds, well past Google's poor line at 4 seconds. The first thing appears at 3.5 seconds."
+- Contrast: webaudit on the tile returned no failures (grey #8F8F8F: 6.1:1 on #0B0B0B; on the #161616 zone 5.6:1, checked by hand because the audit reads the page background, not the zone; smallest text 20 px). The infrared line is never the only carrier: the 9.6 s value is also written as text.
