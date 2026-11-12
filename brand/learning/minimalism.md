@@ -9,3 +9,7 @@ One principle per study session. Each one is a rule we can check on a frame, not
 2. **One weight carries the whole system.** Estudio Repúblicas built RN Arquitectura on a single weight of Basel Classic, one olive hero colour and no symbol at all; Courier Prime appears only in technical documents (the-brandidentity.com). Hierarchy comes from size, position and space, never from bold.
    - Check: switch every weight on the frame to Regular. If the order of reading changes, the layout is leaning on weight instead of scale and space.
    - Ours: the Zanzibar 9.6 s tile uses Inter Display Regular only, from the 400 px numeral to 20 px captions. The one emphasis in the footer ("86%") is colour, not weight.
+
+3. **One human mark on a strict system.** The Rare Breed cover on Motto's shelf sets heavy type on a single diagonal in one weight, then lets one loose scribble in a second colour run across it. Because everything else is strict, the scribble reads as attitude, not mess. Two hand-made gestures would turn it back into noise.
+   - Check: count the hand-made marks on the frame. More than one? Remove until one is left, then check that the grid under it is still strict.
+   - Ours: a real pen or chalk stroke (scanned, never faked in code) across one gridded Bone card, in the series accent, at most once per post: a hand-chalked price on a shelf strip, a circled number on a spec sheet.
