@@ -22,3 +22,34 @@ description: What Artemii Lebedev (@artlebedev.ui, artemiilebedev.com), our numb
 3. Start a numbered thought series of our own (like D.Vol), in our own visual form, never a copy.
 
 First applied: `concepts/kusi-house/` (kusi-loop.mp4).
+
+## Second study: 11 reels and his year in review
+- **One project, many posts.** 21OAKS (student housing) appears at least 8 times, each a different presentation:
+  - the desktop site over a blurred real bedroom
+  - the desktop site over moving drone or library footage
+  - phones staggered on the brand's lilac
+  - phones on near-black
+  - split frames of lilac and real photos
+  - the brand's hand-drawn line illustrations alone (a bed, a lamp, a window drawn as one continuous line; isometric rooms)
+  - a numbered room browser (001–013)
+  - an aerial drone hero
+
+  Depth beats breadth. A project becomes a whole series.
+- **Backgrounds move.** Behind the screen there's often real footage (a library with people, a drone over the property, mist moving through leaves), not a still. The screen scrolls slowly on top.
+- **Phones in matched sets.**
+  - Shrimpies' phone sits in a striped shirt pocket (a fisherman's shirt for a seafood brand).
+  - Cantor8's phone lies on cobalt paper under hard light.
+  - IOH's phone lies over a person sleeping (mental health).
+
+  The scene is the brand's metaphor.
+- **One signature component per product,** e.g. A Better Lou's "Your clock is ticking" biological-age dial (64), and Ponder's 4-step rail (Ingest, Brief, Generate, Export).
+- **A year-in-review series:** black label chips in the top-left ("March", "Diamond Rose Sanctuary"). Each month gets its best project in one frame, which recaps the year and proves output.
+- **His own brand illustration and line work** carry warmth into otherwise strict, minimal UI.
+
+## Applied to Kusi House (series plan)
+1. Desktop loop over the blurred dhow (done, draft).
+2. Phones staggered on the lime-plaster field: the arrival page, the room, the deposit.
+3. The arrival timeline as the signature component, alone and large.
+4. A line-drawing system: one continuous line from the airport to the boat to the lane to the door (our version of his line work, drawn from our story).
+5. Desktop over moving sea footage (a free stock clip).
+6. Phone in a hand on a boat bench (free stock), screen composited.
