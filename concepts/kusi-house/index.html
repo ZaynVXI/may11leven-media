@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kusi House, Lamu</title>
+<style>
+@font-face{font-family:"Serif";src:url(fonts/InstrumentSerif-Regular.ttf)}
+@font-face{font-family:"Serif";font-style:italic;src:url(fonts/InstrumentSerif-Italic.ttf)}
+@font-face{font-family:"Sans";font-weight:300;src:url(fonts/InterTight-Light.ttf)}
+@font-face{font-family:"Sans";font-weight:400;src:url(fonts/InterTight-Regular.ttf)}
+@font-face{font-family:"Sans";font-weight:500;src:url(fonts/InterTight-Medium.ttf)}
+:root{
+  --lime:#EEE8DD;      /* lime-washed coral stone */
+  --lime-2:#E4DCCD;
+  --ink:#1F1B16;       /* mangrove pole, almost black */
+  --ink-2:#5E554A;
+  --sail:#C7AE82;      /* dhow canvas */
+  --sea:#2D4A63;       /* indigo channel water, used once: "booked" */
+  --rule:rgba(31,27,22,.16);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{background:var(--lime)}
+body{font-family:"Sans";font-weight:400;color:var(--ink);background:var(--lime);-webkit-font-smoothing:antialiased;overflow-x:hidden}
+a{color:inherit;text-decoration:none}
+.wrap{padding:0 48px}
+.serif{font-family:"Serif";font-weight:400;letter-spacing:-.01em}
+.small{font-size:13px;letter-spacing:.01em}
+.muted{color:var(--ink-2)}
+
+/* nav */
+nav{position:fixed;top:0;left:0;right:0;z-index:20;display:grid;grid-template-columns:1fr auto 1fr;align-items:center;padding:22px 48px;color:#fff;transition:color .5s,background .5s}
+nav.solid{color:var(--ink);background:rgba(238,232,221,.92);backdrop-filter:blur(8px)}
+nav .links{display:flex;gap:28px;font-size:13px}
+nav .mark{display:flex;align-items:center;gap:10px;font-family:"Serif";font-size:24px;letter-spacing:-.01em}
+nav .right{display:flex;justify-content:flex-end;gap:24px;align-items:center;font-size:13px}
+nav .book{border:1px solid currentColor;border-radius:999px;padding:9px 18px}
+.sailglyph{width:17px;height:19px;display:inline-block}
+
+/* hero */
+.hero{position:relative;height:100vh;min-height:760px;overflow:hidden;background:#cbbfae}
+.hero .ph{position:absolute;inset:0;background:url(img/g_kusi_alley.jpg) center 62%/cover}
+.hero .shade{position:absolute;inset:0;background:linear-gradient(to top,rgba(20,16,12,.55),rgba(20,16,12,0) 55%),linear-gradient(to bottom,rgba(20,16,12,.32),rgba(20,16,12,0) 22%)}
+.hero h1{position:absolute;left:48px;bottom:150px;color:#fff;font-family:"Serif";font-weight:400;font-size:132px;line-height:.92;letter-spacing:-.025em}
+.hero h1 i{font-style:italic}
+.hero .sub{position:absolute;right:48px;bottom:162px;color:#fff;width:300px;font-size:15px;line-height:1.5;font-weight:300}
+.bar{position:absolute;left:48px;right:48px;bottom:40px;display:grid;grid-template-columns:1.2fr 1fr 1fr auto;background:var(--lime);border-radius:4px;overflow:hidden}
+.bar div{padding:18px 22px;border-right:1px solid var(--rule)}
+.bar label{display:block;font-size:11px;color:var(--ink-2);margin-bottom:4px;letter-spacing:.02em}
+.bar b{font-weight:400;font-size:16px}
+.bar button{font:500 14px "Sans";background:var(--ink);color:var(--lime);border:0;padding:0 34px;cursor:pointer}
+
+/* statement */
+.statement{padding:200px 48px 180px;display:grid;grid-template-columns:repeat(12,1fr);gap:24px}
+.statement p.big{grid-column:1/11;font-family:"Serif";font-size:76px;line-height:1.02;letter-spacing:-.02em}
+.statement p.big i{font-style:italic}
+.statement .meta{grid-column:1/4;margin-top:64px;font-size:14px;line-height:1.6}
+.statement .meta2{grid-column:5/8;margin-top:64px;font-size:14px;line-height:1.6}
+
+/* arrival */
+.arrival{display:grid;grid-template-columns:repeat(12,1fr);gap:24px;padding:0 48px 200px}
+.arrival .img{grid-column:1/7;height:860px;position:relative;overflow:hidden}
+.arrival .img .ph{position:absolute;inset:0;background:url(img/g_kusi_dhow.jpg) 60% center/cover}
+.arrival .txt{grid-column:8/13;align-self:end}
+.arrival h2{font-family:"Serif";font-weight:400;font-size:56px;line-height:1;letter-spacing:-.02em;margin-bottom:40px}
+.arrival h2 i{font-style:italic}
+.steps{border-top:1px solid var(--rule)}
+.step{display:grid;grid-template-columns:72px 1fr auto;padding:18px 0;border-bottom:1px solid var(--rule);font-size:15px;align-items:baseline}
+.step .t{font-variant-numeric:tabular-nums;color:var(--ink-2);font-size:13px}
+.step .d{color:var(--ink-2);font-size:13px}
+.step.now .t,.step.now .d{color:var(--sea)}
+.step.now b{font-weight:500}
+.dot{display:inline-block;width:6px;height:6px;border-radius:50%;background:var(--sea);margin-right:8px;transform:translateY(-2px)}
+
+/* rooms */
+.rooms{padding:0 48px 200px}
+.rooms .head{display:flex;justify-content:space-between;align-items:baseline;border-bottom:1px solid var(--rule);padding-bottom:20px;margin-bottom:28px}
+.rooms .head h2{font-family:"Serif";font-weight:400;font-size:56px;letter-spacing:-.02em}
+.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+.room .img{height:560px;position:relative;overflow:hidden;margin-bottom:18px}
+.room .img .ph{position:absolute;inset:0;background-size:cover;background-position:center}
+.room .row{display:flex;justify-content:space-between;font-size:15px}
+.room .row span{color:var(--ink-2)}
+.room p{font-size:13px;color:var(--ink-2);margin-top:6px;line-height:1.5}
+
+/* direct */
+.direct{background:var(--ink);color:var(--lime);padding:160px 48px;display:grid;grid-template-columns:repeat(12,1fr);gap:24px}
+.direct h2{grid-column:1/7;font-family:"Serif";font-weight:400;font-size:76px;line-height:1;letter-spacing:-.02em}
+.direct h2 i{font-style:italic;color:var(--sail)}
+.direct ul{grid-column:8/13;list-style:none;align-self:end;border-top:1px solid rgba(238,232,221,.2)}
+.direct li{display:grid;grid-template-columns:40px 1fr;padding:20px 0;border-bottom:1px solid rgba(238,232,221,.2);font-size:16px;line-height:1.45}
+.direct li span{color:var(--sail);font-size:12px;padding-top:3px}
+.direct .note{grid-column:8/13;font-size:13px;color:rgba(238,232,221,.6);margin-top:20px;line-height:1.6}
+
+/* footer */
+footer{padding:300px 48px 0;overflow:hidden}
+footer .cols{display:grid;grid-template-columns:repeat(4,1fr);gap:24px;font-size:13px;line-height:1.8;padding-bottom:80px}
+footer .cols b{display:block;font-weight:500;margin-bottom:6px}
+footer .word{font-family:"Serif";font-size:31vw;line-height:.74;letter-spacing:-.05em;white-space:nowrap;transform:translateY(8%);display:flex;align-items:flex-end;gap:2vw}
+footer .word svg{width:15vw;height:20vw;margin-bottom:1.6vw}
+
+/* sail reveal: images open along a sail's curved leading edge */
+.reveal{clip-path:var(--clip,inset(0 100% 0 0))}
+</style>
+</head>
+<body>
+<nav id="nav">
+  <div class="links"><a>Rooms</a><a>The house</a><a>Arriving</a><a>Lamu</a></div>
+  <a class="mark"><svg class="sailglyph" viewBox="0 0 19 21"><path d="M15.2 3.2 C12.6 8.4 12.2 13.4 14.2 18.6 L3.4 18.6 Z" fill="currentColor"/><path d="M1.2 19.6 L17.6 0.8" stroke="currentColor" stroke-width="1.1" fill="none"/></svg>Kusi House</a>
+  <div class="right"><span>Lamu Old Town</span><a class="book">Book direct</a></div>
+</nav>
+
+<section class="hero">
+  <div class="ph reveal" data-sail="hero"></div>
+  <div class="shade"></div>
+  <h1>Arrive with<br><i>the wind.</i></h1>
+  <p class="sub">Nine rooms in a coral-stone house in Lamu Old Town. There are no cars here. You come by boat and walk the last lane.</p>
+  <div class="bar">
+    <div><label>Dates</label><b>14 – 18 Feb</b></div>
+    <div><label>Guests</label><b>2 adults</b></div>
+    <div><label>Room</label><b>Any room</b></div>
+    <button>Check availability</button>
+  </div>
+</section>
+
+<section class="statement">
+  <p class="big">For centuries the <i>kusi</i>, the southern monsoon, carried dhows into Lamu. We named the house after it, and built the stay around one thing most hotels forget: <i>the arrival.</i></p>
+  <p class="meta muted">The house is eighteenth-century coral rag and lime plaster, restored with the masons who still work in the old town.</p>
+  <p class="meta2 muted">Every room opens to the roof. The sea is four lanes away.</p>
+</section>
+
+<section class="arrival">
+  <div class="img"><div class="ph reveal" data-sail></div></div>
+  <div class="txt">
+    <h2>Your arrival,<br><i>minute by minute.</i></h2>
+    <div class="steps">
+      <div class="step"><span class="t">14:05</span><span>Land at Manda airport</span><span class="d">Hassan waits at arrivals</span></div>
+      <div class="step now"><span class="t">14:20</span><span><span class="dot"></span><b>Boat leaves Manda jetty</b></span><span class="d">Booked with your room</span></div>
+      <div class="step"><span class="t">14:35</span><span>Step off at the old town</span><span class="d">Your bags go by handcart</span></div>
+      <div class="step"><span class="t">14:45</span><span>Through the lanes to the door</span><span class="d">Lime juice on the roof</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="rooms">
+  <div class="head"><h2>Nine rooms</h2><span class="small muted">From $140 a night, breakfast included</span></div>
+  <div class="grid3">
+    <div class="room"><div class="img"><div class="ph reveal" data-sail style="background-image:url(img/g_kusi_door_dogs.jpg)"></div></div><div class="row"><b style="font-weight:400">Courtyard room</b><span>from $140</span></div><p>Ground floor, carved door, cool in the afternoon.</p></div>
+    <div class="room"><div class="img"><div class="ph reveal" data-sail style="background-image:url(img/g_kusi_alley2.jpg)"></div></div><div class="row"><b style="font-weight:400">Lane room</b><span>from $165</span></div><p>First floor over the lane, with the morning light.</p></div>
+    <div class="room"><div class="img"><div class="ph reveal" data-sail style="background-image:url(img/g_kusi_rooftop.jpg);background-position:50% 70%"></div></div><div class="row"><b style="font-weight:400">Roof suite</b><span>from $220</span></div><p>Its own terrace, lanterns, and the call to prayer at dusk.</p></div>
+  </div>
+</section>
+
+<section class="direct">
+  <h2>Book here,<br><i>not through a platform.</i></h2>
+  <ul>
+    <li><span>01</span>The boat from Manda is included, timed to your flight.</li>
+    <li><span>02</span>Breakfast on the roof, every morning.</li>
+    <li><span>03</span>Hold your room with 20% by M-Pesa or card. The rest is paid at the house.</li>
+    <li><span>04</span>A reminder the day before, with the tide and the boat time.</li>
+  </ul>
+  <p class="note">Same price as anywhere else. The difference is who looks after you before you land.</p>
+</section>
+
+<footer>
+  <div class="cols">
+    <div><b>Kusi House</b>Langoni, Lamu Old Town<br>Lamu Island, Kenya</div>
+    <div><b>Write to us</b>stay@kusihouse.example<br>WhatsApp, any hour</div>
+    <div><b>Getting here</b>Fly to Manda (LAU)<br>Boat to the old town, 15 min</div>
+    <div class="muted">A concept by May11Leven Labs.<br>Kusi House is an invented guesthouse.</div>
+  </div>
+  <div class="word"><svg viewBox="0 0 19 21"><path d="M15.2 3.2 C12.6 8.4 12.2 13.4 14.2 18.6 L3.4 18.6 Z" fill="#1F1B16"/><path d="M1.2 19.6 L17.6 0.8" stroke="#1F1B16" stroke-width=".7" fill="none"/></svg>Kusi</div>
+</footer>
+
+<script>
+// sail curve: a lateen sail's leading edge bellies out as it fills
+function sailClip(p){
+  const pts=[]; const N=28;
+  for(let i=0;i<=N;i++){
+    const y=i/N;
+    const x = -0.35 + p*1.7 + 0.22*(y-0.5) + 0.10*Math.sin(Math.PI*y)*(1-p*0.5);
+    pts.push(`${(x*100).toFixed(2)}% ${(y*100).toFixed(2)}%`);
+  }
+  return `polygon(0% 0%, ${pts.join(',')}, 0% 100%)`;
+}
+const ease=t=>t<.5?4*t*t*t:1-Math.pow(-2*t+2,3)/2;
+const els=[...document.querySelectorAll('.reveal')];
+const nav=document.getElementById('nav');
+let t0=window.__clock!==undefined?0:performance.now();
+function frame(now){
+  if(window.__clock!==undefined) now=window.__clock;
+  const vh=innerHeight;
+  for(const el of els){
+    let p;
+    if(el.dataset.sail==='hero'){ p=Math.min(1,(now-t0)/1600); }
+    else{ const r=el.getBoundingClientRect(); p=Math.min(1,Math.max(0,(vh-r.top)/(vh*0.75))); }
+    el.style.setProperty('--clip', p>=1?'none':sailClip(ease(p)));
+  }
+  nav.classList.toggle('solid', scrollY>vh*0.8);
+  requestAnimationFrame(frame);
+}
+requestAnimationFrame(frame);
+window.__restart=()=>{t0=performance.now()};
+</script>
+</body>
+</html>
