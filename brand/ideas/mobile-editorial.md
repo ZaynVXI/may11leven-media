@@ -20,3 +20,6 @@ A landing page shown at zero design, then four layers added one by one, each nam
 3. Motion: the stream flows.
 4. All four together, then the scroll.
 CTA "Comment LAYERS for the prompt". Our version: screen-only, our own concept site, the four cards in our type, CTA "Comment 11".
+
+# Resource carousel (idea bank, from a post Zayn shared)
+"Bookmark these: UI / visual design inspiration sites". Cover is a moving grid of shots. Each slide: a screenshot of the site on a warm off-white field, a huge number in one accent colour bottom right, the site name large in a second colour. Last slide is the "bonus". Built to be saved. Our version: "Where we look before we design", 7 sites + bonus, our type and Infrared numbers, last slide Comment 11.

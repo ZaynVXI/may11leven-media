@@ -9,6 +9,12 @@
 - https://details.so (website inspiration, sorted by page type and section; good for references before a site build)
 - https://refero.design (product and app design inspiration: real web and iOS screens, flows and patterns; free tier, Pro is paid, so free tier only) — style systems at styles.refero.design
 - https://designspells.com ("Design details that feel like magic": micro-interactions and small delights, by category such as animation, 404, motion, occasion)
+- https://inspora.design (gallery by discipline: web, branding, product, motion, illustration, 3D)
+- https://land-book.com (website gallery by page type: landing, portfolio, ecommerce, about; plus sections, mobile and motion)
+- https://godly.design (curated web, app and visual design, many with motion)
+- https://www.siteinspire.com (finest web design, filter by style, type, subject and platform; weekly edit)
+- https://mobbin.com (real iOS and web app screens and flows; we have the Mobbin connector; free shows the 4 latest apps only)
+- https://www.are.na/fi/cool-websites (one person's curated channel of 1,000+ unusual websites; good for ideas off the usual path)
 ## Rotation notes
 - Lebedev Behance revisit: new "Portfolio '26" leads the page; recent work leans to wellness (Frequency Breathwork, Diamond Rose Sanctuary, Institute of Health) and AI/fintech UI (Ponder AI, Cantor8). Same system: one grotesk + mono, colour from photography.
 - Holographik Dribbble: only the SUI shot is public; holographik.co itself could not be loaded from here, so the newest work check stays on the saved refs.
