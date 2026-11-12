@@ -101,6 +101,37 @@ footer .word svg{width:15vw;height:20vw;margin-bottom:1.6vw}
 
 /* sail reveal: images open along a sail's curved leading edge */
 .reveal{clip-path:var(--clip,inset(0 100% 0 0))}
+
+@media (max-width:500px){
+  .wrap{padding:0 20px}
+  nav{padding:16px 20px;grid-template-columns:1fr auto}
+  nav .links,nav .right span{display:none}
+  nav .mark{font-size:21px;justify-self:start;order:-1}
+  nav .book{padding:7px 14px;font-size:12px}
+  .hero{min-height:0;height:100vh}
+  .hero h1{left:20px;bottom:230px;font-size:66px}
+  .hero .sub{left:20px;right:auto;bottom:150px;width:300px;font-size:13px}
+  .bar{left:20px;right:20px;bottom:24px;grid-template-columns:1fr 1fr}
+  .bar div:nth-child(3){display:none}
+  .bar div{padding:12px 14px}
+  .bar button{grid-column:1/3;padding:15px}
+  .statement{padding:90px 20px 80px;display:block}
+  .statement p.big{font-size:38px}
+  .statement .meta,.statement .meta2{margin-top:28px}
+  .arrival{display:block;padding:0 20px 90px}
+  .arrival .img{height:420px;margin-bottom:36px}
+  .arrival h2,.rooms .head h2{font-size:40px}
+  .step{grid-template-columns:52px 1fr;row-gap:2px}
+  .step .d{grid-column:2}
+  .rooms{padding:0 20px 90px}
+  .rooms .head{display:block}
+  .grid3{grid-template-columns:1fr;gap:36px}
+  .room .img{height:420px}
+  .direct{display:block;padding:90px 20px}
+  .direct h2{font-size:44px;margin-bottom:40px}
+  footer{padding:120px 20px 0}
+  footer .cols{grid-template-columns:1fr 1fr}
+}
 </style>
 </head>
 <body>
