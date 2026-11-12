@@ -38,3 +38,15 @@ After Satto's Pulvinar index (satto-07). Black page, 13 px grotesk, list + previ
 - Fix: 7-dot column grid with every column snapped to it; Imisozi row selected so the preview is a light tile, cropped tight and abstract like Satto's; last column = market code (KE/NG/RW/ZA); "Concept" said once in the footer; 4 px row padding.
 - After scores: idea 3 · type 4 · colour 4 · air 4 · fidelity 4 · finish 4 · truth 5. Next: the preview crop is upscaled and slightly soft at 2x; render a dedicated square crop.
 - **Imisozi phones:** the phone screens floated as rounded cards with no hardware, and the status bar was a text stub. Fixed by rebuilding the screens at @3x inside drawn iPhone frames (titanium rim, Dynamic Island, side buttons, home indicator) with real signal, wifi and battery icons.
+
+## 09 Editorial infographic: Zanzibar 9.6 s (practice/thu-zanzibar-96-before.jpg -> -after.jpg, code brand/code/practice/zanzibar-96)
+Data: research/zanzibar/FINDINGS.md (our own reviewed study; totals only, no business named). Takeaway: the median independent Zanzibar hotel site takes 9.6 s to show its main content on a mid-range phone.
+Steal list (the thinking, not the look), refs: motto/workbook-02, nuevo-03, satto-07, holographik-12, reel-0148ef71.
+- The grid is the cover (Motto): the cells hold the type and the number, nothing decorates.
+- The number is the image (Nuevo.Tokyo): one huge figure and a plain line, no illustration.
+- One thing breaks the system (Satto's inverted row, .raw's one expressive form): here it's the infrared 9.6 s line.
+- Before scores: idea 4 · type 3 · colour 4 · air 4 · fidelity 3 · finish 3 · usability 3 · truth 4. Gaps: the grid lines ran through the lede and the footer, and the columns meant nothing; "good" and "poor" were two floating ticks with no zone; the line said "typical" where the data says median; tracking -0.045em was close to welding the numerals (anti-slop crushed-tracking).
+- Fix: the six columns became the time axis (2 s each); rows give each block its own cell, so no line crosses text. The poor zone over 4 s is a shaded band. Added the 3.5 s "first thing appears" mark so the wait shows. The lede now says "median" and "independent". Tracking set to -0.02em, one weight (Regular) throughout, and "86% past the poor line" in the footer.
+- After scores: idea 4 · type 4 · colour 4 · air 4 · fidelity 4 · finish 4 · usability 4 · truth 5.
+- Checks run: webaudit contrast (0 failures) plus a hand check on the zone (5.6:1); anti-slop by hand against references/rules.md (the npx detector was blocked from downloading here). Fixed crushed-tracking; still flagged: overused-font-stack (Inter) and single-font-page, both kept on purpose. Writing: no em dashes, no filler.
+- Still missing: a real-world plate. Next time show the tile beside a phone that's still loading, or as a 6 s reel where the counter runs and the photo lands at 9.6.
