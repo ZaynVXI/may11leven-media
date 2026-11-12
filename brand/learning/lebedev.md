@@ -53,3 +53,14 @@ First applied: `concepts/kusi-house/` (kusi-loop.mp4).
 4. A line-drawing system: one continuous line from the airport to the boat to the lane to the door (our version of his line work, drawn from our story).
 5. Desktop over moving sea footage (a free stock clip).
 6. Phone in a hand on a boat bench (free stock), screen composited.
+
+## Third study: Cantor8 and "Between Memory and Form"
+- **Cantor8 as a whole system:** one cobalt everywhere. The pixel-block mark breaks apart into dividers and transitions, and circuit lines link the sections. The type pairing board (Neue Montreal + Fragment Mono) credits the designer, foundry, release date and glyph count. Around 8 presentations:
+  - a laptop in a dark studio
+  - a collage of pages on navy
+  - screens over a skyscraper shot from below
+  - a phone on cobalt paper
+  - a laptop on a blue sculpted surface
+  - a "Discover the full project on Behance" end card
+- **Self-initiated exploration:** one visual (a flower under CRT scanlines), one strict mono layout, repeated over four images. Each card floats over a blurred, enlarged copy of its own image. A dark phone-in-hand shot. Caption: "Visual and typography exploration before the next website drop." Sharing the exploration builds anticipation and shows thinking.
+- **Applied:** Kusi type pairing board (credits from the licences, with what each face is used for); Kusi phones staggered on the mangrove-dark field.
