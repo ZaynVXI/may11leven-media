@@ -5,12 +5,13 @@ on:
       dns_hosts: { description: "hosts to re-resolve", required: false, default: "" }
       lh_urls: { description: "urls for 3x lighthouse", required: false, default: "" }
 permissions:
-  contents: read
+  contents: write
 jobs:
   check:
     runs-on: ubuntu-latest
     timeout-minutes: 60
     steps:
+      - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with: { node-version: 20 }
       - name: dns + whois (results to artifact only)
@@ -31,5 +32,10 @@ jobs:
           for u in $URLS; do h=$(echo "$u" | sed -E 's#https?://##; s#/.*##; s#[^a-zA-Z0-9.-]#_#g'); for i in 1 2 3; do
             timeout 150 npx -y lighthouse@12 "$u" --only-categories=performance,accessibility --form-factor=mobile --output=json --output-path="out/lh/$h-$i.json" --quiet --chrome-flags="--headless=new --no-sandbox" || true
           done; done
-      - uses: actions/upload-artifact@v4
-        with: { name: results, path: out, retention-days: 1 }
+      - name: seal results (encrypted; only the studio key opens them) and commit
+        if: always()
+        run: |
+          cd "$GITHUB_WORKSPACE"
+          bash research/vault/seal.sh "out" "check-${{ github.run_id }}"
+          git config user.name "research-bot"; git config user.email "research-bot@users.noreply.github.com"
+          git add research/vault/*.enc && git commit -q -m "sealed results check" && git pull -q --rebase origin "${{ github.ref_name }}" && git push -q origin HEAD:"${{ github.ref_name }}" || echo "nothing"

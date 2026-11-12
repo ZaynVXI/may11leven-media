@@ -1,34 +1,46 @@
-# Zanzibar hotel websites on a phone: findings (study 01)
+# Zanzibar hotel websites on a phone: findings (study 01, reviewed)
+
+May11Leven Labs is a design studio that builds websites for hotels, so we have an interest in this topic. That's why the method is published in full and only totals are reported. No business is named, and the per-site data stays private.
 
 ## Method
-- **Sample:** every hotel, guest house, hostel or apartment on Unguja that OpenStreetMap lists with its own website: **107 sites**. It's a public, reproducible list; we didn't pick the sites.
-- **Excluded:** chains (Iberostar, Diamonds, Sunrise, SBH), a museum, a beach club, watersports, aggregator pages and an Airbnb link. Also excluded: 12 sites that showed a bot check or maintenance page. We never tried to get past a bot check.
-- **Measured:** the homepage only, opened as a guest on a mid-range phone would (Playwright, Moto G4 profile), plus Google Lighthouse 12 (mobile, simulated slow 4G), one run per site. Detection of booking links, WhatsApp, prices and mobile money is automated, and screenshots were checked by eye.
-- **Final set: 51 independent places to stay with a working website.**
-- **Limits:** one run per site, so times vary between runs. Homepage only. OpenStreetMap lags reality. Booking detection is a heuristic. We publish totals only and never name a business.
+- **Sample:** every hotel, guest house, hostel or apartment on Unguja that OpenStreetMap lists with its own website: **107 listings** (query in `overpass.py`).
+- **Dead links:** every domain that failed was rechecked on two DNS resolvers (1.1.1.1 and 8.8.8.8) and looked up in WHOIS.
+- **Excluded from the website checks:**
+  - international chains (Iberostar, Meliá, Hilton, Hyatt, Golden Tulip, Diamonds, Sunrise, SBH, TUI)
+  - places that aren't accommodation (a museum, a beach club)
+  - aggregator and Airbnb pages
+  - pages behind a bot check or showing a maintenance or "not available" notice (we never tried to get past a bot check)
+  - a group website that two listings both point to, counted once
+- **Final set:** **51 independent places to stay with a working website** ("independent" here means not part of an international chain).
+- **Homepage checks:** the homepage opened as a guest would see it on a mid-range Android phone (Playwright). Every price and "book direct" match was then checked by eye from the saved text.
+- **Speed:** Google Lighthouse 12, mobile profile (simulated mid-range phone on slow 4G), **3 runs per site, median used**. These are lab estimates, not measurements from real guests. A few sites varied more than 2× between runs; no headline figure depends on them.
+- **Limits:**
+  - Homepage only.
+  - OpenStreetMap lags reality.
+  - The accessibility figure is Lighthouse's automated subset, not a full audit.
 
 ## Findings
-| | Result |
-|---|---|
-| Listed websites that are dead (domain gone) or taken over by spam after the domain lapsed | **21 of 107 (20%)**: 18 dead, 3 now showing gambling or video spam |
-| Median time until the main content appears on a mid-range phone (LCP, median of 3 runs, n=50) | **9.2 s** |
-| Slower than Google's 4 s "poor" line | **84%** |
-| Over 10 s | **46%** |
-| "Good" (2.5 s or less) | **8%** |
-| Lighthouse performance 90+ | **10%** |
-| Median homepage weight | **5.2 MB**; 50% are over 5 MB |
-| Booking buttons that send the guest to another site | **35%** |
-| Give any reason to book direct (perk, best-rate promise) | **8%** |
-| Show any price on the homepage | **18%** |
-| Mention M-Pesa or any mobile money | **0%** |
-| Link to Instagram | **78%** |
-| Offer WhatsApp somewhere on the page | **59%** |
-| Accessibility score under 90 | **62%** |
+| | Result | n |
+|---|---|---|
+| Listed hotel websites that are gone (domain no longer registered or resolving) or taken over after lapsing (now gambling, pirated video or a "for sale" page) | **18 (17%), about 1 in 6** | 107 |
+| Further listed links that lead to an error (certificate warning, redirect loop, 404/500) | **13 (12%)** | 107 |
+| Median time until the **main image or headline** appears (LCP) | **9.6 s** (the first thing appears at a median of 3.5 s) | 49 |
+| Slower than Google's 4 s "poor" mark for LCP | **86%** | 49 |
+| Main content takes over 10 s | **47%** | 49 |
+| Rated "good" (2.5 s or less) | **6%** | 49 |
+| Lighthouse performance score 90+ | **8%** | 49 |
+| Homepage heavier than 3 MB | **76%** (median 4.8 MB) | 49 |
+| "Book" button leaves the hotel's website for a booking page on a different web address | **51%** (23 to a booking-engine page, 3 to Booking.com or Airbnb) | 51 |
+| No booking button on the homepage at all | **18%** | 51 |
+| Show a room price on the homepage | **16%** (8, checked by eye) | 51 |
+| Give a real reason to book direct (a discount or perk) | **4%** (2, checked by eye) | 51 |
+| Mention M-Pesa or any mobile money on the homepage | **0%** | 51 |
+| Visible WhatsApp button or link | **27%** | 51 |
+| Link to Instagram | **78%** | 51 |
+| Lighthouse accessibility score under 90 | **61%** | 49 |
 
-## The story in one line
-Guests find Zanzibar's small hotels on Instagram and maps, then meet a website that takes over 9 seconds to show anything, doesn't show a price, and sends them somewhere else to book. One in five listed websites is already dead.
+## The story (wording checked against the data)
+On a mid-range phone, the median small-hotel website in Zanzibar takes about 9.6 seconds (lab estimate) before its main image or headline appears. 86% are slower than Google's "poor" line. Most don't show a price, only 2 in 51 give guests a reason to book direct, and half send guests to a different web address to finish booking. About 1 in 6 hotel websites listed on the map is gone or taken over.
 
-## Before publishing
-- [x] Re-ran Lighthouse three times per site; the speed figures are medians of 3 runs (150 runs; one site failed every run, so n=50).
-- [ ] Cold review by a separate agent (high-stakes claim).
-- [ ] Keep it to totals only, with the method shown in full.
+## Review
+An independent review recomputed every number and listed 10 fixes. All 10 are applied here. The per-site review notes are kept privately because they name businesses.
