@@ -12,3 +12,11 @@ description: Idea bank, not a mentor. Five rules for editorial layouts on a phon
 5. **Full-screen menu:** large items stacked with hairlines between them, the email small, the logo huge at the bottom.
 
 Where it fits us: the Kusi House mobile pages, our own site's menu and contact page, and the calculator on phones (label column already matches rule 2).
+
+# Four layers (idea bank, from a second reel)
+A landing page shown at zero design, then four layers added one by one, each named on a small card:
+1. Colour and type: black, one accent (acid lime), a mono plus an italic serif word ("The handoffs run *themselves.*").
+2. Depth: light behind (a WebGL light stream), frosted glass panels.
+3. Motion: the stream flows.
+4. All four together, then the scroll.
+CTA "Comment LAYERS for the prompt". Our version: screen-only, our own concept site, the four cards in our type, CTA "Comment 11".
