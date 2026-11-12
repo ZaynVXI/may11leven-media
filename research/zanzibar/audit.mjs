@@ -34,7 +34,7 @@ for (const s of sites) {
         links, frames,
         overflowX: document.documentElement.scrollWidth > window.innerWidth + 2,
         viewportMeta: !!document.querySelector('meta[name=viewport]'),
-        mpesa: /m-?pesa|mobile money|airtel money|tigo ?pesa|halopesa/.test(text),
+        mpesa: /m-?pesa|mobile money|airtel money|tigo ?pesa|halopesa|mixx by yas/.test(text),
         priceShown: /(\$|usd|us\$|€|eur|tzs|tsh)\s?\d|\d+\s?(usd|eur|tzs)/.test(text),
         bookWords: /book now|check availability|reserve|book your stay|book direct/.test(text),
         directPerk: /book direct|best rate guarantee|best price guarantee|direct booking/.test(text),
@@ -42,6 +42,11 @@ for (const s of sites) {
         blocked: /you have been blocked|security check|checking your browser|access denied|attention required|just a moment|verify you are human|something went wrong|maintenance mode|under maintenance|site is undergoing maintenance|coming soon|account suspended|domain (is )?for sale/.test(text) || /just a moment|attention required|access denied/i.test(document.title),
         waAnywhere: /wa\.me|api\.whatsapp|whatsapp/i.test(document.documentElement.outerHTML),
         snippet: text.slice(0, 400),
+        priceCtx: (text.match(/.{0,50}((\$|usd|us\$|€|eur|£|tzs|tsh)\s?\d[\d,.]*|\d[\d,.]*\s?(usd|eur|tzs|\$|€)|\d+\s?(per|\/)\s?night).{0,50}/g) || []).slice(0, 4),
+        perkCtx: (text.match(/.{0,80}(book direct|best rate guarantee|best price guarantee|direct booking).{0,80}/g) || []).slice(0, 3),
+        moneyCtx: (text.match(/.{0,40}(m-?pesa|mobile money|airtel money|tigo ?pesa|halopesa|mixx by yas).{0,40}/g) || []).slice(0, 3),
+        waVisible: [...document.querySelectorAll('a,button,div,span,img')].some(e => { const t = ((e.getAttribute('href')||'') + ' ' + (e.getAttribute('aria-label')||'') + ' ' + (e.getAttribute('alt')||'') + ' ' + (e.className && e.className.baseVal === undefined ? e.className : '') + ' ' + (e.id||'')).toLowerCase(); if (!/whatsapp|wa\.me|joinchat|wa-chat|wa_btn|click-to-chat/.test(t)) return false; const r = e.getBoundingClientRect(); const cs = getComputedStyle(e); return r.width > 0 && r.height > 0 && cs.visibility !== 'hidden' && cs.display !== 'none'; }),
+        bookTargets: [...document.querySelectorAll('a[href],button,[onclick]')].filter(e => /book|reserv|availab|check in|stay/i.test((e.innerText || e.getAttribute('aria-label') || '').trim())).map(e => e.getAttribute('href') || (e.closest('a') && e.closest('a').href) || (e.closest('form') && e.closest('form').action) || '').filter(Boolean).map(h => { try { return new URL(h, location.href).href; } catch { return ''; } }).filter(h => h && !/^(mailto|tel|javascript):/i.test(h) && !/facebook|instagram|twitter|x\.com|tiktok|youtube|linkedin|pinterest|wa\.me|whatsapp/i.test(h)).slice(0, 12),
         words: text.split(/\s+/).length
       };
     });
@@ -52,7 +57,7 @@ for (const s of sites) {
     r.instagram = d.links.some(l => /instagram\.com/i.test(l.href));
     r.bookLinks = d.links.filter(l => /book|reserv|availab/.test(l.text)).map(l => l.href).slice(0, 5);
     r.bookLeavesSite = r.bookLinks.length ? r.bookLinks.every(h => { try { return !new URL(h).host.endsWith(new URL(r.finalUrl).host.replace(/^www\./, '')); } catch { return false; } }) : null;
-    Object.assign(r, { overflowX: d.overflowX, viewportMeta: d.viewportMeta, mpesa: d.mpesa, priceShown: d.priceShown, bookWords: d.bookWords, directPerk: d.directPerk, title: d.title, words: d.words, blocked: d.blocked, waAnywhere: d.waAnywhere, snippet: d.snippet });
+    Object.assign(r, { overflowX: d.overflowX, viewportMeta: d.viewportMeta, mpesa: d.mpesa, priceShown: d.priceShown, bookWords: d.bookWords, directPerk: d.directPerk, title: d.title, words: d.words, blocked: d.blocked, waAnywhere: d.waAnywhere, snippet: d.snippet, priceCtx: d.priceCtx, perkCtx: d.perkCtx, moneyCtx: d.moneyCtx, waVisible: d.waVisible, bookTargets: d.bookTargets });
     await page.screenshot({ path: `out/shots/${s.host.replace(/[^a-z0-9.-]/gi, '_')}.jpg`, quality: 60 });
   } catch (e) { r.error = String(e.message || e).slice(0, 160); }
   await ctx.close();
