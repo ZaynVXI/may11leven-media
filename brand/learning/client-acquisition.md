@@ -43,3 +43,23 @@ Co-founded a festival (Dragon Days), runs monthly events and a café/store. **Cl
 - https://wearemotto.com/faq · https://wearemotto.com/blog/transforming-the-agency-industry-with-signature-engagements
 - https://bigsee.eu/?p=200627
 - https://www.winwithoutpitching.com/thinking/ · https://www.shortform.com/pdf/the-business-of-expertise-pdf-david-c-baker
+
+## Nonstop (Manchester), studied from nonstopbrandingagency.com
+The studio behind the Bloom brand in the Figma Motion video. The founder's YouTube and Instagram videos (talking head, brand assets on screen) feed the agency.
+- **Niche plus a promise in the first line:** "We build brands that get SaaS, AI and fintech companies noticed in 4-8 weeks using our 4-step DIVE process." Who, result, time, named method.
+- **Named process:** DIVE (4 steps). A name makes the method feel owned and repeatable.
+- **Case-study cards:** client, category, year, then a 3–6 word line ("Own the Hallway", "A companion in your pocket"). Numbered (1/7).
+- **Prices in public, as a range:** guidelines from about £4k, a full identity closer to £20k. It filters out bad-fit leads before the call.
+- **Low-risk first step:** "Book a free brand audit." Same job as our "Comment 11, free first look".
+- **FAQ answers the doubts:** time, cost, outside the UK, what you walk away with, ongoing design, how to start, who you work with, "we already have a logo". 4–9 words per question.
+- **Trust lines:** the person who pitches is the person who designs; no handoffs to juniors.
+- **Recurring income:** a monthly design retainer after launch.
+- **Second product:** Designer HQ, an education site for designers, sold alongside the studio.
+- **Page is short:** hero, 7 projects, 8 FAQs, footer. Nothing else.
+
+### What we take
+1. Our first line needs the same four parts: who, result, time, named method. Draft: "May11Leven Labs builds brands, websites and apps for hotels and growing businesses in East Africa, in 4–6 weeks." Time and method name to be agreed with Zayn.
+2. Name our process. Candidates to propose: ELEVEN-style steps are tempting but forced; better a plain 4-step name from our real method (Research, Idea, Build, Proof).
+3. Publish "from" prices once Zayn sets them.
+4. Our site FAQ uses the same doubts as the Second Thoughts series, so the posts and the site sell the same answers.
+5. Founder-style video is how Nonstop markets; we can't show a face, so our equivalent is screen-and-hands process videos with no face.
