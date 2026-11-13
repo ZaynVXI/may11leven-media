@@ -47,6 +47,17 @@ Hundreds of millions of people live outside the country they come from: Nigerian
 - **Origin**: a QR "passport" for exported coffee, cocoa, shea or art, so buyers abroad see the farm, the batch and the price paid to the farmer.
 - **Ground**: a brand and booking system for the boutique sports clubs and gyms growing in Lagos, Nairobi, Dubai and Riyadh.
 
+## By business model
+| Model | Ideas already in the bank | New ideas |
+|---|---|---|
+| **B2B** (sell to businesses) | Direct, Consent, Settle, Plot, Kora, Light, Majlis, Clause, Shelf, Queue, Ground | **Tender**: an AI agent that reads public tenders and drafts the response pack for small contractors |
+| **B2C** (sell to people) | Earmark, Kin, Deed, Keep, Roots, Homecoming | **Fluent**: short daily voice lessons in the parents' language for diaspora children |
+| **C2C** (people to people) | Gather | **Carry**: travellers with spare luggage space carry items home for others, with verified IDs, declared contents and insurance through a partner. **Swap**: a used school uniforms and books exchange between parents in the same school |
+| **C2B** (people supply businesses) | none yet | **Local Lens**: people photograph shopfronts, prices and street signage for brands and researchers, paid per approved photo (faces blurred). **Voice Panel**: paid quick feedback from real customers in a city before a brand launches |
+| **D2C** (a brand sells straight to customers) | Origin (farm to buyer) | **The D2C kit**: our own package for African makers (coffee, skincare, fashion, sauces) selling straight to buyers abroad: brand, packaging, phone-first shop, mobile money and card, export-ready product pages. Our ata, Imisozi and Kusi concepts already show the parts |
+
+D2C is also the clearest service package for us to sell: makers who now sell through a distributor or market stall and want their own brand online.
+
 ## IaaS, honestly
 Infrastructure (data centres, cloud, networks) needs capital we don't have. Our role there is the brand, product design and website for an infrastructure company, e.g. a concept for an African edge-hosting or local-cloud provider. That is a strong dream-client category, not something we build.
 
