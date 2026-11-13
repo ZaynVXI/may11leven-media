@@ -106,3 +106,24 @@ Instagram feed items found from today to mid-December, in order: Imisozi carouse
 - Clean covers and one focal point: yes on all six. Loud tiles: only the colour fan, fine.
 - Dark/light: 1 dark of 6 (ata). The run of light tiles needs one more dark tile, e.g. the Zanzibar 9.6 s study on black.
 - Service rotation: web, all, automation, packaging, branding, all. Missing as a lead: 03 apps, 06 AI agents, 07 social.
+
+## Nuevo.Tokyo: the studio as its own best case study (rotation)
+Refs: their site nuevo.tokyo, AgBr on the App Store, our nuevo-01..11 contact sheet.
+- Who they are: a self-described "reductionist design studio", 10th year, "designing perennial products, building brands with authenticity and memorability". Their strongest portfolio pieces are their OWN products: AgBr (a B&W film emulator, 4.8 from 33 ratings, one-time unlock at $14.99/$29.99, "no subscription, tracking or ads"), Japanese Gradients / Japanese Colours [For UI], VWFNDR, NOIZE presets. The lesson for us: ship small owned products and the portfolio writes itself. A concept app we build well is a case study we own outright.
+- Type: all-caps display and taglines set in a plain grotesk; product names carry a disciplined system of marks - trademark glyphs and bracketed qualifiers ("[ FOR UI ]", "NOIZE") and arrow glyphs (-> and bent arrows) as bullets. The naming system does the branding; no logo gymnastics.
+- How they present on their site and IG: a single vertical column of image cards, each a still / product shot / looping GIF with a small italic caption beneath, linking to a project or store page. On the IG grid (our nuevo contact sheet): tight black-and-white film frames, one-colour accents (a signal red or green per run), device shots on plain grounds, big numeral tiles ("200,000+", "100,000"). The grid holds together because the palette is near-monochrome with a single accent and the type is one caps grotesk everywhere.
+- Measured from the contact sheet: ground mostly #0C0C0C / #F4F3EF; accent a single warm red ~#E8472A per run; imagery is high-contrast grayscale, grain visible. No gradients. Captions tiny, italic, left-aligned.
+- Try this week: name a concept's artefacts the Nuevo way - a trademark mark plus a bracketed qualifier (Mita [Prepaid] / Mita [Meter]), and present the app as a single vertical column of captioned cards rather than a slideshow of full screenshots.
+
+## Neo-grotesk fatigue (Fonts rotation, fontalternatives.com)
+- The argument: when every product ships in the same neutral grotesk (Inter, Neue Haas, Helvetica Now), type stops doing identity work - "typography stops contributing to brand identity". Infra and dev tools can keep invisible type; consumer brands shouldn't.
+- Named departures: geometric (Space Grotesk, Jost, Plus Jakarta), text serifs (GT Canon, EB Garamond, Source Serif), humanist (Cabin, Nunito Sans), DIN-adjacent (Barlow, IBM Plex Sans); "safest step off Inter" is DM Sans.
+- For us: our house face is Inter Tight, which the anti-slop detector keeps flagging as overused-font-stack. The fix isn't to abandon it on our own channel (consistency is the point there) but to give every CONCEPT its own face per the uiux rule - and to test the candidate at real UI sizes, not display, since display impressions mislead. Mita uses Archivo (variable, condensable) for the numeral and IBM Plex Mono for meter/token data - a DIN-adjacent + mono pairing, deliberately not Inter.
+
+## Feed check (Fri, Metricool 7782767, read only)
+Looked at the upcoming Instagram GRID tiles (stories and LinkedIn-only posts excluded). In order: Dec 1 "What we do" 7-service carousel (cover: seven coloured cards fanned + light title card), Dec 3 Kora WhatsApp reel (sage phone chat), Dec 5 ata pepper-oil post (dark 3D bottle), Dec 8 type-specimen post (cool-grey construction drawing of the "a"), Dec 8 "night shift" reel (off-white type animation).
+- Holds: every tile has a single focal point and alt text on every slide; dark/light alternates (grey -> sage -> dark -> light -> light); service rotation is healthy across the window (overview, AI automation, packaging, branding, web/automation) with no service twice in a row.
+- Flag 1 (scheduling): two posts sit on the exact same slot, Dec 8 12:00 - the type-specimen carousel and the "night shift" reel. One will bump or stack. Space them to different days.
+- Flag 2 (balance): the Dec 8 pair are both light/near-white, so if they land in the same grid row they'll read as one pale block. Put a darker tile between them, or move one.
+- Flag 3 (loud tile): the Dec 1 seven-colour fan is the one loud, multi-colour cover in the set - fine as the single loud tile, just keep it off the same row as the dark ata tile so the row doesn't get heavy.
+- No app concept in the near IG queue (the apps work is only inside carousels). Mita, once it has a device-scene plate, is a candidate to fill that gap - an app tile would also balance the branding-heavy run.

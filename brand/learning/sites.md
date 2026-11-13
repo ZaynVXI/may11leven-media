@@ -12,3 +12,6 @@
 - https://minimal.gallery newest: Petrillo.studio, In My Shoes, Spyker Cars, Onlines, Mathias Adolfsson, Melike Turgut, Carter Ogunsola. Open Petrillo.studio next for a studio index.
 - https://the-brandidentity.com (RN Arquitectura by Estudio Repúblicas: one weight, one colour, no symbol)
 - https://wearemotto.com/blog (Behind the Big Idea series: Nomina and others; read one per week)
+
+- nuevo.tokyo - reductionist studio; study how they present owned products as a single captioned vertical column (check for the next concept writeup).
+- Minimalissimo (minimalissimo.com) - one quiet-object principle per visit; current issue: Doldam Residence, Kehikko chair, iA Notebook (all-white), Dieter Rams catalogue raisonne.

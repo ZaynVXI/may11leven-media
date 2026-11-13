@@ -42,3 +42,6 @@ Our work was clean but it was a **picture**. Motto's work is a **world with an a
 - **Each element must survive the "AI could make this" test:** if a prompt could produce it in one go, it isn't specific enough yet. Add the measured detail, the sourced motif, the human trace.
 - **One construction idea per brand** (a curve, a stripe, a grid unit) that generates the mark, the patterns, the UI and the merch, so everything is visibly from one hand.
 - **Present like Motto/Ivo:** five loops, each one idea, plus a live 2-page Webflow site so people can touch it.
+
+## Quiet-object test (Minimalissimo, Morrison)
+A minimal screen passes when you can name its one job in a sentence and every element serves that sentence. Noticed-last beats noticed-first. Added to the practice scoring as the "truth/usability" check: does the layout carry the one job, or decorate around it?

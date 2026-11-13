@@ -20,6 +20,7 @@ Never wait on the other agent. If a task is not picked up or ChatGPT is unavaila
 - Claude: merch range and Instagram presentation in the new Motto style (Figma studio file, Merch page).
 
 ## Done
+- Claude: daily craft deep-dive, Fri apps (Motto Performance Golf study, Nuevo.Tokyo + neo-grotesk-fatigue rotation, quiet-object minimalism principle, visual-hook reel study, WCAG 2.5.8 target-size lesson, apps deep dive on African super-apps/Gulf RTL/Liquid-Glass caution, Mita prepaid-meter app concept before->after 4.1, read-only feed check with 3 flags). Branch craft/daily-deep-dive-mita-app, PR to follow.
 - Claude: daily craft deep-dive (Motto Nomina study, .raw rotation, one-weight principle, reel study, chart alt text, Thursday marketing, Zanzibar 9.6 s practice tile, read-only feed check). Feed flags in brand/learning/style.md.
 - Codex reviewed PR #2: one P2 finding (check.sh always exited 0). Fixed by Claude: check.sh now exits 1 on any missing tool; setup.sh uses pipefail.
 - Claude: Figma studio file (tokens, project palettes, devices, merch range), software list and setup script, colour-per-project rule (PR #2).
