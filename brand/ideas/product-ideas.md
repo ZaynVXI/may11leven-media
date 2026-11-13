@@ -26,6 +26,27 @@ Real problem, a clear buyer who pays, fits our services (brand, site, app, AI ag
 | 7 | **Light**: a website platform built for slow connections: every page under 500 KB, fast on 3G, WhatsApp and mobile money ready | PaaS | Our Field Study: median 9.6 s, 76% over 3 MB | Small businesses and the agencies who build for them | Performance research plus web stack |
 | 8 | **Majlis**: bilingual (Arabic and English) WhatsApp concierge and booking for holiday-home operators and event venues in the Gulf | SaaS | Guests ask the same questions in two languages at all hours | Holiday-home operators, venues in Dubai, Riyadh, Doha | Middle East market; agent plus brand |
 
+## Diaspora ideas (any diaspora, not only African)
+Hundreds of millions of people live outside the country they come from: Nigerians, Kenyans, Filipinos, Indians, Mexicans, Lebanese, Ghanaians and more. They send money, build houses, care for parents, start businesses and plan to return, mostly through WhatsApp and trust. Where money moves or investment is involved, a licensed partner holds the money; we design the product, brand and site.
+
+| # | Idea | Problem | Who pays |
+|---|---|---|---|
+| 9 | **Earmark**: send money that can only be spent on its purpose; school fees go to the school, the hospital bill to the hospital, groceries to a partner shop, with receipts | Money sent for one thing gets spent on another, and asking feels awkward | Senders abroad, small fee per payment |
+| 10 | **Kin**: book and pay a doctor visit, lab test or pharmacy delivery for a parent back home, with results shared by consent | Caring for ageing parents from 5,000 km away | Diaspora families, monthly plan |
+| 11 | **Deed**: check land and a title before buying from abroad, through a verified surveyor and lawyer; one clear report | Land fraud and double sales (Nigeria, Kenya, Ghana, India, the Philippines) | Buyers abroad, per check |
+| 12 | **Stake**: back a relative's or friend's small business with written terms, monthly figures from simple bookkeeping, and photos | Diaspora money disappears into businesses with no reporting | Backers abroad and the business, monthly |
+| 13 | **Homecoming**: a relocation planner for people moving back: housing, schools, work, paperwork, setting up a company, local banking | Returning after years away is a maze | Returnees, plus partners (schools, agents) |
+| 14 | **Keep**: scheduled check-in visits to elderly parents by vetted carers, with a short note and photo after each visit | Loneliness and safety of parents living alone | Families abroad, monthly |
+| 15 | **Roots**: guided heritage trips for second-generation diaspora: family villages, language, food, history | Children born abroad lose the connection | Families; tour partners |
+| 16 | **Gather**: one transparent page for collecting contributions to weddings, funerals and medical bills from family abroad, with a public tally | Contributions sent to many accounts, no one knows who gave what | Organisers, small fee |
+| 17 | **Clause**: for migrant workers in the Gulf and elsewhere: check a job contract before signing, store payslips, know your rights, reach help | Contract switching and unpaid wages | NGOs, embassies, fair recruiters (B2B) |
+
+## Wider, non-diaspora ideas worth a concept
+- **Shelf**: a small-shop stock app that reorders from wholesalers on WhatsApp when stock runs low.
+- **Queue**: walk-in queue and SMS call-back for barbers, clinics and government offices (our fade. concept, generalised).
+- **Origin**: a QR "passport" for exported coffee, cocoa, shea or art, so buyers abroad see the farm, the batch and the price paid to the farmer.
+- **Ground**: a brand and booking system for the boutique sports clubs and gyms growing in Lagos, Nairobi, Dubai and Riyadh.
+
 ## IaaS, honestly
 Infrastructure (data centres, cloud, networks) needs capital we don't have. Our role there is the brand, product design and website for an infrastructure company, e.g. a concept for an African edge-hosting or local-cloud provider. That is a strong dream-client category, not something we build.
 
