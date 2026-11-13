@@ -14,6 +14,14 @@ description: Software product ideas (SaaS, PaaS, IaaS) May11Leven Labs could des
 ## How we choose
 Real problem, a clear buyer who pays, fits our services (brand, site, app, AI agents, automation), and fits our markets: Africa first, then the Middle East, then the world. All numbers inside a concept are invented and labelled "concept"; any claim in a caption needs a source.
 
+## How an idea becomes a post (never rushed)
+1. **Think:** the problem, who has it, who pays, what we'd build first.
+2. **Research:** real numbers from real sources (or our own study, like Field Study 01); talk to the market where possible; check who already does it and where they fall short.
+3. **Test:** idea test and founder panel on the pitch; drop it if the problem isn't real.
+4. **Build:** to the Motto standard, deep enough to feel real (Mandate-level screens, a working tool or prototype).
+5. **Market it as our offer to clients:** why a business needs it (the problem and the cost of doing nothing), how we make it happen (brand, product, site, agent, from one studio), and where we come in (a free first look, then a named package). Label concepts as concepts.
+Each idea in this bank stays an idea until it has passed steps 1–3.
+
 ## Ideas
 | # | Idea | Type | Problem | Who pays | Why us |
 |---|---|---|---|---|---|
