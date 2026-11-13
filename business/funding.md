@@ -5,6 +5,8 @@ description: Grants and programmes May11Leven Labs could apply for. Research onl
 
 # Funding and grants (research list)
 
+Priority: low. Marketing and showing the work comes first. Look worldwide, with the Middle East and Africa ahead of Europe (European grants are hard for an African founder). Check this list in quiet moments, not instead of the work.
+
 Eligibility depends mostly on **where the company is registered** and on whether a studio counts as a "product" or "tech" company. Many programmes favour a product with traction; our own tools (calculator, booking agent) help there.
 
 ## Africa (needs an African founder or company; check per programme)
