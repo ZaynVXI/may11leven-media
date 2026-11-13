@@ -16,6 +16,7 @@
 - https://www.siteinspire.com (finest web design, filter by style, type, subject and platform; weekly edit)
 - https://mobbin.com (real iOS and web app screens and flows; we have the Mobbin connector; free shows the 4 latest apps only)
 - https://www.are.na/fi/cool-websites (one person's curated channel of 1,000+ unusual websites; good for ideas off the usual path)
+- https://www.figma.com/community/plugin/1671949687141196785/perspectivo-vector-perspective (Perspectivo, free Figma plugin: puts vectors, text, groups and frames into real 3D perspective and returns editable vectors; for perspective grids, spheres, logo-on-surface and flat screen mockups. Zayn installs it from Figma; plugins run inside the Figma app, not through our connector)
 ## Rotation notes
 - Lebedev Behance revisit: new "Portfolio '26" leads the page; recent work leans to wellness (Frequency Breathwork, Diamond Rose Sanctuary, Institute of Health) and AI/fintech UI (Ponder AI, Cantor8). Same system: one grotesk + mono, colour from photography.
 - Holographik Dribbble: only the SUI shot is public; holographik.co itself could not be loaded from here, so the newest work check stays on the saved refs.
