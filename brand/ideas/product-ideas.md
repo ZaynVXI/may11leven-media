@@ -55,6 +55,23 @@ Hundreds of millions of people live outside the country they come from: Nigerian
 - **Origin**: a QR "passport" for exported coffee, cocoa, shea or art, so buyers abroad see the farm, the batch and the price paid to the farmer.
 - **Ground**: a brand and booking system for the boutique sports clubs and gyms growing in Lagos, Nairobi, Dubai and Riyadh.
 
+## Africa to the world (connecting African businesses to global markets)
+All to research before any post (process above). Rules and figures named here must be checked at the source first.
+
+| Idea | What it does | Who pays | Our part |
+|---|---|---|---|
+| **Showroom** | A wholesale catalogue for makers of furniture, textiles, ceramics and art: minimum order, lead time, sample request, export price, shipped through a freight partner | Makers; buyers are stores and interior designers in Europe, the Gulf and the US | Brand, product photography direction, catalogue site, enquiry agent |
+| **Trace** | A traceability record for coffee, cocoa and shea cooperatives: farm map, batch, harvest date, price paid, documents buyers ask for under EU deforestation rules (EUDR) | Cooperatives and exporters | Product design, data room, buyer-facing page |
+| **Origin** (above) | Buyer-facing QR passport per batch, the consumer side of Trace | Exporters and D2C brands | Brand and packaging |
+| **Global Storefront** | Export-ready product pages for D2C makers: prices in the buyer's currency, shipping estimates from a partner, English, French and Arabic | Makers | Part of the D2C kit |
+| **Sync** | A licensing catalogue of African music for ads, films and games, cleared rights, one price list | Artists and labels share revenue; brands and studios pay | Brand, catalogue site, licensing flow |
+| **Made to Measure** | Made-to-order African fashion for buyers abroad, with a size and measurement guide that cuts returns | Fashion houses and tailors | Brand, shop, measurement UX |
+| **Corridor** | Trade inside Africa under the African Continental Free Trade Area (AfCFTA): a supplier directory with verified documents and rules of origin explained | Exporters and buyers across African borders | Directory product and brand |
+| **Gulf Shelf** | African food and beauty brands ready for Gulf retail: halal and import documents checklist, Arabic labels, retailer pitch deck | Producers | Packaging, labels, pitch deck, site |
+| **Bench** | A vetted network of African designers, developers and 3D artists we lead on global projects, so global clients get one studio and a bigger team | Global clients (through us) | Our own scaling model |
+
+The pitch for all of these: African businesses already make world-class products; what stops them is how they look and how easy they are to buy from abroad. That gap is exactly our work.
+
 ## By business model
 | Model | Ideas already in the bank | New ideas |
 |---|---|---|
