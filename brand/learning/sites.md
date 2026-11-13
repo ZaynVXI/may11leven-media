@@ -29,6 +29,7 @@
 - https://shots.so (free tier; screenshot to device mockup in the browser, for quick drafts only)
 - https://mockuuups.studio (free tier; drag-and-drop scenes, Figma plugin)
 - https://pixeden.com, https://mrmockup.com, https://pixelbuddha.net (free tiers; devices, stationery, packaging)
+- https://www.mockiro.com/archive (mockup archive Zayn shared; not checked yet: site blocked from our workspace, so free status and licence unknown until Zayn sends screenshots)
 - Paid, not for now: UI8, Envato Elements, Rotato, Yellow Images, Angle, Creative Market.
 - Our standard still applies: real light and material, the screen measured onto the glass, no faces, and Blender when no free mockup is good enough.
 
