@@ -35,3 +35,8 @@ Sheets: reel-0148ef71 (Holographik "Colonize Mars"), reel-0986ee33 (Bottone x Ho
 - Trial reels (1,000+ followers) go to non-followers first. Test different versions, never the same one twice.
 - No other app's watermark on export. Sends per reach is the number to watch.
 - For us: a 6 s "9.6 s" reel where a phone-sized frame stays empty while a counter runs to 9.6, then the hotel photo lands. Movement starts at frame 1 (the counter), the empty wait is the story, and the cover is the final frame.
+
+## External: visual hooks + the thumbnail test (creatorflow.so)
+- Five visual hooks, each resolved by the eye in the first second: (1) motion at frame one (action already underway, must relate to the topic); (2) an object out of place; (3) the finished result first (good for tutorials, shot close and lit so it reads small); (4) a face mid-action; (5) the before state at its worst, fixed fast.
+- The thumbnail test: screenshot frame one, shrink to ~1/3 phone width, look for one second with sound off, then write one sentence of what it promises. If you can't, change the frame. Checks: real image not a fade-from-black; one subject fills the frame and contrasts the ground; subject/text sit in the centre that survives the 3:4 grid crop (~240px off top and bottom of a 1080x1920 reel).
+- For us: the Mita concept reel is hook type 3 + 5 combined - open on the finished home screen with "38.6 kWh" already huge (result first), then cut to the confusing paper token it replaces (the before). Counter and split animate in; cover is the final clean screen. Keep the numeral and split inside y 220-1500 so the grid crop and IG chrome don't eat them.
