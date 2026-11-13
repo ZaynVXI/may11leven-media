@@ -1,20 +1,26 @@
-We opened every independent hotel website in Zanzibar on a mid-range phone. Here is what a guest sees.
+9.6 seconds.
 
-Field Study 01. OpenStreetMap lists 107 hotels, guest houses and hostels on Unguja with their own website. After removing chains, dead links and duplicates, 51 independent places had a website that works.
+That's how long the median independent hotel website in Zanzibar takes to show its main image on a mid-range phone. We tested all 51.
+
+This is our first post here, so it starts the way we work: with research, not opinions.
+
+Field Study 01. OpenStreetMap lists 107 hotels, guest houses and hostels on Unguja with their own website. After removing chains, dead links and duplicates, 51 independent places had a site that works. We opened each homepage the way a guest would.
 
 What we found:
-→ The median homepage takes 9.6 seconds to show its main image or headline.
 → 86% are slower than Google's "poor" line of 4 seconds.
 → About 1 in 6 listed hotel websites is gone or has been taken over.
 → Half send the "Book" button to a different web address.
-→ 16% show a room price. Only 2 of 51 give a reason to book direct.
+→ 16% show a room price.
+→ 2 of 51 give guests a reason to book direct.
 
-Why it matters: most guests find a small hotel on Instagram or through a friend, then check the website on a phone before they book. If that page is slow, shows no price and sends them somewhere else, the booking often ends up on a booking site, with commission on a guest the hotel found itself.
+Why it matters: guests find a small hotel on Instagram or through a friend, then check its website on their phone. When the page is slow, shows no price and sends them elsewhere, the booking often goes to a booking site, with commission paid on a guest the hotel found itself.
 
-Method: Google Lighthouse 12, mobile profile, three runs per site, median used. These are lab estimates, not data from real guests. Homepages only. Prices and offers were checked by eye. No business is named, and per-site results stay private.
+The fixes aren't expensive. Compress the main image. Show a "from" price. Keep booking on your own address. Give one reason to book direct. Add WhatsApp and local payment.
 
-We design and build hotel websites and booking tools, so we have an interest in this topic. That's why the full method is public.
+Method: Google Lighthouse 12, mobile profile, three runs per site, median used. Lab estimates, not data from real guests. Homepages only. Prices and offers checked by eye. No business is named, and per-site results stay private.
 
-If you run a hotel or guest house, we'll run the same test on your website for free. Message us here or email hello@may11levenlabs.com.
+We're May11Leven Labs, a design and technology studio. We build brands, websites, apps and AI tools, so we have an interest in this topic. That's why the full method is public.
+
+Run a hotel or guest house? We'll run the same test on your website for free. Message us here or email hello@may11levenlabs.com.
 
 #Hospitality #Zanzibar #WebDesign
