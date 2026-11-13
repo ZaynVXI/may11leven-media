@@ -45,3 +45,9 @@ And every pillar names the service it sells, once and late, with one ask.
 - https://thecreativefactor.co/articles/designing-around-passions-and-problems (Order / Standards)
 - https://wearecollins.com/story/rehearsingtomorrow (Collins)
 - https://www.creativebloq.com/features/how-to-run-your-studio-like-pentagram (Pentagram)
+
+## We are a creative tech company: think like one (Zayn)
+- Ship things that work, not only pictures of things: tools (the commission calculator), prototypes that run, agents that answer, products people can try.
+- "Labs" means experiments in public: one working thing at a time, built to the Motto standard, shown with how we made it.
+- Every concept answers three questions: what problem, who pays, what would we build first. The product ideas bank (brand/ideas/product-ideas.md) is the source.
+- Design and technology together is the pitch: the brand, the product and the site that sells it, from one studio.
