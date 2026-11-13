@@ -17,6 +17,21 @@
 - https://mobbin.com (real iOS and web app screens and flows; we have the Mobbin connector; free shows the 4 latest apps only)
 - https://www.are.na/fi/cool-websites (one person's curated channel of 1,000+ unusual websites; good for ideas off the usual path)
 - https://www.figma.com/community/plugin/1671949687141196785/perspectivo-vector-perspective (Perspectivo, free Figma plugin: puts vectors, text, groups and frames into real 3D perspective and returns editable vectors; for perspective grids, spheres, logo-on-surface and flat screen mockups. Zayn installs it from Figma; plugins run inside the Figma app, not through our connector)
+
+### Mockup sources (from the "Figma Mockup Resource Guide" Zayn shared; free or free tier only, check each licence for commercial use, never resale)
+- https://www.figma.com/community (free device, widget and brand mockups; search "iPhone hand mockup", "MacBook mockup", "tote bag mockup")
+- https://developer.apple.com/design/resources (official free iPhone, iPad, Mac and Watch bezels plus iOS and watchOS UI kits, widget sizes)
+- https://anthonyboyd.graphics (free iPhone, MacBook, iMac and Watch mockups, many angles)
+- https://mockups-design.com (free branding and device mockups: tote bags, bottles, boxes, lanyards)
+- https://mockupworld.co (curated free mockups)
+- https://ls.graphics (free tier; photorealistic scenes with hands and real shadows)
+- https://craftwork.design (free tier; Figma-first device and 3D kits)
+- https://shots.so (free tier; screenshot to device mockup in the browser, for quick drafts only)
+- https://mockuuups.studio (free tier; drag-and-drop scenes, Figma plugin)
+- https://pixeden.com, https://mrmockup.com, https://pixelbuddha.net (free tiers; devices, stationery, packaging)
+- Paid, not for now: UI8, Envato Elements, Rotato, Yellow Images, Angle, Creative Market.
+- Our standard still applies: real light and material, the screen measured onto the glass, no faces, and Blender when no free mockup is good enough.
+
 ## Rotation notes
 - Lebedev Behance revisit: new "Portfolio '26" leads the page; recent work leans to wellness (Frequency Breathwork, Diamond Rose Sanctuary, Institute of Health) and AI/fintech UI (Ponder AI, Cantor8). Same system: one grotesk + mono, colour from photography.
 - Holographik Dribbble: only the SUI shot is public; holographik.co itself could not be loaded from here, so the newest work check stays on the saved refs.
