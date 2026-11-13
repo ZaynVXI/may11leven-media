@@ -34,6 +34,25 @@ Each idea in this bank stays an idea until it has passed steps 1–3.
 | 7 | **Light**: a website platform built for slow connections: every page under 500 KB, fast on 3G, WhatsApp and mobile money ready | PaaS | Our Field Study: median 9.6 s, 76% over 3 MB | Small businesses and the agencies who build for them | Performance research plus web stack |
 | 8 | **Majlis**: bilingual (Arabic and English) WhatsApp concierge and booking for holiday-home operators and event venues in the Gulf | SaaS | Guests ask the same questions in two languages at all hours | Holiday-home operators, venues in Dubai, Riyadh, Doha | Middle East market; agent plus brand |
 
+## AI solutions around our services
+Rule for all of them: the agent watches, drafts and suggests; a person approves anything that goes out, costs money or changes a promise. Real photos stay real (no generated people or products passed off as real).
+
+| Service | Idea | What it does | Who pays |
+|---|---|---|---|
+| Brand identity | **Guardian** | Checks every flyer, menu, post and sign a business makes against its brand rules (logo use, colours, type, tone) before it's published, with a one-tap fix | Franchises, chains, multi-branch businesses |
+| Brand identity | **Living Guidelines** | The brand guidelines as a chat agent: staff ask "which logo goes on a dark photo?" and get the right file and the rule | Every brand client (part of the package) |
+| Websites | **Site Doctor** | A monthly check of the client's site the way our Field Study checks (speed on a mid-range phone, broken links, missing price, booking path), explained in plain words on WhatsApp, with the fixes drafted | Website clients, monthly retainer |
+| Websites + security | **Lapse** | Watches the domain, certificate, email security records and uptime, and warns weeks before anything expires or breaks; our Field Study found about 1 in 6 listed hotel websites gone or taken over | Any business with a website; built on Zayn's cybersecurity skills |
+| Websites | **Say it once** | The owner sends a voice note ("closed Friday", "new price 25,000") and the agent drafts the change for the website, Google profile, Instagram and WhatsApp catalogue; one tap to approve | Shops, restaurants, clinics |
+| Apps | **Voice to quote** | A builder, tailor or mechanic sends a voice note and photos; the agent drafts a branded quote or invoice to approve and send | Trades and small service firms |
+| AI agents | **Reply in voice** | Drafts replies to Google, TripAdvisor and Booking reviews in the brand's voice, flags the angry ones for a person | Hotels, restaurants, clinics |
+| AI agents | **Lead desk** | Reads every Instagram DM, WhatsApp and email enquiry, sorts hot, warm and spam, drafts the reply and books the call | Any business that sells by message, including us |
+| Packaging and 3D | **Shelf test** | Renders packaging options in 3D on a real-looking shelf and runs them past a simulated shopper panel before the print run (the method we already use on our own posts) | Product founders before launch |
+| Content | **One shoot, every size** | Turns one real photo or video shoot into every format a brand needs (post, story, banner, menu, WhatsApp catalogue) in its own layout system, for a person to approve | Brands with a content retainer |
+| Content | **Alt text for all** | Writes image descriptions and checks colour contrast across a brand's site and posts, so blind and low-vision customers can use them | Brands, schools, public bodies |
+
+Strongest for us: **Lapse** (our own data plus Zayn's cybersecurity), **Site Doctor** (a monthly retainer that follows every website we build) and **Say it once** (voice notes are how many of our clients already work).
+
 ## Diaspora ideas (any diaspora, not only African)
 Hundreds of millions of people live outside the country they come from: Nigerians, Kenyans, Filipinos, Indians, Mexicans, Lebanese, Ghanaians and more. They send money, build houses, care for parents, start businesses and plan to return, mostly through WhatsApp and trust. Where money moves or investment is involved, a licensed partner holds the money; we design the product, brand and site.
 
