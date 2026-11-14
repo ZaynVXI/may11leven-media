@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Ingagi: choose a trek day</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500&family=IBM+Plex+Mono:wght@400&display=swap" rel="stylesheet">
+<style>
+:root{
+  --mist:#E8E9E4;   /* Virunga morning mist */
+  --ink:#141613;    /* basalt */
+  --moss:#2F4A2A;   /* bamboo-forest moss, the one accent */
+  --s1:#3B3E39;     /* 8.9:1 on mist */
+  --s2:#5A5D57;     /* secondary text: 5.5:1 */
+  --s3:#5F625C;     /* full rows: 5.1:1, still passes AA */
+  --hair:#C9CBC4;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{background:#D6D7D1}
+body{-webkit-font-smoothing:antialiased;font-family:"Hanken Grotesk",Inter,system-ui,sans-serif;color:var(--ink);display:grid;place-items:center;min-height:100vh;padding:40px 0}
+.phone{width:390px;height:844px;background:var(--mist);border-radius:54px;position:relative;overflow:hidden;
+  box-shadow:0 0 0 10px #1b1c1a,0 0 0 11px #4a4b47}
+.island{position:absolute;top:11px;left:50%;transform:translateX(-50%);width:124px;height:36px;border-radius:20px;background:#0a0a0a}
+.status{height:54px;display:flex;justify-content:space-between;align-items:center;padding:6px 32px 0 40px;font-weight:500;font-size:16px}
+.status svg{display:inline-block;vertical-align:middle;margin-left:5px}
+.mono{font-family:"IBM Plex Mono",ui-monospace,monospace;font-size:12px;letter-spacing:.02em;text-transform:uppercase}
+header{padding:20px 24px 0;display:flex;justify-content:space-between;align-items:baseline}
+header a{color:var(--ink);text-decoration:none;font-size:15px;min-height:44px;display:flex;align-items:center}
+h1{font-weight:400;font-size:32px;line-height:1.08;letter-spacing:-.015em;padding:10px 24px 0;white-space:nowrap}
+.meta{padding:10px 24px 18px;color:var(--s2);font-size:15px}
+.list{list-style:none;border-top:1px solid var(--hair)}
+.list li{display:grid;grid-template-columns:1fr auto;align-items:baseline;padding:0 24px;height:52px;align-content:center;
+  font-size:17px;border-bottom:1px solid var(--hair)}
+.list li .n{font-family:"IBM Plex Mono",monospace;font-size:13px;font-variant-numeric:tabular-nums}
+.f3,.f2,.f1{color:var(--ink)}
+.full{color:var(--s3)!important}
+.low .n{color:var(--moss)}
+.full .n{text-decoration:none}
+.list li.sel{background:var(--moss);color:#fff;height:76px;font-size:24px;border-color:var(--moss)}
+.list li.sel .n{font-size:13px;color:#fff}
+/* before: Holographik's opacity fade copied straight */
+.before .f3{color:var(--ink);opacity:.18}.before .f2{color:var(--ink);opacity:.32}.before .f1{color:var(--ink);opacity:.55}
+.foot{position:absolute;left:0;right:0;bottom:0;padding:16px 24px 34px;border-top:1px solid var(--hair);background:var(--mist)}
+.row{display:flex;justify-content:space-between;align-items:baseline}
+.price{font-size:28px;letter-spacing:-.01em;font-variant-numeric:tabular-nums}
+.note{text-wrap:pretty;color:var(--s2);font-size:13px;margin-top:4px;max-width:250px;line-height:1.35}
+button{margin-top:16px;width:100%;height:56px;border:0;border-radius:28px;background:var(--ink);color:#fff;font:500 17px "Hanken Grotesk",Inter,sans-serif}
+.hi{position:absolute;bottom:8px;left:50%;transform:translateX(-50%);width:134px;height:5px;border-radius:3px;background:var(--ink)}
+</style>
+</head>
+<body>
+<main class="phone" aria-label="Ingagi app, choose a trek day">
+  <div class="island" aria-hidden="true"></div>
+  <div class="status" aria-hidden="true"><span>9:41</span><span>
+    <svg width="18" height="12" viewBox="0 0 18 12"><rect x="0" y="8" width="3" height="4" rx="1"/><rect x="5" y="5" width="3" height="7" rx="1"/><rect x="10" y="2.5" width="3" height="9.5" rx="1"/><rect x="15" y="0" width="3" height="12" rx="1"/></svg>
+    <svg width="16" height="12" viewBox="0 0 16 12"><path d="M8 11.5 5.6 9a3.4 3.4 0 0 1 4.8 0zM3.5 6.9a6.4 6.4 0 0 1 9 0l-1.4 1.4a4.4 4.4 0 0 0-6.2 0zM1.3 4.7a9.5 9.5 0 0 1 13.4 0l-1.4 1.4a7.5 7.5 0 0 0-10.6 0z"/></svg>
+    <svg width="27" height="13" viewBox="0 0 27 13"><rect x=".5" y=".5" width="23" height="12" rx="3.5" fill="none" stroke="#141613" opacity=".4"/><rect x="2" y="2" width="17" height="9" rx="2"/><rect x="24.5" y="4.5" width="1.6" height="4" rx=".8" opacity=".4"/></svg></span></div>
+
+  <header><a href="#" aria-label="Back to parks">&larr; Parks</a><span class="mono">Report 07:00 · Kinigi</span></header>
+  <h1>Choose your trek day</h1>
+  <p class="meta">Volcanoes National Park · 1 permit · 15+</p>
+
+  <ul class="list" role="listbox" aria-label="Trek days, permits left">
+    <li class="f3 full" role="option" aria-disabled="true"><span>Sat 21 Nov</span><span class="n">Full</span></li>
+    <li class="f2 low" role="option"><span>Sun 22 Nov</span><span class="n">4 left</span></li>
+    <li class="f1" role="option"><span>Mon 23 Nov</span><span class="n">11 left</span></li>
+    <li class="sel" role="option" aria-selected="true"><span>Tue 24 Nov</span><span class="n">6 left</span></li>
+    <li class="f1" role="option"><span>Wed 25 Nov</span><span class="n">19 left</span></li>
+    <li class="f2 low" role="option"><span>Thu 26 Nov</span><span class="n">2 left</span></li>
+    <li class="f3" role="option"><span>Fri 27 Nov</span><span class="n">23 left</span></li>
+  </ul>
+
+  <div class="foot">
+    <div class="row"><span class="mono">1 permit</span><span class="price">USD 1,500</span></div>
+    <p class="note">Low season: USD 1,050 when you add Akagera and Nyungwe.</p>
+    <button type="button">Continue to trekker details</button>
+  </div>
+  <div class="hi" aria-hidden="true"></div>
+</main>
+</body>
+</html>
