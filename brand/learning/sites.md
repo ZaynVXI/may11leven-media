@@ -33,6 +33,14 @@
 - Paid, not for now: UI8, Envato Elements, Rotato, Yellow Images, Angle, Creative Market.
 - Our standard still applies: real light and material, the screen measured onto the glass, no faces, and Blender when no free mockup is good enough.
 
+### UI component libraries (Zayn: always use these for websites, apps and design in general)
+Start every site or app screen from these instead of designing components from scratch. Free tiers only; the Pro parts are paid, so we skip them.
+- https://bencho.dev (Bencho: playful micro-interactions such as a focus timer, playback-speed pills, a BPM chart and a card stack, plus UI sounds. React with framer-motion and lucide-react, copy-paste blocks. The 41 free blocks and 24 sounds are MIT; Pro is paid)
+- https://www.boardui.com (BoardUI: data-rich dashboards and agent tools such as ring charts, bar charts, a range calendar and an AI chat input. React, Tailwind v4 and React Aria, designed in Figma; `npx boardui add <component>`. 73 free components are MIT on GitHub; Pro is a one-off €149)
+- https://transitions.dev (Transitions.dev by Jakub Antalik: smooth transitions between UI states such as card resize, digit flips, modals, menus and success checks. Plain CSS you paste in and adapt. The licence isn't shown on the catalogue page, so check the GitHub repo before client work)
+- https://www.beautifului.dev (Beautiful UI: agent chat, approvals and workflows such as insights cards, tagged tables, status tables and a "proposed changes" diff table. Not yet checked: the site is blocked from our workspace, so the licence and free tier are unknown)
+- How we use them: take the component, then restyle it to the project's own colour world and type (may11leven-typography, may11leven-color). Never ship a library's demo look or its sample data. Keep real states and real data, as preflight Pass 2 requires.
+
 ## Rotation notes
 - Lebedev Behance revisit: new "Portfolio '26" leads the page; recent work leans to wellness (Frequency Breathwork, Diamond Rose Sanctuary, Institute of Health) and AI/fintech UI (Ponder AI, Cantor8). Same system: one grotesk + mono, colour from photography.
 - Holographik Dribbble: only the SUI shot is public; holographik.co itself could not be loaded from here, so the newest work check stays on the saved refs.
