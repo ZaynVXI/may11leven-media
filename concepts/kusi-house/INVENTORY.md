@@ -22,7 +22,7 @@
 - Design systems: Gestalt naming for Kusi tokens; Fluent durations
 
 ## Software
-- Figma: Kusi House file in the May11Leven folder with pages, components, colour and type styles
+- Figma: Kusi House — Concept https://www.figma.com/design/lEbvszBfdQfzN9FFOHzAWp (May11Leven folder): Foundations (7 colour variables, 7 text styles, sail mark component), Home and Book build captures; Arriving and Devices pages ready
 - HTML/CSS + Playwright: all pages at @2x, recordings of booking flow, arrival going live, room select
 - Blender: Studio Display, MacBook, iPhone; sets in coral stone and lime plaster with one window light; carved-wood room key with sail fob
 - GIMP: finishing pass on every render and photo
