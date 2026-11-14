@@ -5,4 +5,4 @@
 - Logo component "Logo / Full" is vector (bars as shapes, wordmark traced from brand/may11leven-logo.png). Vector copies here: may11leven-logo-dark.svg, may11leven-logo-white.svg.
 - Image uploads from the workspace are blocked (mcp.figma.com upload host is refused by the proxy), so photos and post covers are added by hand in Figma.
 - Figma has no Inter Tight in this account; sans styles use Inter.
-- Every new website, app or brand project gets its own Figma file in the May11Leven project.
+- May11Leven folder (Figma project): https://www.figma.com/files/folder/690850865 (projectId 690850865, plan team::1700438172421322183). Every new website, app or brand project gets its own file created straight in this folder.
