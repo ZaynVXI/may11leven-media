@@ -31,3 +31,9 @@ Obys is a concept-driven studio in the EU (brand, web, 3D, creative direction). 
 4. Record real interactions (Transitions.dev motion, counters, hovers) with Playwright inside the device.
 5. One motif from the identity runs through every page and every slide.
 6. Steal like an artist: never stripes, never their navy and blue cards. Take the thinking: a system, rich pages, real devices, recorded motion.
+
+## The Obys site itself (recorded: brand/refs/obys/site/)
+- A preloader that is itself a collage of their work, counting to 100.
+- Work index = one vertical film strip of project images in the centre, a bracket "( )" that frames the current one, the project list in light grey at the left, the name and disciplines in small type beside the bracket. Switch views: Vertical, Horizontal, Grid.
+- Almost no words on the homepage: a 4-line studio statement, an email, the local time. The work speaks.
+- Case studies are immersive: full-bleed dark pages that behave like the client's product (Porsche: the car, the charger, "Take charge").
