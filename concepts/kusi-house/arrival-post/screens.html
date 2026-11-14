@@ -1,0 +1,84 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+@font-face{font-family:IS;src:url(../fonts/InstrumentSerif-Regular.ttf)}
+@font-face{font-family:IS;font-style:italic;src:url(../fonts/InstrumentSerif-Italic.ttf)}
+@font-face{font-family:IT;font-weight:300;src:url(../fonts/InterTight-Light.ttf)}
+@font-face{font-family:IT;font-weight:400;src:url(../fonts/InterTight-Regular.ttf)}
+@font-face{font-family:IT;font-weight:500;src:url(../fonts/InterTight-Medium.ttf)}
+:root{--lime:#EEE8DD;--lime2:#E4DCCD;--ink:#1F1B16;--ink2:#5E554A;--sail:#C7AE82;--sea:#2D4A63;--rule:rgba(31,27,22,.14)}
+*{margin:0;box-sizing:border-box}body{background:#777;display:flex;gap:40px;padding:40px}
+.ph{width:390px;height:844px;background:var(--lime);color:var(--ink);font-family:IT;font-weight:400;position:relative;overflow:hidden}
+.sb{height:47px;display:flex;justify-content:space-between;align-items:center;padding:0 26px 0 32px;font:500 15px IT}
+.sb i{display:inline-block;width:25px;height:12px;border:1px solid var(--ink);border-radius:3px;position:relative;margin-left:6px}
+.sb i.lt:after{background:var(--lime)}.sb i:after{content:"";position:absolute;inset:1.5px;right:5px;background:var(--ink);border-radius:1px}
+.nav{display:flex;justify-content:space-between;align-items:center;padding:8px 20px 14px;border-bottom:1px solid var(--rule)}
+.nav b{font:400 19px IS;display:flex;gap:7px;align-items:center}
+.pill{font:400 12px IT;border:1px solid var(--ink);border-radius:99px;padding:6px 11px}
+h1{font:400 38px/1 IS;letter-spacing:-.01em;padding:22px 20px 6px}h1 i{font-style:italic}
+.sub{font:300 14px/1.45 IT;color:var(--ink2);padding:0 20px 16px}
+.row{display:grid;grid-template-columns:52px 1fr auto;gap:8px;padding:13px 20px;border-top:1px solid var(--rule);font-size:14px;align-items:start}
+.row .t{font:400 13px IT;color:var(--ink2);padding-top:1px}.row small{display:block;font:300 12px/1.4 IT;color:var(--ink2);margin-top:2px}
+.row.done{opacity:.45}.row.live{background:#E6DFD2}
+.live .t{color:var(--sea);font-weight:500}.dot{width:8px;height:8px;border-radius:9px;background:var(--sea);display:inline-block;margin-right:6px;box-shadow:0 0 0 4px rgba(45,74,99,.18)}
+.tag{font:500 11px IT;color:var(--sea);border:1px solid rgba(45,74,99,.4);border-radius:99px;padding:3px 8px;white-space:nowrap}
+.card{margin:14px 20px;border:1px solid var(--rule);border-radius:10px;padding:14px;background:#F4EFE6}
+.card h3{font:400 12px IT;color:var(--ink2);text-transform:uppercase;letter-spacing:.06em;margin-bottom:8px}
+.kv{display:flex;justify-content:space-between;font:400 14px/1.9 IT}.kv span:first-child{color:var(--ink2);font-weight:300}
+.btn{position:absolute;left:20px;right:20px;bottom:30px;height:52px;border-radius:99px;background:var(--ink);color:var(--lime);display:flex;align-items:center;justify-content:center;gap:8px;font:400 15px IT}
+.home{position:absolute;left:50%;bottom:8px;width:134px;height:5px;border-radius:5px;background:var(--ink);transform:translateX(-50%)}
+.map{margin:4px 20px;height:270px;border-radius:10px;background:#E9E2D5;position:relative;overflow:hidden;border:1px solid var(--rule)}
+</style></head><body>
+<svg width="0" height="0" style="position:absolute"><symbol id="sail" viewBox="0 0 19 21"><path d="M15.2 3.2 C12.6 8.4 12.2 13.4 14.2 18.6 L3.4 18.6 Z" fill="currentColor"/><path d="M1.2 19.6 L17.6 0.8" stroke="currentColor" stroke-width="1.1" fill="none"/></symbol></svg>
+
+<!-- A: arrival timeline -->
+<div class="ph" id="A">
+ <div class="sb"><span>14:22</span><span>●●● <i></i></span></div>
+ <div class="nav"><b><svg width="14" height="15"><use href="#sail"/></svg>Kusi House</b><span class="pill">Message us</span></div>
+ <h1>Welcome, Amina.<br><i>Your arrival.</i></h1>
+ <p class="sub">Opened from WhatsApp. No app to download.</p>
+ <div class="row done"><span class="t">14:05</span><span>Land at Manda airport<small>Hassan met you at arrivals</small></span><span></span></div>
+ <div class="row live"><span class="t"><span class="dot"></span>14:20</span><span>Boat leaves Manda jetty<small>Hassan is with you · 15 minutes across</small></span><span class="tag">Now</span></div>
+ <div class="row"><span class="t">14:35</span><span>Step off at the old town<small>Your bags go by handcart</small></span><span></span></div>
+ <div class="row"><span class="t">14:45</span><span>Through the lanes to the door<small>Lime juice on the roof</small></span><span></span></div>
+ <div class="card"><h3>Today on the water</h3><div class="kv"><span>High tide</span><span>15:10</span></div><div class="kv"><span>Last boat back</span><span>18:30</span></div></div>
+ <div class="btn">Show the lane map</div><div class="home"></div>
+</div>
+
+<!-- B: lane map -->
+<div class="ph" id="B">
+ <div class="sb"><span>14:38</span><span>●●● <i></i></span></div>
+ <div class="nav"><b><svg width="14" height="15"><use href="#sail"/></svg>Kusi House</b><span class="pill">Message us</span></div>
+ <h1>No cars.<br><i>Six minutes on foot.</i></h1>
+ <p class="sub">From the jetty to the carved door.</p>
+ <div class="map">
+  <svg width="350" height="270" viewBox="0 0 350 270">
+   <rect width="350" height="70" y="200" fill="#C9D3DA"/>
+   <g fill="#DDD5C6" stroke="rgba(31,27,22,.12)">
+    <rect x="12" y="14" width="70" height="56"/><rect x="96" y="14" width="96" height="40"/><rect x="206" y="14" width="132" height="58"/>
+    <rect x="12" y="84" width="54" height="96"/><rect x="80" y="68" width="62" height="54"/><rect x="156" y="68" width="40" height="112"/><rect x="210" y="86" width="128" height="40"/>
+    <rect x="80" y="136" width="62" height="44"/><rect x="210" y="140" width="128" height="40"/>
+   </g>
+   <path d="M120 212 L120 190 L149 190 L149 62 L203 62 L203 79 L242 79" fill="none" stroke="#2D4A63" stroke-width="3" stroke-dasharray="6 5" stroke-linecap="round"/>
+   <circle cx="120" cy="212" r="7" fill="#2D4A63"/><circle cx="120" cy="212" r="13" fill="rgba(45,74,99,.18)"/>
+   <svg x="242" y="58" width="18" height="20"><use href="#sail" color="#1F1B16"/></svg>
+   <text x="134" y="226" font-family="IT" font-size="11" fill="#1F1B16">You · old town jetty</text>
+   <text x="266" y="72" font-family="IT" font-size="11" fill="#1F1B16">Kusi House</text>
+  </svg>
+ </div>
+ <div class="row"><span class="t">2 min</span><span>Up from the jetty, past the fort<small>Keep the sea behind you</small></span><span></span></div>
+ <div class="row"><span class="t">4 min</span><span>Left at the blue door<small>The lane narrows here</small></span><span></span></div>
+ <div class="btn">Call Hassan</div><div class="home"></div>
+</div>
+
+<!-- C: day-before message -->
+<div class="ph" id="C" style="background:#1F1B16;color:var(--lime)">
+ <div class="sb" style="color:var(--lime)"><span>18:00</span><span>●●● <i class="lt" style="border-color:var(--lime)"></i></span></div>
+ <div class="nav" style="border-color:rgba(238,232,221,.18)"><b><svg width="14" height="15" style="color:var(--lime)"><use href="#sail"/></svg>Kusi House</b><span class="pill" style="border-color:var(--lime)">Message us</span></div>
+ <h1>See you<br><i style="color:var(--sail)">tomorrow.</i></h1>
+ <p class="sub" style="color:#A39887">The day before, on WhatsApp.</p>
+ <div class="row" style="border-color:rgba(238,232,221,.16)"><span class="t" style="color:#A39887">Flight</span><span>Lands at Manda, 14:05<small style="color:#A39887">We'll check it in the morning</small></span><span></span></div>
+ <div class="row" style="border-color:rgba(238,232,221,.16)"><span class="t" style="color:#A39887">Boat</span><span>14:20 from Manda jetty<small style="color:#A39887">Included with your room</small></span><span></span></div>
+ <div class="row" style="border-color:rgba(238,232,221,.16)"><span class="t" style="color:#A39887">Tide</span><span>High at 15:10<small style="color:#A39887">Calm crossing</small></span><span></span></div>
+ <div class="row" style="border-color:rgba(238,232,221,.16)"><span class="t" style="color:#A39887">Paid</span><span>Deposit 20% by M-Pesa<small style="color:#A39887">The rest at the house</small></span><span></span></div>
+ <div class="btn" style="background:var(--lime);color:var(--ink)">Open my arrival</div><div class="home" style="background:var(--lime)"></div>
+</div>
+</body></html>
