@@ -1,0 +1,72 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Book direct · Kusi House</title><style>
+@font-face{font-family:IS;src:url(../fonts/InstrumentSerif-Regular.ttf)}
+@font-face{font-family:IS;font-style:italic;src:url(../fonts/InstrumentSerif-Italic.ttf)}
+@font-face{font-family:IT;font-weight:300;src:url(../fonts/InterTight-Light.ttf)}
+@font-face{font-family:IT;font-weight:400;src:url(../fonts/InterTight-Regular.ttf)}
+@font-face{font-family:IT;font-weight:500;src:url(../fonts/InterTight-Medium.ttf)}
+@font-face{font-family:PM;src:url(../../../brand/fonts/PlexMono.ttf)}
+:root{--lime:#EEE8DD;--lime2:#E4DCCD;--paper:#F6F2EA;--ink:#1F1B16;--ink2:#5E554A;--sail:#C7AE82;--sea:#2D4A63;--rule:rgba(31,27,22,.14)}
+*{margin:0;box-sizing:border-box}html{background:var(--lime);color:var(--ink);font-family:IT;-webkit-font-smoothing:antialiased}
+.w{width:1440px;margin:0 auto;padding:0 32px}
+.lab{font:400 12px/1 PM;letter-spacing:.08em;text-transform:uppercase;color:var(--ink2)}
+.dot{display:inline-block;width:7px;height:7px;border-radius:9px;background:currentColor;margin-right:8px;vertical-align:1px}
+nav{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;height:64px;border-bottom:1px solid var(--rule)}
+nav .l{display:flex;gap:28px;font-size:14px}nav .m{display:flex;gap:10px;align-items:center;font:400 22px IS}nav .r{display:flex;justify-content:flex-end;gap:18px;align-items:center}
+h1{font:400 128px/.9 IS;letter-spacing:-.035em;margin-top:30px}h1 i{font-style:italic}
+.steps{display:grid;grid-template-columns:repeat(4,1fr);margin-top:44px;border-top:1px solid var(--rule)}
+.steps div{padding:14px 0 16px;border-right:1px solid var(--rule);padding-left:14px;font-size:14px;color:var(--ink2);position:relative}
+.steps div:first-child{padding-left:0}.steps div:last-child{border:0}
+.steps b{display:block;font:400 26px IS;color:var(--ink);margin-top:6px}
+.steps .done b{color:var(--ink2)}.steps .on b{color:var(--ink)}
+.steps .on:after{content:"";position:absolute;left:14px;right:14px;bottom:-1px;height:3px;background:var(--sea)}
+.grid{display:grid;grid-template-columns:1fr 440px;gap:40px;margin-top:40px;align-items:start}
+.rm{display:grid;grid-template-columns:300px 1fr;background:var(--paper);border:1px solid var(--rule);border-radius:12px;overflow:hidden;margin-bottom:14px}
+.rm .im{background-size:cover;background-position:center;min-height:250px;clip-path:path('M0 0 L300 0 C262 80 258 170 282 250 L0 250 Z')}
+.rm .bd{padding:20px 24px;display:flex;flex-direction:column}
+.rm .top{display:flex;justify-content:space-between;align-items:baseline}.rm .top b{font:400 36px IS}.rm .top span{font-size:15px}
+.rm p{font-size:14px;color:var(--ink2);margin-top:6px;max-width:440px;line-height:1.5}
+.tags{display:flex;gap:6px;margin-top:14px;flex-wrap:wrap}.tags span{font-size:12px;padding:5px 10px;border-radius:99px;border:1px solid var(--rule)}
+.rm .act{margin-top:auto;display:flex;justify-content:space-between;align-items:center;padding-top:18px;border-top:1px dashed var(--rule)}
+.pick{height:40px;padding:0 16px;border-radius:99px;border:1px solid var(--ink);display:inline-flex;align-items:center;font-size:14px}
+.rm.sel{outline:2px solid var(--sea);outline-offset:-1px}.rm.sel .pick{background:var(--sea);border-color:var(--sea);color:var(--lime)}
+.left{font-size:13px;color:var(--ink2)}.left em{font-style:normal;color:#9A4B2C}
+.sum{background:var(--ink);color:var(--lime);border-radius:14px;padding:26px;position:sticky;top:20px}
+.sum h3{font:400 40px/1 IS}.sum h3 i{color:var(--sail)}
+.ln{display:flex;justify-content:space-between;padding:12px 0;border-bottom:1px solid rgba(238,232,221,.14);font-size:15px}.ln span:first-child{color:#A39887}
+.perk{display:grid;grid-template-columns:22px 1fr;gap:8px;font-size:14px;padding:9px 0;color:#DDD5C6}
+.perk svg{margin-top:2px}
+.dep{margin-top:18px;background:rgba(238,232,221,.08);border-radius:10px;padding:16px}
+.dep .bar{height:8px;border-radius:8px;background:rgba(238,232,221,.14);margin:12px 0 8px;position:relative;overflow:hidden}.dep .bar i{position:absolute;inset:0 80% 0 0;background:var(--sail);clip-path:polygon(0 0,100% 0,88% 100%,0 100%)}
+.pay{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:14px}.pay div{border:1px solid rgba(238,232,221,.24);border-radius:10px;padding:12px;font-size:14px}.pay .on{border-color:var(--sail);background:rgba(199,174,130,.12)}
+.go{margin-top:16px;height:54px;border-radius:12px;background:var(--lime);color:var(--ink);display:flex;align-items:center;justify-content:space-between;padding:0 10px 0 20px;font-size:15px}
+.go i{width:34px;height:34px;border-radius:34px;background:var(--ink);color:var(--lime);display:grid;place-items:center;font-style:normal}
+.fine{font-size:12px;color:#A39887;margin-top:12px;line-height:1.5}
+.why{display:grid;grid-template-columns:repeat(3,1fr);gap:0;margin-top:26px;border-top:1px solid var(--rule)}
+.why div{padding:16px 16px 0 0}.why b{display:block;font:400 22px IS;margin-bottom:6px}.why p{font-size:13px;color:var(--ink2);line-height:1.5}
+</style></head><body>
+<svg width="0" height="0" style="position:absolute"><symbol id="sail" viewBox="0 0 19 21"><path d="M15.2 3.2 C12.6 8.4 12.2 13.4 14.2 18.6 L3.4 18.6 Z" fill="currentColor"/><path d="M1.2 19.6 L17.6 0.8" stroke="currentColor" stroke-width="1.1" fill="none"/></symbol></svg>
+<div class="w">
+ <nav><div class="l"><span>Rooms</span><span>Arriving</span><span>The house</span><span>Lamu</span></div><div class="m"><svg width="18" height="20"><use href="#sail"/></svg>Kusi House</div><div class="r"><span class="lab">Secure booking · on our own page</span></div></nav>
+ <h1>Book here,<br><i>not through a platform.</i></h1>
+ <div class="steps"><div class="done"><span class="lab">01</span><b>Dates · 14–18 Feb</b></div><div class="on"><span class="lab">02</span><b>Choose a room</b></div><div><span class="lab">03</span><b>Your details</b></div><div><span class="lab">04</span><b>Hold it with 20%</b></div></div>
+ <div class="grid">
+  <div>
+   <div class="rm"><div class="im" style="background-image:url(../img/g_kusi_door_dogs.jpg)"></div><div class="bd"><div class="top"><b>Courtyard room</b><span>$140 / night</span></div><p>Ground floor around the courtyard, behind a carved door. Cool through the afternoon.</p><div class="tags"><span>Double bed</span><span>Fan and air</span><span>Courtyard view</span></div><div class="act"><span class="left">4 of 4 free on your dates</span><span class="pick">Choose</span></div></div></div>
+   <div class="rm sel"><div class="im" style="background-image:url(../img/g_kusi_alley2.jpg)"></div><div class="bd"><div class="top"><b>Lane room</b><span>$165 / night</span></div><p>First floor over the lane, with the morning light and the sound of the waterfront.</p><div class="tags"><span>King bed</span><span>Balcony over the lane</span><span>Desk</span></div><div class="act"><span class="left"><em>1 left</em> on your dates</span><span class="pick">Chosen ✓</span></div></div></div>
+   <div class="rm"><div class="im" style="background-image:url(../img/g_kusi_rooftop.jpg);background-position:50% 70%"></div><div class="bd"><div class="top"><b>Roof suite</b><span>$220 / night</span></div><p>Its own terrace under the makuti roof, lanterns, and the call to prayer at dusk.</p><div class="tags"><span>King bed</span><span>Private terrace</span><span>Sleeps 3</span></div><div class="act"><span class="left">1 of 1 free on your dates</span><span class="pick">Choose</span></div></div></div>
+   <div class="why"><div><b>Same price as anywhere</b><p>We never charge more here than on booking sites.</p></div><div><b>The boat is ours</b><p>Booked direct, the transfer from Manda is included and timed to your flight.</p></div><div><b>A person answers</b><p>Message us on WhatsApp. Replies within the hour.</p></div></div>
+  </div>
+  <aside class="sum">
+   <span class="lab" style="color:#A39887">Your stay</span>
+   <h3 style="margin-top:12px">Lane room,<br><i>four nights.</i></h3>
+   <div style="margin-top:18px"><div class="ln"><span>14 – 18 Feb · 2 adults</span><span>4 nights</span></div><div class="ln"><span>$165 × 4</span><span>$660</span></div><div class="ln"><span>Boat from Manda, both ways</span><span>Included</span></div><div class="ln" style="border:0"><span style="color:var(--lime)">Total</span><span style="font:400 30px IS">$660</span></div></div>
+   <div class="perk"><svg width="14" height="15" style="color:var(--sail)"><use href="#sail"/></svg><span>Breakfast on the roof, every morning</span></div>
+   <div class="perk"><svg width="14" height="15" style="color:var(--sail)"><use href="#sail"/></svg><span>A message the day before with the tide and the boat time</span></div>
+   <div class="dep"><div style="display:flex;justify-content:space-between;font-size:14px"><span>Hold it today</span><b style="font-weight:400">$132 <span style="color:#A39887">· 20%</span></b></div><div class="bar"><i></i></div><div style="font-size:12px;color:#A39887">The rest, $528, is paid at the house.</div>
+    <div class="pay"><div class="on">M-Pesa<br><span style="font-size:12px;color:#A39887">Prompt to your phone</span></div><div>Card<br><span style="font-size:12px;color:#A39887">Visa, Mastercard</span></div></div></div>
+   <a class="go">Continue to your details <i>→</i></a>
+   <p class="fine">Free to cancel until 7 days before arrival. Your deposit comes back in full.</p>
+  </aside>
+ </div>
+ <div style="height:120px"></div>
+</div></body></html>
