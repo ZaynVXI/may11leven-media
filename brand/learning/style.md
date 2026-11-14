@@ -127,3 +127,19 @@ Looked at the upcoming Instagram GRID tiles (stories and LinkedIn-only posts exc
 - Flag 2 (balance): the Dec 8 pair are both light/near-white, so if they land in the same grid row they'll read as one pale block. Put a darker tile between them, or move one.
 - Flag 3 (loud tile): the Dec 1 seven-colour fan is the one loud, multi-colour cover in the set - fine as the single loud tile, just keep it off the same row as the dark ata tile so the row doesn't get heavy.
 - No app concept in the near IG queue (the apps work is only inside carousels). Mita, once it has a device-scene plate, is a candidate to fill that gap - an app tile would also balance the branding-heavy run.
+
+## Holographik, round two (rotation): the picker that fades (refs: holographik-12..15, Behance)
+- Newest work on Behance (order shown): Objects & Frequencies (audiovisual), CoMinVi, Veda identity, CASEY (web), Sui identity + website, Open Works: Design Week Zagreb, davidalaba.com (behance.net/Holographik).
+- Measured colour, from our refs: Sui pages are true black #000000 (69 to 80% of the frame) with lifted panels #141516, one electric blue #1D6EF3 for the selected value, and dark navy shadows #1C3763 / #273550 around it. The CoMinVi light side: #E1E1E1 / #FFFFFF with slate #5B6268 type. So the system is two greys and one blue, nothing else.
+- Type: a neo-grotesk at one weight. The price wheel (holographik-13) sets every value the same size; only the selected one goes white on blue and gets a dark keyline. Tabular figures, the dollar sign kept, no decimals.
+- Grid: one centred column, values on a fixed pitch (roughly 1.2x the cap height), with large black margins either side. The candlestick frame puts a dot grid behind the chart so the system shows even in the empty parts.
+- Idea: state is shown by opacity. Distance from the selected value equals fade. It's the iOS wheel picker turned into a poster.
+- On Instagram: the grid alternates a white "Site Of The Day" collage, a phone held in a hand on grey, a dark product page. Every third tile or so is a pure type or UI crop with no device.
+- Try this week: take one UI control (picker, slider, toggle) and make it the whole frame, the way the price wheel is the whole post. But check it first (see accessibility): their fade drops far values to around 1.5:1, which is fine for a poster and fails in a working app.
+
+## Feed check (Sat, Metricool 7782767, read only)
+The upcoming Instagram grid is unchanged since Friday: Dec 1 seven-service fan, Dec 3 Kora reel, Dec 5 ata, Dec 8 type study, Dec 8 night-shift reel. That's only 5 feed tiles, not 9.
+- Still open from Friday: the Dec 8 type-study carousel and the night-shift reel are both on Instagram at 10:00 on the same day. Both are light, so they'll also stack as one pale block. Move one to another day.
+- New: every queued item is still a draft (draft: true), so nothing will auto-publish until it's approved. That includes today's Uganda funding story set for 13:27 Vienna, which is now past its slot and still pending.
+- Gap: no feed post between now and Dec 1 (only stories). The grid will sit still for about two weeks.
+- Holds: one focal point per cover, only one loud tile (the seven-colour fan), ata is the only dark tile, and services rotate (overview, 05, 04, 01, general). Still no app tile; Mita or Ingagi with a device plate would fill it.

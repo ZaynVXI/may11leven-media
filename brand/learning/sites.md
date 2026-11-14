@@ -15,3 +15,7 @@
 
 - nuevo.tokyo - reductionist studio; study how they present owned products as a single captioned vertical column (check for the next concept writeup).
 - Minimalissimo (minimalissimo.com) - one quiet-object principle per visit; current issue: Doldam Residence, Kehikko chair, iA Notebook (all-white), Dieter Rams catalogue raisonne.
+
+- nngroup.com/articles/date-input - date pickers: calendars for dates within about a year, always allow typing, grey out only unavailable or illogical dates, label today.
+- creativeboom.com 15 typefaces designers can't stop using in 2026 - Inclusive Sans (accessibility-first neo-grotesk) and Degular ("boringly useful") are worth testing for concepts.
+- behance.net/Holographik - check CASEY and Objects & Frequencies next.
