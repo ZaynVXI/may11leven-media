@@ -41,6 +41,15 @@ Start every site or app screen from these instead of designing components from s
 - https://www.beautifului.dev (Beautiful UI: agent chat, approvals and workflows such as insights cards, tagged tables, status tables and a "proposed changes" diff table. Not yet checked: the site is blocked from our workspace, so the licence and free tier are unknown)
 - How we use them: take the component, then restyle it to the project's own colour world and type (may11leven-typography, may11leven-color). Never ship a library's demo look or its sample data. Keep real states and real data, as preflight Pass 2 requires.
 
+### Public design systems (study one component across all seven; notes in design-systems.md)
+- https://fluent2.microsoft.design (Microsoft: named motion durations and curves)
+- https://spectrum.adobe.com (Adobe: t-shirt sizes, live component playgrounds)
+- https://base.uber.com (Uber: black and white, one safety blue, one typeface)
+- https://gestalt.pinterest.systems (Pinterest: base, semantic and component tokens)
+- https://www.lightningdesignsystem.com (Salesforce: durations named by feeling)
+- https://wise.design (Wise: flat, hairlines, one loud colour)
+- https://vercel.com/geist (Vercel: 10-step colour scales with fixed jobs)
+
 ## Rotation notes
 - Lebedev Behance revisit: new "Portfolio '26" leads the page; recent work leans to wellness (Frequency Breathwork, Diamond Rose Sanctuary, Institute of Health) and AI/fintech UI (Ponder AI, Cantor8). Same system: one grotesk + mono, colour from photography.
 - Holographik Dribbble: only the SUI shot is public; holographik.co itself could not be loaded from here, so the newest work check stays on the saved refs.
