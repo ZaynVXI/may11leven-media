@@ -5,7 +5,7 @@ description: Twenty-plus graphic design styles (from the gobird reel Zayn sent) 
 
 # Design styles, filtered through minimalism
 
-Our house style is minimal: few elements, one idea, real material and light, refined type, lots of air. Other styles are not rejected. They are sources of one move each, taken at low volume and placed inside a minimal frame. Rule: **one borrowed move per piece, never a second, and the frame stays ours.**
+Our house style is minimal: few elements, one idea, real material and light, refined type, lots of air. Other styles are not rejected. They are sources of one move each, taken at low volume and placed inside a minimal frame. Rule for studio posts: **one borrowed move per piece, never a second, and the frame stays ours.** Product concepts are different: each one gets its own full visual language (see the end of this note), so our products never look or feel the same.
 
 Precise style words also make briefs and prompts sharper than "clean", "dreamy" or "grunge" (the point of the UX Planet article "50 design styles every designer should know for better prompting").
 
@@ -39,3 +39,20 @@ Precise style words also make briefs and prompts sharper than "clean", "dreamy" 
 4. Never use AI-generated imagery to get a style. Build it in Blender, Figma, HTML or by hand.
 
 Sources: gobird reel "graphic design styles" (brand/refs/styles/); UX Planet, "50 design styles every designer should know for better prompting" (title and premise only, as the full list sits behind Medium's wall).
+
+## Product visual languages (Zayn, after the Qclay Aura post)
+Zayn's direction: try different types of design, chosen by the product we're building, so all our products don't look or feel the same. Our studio frame (labels, layout, quality gate) stays; the product inside it changes its whole look.
+
+Pick the language from what the product should make someone feel, who uses it, and where. Never use the same language for two products in a row.
+
+| Language | Signature | Fits products like | Built with |
+|---|---|---|---|
+| Warm editorial | Real photos of the place, paper tones, serif accents, chat or booking UI on material | Hotels, restaurants, travel, retail (After hours for Kusi House) | HTML + free stock, graded |
+| Soft glass and aura | Blurred colour fields seen through big rounded frosted cards; each account or state its own colour mood; one word as a large label; data written as a calm sentence ("€12,480 set aside. Three months covered."); one thin line chart with a single dot and a mono note; grey haze bleeding into dark grain (ref: brand/refs/qclay/17-aura-glass.jpg) | Money, savings, health, wellness, insurance: anything that should feel calm and safe | CSS/canvas gradients with heavy blur, SVG grain, or Blender emission planes behind frosted glass with depth of field |
+| Terminal and ops | Dark field, mono type, logs, IDs, status pills, dither or halftone texture | AI agents, developer tools, logistics, security | HTML, dithering in Python |
+| Swiss data | Strict grid, black and white, one accent, huge numerals, tables | Research (Field Study), dashboards, B2B reporting | HTML/Figma |
+| Tactile object | One product on a plinth, real material and light | Packaging, physical goods, merch | Blender |
+| Type poster | Huge cropped type, colour blocks, few words | Brand identity reveals, campaigns | Figma/HTML |
+| Bright consumer | Saturated flat colour, rounded shapes, playful motion | Food delivery, youth, events, entertainment apps | Figma/HTML, Lottie-style motion |
+
+How we transform the soft-glass reference (never copy it): our own shapes and colour fields taken from the product's world (for a school-fees app, the uniform colours; for a clinic, the calm of a waiting room), our own copy and data in local currencies, and no pill-card layout lifted from Aura.
