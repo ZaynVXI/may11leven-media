@@ -36,3 +36,16 @@ A product design studio (apps, websites, brands) that sells itself mostly throug
 
 ## Decision (Zayn approved)
 Digital product concepts are allowed, the way Qclay does them: apps, websites and AI tools that solve a real problem, always labelled "concept", never posing as a real brand or company, and never physical products like the ata bottle. They feed the "Working demos" series alongside tools we really built.
+
+## Their Behance and Dribbble (from Zayn: behance.net/qclay)
+Behance couldn't be loaded from our workspace. The Dribbble profile could (dribbble.com/qclay, read 17 Nov):
+- **Who:** San Francisco, 7 people listed, a Dribbble Select agency and Webflow Expert. Profile line: "We create awesome designs." 26,747 followers, 34,070 likes.
+- **What they post:** 24 recent shots, nearly all web and app product concepts. Mostly AI products (NightShift, Rook, Quantora, CoreLogic, AI chatbot, AI music) plus fintech, crypto, trading, digital banking, legal, drones and productivity.
+- **How:** each concept has a made-up product name and gets posted more than once from different angles (Quantora twice, AI trading dashboard twice). One build, several posts.
+- **How leads reach them:** "Available for new projects" on the profile, with a Calendly link to book a call. The portfolio sites do the selling, not outreach.
+
+What we take:
+- Behance and Dribbble are inbound channels in their own right. We need profiles there (already in the plan's directories list; Zayn creates the accounts, we fill them).
+- Every concept we build gets 2–3 posts from different angles across the platforms, so one build feeds the portfolio sites and the feed.
+- Our profile should state availability plainly, with one booking route.
+- Unlike them, we spread across our seven services and our industries (hotels, food, schools, clinics, logistics), not mostly AI and crypto.
