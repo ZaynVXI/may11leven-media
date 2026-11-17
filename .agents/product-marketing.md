@@ -1,6 +1,6 @@
 # Product Marketing Context
 
-**Document version:** v1
+**Document version:** v2
 **Last updated:** 2026-11-17
 
 ## Product Overview
@@ -11,7 +11,7 @@
 **Business model:** Fixed, named packages with public "from" prices. Approved so far: brand identity from $800. Other prices are Zayn's call. Low-risk first step: "Comment 11" for a free first look (a diagnosis, never free design).
 
 ## Target Audience
-**Target companies:** Growing businesses that sell on looks and trust. Africa first (East Africa tourism, hospitality and real estate in Rwanda, Kenya, Tanzania, Uganda, plus every booming industry), then the Gulf, then the rest of the world. First niche: small hotels, guesthouses and boutique stays.
+**Target companies:** Growing businesses anywhere in the world that sell on looks and trust. May11Leven is a global studio: no home market limits who we serve. Strong fits so far: boutique hotels and guesthouses, real estate and interiors, consumer brands and startups, in Africa, the Gulf, Europe, North America, Australia and New Zealand alike. Local know-how (mobile money, WhatsApp, cheap phones, slow connections) is an extra edge in emerging markets, not a boundary.
 **Decision-makers:** Owners and founders; marketing leads in larger businesses.
 **Primary use case:** Their business is better than it looks online, and it costs them customers and margin.
 **Jobs to be done:**
@@ -48,7 +48,7 @@
 ## Differentiation
 **Key differentiators:**
 - One studio for brand, web, apps, 3D and AI, so the system holds together.
-- Global-studio craft (benchmarked against Motto, Obys, .raw, Lebedev) with local knowledge of African and Gulf markets.
+- Global-studio craft (benchmarked against Motto, Obys, .raw, Lebedev), delivered remotely to clients anywhere, with extra know-how for emerging markets (Africa, the Gulf).
 - Problem first: every project names the business problem and how we'll measure it.
 - Real tools for real operations: M-Pesa, WhatsApp, cheap phones and slow connections are design inputs, not afterthoughts.
 **How we do it differently:** Research, then a system, then real screens and devices, then proof.
@@ -114,7 +114,7 @@
 | Built for our markets | M-Pesa deposits, WhatsApp arrival pages, cheap-phone performance |
 
 ## Goals
-**Business goal:** First paying clients, then referrals. Africa first, the Gulf next, open to anywhere.
+**Business goal:** First paying clients, then referrals, from anywhere in the world.
 **Conversion action:** Comment 11 or email hello@may11levenlabs.com for a free first look.
 **Current metrics:** Early-stage Instagram, Facebook and LinkedIn pages; track via Metricool.
 
@@ -122,10 +122,12 @@
 *Decisions and tested lessons. Newest first.*
 | Date | Learning | Evidence | Applies to | Status |
 |---|---|---|---|---|
+| 2026-11-17 | May11Leven is a global company: target leads worldwide, never only Africa | Founder decision | all marketing, prospecting, positioning | active |
 | 2026-11-14 | Presentation can't rescue a thin product: show rich sites with real devices and recorded interactions, like Obys | Zayn's review of Kusi House posts; Obys Kopetzki study | social, web, case studies | active |
 | 2026-11-13 | Trust is the top objection: concept-only posts don't convert owners | Simulated panels: 0/10 buy across check, check-v2, flagship-01; "trust" was the top reason each time | all posts, offers | watch (simulated) |
 | 2026-11-13 | Quality over quantity: never post to stay active | Zayn's standing rule | social | active |
 
 ## Changelog
 *Newest first.*
+- v2 (2026-11-17) — Repositioned from Africa-first to a global studio (founder decision); widened target companies, differentiation and goals.
 - v1 (2026-11-17) — Initial context, drafted from the media repo (client-acquisition, flagship brief, panel results) and Zayn's decisions.
