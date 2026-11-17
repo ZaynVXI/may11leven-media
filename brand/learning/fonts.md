@@ -64,7 +64,7 @@ Results (2026 run, 400 weight, from Fontsource subsets) are in `report.md`. High
 - **Motto:** **PP Neue Montreal** (paid). It is set in Medium with tight tracking in sentence case. A mono or dot-matrix face appears only for labels, numbers and the occasional workbook detail. Their site blocks automated reads, so this comes from our earlier study and their workbook covers.
 - **The shared rule:** one neo-grotesk for almost everything, tight tracking at display sizes. Add one sharp serif or one mono for contrast, never both on the same page. Very few weights.
 
-## Our library (brand/fonts/library: 75 families, all SIL Open Font Licence, free for commercial use)
+## Our library (brand/fonts/library: 76 families, all SIL Open Font Licence, free for commercial use)
 See `brand/fonts/specimen.jpg` for every face side by side. Free matches for the studios' paid fonts:
 | They use | Our free match | Why |
 |---|---|---|
@@ -85,3 +85,5 @@ See `brand/fonts/specimen.jpg` for every face side by side. Free matches for the
 - **TWK Lausanne:** sold by Weltkern, and no free commercial version was found.
 
 None of them go in our library. Buying any of them is Zayn's call.
+
+- **Overused Grotesk** (OFL, RandomMaerks on GitHub) has been added. It is a free Helvetica-style neo-grotesk and the closest open match for the Motto feel at display sizes.

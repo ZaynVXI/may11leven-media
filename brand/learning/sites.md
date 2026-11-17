@@ -55,3 +55,9 @@ Start every site or app screen from these instead of designing components from s
 - Lebedev Behance revisit: new "Portfolio '26" leads the page; recent work leans to wellness (Frequency Breathwork, Diamond Rose Sanctuary, Institute of Health) and AI/fintech UI (Ponder AI, Cantor8). Same system: one grotesk + mono, colour from photography.
 - Holographik Dribbble: only the SUI shot is public; holographik.co itself could not be loaded from here, so the newest work check stays on the saved refs.
 - Reference-first prompting (reel Zayn shared): AI design only looks good when it's fed references. Pick a real reference from details.so, refero.design or designspells.com, copy the screen or its style notes, then build from it. Steal the thinking, never the surface.
+
+### Added from Zayn's inspiration carousel (notes in kalypso.md)
+- https://kalyp.so (Kalypso, product designer and design engineer at Method; mentor for product UI and studio products)
+- https://searchsystem.co (archive of design references; blocked from our workspace)
+- https://interfacelineage.com (interface patterns and principles with their history; blocked from our workspace)
+- https://interfaceingame.com (game UI by game and genre; blocked from our workspace)
