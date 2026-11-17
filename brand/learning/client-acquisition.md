@@ -33,7 +33,7 @@ Co-founded a festival (Dragon Days), runs monthly events and a café/store. **Cl
 4. **LinkedIn as the main business channel**, posting only work that passes the Motto test, with original research as the lead format.
 5. **Proof assets:** working free tools and published research now, real reviews later (Clutch, Google). We never write reviews ourselves.
 6. **Free directory listings** (Clutch, Sortlist, DesignRush, Google Business Profile). Zayn creates the accounts; we write the profiles.
-7. **Named packages with "from" prices:** Mark (from $800); Storefront and Night shift waiting on Zayn's prices. Each starts with a short paid or free diagnosis.
+7. **Named packages with "from" prices:** Mark (from $800); Storefront and After hours waiting on Zayn's prices. Each starts with a short paid or free diagnosis.
 8. **Trigger moments:** watch funding rounds, hotel openings, new branches and expansions to the Gulf, and post useful takes on them. Zayn reaches out personally if he wants to.
 9. **Later:** a talk or workshop (Zayn's choice, since the page itself never shows him) and an event or meet-up in Kigali once he's there.
 

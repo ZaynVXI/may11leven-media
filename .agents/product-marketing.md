@@ -1,6 +1,6 @@
 # Product Marketing Context
 
-**Document version:** v2
+**Document version:** v3
 **Last updated:** 2026-11-17
 
 ## Product Overview
@@ -122,6 +122,8 @@
 *Decisions and tested lessons. Newest first.*
 | Date | Learning | Evidence | Applies to | Status |
 |---|---|---|---|---|
+| 2026-11-17 | Digital product concepts (apps, sites, AI tools) are allowed if labelled "concept"; no invented physical products or fake real-world brands | Founder decision after Qclay study | Working demos, social, LinkedIn | active |
+| 2026-11-17 | Automation package renamed from "After hours" to "After hours" to avoid looking copied from Qclay | Founder decision | site, decks, captions, proposals | active |
 | 2026-11-17 | May11Leven is a global company: target leads worldwide, never only Africa | Founder decision | all marketing, prospecting, positioning | active |
 | 2026-11-14 | Presentation can't rescue a thin product: show rich sites with real devices and recorded interactions, like Obys | Zayn's review of Kusi House posts; Obys Kopetzki study | social, web, case studies | active |
 | 2026-11-13 | Trust is the top objection: concept-only posts don't convert owners | Simulated panels: 0/10 buy across check, check-v2, flagship-01; "trust" was the top reason each time | all posts, offers | watch (simulated) |
@@ -129,5 +131,6 @@
 
 ## Changelog
 *Newest first.*
+- v3 (2026-11-17) — Learnings: labelled digital concepts allowed; automation package renamed to After hours.
 - v2 (2026-11-17) — Repositioned from Africa-first to a global studio (founder decision); widened target companies, differentiation and goals.
 - v1 (2026-11-17) — Initial context, drafted from the media repo (client-acquisition, flagship brief, panel results) and Zayn's decisions.

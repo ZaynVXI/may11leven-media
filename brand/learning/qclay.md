@@ -32,7 +32,7 @@ A product design studio (apps, websites, brands) that sells itself mostly throug
 
 ## What we never take
 - Their names (Aura, Kiln, Nightshift), layouts, frosted-glass card style as a whole, their exact caption line, or their pixel-photo backgrounds.
-- **Naming clash:** our automation package called "Night shift" is too close to their Nightshift concept. Rename it (options: "After hours", "Closing time", "Overnight").
+- **Naming clash, fixed:** our automation package was called "Night shift", too close to their Nightshift. Zayn approved the rename to **After hours**.
 
-## Open question for Zayn
-Zayn dropped invented products ("Forget this ata product"). Qclay's whole feed is invented *digital* products, labelled as concepts. Are digital product concepts like this allowed, as long as they are clearly labelled "concept" and never pretend to be real brands? This decides whether the "Working demos" series uses invented products or only our own tools.
+## Decision (Zayn approved)
+Digital product concepts are allowed, the way Qclay does them: apps, websites and AI tools that solve a real problem, always labelled "concept", never posing as a real brand or company, and never physical products like the ata bottle. They feed the "Working demos" series alongside tools we really built.
