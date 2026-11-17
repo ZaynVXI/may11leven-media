@@ -6,7 +6,7 @@ May11Leven Labs is a creative tech studio. We close that gap for ambitious brand
 
 Every project runs the same four steps: research, idea, build, proof.
 
-The research in this document is real: 51 hotel websites in Zanzibar, speed-tested. The bottle is our own concept work, built to the standard we'd build for a client.
+Inside: real research on 51 hotel websites in Zanzibar, and a commission calculator we built for hotels.
 
 If one of these is the gap in your business, message us here or email hello@may11levenlabs.com. The first look is free.
 
