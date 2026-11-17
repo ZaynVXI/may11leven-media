@@ -78,3 +78,10 @@ See `brand/fonts/specimen.jpg` for every face side by side. Free matches for the
 **Roles, per piece:** pick one grotesk, then at most one serif or one mono. Fonts may change from post to post (Zayn's rule) as long as the piece stays minimal. Check the l/1 test before setting emails, prices or codes.
 **Paid, so not used:** PP Neue Montreal, TWK Lausanne, GT Sectra, Söhne, Suisse, Neue Haas.
 **Fontshare** (Satoshi, General Sans, Switzer, Erode, Gambetta) is free for commercial use under the ITF licence, but its site is blocked from our workspace and its files may not be redistributed, so it stays out of the repo. Zayn can download them himself if a project needs one.
+
+**Checked again: none of the studios' own fonts are free to use.**
+- **PP Neue Montreal:** Pangram Pangram's free versions are for personal, non-commercial use only. Their FAQ says "Anyone using the fonts needs a license", so this rules out our posts.
+- **GT Sectra:** Grilli Type's trial fonts are for mockups and testing. You buy a licence once the work goes live.
+- **TWK Lausanne:** sold by Weltkern, and no free commercial version was found.
+
+None of them go in our library. Buying any of them is Zayn's call.
