@@ -61,3 +61,6 @@ Start every site or app screen from these instead of designing components from s
 - https://searchsystem.co (archive of design references; blocked from our workspace)
 - https://interfacelineage.com (interface patterns and principles with their history; blocked from our workspace)
 - https://interfaceingame.com (game UI by game and genre; blocked from our workspace)
+
+### Added from Zayn (notes in qclay.md)
+- https://qclay.design (product design studio; sells through labelled digital product concepts; blocked from our workspace, refs in brand/refs/qclay)
