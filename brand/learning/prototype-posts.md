@@ -35,3 +35,17 @@ Zayn: our products were shared as frames; studios share them like a real product
 
 ## Our version for each product
 Hero motion (photo plus floating widgets) → system grid → 2–3 component close-ups with name and type labels → one state change → family collage → our offer slide. Hands and objects only, no faces; photos from Unsplash or Pexels through the connector.
+
+## Why PXDX's AI-made UI looks better than ours (honest review, 18 Nov)
+PXDX Studio, Wrocław (pxdx.pl blocked here; Dribbble: dribbble.com/PXDX). Product, UI and web design; AI tools, audio apps, booking apps, e-commerce, 3D.
+1. **They design in Figma first, then let Claude animate inside Figma (Figma Motion).** AI moves their designs; it doesn't invent them. We have been generating every product from blank HTML.
+2. **They taught Claude their style once, as a skill, and keep improving that skill** ("Improve your skill as you go"). Every new piece starts from the same rules. We restart the look every time.
+3. **One component language across everything:** the same pills, rounded cards, grotesk plus mono, fog gradients and one glow. Seventeen "experimentation phases" in, it is a recognisable system.
+4. **Small units:** one card or widget per post, perfected and animated. We try to tell a whole story with headlines in six slides.
+5. **Almost no words on the design.** The UI and a two-line label carry it; the caption is one line.
+6. **Real photography** (hands, silhouettes, objects), graded to the palette.
+
+## Our fix
+- Build a May11Leven UI kit in Figma (pills, cards, widgets, type, glows, grain) as the base every concept starts from.
+- Write our own motion skill on top of figma-use-motion, with our timing and easing rules, and improve it after every piece.
+- Run a numbered series of small experiments ("Lab 01, 02 …"): one component, designed in Figma, animated, posted with a one-line caption. Bigger concept launches use the pxdx presentation order above.
