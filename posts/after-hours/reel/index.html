@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=1080, height=1920" />
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js"></script>
+<style>
+@font-face{font-family:IT;font-weight:300;src:url(assets/InterTight-Light.ttf)}
+@font-face{font-family:IT;font-weight:400;src:url(assets/InterTight-Regular.ttf)}
+@font-face{font-family:IT;font-weight:500;src:url(assets/InterTight-Medium.ttf)}
+@font-face{font-family:PM;src:url(assets/PlexMono.ttf)}
+:root{--ink:#1F1B16;--ink2:#5E554A;--paper:#F6F2EA;--lime:#EEE8DD;--sea:#2D4A63;--rule:rgba(31,27,22,.14);--studio:#141213;--bone:#ECEAE4}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1080px;height:1920px;overflow:hidden;background:#0E0F12;font-family:IT;color:var(--ink);-webkit-font-smoothing:antialiased}
+#root{position:relative;width:1080px;height:1920px;overflow:hidden}
+.scene{position:absolute;inset:0;overflow:hidden}
+.lab{position:absolute;font:400 28px/1 PM;letter-spacing:.06em;text-transform:uppercase;color:var(--ink2)}
+.dk .lab{color:rgba(246,242,234,.7)}
+.tl{top:300px;left:80px}.tr{top:300px;right:80px}
+.m{max-width:90%;padding:26px 32px;border-radius:34px;font:400 38px/1.3 IT;letter-spacing:-.01em}
+.g{align-self:flex-end;background:var(--sea);color:#F6F2EA;border-bottom-right-radius:10px}
+.a{align-self:flex-start;background:#fff;border:1px solid var(--rule);border-bottom-left-radius:10px}
+.t{font:400 26px/1 PM;letter-spacing:.05em;color:var(--ink2);margin-top:14px;display:block}
+.g .t{color:rgba(246,242,234,.78)}
+.card{background:#fff;border:1px solid var(--rule);border-radius:40px}
+.row{display:flex;justify-content:space-between;align-items:baseline;font:400 34px/1.2 IT;padding:24px 0;border-top:1px solid var(--rule)}
+.mono{font:400 28px/1.3 PM;letter-spacing:.05em;text-transform:uppercase;color:var(--ink2)}
+.ok{display:inline-flex;align-items:center;gap:12px;font:500 26px/1 PM;letter-spacing:.04em;text-transform:uppercase;color:#2E6B45;background:#E3EEE4;border-radius:999px;padding:16px 22px}
+.tk{position:absolute;top:-17px;width:34px;height:34px;margin-left:-17px;border-radius:50%;background:var(--sea);border:7px solid var(--paper)}
+h2{font:400 92px/1.02 IT;letter-spacing:-.035em}
+</style>
+</head>
+<body>
+<div id="root" data-composition-id="main" data-start="0" data-duration="22" data-width="1080" data-height="1920">
+
+<!-- 1. the question at 21:47 -->
+<div id="s1" class="scene dk clip" data-start="0" data-duration="7.8" data-track-index="0" style="background:#0E0F12 url(assets/night.jpg) center/cover">
+  <div class="lab tl">Concept · Kusi House</div><div class="lab tr">21:47</div>
+  <div id="chat" data-layout-allow-overflow style="position:absolute;left:110px;right:0;top:560px;bottom:-60px;background:var(--paper);border-radius:46px 0 0 0;box-shadow:0 40px 100px rgba(0,0,0,.4)">
+    <div style="display:flex;align-items:center;gap:24px;padding:34px 40px;border-bottom:1px solid var(--rule);background:#FBF8F2;border-radius:46px 0 0 0">
+      <div style="width:76px;height:76px;border-radius:50%;background:var(--sea);display:flex;align-items:center;justify-content:center"><svg width="34" height="37" viewBox="0 0 19 21"><path d="M15.2 3.2 C12.6 8.4 12.2 13.4 14.2 18.6 L3.4 18.6 Z" fill="#F6F2EA"/><path d="M1.2 19.6 L17.6 0.8" stroke="#F6F2EA" stroke-width="1.1" fill="none"/></svg></div>
+      <div><div style="font:500 35px/1.1 IT">Kusi House</div><div style="font:400 28px/1.3 IT;color:var(--ink2);display:flex;align-items:center;gap:10px;margin-top:6px"><span style="width:12px;height:12px;border-radius:50%;background:#3F8A5A;display:block"></span>Assistant · replies any hour</div></div>
+    </div>
+    <div style="padding:40px 36px;display:flex;flex-direction:column;gap:22px">
+      <div id="q" class="m g">Roof suite free 14–18 Feb? We land at 15:10.<span class="t">21:47</span></div>
+      <div style="position:relative;display:flex;flex-direction:column"><div id="dots" class="m a" style="position:absolute;left:0;top:0;display:flex;gap:10px;padding:30px 32px"><i style="width:14px;height:14px;border-radius:50%;background:#5E554A;opacity:.45;display:block"></i><i style="width:14px;height:14px;border-radius:50%;background:#5E554A;opacity:.45;display:block"></i><i style="width:14px;height:14px;border-radius:50%;background:#5E554A;opacity:.45;display:block"></i></div>
+      <div id="r" class="m a" data-hold>Yes, all four nights. $220 a night, and our boat will be waiting at Manda when you land.<span class="t">21:47 · Assistant</span></div></div>
+    </div>
+  </div>
+</div>
+
+<!-- 2. it books -->
+<div id="s2" class="scene clip" data-start="7.6" data-duration="4.6" data-track-index="1" style="background:var(--lime)">
+  <div style="position:absolute;left:0;top:0;width:1080px;height:1060px;background:url(assets/roof.jpg) center 40%/cover"></div>
+  <div style="position:absolute;left:0;top:0;width:1080px;height:620px;background:linear-gradient(rgba(20,16,12,.85) 0%,rgba(20,16,12,.7) 55%,rgba(20,16,12,0) 100%)"></div>
+  <div class="lab tl" style="color:#F6F2EA">21:49 · It books</div>
+  <div id="book" class="card" style="position:absolute;left:80px;right:80px;top:700px;padding:46px 50px;box-shadow:0 30px 80px rgba(31,27,22,.18)">
+    <div style="font:500 46px/1.1 IT;letter-spacing:-.02em">Roof suite</div>
+    <div style="font:400 30px/1.4 IT;color:var(--ink2);margin-top:10px">14–18 Feb · 2 adults · 4 nights</div>
+    <div style="margin-top:34px"><div class="row"><span>$220 × 4</span><span>$880</span></div><div class="row"><span>Boat from Manda</span><span>Included</span></div></div>
+    <div style="border-top:1px solid var(--rule);padding-top:34px"><div class="mono">Hold it tonight · 20%</div><div id="dep" style="font:300 150px/1 IT;letter-spacing:-.05em;margin-top:12px;font-variant-numeric:tabular-nums">$0</div></div>
+    <div style="position:relative;margin-top:34px;height:100px"><div id="booked" class="ok" style="position:absolute;left:0;top:22px"><svg width="24" height="24" viewBox="0 0 22 22"><path d="M5 11.5l4 4 8-9" stroke="#2E6B45" stroke-width="2.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>Booked · $176 paid · 21:53</div><div id="pay" style="position:absolute;inset:0;height:100px;border-radius:26px;background:var(--ink);color:var(--paper);display:flex;align-items:center;justify-content:center;font:500 34px IT">Pay with M-Pesa</div></div>
+  </div>
+</div>
+
+<!-- 3. the night -->
+<div id="s3" class="scene clip" data-start="12.0" data-duration="4.0" data-track-index="2" style="background:var(--paper)">
+  <div class="lab tl">After hours</div><div class="lab tr">Concept</div>
+  <h2 id="h3" style="position:absolute;left:80px;top:640px;width:900px">Guests get answers while reception sleeps.</h2>
+  <div style="position:absolute;left:80px;right:80px;top:1120px">
+    <div class="mono" style="display:flex;justify-content:space-between"><span>21:00 · Closed</span><span>07:00 · Open</span></div>
+    <div style="position:relative;height:2px;background:var(--ink);margin-top:60px">
+      <div id="line" style="position:absolute;left:0;top:-1px;height:4px;background:var(--sea);width:0"></div>
+      <div class="tk" style="left:7.8%"></div><div class="tk" style="left:13%"></div><div class="tk" style="left:20.5%"></div><div class="tk" style="left:29%"></div><div class="tk" style="left:36.2%"></div><div class="tk" style="left:51.5%"></div><div class="tk" style="left:58%"></div><div class="tk" style="left:71%"></div><div class="tk" style="left:84.7%"></div><div class="tk" style="left:90.3%"></div>
+    </div>
+    <div style="display:flex;gap:70px;margin-top:110px">
+      <div><div id="c1" style="font:400 84px/1 IT;letter-spacing:-.03em">0</div><div class="mono" style="margin-top:14px">Answered</div></div>
+      <div><div id="c2" style="font:400 84px/1 IT;letter-spacing:-.03em">0</div><div class="mono" style="margin-top:14px">Booked</div></div>
+      <div><div id="c3" style="font:400 84px/1 IT;letter-spacing:-.03em">0</div><div class="mono" style="margin-top:14px">For a person</div></div>
+    </div>
+  </div>
+</div>
+
+<!-- 4. 07:00 -->
+<div id="s4" class="scene clip" data-start="15.8" data-duration="3.0" data-track-index="3" style="background:var(--paper)">
+  <div class="lab tl">07:00 · Over to a person</div><div class="lab tr">Concept data</div>
+  <div id="sum" class="card" style="position:absolute;left:80px;right:80px;top:640px;padding:50px 54px">
+    <div class="mono" style="display:flex;justify-content:space-between"><span>Overnight summary</span><span>21:00 – 07:00</span></div>
+    <div id="tot" style="font:300 190px/.9 IT;letter-spacing:-.055em;margin-top:40px;font-variant-numeric:tabular-nums">$0</div>
+    <div style="font:400 34px/1.3 IT;color:var(--ink2);margin-top:20px">in deposits, held while closed</div>
+    <div style="margin-top:44px"><div class="row"><span>Roof suite</span><span>$176</span></div><div class="row"><span>Lane room</span><span>$132</span></div><div class="row"><span>Courtyard room</span><span>$56</span></div></div>
+  </div>
+</div>
+
+<!-- 5. offer -->
+<div id="s5" class="scene dk clip" data-start="18.6" data-duration="3.4" data-track-index="4" style="background:var(--studio);color:var(--bone)">
+  <h2 id="h5" style="position:absolute;left:80px;top:640px;width:900px;color:var(--bone)">We build for the hours you're closed.</h2>
+  <div id="cta" style="position:absolute;left:80px;top:1000px;font:400 34px/1.45 IT;color:rgba(236,234,228,.75)"><span style="color:#FF4A1C">Comment 11</span> for a free first look.<br>hello@may11levenlabs.com</div>
+  <img src="assets/may11leven-logo-white.svg" style="position:absolute;left:80px;top:1340px;width:230px" alt="">
+</div>
+
+</div>
+<script>
+const tl = gsap.timeline({ paused: true });
+const ease = "power3.out";
+// 1
+tl.from("#chat", { y: 260, opacity: 0, duration: 0.9, ease }, 0.15);
+tl.from("#q", { y: 30, opacity: 0, duration: 0.45, ease }, 0.9);
+tl.from("#dots", { opacity: 0, duration: 0.25 }, 1.6);
+tl.to("#dots", { opacity: 0, duration: 0.2 }, 2.5);
+tl.from("#r", { y: 30, opacity: 0, duration: 0.45, ease }, 2.6);
+// 2
+tl.from("#s2", { opacity: 0, duration: 0.4 }, 7.6);
+tl.from("#book", { y: 200, opacity: 0, duration: 0.8, ease }, 7.75);
+const d = { v: 0 };
+tl.to(d, { v: 176, duration: 0.9, ease: "power2.out", onUpdate: () => { document.getElementById("dep").textContent = "$" + Math.round(d.v); } }, 8.4);
+tl.to("#pay", { scale: 0.96, duration: 0.12, yoyo: true, repeat: 1 }, 9.7);
+tl.to("#pay", { opacity: 0, duration: 0.25 }, 9.9);
+tl.from("#booked", { y: 20, opacity: 0, duration: 0.4, ease }, 10.05);
+// 3
+tl.from("#s3", { opacity: 0, duration: 0.35 }, 12.0);
+tl.from("#h3", { y: 40, opacity: 0, duration: 0.6, ease }, 12.1);
+tl.to("#line", { width: "100%", duration: 2.0, ease: "none" }, 12.6);
+tl.from("#s3 .tk", { scale: 0, duration: 0.25, stagger: { each: 0.18 }, ease: "back.out(2)" }, 12.65);
+const c = { a: 0, b: 0, p: 0 };
+tl.to(c, { a: 10, b: 3, p: 1, duration: 1.9, ease: "none", onUpdate: () => {
+  document.getElementById("c1").textContent = Math.round(c.a);
+  document.getElementById("c2").textContent = Math.round(c.b);
+  document.getElementById("c3").textContent = Math.round(c.p);
+} }, 12.7);
+// 4
+tl.from("#s4", { opacity: 0, duration: 0.35 }, 15.8);
+tl.from("#sum", { y: 120, opacity: 0, duration: 0.6, ease }, 15.9);
+const t4 = { v: 0 };
+tl.to(t4, { v: 364, duration: 0.9, ease: "power2.out", onUpdate: () => { document.getElementById("tot").textContent = "$" + Math.round(t4.v); } }, 16.2);
+// 5
+tl.from("#s5", { opacity: 0, duration: 0.35 }, 18.6);
+tl.from("#h5", { y: 40, opacity: 0, duration: 0.55, ease }, 18.7);
+tl.from("#cta", { opacity: 0, duration: 0.4 }, 19.1);
+window.__timelines["main"] = tl;
+tl.seek(0);
+</script>
+</body>
+</html>

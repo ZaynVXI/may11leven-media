@@ -1,0 +1,1 @@
+WARN: reel-frame.png: check spelling ['kusi', 'manda']
