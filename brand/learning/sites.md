@@ -84,3 +84,8 @@ Start every site or app screen from these instead of designing components from s
 
 - nuevo.tokyo - reductionist studio; study how they present owned products as a single captioned vertical column (check for the next concept writeup).
 - Minimalissimo (minimalissimo.com) - one quiet-object principle per visit; current issue: Doldam Residence, Kehikko chair, iA Notebook (all-white), Dieter Rams catalogue raisonne.
+- https://www.webflow.com/blog/web-design-trends-2026 - named live examples per trend (Ruul, Flabbergast, Rootly, Emons, Flim); good for finding real sites to open.
+- https://www.orbix.studio/blogs/web-design-trends - trends with a "what to skip" column; useful as an anti-trend check.
+- https://maxibestof.one/websites/popular - monthly popular-site roundups (didn't load from here; try in the built-in browser when linked).
+- https://brandpad.io/goodnotes-guidelines - Motto's Goodnotes guidelines in public: full hex palette, type, clear-space rules. Brandpad hosts other public guidelines worth searching.
+- https://toimi.pro/blog/best-real-estate-website-designs/ - real-estate site review; 111 West 57th's unit selector is the one to study.

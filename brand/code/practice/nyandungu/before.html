@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Ikiyaga Residences, Kigali (concept)</title>
+<style>
+@font-face{font-family:Serif;src:url(../../../fonts/library/instrumentserif/InstrumentSerif-Regular.ttf)}
+@font-face{font-family:Sans;src:url("../../../fonts/library/hankengrotesk/HankenGrotesk[wght].ttf")}
+:root{--paper:#F4F1EA;--ink:#1E2618;--mute:#7A7F72;--reed:#586B3E;--line:#D9D4C8}
+*{box-sizing:border-box;margin:0;padding:0}
+body{width:1440px;height:1024px;background:var(--paper);color:var(--ink);font:14px/1.4 Sans;display:grid;grid-template-columns:640px 1fr;overflow:hidden}
+.photo{background:url(wetland.jpg) center/cover;position:relative}
+.photo .credit{position:absolute;left:24px;bottom:20px;color:#fff;font-size:11px}
+.photo .tag{position:absolute;left:24px;top:24px;background:rgba(255,255,255,.7);backdrop-filter:blur(8px);padding:8px 14px;border-radius:20px;font-size:12px}
+main{padding:28px 56px}
+nav{display:flex;justify-content:space-between;align-items:center;font-size:13px}
+nav .logo{font-family:Serif;font-size:24px}
+nav ul{display:flex;gap:28px;list-style:none}
+h1{font-family:Serif;font-weight:400;font-size:64px;line-height:1.02;margin:64px 0 16px;letter-spacing:-.02em}
+.lede{color:var(--mute);max-width:440px;font-size:15px}
+table{width:100%;border-collapse:collapse;margin-top:44px;font-size:14px}
+th{text-align:left;font-weight:500;color:var(--mute);font-size:12px;padding:0 0 10px;border-bottom:1px solid var(--line)}
+td{padding:11px 0;border-bottom:1px solid var(--line)}
+td.p{text-align:right;font-variant-numeric:tabular-nums}
+.badge{display:inline-block;padding:3px 10px;border-radius:12px;font-size:12px}
+.Available{background:#E3EAD8;color:var(--reed)}
+.Sold{background:#ECE9E2;color:var(--mute)}
+.Reserved{background:#F3E6CF;color:#8A6420}
+.cta{margin-top:32px;display:flex;gap:12px}
+.btn{padding:14px 22px;border-radius:30px;background:var(--ink);color:var(--paper);font-weight:500;box-shadow:0 8px 24px rgba(0,0,0,.15)}
+.btn.ghost{background:transparent;color:var(--ink);border:1px solid var(--ink);box-shadow:none}
+</style>
+</head>
+<body>
+<div class="photo" role="img" aria-label="Nyandungu wetland in Kigali: a still lake, reeds and a grassy island, with buildings on the hill behind.">
+  <span class="tag">Concept · Kigali, Rwanda</span>
+  <span class="credit">Photo: Protais Benjamin Mugenzi / Unsplash</span>
+</div>
+<main>
+<nav><span class="logo">Ikiyaga</span><ul><li>Residences</li><li>Location</li><li>Payment plan</li><li>Contact</li></ul></nav>
+<h1>Homes beside the wetland. Every price shown.</h1>
+<p class="lede">Eleven apartments on five floors, a short walk from Nyandungu Eco-Park. 30% deposit, the rest on handover.</p>
+<table>
+<tr><th>Floor</th><th>Type</th><th>Size</th><th>Status</th><th style="text-align:right">Price (RWF)</th></tr>
+<tr><td>5</td><td>3 bed</td><td>142 m²</td><td><span class="badge Sold">Sold</span></td><td class="p">444,700,000</td></tr>
+<tr><td>5</td><td>2 bed</td><td>104 m²</td><td><span class="badge Available">Available</span></td><td class="p">325,700,000</td></tr>
+<tr><td>4</td><td>3 bed</td><td>142 m²</td><td><span class="badge Reserved">Reserved</span></td><td class="p">436,500,000</td></tr>
+<tr><td>4</td><td>2 bed</td><td>104 m²</td><td><span class="badge Available">Available</span></td><td class="p">319,700,000</td></tr>
+<tr><td>4</td><td>1 bed</td><td>68 m²</td><td><span class="badge Sold">Sold</span></td><td class="p">209,000,000</td></tr>
+<tr><td>3</td><td>3 bed</td><td>142 m²</td><td><span class="badge Available">Available</span></td><td class="p">428,300,000</td></tr>
+<tr><td>3</td><td>2 bed</td><td>104 m²</td><td><span class="badge Sold">Sold</span></td><td class="p">313,700,000</td></tr>
+<tr><td>3</td><td>1 bed</td><td>68 m²</td><td><span class="badge Available">Available</span></td><td class="p">205,100,000</td></tr>
+<tr><td>2</td><td>2 bed</td><td>104 m²</td><td><span class="badge Available">Available</span></td><td class="p">307,600,000</td></tr>
+<tr><td>2</td><td>1 bed</td><td>68 m²</td><td><span class="badge Reserved">Reserved</span></td><td class="p">201,100,000</td></tr>
+<tr><td>1</td><td>1 bed</td><td>68 m²</td><td><span class="badge Available">Available</span></td><td class="p">197,200,000</td></tr>
+</table>
+<div class="cta"><span class="btn">Book a viewing</span><span class="btn ghost">Download brochure</span></div>
+</main>
+</body>
+</html>

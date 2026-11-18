@@ -7,7 +7,7 @@ description: Current design trends (web, UI, branding) and how each is taken int
 
 Zayn's rule: always know the latest trends, so we know how people are building and which styles they use, then use them in a minimal way that fits our style. Each trend below is written as one move we can make, never the whole style.
 
-## Sweep: web, UI and branding guides (read 17 Nov)
+## Sweep: web, UI and branding guides
 Sources: daisyUI's 18 UI trends for 2026, KOTA's brand design trends for 2026, Really Good Designs' web design trends 2026.
 
 | Trend | What it looks like | Our minimal move | Fits |
@@ -24,6 +24,14 @@ Sources: daisyUI's 18 UI trends for 2026, KOTA's brand design trends for 2026, R
 | Mixed scroll directions | Vertical switches to sideways galleries | One horizontal gallery for a project's process, never more | Case-study pages |
 | Claymorphism, chrome, Y2K, neubrutalism, scrapbook | Puffy, glossy or loud surfaces | At most one object or one detail, and only when the product is playful | Bright consumer products |
 | Controlled chaos / anti-design | Broken grids and collage on a calm system | Density in one place only (an index or a wall of work) | Studio posts, portfolio |
+
+## Sweep: minimal copy, art behind UI, guided scroll
+| Trend | Where it came from | Fits (service, visual language) | Our move |
+|---|---|---|---|
+| Minimal copy and the TL;DR page: the whole offer readable on one screen, details one tap down | webflow.com/blog/web-design-trends-2026 (Ruul's short product copy; Flabbergast's pitch-deck overview in the nav) | 02 web, 03 apps; Swiss data or Warm editorial | Put the decision data on the first screen: every price, every slot, every status. Practised today on Ikiyaga (eleven flats, eleven prices, one selected) |
+| Art or real place behind the product UI | webflow.com trends (Rootly's interface on an impressionist landscape; Pencil.dev's ASCII figure) | 02 web, 01 brand; Warm editorial, Soft glass | Never a painting we didn't make: a real photo of the client's place (credited) as the half-page ground, the UI on a solid ground taken from that photo's colours |
+| Guided scroll with numbered steps and live instruments | webflow.com trends (Emons by Blue World Studio: numbered steps advance on scroll; Dropbox Dash x McLaren: a speedometer reacting to scroll speed) | 02 web, 05 automation, 06 agents; Technical figure | One instrument per page that reports real progress (a booking flow's 4 steps, an agent's queue count), never a decorative counter |
+Also current, and skipped: bento grids for one-message pages, glass on every card, decorative 3D that slows the page (orbix.studio/blogs/web-design-trends).
 
 ## What we skip
 - AI-generated imagery as a style (it breaks our no-AI-label rule).
