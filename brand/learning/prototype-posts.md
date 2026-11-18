@@ -49,3 +49,16 @@ PXDX Studio, Wrocław (pxdx.pl blocked here; Dribbble: dribbble.com/PXDX). Produ
 - Build a May11Leven UI kit in Figma (pills, cards, widgets, type, glows, grain) as the base every concept starts from.
 - Write our own motion skill on top of figma-use-motion, with our timing and easing rules, and improve it after every piece.
 - Run a numbered series of small experiments ("Lab 01, 02 …"): one component, designed in Figma, animated, posted with a one-line caption. Bigger concept launches use the pxdx presentation order above.
+
+## PXDX on Dribbble: what their whole portfolio teaches (16 shots studied, brand/refs/pxdx-dribbble/)
+Shots: SAMUR.AI assistant builder, podcast app, AI creator subscriptions, NOAL soft-drink bar, tennis court booking, McStar's planner, T.029 audio card, LAQ furniture, HUSH jewellery, Bento Box record label, Ramen delivery, antivirus, Ramu culinary, dark vs light, Dormy app.
+1. **Every product lives in its own world.** The UI floats over one full-bleed scene from that product's life: a samurai for an AI "warrior" builder, a desert room for a calm podcast app, the actual tennis court, a red classic car and a negroni for a no-alcohol bar, a sunlit bedroom for furniture, a bowl of ramen for delivery. The scene sets the mood before you read a word.
+2. **No two products share a look.** Pixel font for the AI tool, bold condensed type for the drinks bar, editorial serif for food, soft neumorphic grey for the audio card. Palette comes from the scene.
+3. **Cards, not full screens.** Two to five UI cards grouped like a dashboard of the product, overlapping slightly, often frosted over the photo.
+4. **Real product detail inside every card:** prices, times, order numbers, court numbers, ratings, a progress bar, a selected state.
+5. **Bento layouts for websites:** big wordmark, three or four tiles, one strong colour block.
+6. **A phone in a real place** (Dormy on concrete, banking app on green silk) when it is a mobile app.
+Caution: some of their imagery looks AI-generated (portraits). We get the same effect with free stock photos through the Unsplash connector, Blender scenes and our own grading, never AI images.
+
+### Our rule
+Before building any product, pick its world: one hero scene (photo or Blender) from the product's real life, a palette from that scene, a typeface that fits it, then design 2–5 cards that float over it. Motion comes after, in Figma.
