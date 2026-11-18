@@ -1,0 +1,29 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><style>
+/* 3D UI key, after the PXDX "3D UI Details" recipe, rebuilt in CSS. Sizes in px at 1x. */
+:root{--bg:#202020;--hi:#2A2A2A;--lo:#171717;--rim:#3F3F3F;--ic1:#9890EE;--ic2:#7969EF}
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:var(--bg);display:flex;gap:0;align-items:center;justify-content:center;height:100vh}
+.key{position:relative;width:120px;height:120px}
+.k-out{position:absolute;inset:0;border-radius:20px;background:linear-gradient(var(--hi),var(--lo));filter:blur(12px)}          /* step 06 + 14 */
+.k-mid{position:absolute;left:16px;top:16px;width:88px;height:88px;border-radius:16px;background:#000;                            /* step 10 */
+  box-shadow:0 0 0 1px var(--lo)}
+.k-mid::after{content:"";position:absolute;inset:-1px;border-radius:17px;padding:1px;background:linear-gradient(var(--lo),var(--hi)); /* step 05 + 08: 1px outside stroke, gradient */
+  -webkit-mask:linear-gradient(#000 0 0) content-box,linear-gradient(#000 0 0);-webkit-mask-composite:xor;mask-composite:exclude}
+.k-in{position:absolute;left:20px;top:20px;width:80px;height:80px;border-radius:12px;background:linear-gradient(var(--lo),var(--hi))} /* step 07 */
+.c-big{position:absolute;left:26px;top:26px;width:68px;height:68px;border-radius:50%;background:linear-gradient(var(--hi),var(--lo))} /* step 06 */
+.c-sm{position:absolute;left:32px;top:32px;width:56px;height:56px;border-radius:50%;background:linear-gradient(var(--lo),var(--hi));  /* step 07 */
+  box-shadow:0 16px 16px rgba(0,0,0,.5)}                                                                                      /* step 13 */
+.c-sm::after{content:"";position:absolute;inset:-1px;border-radius:50%;padding:1px;background:linear-gradient(var(--rim),var(--lo));    /* step 09 */
+  -webkit-mask:linear-gradient(#000 0 0) content-box,linear-gradient(#000 0 0);-webkit-mask-composite:xor;mask-composite:exclude}
+.ic{position:absolute;left:50px;top:50px;width:20px;height:20px;filter:drop-shadow(0 12px 16px rgba(0,0,0,.8))}                  /* step 11 + 12 */
+.row{display:flex;padding:8px;background:#000;border-radius:28px;box-shadow:0 30px 60px rgba(0,0,0,.5)}
+</style></head><body>
+<svg width="0" height="0" style="position:absolute"><defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#9890EE"/><stop offset="1" stop-color="#7969EF"/></linearGradient></defs></svg>
+<div class="row">
+ <div class="key"><div class="k-out"></div><div class="k-mid"></div><div class="k-in"></div><div class="c-big"></div><div class="c-sm"></div>
+  <svg class="ic" viewBox="0 0 20 20"><path d="M11.5 1 4 11h5l-1 8 8-11h-5z" fill="url(#g)"/></svg></div>
+ <div class="key"><div class="k-out"></div><div class="k-mid"></div><div class="k-in"></div><div class="c-big"></div><div class="c-sm"></div>
+  <svg class="ic" viewBox="0 0 20 20"><path d="M10 1.5a6 6 0 0 0-6 6c0 4.4 6 11 6 11s6-6.6 6-11a6 6 0 0 0-6-6zm0 8.3a2.3 2.3 0 1 1 0-4.6 2.3 2.3 0 0 1 0 4.6z" fill="url(#g)"/></svg></div>
+ <div class="key"><div class="k-out"></div><div class="k-mid"></div><div class="k-in"></div><div class="c-big"></div><div class="c-sm"></div>
+  <svg class="ic" viewBox="0 0 20 20"><rect x="2" y="4.5" width="16" height="11" rx="2.5" fill="url(#g)"/><rect x="2" y="7.2" width="16" height="2" fill="#202020"/></svg></div>
+</div></body></html>

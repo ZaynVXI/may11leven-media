@@ -31,3 +31,6 @@ Each line: what we learned, from which piece, and the rule it creates. Zayn's co
 
 ## Add to the skill: hero loop in a real photo (After hours v2)
 For a PXDX-style hero, put the live UI inside a free stock photo of a hand holding a phone: render the screen HTML frame by frame with a render(t) function, warp each frame onto the screen corners (measured at 4x zoom), cool and dim it slightly, add a faint sheen and grain, and encode at CRF 22 (grain makes CRF 17 files huge). Curved screens need the side edges pushed out a few pixels so none of the original screen shows. End every loop where it began.
+
+## Add to the skill: silhouette hero (Zayn, 19 Nov)
+Zayn pointed out PXDX's hands are completely black. Hero rule: the hand is a silhouette against one shape of soft light from the client's world; only the screen is lit. Draw the phone body as a clean rounded shape (never trust a cut-out's corners), keep rim light very faint, no outline glow.
