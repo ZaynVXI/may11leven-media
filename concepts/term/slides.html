@@ -1,0 +1,157 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><style>
+@font-face{font-family:G;font-weight:100 900;src:url(../../brand/fonts/library/geist/Geist[wght].ttf)}
+@font-face{font-family:GM;font-weight:100 900;src:url(../../brand/fonts/library/geistmono/GeistMono[wght].ttf)}
+@font-face{font-family:IT;font-weight:300;src:url(../../brand/fonts/InterTight-Light.ttf)}
+@font-face{font-family:IT;font-weight:400;src:url(../../brand/fonts/InterTight-Regular.ttf)}
+@font-face{font-family:PM;src:url(../../brand/fonts/PlexMono.ttf)}
+:root{--chalk:#EEF0EE;--haze:#D9DDDD;--graphite:#16181B;--ink:#1B1D21;--muted:#6B7078;
+--maroon:#7A1F2B;--maroon2:#B4434F;--green:#1F5A3D;--green2:#4E9A6B;--navy:#1D2B4F;--sky:#8FB8DE;--yellow:#F2D46B}
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#777;font-family:G;color:var(--ink);-webkit-font-smoothing:antialiased}
+.s{width:1080px;height:1350px;position:relative;overflow:hidden}
+.grain{position:absolute;inset:0;pointer-events:none;opacity:.22;mix-blend-mode:overlay;background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='300' height='300'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>")}
+.lab{position:absolute;font:450 21px/1 GM;letter-spacing:.04em;text-transform:uppercase;color:var(--muted);z-index:5}
+.dk .lab{color:rgba(238,240,238,.6)}
+.tl{top:64px;left:72px}.tr{top:64px;right:72px}.bl{bottom:60px;left:72px}.br{bottom:60px;right:72px}
+/* glass card */
+.card{position:absolute;border-radius:72px;overflow:hidden;box-shadow:0 50px 120px rgba(10,12,16,.28),inset 0 0 0 1.5px rgba(255,255,255,.35)}
+.glow{position:absolute;inset:-25%;filter:blur(70px)}
+.frost{position:absolute;inset:0;background:linear-gradient(160deg,rgba(255,255,255,.22),rgba(255,255,255,.04) 55%);}
+.rule{position:absolute;inset:0;background:repeating-linear-gradient(180deg,transparent 0 63px,rgba(255,255,255,.10) 63px 64px)}
+.ct{position:absolute;left:60px;right:60px;color:#fff}
+.k{font:450 25px/1.2 GM;letter-spacing:.03em;text-transform:uppercase;opacity:.82}
+.sent{font:430 46px/1.12 G;letter-spacing:-.02em}
+.big{font:500 112px/0.95 G;letter-spacing:-.055em}
+.pill{display:inline-flex;align-items:center;gap:12px;font:500 22px/1 GM;letter-spacing:.05em;text-transform:uppercase;border-radius:999px;padding:14px 20px}
+h2{font:430 86px/1.0 G;letter-spacing:-.045em}
+.sub{font:380 33px/1.32 G;color:var(--muted);letter-spacing:-.01em}
+.num{font-variant-numeric:tabular-nums}
+</style></head><body>
+
+<!-- 1 cover -->
+<section class="s" id="s1" style="background:linear-gradient(115deg,var(--haze) 0%,#C9CED0 45%,#5A5F66 82%,#3A3E44 100%)">
+  <div class="lab tl">Term · Concept</div>
+  <div class="card" style="left:96px;top:250px;width:620px;height:860px">
+    <div class="glow" style="background:radial-gradient(40% 35% at 35% 30%,#E07D86,transparent 70%),radial-gradient(55% 45% at 60% 75%,var(--maroon),transparent 70%),radial-gradient(60% 60% at 80% 15%,#A0515B,transparent 70%),#8E3440"></div>
+    <div class="rule"></div><div class="frost"></div>
+    <div class="ct" style="top:64px"><div class="k" style="opacity:1">Form 2 · Term 1 fees</div></div>
+    <div class="ct" style="top:300px"><div class="sent num">KES 22,300 set aside.<br>KES 5,200 to go.</div></div>
+    <div class="ct" style="top:450px">
+      <svg width="500" height="150" viewBox="0 0 500 150" style="display:block"><polyline points="0,138 70,126 140,112 210,96 280,79 350,61" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round"/><polyline points="350,61 420,40 490,18" fill="none" stroke="rgba(255,255,255,.55)" stroke-width="3" stroke-dasharray="2 10" stroke-linecap="round"/><circle cx="350" cy="61" r="9" fill="#fff"/></svg>
+      <div style="font:450 22px/1 GM;margin-top:14px;opacity:.85">KES 750 / week · 7 weeks</div>
+    </div>
+    <div class="ct" style="bottom:56px"><div class="big">On track</div></div>
+  </div>
+  <div class="card" style="left:760px;top:250px;width:620px;height:860px">
+    <div class="glow" style="background:radial-gradient(45% 40% at 30% 30%,#8FD0A6,transparent 70%),radial-gradient(55% 50% at 55% 75%,var(--green),transparent 70%),radial-gradient(40% 40% at 20% 85%,var(--yellow),transparent 70%),#2D6B4A"></div>
+    <div class="rule"></div><div class="frost"></div>
+    <div class="ct" style="top:64px"><div class="k" style="opacity:1">Grade 5</div></div>
+    <div class="ct" style="bottom:56px"><div class="sent num" style="font-size:40px">KES 18,900<br><span style="opacity:.8">covered</span></div></div>
+  </div>
+  <div class="grain"></div>
+</section>
+
+<!-- 2 problem -->
+<section class="s" id="s2" style="background:var(--chalk)">
+  <div class="lab tl">Term · Concept</div><div class="lab tr">02 / 06</div>
+  <h2 style="position:absolute;left:72px;top:200px;width:880px">Fees come three times a year. Pay doesn't.</h2>
+  <div style="position:absolute;left:72px;right:72px;top:620px">
+    <div style="font:450 22px/1 GM;letter-spacing:.04em;text-transform:uppercase;color:var(--muted)">One child, one year</div>
+    <div style="position:relative;height:330px;margin-top:30px;border-bottom:2px solid var(--ink)">
+      <!-- three lump bars -->
+      <div style="position:absolute;bottom:0;left:0;width:120px;height:300px;background:var(--maroon);border-radius:14px 14px 0 0"></div>
+      <div style="position:absolute;bottom:0;left:330px;width:120px;height:300px;background:var(--maroon);border-radius:14px 14px 0 0"></div>
+      <div style="position:absolute;bottom:0;left:660px;width:120px;height:300px;background:var(--maroon);border-radius:14px 14px 0 0"></div>
+    </div>
+    <div style="display:flex;font:450 22px/1 GM;color:var(--muted);margin-top:16px"><span style="width:330px">Jan</span><span style="width:330px">May</span><span>Sep</span></div>
+    <div style="display:flex;align-items:flex-end;gap:5px;height:40px;margin-top:70px;border-bottom:2px solid var(--ink)">
+      <!-- 52 small weekly bars -->
+      <div class="wk"></div>
+    </div>
+    <div style="display:flex;justify-content:space-between;margin-top:22px"><span class="sub" style="font-size:28px;color:var(--ink)"><span class="num">KES 27,500</span> due on one day</span><span class="sub" style="font-size:28px;color:var(--ink)">or about <span class="num">KES 1,590</span> every week</span></div>
+  </div>
+  <div class="lab bl">May11Leven Labs</div>
+  <div class="grain" style="opacity:.12"></div>
+</section>
+
+<!-- 3 how -->
+<section class="s dk" id="s3" style="background:linear-gradient(170deg,#24272D,var(--graphite))">
+  <div class="lab tl">Term · Concept</div><div class="lab tr">03 / 06</div>
+  <h2 style="position:absolute;left:72px;top:200px;width:880px;color:var(--chalk)">A little every Friday, straight from M-Pesa.</h2>
+  <div class="card" style="left:72px;right:72px;top:600px;height:620px">
+    <div class="glow" style="background:radial-gradient(50% 50% at 25% 35%,#6E93C4,transparent 70%),radial-gradient(50% 50% at 75% 70%,var(--navy),transparent 70%),radial-gradient(35% 35% at 80% 20%,var(--sky),transparent 70%),#2B3D66"></div>
+    <div class="rule"></div><div class="frost"></div>
+    <div class="ct" style="top:56px;display:flex;justify-content:space-between"><span class="k">Weekly plan · Form 2</span><span class="k">Fri 18:00</span></div>
+    <div class="ct" style="top:170px"><div class="big num" style="font-size:150px">KES 750</div><div class="sent" style="font-size:38px;margin-top:22px;opacity:.92">saved this week. Locked until the school is paid.</div></div>
+    <div class="ct" style="bottom:56px;display:flex;gap:12px">
+      <span class="pill" style="background:rgba(255,255,255,.92);color:var(--navy)">● On track</span>
+      <span class="pill" style="background:rgba(255,255,255,.16);color:#fff">7 Fridays left</span>
+    </div>
+  </div>
+  <div style="position:absolute;left:120px;right:120px;top:500px;z-index:6;background:rgba(250,250,250,.93);border-radius:30px;padding:22px 26px;display:flex;gap:20px;align-items:center;box-shadow:0 20px 50px rgba(0,0,0,.35)">
+    <div style="width:58px;height:58px;border-radius:14px;background:var(--navy);display:flex;align-items:center;justify-content:center;color:#fff;font:600 30px G">T</div>
+    <div style="flex:1"><div style="display:flex;justify-content:space-between;font:500 22px G;color:#555"><span>TERM</span><span>now</span></div><div style="font:500 27px/1.3 G;color:#111;margin-top:4px">KES 750 received from M-Pesa. Form 2 is on track.</div></div>
+  </div>
+  <div class="lab bl">May11Leven Labs</div>
+  <div class="grain"></div>
+</section>
+
+<!-- 4 paid -->
+<section class="s" id="s4" style="background:linear-gradient(180deg,var(--chalk),#E2E6E4)">
+  <div class="lab tl">Term · Concept</div><div class="lab tr">04 / 06</div>
+  <h2 style="position:absolute;left:72px;top:200px;width:820px">It pays the school.<br>You keep the receipt.</h2>
+  <div class="card" style="left:72px;right:72px;top:520px;height:700px;box-shadow:0 50px 120px rgba(10,12,16,.18),inset 0 0 0 1.5px rgba(255,255,255,.5)">
+    <div class="glow" style="background:radial-gradient(50% 50% at 30% 30%,#9ED6B0,transparent 70%),radial-gradient(55% 55% at 70% 75%,var(--green),transparent 70%),radial-gradient(30% 30% at 75% 20%,var(--yellow),transparent 70%),#2F7350"></div>
+    <div class="rule"></div><div class="frost"></div>
+    <div class="ct" style="top:56px;display:flex;justify-content:space-between"><span class="k">Grade 5 · Term 1</span><span class="k">Receipt</span></div>
+    <div class="ct" style="top:200px"><div class="sent">Sent straight to the school.</div><div class="big num" style="font-size:120px;margin-top:20px">KES 18,900</div></div>
+    <div class="ct" style="bottom:56px">
+      <div style="display:flex;justify-content:space-between;font:450 24px/1 GM;padding:20px 0;border-top:1px solid rgba(255,255,255,.35)"><span>From</span><span>Term savings</span></div>
+      <div style="display:flex;justify-content:space-between;font:450 24px/1 GM;padding:20px 0;border-top:1px solid rgba(255,255,255,.35)"><span>Term charge</span><span>KES 0</span></div>
+      <div style="display:flex;justify-content:space-between;font:450 24px/1 GM;padding:20px 0;border-top:1px solid rgba(255,255,255,.35)"><span>Bursar's receipt</span><span>Received ✓</span></div>
+    </div>
+  </div>
+  <div class="lab bl">May11Leven Labs</div>
+  <div class="grain" style="opacity:.12"></div>
+</section>
+
+<!-- 5 family -->
+<section class="s dk" id="s5" style="background:linear-gradient(200deg,#2A2D33,var(--graphite))">
+  <div class="lab tl">Term · Concept</div><div class="lab tr">05 / 06</div>
+  <div style="position:absolute;left:72px;top:190px;font:450 24px/1 GM;letter-spacing:.04em;text-transform:uppercase;color:rgba(238,240,238,.6)">Term 1, both children</div>
+  <div class="num" style="position:absolute;left:66px;top:250px;font:430 190px/1 G;letter-spacing:-.06em;color:var(--chalk)">89%</div>
+  <div style="position:absolute;left:72px;top:470px;width:820px;font:380 36px/1.3 G;color:rgba(238,240,238,.75)">KES 41,200 of 46,400 set aside, with seven Fridays to go.</div>
+  <div class="card" style="left:72px;width:452px;top:760px;height:420px">
+    <div class="glow" style="background:radial-gradient(45% 40% at 35% 30%,#E07D86,transparent 70%),radial-gradient(55% 50% at 60% 75%,var(--maroon),transparent 70%),#8E3440"></div><div class="rule"></div><div class="frost"></div>
+    <div class="ct" style="top:44px;left:44px"><div class="k" style="font-size:21px">Form 2</div></div>
+    <div class="ct" style="bottom:44px;left:44px"><div class="sent num" style="font-size:40px">KES 22,300<br><span style="opacity:.75">of 27,500</span></div></div>
+  </div>
+  <div class="card" style="left:556px;width:452px;top:760px;height:420px">
+    <div class="glow" style="background:radial-gradient(45% 40% at 30% 30%,#8FD0A6,transparent 70%),radial-gradient(55% 50% at 55% 75%,var(--green),transparent 70%),radial-gradient(35% 35% at 25% 85%,var(--yellow),transparent 70%),#2D6B4A"></div><div class="rule"></div><div class="frost"></div>
+    <div class="ct" style="top:44px;left:44px"><div class="k" style="font-size:21px">Grade 5</div></div>
+    <div class="ct" style="bottom:44px;left:44px"><div class="sent num" style="font-size:40px">KES 18,900<br><span style="opacity:.75">covered</span></div></div>
+  </div>
+  <div class="lab bl">May11Leven Labs</div>
+  <div class="grain"></div>
+</section>
+
+<!-- 6 offer -->
+<section class="s dk" id="s6" style="background:#141213;color:#ECEAE4">
+  <div class="lab tl">Term · Concept</div><div class="lab tr">May11Leven Labs</div>
+  <h2 style="position:absolute;left:72px;top:250px;width:900px;font-family:IT;font-weight:400;color:#ECEAE4">We design money apps people trust.</h2>
+  <div style="position:absolute;left:72px;top:520px;width:640px;font:300 32px/1.4 IT;color:rgba(236,234,228,.7)">From the first sketch to the app in the store.</div>
+  <div style="position:absolute;left:72px;right:72px;top:760px;border-top:1px solid rgba(236,234,228,.18);display:grid;grid-template-columns:1fr 1fr;column-gap:40px" class="svc">
+    <div>Brand identity</div><div>AI automation</div><div>Websites</div><div>AI agents</div><div>Apps</div><div>Social content</div><div>Packaging and 3D</div><div style="color:rgba(236,234,228,.55)">Something else? Ask.</div>
+  </div>
+  <div style="position:absolute;left:72px;bottom:150px;font:400 28px/1.4 IT"><span style="color:#FF4A1C">Comment 11</span> or email hello@may11levenlabs.com for a free first look.</div>
+  <img src="../../brand/figma/may11leven-logo-white.svg" style="position:absolute;left:72px;bottom:56px;width:200px" alt="">
+  <div class="lab br" style="font-family:PM">06 / 06</div>
+</section>
+<style>.svc div{font:400 30px/1 IT;padding:26px 0;border-bottom:1px solid rgba(236,234,228,.18)}
+.wk{flex:1;height:100%;background:var(--green);border-radius:4px 4px 0 0}</style>
+<script>
+// 52 weekly bars
+const w=document.querySelector('.wk');const p=w.parentNode;w.remove();
+for(let i=0;i<52;i++){const d=document.createElement('div');d.className='wk';d.style.height=(36)+'px';p.appendChild(d);}
+</script>
+</body></html>
