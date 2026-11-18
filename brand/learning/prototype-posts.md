@@ -62,3 +62,29 @@ Caution: some of their imagery looks AI-generated (portraits). We get the same e
 
 ### Our rule
 Before building any product, pick its world: one hero scene (photo or Blender) from the product's real life, a palette from that scene, a typeface that fits it, then design 2–5 cards that float over it. Motion comes after, in Figma.
+
+## Case study: PXDX "Rosie" (one post, about 7 slides) — Zayn, 19 Nov
+Refs: `brand/refs/pxdx-rosie/`, loops in `brand/motion-refs/reference-4/5-rosie-*.mp4`. Their people and renders look AI-made; we take the structure, never the imagery or faces.
+
+**Why it works:** they invented a product that answers a real modern problem (endless scrolling) and showed it as a whole world: a device, an app, a voice, notifications. The post sells their skill by showing a finished product, not a design.
+
+**The slides, in order**
+1. Hero (video): phone held in a hand against a big soft light disc, the app's widget grid on screen.
+2. Manifesto: black, one paragraph saying what the product does and for whom, then the next line in grey ("Hi, Rosie…"), the voice orb and a "Let's talk" pill. Copy as a slide.
+3. Split 50/50: top, a human moment with a spoken line over it; bottom, the object, with a UI pill ("Rosie connected") floating on its shadow.
+4. One full app screen on flat grey: the device inside the app, real states (OFF, Disconnected, battery 68, Saving mode on, Product test 5 steps), "swipe to start" slider.
+5. Split again: top, a landscape with a live pill ("Rosie speaking 03:48"); bottom, the object in another state.
+6. Loop, 10 s: the camera drifts off the object, a pill grows into a "HYDRATE" card, text types on, it folds back, the object returns. First frame = last frame.
+7. Loop, 11 s: "ROSIE" types on in dot-matrix with a cursor over a dot grid, a toolbar slides in, then it types off.
+
+**Details that make it one product**
+- One colour world (lilac, violet, teal) on every slide, phone, object, landscape and grade.
+- A signature display face (dot-matrix) used only for the product's voice: OFF, 68, 2h, HYDRATE, ROSIE. Body UI stays plain sans.
+- One mark (the orb with dots) repeats everywhere: button, avatar, slider handle, notification, device top.
+- Every screen shows a state, never an empty layout.
+- Split slides carry two ideas each (moment + object), so 7 slides feel like 14.
+- Microcopy with warmth in one place ("You're a badass today!", "swipe to start").
+
+**Caption:** one line saying what it is ("Interface design for voice assistant device"), two or three sentences of the product story (what it does, the human benefit), a sign-off themed to the product ("Lots of quality time, Pixie and Dixie"), five hashtags.
+
+**Our rule (Zayn):** a good product gets a full carousel, about 7 to 10 slides mixing stills and short loops, not 3 to 4 frames. Order: hero loop → manifesto → split moments → full screens with states → feature loops → system or detail slide → offer. Our caption keeps its own rules (lowercase, comment 11, both emails) and adds a themed sign-off as May11Leven Labs.
