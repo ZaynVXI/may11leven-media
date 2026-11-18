@@ -19,3 +19,9 @@ Sheets: reel-3113c18e (merch, hands only), reel-24210ed3 (creator "5 plugins" li
 - Sound: whoosh starts just before a transition, hit on the new state; soft tick on small highlights; only 3-5 accent sounds per piece; one music bed; test at low volume; short tails.
 ## Practice: "opacity list" (brand/practice/reels/opacity-list-v1/v2.mp4, 8 s, 1080x1920)
 - Six services on Bone; active item Ink 100%, others 18%; Infrared dot follows the active row; big counter 01/06; ends on the 11 mark + "comment 11"; last 0.45 s returns to frame 1 for the loop. Ticks lead picture by 2 frames, whoosh into the exit, low hit on the mark.
+
+## Reel length: ours vs the references Zayn sent (measured 18 Nov)
+- His 92 reference reels: median 14.6 s, average 18 s. 28 are under 10 s, 31 are 10–20 s, 21 are 20–30 s, 10 are 30–60 s, 2 are over a minute (60 s and 100 s).
+- Ours so far: 5–22 s, mostly 12–17 s. After hours is 22 s.
+- Verdict: our typical length matches the references, but we never make the long tier (30–60 s) that a third of theirs use for case studies and process stories.
+- Rule from now on, length set by job: loops and logo marks 6–10 s; product demos 15–25 s; case studies and process stories 30–60 s (one a fortnight). Length must be earned: hold each line for its reading time, and cut any second where nothing changes.
