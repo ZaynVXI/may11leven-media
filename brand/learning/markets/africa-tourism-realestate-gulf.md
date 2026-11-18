@@ -72,3 +72,13 @@ Sources: Partech Africa 2025 report via fundsforNGOs News (Feb 2026); TechMoran 
 - Saudi F&B: restaurant sales ~+7%/yr (Bain); Saudi/UAE volumes +4–6%/yr vs <2% global; foodservice ~$62.7B by 2033; 122M visitors in 2025, target 150M by 2030 (Arab News, May 2026).
 - Morocco: 75 hotels / 10,606 rooms in pipeline, ~70% opening 2026–27; 60,000 beds planned before the 2030 World Cup (Morocco World News, Oct 2026).
 - Chowdeck (Lagos): $9M Series A, Novastar-led, expanding Nigeria and Ghana with dark stores (TheCable).
+
+## Study notes: Kenya to the Gulf, Kigali residences, Georgia
+
+- Kenya: 2.79M international arrivals by June 2026 (+88% vs 1.48M in 2022); tourism earnings KSh564bn (+110% vs KSh268bn). Target: 50,000 Middle East arrivals a year vs 20,480 in FY2026. Source: Government Delivery Unit, via Travel Daily News / ATTA (Oct 2026). Check the original release before quoting in a post.
+- Maasai Mara: MGM Muthu opened the 81-room Muthu Mara River Lodge; Marriott and Ritz-Carlton camps already there; 60+ camps in the ecosystem (The Standard, Jan 2026).
+- Kigali: DND Developers + Aleph Hospitality, Best Western Premier Royal Golf View, Kacyiru, 60 rooms + 41 branded residences, opening expected July 2027 (Aleph press release, Jan 2026).
+- South Africa: Mia Healthcare (fixed and mobile dental clinics) raised about R15M / US$910k from the Vumela Fund (Arab Founders, May 2026).
+- Gulf: Egyptian brands ariika and Lychee run five Riyadh stores; Beltone VC increased its stakes (Arab News, Jul 2026).
+- Outside market: Georgia, 7.8M visitors in 2025 (GNTA), 145,513 GCC visits (+3.4%), 300+ hotels expected by 2028 (TradeArabia, Aug 2026).
+- Opportunity: our first and second markets meet where African hospitality sells to Gulf travellers. Bilingual Arabic and English booking pages are the service.
