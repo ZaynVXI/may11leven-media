@@ -28,3 +28,6 @@ Each line: what we learned, from which piece, and the rule it creates. Zayn's co
 
 ## Add to the skill: UI details (Zayn, 19 Nov)
 "Pay attention to tiny details… they make a lot of difference." Before any component goes into a reel, run the 14-point details pass in `brand/learning/ui-details.md` (nested radii, equal gaps, raised selection, tone-on-tone status, ringed dots, coloured shadows, ringed photos, dashed only for empty, one icon set). Motion makes these visible: a raised tile sliding along its track, a dot ring catching the light, a tinted shadow moving with its card.
+
+## Add to the skill: hero loop in a real photo (After hours v2)
+For a PXDX-style hero, put the live UI inside a free stock photo of a hand holding a phone: render the screen HTML frame by frame with a render(t) function, warp each frame onto the screen corners (measured at 4x zoom), cool and dim it slightly, add a faint sheen and grain, and encode at CRF 22 (grain makes CRF 17 files huge). Curved screens need the side edges pushed out a few pixels so none of the original screen shows. End every loop where it began.

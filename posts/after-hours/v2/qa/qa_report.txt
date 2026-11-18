@@ -1,0 +1,7 @@
+WARN: s1-cover.jpg: check spelling ['kusi', 'manda']
+WARN: s2.jpg: check spelling ['kusi']
+WARN: s4.jpg: check spelling ['manda']
+WARN: s5-cover.jpg: check spelling ['kusi', 'manda', 'qkhmt']
+WARN: s6.jpg: check spelling ['kusi']
+WARN: s7.jpg: check spelling ['awedding', 'kusi']
+WARN: s8.jpg: check spelling ['apps']

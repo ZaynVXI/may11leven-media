@@ -1,0 +1,73 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><style>
+@font-face{font-family:IT;font-weight:300;src:url(../../../brand/fonts/InterTight-Light.ttf)}
+@font-face{font-family:IT;font-weight:400;src:url(../../../brand/fonts/InterTight-Regular.ttf)}
+@font-face{font-family:IT;font-weight:500;src:url(../../../brand/fonts/InterTight-Medium.ttf)}
+@font-face{font-family:PM;src:url(../../../brand/fonts/PlexMono.ttf)}
+:root{--ink:#1F1B16;--ink2:#6A6054;--paper:#F6F2EA;--sand:#ECE5D8;--sea:#2D4A63;--ok:#2E6B45;--okbg:#E2EEE4;--okdot:#3FA266}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1080px;height:1350px;overflow:hidden;font-family:IT;-webkit-font-smoothing:antialiased}
+#s{position:absolute;inset:0;background-color:#E6DFD2;background-image:radial-gradient(rgba(31,27,22,.10) 1.4px,transparent 1.6px);background-size:28px 28px}
+.lab{position:absolute;font:400 20px/1 PM;letter-spacing:.06em;text-transform:uppercase;color:var(--ink2)}
+.tl{top:64px;left:72px}.tr{top:64px;right:72px}.bl{bottom:60px;left:72px}.br{bottom:60px;right:72px}
+#box{position:absolute;left:50%;top:50%;overflow:hidden;will-change:width,height}
+.layer{position:absolute;inset:0}
+#pill{display:flex;align-items:center;justify-content:space-between;padding:0 12px 0 44px;color:var(--paper);font:500 34px IT;white-space:nowrap}
+#pill b{width:76px;height:76px;border-radius:50%;background:rgba(246,242,234,.14);display:flex;align-items:center;justify-content:center}
+#ask{padding:48px 52px;color:var(--paper)}
+#ask .k{font:400 20px/1 PM;letter-spacing:.06em;text-transform:uppercase;color:rgba(246,242,234,.55);display:flex;justify-content:space-between}
+#ask .h{font:400 58px/1.05 IT;letter-spacing:-.03em;margin-top:42px}
+#ask .p{font:400 28px/1.4 IT;color:rgba(246,242,234,.7);margin-top:16px;width:420px}
+#ring{position:absolute;right:52px;bottom:52px;width:110px;height:110px}
+#done{padding:48px 52px;color:var(--ink)}
+#done .k{font:400 20px/1 PM;letter-spacing:.06em;text-transform:uppercase;color:var(--ok);display:flex;justify-content:space-between}
+#done .h{font:400 72px/1 IT;letter-spacing:-.035em;margin-top:40px}
+#done .p{font:400 28px/1.45 IT;color:#4E5B50;margin-top:18px}
+#chip{display:flex;align-items:center;justify-content:center;gap:16px;color:var(--ok);font:500 28px/1 PM;letter-spacing:.04em;text-transform:uppercase;white-space:nowrap}
+.dot{width:20px;height:20px;border-radius:50%;background:var(--okdot);box-shadow:0 0 0 6px rgba(63,162,102,.2)}
+</style></head><body><div id="s">
+<div class="lab tl">21:53 · It takes the deposit</div><div class="lab tr">Concept · Kusi House</div>
+<div id="box">
+  <div class="layer" id="pill">Pay $176 with M-Pesa<b><svg width="24" height="24" viewBox="0 0 12 12"><path d="M2 6h8M6.5 2.5 10 6l-3.5 3.5" stroke="#F6F2EA" stroke-width="1.3" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg></b></div>
+  <div class="layer" id="ask"><div class="k"><span>M-Pesa</span><span>Kusi House</span></div><div class="h">Check your phone.</div><div class="p">Enter your PIN to pay $176. The roof suite is held while you do.</div>
+    <svg id="ring" viewBox="0 0 110 110"><circle cx="55" cy="55" r="46" stroke="rgba(246,242,234,.14)" stroke-width="6" fill="none"/><circle id="arc" cx="55" cy="55" r="46" stroke="#F6F2EA" stroke-width="6" fill="none" stroke-linecap="round" stroke-dasharray="289" stroke-dashoffset="289" transform="rotate(-90 55 55)"/></svg></div>
+  <div class="layer" id="done"><div class="k"><span>Paid · 21:53</span><span>Ref QK7H2M4T</span></div><div class="h">Booked.</div><div class="p">Roof suite · 14–18 Feb<br>$176 held · the rest at the house<br>Cot in the alcove · boat at Manda</div></div>
+  <div class="layer" id="chip"><span class="dot"></span>Booked · 21:53</div>
+</div>
+<div class="lab bl">May11Leven Labs</div><div class="lab br">05 / 08</div>
+</div>
+<script>
+const cl=x=>Math.max(0,Math.min(1,x));
+const io=x=>{x=cl(x);return x<.5?4*x*x*x:1-Math.pow(-2*x+2,3)/2};
+const lerp=(a,b,p)=>a+(b-a)*p;
+const D=7.2;
+// shapes: [w,h,radius,bg]
+const P={w:700,h:100,r:50}, A={w:700,h:440,r:56}, C={w:440,h:84,r:42};
+function hex(c){return [parseInt(c.slice(1,3),16),parseInt(c.slice(3,5),16),parseInt(c.slice(5,7),16)]}
+function mix(a,b,p){const x=hex(a),y=hex(b);return `rgb(${x.map((v,i)=>Math.round(lerp(v,y[i],p))).join(',')})`}
+function render(t){
+  t=((t%D)+D)%D;
+  const box=document.getElementById('box'),o=id=>document.getElementById(id).style;
+  let w,h,r,bg,sh,press=1;
+  // 0-1.0 pill idle (soft breathing shadow), 1.0-1.25 press, 1.3-2.0 open to ask, 2.0-3.6 ring fills,
+  // 3.6-4.2 ask -> done (ink to tone green), 4.2-5.4 hold, 5.4-6.0 done -> chip, 6.0-6.5 hold chip, 6.5-7.2 chip -> pill
+  const pA=io((t-1.3)/.7), pD=io((t-3.6)/.6), pC=io((t-5.4)/.6), pP=io((t-6.5)/.7);
+  if(t<3.6){w=lerp(P.w,A.w,pA);h=lerp(P.h,A.h,pA);r=lerp(P.r,A.r,pA);bg='#1F1B16'}
+  else if(t<5.4){w=A.w;h=A.h;r=A.r;bg=mix('#1F1B16','#E2EEE4',pD)}
+  else if(t<6.5){w=lerp(A.w,C.w,pC);h=lerp(A.h,C.h,pC);r=lerp(A.r,C.r,pC);bg='#E2EEE4'}
+  else {w=lerp(C.w,P.w,pP);h=lerp(C.h,P.h,pP);r=lerp(C.r,P.r,pP);bg=mix('#E2EEE4','#1F1B16',pP)}
+  if(t>1.0&&t<1.3) press=1-.03*Math.sin((t-1.0)/.3*Math.PI);
+  const green=(t>=3.6&&t<6.5)||(t>=6.5&&pP<.5);
+  sh=green?'0 30px 60px rgba(46,107,69,.20)':'0 30px 60px rgba(31,27,22,.28)';
+  if(t<1.0) sh=`0 ${26+6*Math.sin(t*Math.PI)}px 60px rgba(31,27,22,${.24+.06*Math.sin(t*Math.PI)})`;
+  Object.assign(box.style,{width:w+'px',height:h+'px',marginLeft:-w/2+'px',marginTop:-h/2+'px',borderRadius:r+'px',background:bg,boxShadow:sh,transform:`scale(${press})`});
+  // layer opacities
+  o('pill').opacity = t<1.3 ? 1 : t<1.6 ? 1-(t-1.3)/.3 : t>6.8 ? cl((t-6.8)/.4) : 0;
+  o('ask').opacity = cl((t-1.75)/.35) * (1-cl((t-3.6)/.3));
+  o('done').opacity = cl((t-3.95)/.35) * (1-cl((t-5.4)/.25));
+  o('chip').opacity = cl((t-5.75)/.3) * (1-cl((t-6.5)/.25));
+  document.getElementById('arc').style.strokeDashoffset = 289*(1-io((t-2.0)/1.5));
+  o('ask').transform=`translateY(${(1-cl((t-1.75)/.35))*12}px)`;
+  o('done').transform=`translateY(${(1-cl((t-3.95)/.35))*12}px)`;
+}
+window.render=render;render(0);
+</script></body></html>
