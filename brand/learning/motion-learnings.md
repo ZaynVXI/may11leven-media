@@ -7,6 +7,11 @@ description: Running log of what worked and what didn't in May11Leven motion and
 
 Each line: what we learned, from which piece, and the rule it creates. Zayn's corrections always win and stay forever.
 
+## How we train (the PXDX method, read from their tutorial frames)
+1. Three reference videos plus one sentence make the skill: "The motion should be calm and smooth." Our training set is brand/motion-refs/.
+2. Every refinement Zayn gives ends as "Add to the skill: …" and goes into this file the same turn, so it applies to all future animations ("make fixes apply to all animations").
+3. Short prompts, small pieces, many rounds. They were on experiment 17; we are on 1.
+
 ## Zayn's standing corrections
 - Show products working, like a real product or prototype, never as static frames.
 - Each product gets its own look; never the same style twice in a row.
