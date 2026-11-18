@@ -13,7 +13,7 @@ Each line: what we learned, from which piece, and the rule it creates. Zayn's co
 3. Short prompts, small pieces, many rounds. They were on experiment 17; we are on 1.
 
 ## Zayn's standing corrections
-- Reels run about 20 seconds, like PXDX's (Zayn, 19 Nov). Product motion reels: 18–25 s, built as two or three loops of the product (open, use, a second state), not one 10 s loop. Short 6–12 s loops only for single widgets inside a carousel.
+- Reel length follows the product and how much there is to show, never one fixed number (Zayn, 19 Nov). Before building, list the moments the reel must show, give each 3–5 s (enough to read and see it work), and add them up. Guide: one widget or detail 6–12 s; a product with one flow 15–25 s (PXDX product reels sit around 20 s); a product with several flows or a before-and-after 25–40 s; a case study or process story 30–60 s. Cut any second where nothing new happens.
 - Show products working, like a real product or prototype, never as static frames.
 - Each product gets its own look; never the same style twice in a row.
 - Learn the PXDX way: design first, let the tools animate, keep one style skill and improve it after every piece.
