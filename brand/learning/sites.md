@@ -64,3 +64,10 @@ Start every site or app screen from these instead of designing components from s
 
 ### Added from Zayn (notes in qclay.md)
 - https://qclay.design (product design studio; sells through labelled digital product concepts; blocked from our workspace, refs in brand/refs/qclay)
+
+### Added from Zayn (18 Nov), checked
+- https://scrolltide.co — scroll-driven 3D site templates, components, shaders and AI prompts. A few templates are free; most need $299 lifetime. Study the free ones and the previews; never use paid code without asking. Prompts are for AI site builders; we write our own code.
+- https://scrollshaders.com — looping WebGL shader backgrounds. Previews free; code/MP4s need a paid plan ($29/mo, $129/yr, $239 lifetime) with a commercial licence. Study the looks only; build our own shaders. Ask before paying.
+- https://footer.design — curated footer gallery, sorted by style (typographic, grid, animated, dark, bold). Free to browse.
+- https://cta.gallery — curated call-to-action designs by type (buttons, forms, pricing, newsletter) and industry. Free to browse; screenshots belong to their owners.
+- https://styles.refero.design — design styles taken from real products (already in our product-research list).
