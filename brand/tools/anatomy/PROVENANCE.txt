@@ -1,0 +1,1 @@
+source: https://github.com/wheresryan22/anatomy @ 1482e84 (MIT). Reviewed: only scripts/publish.mjs calls git/gh, and only when publishing to the community gallery, which needs Zayn's explicit yes. Never publish.

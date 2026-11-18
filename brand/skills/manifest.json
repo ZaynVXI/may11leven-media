@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "generated_from_commit": "9eb5240a96124290b951265bec1e8dbf18597560",
-  "skill_count": 485,
+  "skill_count": 486,
   "installed_targets": [
     ".claude/skills",
     ".agents/skills"
@@ -4400,6 +4400,15 @@
       "source_file": "brand/tools/juliobsz-skills/jury/SKILL.md",
       "license_file": "brand/tools/juliobsz-skills/LICENSE",
       "license_status": "mit-verified"
+    },
+    {
+      "id": "anatomy",
+      "group": "anatomy",
+      "skill_name": "anatomy",
+      "source_dir": "brand/tools/anatomy",
+      "source_file": "brand/tools/anatomy/SKILL.md",
+      "license_file": "brand/tools/anatomy/LICENSE",
+      "license_status": "MIT"
     }
   ]
 }

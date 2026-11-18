@@ -53,6 +53,7 @@ Pick the language from what the product should make someone feel, who uses it, a
 | Swiss data | Strict grid, black and white, one accent, huge numerals, tables | Research (Field Study), dashboards, B2B reporting | HTML/Figma |
 | Tactile object | One product on a plinth, real material and light | Packaging, physical goods, merch | Blender |
 | Type poster | Huge cropped type, colour blocks, few words | Brand identity reveals, campaigns | Figma/HTML |
+| Technical figure | An invented physical machine that explains the idea, drawn isometric in four tones, one lit accent part, live readout, calm motion (anatomy skill, brand/tools/anatomy) | How an automation, agent, booking flow or brand system works; the Anatomy series, explainers on the website | anatomy skill: HTML/SVG, PDF, screen-recorded for reels |
 | Bright consumer | Saturated flat colour, rounded shapes, playful motion | Food delivery, youth, events, entertainment apps | Figma/HTML, Lottie-style motion |
 
 How we transform the soft-glass reference (never copy it): our own shapes and colour fields taken from the product's world (for a school-fees app, the uniform colours; for a clinic, the calm of a waiting room), our own copy and data in local currencies, and no pill-card layout lifted from Aura.
