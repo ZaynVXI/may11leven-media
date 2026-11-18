@@ -22,3 +22,16 @@ Zayn: our products were shared as frames; studios share them like a real product
 3. Show a family: several widgets or screens of the same product moving together, then one hero interaction up close.
 4. Tools: HyperFrames for the recorded motion, the live prototype published as an artifact link for Behance/LinkedIn, Figma for the master frames.
 5. Label: series name and number ("Working demos 02 · Term · concept").
+
+## How they present one concept app (pxdx "Conversation Tone Assistant", carousel, 1,613 likes, 407 shares)
+1. **Hero (motion):** a real photo (a hand holding a phone, no face) inside one big rounded oval, the product's widgets floating around it, one line of UI text on the phone screen ("Hey, Annie").
+2. **The whole system:** a 3x3 grid of every component, each on its own background tone (fog gradient, paper, dark grey), one component per tile.
+3. **Component close-ups:** one component large, cropped by the frame, with a two-line label in a corner: name plus component type ("Real-Time Voice Analysis / Popover", "Payment authorization / Notification").
+4. **States:** the same component in two states on consecutive slides (recording, then the "Cold assertiveness" result).
+5. **Collage:** the components overlapping inside the oval again, as a family.
+- Palette: fog blue-grey to black, warm paper, one hot accent (orange-red) used only for data and the card.
+- Type: one grotesk for UI, one monospace for transcript text.
+- Caption: product name, "First draft of UI (01)", then a two-line sign-off. No hashtags, no hard sell.
+
+## Our version for each product
+Hero motion (photo plus floating widgets) → system grid → 2–3 component close-ups with name and type labels → one state change → family collage → our offer slide. Hands and objects only, no faces; photos from Unsplash or Pexels through the connector.
