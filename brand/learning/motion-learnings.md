@@ -25,3 +25,6 @@ Each line: what we learned, from which piece, and the rule it creates. Zayn's co
 - Fix next time: a 4 s hold with nothing moving felt dead; something small should move every 1.5–2 s (a pill, a tick, a glow drift).
 - Fix next time: top-of-frame labels collide with notifications; hide or move the label while a notification shows.
 - Export: Figma export_video at 1080x1350, 30 fps, quality high, about 10 s; check with an ffmpeg frame sheet before showing anyone.
+
+## Add to the skill: UI details (Zayn, 19 Nov)
+"Pay attention to tiny details… they make a lot of difference." Before any component goes into a reel, run the 14-point details pass in `brand/learning/ui-details.md` (nested radii, equal gaps, raised selection, tone-on-tone status, ringed dots, coloured shadows, ringed photos, dashed only for empty, one icon set). Motion makes these visible: a raised tile sliding along its track, a dot ring catching the light, a tinted shadow moving with its card.
