@@ -78,3 +78,9 @@ Start every site or app screen from these instead of designing components from s
 - https://grainient.supply — gradients, grain textures, shader tool. Mostly paid ($59–$299); about 556 of its backgrounds are AI-generated: never use those (AI-label risk). Our own grain and gradients in code instead.
 - https://uberdesigner.ai — website templates as AI prompts plus Figma files. Some free with an account; $29/mo for the rest; licence terms unread. Study the free designs for ideas only.
 - https://bencho.dev — interactive React components and micro-interactions. Pricing and licence not readable from here (page blocked); study only until checked.
+- https://minimal.gallery newest: Petrillo.studio, In My Shoes, Spyker Cars, Onlines, Mathias Adolfsson, Melike Turgut, Carter Ogunsola. Open Petrillo.studio next for a studio index.
+- https://the-brandidentity.com (RN Arquitectura by Estudio Repúblicas: one weight, one colour, no symbol)
+- https://wearemotto.com/blog (Behind the Big Idea series: Nomina and others; read one per week)
+
+- nuevo.tokyo - reductionist studio; study how they present owned products as a single captioned vertical column (check for the next concept writeup).
+- Minimalissimo (minimalissimo.com) - one quiet-object principle per visit; current issue: Doldam Residence, Kehikko chair, iA Notebook (all-white), Dieter Rams catalogue raisonne.

@@ -25,3 +25,23 @@ Sheets: reel-3113c18e (merch, hands only), reel-24210ed3 (creator "5 plugins" li
 - Ours so far: 5–22 s, mostly 12–17 s. After hours is 22 s.
 - Verdict: our typical length matches the references, but we never make the long tier (30–60 s) that a third of theirs use for case studies and process stories.
 - Rule from now on, length set by job: loops and logo marks 6–10 s; product demos 15–25 s; case studies and process stories 30–60 s (one a fortnight). Length must be earned: hold each line for its reading time, and cut any second where nothing changes.
+## Study: a held still with type in the corners, a poster that rebuilds itself
+Sheets: reel-0148ef71 (Holographik "Colonize Mars"), reel-0986ee33 (Bottone x Holographik poster, Berlin to Zagreb).
+- Hook: Mars opens on the finished frame, a planet edge lit from the right, with the title already there. No build-up; the still is the hook. Poster opens on a red poster in a real concrete underpass, so it reads as a photo before it reads as motion.
+- Cut rhythm: Mars is one shot; the only change is the title stepping between corners (top-right, centre-left, bottom-right) about every second. Poster is one locked shot of 16 states where the black shape melts and rebuilds behind the type, about 0.5 s each.
+- Camera: both locked. All motion happens inside the frame.
+- Type in and out: hard swaps, no fades. Same grotesk caps, same size, only position changes. On the poster the type gets eaten by the shape and comes back.
+- Transitions: none; the frame changes state.
+- Sound (from the pace): a steady ambient bed with a soft tick on each type move.
+- Cover: any frame works because the layout never changes. That is the reason to build reels this way for a minimal feed.
+## External: SocialPilot reel guide (Sept 2026) + Mosseri notes (zoomsphere.com)
+- Something must move within 0.5 s, and the first 3 s decide completion. A 90 s reel that's watched to the end beats a 3 min reel that isn't.
+- Put a keyword line on screen and in the caption; Instagram reads both for search and for "Your Algorithm" topics.
+- Trial reels (1,000+ followers) go to non-followers first. Test different versions, never the same one twice.
+- No other app's watermark on export. Sends per reach is the number to watch.
+- For us: a 6 s "9.6 s" reel where a phone-sized frame stays empty while a counter runs to 9.6, then the hotel photo lands. Movement starts at frame 1 (the counter), the empty wait is the story, and the cover is the final frame.
+
+## External: visual hooks + the thumbnail test (creatorflow.so)
+- Five visual hooks, each resolved by the eye in the first second: (1) motion at frame one (action already underway, must relate to the topic); (2) an object out of place; (3) the finished result first (good for tutorials, shot close and lit so it reads small); (4) a face mid-action; (5) the before state at its worst, fixed fast.
+- The thumbnail test: screenshot frame one, shrink to ~1/3 phone width, look for one second with sound off, then write one sentence of what it promises. If you can't, change the frame. Checks: real image not a fade-from-black; one subject fills the frame and contrasts the ground; subject/text sit in the centre that survives the 3:4 grid crop (~240px off top and bottom of a 1080x1920 reel).
+- For us: the Mita concept reel is hook type 3 + 5 combined - open on the finished home screen with "38.6 kWh" already huge (result first), then cut to the confusing paper token it replaces (the before). Counter and split animate in; cover is the final clean screen. Keep the numeral and split inside y 220-1500 so the grid crop and IG chrome don't eat them.

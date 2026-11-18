@@ -1,0 +1,35 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><title>9.6 seconds</title>
+<style>
+:root{--bg:#0B0B0B;--fg:#F2F0EC;--mute:#8A8A8A;--line:#2A2A2A;--ir:#FF4A1C}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{background:var(--bg)}
+body{width:1080px;height:1350px;color:var(--fg);font-family:"Inter Display","Inter",sans-serif;font-weight:400;position:relative;overflow:hidden}
+.grid{position:absolute;inset:64px;display:grid;grid-template-columns:repeat(6,1fr);border:1px solid var(--line)}
+.grid i{border-right:1px solid var(--line)}.grid i:last-child{border:0}
+.top{position:absolute;top:88px;left:88px;right:88px;display:flex;justify-content:space-between;font-size:22px;letter-spacing:.01em}
+.num{position:absolute;left:80px;top:250px;font-size:400px;line-height:.8;letter-spacing:-.045em}
+.num span{font-size:160px;letter-spacing:-.02em;margin-left:12px}
+.lede{position:absolute;left:88px;top:640px;width:620px;font-size:40px;line-height:1.15;letter-spacing:-.01em}
+.scale{position:absolute;left:88px;right:88px;top:900px;height:200px}
+.axis{position:absolute;left:0;right:0;top:80px;height:2px;background:var(--mute)}
+.fill{position:absolute;left:0;top:79px;height:4px;background:var(--fg)}
+.tick{position:absolute;top:70px;width:1px;height:22px;background:var(--mute)}
+.lab{position:absolute;top:104px;font-size:20px;color:var(--mute);transform:translateX(-50%)}
+.mk{position:absolute;top:0;font-size:22px;transform:translateX(-50%);text-align:center;white-space:nowrap}
+.mk b{display:block;width:2px;height:44px;background:currentColor;margin:10px auto 0}
+.dot{position:absolute;top:69px;width:24px;height:24px;border-radius:50%;background:var(--ir);transform:translateX(-50%)}
+.src{position:absolute;left:88px;right:88px;bottom:96px;font-size:20px;line-height:1.4;color:var(--mute);display:flex;justify-content:space-between}
+</style></head><body>
+<div class="grid"><i></i><i></i><i></i><i></i><i></i><i></i></div>
+<div class="top"><span>Study 01 · Zanzibar hotel websites</span><span>May11Leven Labs</span></div>
+<div class="num">9.6<span>s</span></div>
+<p class="lede">until the main image or headline appears on a typical Zanzibar hotel website, on a mid-range phone.</p>
+<div class="scale" id="s"></div>
+<div class="src"><span>Median of 49 independent hotel sites.<br>Lighthouse mobile lab estimate, 3 runs each.</span><span>Google's "poor" line: 4 s</span></div>
+<script>
+const s=document.getElementById('s'),W=1080-176,max=12,x=t=>t/max*W;
+for(let t=0;t<=max;t++){s.insertAdjacentHTML('beforeend',`<i class="tick" style="left:${x(t)}px"></i><span class="lab" style="left:${x(t)}px">${t}</span>`)}
+s.insertAdjacentHTML('beforeend',`<div class="axis"></div><div class="fill" style="width:${x(9.6)}px"></div>`);
+[[2.5,'good'],[4,'poor']].forEach(([t,l])=>s.insertAdjacentHTML('beforeend',`<div class="mk" style="left:${x(t)}px;color:var(--mute)">${l}<b></b></div>`));
+s.insertAdjacentHTML('beforeend',`<i class="dot" style="left:${x(9.6)}px"></i>`);
+</script></body></html>

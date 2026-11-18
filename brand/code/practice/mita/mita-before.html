@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Mita: prepaid meter app (concept)</title>
+<style>
+@font-face{font-family:Archivo;src:url(../../../fonts/Archivo.ttf);font-weight:100 900;font-stretch:62% 125%}
+@font-face{font-family:Plex;src:url(../../../fonts/PlexMono.ttf)}
+:root{
+  --ground:#E7E6E1; --ink:#0E0F0C; --paper:#FAFAF7; --line:#D9D8D2;
+  --muted:#5C5D57; --lcd:#C3DB4E; --lcd-ink:#10140A;
+  --r-card:22px; --r-chip:999px;
+  --ease:cubic-bezier(.22,1,.36,1);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{background:var(--ground)}
+body{width:1080px;height:1350px;position:relative;font-family:Archivo,system-ui,sans-serif;color:var(--ink);font-feature-settings:"tnum" 1}
+.label{position:absolute;font:400 20px/1.2 Plex,monospace;letter-spacing:.02em;color:var(--muted)}
+.tl{left:56px;top:52px}.tr{right:56px;top:52px;text-align:right}
+.bl{left:56px;bottom:52px}.br{right:56px;bottom:52px;text-align:right}
+
+/* phone */
+.phone{position:absolute;left:50%;top:50%;width:430px;height:884px;transform:translate(-50%,-50%) scale(1.27);
+  border-radius:68px;background:#1b1c1a;padding:20px;box-shadow:0 1px 0 1px #3a3b38 inset,0 40px 80px -30px rgba(0,0,0,.35),0 8px 18px -8px rgba(0,0,0,.25)}
+.screen{width:390px;height:844px;border-radius:50px;overflow:hidden;background:var(--paper);position:relative}
+.island{position:absolute;left:50%;top:11px;width:122px;height:36px;margin-left:-61px;background:#000;border-radius:20px;z-index:5}
+
+.status{height:54px;display:flex;justify-content:space-between;align-items:center;padding:6px 32px 0 40px;font-weight:600;font-size:16px}
+.status .icons{display:flex;gap:6px;align-items:center}
+
+.head{display:flex;justify-content:space-between;align-items:baseline;padding:14px 22px 12px}
+.word{font-weight:600;font-size:22px;letter-spacing:-.01em}
+.meter{font:400 12px/1 Plex,monospace;color:var(--muted)}
+
+.block{margin:0 14px;background:var(--lcd);color:var(--lcd-ink);border-radius:var(--r-card);height:300px;position:relative;padding:18px 20px}
+.block .c{position:absolute;font-size:13px;font-weight:500}
+.block .c1{left:20px;top:18px}.block .c2{right:20px;top:18px}
+.block .c3{left:20px;bottom:18px}.block .c4{right:20px;bottom:18px;text-align:right}
+.big{position:absolute;left:14px;top:62px;font-weight:500;font-stretch:80%;font-size:168px;line-height:.9;letter-spacing:-.04em}
+.big small{font-size:56px;letter-spacing:-.02em}
+
+.sec{padding:20px 22px 0}
+.row{display:flex;justify-content:space-between;align-items:baseline}
+.h{font-size:13px;color:var(--muted)}
+.v{font-size:15px;font-weight:500}
+.token{font:400 17px/1 Plex,monospace;letter-spacing:.02em;margin-top:10px}
+.split{display:flex;height:8px;border-radius:4px;overflow:hidden;margin-top:14px;gap:2px}
+.split i{display:block;background:var(--ink)}
+.split i+i{background:#9A9B94}
+.legend{display:flex;justify-content:space-between;margin-top:8px;font-size:12px;color:var(--muted)}
+.why{font-size:13px;color:var(--ink);text-decoration:underline;text-underline-offset:3px}
+
+.chips{display:flex;gap:8px;margin-top:12px}
+.chip{flex:1;height:44px;border-radius:var(--r-chip);border:1px solid var(--line);display:grid;place-items:center;font-size:15px;font-weight:500;background:none}
+.chip.on{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.buy{margin:14px 22px 0;height:54px;border-radius:16px;background:var(--ink);color:var(--paper);display:flex;justify-content:center;align-items:center;font-size:16px;font-weight:500;border:0;width:calc(100% - 44px)}
+
+.tabs{position:absolute;left:0;right:0;bottom:0;height:84px;border-top:1px solid var(--line);display:flex;justify-content:space-around;padding-top:10px;background:var(--paper)}
+.tab{display:flex;flex-direction:column;align-items:center;gap:4px;font-size:11px;color:var(--muted);width:64px}
+.tab.on{color:var(--ink)}
+.tab svg{width:24px;height:24px;stroke:currentColor;fill:none;stroke-width:1.6}
+.home{position:absolute;bottom:8px;left:50%;width:134px;height:5px;margin-left:-67px;border-radius:3px;background:var(--ink)}
+</style>
+</head>
+<body>
+<div class="label tl">Mita</div>
+<div class="label tr">Prepaid meter app<br>Nairobi</div>
+<div class="label bl">03 App design</div>
+<div class="label br">Concept, not a client</div>
+
+<div class="phone"><div class="screen" role="img" aria-label="Mita app home screen: 38.6 kilowatt hours left, about 9 days at current use. Last token of 1,000 shillings gave 35.2 kWh; 683 shillings went to energy and 317 to taxes and levies.">
+  <div class="island"></div>
+  <div class="status"><span>9:41</span><span class="icons">
+    <svg width="18" height="12" viewBox="0 0 18 12"><rect x="0" y="8" width="3" height="4" rx="1"/><rect x="5" y="6" width="3" height="6" rx="1"/><rect x="10" y="3" width="3" height="9" rx="1"/><rect x="15" y="0" width="3" height="12" rx="1"/></svg>
+    <svg width="26" height="12" viewBox="0 0 26 12"><rect x=".5" y=".5" width="22" height="11" rx="3" fill="none" stroke="#0E0F0C" opacity=".4"/><rect x="2" y="2" width="15" height="8" rx="1.6"/><rect x="24" y="4" width="1.6" height="4" rx=".8" opacity=".4"/></svg>
+  </span></div>
+
+  <div class="head"><span class="word">Mita</span><span class="meter">Meter 0421 7788 312</span></div>
+
+  <section class="block" aria-label="Units left">
+    <span class="c c1">Units left</span><span class="c c2">Updated 06:40</span>
+    <div class="big">38.6<small> kWh</small></div>
+    <span class="c c3">About 9 days at your usage</span><span class="c c4">4.3 kWh a day</span>
+  </section>
+
+  <section class="sec">
+    <div class="row"><span class="h">Last token</span><span class="v">KES 1,000 → 35.2 kWh</span></div>
+    <div class="token">4719 0082 3356 1904 6627</div>
+    <div class="split" aria-hidden="true"><i style="width:68.3%"></i><i style="width:31.7%"></i></div>
+    <div class="legend"><span>Energy KES 683</span><span>Taxes and levies KES 317</span></div>
+  </section>
+
+  <section class="sec">
+    <div class="row"><span class="h">Top up</span><a class="why" href="#">Why units vary</a></div>
+    <div class="chips">
+      <button class="chip">200</button><button class="chip on" aria-pressed="true">500</button><button class="chip">1,000</button><button class="chip">2,000</button>
+    </div>
+  </section>
+  <button class="buy">Pay KES 500 with M-Pesa</button>
+
+  <nav class="tabs" aria-label="Main">
+    <span class="tab on"><svg viewBox="0 0 24 24"><path d="M4 11l8-7 8 7v9H4z"/></svg>Home</span>
+    <span class="tab"><svg viewBox="0 0 24 24"><path d="M13 3L5 14h6l-1 7 8-11h-6z"/></svg>Buy</span>
+    <span class="tab"><svg viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h10"/></svg>History</span>
+    <span class="tab"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M9.5 9.5a2.5 2.5 0 1 1 3.5 2.3c-.6.3-1 .8-1 1.5V14M12 17.5v.01"/></svg>Help</span>
+  </nav>
+  <div class="home"></div>
+</div></div>
+</body>
+</html>

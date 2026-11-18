@@ -18,3 +18,11 @@
 - Alternate reel / carousel; keep one image post a week for interaction.
 - Write the first on-screen line as the search phrase.
 - Plan the 72 h after each post: replies, one Story reshare on day 2.
+
+## Thursday deep dive: what Instagram rewards now, and one angle per market
+- Ranking: watch time, likes and sends. Likes count more from followers, sends count more from non-followers, and comments are "not the most important part by a long shot" (Mosseri, Oct 2026, via zoomsphere.com). Recommendations are a growing share of reach.
+- Carousels beat single photos; reels are not required. Scheduling, hashtags and hidden likes don't change reach. A visible watermark from another app does.
+- Measure sends per reach (shares divided by reach) as our main number, then likes per reach. "Comment 11" stays as the lead route, but the post has to be worth sending first.
+- Africa: original research is the most sendable thing we can post. Hotel owners forward a stat about their own island; the Zanzibar study (9.6 s median, 86% past Google's "poor" line, 0 of 51 mention mobile money) is one tile per fact, with the method in the caption.
+- Gulf: Arabic-first content reportedly gets 35-50% more engagement than translated English, and Saudi and UAE audiences sit on TikTok and Snapchat as much as Instagram (kolsquare.com). The UAE Advertiser Permit has been mandatory since 1 Feb 2026 for paid and unpaid promotion, and Saudi creators need a Mawthooq licence. Our own organic posts are fine; any collab or paid push needs this checked first. Test one Arabic version of each research tile before any Gulf push.
+- Rest of world: Instagram auto-translates captions and audio for English, Spanish, Portuguese and Hindi. Keep on-screen text short and literal so it survives translation.
