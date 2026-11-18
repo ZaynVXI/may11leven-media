@@ -71,3 +71,10 @@ Start every site or app screen from these instead of designing components from s
 - https://footer.design — curated footer gallery, sorted by style (typographic, grid, animated, dark, bold). Free to browse.
 - https://cta.gallery — curated call-to-action designs by type (buttons, forms, pricing, newsletter) and industry. Free to browse; screenshots belong to their owners.
 - https://styles.refero.design — design styles taken from real products (already in our product-research list).
+
+### "Anti-slop" libraries from Zayn (18 Nov), checked
+- https://uiarc.dev (Arc UI) — animated React/shadcn components. 121 components and 22 blocks free under MIT: usable in client and commercial work (keep the copyright notice). Pro ($249 once) is paid. Use the free ones.
+- https://horizonx.so — UI kits, templates, shaders, textures, mockups. Subscription only ($24.99–$99.99/mo); browsing free. Study only; ask before paying. AI-imagery status unknown, so check before using any texture or mockup.
+- https://grainient.supply — gradients, grain textures, shader tool. Mostly paid ($59–$299); about 556 of its backgrounds are AI-generated: never use those (AI-label risk). Our own grain and gradients in code instead.
+- https://uberdesigner.ai — website templates as AI prompts plus Figma files. Some free with an account; $29/mo for the rest; licence terms unread. Study the free designs for ideas only.
+- https://bencho.dev — interactive React components and micro-interactions. Pricing and licence not readable from here (page blocked); study only until checked.
