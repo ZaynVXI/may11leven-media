@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "generated_from_commit": "9eb5240a96124290b951265bec1e8dbf18597560",
-  "skill_count": 486,
+  "skill_count": 495,
   "installed_targets": [
     ".claude/skills",
     ".agents/skills"
@@ -4409,6 +4409,87 @@
       "source_file": "brand/tools/anatomy/SKILL.md",
       "license_file": "brand/tools/anatomy/LICENSE",
       "license_status": "MIT"
+    },
+    {
+      "id": "hyperframes-figma",
+      "group": "hyperframes",
+      "skill_name": "figma",
+      "source_dir": "brand/tools/hyperframes/figma",
+      "source_file": "brand/tools/hyperframes/figma/SKILL.md",
+      "license_file": "brand/tools/hyperframes/LICENSE",
+      "license_status": "Apache-2.0"
+    },
+    {
+      "id": "hyperframes-hyperframes",
+      "group": "hyperframes",
+      "skill_name": "hyperframes",
+      "source_dir": "brand/tools/hyperframes/hyperframes",
+      "source_file": "brand/tools/hyperframes/hyperframes/SKILL.md",
+      "license_file": "brand/tools/hyperframes/LICENSE",
+      "license_status": "Apache-2.0"
+    },
+    {
+      "id": "hyperframes-hyperframes-cli",
+      "group": "hyperframes",
+      "skill_name": "hyperframes-cli",
+      "source_dir": "brand/tools/hyperframes/hyperframes-cli",
+      "source_file": "brand/tools/hyperframes/hyperframes-cli/SKILL.md",
+      "license_file": "brand/tools/hyperframes/LICENSE",
+      "license_status": "Apache-2.0"
+    },
+    {
+      "id": "hyperframes-hyperframes-registry",
+      "group": "hyperframes",
+      "skill_name": "hyperframes-registry",
+      "source_dir": "brand/tools/hyperframes/hyperframes-registry",
+      "source_file": "brand/tools/hyperframes/hyperframes-registry/SKILL.md",
+      "license_file": "brand/tools/hyperframes/LICENSE",
+      "license_status": "Apache-2.0"
+    },
+    {
+      "id": "hyperframes-media-use",
+      "group": "hyperframes",
+      "skill_name": "media-use",
+      "source_dir": "brand/tools/hyperframes/media-use",
+      "source_file": "brand/tools/hyperframes/media-use/SKILL.md",
+      "license_file": "brand/tools/hyperframes/LICENSE",
+      "license_status": "Apache-2.0"
+    },
+    {
+      "id": "hyperframes-remotion-to-hyperframes",
+      "group": "hyperframes",
+      "skill_name": "remotion-to-hyperframes",
+      "source_dir": "brand/tools/hyperframes/remotion-to-hyperframes",
+      "source_file": "brand/tools/hyperframes/remotion-to-hyperframes/SKILL.md",
+      "license_file": "brand/tools/hyperframes/LICENSE",
+      "license_status": "Apache-2.0"
+    },
+    {
+      "id": "hyperframes-reverse-any-video",
+      "group": "hyperframes",
+      "skill_name": "reverse-any-video",
+      "source_dir": "brand/tools/hyperframes/reverse-any-video",
+      "source_file": "brand/tools/hyperframes/reverse-any-video/SKILL.md",
+      "license_file": "brand/tools/hyperframes/LICENSE",
+      "license_status": "Apache-2.0"
+    },
+    {
+      "id": "hyperframes-slideshow",
+      "group": "hyperframes",
+      "skill_name": "slideshow",
+      "source_dir": "brand/tools/hyperframes/slideshow",
+      "source_file": "brand/tools/hyperframes/slideshow/SKILL.md",
+      "license_file": "brand/tools/hyperframes/LICENSE",
+      "license_status": "Apache-2.0"
+    },
+    {
+      "id": "hyperframes-style-sampling",
+      "group": "hyperframes",
+      "skill_name": "style-sampling",
+      "source_dir": "brand/tools/hyperframes/style-sampling",
+      "source_file": "brand/tools/hyperframes/style-sampling/SKILL.md",
+      "license_file": "brand/tools/hyperframes/LICENSE",
+      "license_status": "Apache-2.0"
     }
   ]
 }
