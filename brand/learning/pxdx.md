@@ -5,6 +5,11 @@ description: Daily study notes on Pixie and Dixie (PXDX, @pxdx.baddies), our fir
 
 # PXDX study log
 
+## "Just UI details" with one message (peace post, 5+ slides)
+Refs: brand/refs/pxdx-peace-details/. Every component in the post carries the same idea (peace): interaction cards ("How was your sleep?" then "Is it because of bad news?"), a text container shown mid-edit with a Figma selection box, a folder list, a wallet module, a confirmation dialog where "yes" is disabled and the cursor gets a no-entry badge, a content card. Caption: "Just UI details. We wish everything could be this simple…" then the themed sign-off.
+**Details worth taking:** one brand gradient (indigo to rust) reused on every accent (pill, folder, wallet, card top); cards sit inside a faint outer halo frame (a second, larger rounded shape at low opacity: nested radius again); photo tiles tilted a few degrees, stacked, with thick white borders; black pill buttons with a long soft shadow; the disabled state told as a story (cursor + badge); a tiny centred caption naming each component; dark silk and light grey backgrounds alternate slide to slide.
+**Our move:** a details post can carry one human message from our markets (for example "rest" for hospitality, "pay on time" for fintech), told through real states of our own components. One gradient per post taken from the product's world.
+
 ## Silhouette hand hero (Annie, Rosie)
 Refs: brand/refs/pxdx-silhouette/. The hand holding the phone is pure black against one big shape of soft light (Rosie: a glowing disc; Annie: a tall arch). Only the screen is lit, so the eye goes straight to the product. Widgets float around it at different depths, a line of the product's voice ("Hey, Annie") sits over the hand.
 **Our move:** our hero is a silhouette hand in front of a light shape taken from the client's place (After hours: a Lamu doorway arch in warm sand light). Cut the hand from free stock with GrabCut, draw the phone body ourselves, warp our UI onto the screen. Done in posts/after-hours/v2/hero_sil.py.
