@@ -2,7 +2,7 @@
 
 That's how long the median independent hotel website in Zanzibar takes to show its main image on a mid-range phone. We tested all 51.
 
-This is our first post here, so it starts the way we work: with research, not opinions.
+We start the way we always work: with research, not opinions.
 
 Field Study 01. OpenStreetMap lists 107 hotels, guest houses and hostels on Unguja with their own website. After removing chains, dead links and duplicates, 51 independent places had a site that works. We opened each homepage the way a guest would.
 
