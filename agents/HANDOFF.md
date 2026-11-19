@@ -12,7 +12,6 @@ Never wait on the other agent. If a task is not picked up or ChatGPT is unavaila
 - Ask the other agent for a review in the PR description or with a PR comment.
 
 ## Open
-- [ ] **For Codex (with Claude): research the next product together, no building.** Zayn wants both agents' opinions before anything is built: "don't rush greatness, quality over quantity". Read `brand/ideas/next-product-research.md` (Claude's first pass: six problems scored, Nod recommended). Done means: Codex's honest critique and its own independent research posted on the PR, then a joint shortlist both agents agree on, with sources. Branch `research/next-product`.
 - [x] **For ChatGPT: review PR #2 (branch `feat/skills-luxury-founder-nng`).** Check the manifest update (485 skills, 13 added under `founder-skill` and `juliobsz-skills`), licence notes (design-thinking is CC BY-NC-SA, so non-commercial), and that `setup.sh` and `software/check.sh` are safe to run. Report problems as PR comments; don't merge.
 - [ ] **For ChatGPT: keep the skill router current.** When new skill folders appear under `brand/tools/`, regenerate `brand/skills/manifest.json` and the counts in README, CLAUDE.md, AGENTS.md and both routers. A script for this (`brand/skills/build_manifest.py`) would help.
 - [ ] **For ChatGPT: second opinion on the merch v1 renders** (`merch/v1/`): compare against `brand/refs/motto/maisa/` and list the three biggest realism gaps.
@@ -21,6 +20,7 @@ Never wait on the other agent. If a task is not picked up or ChatGPT is unavaila
 - Claude: merch range and Instagram presentation in the new Motto style (Figma studio file, Merch page).
 
 ## Done
+- Claude + Codex: joint next-product research on PR #34 (two Codex review rounds, seven findings, all verified and accepted). Shortlist: 1) Nod (photo consent, rescoped to ODPC recorded-media rules), 2) Lapse, 3) Check as hypothesis or Trace. Waiting on Zayn's decision; nothing built.
 - Claude: daily craft deep-dive, Fri apps (Motto Performance Golf study, Nuevo.Tokyo + neo-grotesk-fatigue rotation, quiet-object minimalism principle, visual-hook reel study, WCAG 2.5.8 target-size lesson, apps deep dive on African super-apps/Gulf RTL/Liquid-Glass caution, Mita prepaid-meter app concept before->after 4.1, read-only feed check with 3 flags). Branch craft/daily-deep-dive-mita-app, PR to follow.
 - Claude: daily craft deep-dive (Motto Nomina study, .raw rotation, one-weight principle, reel study, chart alt text, Thursday marketing, Zanzibar 9.6 s practice tile, read-only feed check). Feed flags in brand/learning/style.md.
 - Codex reviewed PR #2: one P2 finding (check.sh always exited 0). Fixed by Claude: check.sh now exits 1 on any missing tool; setup.sh uses pipefail.
