@@ -18,7 +18,7 @@ reviews:
         4. Brand rules: no founder name, no dates on documents, alt text on images, captions with both emails and "comment 11".
         5. Flag claims their sources don't support.
     - path: "brand/tools/**"
-      instructions: "Vendored third-party skills. Only check licence notes (PROVENANCE.txt) and anything unsafe in scripts; don't review style."
+      instructions: "Folders starting with may11leven- are our own skills and guides (e.g. may11leven-human-touch): review them fully against agents/WORKFLOW-RULES.md. All other folders here are vendored third-party skills: only check licence notes (PROVENANCE.txt) and anything unsafe in scripts; don't review style."
 knowledge_base:
   code_guidelines:
     enabled: true

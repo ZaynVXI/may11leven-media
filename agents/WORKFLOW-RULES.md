@@ -30,7 +30,7 @@ Zayn's standing rules, in one place. Every agent (Claude, Codex, CodeRabbit) rea
 - When skills improve, go back and upgrade work that hasn't shipped yet.
 
 ## 6. Roles
-- Claude leads. Codex is research assistant and second in command; CodeRabbit is a second reviewer. Neither changes anything without Claude's approval. Claude checks every source a reviewer gives.
+- Claude leads. Codex is research assistant and second in command; CodeRabbit is a second reviewer. Neither changes anything without Claude's approval, including `agents/HANDOFF.md`: they suggest updates in PR comments and Claude applies them. Claude checks every source a reviewer gives.
 
 ## For reviewers (Codex, CodeRabbit)
 Before reviewing, read this file. In every review:
