@@ -95,6 +95,13 @@ Nod card: a business types its name and WhatsApp number and prints a table or mi
 4. LinkedIn: "What schools need before posting a photo of a child" (Kenya, South Africa POPIA, Nigeria NDPA), professional, with sources.
 5. Offer: "Every brand we design gets a consent-ready content system." It sells social content, web and AI agents together.
 
+## More evidence (second pass, 19 Nov)
+- **The regulator already describes the product.** The ODPC's Guidance Note for the Education Sector (Feb 2024) says to get explicit parental consent before publishing any photo of a child, to have "procedures in place to demonstrate that an individual has consented", to let people withdraw consent, not to post photos with children's names, and to prefer crowd shots where children aren't identifiable. Nod's school flow is that checklist made usable.
+- **It's not only guests and pupils.** In January 2025 the ODPC ordered a solar company to pay KES 500,000 to a former sales agent whose photo it used in marketing flyers without consent; the employer carries the burden of proof (EY, Oct 2025). Staff photos in marketing are a second use case. Caveat: a Nairobi court ruled in Nov 2026 that the ODPC can't award compensation, so treat compensation orders as uncertain; fines and enforcement notices are unaffected.
+- **Teachers on TikTok.** Business Daily (May 2026) reports teachers risking legal action for posting classroom videos, and parents suing schools over children's images used in marketing.
+- **Gulf.** Saudi Arabia's data authority issued 48 enforcement decisions in its first active year, many over marketing without consent (IAPP, Feb 2026). No image-specific cases found yet; the UAE photo law is the stronger Gulf angle.
+- **Correction:** one source dates the school fine to 2024; Clyde & Co's contemporaneous report says the penalty notices were issued in late September 2023. We use 2023.
+
 ## Open before we build
 - Trademark and handle check on the name (founder-brand skill); Nod is a working name.
 - Legal review of claims: we state laws and fines with sources and never give legal advice.
@@ -102,6 +109,10 @@ Nod card: a business types its name and WhatsApp number and prints a table or mi
 - A real test needs real people; that's Zayn's call.
 
 ## Sources
+- ODPC Guidance Note for the Education Sector (Feb 2024): https://www.odpc.go.ke/wp-content/uploads/2024/02/ODPC-Guidance-Note-for-the-Education-Sector.pdf
+- EY, employee images in marketing (Oct 2025): https://taxnews.ey.com/news/2025-2192-kenya-data-protection-commissioner-reiterates-employers-must-secure-employees-explicit-consent-to-use-their-images-commercially
+- Business Daily via Mwanaspoti, teachers and classroom videos (May 2026): https://www.mwanaspoti.co.tz/bd/lifestyle/workplace/tutors-risk-sh5m-fine-and-loss-of-careers-over-classroom-videos-5474638
+- IAPP, Saudi PDPL enforcement (Feb 2026): https://iapp.org/news/a/saudi-arabia-s-data-protection-authority-steps-up-enforcement
 - Clyde & Co, ODPC penalty notices (Oct 2023): https://www.clydeco.com/en/insights/2023/10/data-protection-compliance-in-kenya-odpc
 - Capital FM, 9,061 complaints, 184 compensation orders (Jan 2026): https://www.capitalfm.co.ke/business/2026/01/odpc-issues-184-compensation-orders-to-data-protection-complainants
 - TechTrends, court ruling on compensation powers, 28,000 registered (Nov 2026): https://techtrendske.co.ke/2026/11/15/odpc-compensation-powers/
