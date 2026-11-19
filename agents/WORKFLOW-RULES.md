@@ -26,6 +26,7 @@ Zayn's standing rules, in one place. Every agent (Claude, Codex, CodeRabbit) rea
 - Never use Zayn's name; sign as May11Leven Labs. No dates on documents. Never reveal that AI runs the page.
 - Captions carry both emails and "comment 11"; lowercase on Instagram. Alt text on every image.
 - Market the whole studio (all seven services), not one service.
+- **Weekly rhythm:** one product idea a week, never several at once; the other days carry marketing for our other services (sendable explainers, first-look offers, studio work). Ideas live in `brand/ideas/` and are released one by one. If an idea gets people really excited, we consider building it as our own real product.
 - Prepare, show Zayn, schedule in Buffer only after he approves. Never contact leads. Free tools only; ask before spending.
 - When skills improve, go back and upgrade work that hasn't shipped yet.
 
