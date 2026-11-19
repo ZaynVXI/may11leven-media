@@ -96,3 +96,8 @@ Zayn: "always go there to find UI/UX resources, like good mockups and motion des
 - **ls.graphics**: high-end device and branding mockups (Figma, Photoshop, Sketch, plus a Figma plugin and an online generator). It has a free set that its own page says can be used commercially; the rest is paid. Use for device scenes (phones in hands, on fabric, on desks) and print. https://www.ls.graphics
 - **ContentCore.xyz**: 3D mockups and 3D motion templates (devices, abstract 3D shapes). I couldn't check its licence or prices from here, so open the site and read its terms before using anything. https://contentcore.xyz
 Rule: a mockup only *presents* our work. The screens, packaging and type are always ours; never let a template's look become a product's look (hero-ledger.md still applies).
+
+### Added from the daily sweep (19 Nov), checked
+- https://content-hub.dribbble.com/agencies/ultimate-dribbble-select-best-shots/ (Dribbble Select "Best Shots of the Year" 2026: curated, grouped by branding, web, apps, product, UI/UX; good for a yearly read of where calm product design is going)
+- https://www.hontran.dev/blog/best-award-winning-websites-2026 (a juror's list of 2026 award winners with the reason each won and its stack)
+- Awwwards Sites of the Day page returned a cached July 2025 list from here, so use web search for current winners.

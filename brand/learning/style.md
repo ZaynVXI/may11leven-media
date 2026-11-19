@@ -154,3 +154,25 @@ Queued for the Instagram grid, in order: After hours carousel (dark night photo)
 - Dark/light: dark, dark, loud, light, dark, light, light. Balanced enough once the After hours pair is split.
 - Gap: about a week with nothing on Instagram between the After hours reel and What we do.
 - Status: every Metricool item is still a draft, so none will auto-publish until it's approved there. Two LinkedIn drafts whose slots were this morning have passed without going out.
+
+## Artemii Lebedev: the question card and the Krutoyar label (rotation)
+Sources: our refs lebedev-01 to 07 (the "Designer's Inner Voice" carousel), lebedev-08 to 17 (studio and client sites in scenes), and artlebedev.com/krutoyar (whiskey brand platform, identity and label, released 20.08.2025, "made in 66 days").
+### Colour (measured from lebedev-02, 2061x2576)
+- Ground #F1F1F1, hairline grid #C9C9C9, card #010101, type white. Cover (lebedev-01): the same grey ground with one photographic swirl of green glass behind a light card. Product scenes (lebedev-15): near-black #040000 with a sage #9BA79D surface. Colour enters only through a photo or a material, never as a UI fill.
+### Typography
+- One neo-grotesk, regular weight, about 4% of the card width for the question, set in two lines top-left; the answer sits below the middle after a "→", at about half that size. Small numerals in the corners (issue and volume). Sentence case throughout.
+### Grid and ideas
+- The card fills about 46% of the frame width (3:4) and sits on a visible hairline grid whose lines pass the card's corners; small crosses mark the intersections. One question per slide, one answer per question, the same position every slide, so a swipe reads like turning pages.
+- Krutoyar: the platform comes from a real place (Krutoyar island and its stone labyrinth, walked by sailors before going to sea) and makes it a ritual at the table. Two independent marks: a wordmark whose T reads as a ship's bow with anchor-hook serifs, and an emblem built as a fingerprint labyrinth hiding K and Я. Both have their own short animation. Note: some recent Lebedev marks start from their generative designer (Ironov) and are finished by people; we take the thinking, and our own marks are always drawn by us.
+### How they present it on Instagram
+- A carousel of identical cards on the grid, the cover the only slide with an image. Sites are shown on devices placed in a real material scene (keyboard, steel bar, sage cushion), never on flat colour.
+### Try this week
+- A "question card" carousel for our own page: one real question a founder in our markets asks ("Do I need a website if I sell on WhatsApp?"), the answer after an arrow, same position every slide, our hairline grid visible. Only the cover gets an image, a real material from the client's place.
+
+## Feed check (Thu, Buffer "My organization" + Metricool 7782767, read only)
+Next Instagram feed tiles in order: After hours carousel (Buffer, 20 Nov), After hours reel (Buffer, 23 Nov), Term carousel (Buffer, 25 Nov), then Metricool drafts: What we do carousel (1 Dec), Kora Dental reel (3 Dec), ata carousel (5 Dec), type and mark study carousel (8 Dec 10:00), night-shift type reel (8 Dec 10:00). Stories left out.
+- Flag: two After hours tiles back to back (20 and 23 Nov), same product and same cover world. Breaks service rotation; move Term to 23 Nov or put a non-automation tile between them.
+- Flag: Kora Dental (3 Dec) opens on "this booking came in at 21:47", the same time and premise as After hours. Three of eight tiles are about "after hours" (After hours x2, Kora) plus the night-shift reel makes four. Change Kora's hook time and lead with the clinic, or swap it for a web or social tile.
+- Flag: the type study carousel and the night-shift reel are both set for 8 Dec at 10:00 in Metricool (both drafts). One needs another slot.
+- Rotation: 05/06 automation and agents appear in four of eight tiles; 02 web and 07 social have no tile of their own (only inside What we do).
+- Covers and dark/light balance: Buffer covers are dark (After hours silhouette, Term dark slide); Metricool draft covers were not opened from here, so balance per row wasn't checked.

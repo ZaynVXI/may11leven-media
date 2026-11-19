@@ -1,0 +1,51 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>
+@font-face{font-family:Atk;src:url(../../../fonts/library/atkinsonhyperlegiblenext/AtkinsonHyperlegibleNext[wght].ttf)}
+@font-face{font-family:GMono;src:url(../../../fonts/library/geistmono/GeistMono[wght].ttf)}
+*{box-sizing:border-box;margin:0;padding:0}
+body{width:1080px;height:1350px;background:#120F17;font-family:Atk;color:#F3EEF8;overflow:hidden;position:relative}
+.aura{position:absolute;inset:0;background:
+ radial-gradient(520px 460px at 30% 30%,#8A6CC0 0%,transparent 70%),
+ radial-gradient(600px 520px at 75% 70%,#5B3F8C 0%,transparent 70%),
+ radial-gradient(400px 300px at 80% 20%,#C77B4A 0%,transparent 70%);filter:blur(60px);opacity:.9}
+.panel{position:absolute;left:90px;top:90px;width:900px;height:1170px;border-radius:64px;background:rgba(255,255,255,.06);backdrop-filter:blur(40px);border:1px solid rgba(255,255,255,.12)}
+.card{position:absolute;left:280px;top:200px;width:520px;border-radius:36px;background:rgba(28,24,36,.85);padding:32px;box-shadow:0 30px 60px rgba(0,0,0,.5)}
+.row{display:flex;justify-content:space-between;align-items:center}
+.lab{font-size:20px;color:#9C93A8}
+.mono{font-family:GMono;font-size:18px;color:#9C93A8}
+.amt{font-size:64px;font-weight:700;margin:18px 0 22px}
+.who{display:flex;gap:16px;align-items:center;padding:16px;border-radius:20px;background:rgba(255,255,255,.05)}
+.av{width:56px;height:56px;border-radius:28px;background:#8A6CC0;display:grid;place-items:center;font-weight:700}
+.name{font-size:24px;font-weight:700;letter-spacing:.02em}
+.q{font-size:20px;margin:22px 0 16px;color:#C9C1D4}
+.btns{display:flex;gap:12px}
+.b{flex:1;height:64px;border-radius:32px;display:grid;place-items:center;font-size:20px;font-weight:700}
+.no{border:1px solid rgba(255,255,255,.2);color:#C9C1D4}
+.yes{background:linear-gradient(90deg,#8A6CC0,#C77B4A);color:#fff}
+.title{position:absolute;top:720px;width:100%;text-align:center;font-size:44px;font-weight:700}
+.cap{position:absolute;top:784px;width:100%;text-align:center;font-size:18px;color:#8C8398;line-height:1.5}
+.strip{position:absolute;top:930px;left:150px;display:flex;gap:20px}
+.t{width:180px}
+.tile{height:180px;border-radius:28px;background:rgba(28,24,36,.85);display:grid;place-items:center}
+.tn{margin-top:12px;text-align:center;font-family:GMono;font-size:16px;color:#8C8398}
+.ring{width:72px;height:72px;border-radius:50%;border:5px solid rgba(255,255,255,.15);border-top-color:#8A6CC0}
+</style></head><body>
+<div class="aura"></div>
+<div class="panel"></div>
+<div class="card">
+ <div class="row"><span class="lab">Send money</span><span class="mono">2 / 2</span></div>
+ <div class="amt">KES 2,500</div>
+ <div class="who"><div class="av">WM</div><div><div class="name">WANJIKU MWANGI</div><div class="mono">0712 ••• 448</div></div></div>
+ <div class="q">Is this the right person?</div>
+ <div class="btns"><div class="b no">Not them</div><div class="b yes">Yes, send</div></div>
+</div>
+<div class="title">Name check</div>
+<div class="cap">Interaction study · Practice (12)<br>Tuma, a concept for sending money in Kenya<br>Shown before every payment</div>
+<div class="strip">
+ <div class="t"><div class="tile"><div class="av">WM</div></div><div class="tn">01</div></div>
+ <div class="t"><div class="tile"><div class="ring"></div></div><div class="tn">02</div></div>
+ <div class="t"><div class="tile" style="font-size:40px">✓</div><div class="tn">03</div></div>
+ <div class="t"><div class="tile" style="font-size:40px">×</div><div class="tn">04</div></div>
+</div>
+</body></html>
