@@ -41,12 +41,12 @@ Shoot planning tools are plentiful worldwide. A 2026 roundup lists Storyflow (mo
 ### Scores (same six criteria as earlier rounds, 1–5)
 | Idea | Reach | Evidence | Our edge | Services | Working tool | Fresh | **Total /30** |
 |---|---|---|---|---|---|---|---|
-| **Scout** | 4 | 4 | 5 | 5 | 3 | 5 | **26** |
+| **Scout** | 4 | 4 | 5 | 5 | 3 | 4 | **25** |
 | Brief | 4 | 3 | 5 | 4 | 3 | 4 | 23 |
 | Colour from a place | 3 | 2 | 5 | 4 | 4 | 5 | 23 |
 | Fair | 4 | 4 | 2 | 3 | 3 | 4 | 20 |
 
-"Our edge" for Scout and Colour from a place counts the founder's own photography and our design work; that creators would trust a tool because of it is a hypothesis (Codex review). At 3 instead of 5, Scout drops to 24. Scores are judgement, not customer evidence; none of these has been tested with real creators yet.
+"Our edge" for Scout and Colour from a place counts the founder's own photography and our design work; that creators would trust a tool because of it is a hypothesis (Codex review). At 3 instead of 5, Scout drops to 23, level with Brief and Colour from a place. Scout's "Fresh" is 4, not 5, until Africa-focused platforms such as StreetCreator are checked. Scores are judgement, not customer evidence; none of these has been tested with real creators yet.
 
 ### Think-outside-the-box notes
 - The light window is the hook nobody uses: "Nairobi gives you 25 minutes. Plan them." That's a post, a product feature and a free tool in one.
