@@ -1,0 +1,4 @@
+WARN: s2.jpg: check spelling ['colours']
+WARN: s4.jpg: check spelling ['paybill', 'schoo']
+WARN: s6.jpg: check spelling ['paybill']
+WARN: s8.jpg: check spelling ['apps']

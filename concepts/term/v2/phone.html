@@ -1,0 +1,106 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><style>
+@font-face{font-family:G;font-weight:100 900;src:url(../../../brand/fonts/library/geist/Geist[wght].ttf)}
+@font-face{font-family:PM;src:url(../../../brand/fonts/PlexMono.ttf)}
+/* Term tokens: graphite app, uniform colours per child, chalk yellow only for "covered" */
+:root{--bg:#141518;--card:#1E2024;--ink:#F3F1EA;--ink2:#9B9890;--rule:rgba(243,241,234,.08);--maroon:#7E2433;--maroon2:#B4435A;--green:#1F5A3C;--green2:#3E8C62;--chalk:#F1E6A6;--chalk2:#3B3720}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:432px;height:964px;background:transparent;font-family:G;color:var(--ink);-webkit-font-smoothing:antialiased;overflow:hidden;font-feature-settings:"tnum" 1}
+#scr{position:absolute;inset:0;background:var(--bg);border-radius:26px;overflow:hidden}
+#off{position:absolute;inset:0;background:#050506;border-radius:26px;pointer-events:none;z-index:9}
+.sb{position:absolute;left:0;right:0;top:0;height:40px;display:flex;align-items:center;justify-content:space-between;padding:0 22px;font:600 14px G}
+.hd{position:absolute;left:18px;right:18px;top:52px;display:flex;justify-content:space-between;align-items:center}
+.hi{font:400 13px G;color:var(--ink2)}.hn{font:600 21px/1.2 G;letter-spacing:-.02em;margin-top:3px}
+.me{position:relative;width:40px;height:40px;border-radius:50%;background:#2A2C31;display:flex;align-items:center;justify-content:center;font:600 14px G;color:var(--ink)}
+.me i{position:absolute;right:-1px;top:-1px;width:12px;height:12px;border-radius:50%;background:var(--chalk);border:2.5px solid var(--bg)}
+/* family strip: r20 p14 -> bar r6 */
+.fam{position:absolute;left:14px;right:14px;top:118px;background:var(--card);border:1px solid var(--rule);border-radius:20px;padding:14px 16px}
+.fl{display:flex;justify-content:space-between;align-items:baseline}
+.ft{font:400 12px PM;letter-spacing:.05em;text-transform:uppercase;color:var(--ink2)}
+.fv{font:500 15px G}
+.bar{margin-top:10px;height:8px;border-radius:6px;background:#2A2C31;display:flex;gap:3px;overflow:hidden}
+.bar b{display:block;height:100%;border-radius:6px}
+/* child cards: r28 p18, ruled lines like an exercise book */
+.cc{position:absolute;left:14px;right:14px;border-radius:28px;padding:18px;overflow:hidden}
+.cc::before{content:"";position:absolute;inset:0;background-image:repeating-linear-gradient(transparent 0 27px,rgba(255,255,255,.07) 27px 28px);pointer-events:none}
+.cc::after{content:"";position:absolute;inset:0;border-radius:28px;box-shadow:inset 0 1px 0 rgba(255,255,255,.18);pointer-events:none}
+.f2{top:204px;height:286px;background:radial-gradient(120% 90% at 85% 0%,var(--maroon2),var(--maroon) 55%,#4A1420);box-shadow:0 18px 40px rgba(126,36,51,.35)}
+.g5{top:502px;height:164px;background:radial-gradient(120% 90% at 85% 0%,var(--green2),var(--green) 55%,#123824);box-shadow:0 18px 40px rgba(31,90,60,.32)}
+.cl{position:relative;display:flex;justify-content:space-between;font:400 11.5px PM;letter-spacing:.06em;text-transform:uppercase;color:rgba(243,241,234,.7)}
+.amt{position:relative;margin-top:62px;font:500 44px/1 G;letter-spacing:-.035em;display:flex;align-items:baseline;gap:8px}
+.amt small{font:500 16px G;letter-spacing:0;color:rgba(243,241,234,.75)}
+.digits{position:relative;display:inline-block;height:44px;overflow:hidden}
+.digits span{display:block}
+.sub{position:relative;margin-top:8px;font:400 14px G;color:rgba(243,241,234,.78)}
+.track{position:relative;margin-top:22px;height:3px;border-radius:2px;background:rgba(243,241,234,.18)}
+.track b{position:absolute;left:0;top:0;bottom:0;border-radius:2px;background:var(--ink)}
+.track i{position:absolute;top:50%;width:12px;height:12px;margin:-6px 0 0 -6px;border-radius:50%;background:var(--ink);box-shadow:0 0 0 4px rgba(243,241,234,.22)}
+.chip{position:relative;display:inline-flex;align-items:center;gap:8px;margin-top:22px;font:500 11.5px PM;letter-spacing:.05em;text-transform:uppercase;border-radius:999px;padding:8px 12px 8px 10px}
+.chip i{width:8px;height:8px;border-radius:50%}
+.on{background:rgba(243,241,234,.14);color:var(--ink)}.on i{background:var(--ink);box-shadow:0 0 0 3px rgba(243,241,234,.18)}
+.cov{background:var(--chalk);color:#3B3418}.cov i{background:#6A5A12;box-shadow:0 0 0 3px rgba(106,90,18,.2)}
+.g5 .amt{margin-top:26px;font-size:34px}
+.act{position:absolute;left:14px;right:14px;bottom:26px;display:flex;gap:10px}
+.pay{flex:1;height:54px;border-radius:999px;background:var(--ink);color:var(--bg);display:flex;align-items:center;justify-content:space-between;padding:0 6px 0 20px;font:600 15px G}
+.pay b{width:42px;height:42px;border-radius:50%;background:rgba(20,21,24,.1);display:flex;align-items:center;justify-content:center}
+.add{width:54px;height:54px;border-radius:50%;border:1.5px dashed rgba(243,241,234,.35);display:flex;align-items:center;justify-content:center;color:var(--ink2);font:300 26px G}
+.nx{position:absolute;left:14px;right:14px;top:680px;background:var(--card);border:1px solid var(--rule);border-radius:20px;padding:12px;display:flex;gap:12px;align-items:center}
+.nxi{width:40px;height:40px;border-radius:10px;background:#2A2C31;display:flex;align-items:center;justify-content:center}
+.nx1{font:500 14px G}.nx2{font:400 12.5px G;color:var(--ink2);margin-top:2px}
+.nxt{margin-left:auto;width:44px;height:26px;border-radius:999px;background:var(--ink);padding:3px;display:flex;justify-content:flex-end}.nxt i{width:20px;height:20px;border-radius:50%;background:var(--bg);display:block}
+/* notification: r22 p12 -> icon r10 */
+#nt{position:absolute;left:10px;right:10px;top:8px;background:rgba(40,42,47,.985);border:1px solid rgba(255,255,255,.08);border-radius:22px;padding:12px;display:flex;gap:12px;align-items:center;box-shadow:0 16px 36px rgba(0,0,0,.45);z-index:5}
+#nt .ic{width:38px;height:38px;border-radius:10px;background:var(--maroon);display:flex;align-items:center;justify-content:center;font:700 16px G}
+#nt .t1{font:600 13px G}#nt .t2{font:400 13px/1.3 G;color:#C9C6BE;margin-top:2px}
+#nt .tm{margin-left:auto;align-self:flex-start;font:400 11px G;color:var(--ink2)}
+</style></head><body>
+<div id="scr">
+  <div class="sb"><span>18:01</span><span style="display:flex;gap:6px;align-items:center"><svg width="17" height="11" viewBox="0 0 17 11"><rect x="0" y="7" width="3" height="4" rx="1" fill="#F3F1EA"/><rect x="4.5" y="5" width="3" height="6" rx="1" fill="#F3F1EA"/><rect x="9" y="2.5" width="3" height="8.5" rx="1" fill="#F3F1EA"/><rect x="13.5" y="0" width="3" height="11" rx="1" fill="#F3F1EA"/></svg><svg width="25" height="12" viewBox="0 0 25 12"><rect x=".5" y=".5" width="21" height="11" rx="3" fill="none" stroke="#F3F1EA" opacity=".4"/><rect x="2" y="2" width="12" height="8" rx="1.6" fill="#F3F1EA"/></svg></span></div>
+  <div class="hd"><div><div class="hi">Friday evening</div><div class="hn">Term 1 · two children</div></div><div class="me">W<i></i></div></div>
+  <div class="fam"><div class="fl"><span class="ft">Set aside</span><span class="fv"><span id="fam">KES 40,450</span> <span style="color:var(--ink2)">of 46,400</span></span></div>
+    <div class="bar"><b id="bm" style="background:var(--maroon2);width:46%"></b><b style="background:var(--green2);width:41%"></b></div></div>
+  <div class="cc f2">
+    <div class="cl"><span>Form 2 · Term 1</span><span>Locked for school</span></div>
+    <div class="amt"><small>KES</small><span class="digits" id="dg"><span id="d0">21,550</span><span id="d1">22,300</span></span></div>
+    <div class="sub" id="f2s">of 27,500 · KES 5,950 to go</div>
+    <div class="track"><b id="tb" style="width:78.4%"></b><i id="ti" style="left:78.4%"></i></div>
+    <div class="chip on"><i></i><span id="fr">On track · 8 Fridays left</span></div>
+  </div>
+  <div class="cc g5">
+    <div class="cl"><span>Grade 5 · Term 1</span><span>School paid</span></div>
+    <div class="amt"><small>KES</small>18,900</div>
+    <div class="chip cov" id="cv"><i></i>Covered</div>
+  </div>
+  <div class="nx"><div class="nxi"><svg width="16" height="16" viewBox="0 0 16 16"><rect x="2" y="3" width="12" height="11" rx="2.5" fill="none" stroke="#F3F1EA" stroke-width="1.3"/><path d="M2 6.5h12M5.5 1.5v3M10.5 1.5v3" stroke="#F3F1EA" stroke-width="1.3" stroke-linecap="round"/></svg></div><div><div class="nx1">Next Friday, 18:00</div><div class="nx2">KES 750 from M-Pesa to Form 2</div></div><div class="nxt"><i></i></div></div>
+  <div class="act"><div class="pay">Pay a school<b><svg width="14" height="14" viewBox="0 0 12 12"><path d="M2 6h8M6.5 2.5 10 6l-3.5 3.5" stroke="#141518" stroke-width="1.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg></b></div><div class="add">+</div></div>
+  <div id="nt"><div class="ic">T</div><div><div class="t1">KES 750 saved for Form 2</div><div class="t2">From M-Pesa, this Friday. 7 Fridays to go.</div></div><div class="tm">now</div></div>
+</div>
+<div id="off"></div>
+<script>
+const cl=x=>Math.max(0,Math.min(1,x)), eo=x=>1-Math.pow(1-cl(x),3), io=x=>{x=cl(x);return x<.5?4*x*x*x:1-Math.pow(-2*x+2,3)/2};
+const $=id=>document.getElementById(id), D=8;
+function render(t){
+  t=((t%D)+D)%D;
+  // screen wakes 0-0.5, sleeps 7.3-8 (the loop's cause: parent checks the phone, then puts it down)
+  $('off').style.opacity = t<.5 ? 1-eo(t/.5) : t>7.3 ? io((t-7.3)/.6) : 0;
+  // notification drops in 0.9, leaves 5.6
+  const nIn=eo((t-.9)/.45), nOut=io((t-5.6)/.4), n=nIn*(1-nOut);
+  $('nt').style.transform=`translateY(${-90*(1-n)}px) scale(${.96+.04*n})`; $('nt').style.opacity=n;
+  // money lands 1.7-2.4: digits roll up, line grows, Fridays count down
+  const p=io((t-1.7)/.7);
+  $('d0').style.transform=$('d1').style.transform=`translateY(${-44*p}px)`;
+  $('d0').style.opacity=1-p; $('d1').style.opacity=p; $('d0').style.filter=`blur(${3*p}px)`; $('d1').style.filter=`blur(${3*(1-p)}px)`;
+  const w=78.4+(81.1-78.4)*p; $('tb').style.width=w+'%'; $('ti').style.left=w+'%';
+  $('f2s').textContent = p<.5 ? 'of 27,500 · KES 5,950 to go' : 'of 27,500 · KES 5,200 to go';
+  $('fr').textContent  = p<.5 ? 'On track · 8 Fridays left' : 'On track · 7 Fridays left';
+  const fp=io((t-2.0)/.6); $('fam').textContent = fp<.5 ? 'KES 40,450' : 'KES 41,200'; $('bm').style.width=(46+2*fp)+'%';
+  // dot pulse after landing
+  const pu=Math.max(0,Math.sin(cl((t-2.4)/.8)*Math.PI)); $('ti').style.boxShadow=`0 0 0 ${4+8*pu}px rgba(243,241,234,${.22-.12*pu})`;
+}
+function extra(t){t=((t%D)+D)%D;
+  const g=Math.max(0,Math.sin(Math.max(0,Math.min(1,(t-4.2)/1.0))*Math.PI));
+  $('cv').style.boxShadow=`0 0 ${18*g}px ${3*g}px rgba(241,230,166,${.55*g})`;
+  const k=Math.max(0,Math.sin(Math.max(0,Math.min(1,(t-5.9)/0.9))*Math.PI));
+  document.getElementById('bm').style.filter=`brightness(${1+.35*k})`;document.getElementById('bm').nextElementSibling.style.filter=`brightness(${1+.35*Math.max(0,Math.sin(Math.max(0,Math.min(1,(t-6.15)/0.9))*Math.PI))})`;}
+const _r=render; render=function(t){_r(t);extra(t)};
+window.render=render;render(0);
+</script></body></html>
