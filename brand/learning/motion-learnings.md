@@ -37,3 +37,6 @@ Zayn pointed out PXDX's hands are completely black. Hero rule: the hand is a sil
 
 ## Never repeat a hero (Zayn, 19 Nov)
 "Don't keep using the same hand for all products... I hate when everything looks the same." I reused the After hours silhouette hand for Term and called it a signature. That was wrong: a technique can repeat, a presentation can't. Before building a hero, check the ledger in `brand/learning/hero-ledger.md`, pick a presentation no other product in the last 12 posts used, and take the prop from the product's own world (Lebedev's colour-matched prop, Holographik's phone on ore, .raw's laptop on stone, Motto's type-led covers).
+
+## Upgrade what hasn't shipped (Zayn, 19 Nov)
+Whenever a skill or learning note is updated, go back over every piece not yet released (scheduled posts, drafts, concepts) and apply the upgrade where it fits. If a scheduled post changes, re-upload with commit-pinned URLs and edit the Buffer post before its slot. Log what changed in this file.
