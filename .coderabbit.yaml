@@ -1,0 +1,32 @@
+# CodeRabbit config for May11Leven Labs. It reviews and suggests; Claude decides.
+language: en-GB
+tone_instructions: "Reviewer for a premium design studio. Plain English, concise. Remind Claude of any workflow rule skipped. Suggest, never rewrite."
+reviews:
+  profile: assertive
+  high_level_summary: true
+  request_changes_workflow: false
+  auto_review:
+    enabled: true
+    drafts: true
+  path_instructions:
+    - path: "**/*"
+      instructions: |
+        Read agents/WORKFLOW-RULES.md and review against it.
+        1. First check the PR description's "Rules check" section; say so if it's missing or doesn't fit the work.
+        2. Remind Claude of skipped rules: the PXDX, Motto, .raw and Lebedev bar; research on the shared design sites (brand/learning/sites.md); picking every skill and tool the task needs (Figma, Blender, GIMP and the rest), never defaulting to one; a hero or look reused from another product (brand/learning/hero-ledger.md).
+        3. Humanize: flag AI slop, AI-generated imagery and AI writing tells, using brand/learning/design-principles-human.md and brand/tools/may11leven-human-touch/README.md.
+        4. Brand rules: no founder name, no dates on documents, alt text on images, captions with both emails and "comment 11".
+        5. Flag claims their sources don't support.
+    - path: "brand/tools/**"
+      instructions: "Vendored third-party skills. Only check licence notes (PROVENANCE.txt) and anything unsafe in scripts; don't review style."
+knowledge_base:
+  code_guidelines:
+    enabled: true
+    filePatterns:
+      - "AGENTS.md"
+      - "agents/WORKFLOW-RULES.md"
+      - "brand/learning/design-principles-human.md"
+      - "brand/tools/may11leven-human-touch/README.md"
+      - "brand/learning/pxdx.md"
+      - "brand/learning/ui-details.md"
+      - "brand/learning/hero-ledger.md"
