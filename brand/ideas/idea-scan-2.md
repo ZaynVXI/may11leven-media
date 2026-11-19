@@ -10,16 +10,16 @@ Research only. Nothing here is built or posted until Zayn decides. Zayn's brief:
 ## Part 1: Nod, deeper
 
 ### What's new since the first round
-- **Another fine, this time over a purpose change.** In August 2026 Kenya's regulator ordered Mukumu Girls to pay KES 300,000. The school had a pupil's admission photo from 2020 and gave it to a newspaper during a 2023 health crisis without her parent's consent. The rule: a photo collected for one purpose (admission) can't be used for another (the press) without consent (The Standard, Aug 2026). This is exactly what Nod's per-purpose consent prevents.
-- **Schools are already told what to build; nobody has built it simply.** A Kenyan school compliance guide recommends detailed photo consent forms naming the platforms and how long images are kept, partial consent ("some but not all uses"), immediate withdrawal, event-specific tracking, a "photo consent database with easy lookup", and coloured wristbands at events. It warns against blanket consent (Lakesite School guide). That's Nod's school flow, written by the sector itself.
+- **Another fine, this time over a purpose change.** In August 2026 Kenya's regulator ordered Mukumu Girls to pay KES 300,000. The school had a pupil's admission photo from 2020 and gave it to a newspaper during a 2023 health crisis without her parent's consent. In this case the regulator found the new use incompatible with the original purpose and found no parental consent (The Standard, Aug 2026). That doesn't mean every new purpose always needs consent; the law allows other lawful bases. It's the kind of mistake Nod's per-purpose consent is designed to prevent, as our stricter product policy.
+- **Schools are already told what to build.** (Whether nobody has built it simply is our hypothesis, not a finding: FairConsent already offers organisation-wide consent management with usage scopes and withdrawal tracking, per Codex's review.) A Kenyan school compliance guide recommends detailed photo consent forms naming the platforms and how long images are kept, partial consent ("some but not all uses"), immediate withdrawal, event-specific tracking, a "photo consent database with easy lookup", and coloured wristbands at events. It warns against blanket consent (Lakesite School guide; the page returned 404 when CodeRabbit checked it, so treat it as unverified and rely on the ODPC education guidance cited in next-product-research.md, which makes the same core points). That's close to Nod's school flow.
 - **What works at events: one opt-out signal, not three colours.** The organiser of the Abstractions conference found three-colour lanyards wasteful and hard to see, and people stopped wearing them. A single fluorescent green "don't photograph me" wristband, self-serve, cost about $42 for 1,500 and is easy to spot in the viewfinder (Medium, Leaky Abstractions). Nod's physical piece should be one bright opt-out band or sticker, not a colour system. It's a good 3D and packaging piece for us too.
 
 ### Competitors and price anchors
 | Product | What it does | Price | Gap Nod fills |
 |---|---|---|---|
-| FairConsent | Consent app for photographers, filmmakers, NGOs | $29–99 a month | Built for shoots, not for a venue's or school's ongoing marketing |
-| SpotMyPhotos | Event photo delivery by QR or link | $142–295 a month | Delivery, not consent to publish; priced for event companies |
-| Premagic | Event photo matching and delivery | not checked | Same as above (see next-product-research.md) |
+| FairConsent | Consent app for photographers, filmmakers, NGOs; organisation-wide consent management | Unclear: one pricing page shows $29–99 plans whose features read like a chatbot tool; Codex reports Teams €10 and Business €320 a month on another page (not verified by us) | Closer to Nod than we first thought; our gap is venue and school workflows, WhatsApp-first, East African pricing (hypothesis) |
+| SpotMyPhotos | Event photo delivery by QR or link | Pro $195 a month (or $142 a month billed annually at $1,699); Pro Plus $295 a month (or $208 billed annually) | Delivery, not consent to publish; priced for event companies |
+| Premagic | Event photo matching and delivery (features unverified by us; see next-product-research.md) | not checked | Same as above (see next-product-research.md) |
 | Nairobi social media management | What a venue already pays an agency | KES 25,000–35,000 a month for basic, KES 50,000–150,000 mid-tier (siit.co, 2026) | Nod can sit inside that retainer as the consent layer |
 
 **Pricing hypothesis (to test, not assume):** Nod as an add-on to social media management, about 10% of a basic retainer (roughly KES 2,500–3,500 a month), or free inside our own content retainers as a differentiator. Schools: per term, priced against the cost of one complaint.
@@ -28,6 +28,7 @@ Research only. Nothing here is built or posted until Zayn decides. Zayn's brief:
 Three printed pages and one wristband, shown to five owners (a lounge, a salon, a gym, a private school, an event host):
 1. **The table or mirror card.** "Photos tonight? We post on Instagram for 30 days. Say yes, or wear the green band." QR to a one-screen consent page.
 2. **The consent page.** Who's asking, which purpose (tonight's Instagram / our website / print), how long it's kept, how to withdraw. Three buttons: yes to all, choose, not me.
+   - **School version:** the parent, not the child, gives consent. A parent page reached by WhatsApp at the start of term: the child's name and class, each use listed separately (school website, Instagram, prospectus, press), how long, how to withdraw, and the parent's confirmation.
 3. **The owner's view.** Tonight's photos with faces marked yes, not asked, not me; "not me" and "not asked" blurred; one button: send the yes-photos to the social media manager.
 
 Questions to ask each owner: Would you put this on your tables? What would stop you? Who would pay, you or your agency? What's it worth a month? Would guests scan it?
@@ -46,8 +47,8 @@ We looked for problems that are trending now, have hard evidence, and are solved
 - **Risk:** crowded with tool vendors; we must sell craft and outcomes, not a scanner. We give no legal advice.
 
 ### B. Receipt: an eTIMS-ready expense assistant for Kenyan small businesses
-- **The problem.** From 1 January 2026 the Kenya Revenue Authority checks tax returns against its own data. Only expenses backed by eTIMS invoices with the buyer's PIN are allowed, so other costs are disallowed, which raises taxable income and can bring penalties (BDO, 2026). BDO names "system and capacity gaps affecting small traders" as a risk.
-- **Product.** A WhatsApp agent: the owner forwards a receipt photo; the agent reads it, checks whether it's an eTIMS invoice with their PIN, flags the ones that aren't so the owner can ask the supplier for a proper invoice, and keeps a month-end list for the accountant.
+- **The problem.** From 1 January 2026 the Kenya Revenue Authority checks tax returns against its own data. Expenses must be backed by eTIMS invoices with the buyer's PIN to be allowed, except listed categories such as employee pay, imports, interest, airline tickets, bank fees and payments under final withholding tax. Non-exempt expenses without eTIMS support are disallowed, which raises taxable income and can bring penalties (BDO, 2026). BDO names "system and capacity gaps affecting small traders" as a risk.
+- **Product.** A WhatsApp agent: the owner forwards a receipt photo; the agent reads it, skips exempt categories, checks whether the rest are eTIMS invoices with their PIN, flags the ones that aren't so the owner can ask the supplier for a proper invoice, and keeps a month-end list for the accountant.
 - **Services:** AI agent, AI automation, app or web dashboard, brand. **Risk:** tax software players and KRA's own tools; we must never give tax advice; it needs accounting partners.
 
 ### C. Encore: a direct-to-fan kit for independent African artists (creative industry)
@@ -61,12 +62,12 @@ We looked for problems that are trending now, have hard evidence, and are solved
 - **Risk:** crowded (many ordering SaaS tools); we'd win on brand and design, not software.
 
 ### E. Found: being visible when search answers for you
-- **The problem.** Pew found users clicked a result 8% of the time when Google showed an AI summary, against 15% without one, and only 1% clicked a source inside the summary (Pew, July 2025, via Whole Whale).
+- **The problem.** In a study of Google searches by 900 US adults in March 2025, Pew found users clicked a result 8% of the time when Google showed an AI summary, against 15% without one, and only 1% clicked a source inside the summary (Pew, July 2025, via Whole Whale). It's US data; we have no equivalent for our markets yet.
 - **Product.** Sites rebuilt so AI search can read and cite them (structure, schema, clear answers), with monitoring. Our ai-seo skill covers the method.
 - **Risk:** every SEO agency now sells this; better as part of every website we build than as a product.
 
 ### F. Proof: human-made provenance for creatives and brands
-- **The problem.** From 2 August 2026 the EU AI Act's transparency rules require disclosure of AI-generated or manipulated deepfakes, and providers must machine-mark synthetic media, with fines up to €15M or 3% of turnover (Cooley, Aug 2026). As AI labels spread, proof that work is human-made becomes a selling point for photographers, illustrators and studios.
+- **The problem.** From 2 August 2026 the EU AI Act's transparency rules require disclosure of AI-generated or manipulated deepfakes, and providers must machine-mark synthetic media, with fines up to €15M or 3% of worldwide annual turnover, whichever is higher (Cooley, Aug 2026). As AI labels spread, proof that work is human-made becomes a selling point for photographers, illustrators and studios.
 - **Product.** A Content Credentials workflow and public "how this was made" pages for creatives and brands. Fits our own no-AI-imagery stance and the founder's photography background.
 - **Risk:** demand evidence is thin; platform support for Content Credentials is patchy. Watch, don't build yet.
 
@@ -81,14 +82,19 @@ We looked for problems that are trending now, have hard evidence, and are solved
 | F Proof | 4 | 3 | 4 | 3 | 3 | 5 | 22 |
 | D Direct | 4 | 4 | 2 | 5 | 2 | 3 | 20 |
 
+**How sure are these scores?** Not very. Neither idea has any customer or willingness-to-pay evidence. Ally's 5 for "our edge" rests on an untested premium gap (design-led accessible rebuilds instead of overlays); at 3, Ally ties Nod at 26. Ally could fail if most reachable shops are micro-enterprises exempt from the law, or if buyers won't pay for manual fixes beyond automated checks. Nod could fail if venues or guests won't use the flow, or if FairConsent and similar tools are good enough (Codex and CodeRabbit reviews).
+
 ### What this suggests (for Zayn to decide)
-- **Ally is the strongest new idea**, and it's different in kind: a service with a working tool we can run for real today, in the founder's own market (Austria and the EU), aimed at clients who pay in euros. It also feeds Africa-first work: every site we build becomes accessible by default.
+- **Ally is the cheaper first test, not proven stronger**, and it's different in kind: a service with a working tool we can run for real today, in the founder's own market (Austria and the EU), aimed at clients who pay in euros. It also feeds Africa-first work: every site we build becomes accessible by default.
 - **Nod stays the strongest product concept** for East Africa, and its first test is cheap.
 - A sensible order: run Ally's free first-look audit as our offer now (no build needed beyond the report), test Nod on paper with five owners, and keep Receipt and Encore in the bank.
 
+## Reviewer suggestions not yet researched
+CodeRabbit proposed two more areas (unverified by us): late payments for construction vendors (an invoice-status and reminder workflow) and size-and-fit returns for independent apparel brands (clearer sizing and product information). Both go in the bank for the next round.
+
 ## Sources
 - The Standard, Mukumu Girls KES 300,000 (Aug 2026): https://www.standardmedia.co.ke/crime-and-justice/article/2001555903/mukumu-girls-fined-sh300000-for-sharing-minors-photo-without-consent
-- Lakesite School, data protection compliance guide: https://lakesiteschool.sc.ke/ls/dataProtection/
+- Lakesite School, data protection compliance guide (returned 404 when rechecked; unverified): https://lakesiteschool.sc.ke/ls/dataProtection/
 - Leaky Abstractions, event photography opt-out: https://medium.com/leaky-abstractions/effective-photography-opt-out-policies-for-events-ad58f9dafe71
 - FairConsent pricing: https://consent.fairpicture.org/pricing-02
 - SpotMyPhotos pricing: https://www.spotmyphotos.com/pricing/
@@ -100,5 +106,6 @@ We looked for problems that are trending now, have hard evidence, and are solved
 - Techloy, African artists and streaming (Sept 2025): https://www.techloy.com/do-african-musicians-actually-make-money-from-spotify-apple-music-and-youtube/
 - Khaleej Times, delivery share in UAE (Oct 2026): https://www.khaleejtimes.com/business-technology-review/delivery-takes-a-bigger-bite-of-the-uae-restaurant-business
 - Argaam, Saudi delivery apps and GAC (Jan 2026): https://www.argaam.com/en/article/articledetail/id/1875921
+- Pew Research Center, AI summaries and clicks (July 2025): https://www.pewresearch.org/short-reads/2025/07/22/google-users-are-less-likely-to-click-on-links-when-an-ai-summary-appears-in-the-results/
 - Whole Whale on Pew AI Overviews study: https://wholewhale.com/tips/googles-gaslighting-pew-research-confirms-what-seos-already-know-about-ai-overviews/
 - Cooley, EU AI Act Article 50 (Aug 2026): https://cooley.com/news/insight/2026/2026-08-03-eu-ai-act-transparency-obligations-take-effect-2-august-2026
