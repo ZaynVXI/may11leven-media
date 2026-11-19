@@ -17,3 +17,7 @@ One principle per study session. Each one is a rule we can check on a frame, not
 4. **Show the number people would have to ask for.** Most Kigali listings say "From 374,000,000 RWF, check brochure" (The ONE Residence, plutproperties.com). The minimal page isn't the one with the least on it; it's the one that answers the question without a call. Holographik's price ladder (holographik-13) shows eleven values and stays calm because they are one size, one face, and only one is lifted.
    - Check: what would a user have to message you to find out? If it's a price, a slot or a status, put it on the first screen and cut something decorative to make room.
    - Ours: Ikiyaga (practice) lists all eleven flats with prices; status is tone plus a strike-through, not three coloured pills.
+
+5. **Let the sentence be the grid.** On Motto's shelf, the Offporter site (picked by Browsing Mode as Site of the Week) has no hero image at all: its one-line promise is split word by word across sixteen numbered columns, I. to XVI., with empty space above and below. The copy is the layout. When a page feels like it needs more elements, first try spreading the one sentence that matters across the structure.
+   - Check: can the frame be explained by one sentence that is also visible on it? If the layout needs a second paragraph to fill space, the grid is wrong, not the copy.
+   - Ours: a lodge homepage where the three things a late guest needs (shuttle · check-in · price) sit as numbered columns across the fold, before any photo.
