@@ -111,9 +111,9 @@ Codex reviewed the first pass and raised five points. All checked against the so
 4. Public copy said "one Instagram post"; the sources say social media (the case summary lists Instagram, Facebook and WhatsApp). Fixed.
 5. The 29/30 score overstated the case: the complaint totals cover all data protection, not photo consent, and Nigeria's notices targeted finance, insurance and gaming. Nod rescored to 26 (reach 4, evidence 4, working tool 3). It still leads, but narrowly, so the decision rests on a real-world test, not the score.
 
-Codex's alternative, bank-fraud defence, is real: Kenyan banks lost KES 1.9bn to fraud in 2025 (KES 1.59bn in 2024), 385 cases, and recovered only about 6% of the money exposed (CBK via TechTrends, Nov 2026). It scores lower for us as a studio concept: the buyer is a bank with long procurement and its own security vendors, and our earlier consumer scam-checker mockup tested 0/10. Kept on the shortlist as the consumer-education angle (our Check idea), built only as a working tool.
+Codex's alternative, bank-fraud defence, is real: Kenyan banks lost KES 1.9bn to fraud in 2025 (KES 1.59bn in 2024), 385 cases, and recovered only about 6% of the money exposed (CBK via TechTrends, Nov 2026). It scores lower for us as a studio concept: the buyer is a bank with long procurement and its own security vendors, and our earlier consumer scam-checker mockup tested 0/10. The CBK figures are losses borne by banks, so they don't prove demand for a consumer checker (Codex review). Consumer-side evidence is thin: the Communications Authority logged 86 fraud and scam complaints in April–June 2026, up 83% on the quarter before, and Interpol estimated KES 491.6M lost to SIM-swap fraud in 2025 (Nation); neither measures fake-SMS losses, which is what Check targets. **Check stays on the list only as an unvalidated hypothesis.**
 
-**The strongest new source (found by Codex):** the ODPC's Guidance Notes for Processing on Publications of Recorded Media (2025). It requires express consent before photographing identifiable people; a consent form separate from registration, naming the organisation, purposes, data, processing, withdrawal right and consequences; notice is not consent; at events, written notices plus clear opt-outs such as a designated area or stickers; images used only for the stated purpose; takedown from social media as soon as possible after withdrawal; a retention schedule with evidence of deletion; and parental consent for children, blurring faces where possible. Hospitality and educational institutions must register with the ODPC whatever their size (ODPC compliance card). This turns Nod from "nice to have" into the regulator's own checklist, and it gives us the product requirements:
+**The strongest new source (found by Codex):** the ODPC's Guidance Notes for Processing on Publications of Recorded Media (2025). Consent is one of several lawful bases it lists (contract, legal obligation, legitimate interest with a balancing test, and others); where a business relies on consent, it must be express. **Nod's consent-first approach is our product policy, stricter than the legal minimum, not a claim that every photo legally needs consent** (Codex review). Where consent is the basis, it requires a consent form separate from registration, naming the organisation, purposes, data, processing, withdrawal right and consequences; notice is not consent; at events, written notices plus clear opt-outs such as a designated area or stickers; images used only for the stated purpose; takedown from social media as soon as possible after withdrawal; a retention schedule with evidence of deletion; and parental consent for children, blurring faces where possible. Hospitality and educational institutions must register with the ODPC whatever their size (ODPC compliance card). This turns Nod from "nice to have" into the regulator's own checklist, and it gives us the product requirements:
 - consent per purpose (tonight's Instagram, the website, a print ad), never a blanket yes
 - an opt-out that works in a dark room: a sticker or wristband, as the guidance itself suggests
 - one-tap withdrawal that triggers takedown tasks on every channel
@@ -123,7 +123,9 @@ Codex's alternative, bank-fraud defence, is real: Kenyan banks lost KES 1.9bn to
 ## Joint shortlist (Claude's proposal, sent to Codex for agreement)
 1. **Nod**, rescoped to the ODPC recorded-media requirements above. First real test: show the scoped consent flow (paper prototype) to five lounge, salon or school owners.
 2. **Lapse**, website and domain watch: our own data, our security edge, easiest to ship as a real tool.
-3. **Check**, consumer fraud defence: real losses (CBK), but only as a working tool, never a mockup.
+3. **Check**, consumer fraud defence: an unvalidated hypothesis. It stays third only if we find consumer-side evidence of fake-SMS losses; otherwise Trace (EUDR passport, firm deadline) takes the slot.
+
+Codex's second review (commit 3995d52) raised no objection to the order; both of its new findings (consent as policy rather than law, Check's evidence) are accepted above.
 
 ## Open before we build
 - Trademark and handle check on the name (founder-brand skill); Nod is a working name.
@@ -132,6 +134,7 @@ Codex's alternative, bank-fraud defence, is real: Kenyan banks lost KES 1.9bn to
 - A real test needs real people; that's Zayn's call.
 
 ## Sources
+- Nation, scam complaints up 83% (CA, Apr–Jun 2026): https://nation.africa/kenya/business/telcos-under-pressure-as-scam-complaints-up-83pc-5548132
 - ODPC Guidance Notes for Processing on Publications of Recorded Media (2025): https://www.odpc.go.ke/wp-content/uploads/2025/11/ODPC-%E2%80%93-GUIDANCE-NOTES-for-Processing-on-Publications-of-Recorded-Media.pdf
 - ODPC compliance card (fees, sectors that must register): https://www.odpc.go.ke/wp-content/uploads/2025/07/Data-Controllers-360-Degrees-Compliance-Requirements.-Z-Card.pdf
 - TechTrends, Kenyan bank fraud 2025 (Nov 2026): https://techtrendske.co.ke/2026/11/06/kenya-banking-fraud-2025/
