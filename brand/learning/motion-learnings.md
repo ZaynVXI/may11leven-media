@@ -34,3 +34,6 @@ For a PXDX-style hero, put the live UI inside a free stock photo of a hand holdi
 
 ## Add to the skill: silhouette hero (Zayn, 19 Nov)
 Zayn pointed out PXDX's hands are completely black. Hero rule: the hand is a silhouette against one shape of soft light from the client's world; only the screen is lit. Draw the phone body as a clean rounded shape (never trust a cut-out's corners), keep rim light very faint, no outline glow.
+
+## Never repeat a hero (Zayn, 19 Nov)
+"Don't keep using the same hand for all products... I hate when everything looks the same." I reused the After hours silhouette hand for Term and called it a signature. That was wrong: a technique can repeat, a presentation can't. Before building a hero, check the ledger in `brand/learning/hero-ledger.md`, pick a presentation no other product in the last 12 posts used, and take the prop from the product's own world (Lebedev's colour-matched prop, Holographik's phone on ore, .raw's laptop on stone, Motto's type-led covers).

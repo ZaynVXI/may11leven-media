@@ -1,7 +1,7 @@
 # Term v2: full carousel (concept)
 
 8 slides in the PXDX structure, our style:
-1. Hero loop `s1-hero.mp4` (8 s): silhouette hand (same free Unsplash cut as After hours, our signature hero) in front of an exercise-book page of light (ruled lines, red margin), the Term home on screen. The screen wakes, Friday's KES 750 lands (21,550 to 22,300), the Fridays count drops 8 to 7, the family total moves 40,450 to 41,200, the Covered chip glows, the phone sleeps. Cover `s1-cover.jpg`.
+1. Hero loop `s1-hero.mp4` (8 s): the phone lies top-down on a folded maroon school jumper, the same uniform maroon as the Form 2 card, under soft window light from the top left; the camera breathes in 2.5% and back. Knit: free Unsplash photo RZrVd3en1Dc, recoloured to maroon; phone body, shadows and light drawn by us (`hero_knit.py`). The screen wakes, Friday's KES 750 lands (21,550 to 22,300), the Fridays count drops 8 to 7, the family total moves 40,450 to 41,200, the Covered chip glows, the phone sleeps. Cover `s1-cover.jpg` (the frame at 3 s, after the money lands). Alt text: "A phone showing the Term app lies on a folded maroon school jumper."
 2. Manifesto `s2.jpg`: what it does; grey line "Seven Fridays to go."; fanned cards in uniform colours; dashed "Add a child".
 3. Split `s3.jpg`: Kenyan classroom (Unsplash, Hennie Stander, GhsQRlwb3sU, no faces) with "January arrives as one bill."; weekly plan card on ruled paper with a "Saved" pill.
 4. Full screen `s4.jpg`: Form 2 detail: Term tabs (raised selection), locked card, Fridays strip, rules, recent saves.
