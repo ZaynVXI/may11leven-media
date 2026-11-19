@@ -46,26 +46,32 @@ html,body{width:1080px;height:1350px;overflow:hidden;font-family:G;-webkit-font-
 <div class="lab bl">May11Leven Labs</div><div class="lab br">05 / 08</div>
 </div>
 <script>
-const cl=x=>Math.max(0,Math.min(1,x)),io=x=>{x=cl(x);return x<.5?4*x*x*x:1-Math.pow(-2*x+2,3)/2},eo=x=>1-Math.pow(1-cl(x),3),lerp=(a,b,p)=>a+(b-a)*p;
+const cl=x=>Math.max(0,Math.min(1,x)),
+// spring: damped (zeta .65, omega 8) - ~7% overshoot near x=.5, settled by x=1
+sp=x=>{x=cl(x);if(x>=1)return 1;const z=.65,w=8,wd=w*Math.sqrt(1-z*z);return 1-Math.exp(-z*w*x)*(Math.cos(wd*x)+z*w/wd*Math.sin(wd*x))},
+// a bump that pushes and springs back to 0
+bump=x=>{x=cl(x);return x<=0||x>=1?0:Math.exp(-5*x)*Math.sin(9*x)},
+io=x=>{x=cl(x);return x<.5?4*x*x*x:1-Math.pow(-2*x+2,3)/2},eo=x=>1-Math.pow(1-cl(x),3),lerp=(a,b,p)=>a+(b-a)*p;
 const $=id=>document.getElementById(id),D=7.2,P={w:520,h:100,r:50},C={w:760,h:480,r:48};
 function render(t){
   t=((t%D)+D)%D;
   // 0-0.5 pill, 0.5-1.2 opens, 1.4 M-Pesa pill drops, 2.1-2.6 it merges into the card and the amount rolls,
   // 2.8 chip counts down, 3.2-3.9 "+750" floats, 5.6-6.3 card folds back to the pill, hold to 7.2
-  const op=io((t-.5)/.7), fold=io((t-5.6)/.7), k=op*(1-fold);
+  const op=sp((t-.5)/.9), fold=io((t-5.6)/.7), k=op*(1-fold);
   const w=lerp(P.w,C.w,k),h=lerp(P.h,C.h,k),r=lerp(P.r,C.r,k);
-  Object.assign($('card').style,{width:w+'px',height:h+'px',marginLeft:-w/2+'px',marginTop:-h/2+40+'px',borderRadius:r+'px',boxShadow:`0 30px 70px rgba(126,36,51,${.3+.15*k})`});
+  const nudge=10*bump((t-2.3)/1.0); // the landing money pushes the card down, then it springs back
+  Object.assign($('card').style,{width:w+'px',height:h+'px',marginLeft:-w/2+'px',marginTop:-h/2+40+nudge+'px',borderRadius:r+'px',boxShadow:`0 30px 70px rgba(126,36,51,${.3+.15*k})`});
   $('pill').style.opacity=1-cl(k*3); $('full').style.opacity=cl((k-.55)/.45);
   $('full').style.transform=`translateY(${(1-cl((k-.55)/.45))*14}px)`;
   // notification
   const nIn=eo((t-1.4)/.45), merge=io((t-2.1)/.5), n=nIn*(1-merge);
   const top=lerp(170,330,merge); $('nt').style.top=lerp(90,top,nIn)+'px'; $('nt').style.opacity=n; $('nt').style.transform=`scale(${1-.35*merge})`;
   // money lands
-  const p=io((t-2.3)/.6);
-  ['a0','a1'].forEach((id,i)=>{$(id).style.transform=`translateY(${-110*p}px)`;$(id).style.opacity=i?p:1-p;$(id).style.filter=`blur(${4*(i?1-p:p)}px)`});
-  const pw=lerp(78.4,81.1,p); $('tb').style.width=pw+'%'; $('ti').style.left=pw+'%';
-  $('sub').textContent=p<.5?'of 27,500 · KES 5,950 to go':'of 27,500 · KES 5,200 to go';
-  const c=io((t-2.8)/.4); $('fr').textContent=c<.5?'On track · 8 Fridays left':'On track · 7 Fridays left'; $('fr').style.filter=`blur(${3*Math.sin(c*Math.PI)}px)`;
+  const p=sp((t-2.3)/.75);
+  ['a0','a1'].forEach((id,i)=>{$(id).style.transform=`translateY(${-110*p}px)`;$(id).style.opacity=i?cl(p):1-cl(p);$(id).style.filter=`blur(${Math.max(0,4*(i?1-cl(p):cl(p)))}px)`});
+  const pw=lerp(78.4,81.1,cl(p)); $('tb').style.width=pw+'%'; $('ti').style.left=pw+'%';
+  $('sub').textContent=cl(p)<.5?'of 27,500 · KES 5,950 to go':'of 27,500 · KES 5,200 to go';
+  const c=sp((t-2.8)/.5); $('fr').textContent=c<.5?'On track · 8 Fridays left':'On track · 7 Fridays left'; $('fr').style.filter=`blur(${3*Math.sin(cl(c)*Math.PI)}px)`;
   const pu=Math.max(0,Math.sin(cl((t-2.9)/.9)*Math.PI)); $('ti').style.boxShadow=`0 0 0 ${6+14*pu}px rgba(243,241,234,${.22-.14*pu})`;
   // +750 floats from the amount
   const f=cl((t-3.2)/1.1); $('plus').style.opacity=Math.sin(f*Math.PI)*(t<5.6?1:0); $('plus').style.left='700px'; $('plus').style.top=(650-46*eo(f))+'px';

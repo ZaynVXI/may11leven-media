@@ -76,23 +76,24 @@ html,body{width:432px;height:964px;background:transparent;font-family:G;color:va
 </div>
 <div id="off"></div>
 <script>
-const cl=x=>Math.max(0,Math.min(1,x)), eo=x=>1-Math.pow(1-cl(x),3), io=x=>{x=cl(x);return x<.5?4*x*x*x:1-Math.pow(-2*x+2,3)/2};
+const cl=x=>Math.max(0,Math.min(1,x)),
+  sp=x=>{x=cl(x);if(x>=1)return 1;const z=.65,w=8,wd=w*Math.sqrt(1-z*z);return 1-Math.exp(-z*w*x)*(Math.cos(wd*x)+z*w/wd*Math.sin(wd*x))}, eo=x=>1-Math.pow(1-cl(x),3), io=x=>{x=cl(x);return x<.5?4*x*x*x:1-Math.pow(-2*x+2,3)/2};
 const $=id=>document.getElementById(id), D=8;
 function render(t){
   t=((t%D)+D)%D;
   // screen wakes 0-0.5, sleeps 7.3-8 (the loop's cause: parent checks the phone, then puts it down)
   $('off').style.opacity = t<.5 ? 1-eo(t/.5) : t>7.3 ? io((t-7.3)/.6) : 0;
   // notification drops in 0.9, leaves 5.6
-  const nIn=eo((t-.9)/.45), nOut=io((t-5.6)/.4), n=nIn*(1-nOut);
-  $('nt').style.transform=`translateY(${-90*(1-n)}px) scale(${.96+.04*n})`; $('nt').style.opacity=n;
+  const nIn=sp((t-.9)/.6), nOut=io((t-5.6)/.4), n=nIn*(1-nOut);
+  $('nt').style.transform=`translateY(${-90*(1-n)}px) scale(${.96+.04*n})`; $('nt').style.opacity=cl(n);
   // money lands 1.7-2.4: digits roll up, line grows, Fridays count down
-  const p=io((t-1.7)/.7);
-  $('d0').style.transform=$('d1').style.transform=`translateY(${-44*p}px)`;
+  const ps=sp((t-1.7)/.8), p=cl(ps);
+  $('d0').style.transform=$('d1').style.transform=`translateY(${-44*ps}px)`;
   $('d0').style.opacity=1-p; $('d1').style.opacity=p; $('d0').style.filter=`blur(${3*p}px)`; $('d1').style.filter=`blur(${3*(1-p)}px)`;
   const w=78.4+(81.1-78.4)*p; $('tb').style.width=w+'%'; $('ti').style.left=w+'%';
   $('f2s').textContent = p<.5 ? 'of 27,500 · KES 5,950 to go' : 'of 27,500 · KES 5,200 to go';
   $('fr').textContent  = p<.5 ? 'On track · 8 Fridays left' : 'On track · 7 Fridays left';
-  const fp=io((t-2.0)/.6); $('fam').textContent = fp<.5 ? 'KES 40,450' : 'KES 41,200'; $('bm').style.width=(46+2*fp)+'%';
+  const fp=cl(sp((t-2.0)/.7)); $('fam').textContent = fp<.5 ? 'KES 40,450' : 'KES 41,200'; $('bm').style.width=(46+2*fp)+'%';
   // dot pulse after landing
   const pu=Math.max(0,Math.sin(cl((t-2.4)/.8)*Math.PI)); $('ti').style.boxShadow=`0 0 0 ${4+8*pu}px rgba(243,241,234,${.22-.12*pu})`;
 }

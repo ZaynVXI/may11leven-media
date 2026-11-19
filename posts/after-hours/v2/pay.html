@@ -37,6 +37,7 @@ html,body{width:1080px;height:1350px;overflow:hidden;font-family:IT;-webkit-font
 </div>
 <script>
 const cl=x=>Math.max(0,Math.min(1,x));
+const sp=x=>{x=cl(x);if(x>=1)return 1;const z=.65,w=8,wd=w*Math.sqrt(1-z*z);return 1-Math.exp(-z*w*x)*(Math.cos(wd*x)+z*w/wd*Math.sin(wd*x))}; // damped spring, ~7% overshoot
 const io=x=>{x=cl(x);return x<.5?4*x*x*x:1-Math.pow(-2*x+2,3)/2};
 const lerp=(a,b,p)=>a+(b-a)*p;
 const D=7.2;
@@ -50,7 +51,7 @@ function render(t){
   let w,h,r,bg,sh,press=1;
   // 0-1.0 pill idle (soft breathing shadow), 1.0-1.25 press, 1.3-2.0 open to ask, 2.0-3.6 ring fills,
   // 3.6-4.2 ask -> done (ink to tone green), 4.2-5.4 hold, 5.4-6.0 done -> chip, 6.0-6.5 hold chip, 6.5-7.2 chip -> pill
-  const pA=io((t-1.3)/.7), pD=io((t-3.6)/.6), pC=io((t-5.4)/.6), pP=io((t-6.5)/.7);
+  const pA=sp((t-1.3)/.9), pD=io((t-3.6)/.6), pC=sp((t-5.4)/.8), pP=io((t-6.5)/.7);
   if(t<3.6){w=lerp(P.w,A.w,pA);h=lerp(P.h,A.h,pA);r=lerp(P.r,A.r,pA);bg='#1F1B16'}
   else if(t<5.4){w=A.w;h=A.h;r=A.r;bg=mix('#1F1B16','#E2EEE4',pD)}
   else if(t<6.5){w=lerp(A.w,C.w,pC);h=lerp(A.h,C.h,pC);r=lerp(A.r,C.r,pC);bg='#E2EEE4'}
@@ -62,11 +63,11 @@ function render(t){
   Object.assign(box.style,{width:w+'px',height:h+'px',marginLeft:-w/2+'px',marginTop:-h/2+'px',borderRadius:r+'px',background:bg,boxShadow:sh,transform:`scale(${press})`});
   // layer opacities
   o('pill').opacity = t<1.3 ? 1 : t<1.6 ? 1-(t-1.3)/.3 : t>6.8 ? cl((t-6.8)/.4) : 0;
-  o('ask').opacity = cl((t-1.75)/.35) * (1-cl((t-3.6)/.3));
+  o('ask').opacity = cl((t-1.6)/.35) * (1-cl((t-3.6)/.3));
   o('done').opacity = cl((t-3.95)/.35) * (1-cl((t-5.4)/.25));
-  o('chip').opacity = cl((t-5.75)/.3) * (1-cl((t-6.5)/.25));
+  o('chip').opacity = cl((t-5.62)/.3) * (1-cl((t-6.5)/.25));
   document.getElementById('arc').style.strokeDashoffset = 289*(1-io((t-2.0)/1.5));
-  o('ask').transform=`translateY(${(1-cl((t-1.75)/.35))*12}px)`;
+  o('ask').transform=`translateY(${(1-cl((t-1.6)/.35))*12}px)`;
   o('done').transform=`translateY(${(1-cl((t-3.95)/.35))*12}px)`;
 }
 window.render=render;render(0);
