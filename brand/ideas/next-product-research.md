@@ -18,7 +18,7 @@ Method: design thinking pack (design-challenge-framer, desk-research-digest, jtb
 | Lumen Homes | Real estate | AI agents |
 | ata | Product launch | Packaging, 3D |
 
-Gaps: no legal or trust product, nothing that uses our cybersecurity edge, nothing for the Gulf, nothing that markets our **social content** service, and no concept people can actually use. Our idea tests (Check, Flagship 01) scored 0/10 as mockups; buyers said "give me a working demo I can test" and "a price".
+Gaps: no legal or trust product, nothing that uses our cybersecurity edge, nothing for the Gulf, nothing that markets our **social content** service, and no concept people can actually use. Our idea tests (Check, Flagship 01) scored 0/10 as mockups with **simulated** buyers (founder-consumer panels, not real people); the simulated buyers said "give me a working demo I can test" and "a price".
 
 ## The challenge (design-challenge-framer)
 **How might we help small businesses that post photos of people (lounges, salons, gyms, schools, event hosts) share those photos only with a clear yes, without slowing down the night or the school day?**
@@ -34,7 +34,7 @@ Gaps: no legal or trust product, nothing that uses our cybersecurity edge, nothi
 | C | **Trace**: EUDR passport for coffee and cocoa | EU deforestation rules apply from 30 Dec 2026 for large firms and 30 June 2027 for small ones; many Kenyan coffee farmers struggle with plot geolocation (The Standard, Jan 2026). Real deadline, but crowded with funded players and long B2B sales. |
 | D | **Viewing**: honest rentals in Nairobi | Fake listings and deposits taken for houses that don't exist, rising in Kilimani, Kileleshwa, Lavington (Citizen, Oct 2025). A marketplace needs both landlords and renters before it works. |
 | E | **Lapse**: website and domain watch | Our own Field Study: about 1 in 6 listed hotel websites gone or taken over. Strong edge, but it shows only three of our services. |
-| F | **Check**: scam-SMS checker | Real harm, but the mockup tested 0/10; it only works as a hosted live tool. |
+| F | **Check**: scam-SMS checker | Real harm, but the mockup scored 0/10 with simulated buyers; it only works as a hosted live tool. |
 
 ## Scores (1–5, our adapted RICE: reach, evidence, our edge, services shown, can ship a working free tool, fresh for our feed)
 | Idea | Reach | Evidence | Our edge | Services (of 7) | Working tool | Fresh | **Total /30** |
@@ -57,6 +57,8 @@ Gaps: no legal or trust product, nothing that uses our cybersecurity edge, nothi
 - It's a new sector and a new look for the feed: no hotels, no fintech.
 
 **The pull, not just the push.** Fear of a fine is weak on its own (only 20 penalty notices in Kenya so far). The stronger reason: guests who say yes get their photos on WhatsApp, and people share photos of themselves. Premagic reports over 90% of attendees at one event registered to receive their own photos. That shows interest in receiving photos, not consent to let a venue publish them; whether a yes to publishing grows reach is a hypothesis to test separately (Codex review).
+
+**Premagic as an alternative (CodeRabbit review).** Premagic already does part of this: guests register at the event (QR), agree to face matching, and get their own photos privately. That covers *delivery* consent at photographed events, mostly sold to event organisers and photographers. Nod's gap is different: consent *to publish* for the business's own marketing, per purpose (tonight's Instagram, the website, a print ad), a pre-post check on every scheduled post, one-tap withdrawal with takedown tasks, a retention clock, and WhatsApp-first flows for everyday venues, salons and schools rather than one-off events. A venue that already uses Premagic still needs the publication side; a salon or school never would have bought Premagic. Risk: Premagic or similar tools could add publication consent; that's why the first real test matters more than the score. (Premagic's feature details come from CodeRabbit's citation of Premagic's support pages, which I couldn't open from here; check before quoting publicly.)
 
 **What we'd build (all seven services, one world)**
 | # | Service | Piece |
@@ -103,7 +105,9 @@ Nod card: a printable table or mirror card with a QR. **As first drafted it was 
 - **Gulf.** Saudi Arabia's data authority issued 48 enforcement decisions in its first active year, many over marketing without consent (IAPP, Feb 2026). No image-specific cases found yet; the UAE photo law is the stronger Gulf angle.
 - **Correction:** one source dates the school fine to 2024; Clyde & Co's contemporaneous report says the penalty notices were issued in late September 2023. We use 2023.
 
-## Joint review with Codex (PR #34)
+## Joint review with Codex and CodeRabbit (PR #34)
+CodeRabbit (second reviewer) raised two more points, both accepted: label the 0/10 idea-test scores as simulated buyers, and compare Nod with Premagic as an existing alternative (added above).
+
 Codex reviewed the first pass and raised five points. All checked against the sources and accepted:
 1. The card wasn't real consent. Fixed above; see the recorded-media guidance below.
 2. Premagic's 90% is interest in receiving photos, not consent to publish. Reworded.
