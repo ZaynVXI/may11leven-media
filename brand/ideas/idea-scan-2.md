@@ -24,7 +24,7 @@ Research only. Nothing here is built or posted until the founder decides. The fo
 
 **Pricing hypothesis (to test, not assume):** Nod as an add-on to social media management, about 10% of a basic retainer (roughly KES 2,500–3,500 a month), or free inside our own content retainers as a differentiator. Schools: per term, priced against the cost of one complaint.
 
-### The paper test (for Zayn to run; we never contact anyone ourselves)
+### The paper test (for the founder to run; we never contact anyone ourselves)
 Three printed pages and one wristband, shown to five owners (a lounge, a salon, a gym, a private school, an event host):
 1. **The table or mirror card.** "Photos tonight? We post on Instagram for 30 days. Say yes, or wear the green band." QR to a one-screen consent page.
 2. **The consent page.** Who's asking, which purpose (tonight's Instagram / our website / print), how long it's kept, how to withdraw. Three buttons: yes to all, choose, not me.
@@ -41,7 +41,7 @@ We looked for problems that are trending now, have hard evidence, and are solved
 - **The problem.** Since 28 June 2025 the European Accessibility Act covers online shops, apps, and hotel and travel booking sites selling to consumers. In Austria the law (BaFG) applies to web shops, booking portals and online appointment booking. Fines go up to €80,000, and existing web shops got no transition period. Micro-enterprises (fewer than 10 staff and at most €2M turnover or balance sheet) are exempt (WKO).
 - **Most sites fail.** 95.9% of the top million home pages had detectable WCAG A/AA failures in February 2026, averaging 56.1 errors a page, up from 51 (WebAIM Million 2026 via Nexer). Low-contrast text was on 83.9% of them.
 - **Enforcement has started.** The Netherlands is testing companies that didn't respond. Sweden opened its first e-commerce cases. Disability groups took four French grocery retailers to court in November 2025 (Deque, Dec 2025).
-- **Why us.** Zayn is based in Austria. Accessibility is already one of our standing values. Most accessibility vendors sell overlays or audit PDFs; we redesign so the site is accessible and still beautiful, which is the premium gap. It also ties to our hotel work: booking sites are named in the law.
+- **Why us.** The founder is based in Austria. Accessibility is already one of our standing values. Most accessibility vendors sell overlays or audit PDFs; we redesign so the site is accessible and still beautiful, which is the premium gap. It also ties to our hotel work: booking sites are named in the law.
 - **A working tool on day one.** We can run automated checks (axe-core in Playwright) on a public site and send a visual first-look report: the five worst issues, each shown on a screenshot, with the fix. That's our "free first look", done properly. Automated checks catch only part of the issues, so the report must say a manual review is needed.
 - **Services shown:** websites, brand (accessible colour and type systems), AI automation (monitoring), AI agent (fix suggestions), social content (education posts). Five of seven.
 - **Risk:** crowded with tool vendors; we must sell craft and outcomes, not a scanner. We give no legal advice.
@@ -84,7 +84,7 @@ We looked for problems that are trending now, have hard evidence, and are solved
 
 **How sure are these scores?** Not very. Neither idea has any customer or willingness-to-pay evidence. Ally's 5 for "our edge" rests on an untested premium gap (design-led accessible rebuilds instead of overlays); at 3, Ally ties Nod at 26. Ally could fail if most reachable shops are micro-enterprises exempt from the law, or if buyers won't pay for manual fixes beyond automated checks. Nod could fail if venues or guests won't use the flow, or if FairConsent and similar tools are good enough (Codex and CodeRabbit reviews).
 
-### What this suggests (for Zayn to decide)
+### What this suggests (for the founder to decide)
 - **Ally is the cheaper first test, not proven stronger**, and it's different in kind: a service with a working tool we can run for real today, in the founder's own market (Austria and the EU), aimed at clients who pay in euros. It also feeds Africa-first work: every site we build becomes accessible by default.
 - **Nod stays the strongest product concept** for East Africa, and its first test is cheap.
 - A sensible order: run Ally's free first-look audit as our offer now (no build needed beyond the report), test Nod on paper with five owners, and keep Receipt and Encore in the bank.
