@@ -3,7 +3,7 @@
 Both agents read this file at the start of work (see AGENTS.md) and update it at the end. Zayn owns all decisions; neither agent publishes, posts, spends money or contacts anyone without his approval. Work on branches, open pull requests, never push to main.
 
 ## Rule from Zayn
-**Roles (Zayn, 19 Nov):** Claude leads. Codex is Claude's research assistant and second in command; it can research, review and propose, but acts only after Claude approves. Never wait on the other agent. If a task is not picked up or ChatGPT is unavailable, Claude does it directly and notes it here.
+**Roles (Zayn, 19 Nov):** Claude leads. Codex is Claude's research assistant and second in command; it can research, review and propose, but acts only after Claude approves. Zayn's ChatGPT is on the Free plan (no Codex cloud tasks), so Codex works through PR reviews (`@codex review` with a focused brief); revisit only if reviews stop being enough. Never wait on the other agent. If a task is not picked up or ChatGPT is unavailable, Claude does it directly and notes it here.
 
 ## How to use
 - Add a task under **Open** with: who it is for, what "done" means, and the files involved.
