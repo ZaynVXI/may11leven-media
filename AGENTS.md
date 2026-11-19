@@ -2,7 +2,7 @@
 
 ## Before each task
 **First, read `agents/WORKFLOW-RULES.md`**: Zayn's standing rules (the PXDX/Motto/.raw/Lebedev bar, research on the shared design sites, picking every skill and tool the task needs, the humanize rules, brand and posting rules).
-0. Read `agents/HANDOFF.md` (the shared task board between Claude and ChatGPT) and update it when you finish.
+0. Read `agents/HANDOFF.md` (the shared task board between Claude and ChatGPT). Claude updates it when finishing. Codex doesn't edit it (or any file) itself: it lists the handoff update it suggests in its PR comment, and Claude applies it.
 1. Read `brand/skills/README.md` and consult `brand/skills/manifest.json`.
 2. Use the shared skill-library router at `.agents/skills/may11leven-skill-library/SKILL.md` to select relevant skills.
 3. Read selected canonical skill files under `brand/tools/` and resolve supporting references from their source directories.
