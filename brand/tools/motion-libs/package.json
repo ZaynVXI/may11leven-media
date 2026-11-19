@@ -1,0 +1,21 @@
+{
+  "name": "motion-libs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babylonjs/core": "^9.37.0",
+    "@motion-canvas/2d": "^3.17.2",
+    "@motion-canvas/core": "^3.17.2",
+    "animejs": "^4.5.0",
+    "lottie-web": "^5.13.0",
+    "motion": "^14.14.0",
+    "ola": "^1.2.2"
+  }
+}

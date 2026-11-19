@@ -1,0 +1,80 @@
+{
+  "invoice": {
+    "number": "M11-INV-0001",
+    "date": "[date]",
+    "due": "[date + 14 days]",
+    "project": "[Project name]",
+    "currency": "USD",
+    "client": ["[Client company]", "[Billing email]", "[Street address]", "[Postcode, City, Country]", "[Client VAT or tax ID]"],
+    "lines": [
+      ["Mark: brand identity package", "1 × 800.00", "800.00"]
+    ],
+    "totals": [["Subtotal", "800.00"], ["[Tax rate]", "[0.00]"]],
+    "total": "800.00",
+    "payment": [
+      ["Account holder", "[Account holder]"],
+      ["Bank", "[Bank name]"],
+      ["Account", "[IBAN or account number]"],
+      ["BIC / SWIFT", "[BIC]"],
+      ["Mobile money", "[Optional]"],
+      ["Reference", "M11-INV-0001"]
+    ],
+    "terms": "Payment is due within 14 days of the invoice date. Work starts once the deposit is paid. Transfer and currency conversion fees are paid by the client. Questions: hello@may11levenlabs.com."
+  },
+  "proposal": {
+    "title": "[Client] brand identity, proposal",
+    "ref": "M11-PRO-0001",
+    "date": "[date]",
+    "client": ["[Client company]", "[Contact name, role]"],
+    "project": "A brand identity for [Client]: name check, mark, type, colour and the first applications, delivered as one system the team can use.",
+    "problem": "[One or two sentences in the client's own words: what is costing them customers today, and how we will know it is fixed.]",
+    "overview": "This document is a proposal, not a contract. It sets out what we will make, how we work and what it costs. Once you confirm, a contract with the full schedule follows. You provide access, existing material and one decision-maker; we handle everything else.",
+    "deliverables": [
+      ["Research", "A short review of your market, customers and three competitors, and the one idea the brand will stand on."],
+      ["Mark", "A wordmark or symbol, tested from a 16 px app icon to a shopfront."],
+      ["System", "Type, colour and layout rules, with a one-page guide."],
+      ["Applications", "[Three first applications, e.g. social templates, a business card and a website header.]"],
+      ["Files", "All master files in vector and image formats, with usage notes."]
+    ],
+    "process": [
+      ["Research", "We study your customers, market and competitors first."],
+      ["Idea", "One clear thought the whole brand can stand on."],
+      ["Build", "Real applications, not mock-ups of a logo on a blank page."],
+      ["Proof", "We test it with real use, then refine it once."]
+    ],
+    "investment": [
+      ["Mark: brand identity package", "50% on confirmation", "400.00"],
+      ["", "50% on delivery", "400.00"]
+    ],
+    "currency": "USD",
+    "total": "800.00",
+    "price_note": "Prices exclude any taxes that apply. Two rounds of revisions are included; further rounds are quoted before they start.",
+    "next": [
+      ["Confirm", "Reply to accept this proposal, or ask anything that is unclear."],
+      ["Contract", "We send the contract and the first invoice for the deposit."],
+      ["Kick-off", "A 45-minute call to agree goals, the decision-maker and the schedule."]
+    ],
+    "valid": "30 days"
+  },
+  "contract": {
+    "title": "[Client] brand identity, contract",
+    "ref": "M11-CON-0001",
+    "date": "[date]",
+    "client": ["[Client company]", "represented by [Name, role]", "[Street address]", "[Postcode, City, Country]"],
+    "parties": "This contract is made between May11Leven Labs ([legal name and registered address]), \"the Studio\", and [Client company] ([registered address]), represented by [Name], \"the Client\".",
+    "project": "The Studio will design a brand identity for the Client as set out in proposal M11-PRO-0001, which forms part of this contract.",
+    "clauses": [
+      ["Scope", "The Studio delivers the work listed in the proposal. Anything outside it is quoted in writing before it starts."],
+      ["Schedule", "Work starts when the deposit is paid and the Client has supplied the agreed material. Delays in feedback move the schedule by the same amount."],
+      ["Fees and payment", "The fee is [amount and currency], paid 50% on signature and 50% on delivery. Invoices are due within 14 days."],
+      ["Revisions", "Two rounds of revisions are included at each stage. Further rounds are charged at [day rate] and agreed before they start."],
+      ["Client duties", "The Client names one decision-maker, gives feedback within [5] working days and confirms it has the rights to any material it supplies."],
+      ["Ownership", "When the final payment is received, the Client owns the final approved designs. The Studio keeps ownership of drafts, unused concepts and its own tools and methods."],
+      ["Portfolio", "The Studio may show the finished work in its portfolio and social media after launch, unless the Client asks in writing for it not to."],
+      ["Confidentiality", "Each party keeps the other's non-public information confidential, during and after the project."],
+      ["Cancellation", "Either party may end this contract with written notice. The Client pays for work done up to that point; the deposit is not refundable once work has started."],
+      ["Liability", "Each party's total liability under this contract is limited to the total fee, except where the law does not allow this limit."],
+      ["Governing law", "This contract is governed by the laws of [country], and disputes go to the courts of [city]."]
+    ]
+  }
+}

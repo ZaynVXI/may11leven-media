@@ -20,7 +20,7 @@ Reference: `brand/refs/reels/motto-og/` (a 12-second reel and its caption).
 - **Name our packages now.** That answers the panel's "what do I get for $800?". A first proposal for Zayn:
   - **Mark:** brand identity from $800 (name check, logo suite, colour and type, a 12-page brand guide)
   - **Storefront:** a website that takes bookings or orders
-  - **Night shift:** a WhatsApp assistant that answers, books and takes payment
+  - **After hours:** a WhatsApp assistant that answers, books and takes payment
   - Each gets its own page with what's included, how long it takes and the price.
 - **Run every concept as a series** (reveal → system → product → process), not as a one-off post.
 - **Credit partners and collaborators by name** (photographers, illustrators, type foundries).

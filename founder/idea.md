@@ -1,0 +1,7 @@
+# May11Leven Labs
+
+- What it is: a minimal, premium creative tech studio offering seven services under one system: brand identity, websites, apps, packaging and 3D, AI automation, AI agents, and social content.
+- Who it is for: owners and marketing leads of growing businesses that sell on looks and trust. A global company: clients anywhere in the world. Strong fits so far: boutique hotels and guesthouses, real estate and interiors, consumer brands and startups.
+- What it sells, at what price: fixed, named packages with public "from" prices. Approved: brand identity ("Mark") from $800. Website ("Storefront") and automation ("After hours") packages exist but are not priced yet. A planned monthly retainer after launch. Entry offer: a free first look (a short diagnosis, never free design), requested by commenting "11" or by email.
+- Where and how: online, remote delivery. Found through Instagram, LinkedIn (main business channel), Facebook, referrals and free directory listings. Work is shown through self-initiated concept projects (always labelled concept) and original research (e.g. a study of hotel websites, a booking-commission calculator).
+- Budget and constraints: free tools only; any spending needs the founder's approval. No paying clients, testimonials or case results yet. A small founder-led team. Strict brand rules: premium minimal look benchmarked against studios such as Motto, Obys, .raw and Artemii Lebedev; quality over posting volume; never post AI-generated imagery; never contact leads unsolicited.

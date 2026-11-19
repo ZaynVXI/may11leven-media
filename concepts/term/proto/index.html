@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=1080, height=1350" />
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js"></script>
+<style>
+@font-face{font-family:G;font-weight:100 900;src:url(assets/Geist.ttf)}
+@font-face{font-family:GM;font-weight:100 900;src:url(assets/GeistMono.ttf)}
+:root{--chalk:#E8EAE9;--graphite:#141619;--muted:#6B7078;--maroon:#7A1F2B;--green:#1F5A3D;--yellow:#F2D46B;--navy:#1D2B4F}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1080px;height:1350px;overflow:hidden;background:var(--chalk);font-family:G;-webkit-font-smoothing:antialiased}
+#root{position:relative;width:1080px;height:1350px;overflow:hidden;background:radial-gradient(70% 60% at 50% 45%,#F1F2F1,#DDE0DF)}
+.grain{position:absolute;inset:0;opacity:.18;mix-blend-mode:multiply;pointer-events:none;background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='260' height='260'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 .5 0 0 0 0 .5 0 0 0 0 .5 0 0 0 .5 0'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>")}
+.card{position:absolute;overflow:hidden;box-shadow:0 40px 100px rgba(10,12,16,.22),inset 0 0 0 1.5px rgba(255,255,255,.3)}
+.glow{position:absolute;inset:-25%;filter:blur(60px)}
+.rule{position:absolute;inset:0;background:repeating-linear-gradient(180deg,transparent 0 59px,rgba(255,255,255,.10) 59px 60px)}
+.frost{position:absolute;inset:0;background:linear-gradient(160deg,rgba(255,255,255,.2),rgba(255,255,255,.03) 55%)}
+.in{position:absolute;color:#fff}
+.k{font:480 24px/1.2 GM;letter-spacing:.03em;text-transform:uppercase}
+.sent{font:440 44px/1.12 G;letter-spacing:-.02em}
+.big{font:500 104px/.95 G;letter-spacing:-.055em}
+.pill{display:inline-flex;align-items:center;gap:10px;font:520 21px/1 GM;letter-spacing:.05em;text-transform:uppercase;border-radius:999px;padding:13px 18px}
+.num{font-variant-numeric:tabular-nums}
+.lab{position:absolute;font:470 20px/1.35 GM;letter-spacing:.03em;color:var(--muted)}
+</style>
+</head>
+<body>
+<div id="root" data-composition-id="main" data-start="0" data-duration="14" data-width="1080" data-height="1350">
+
+  <!-- corner labels -->
+  <div class="lab" style="left:64px;top:56px;text-transform:uppercase">May11Leven Labs</div>
+  <div style="position:absolute;left:64px;bottom:150px;font:460 76px/1 G;letter-spacing:-.04em;color:var(--graphite)">Term</div>
+  <div class="lab" style="left:66px;bottom:56px">Money app concept<br>Working demos 02</div>
+
+  <!-- MAROON card (morphs from pill) -->
+  <div id="m" class="card" style="left:290px;top:600px;width:500px;height:110px;border-radius:56px;background:var(--graphite)">
+    <div id="mglow" class="glow" style="opacity:0;background:radial-gradient(40% 35% at 35% 30%,#E07D86,transparent 70%),radial-gradient(55% 45% at 60% 75%,var(--maroon),transparent 70%),radial-gradient(60% 60% at 80% 15%,#A0515B,transparent 70%),#8E3440"></div>
+    <div id="mrule" class="rule" style="opacity:0"></div><div class="frost"></div>
+    <div id="mpill" class="in" style="left:44px;top:32px;font:470 40px/1 G;letter-spacing:-.02em;white-space:nowrap">Term <span style="opacity:.5">· Form 2</span></div>
+    <div id="mk" class="in k" style="left:56px;top:56px;opacity:0">Form 2 · Term 1 fees</div>
+    <div id="msent" class="in sent num" style="left:56px;top:250px;opacity:0;width:520px">KES <span id="mval">21,550</span> set aside.<br><span id="mtogo">KES 5,950</span> to go.</div>
+    <svg id="mchart" class="in" style="left:56px;top:470px;opacity:0" width="500" height="150" viewBox="0 0 500 150">
+      <polyline points="0,138 70,126 140,112 210,96 280,79" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round"/>
+      <line id="mseg" x1="280" y1="79" x2="350" y2="61" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-dasharray="80" stroke-dashoffset="80"/>
+      <polyline points="350,61 420,40 490,18" fill="none" stroke="rgba(255,255,255,.5)" stroke-width="3" stroke-dasharray="2 10" stroke-linecap="round"/>
+      <circle id="mdot" cx="280" cy="79" r="9" fill="#fff"/>
+    </svg>
+    <div id="mbig" class="in big" style="left:56px;bottom:56px;opacity:0">On track</div>
+  </div>
+
+  <!-- notification -->
+  <div id="note" style="position:absolute;left:150px;right:150px;top:-140px;background:rgba(250,250,250,.95);border-radius:30px;padding:20px 24px;display:flex;gap:18px;align-items:center;box-shadow:0 20px 50px rgba(0,0,0,.18)">
+    <div style="width:56px;height:56px;border-radius:14px;background:var(--graphite);display:flex;align-items:center;justify-content:center;color:#fff;font:600 28px G">T</div>
+    <div style="flex:1"><div style="display:flex;justify-content:space-between;font:500 20px G;color:#666"><span>TERM</span><span>Fri 18:00</span></div><div style="font:500 26px/1.3 G;color:#111;margin-top:4px">KES 750 received from M-Pesa.</div></div>
+  </div>
+
+  <!-- GREEN card -->
+  <div id="g" class="card" style="left:1120px;top:250px;width:560px;height:760px;border-radius:72px">
+    <div class="glow" style="background:radial-gradient(45% 40% at 30% 30%,#8FD0A6,transparent 70%),radial-gradient(55% 50% at 55% 75%,var(--green),transparent 70%),radial-gradient(40% 40% at 20% 85%,var(--yellow),transparent 70%),#2D6B4A"></div>
+    <div class="rule"></div><div class="frost"></div>
+    <div class="in k" style="left:52px;top:52px">Grade 5 · Term 1 fees</div>
+    <div id="gready" class="in" style="left:52px;top:220px;width:460px"><div class="sent num">KES 18,900 set aside.<br>Ready to pay.</div></div>
+    <div id="gpaid" class="in" style="left:52px;top:220px;width:460px;opacity:0"><div class="sent">Paid to the school.</div><div class="big num" style="font-size:96px;margin-top:18px">KES 18,900</div>
+      <div style="display:flex;justify-content:space-between;font:470 22px/1 GM;padding:18px 0;border-top:1px solid rgba(255,255,255,.35);margin-top:40px"><span>Bursar's receipt</span><span>Received</span></div></div>
+    <div id="gbtn" style="position:absolute;left:52px;right:52px;bottom:52px;height:96px;border-radius:30px;background:rgba(255,255,255,.94);color:var(--green);display:flex;align-items:center;justify-content:center;font:560 30px G">Pay the school</div>
+  </div>
+
+  <!-- RING widget -->
+  <div id="ring" class="card" style="left:290px;top:1400px;width:500px;height:300px;border-radius:64px;background:var(--graphite);display:flex;align-items:center;gap:40px;padding:0 50px">
+    <svg width="200" height="200" viewBox="0 0 200 200"><circle cx="100" cy="100" r="80" fill="none" stroke="rgba(255,255,255,.12)" stroke-width="14"/><circle id="arc" cx="100" cy="100" r="80" fill="none" stroke="#F2D46B" stroke-width="14" stroke-linecap="round" transform="rotate(-90 100 100)" stroke-dasharray="502.65" stroke-dashoffset="502.65"/></svg>
+    <div style="color:#fff"><div class="num" style="font:460 84px/1 G;letter-spacing:-.04em"><span id="pct">0</span>%</div><div style="font:470 20px/1.3 GM;color:rgba(255,255,255,.6);margin-top:12px;text-transform:uppercase">Term 1, both<br>children</div></div>
+  </div>
+
+  <!-- cursor -->
+  <div id="cur" style="position:absolute;left:1000px;top:1300px;width:64px;height:64px;border-radius:50%;background:rgba(20,22,25,.35);border:2px solid rgba(255,255,255,.7);opacity:0"></div>
+  <div class="grain"></div>
+</div>
+<script>
+const tl = gsap.timeline({ paused: true });
+const E = "expo.inOut", O = "power3.out";
+// 1. pill grows into the maroon card
+tl.from("#m", { scale: 0.6, opacity: 0, duration: 0.6, ease: O }, 0.1);
+tl.to("#mpill", { opacity: 0, duration: 0.25 }, 1.0);
+tl.to("#m", { left: 230, top: 250, width: 620, height: 820, borderRadius: 72, duration: 1.1, ease: E }, 1.0);
+tl.to("#mglow", { opacity: 1, duration: 0.8 }, 1.3);
+tl.to("#mrule", { opacity: 1, duration: 0.8 }, 1.5);
+tl.to(["#mk", "#msent", "#mchart", "#mbig"], { opacity: 1, duration: 0.5, stagger: 0.12, ease: O }, 1.8);
+// 2. Friday deposit arrives
+tl.to("#note", { top: 60, duration: 0.6, ease: O }, 3.6);
+const v = { a: 21550 };
+tl.to(v, { a: 22300, duration: 0.8, ease: "power2.out", onUpdate: () => {
+  document.getElementById("mval").textContent = Math.round(v.a).toLocaleString("en-US");
+  document.getElementById("mtogo").textContent = "KES " + (27500 - Math.round(v.a)).toLocaleString("en-US");
+} }, 4.2);
+tl.to("#mseg", { strokeDashoffset: 0, duration: 0.6, ease: "none" }, 4.3);
+tl.to("#mdot", { attr: { cx: 350, cy: 61 }, duration: 0.6, ease: "none" }, 4.3);
+tl.to("#note", { top: -140, duration: 0.5, ease: "power2.in" }, 5.6);
+// 3. slide to the second child, pay the school
+tl.to("#m", { left: -420, duration: 0.9, ease: E }, 6.1);
+tl.to("#g", { left: 260, duration: 0.9, ease: E }, 6.1);
+tl.to("#cur", { opacity: 1, left: 600, top: 960, duration: 0.7, ease: O }, 7.0);
+tl.to("#cur", { scale: 0.8, duration: 0.12, yoyo: true, repeat: 1 }, 7.8);
+tl.to("#gbtn", { scale: 0.97, duration: 0.12, yoyo: true, repeat: 1 }, 7.8);
+tl.to("#gready", { opacity: 0, y: -20, duration: 0.3 }, 8.1);
+tl.to("#gbtn", { opacity: 0, y: 20, duration: 0.3 }, 8.1);
+tl.to("#gpaid", { opacity: 1, duration: 0.45, ease: O }, 8.3);
+tl.to("#cur", { opacity: 0, duration: 0.3 }, 8.6);
+// 4. both children, ring fills
+tl.to("#g", { left: 290, top: 180, width: 500, height: 700, duration: 0.9, ease: E }, 9.4);
+tl.to("#ring", { top: 920, duration: 0.9, ease: E }, 9.6);
+const r = { p: 0 };
+tl.to(r, { p: 89, duration: 1.2, ease: "power2.out", onUpdate: () => {
+  document.getElementById("pct").textContent = Math.round(r.p);
+  document.getElementById("arc").setAttribute("stroke-dashoffset", (502.65 * (1 - r.p / 100)).toFixed(2));
+} }, 10.2);
+// 5. fold back for the loop
+tl.to("#g", { left: 1120, duration: 0.8, ease: E }, 12.4);
+tl.to("#ring", { top: 1400, duration: 0.8, ease: E }, 12.4);
+tl.to("#m", { left: 290, top: 600, width: 500, height: 110, borderRadius: 56, duration: 0.01 }, 12.5);
+tl.set(["#mk", "#msent", "#mchart", "#mbig", "#mglow", "#mrule"], { opacity: 0 }, 12.5);
+tl.set("#mpill", { opacity: 1 }, 12.5);
+tl.from("#m", { opacity: 0, scale: 0.85, duration: 0.5, ease: O, immediateRender: false }, 13.2);
+window.__timelines["main"] = tl;
+tl.seek(0);
+</script>
+</body>
+</html>

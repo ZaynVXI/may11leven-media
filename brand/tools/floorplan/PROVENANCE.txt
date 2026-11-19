@@ -1,0 +1,1 @@
+Source: github.com/haydenschmitty/floorplan (MIT), commit 94f81b4. Inspected: local data and scripts only; no network calls in the core search scripts.

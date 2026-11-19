@@ -1,0 +1,4 @@
+WARN: p1.png: check spelling ['kusi', 'manda']
+WARN: caption: no "comment 11" ask
+WARN: caption: missing may11leven.labs@gmail.com
+WARN: caption: missing #may11levenlabs

@@ -1,0 +1,19 @@
+21:47. A guest asks a small hotel in Lamu whether the roof suite is free in February.
+
+Reception closed at 21:00. On most hotel websites, that question waits until morning, and by morning the guest has often booked somewhere else.
+
+After hours is a concept we designed for Kusi House, our concept hotel: an assistant that answers in the hotel's own voice, quotes the real price, takes a 20% deposit by M-Pesa or card, and hands reception one summary at 07:00.
+
+Inside:
+→ The question at 21:47, and the answer
+→ The booking card: $880 for four nights, $176 to hold it
+→ The questions only a good host answers: a cot for a baby, a late flight
+→ The 07:00 summary, with the one enquiry it leaves for a person
+
+It is a concept, and the numbers are illustrative. The rule behind it is real: an assistant should book what is simple and hand over what needs a person.
+
+We're May11Leven Labs, a design and technology studio. We build brands, websites, apps, AI automation and AI agents.
+
+Run a hotel or guest house? Message us here or email hello@may11levenlabs.com for a free first look at what happens to your enquiries after hours.
+
+#Hospitality #AIAgents #DirectBooking

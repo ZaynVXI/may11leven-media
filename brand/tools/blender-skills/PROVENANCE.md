@@ -1,0 +1,1 @@
+Source: github.com/arjun988/blender-skills (MIT), refreshed to commit 904f095. Router skill blender-director is installed in ~/.claude/skills; the rest are read from here as needed (lighting, materials, rendering, camera-cinematography, hard-surface, realistic-style, archviz, texture-workflow, qa-review).

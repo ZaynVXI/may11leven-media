@@ -1,0 +1,4 @@
+WARN: f1.png: check spelling ['kusi', 'manda']
+WARN: f2.png: check spelling ['istant', 'iting', 'kusi', 'manda']
+WARN: f4.png: check spelling ['weel']
+WARN: f6.png: check spelling ['apps', 'hellomaytilevenlabscom']

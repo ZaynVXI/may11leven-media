@@ -1,0 +1,5 @@
+WARN: p1.png: check spelling ['kusi', 'manda']
+WARN: p2.png: check spelling ['kusi', 'lamu']
+WARN: p3.png: check spelling ['kusi', 'manda']
+WARN: p4.png: check spelling ['kusi']
+WARN: p6.png: check spelling ['apps']

@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Ikiyaga Residences, Kigali (concept)</title>
+<style id="gesso-text-wrap">h1,h2,h3{text-wrap:balance}p,li,figcaption,blockquote{text-wrap:pretty}</style>
+<style>
+@font-face{font-family:Sans;src:url("../../../fonts/library/hankengrotesk/HankenGrotesk[wght].ttf")}
+/* ground = the sky over Nyandungu (#C3D2DC family), ink = the reeds (#586B3E darkened) */
+:root{--sky:#E8EDF0;--ink:#1B2416;--mute:#56604F;--line:#C9D2D6;--reed:#3E4E2A}
+*{box-sizing:border-box;margin:0;padding:0}
+body{width:1440px;height:1024px;background:var(--sky);color:var(--ink);font:400 14px/1.45 Sans;display:grid;grid-template-columns:560px 1fr;overflow:hidden;-webkit-font-smoothing:antialiased}
+figure{display:grid;grid-template-rows:1fr auto}
+figure .img{background:url(wetland.jpg) 38% center/cover}
+figcaption{padding:14px 24px;font-size:12px;color:var(--mute);border-top:1px solid var(--line)}
+main{padding:28px 64px 0;display:grid;grid-template-rows:auto auto 1fr auto}
+nav{display:flex;justify-content:space-between;font-size:13px}
+nav ul{display:flex;gap:32px;list-style:none}
+nav .lang b{font-weight:400;border-bottom:1px solid var(--ink)}
+h1{font-weight:400;font-size:44px;line-height:1.05;letter-spacing:-.02em;margin:72px 0 0;max-width:600px}
+.ladder{margin-top:40px;list-style:none;border-top:1px solid var(--line)}
+.ladder li{display:grid;grid-template-columns:72px 88px 96px 1fr 200px;align-items:baseline;padding:7px 12px;border-bottom:1px solid var(--line);font-variant-numeric:tabular-nums}
+.ladder .p{font-size:26px;letter-spacing:-.01em;text-align:right}
+.ladder .s{font-size:13px}
+.ladder .Reserved,.ladder .Sold{color:rgba(27,36,22,.72)}
+/* 0.55 = 3.5:1 on the sky ground, above the 3:1 large-text floor; Sold is also struck through so status never rests on contrast alone */
+.ladder .Sold .p,.ladder .Reserved .p{color:rgba(27,36,22,.55)}
+.ladder .Sold .p{text-decoration:line-through;text-decoration-thickness:1px}
+.ladder .on{background:var(--reed);color:var(--sky)}
+.ladder .on .p{color:var(--sky)}
+.detail{display:grid;grid-template-columns:repeat(4,1fr) auto;gap:24px;align-items:end;padding:22px 12px 30px;border-top:1px solid var(--ink)}
+.detail dt{font-size:12px;color:var(--mute)}
+.detail dd{font-size:20px;font-variant-numeric:tabular-nums}
+.btn{text-decoration:none;padding:15px 26px;background:var(--ink);color:var(--sky);font-size:14px;border-radius:2px}
+</style>
+</head>
+<body>
+<figure>
+  <div class="img" role="img" aria-label="Nyandungu wetland in Kigali: a still lake, reeds and a grassy island, with homes on the hill behind."></div>
+  <figcaption>Concept. Nyandungu wetland, five minutes on foot. Photo: Protais Benjamin Mugenzi, Unsplash.</figcaption>
+</figure>
+<main>
+<nav><span>Ikiyaga Residences</span><ul><li>Homes</li><li>Location</li><li>Payment plan</li><li>Contact</li><li class="lang"><b>EN</b> / RW</li></ul></nav>
+<h1>Eleven homes beside the wetland. Every price, on the first page.</h1>
+<ol class="ladder" aria-label="All eleven apartments, prices in Rwandan francs">
+<li class="Sold"><span>Floor 5</span><span>3 bed</span><span>142 m²</span><span class="s">Sold</span><span class="p">444,700,000</span></li>
+<li class="on" aria-current="true"><span>Floor 5</span><span>2 bed</span><span>104 m²</span><span class="s">Available, selected</span><span class="p">325,700,000</span></li>
+<li class="Reserved"><span>Floor 4</span><span>3 bed</span><span>142 m²</span><span class="s">Reserved</span><span class="p">436,500,000</span></li>
+<li><span>Floor 4</span><span>2 bed</span><span>104 m²</span><span class="s">Available</span><span class="p">319,700,000</span></li>
+<li class="Sold"><span>Floor 4</span><span>1 bed</span><span>68 m²</span><span class="s">Sold</span><span class="p">209,000,000</span></li>
+<li><span>Floor 3</span><span>3 bed</span><span>142 m²</span><span class="s">Available</span><span class="p">428,300,000</span></li>
+<li class="Sold"><span>Floor 3</span><span>2 bed</span><span>104 m²</span><span class="s">Sold</span><span class="p">313,700,000</span></li>
+<li><span>Floor 3</span><span>1 bed</span><span>68 m²</span><span class="s">Available</span><span class="p">205,100,000</span></li>
+<li><span>Floor 2</span><span>2 bed</span><span>104 m²</span><span class="s">Available</span><span class="p">307,600,000</span></li>
+<li class="Reserved"><span>Floor 2</span><span>1 bed</span><span>68 m²</span><span class="s">Reserved</span><span class="p">201,100,000</span></li>
+<li><span>Floor 1</span><span>1 bed</span><span>68 m²</span><span class="s">Available</span><span class="p">197,200,000</span></li>
+</ol>
+<dl class="detail">
+<div><dt>Per m²</dt><dd>3,131,700</dd></div>
+<div><dt>Deposit, 30%</dt><dd>97,710,000</dd></div>
+<div><dt>On handover</dt><dd>227,990,000</dd></div>
+<div><dt>Faces</dt><dd>Wetland</dd></div>
+<a class="btn" href="#viewing">Book a viewing of 5B</a>
+</dl>
+</main>
+</body>
+</html>

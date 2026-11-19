@@ -127,3 +127,30 @@ Looked at the upcoming Instagram GRID tiles (stories and LinkedIn-only posts exc
 - Flag 2 (balance): the Dec 8 pair are both light/near-white, so if they land in the same grid row they'll read as one pale block. Put a darker tile between them, or move one.
 - Flag 3 (loud tile): the Dec 1 seven-colour fan is the one loud, multi-colour cover in the set - fine as the single loud tile, just keep it off the same row as the dark ata tile so the row doesn't get heavy.
 - No app concept in the near IG queue (the apps work is only inside carousels). Mita, once it has a device-scene plate, is a candidate to fill that gap - an app tile would also balance the branding-heavy run.
+
+## Holographik: Veda (DeFi vaults) and the price ladder (rotation)
+Sources: designcompass.org (Veda identity), pangrampangram.com font-in-use (Veda), dribbble.com/holographik (recent: SUI, Veda, CASEY production company, SLUSH), our refs holographik-13/14/15.
+### Colour (measured from our refs; Veda has no published hex)
+- holographik-13 (price ladder): black #000000 to #010101 ground (92%), one Sui blue #337CF3 selected block (4%, deep tone #264271 in its edge), the other prices in grey that fades with distance from the selection.
+- holographik-14/15: #000000 ground with one desaturated blue #4B689A / navy #101C30 carried by the object, never by type.
+- Veda (from the write-up): gold, silver and copper coins carry value; purple is the only accent and is kept to calls to action and small details; a neutral palette built around it.
+### Typography
+- Veda: Neue Montreal (Pangram Pangram), picked because it "doesn't lean too far into the typical technical aesthetic"; one neutral sans so the coins and motion lead. Our free match: Hanken Grotesk or Inter Tight Regular.
+- Ladder: one grotesk, the selected value in Bold white on blue, the rest Regular at falling opacity; same size for every row. Hierarchy = tone + one block.
+### Grid and ideas
+- Veda: a V symbol pointing up-right (growth), and one coin per vault product, so the system grows with the product range. The product line IS the graphic system.
+- CASEY (production company site, tagged whitespace): a studio site where the reel is the page and type stays small.
+### How they present it on Instagram
+- One state per tile: a single object (coin, ladder, symbol) centred on black, no captions on the image; the case study runs as a sequence of such single states, so the grid reads as a calm black run with one blue in each row.
+### Try this week
+- Make the client's product list the identity: one object or one numeral per product (per unit, per room type, per service), and let one selection carry the only colour. Tried today on Ikiyaga: eleven flats as a price ladder, one row in reed green.
+
+## Feed check (Wed, Metricool 7782767 + Buffer "My organization", read only)
+Queued for the Instagram grid, in order: After hours carousel (dark night photo) · After hours reel · What we do carousel (seven coloured cards) · Kora Dental reel (pale sage) · ata case study (dark) · type and mark study (cool grey) · night-shift type reel (Dec 8). Only 7 tiles are queued, not 9.
+- Breaks: After hours runs twice in a row (carousel, then the same concept as a reel three days later), so service rotation stalls on 05/06.
+- Breaks: two Instagram posts booked for the same minute (type study and the night-shift reel).
+- Watch: the 21:47 hook appears in three posts (After hours carousel, After hours reel, Kora Dental reel). Same story three times reads as a template.
+- Loud tile: What we do (seven saturated cards) is the one loud tile in its row; fine, keep its neighbours quiet (Kora sage, ata dark).
+- Dark/light: dark, dark, loud, light, dark, light, light. Balanced enough once the After hours pair is split.
+- Gap: about a week with nothing on Instagram between the After hours reel and What we do.
+- Status: every Metricool item is still a draft, so none will auto-publish until it's approved there. Two LinkedIn drafts whose slots were this morning have passed without going out.

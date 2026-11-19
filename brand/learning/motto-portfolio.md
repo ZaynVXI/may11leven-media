@@ -53,6 +53,6 @@ They show the thinking first, the look second, then the proof and the rollout. T
 We keep our seven services, but sell them as **three paths** named by the buyer's moment:
 - **Mark**, for businesses starting or fixing their look: a fast brand identity (name check, logo suite, colour and type, a 12-page guide). **From $800.**
 - **Storefront**, for businesses ready to sell online: Mark plus a phone-first website that takes bookings or orders.
-- **Night shift**, for businesses losing customers after hours: Storefront plus a WhatsApp assistant or AI agent that answers, books and takes payment.
+- **After hours**, for businesses losing customers after hours: Storefront plus a WhatsApp assistant or AI agent that answers, books and takes payment.
 - Packaging and 3D, apps and social are add-ons, or quoted on their own.
 - The services page follows Motto's order, but **shows prices** and a compare table, and uses "Get a free first look" as the call to action.

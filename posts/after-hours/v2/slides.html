@@ -1,0 +1,151 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><style>
+@font-face{font-family:IT;font-weight:300;src:url(../../../brand/fonts/InterTight-Light.ttf)}
+@font-face{font-family:IT;font-weight:400;src:url(../../../brand/fonts/InterTight-Regular.ttf)}
+@font-face{font-family:IT;font-weight:500;src:url(../../../brand/fonts/InterTight-Medium.ttf)}
+@font-face{font-family:IS;src:url(../../../brand/fonts/InstrumentSerif-Regular.ttf)}
+@font-face{font-family:PM;src:url(../../../brand/fonts/PlexMono.ttf)}
+@font-face{font-family:PM;font-weight:500;src:url(../../../brand/fonts/PlexMonoMed.ttf)}
+:root{--ink:#1F1B16;--ink2:#6A6054;--paper:#F6F2EA;--sand:#ECE5D8;--sand2:#E3DACA;--sea:#2D4A63;--night:#121418;--rule:rgba(31,27,22,.12);--ok:#2E6B45;--okbg:#E2EEE4;--okdot:#3FA266;--amber:#C2642F;--ambg:#F4E3D6}
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#777;font-family:IT;color:var(--ink);-webkit-font-smoothing:antialiased}
+.s{width:1080px;height:1350px;position:relative;overflow:hidden;background:var(--paper)}
+.lab{position:absolute;font:400 20px/1 PM;letter-spacing:.06em;text-transform:uppercase;color:var(--ink2)}
+.tl{top:64px;left:72px}.tr{top:64px;right:72px}.bl{bottom:60px;left:72px}.br{bottom:60px;right:72px}
+.dk .lab{color:rgba(246,242,234,.6)}
+.mono{font:400 20px/1.3 PM;letter-spacing:.05em;text-transform:uppercase;color:var(--ink2)}
+/* shared components (details pass: nested radius = outer - padding) */
+.av{position:relative;border-radius:50%;background:var(--sea);display:flex;align-items:center;justify-content:center;color:var(--paper);box-shadow:0 8px 22px rgba(45,74,99,.32)}
+.av .on{position:absolute;right:0;bottom:0;border-radius:50%;background:var(--okdot);border:4px solid var(--paper)}
+.chip{display:inline-flex;align-items:center;gap:12px;font:500 22px/1 PM;letter-spacing:.04em;text-transform:uppercase;color:var(--ok);background:var(--okbg);border-radius:999px;padding:14px 20px 14px 16px}
+.chip i{width:14px;height:14px;border-radius:50%;background:var(--okdot);box-shadow:0 0 0 4px rgba(63,162,102,.2)}
+.m{max-width:80%;padding:22px 28px;border-radius:32px;font:400 32px/1.34 IT;letter-spacing:-.01em}
+.g{align-self:flex-end;background:var(--sea);color:#F6F2EA;border-bottom-right-radius:10px;box-shadow:0 14px 30px rgba(45,74,99,.22)}
+.a{align-self:flex-start;background:#fff;border:1px solid var(--rule);border-bottom-left-radius:10px;box-shadow:0 8px 22px rgba(31,27,22,.05)}
+.t{display:block;margin-top:12px;font:400 18px/1 PM;letter-spacing:.05em;color:var(--ink2)}
+.g .t{color:rgba(246,242,234,.66)}
+.row{display:flex;justify-content:space-between;align-items:baseline;font:400 28px/1.2 IT;padding:20px 0;border-top:1px solid var(--rule)}
+.row span:last-child{font-variant-numeric:tabular-nums}
+.grid{background-image:radial-gradient(rgba(31,27,22,.10) 1.4px,transparent 1.6px);background-size:28px 28px}
+</style></head><body>
+<svg width="0" height="0" style="position:absolute"><symbol id="sail" viewBox="0 0 19 21"><path d="M15.2 3.2 C12.6 8.4 12.2 13.4 14.2 18.6 L3.4 18.6 Z" fill="currentColor"/><path d="M1.2 19.6 L17.6 0.8" stroke="currentColor" stroke-width="1.1" fill="none"/></symbol></svg>
+
+<!-- 2 manifesto -->
+<section class="s dk" id="s2" style="background:var(--night);color:#F6F2EA">
+  <div style="position:absolute;left:80px;top:110px;width:900px;font:400 54px/1.2 IT;letter-spacing:-.025em">After hours is an assistant for small hotels. It answers guests at night, quotes the room and takes the deposit. Reception wakes up to one summary.</div>
+  <div style="position:absolute;left:80px;top:520px;font:400 54px/1.2 IT;letter-spacing:-.025em;color:rgba(246,242,234,.38)">Good evening, how can I help?</div>
+  <div style="position:absolute;left:50%;top:930px;width:300px;height:300px;margin-left:-150px;border-radius:50%;background:radial-gradient(circle,rgba(45,74,99,.55),rgba(45,74,99,0) 70%)"></div>
+  <div class="av" style="position:absolute;left:50%;top:1000px;width:160px;height:160px;margin-left:-80px;box-shadow:0 0 0 18px rgba(246,242,234,.04),0 20px 60px rgba(45,74,99,.6)"><svg width="62" height="68"><use href="#sail"/></svg></div>
+  <div style="position:absolute;left:50%;top:1196px;transform:translateX(-50%);font:400 24px/1 IT;color:rgba(246,242,234,.82);background:rgba(246,242,234,.08);border-radius:999px;padding:20px 30px">Message Kusi House</div>
+</section>
+
+<!-- 3 split: the moment / the quote -->
+<section class="s" id="s3">
+  <div style="position:absolute;left:0;top:0;width:1080px;height:675px;background:url(../img/cover_bg.jpg) center 55%/cover"></div>
+  <div style="position:absolute;left:0;top:0;width:1080px;height:675px;background:linear-gradient(rgba(10,12,16,.35),rgba(10,12,16,.55))"></div>
+  <div style="position:absolute;left:0;right:0;top:250px;text-align:center;font:400 46px/1.25 IT;letter-spacing:-.02em;color:#F6F2EA">“Is the roof suite free<br>14–18 Feb? We land at 15:10.”</div>
+  <div style="position:absolute;left:0;right:0;top:438px;text-align:center"><span style="font:400 20px/1 PM;letter-spacing:.06em;color:rgba(246,242,234,.75);background:rgba(10,12,16,.4);border-radius:999px;padding:12px 18px">21:47 · RECEPTION CLOSED</span></div>
+  <div class="grid" style="position:absolute;left:0;top:675px;width:1080px;height:675px;background-color:var(--sand)"></div>
+  <!-- card radius 36, padding 24 -> image radius 12 -->
+  <div style="position:absolute;left:250px;top:840px;width:580px;background:#fff;border:1px solid var(--rule);border-radius:36px;padding:24px;box-shadow:0 30px 60px rgba(31,27,22,.12)">
+    <div style="height:150px;border-radius:12px;background:url(../img/roof.jpg) center 42%/cover"></div>
+    <div style="display:flex;justify-content:space-between;align-items:baseline;margin-top:20px;padding:0 6px"><span style="font:500 30px IT">Roof suite · 4 nights</span><span style="font:400 30px IT">$880</span></div>
+    <div class="mono" style="margin-top:8px;padding:0 6px;font-size:17px">14–18 Feb · boat from Manda included</div>
+  </div>
+  <div style="position:absolute;left:600px;top:1190px;display:flex;align-items:center;gap:14px;background:rgba(31,27,22,.88);color:#F6F2EA;border-radius:999px;padding:10px 26px 10px 10px;box-shadow:0 20px 40px rgba(31,27,22,.25);font:400 24px/1 IT">
+    <div class="av" style="width:52px;height:52px;box-shadow:none"><svg width="21" height="23"><use href="#sail"/></svg></div>Quote sent · 21:49</div>
+</section>
+
+<!-- 4 the hold screen, full -->
+<section class="s grid" id="s4" style="background-color:#E6DFD2">
+  <!-- phone outline, radius 64, padding 14 -> screen radius 50 -->
+  <div style="position:absolute;left:300px;top:39px;transform:scale(1.2);transform-origin:50% 0;width:480px;height:1060px;border-radius:64px;border:2px solid rgba(31,27,22,.18);padding:14px;background:rgba(255,255,255,.25)">
+   <div style="position:relative;width:100%;height:100%;border-radius:50px;background:var(--paper);overflow:hidden">
+    <div style="display:flex;justify-content:space-between;padding:22px 30px 0;font:500 16px IT"><span>21:49</span><span style="display:flex;gap:6px;align-items:center"><svg width="17" height="11" viewBox="0 0 17 11"><rect x="0" y="7" width="3" height="4" rx="1" fill="#1F1B16"/><rect x="4.5" y="5" width="3" height="6" rx="1" fill="#1F1B16"/><rect x="9" y="2.5" width="3" height="8.5" rx="1" fill="#1F1B16"/><rect x="13.5" y="0" width="3" height="11" rx="1" fill="#1F1B16"/></svg><svg width="25" height="12" viewBox="0 0 25 12"><rect x=".5" y=".5" width="21" height="11" rx="3" fill="none" stroke="#1F1B16" opacity=".4"/><rect x="2" y="2" width="14" height="8" rx="1.6" fill="#1F1B16"/></svg></span></div>
+    <div style="display:flex;align-items:center;justify-content:space-between;padding:22px 22px 0">
+      <div style="width:44px;height:44px;border-radius:50%;background:var(--sand);display:flex;align-items:center;justify-content:center"><svg width="14" height="14" viewBox="0 0 14 14"><path d="M9 2 L4 7 L9 12" stroke="#1F1B16" stroke-width="1.7" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+      <span style="font:500 18px IT">Hold your room</span>
+      <div class="av" style="width:44px;height:44px;box-shadow:none"><svg width="17" height="19"><use href="#sail"/></svg></div>
+    </div>
+    <!-- card r28 p12 -> image r16 -->
+    <div style="margin:22px 16px 0;background:#fff;border:1px solid var(--rule);border-radius:28px;padding:12px">
+      <div style="height:240px;border-radius:16px;background:url(../img/roof.jpg) center 42%/cover;position:relative">
+        <span style="position:absolute;left:10px;top:10px;font:500 11px/1 PM;letter-spacing:.05em;text-transform:uppercase;background:rgba(246,242,234,.92);border-radius:999px;padding:7px 10px">Sleeps 3</span></div>
+      <div style="padding:14px 8px 4px"><div style="font:500 22px IT">Roof suite</div><div style="font:400 15px IT;color:var(--ink2);margin-top:4px">14–18 Feb · 2 adults, 1 baby</div>
+        <div style="margin-top:12px">
+          <div style="display:flex;justify-content:space-between;font:400 16px IT;padding:14px 0;border-top:1px solid var(--rule)"><span>$220 × 4 nights</span><span>$880</span></div>
+          <div style="display:flex;justify-content:space-between;font:400 16px IT;padding:14px 0;border-top:1px solid var(--rule)"><span>Boat from Manda</span><span>Included</span></div>
+          <div style="display:flex;justify-content:space-between;font:400 16px IT;padding:14px 0;border-top:1px solid var(--rule)"><span>Cot in the alcove</span><span>Free</span></div>
+        </div></div>
+    </div>
+    <div style="padding:30px 24px 0">
+      <div style="font:400 11px/1 PM;letter-spacing:.06em;text-transform:uppercase;color:var(--ink2)">Hold it tonight · 20%</div>
+      <div style="display:flex;align-items:flex-end;justify-content:space-between;margin-top:8px"><span style="font:300 84px/1 IT;letter-spacing:-.05em">$176</span><span style="font:400 14px/1.35 IT;color:var(--ink2);text-align:right;padding-bottom:8px">The rest, $704,<br>at the house</span></div>
+    </div>
+    <!-- segmented: track r22 p4 -> tile r18 -->
+    <div style="margin:26px 16px 0;height:56px;border-radius:22px;background:var(--sand);padding:4px;display:flex">
+      <div style="flex:1;border-radius:18px;background:#fff;box-shadow:0 4px 12px rgba(31,27,22,.12);display:flex;align-items:center;justify-content:center;gap:8px;font:500 15px IT"><i style="width:8px;height:8px;border-radius:50%;background:var(--okdot);box-shadow:0 0 0 3px rgba(63,162,102,.2)"></i>M-Pesa</div>
+      <div style="flex:1;display:flex;align-items:center;justify-content:center;font:400 15px IT;color:var(--ink2)">Card</div>
+    </div>
+    <!-- button: pill, nested arrow circle with equal 6px gap -->
+    <div style="margin:14px 16px 0;height:60px;border-radius:999px;background:var(--ink);color:var(--paper);display:flex;align-items:center;justify-content:space-between;padding:0 6px 0 24px;font:500 17px IT">Pay $176 with M-Pesa<b style="width:48px;height:48px;border-radius:50%;background:rgba(246,242,234,.14);display:flex;align-items:center;justify-content:center"><svg width="16" height="16" viewBox="0 0 12 12"><path d="M2 6h8M6.5 2.5 10 6l-3.5 3.5" stroke="#F6F2EA" stroke-width="1.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg></b></div>
+    <div style="text-align:center;margin-top:18px;font:400 14px IT;color:var(--ink2)">Free to cancel until 7 days before arrival</div>
+    <div style="position:absolute;left:50%;bottom:9px;width:130px;height:5px;margin-left:-65px;border-radius:3px;background:rgba(31,27,22,.28)"></div>
+   </div>
+  </div>
+</section>
+
+<!-- 6 it knows the house -->
+<section class="s" id="s6" style="background:var(--sand)">
+  <div class="lab tl">21:51 · It knows the house</div><div class="lab tr">Concept · Kusi House</div>
+  <div style="position:absolute;left:72px;right:72px;top:250px;display:flex;flex-direction:column;gap:22px">
+    <div class="m g">Can we bring our baby? She's 8 months old.<span class="t">21:51</span></div>
+    <div class="m a">Of course. We'll put a cot in the alcove, at no charge. The suite sleeps three.<span class="t">21:51 · Assistant</span></div>
+    <div class="m g">And if our flight lands late?<span class="t">21:52</span></div>
+    <div class="m a">The boat waits for your flight, however late. I'll confirm the time the evening before.<span class="t">21:52 · Assistant</span></div>
+    <div class="chip" style="align-self:flex-start;margin-top:8px"><i></i>Booked · $176 paid by M-Pesa · 21:53</div>
+  </div>
+  <div class="lab bl">May11Leven Labs</div><div class="lab br">06 / 08</div>
+</section>
+
+<!-- 7 morning summary -->
+<section class="s" id="s7">
+  <div class="lab tl">07:00 · Over to a person</div><div class="lab tr">Concept data</div>
+  <div style="position:absolute;left:72px;top:150px;font:400 72px/1.02 IT;letter-spacing:-.035em;width:900px">Reception wakes up to this.</div>
+  <!-- card r40 p44 -> inner panel r12? use r16 with own padding -->
+  <div style="position:absolute;left:72px;right:72px;top:330px;background:#fff;border:1px solid var(--rule);border-radius:40px;padding:44px;box-shadow:0 30px 70px rgba(31,27,22,.08)">
+    <div style="display:flex;justify-content:space-between" class="mono"><span>Overnight · 21:00–07:00</span><span>Kusi House</span></div>
+    <div style="display:flex;align-items:flex-end;gap:26px;margin-top:26px"><div style="font:300 150px/.9 IT;letter-spacing:-.055em">$364</div><div style="font:400 28px/1.3 IT;color:var(--ink2);padding-bottom:12px">in deposits,<br>held while closed</div></div>
+    <div style="display:flex;gap:12px;margin-top:30px">
+      <span class="chip" style="color:var(--ink);background:var(--sand);font-size:19px"><i style="background:var(--sea);box-shadow:0 0 0 4px rgba(45,74,99,.18)"></i>10 answered</span>
+      <span class="chip" style="font-size:19px"><i></i>3 booked</span>
+      <span class="chip" style="color:#8A4319;background:var(--ambg);font-size:19px"><i style="background:var(--amber);box-shadow:0 0 0 4px rgba(194,100,47,.2)"></i>1 for you</span>
+    </div>
+    <div style="margin-top:30px">
+      <div class="row"><span>Roof suite · 14–18 Feb</span><span>$176 <span class="mono" style="color:var(--ok);font-size:18px">· Paid</span></span></div>
+      <div class="row"><span>Lane room · 2–6 Mar</span><span>$132 <span class="mono" style="color:var(--ok);font-size:18px">· Paid</span></span></div>
+      <div class="row"><span>Courtyard room · 9–11 Mar</span><span>$56 <span class="mono" style="color:var(--ok);font-size:18px">· Paid</span></span></div>
+    </div>
+    <div style="margin-top:22px;background:var(--ambg);border-radius:16px;padding:26px 28px;display:flex;gap:20px;align-items:flex-start">
+      <i style="width:14px;height:14px;border-radius:50%;background:var(--amber);box-shadow:0 0 0 4px rgba(194,100,47,.2);margin-top:11px;flex:none"></i>
+      <div><div style="font:500 28px/1.3 IT">A wedding for 40 guests in June</div><div style="font:400 25px/1.4 IT;color:var(--ink2);margin-top:6px">Too big to quote alone. The guest knows you'll reply this morning.</div></div>
+    </div>
+  </div>
+  <div class="lab bl">May11Leven Labs</div><div class="lab br">07 / 08</div>
+</section>
+
+<!-- 8 offer -->
+<section class="s dk" id="s8" style="background:#141213;color:#ECEAE4">
+  <div class="lab tl">After hours</div><div class="lab tr">May11Leven Labs</div>
+  <h2 style="position:absolute;left:72px;top:250px;width:900px;font:400 84px/1.02 IT;letter-spacing:-.035em;color:#ECEAE4">We build for the hours you're closed.</h2>
+  <div style="position:absolute;left:72px;top:560px;width:620px;font:300 32px/1.4 IT;color:rgba(236,234,228,.7)">Assistants and booking flows, plus the brand and site around them.</div>
+  <div style="position:absolute;left:72px;right:72px;top:790px;border-top:1px solid rgba(236,234,228,.18)">
+    <div style="display:grid;grid-template-columns:1fr 1fr;column-gap:40px" class="svc">
+      <div>Brand identity</div><div>AI automation</div><div>Websites</div><div>AI agents</div><div>Apps</div><div>Social content</div><div>Packaging and 3D</div><div style="color:rgba(236,234,228,.55)">Something else? Ask.</div>
+    </div>
+  </div>
+  <div style="position:absolute;left:72px;bottom:150px;font:400 28px/1.4 IT;color:#ECEAE4"><span style="color:#FF4A1C">Comment 11</span> or email hello@may11levenlabs.com for a free first look.</div>
+  <img src="../../../brand/figma/may11leven-logo-white.svg" style="position:absolute;left:72px;bottom:56px;width:200px" alt="">
+  <div class="lab br">08 / 08</div>
+</section>
+<style>.svc div{font:400 30px/1 IT;padding:26px 0;border-bottom:1px solid rgba(236,234,228,.18);color:#ECEAE4}</style>
+</body></html>

@@ -20,3 +20,18 @@ Reference: `brand/refs/reels/motto-future-branding/` (a word-drum reel of Future
 - When we quote someone, we credit them by name. Real sources only.
 
 Our first version is `posts/night-shift/` ("Sell / Book / Reply / Get paid / Grow ... while you sleep.").
+
+## Case-study caption pattern (Zenarate rebrand, the post Zayn shared)
+1. **The category thesis, two lines:** "The next generation of AI leaders will be defined by more than what their technology can do. / They'll be defined by the future they make possible." About the client's world, not about Motto.
+2. **The ambition:** "When [client] partnered with Motto®, the ambition was to…" One sentence.
+3. **What we did and why:** "We led the rebrand and website transformation, bringing greater clarity to…" The services named once, each with its purpose.
+4. **The belief:** "Behind the work is a belief we bring to every transformation: …" The studio's point of view, one sentence.
+5. **The invitation:** "A look inside the thinking, strategy, and creative work behind…"
+6. **Two links:** the full case study on their own site, and the live client site.
+7. Four plain hashtags. No emoji, no "comment" ask.
+
+**The reel itself:** the live site scrolls slowly on a flat screen over a blurred photo of a wood-panelled office with a person at a laptop (the client's world), the same method Lebedev uses. Serif headlines with one italic word ("Explore Roles and *Industries.*", "Let's better customer experiences *together.*"). The scroll ends on the giant wordmark footer, so the last frame is the name.
+
+## Our use
+- Kusi House and every concept case study: thesis about the client's category, the ambition, what we did and why, our belief, labelled "concept", and a link to the case-study page once our site is live.
+- End every site reel on the client's wordmark, large.

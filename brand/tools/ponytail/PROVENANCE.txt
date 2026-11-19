@@ -1,0 +1,1 @@
+Source: github.com/DietrichGebert/ponytail (MIT), commit 96608e0. Skill only; the plugin's lifecycle hooks and optional webhook are not installed. Scanned with NVIDIA SkillSpector (static): findings were in tests, benchmarks and docs (injection strings used as test fixtures), none in the skill.

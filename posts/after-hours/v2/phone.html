@@ -1,0 +1,88 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><style>
+@font-face{font-family:IT;font-weight:300;src:url(../../../brand/fonts/InterTight-Light.ttf)}
+@font-face{font-family:IT;font-weight:400;src:url(../../../brand/fonts/InterTight-Regular.ttf)}
+@font-face{font-family:IT;font-weight:500;src:url(../../../brand/fonts/InterTight-Medium.ttf)}
+@font-face{font-family:PM;src:url(../../../brand/fonts/PlexMono.ttf)}
+@font-face{font-family:IS;src:url(../../../brand/fonts/InstrumentSerif-Regular.ttf)}
+/* Kusi House product tokens */
+:root{--ink:#1F1B16;--ink2:#6A6054;--paper:#F6F2EA;--sand:#ECE5D8;--sea:#2D4A63;--sea2:#DCE4EA;--rule:rgba(31,27,22,.12);--ok:#2E6B45;--okbg:#E2EEE4;--okdot:#3FA266}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:432px;height:964px;background:transparent;font-family:IT;color:var(--ink);-webkit-font-smoothing:antialiased;overflow:hidden}
+#scr{position:absolute;inset:0;background:var(--paper);border-radius:26px;overflow:hidden}
+.sb{position:absolute;left:0;right:0;top:0;height:40px;display:flex;align-items:center;justify-content:space-between;padding:0 22px;font:500 14px IT;letter-spacing:.01em}
+.sb .ic{display:flex;gap:6px;align-items:center}
+.hd{position:absolute;left:0;right:0;top:40px;height:74px;display:flex;align-items:center;gap:12px;padding:0 16px;border-bottom:1px solid var(--rule);background:rgba(251,248,242,.92)}
+.bk{width:38px;height:38px;border-radius:50%;background:var(--sand);display:flex;align-items:center;justify-content:center}
+.av{position:relative;width:42px;height:42px;border-radius:50%;background:var(--sea);display:flex;align-items:center;justify-content:center;color:var(--paper);box-shadow:0 4px 10px rgba(45,74,99,.28)}
+.av .on{position:absolute;right:-1px;bottom:-1px;width:13px;height:13px;border-radius:50%;background:var(--okdot);border:2.5px solid #FBF8F2}
+.nm{font:500 17px/1.1 IT;letter-spacing:-.01em}
+.st{display:inline-flex;align-items:center;gap:6px;margin-top:4px;font:500 11px/1 PM;letter-spacing:.04em;text-transform:uppercase;color:var(--ok);background:var(--okbg);border-radius:999px;padding:5px 8px 5px 6px}
+.st i{width:7px;height:7px;border-radius:50%;background:var(--okdot);box-shadow:0 0 0 2px rgba(63,162,102,.22)}
+.day{position:absolute;left:0;right:0;top:132px;text-align:center}
+.day span{font:400 11px/1 PM;letter-spacing:.06em;text-transform:uppercase;color:var(--ink2);background:var(--sand);border-radius:999px;padding:6px 10px}
+#msgs{position:absolute;left:14px;right:14px;top:170px;display:flex;flex-direction:column;gap:10px}
+.m{max-width:82%;padding:12px 15px;border-radius:20px;font:400 16px/1.34 IT;letter-spacing:-.005em;will-change:transform,opacity}
+.g{align-self:flex-end;background:var(--sea);color:#F6F2EA;border-bottom-right-radius:6px;box-shadow:0 6px 14px rgba(45,74,99,.22)}
+.a{align-self:flex-start;background:#fff;border:1px solid var(--rule);border-bottom-left-radius:6px;box-shadow:0 4px 12px rgba(31,27,22,.05)}
+.t{display:block;margin-top:6px;font:400 10px/1 PM;letter-spacing:.05em;color:var(--ink2)}
+.g .t{color:rgba(246,242,234,.66)}
+.typing{align-self:flex-start;display:flex;gap:5px;background:#fff;border:1px solid var(--rule);border-radius:20px;border-bottom-left-radius:6px;padding:14px 16px}
+.typing i{width:7px;height:7px;border-radius:50%;background:var(--ink2)}
+/* quote card: radius 22, padding 16 -> inner radius 6 (rule: outer - padding) */
+.q{align-self:flex-start;width:84%;background:#fff;border:1px solid var(--rule);border-radius:22px;border-bottom-left-radius:6px;padding:16px;box-shadow:0 10px 24px rgba(31,27,22,.08)}
+.qimg{height:96px;border-radius:6px;background:url(../img/roof.jpg) center 42%/cover}
+.qr{display:flex;justify-content:space-between;align-items:baseline;margin-top:12px}
+.qn{font:500 16px/1.2 IT}.qp{font:400 16px IT;font-variant-numeric:tabular-nums}
+.qs{margin-top:4px;font:400 10.5px/1.3 PM;letter-spacing:.05em;text-transform:uppercase;color:var(--ink2)}
+.qb{margin-top:12px;height:40px;border-radius:999px;background:var(--ink);color:var(--paper);display:flex;align-items:center;justify-content:space-between;padding:0 6px 0 16px;font:500 14px IT}
+.qb b{font-weight:500;width:28px;height:28px;border-radius:50%;background:rgba(246,242,234,.14);display:flex;align-items:center;justify-content:center}
+.cmp{position:absolute;left:12px;right:12px;bottom:22px;height:48px;border-radius:999px;background:#fff;border:1px solid var(--rule);display:flex;align-items:center;justify-content:space-between;padding:0 5px 0 18px;font:400 15px IT;color:var(--ink2)}
+.cmp b{width:38px;height:38px;border-radius:50%;background:var(--sea);display:flex;align-items:center;justify-content:center;box-shadow:0 4px 10px rgba(45,74,99,.3)}
+.home{position:absolute;left:50%;bottom:7px;width:120px;height:4px;margin-left:-60px;border-radius:2px;background:rgba(31,27,22,.28)}
+</style></head><body>
+<svg width="0" height="0" style="position:absolute"><symbol id="sail" viewBox="0 0 19 21"><path d="M15.2 3.2 C12.6 8.4 12.2 13.4 14.2 18.6 L3.4 18.6 Z" fill="currentColor"/><path d="M1.2 19.6 L17.6 0.8" stroke="currentColor" stroke-width="1.1" fill="none"/></symbol></svg>
+<div id="scr">
+  <div class="sb"><span id="clock">21:47</span><span class="ic">
+    <svg width="17" height="11" viewBox="0 0 17 11"><rect x="0" y="7" width="3" height="4" rx="1" fill="#1F1B16"/><rect x="4.5" y="5" width="3" height="6" rx="1" fill="#1F1B16"/><rect x="9" y="2.5" width="3" height="8.5" rx="1" fill="#1F1B16"/><rect x="13.5" y="0" width="3" height="11" rx="1" fill="#1F1B16"/></svg>
+    <svg width="15" height="11" viewBox="0 0 15 11"><path d="M7.5 10.5 L5.2 8.1 A3.3 3.3 0 0 1 9.8 8.1 Z M2.9 5.8 A6.5 6.5 0 0 1 12.1 5.8 L10.9 7 A4.8 4.8 0 0 0 4.1 7 Z M.6 3.5 A9.7 9.7 0 0 1 14.4 3.5 L13.2 4.7 A8 8 0 0 0 1.8 4.7 Z" fill="#1F1B16"/></svg>
+    <svg width="25" height="12" viewBox="0 0 25 12"><rect x=".5" y=".5" width="21" height="11" rx="3" fill="none" stroke="#1F1B16" opacity=".4"/><rect x="2" y="2" width="14" height="8" rx="1.6" fill="#1F1B16"/><rect x="22.5" y="4" width="1.6" height="4" rx=".8" fill="#1F1B16" opacity=".4"/></svg></span></div>
+  <div class="hd">
+    <div class="bk"><svg width="14" height="14" viewBox="0 0 14 14"><path d="M9 2 L4 7 L9 12" stroke="#1F1B16" stroke-width="1.7" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+    <div class="av"><svg width="19" height="21"><use href="#sail"/></svg><span class="on"></span></div>
+    <div><div class="nm">Kusi House</div><div class="st"><i></i>Replies any hour</div></div>
+  </div>
+  <div class="day"><span>Tonight · Lamu</span></div>
+  <div id="msgs">
+    <div class="m g" id="m1">Is the roof suite free 14–18 Feb? We land at 15:10.<span class="t">21:47</span></div>
+    <div class="typing" id="ty"><i></i><i></i><i></i></div>
+    <div class="m a" id="m2">Yes, all four nights. $220 a night, and our boat meets you at Manda.<span class="t">21:48 · Assistant</span></div>
+    <div class="q" id="q1"><div class="qimg"></div><div class="qr"><span class="qn">Roof suite · 4 nights</span><span class="qp">$880</span></div><div class="qs">14–18 Feb · boat included</div><div class="qb">Hold it with $176<b><svg width="12" height="12" viewBox="0 0 12 12"><path d="M2 6h8M6.5 2.5 10 6l-3.5 3.5" stroke="#F6F2EA" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg></b></div></div>
+    <div class="m g" id="m3">Perfect. Can we bring our baby?<span class="t">21:51</span></div>
+  </div>
+  <div class="cmp">Message Kusi House<b><svg width="16" height="16" viewBox="0 0 16 16"><path d="M8 13V3M3.5 7.5 8 3l4.5 4.5" stroke="#F6F2EA" stroke-width="1.7" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg></b></div>
+  <div class="home"></div>
+</div>
+<script>
+const ease=x=>x<0?0:x>1?1:1-Math.pow(1-x,3);           // ease-out cubic
+const inout=x=>x<0?0:x>1?1:x<.5?4*x*x*x:1-Math.pow(-2*x+2,3)/2;
+const $=id=>document.getElementById(id);
+const D=8; // loop length (s)
+function show(el,t0,t,dur=.5,dy=14){const p=ease((t-t0)/dur);el.style.opacity=p;el.style.transform=`translateY(${(1-p)*dy}px) scale(${.97+.03*p})`;el.style.display=t<t0?'none':'';}
+function render(t){
+  t=((t%D)+D)%D;
+  // typing bubble 1.3-2.3, then replaced by reply
+  show($('m1'),.35,t);
+  const ty=$('ty');
+  if(t>=1.25&&t<2.35){ty.style.display='';ty.style.opacity=ease((t-1.25)/.25);
+    [...ty.children].forEach((d,i)=>{const ph=(t*2.2-i*.18)%1;d.style.opacity=.3+.5*Math.max(0,Math.sin(ph*Math.PI));d.style.transform=`translateY(${-2*Math.max(0,Math.sin(ph*Math.PI))}px)`;});}
+  else ty.style.display='none';
+  show($('m2'),2.35,t);
+  show($('q1'),3.15,t,.6,22);
+  show($('m3'),5.0,t);
+  $('clock').textContent=t<2.35?'21:47':t<5?'21:48':'21:51';
+  // whole thread lifts out at the end so frame 0 == frame D
+  const out=inout((t-7.0)/.8);
+  $('msgs').style.opacity=1-out;$('msgs').style.transform=`translateY(${-30*out}px)`;
+}
+window.render=render;render(0);
+</script></body></html>

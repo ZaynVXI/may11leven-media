@@ -1,0 +1,3 @@
+Source: github.com/benjitaylor/skills (stageshow v1.1.1, MIT, Benji Taylor), commit 299140f.
+Inspected: scripts only spawn node itself (film.mjs retry) and the local dev server (dev.mjs); no outside network calls. Run npm install inside the folder before filming (npm registry only).
+Restore: cp -r brand/tools/stageshow ~/.claude/skills/

@@ -1,0 +1,13 @@
+concept: term. a school fees app that saves a little every friday, so january doesn't arrive as one big bill.
+
+fees come three times a year. pay comes every week or month. term splits each child's next term into small weekly amounts from m-pesa, locks them until the school is paid, and keeps the receipt.
+
+one calm status per child: covered, or on track with the amount still to go.
+
+we design money apps people trust. we also design brands, websites, packaging and 3d, ai automation, ai agents and social content.
+
+comment 11 for a free first look at your app or idea. or email us:
+hello@may11levenlabs.com
+may11leven.labs@gmail.com
+
+#FintechDesign #AppDesign #Kenya #MPesa #May11LevenLabs

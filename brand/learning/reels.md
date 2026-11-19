@@ -20,6 +20,11 @@ Sheets: reel-3113c18e (merch, hands only), reel-24210ed3 (creator "5 plugins" li
 ## Practice: "opacity list" (brand/practice/reels/opacity-list-v1/v2.mp4, 8 s, 1080x1920)
 - Six services on Bone; active item Ink 100%, others 18%; Infrared dot follows the active row; big counter 01/06; ends on the 11 mark + "comment 11"; last 0.45 s returns to frame 1 for the loop. Ticks lead picture by 2 frames, whoosh into the exit, low hit on the mark.
 
+## Reel length: ours vs the references Zayn sent
+- His 92 reference reels: median 14.6 s, average 18 s. 28 are under 10 s, 31 are 10–20 s, 21 are 20–30 s, 10 are 30–60 s, 2 are over a minute (60 s and 100 s).
+- Ours so far: 5–22 s, mostly 12–17 s. After hours is 22 s.
+- Verdict: our typical length matches the references, but we never make the long tier (30–60 s) that a third of theirs use for case studies and process stories.
+- Rule from now on, length set by job: loops and logo marks 6–10 s; product demos 15–25 s; case studies and process stories 30–60 s (one a fortnight). Length must be earned: hold each line for its reading time, and cut any second where nothing changes.
 ## Study: a held still with type in the corners, a poster that rebuilds itself
 Sheets: reel-0148ef71 (Holographik "Colonize Mars"), reel-0986ee33 (Bottone x Holographik poster, Berlin to Zagreb).
 - Hook: Mars opens on the finished frame, a planet edge lit from the right, with the title already there. No build-up; the still is the hook. Poster opens on a red poster in a real concrete underpass, so it reads as a photo before it reads as motion.
@@ -40,3 +45,15 @@ Sheets: reel-0148ef71 (Holographik "Colonize Mars"), reel-0986ee33 (Bottone x Ho
 - Five visual hooks, each resolved by the eye in the first second: (1) motion at frame one (action already underway, must relate to the topic); (2) an object out of place; (3) the finished result first (good for tutorials, shot close and lit so it reads small); (4) a face mid-action; (5) the before state at its worst, fixed fast.
 - The thumbnail test: screenshot frame one, shrink to ~1/3 phone width, look for one second with sound off, then write one sentence of what it promises. If you can't, change the frame. Checks: real image not a fade-from-black; one subject fills the frame and contrasts the ground; subject/text sit in the centre that survives the 3:4 grid crop (~240px off top and bottom of a 1080x1920 reel).
 - For us: the Mita concept reel is hook type 3 + 5 combined - open on the finished home screen with "38.6 kWh" already huge (result first), then cut to the confusing paper token it replaces (the before). Counter and split animate in; cover is the final clean screen. Keep the numeral and split inside y 220-1500 so the grid crop and IG chrome don't eat them.
+
+## Study: website showcase reels (Lebedev Haven, Satto services)
+Sheets: reel-207abe5b (Lebedev: Haven Foods, Contour, a studio site), satto-reel-6b4df76b (Satto: services list over a film still).
+- Hook: Lebedev opens on the finished collage, page screens laid over an aerial coast photo from the same project; Satto opens on a black index with the services already set in a huge thin serif. Both show the finished thing at frame one.
+- Cut rhythm: Lebedev cuts every ~1 s between four plates (collage, phone on a sage cushion, tablet on a chrome stand, a dark site on a night sea) and repeats them, so the reel loops. Satto is one move: the service words stay put while the image under them changes (black, white, portrait, a figure in fog).
+- Camera: locked. Devices sit still on real surfaces (fabric, chrome); any movement is the screen content.
+- Type in and out: Lebedev uses no added type, the site's own type is the type. Satto's words overlap the photos and get partly eaten by them, then the last frame names the project ("Onda").
+- Transitions: hard cuts only.
+- Sound (from the pace): a steady beat with a cut on every bar.
+- Cover: Lebedev's collage frame works as a still post; Satto's word stack works at thumbnail size because it is only type.
+- External (june-mango-design.squarespace.com): the usual method records a scroll and masks it into a laptop mockup in Photoshop. We do the same in code: a Playwright 1440x900 scroll recording placed into a Blender device on a real surface, which avoids template mockups.
+- For us: an Ikiyaga reel, 8 s. Frame 1 is the ladder with every price already there; the selected row steps down one flat per beat (hard 1-frame changes) while the detail strip updates; the last beat cuts to the wetland photo with "Every price, on the first page." Cover = the ladder still.

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "generated_from_commit": "9eb5240a96124290b951265bec1e8dbf18597560",
-  "skill_count": 485,
+  "skill_count": 495,
   "installed_targets": [
     ".claude/skills",
     ".agents/skills"
@@ -4400,6 +4400,807 @@
       "source_file": "brand/tools/juliobsz-skills/jury/SKILL.md",
       "license_file": "brand/tools/juliobsz-skills/LICENSE",
       "license_status": "mit-verified"
+    },
+    {
+      "id": "anatomy",
+      "group": "anatomy",
+      "skill_name": "anatomy",
+      "source_dir": "brand/tools/anatomy",
+      "source_file": "brand/tools/anatomy/SKILL.md",
+      "license_file": "brand/tools/anatomy/LICENSE",
+      "license_status": "MIT"
+    },
+    {
+      "id": "hyperframes-figma",
+      "group": "hyperframes",
+      "skill_name": "figma",
+      "source_dir": "brand/tools/hyperframes/figma",
+      "source_file": "brand/tools/hyperframes/figma/SKILL.md",
+      "license_file": "brand/tools/hyperframes/LICENSE",
+      "license_status": "Apache-2.0"
+    },
+    {
+      "id": "hyperframes-hyperframes",
+      "group": "hyperframes",
+      "skill_name": "hyperframes",
+      "source_dir": "brand/tools/hyperframes/hyperframes",
+      "source_file": "brand/tools/hyperframes/hyperframes/SKILL.md",
+      "license_file": "brand/tools/hyperframes/LICENSE",
+      "license_status": "Apache-2.0"
+    },
+    {
+      "id": "hyperframes-hyperframes-cli",
+      "group": "hyperframes",
+      "skill_name": "hyperframes-cli",
+      "source_dir": "brand/tools/hyperframes/hyperframes-cli",
+      "source_file": "brand/tools/hyperframes/hyperframes-cli/SKILL.md",
+      "license_file": "brand/tools/hyperframes/LICENSE",
+      "license_status": "Apache-2.0"
+    },
+    {
+      "id": "hyperframes-hyperframes-registry",
+      "group": "hyperframes",
+      "skill_name": "hyperframes-registry",
+      "source_dir": "brand/tools/hyperframes/hyperframes-registry",
+      "source_file": "brand/tools/hyperframes/hyperframes-registry/SKILL.md",
+      "license_file": "brand/tools/hyperframes/LICENSE",
+      "license_status": "Apache-2.0"
+    },
+    {
+      "id": "hyperframes-media-use",
+      "group": "hyperframes",
+      "skill_name": "media-use",
+      "source_dir": "brand/tools/hyperframes/media-use",
+      "source_file": "brand/tools/hyperframes/media-use/SKILL.md",
+      "license_file": "brand/tools/hyperframes/LICENSE",
+      "license_status": "Apache-2.0"
+    },
+    {
+      "id": "hyperframes-remotion-to-hyperframes",
+      "group": "hyperframes",
+      "skill_name": "remotion-to-hyperframes",
+      "source_dir": "brand/tools/hyperframes/remotion-to-hyperframes",
+      "source_file": "brand/tools/hyperframes/remotion-to-hyperframes/SKILL.md",
+      "license_file": "brand/tools/hyperframes/LICENSE",
+      "license_status": "Apache-2.0"
+    },
+    {
+      "id": "hyperframes-reverse-any-video",
+      "group": "hyperframes",
+      "skill_name": "reverse-any-video",
+      "source_dir": "brand/tools/hyperframes/reverse-any-video",
+      "source_file": "brand/tools/hyperframes/reverse-any-video/SKILL.md",
+      "license_file": "brand/tools/hyperframes/LICENSE",
+      "license_status": "Apache-2.0"
+    },
+    {
+      "id": "hyperframes-slideshow",
+      "group": "hyperframes",
+      "skill_name": "slideshow",
+      "source_dir": "brand/tools/hyperframes/slideshow",
+      "source_file": "brand/tools/hyperframes/slideshow/SKILL.md",
+      "license_file": "brand/tools/hyperframes/LICENSE",
+      "license_status": "Apache-2.0"
+    },
+    {
+      "id": "hyperframes-style-sampling",
+      "group": "hyperframes",
+      "skill_name": "style-sampling",
+      "source_dir": "brand/tools/hyperframes/style-sampling",
+      "source_file": "brand/tools/hyperframes/style-sampling/SKILL.md",
+      "license_file": "brand/tools/hyperframes/LICENSE",
+      "license_status": "Apache-2.0"
+    },
+    {
+      "id": "90n-skills/pmg-build-opportunity-tree",
+      "group": "90n-skills",
+      "skill_name": "pmg-build-opportunity-tree",
+      "source_dir": "brand/tools/90n-skills/complete-claude-guide-for-product-managers-pack/skills/pmg-build-opportunity-tree",
+      "source_file": "brand/tools/90n-skills/complete-claude-guide-for-product-managers-pack/skills/pmg-build-opportunity-tree/SKILL.md",
+      "license_file": "brand/tools/90n-skills/LICENSE.md",
+      "license_status": "free internal use, no resale"
+    },
+    {
+      "id": "90n-skills/pmg-build-personas",
+      "group": "90n-skills",
+      "skill_name": "pmg-build-personas",
+      "source_dir": "brand/tools/90n-skills/complete-claude-guide-for-product-managers-pack/skills/pmg-build-personas",
+      "source_file": "brand/tools/90n-skills/complete-claude-guide-for-product-managers-pack/skills/pmg-build-personas/SKILL.md",
+      "license_file": "brand/tools/90n-skills/LICENSE.md",
+      "license_status": "free internal use, no resale"
+    },
+    {
+      "id": "90n-skills/pmg-build-product-roadmap",
+      "group": "90n-skills",
+      "skill_name": "pmg-build-product-roadmap",
+      "source_dir": "brand/tools/90n-skills/complete-claude-guide-for-product-managers-pack/skills/pmg-build-product-roadmap",
+      "source_file": "brand/tools/90n-skills/complete-claude-guide-for-product-managers-pack/skills/pmg-build-product-roadmap/SKILL.md",
+      "license_file": "brand/tools/90n-skills/LICENSE.md",
+      "license_status": "free internal use, no resale"
+    },
+    {
+      "id": "90n-skills/pmg-build-story-map",
+      "group": "90n-skills",
+      "skill_name": "pmg-build-story-map",
+      "source_dir": "brand/tools/90n-skills/complete-claude-guide-for-product-managers-pack/skills/pmg-build-story-map",
+      "source_file": "brand/tools/90n-skills/complete-claude-guide-for-product-managers-pack/skills/pmg-build-story-map/SKILL.md",
+      "license_file": "brand/tools/90n-skills/LICENSE.md",
+      "license_status": "free internal use, no resale"
+    },
+    {
+      "id": "90n-skills/pmg-cost-the-delay",
+      "group": "90n-skills",
+      "skill_name": "pmg-cost-the-delay",
+      "source_dir": "brand/tools/90n-skills/complete-claude-guide-for-product-managers-pack/skills/pmg-cost-the-delay",
+      "source_file": "brand/tools/90n-skills/complete-claude-guide-for-product-managers-pack/skills/pmg-cost-the-delay/SKILL.md",
+      "license_file": "brand/tools/90n-skills/LICENSE.md",
+      "license_status": "free internal use, no resale"
+    },
+    {
+      "id": "90n-skills/pmg-cut-scope-with-moscow",
+      "group": "90n-skills",
+      "skill_name": "pmg-cut-scope-with-moscow",
+      "source_dir": "brand/tools/90n-skills/complete-claude-guide-for-product-managers-pack/skills/pmg-cut-scope-with-moscow",
+      "source_file": "brand/tools/90n-skills/complete-claude-guide-for-product-managers-pack/skills/pmg-cut-scope-with-moscow/SKILL.md",
+      "license_file": "brand/tools/90n-skills/LICENSE.md",
+      "license_status": "free internal use, no resale"
+    },
+    {
+      "id": "90n-skills/pmg-design-the-experiment",
+      "group": "90n-skills",
+      "skill_name": "pmg-design-the-experiment",
+      "source_dir": "brand/tools/90n-skills/complete-claude-guide-for-product-managers-pack/skills/pmg-design-the-experiment",
+      "source_file": "brand/tools/90n-skills/complete-claude-guide-for-product-managers-pack/skills/pmg-design-the-experiment/SKILL.md",
+      "license_file": "brand/tools/90n-skills/LICENSE.md",
+      "license_status": "free internal use, no resale"
+    },
+    {
+      "id": "90n-skills/pmg-fill-lean-canvas",
+      "group": "90n-skills",
+      "skill_name": "pmg-fill-lean-canvas",
+      "source_dir": "brand/tools/90n-skills/complete-claude-guide-for-product-managers-pack/skills/pmg-fill-lean-canvas",
+      "source_file": "brand/tools/90n-skills/complete-claude-guide-for-product-managers-pack/skills/pmg-fill-lean-canvas/SKILL.md",
+      "license_file": "brand/tools/90n-skills/LICENSE.md",
+      "license_status": "free internal use, no resale"
+    },
+    {
+      "id": "90n-skills/pmg-fill-value-proposition-canvas",
+      "group": "90n-skills",
+      "skill_name": "pmg-fill-value-proposition-canvas",
+      "source_dir": "brand/tools/90n-skills/complete-claude-guide-for-product-managers-pack/skills/pmg-fill-value-proposition-canvas",
+      "source_file": "brand/tools/90n-skills/complete-claude-guide-for-product-managers-pack/skills/pmg-fill-value-proposition-canvas/SKILL.md",
+      "license_file": "brand/tools/90n-skills/LICENSE.md",
+      "license_status": "free internal use, no resale"
+    },
+    {
+      "id": "90n-skills/pmg-keep-decision-log",
+      "group": "90n-skills",
+      "skill_name": "pmg-keep-decision-log",
+      "source_dir": "brand/tools/90n-skills/complete-claude-guide-for-product-managers-pack/skills/pmg-keep-decision-log",
+      "source_file": "brand/tools/90n-skills/complete-claude-guide-for-product-managers-pack/skills/pmg-keep-decision-log/SKILL.md",
+      "license_file": "brand/tools/90n-skills/LICENSE.md",
+      "license_status": "free internal use, no resale"
+    },
+    {
+      "id": "90n-skills/pmg-make-business-case",
+      "group": "90n-skills",
+      "skill_name": "pmg-make-business-case",
+      "source_dir": "brand/tools/90n-skills/complete-claude-guide-for-product-managers-pack/skills/pmg-make-business-case",
+      "source_file": "brand/tools/90n-skills/complete-claude-guide-for-product-managers-pack/skills/pmg-make-business-case/SKILL.md",
+      "license_file": "brand/tools/90n-skills/LICENSE.md",
+      "license_status": "free internal use, no resale"
+    },
+    {
+      "id": "90n-skills/pmg-map-customer-journey",
+      "group": "90n-skills",
+      "skill_name": "pmg-map-customer-journey",
+      "source_dir": "brand/tools/90n-skills/complete-claude-guide-for-product-managers-pack/skills/pmg-map-customer-journey",
+      "source_file": "brand/tools/90n-skills/complete-claude-guide-for-product-managers-pack/skills/pmg-map-customer-journey/SKILL.md",
+      "license_file": "brand/tools/90n-skills/LICENSE.md",
+      "license_status": "free internal use, no resale"
+    },
+    {
+      "id": "90n-skills/pmg-map-jobs-to-be-done",
+      "group": "90n-skills",
+      "skill_name": "pmg-map-jobs-to-be-done",
+      "source_dir": "brand/tools/90n-skills/complete-claude-guide-for-product-managers-pack/skills/pmg-map-jobs-to-be-done",
+      "source_file": "brand/tools/90n-skills/complete-claude-guide-for-product-managers-pack/skills/pmg-map-jobs-to-be-done/SKILL.md",
+      "license_file": "brand/tools/90n-skills/LICENSE.md",
+      "license_status": "free internal use, no resale"
+    },
+    {
+      "id": "90n-skills/pmg-map-the-impact",
+      "group": "90n-skills",
+      "skill_name": "pmg-map-the-impact",
+      "source_dir": "brand/tools/90n-skills/complete-claude-guide-for-product-managers-pack/skills/pmg-map-the-impact",
+      "source_file": "brand/tools/90n-skills/complete-claude-guide-for-product-managers-pack/skills/pmg-map-the-impact/SKILL.md",
+      "license_file": "brand/tools/90n-skills/LICENSE.md",
+      "license_status": "free internal use, no resale"
+    },
+    {
+      "id": "90n-skills/pmg-pick-north-star-metric",
+      "group": "90n-skills",
+      "skill_name": "pmg-pick-north-star-metric",
+      "source_dir": "brand/tools/90n-skills/complete-claude-guide-for-product-managers-pack/skills/pmg-pick-north-star-metric",
+      "source_file": "brand/tools/90n-skills/complete-claude-guide-for-product-managers-pack/skills/pmg-pick-north-star-metric/SKILL.md",
+      "license_file": "brand/tools/90n-skills/LICENSE.md",
+      "license_status": "free internal use, no resale"
+    },
+    {
+      "id": "90n-skills/pmg-plan-go-to-market",
+      "group": "90n-skills",
+      "skill_name": "pmg-plan-go-to-market",
+      "source_dir": "brand/tools/90n-skills/complete-claude-guide-for-product-managers-pack/skills/pmg-plan-go-to-market",
+      "source_file": "brand/tools/90n-skills/complete-claude-guide-for-product-managers-pack/skills/pmg-plan-go-to-market/SKILL.md",
+      "license_file": "brand/tools/90n-skills/LICENSE.md",
+      "license_status": "free internal use, no resale"
+    },
+    {
+      "id": "90n-skills/pmg-plan-the-quarter",
+      "group": "90n-skills",
+      "skill_name": "pmg-plan-the-quarter",
+      "source_dir": "brand/tools/90n-skills/complete-claude-guide-for-product-managers-pack/skills/pmg-plan-the-quarter",
+      "source_file": "brand/tools/90n-skills/complete-claude-guide-for-product-managers-pack/skills/pmg-plan-the-quarter/SKILL.md",
+      "license_file": "brand/tools/90n-skills/LICENSE.md",
+      "license_status": "free internal use, no resale"
+    },
+    {
+      "id": "90n-skills/pmg-plan-the-sprint",
+      "group": "90n-skills",
+      "skill_name": "pmg-plan-the-sprint",
+      "source_dir": "brand/tools/90n-skills/complete-claude-guide-for-product-managers-pack/skills/pmg-plan-the-sprint",
+      "source_file": "brand/tools/90n-skills/complete-claude-guide-for-product-managers-pack/skills/pmg-plan-the-sprint/SKILL.md",
+      "license_file": "brand/tools/90n-skills/LICENSE.md",
+      "license_status": "free internal use, no resale"
+    },
+    {
+      "id": "90n-skills/pmg-prepare-interview-guide",
+      "group": "90n-skills",
+      "skill_name": "pmg-prepare-interview-guide",
+      "source_dir": "brand/tools/90n-skills/complete-claude-guide-for-product-managers-pack/skills/pmg-prepare-interview-guide",
+      "source_file": "brand/tools/90n-skills/complete-claude-guide-for-product-managers-pack/skills/pmg-prepare-interview-guide/SKILL.md",
+      "license_file": "brand/tools/90n-skills/LICENSE.md",
+      "license_status": "free internal use, no resale"
+    },
+    {
+      "id": "90n-skills/pmg-rank-with-wsjf",
+      "group": "90n-skills",
+      "skill_name": "pmg-rank-with-wsjf",
+      "source_dir": "brand/tools/90n-skills/complete-claude-guide-for-product-managers-pack/skills/pmg-rank-with-wsjf",
+      "source_file": "brand/tools/90n-skills/complete-claude-guide-for-product-managers-pack/skills/pmg-rank-with-wsjf/SKILL.md",
+      "license_file": "brand/tools/90n-skills/LICENSE.md",
+      "license_status": "free internal use, no resale"
+    },
+    {
+      "id": "90n-skills/pmg-run-post-launch-review",
+      "group": "90n-skills",
+      "skill_name": "pmg-run-post-launch-review",
+      "source_dir": "brand/tools/90n-skills/complete-claude-guide-for-product-managers-pack/skills/pmg-run-post-launch-review",
+      "source_file": "brand/tools/90n-skills/complete-claude-guide-for-product-managers-pack/skills/pmg-run-post-launch-review/SKILL.md",
+      "license_file": "brand/tools/90n-skills/LICENSE.md",
+      "license_status": "free internal use, no resale"
+    },
+    {
+      "id": "90n-skills/pmg-run-pre-mortem",
+      "group": "90n-skills",
+      "skill_name": "pmg-run-pre-mortem",
+      "source_dir": "brand/tools/90n-skills/complete-claude-guide-for-product-managers-pack/skills/pmg-run-pre-mortem",
+      "source_file": "brand/tools/90n-skills/complete-claude-guide-for-product-managers-pack/skills/pmg-run-pre-mortem/SKILL.md",
+      "license_file": "brand/tools/90n-skills/LICENSE.md",
+      "license_status": "free internal use, no resale"
+    },
+    {
+      "id": "90n-skills/pmg-run-sprint-review",
+      "group": "90n-skills",
+      "skill_name": "pmg-run-sprint-review",
+      "source_dir": "brand/tools/90n-skills/complete-claude-guide-for-product-managers-pack/skills/pmg-run-sprint-review",
+      "source_file": "brand/tools/90n-skills/complete-claude-guide-for-product-managers-pack/skills/pmg-run-sprint-review/SKILL.md",
+      "license_file": "brand/tools/90n-skills/LICENSE.md",
+      "license_status": "free internal use, no resale"
+    },
+    {
+      "id": "90n-skills/pmg-run-the-retro",
+      "group": "90n-skills",
+      "skill_name": "pmg-run-the-retro",
+      "source_dir": "brand/tools/90n-skills/complete-claude-guide-for-product-managers-pack/skills/pmg-run-the-retro",
+      "source_file": "brand/tools/90n-skills/complete-claude-guide-for-product-managers-pack/skills/pmg-run-the-retro/SKILL.md",
+      "license_file": "brand/tools/90n-skills/LICENSE.md",
+      "license_status": "free internal use, no resale"
+    },
+    {
+      "id": "90n-skills/pmg-score-with-ice",
+      "group": "90n-skills",
+      "skill_name": "pmg-score-with-ice",
+      "source_dir": "brand/tools/90n-skills/complete-claude-guide-for-product-managers-pack/skills/pmg-score-with-ice",
+      "source_file": "brand/tools/90n-skills/complete-claude-guide-for-product-managers-pack/skills/pmg-score-with-ice/SKILL.md",
+      "license_file": "brand/tools/90n-skills/LICENSE.md",
+      "license_status": "free internal use, no resale"
+    },
+    {
+      "id": "90n-skills/pmg-score-with-rice",
+      "group": "90n-skills",
+      "skill_name": "pmg-score-with-rice",
+      "source_dir": "brand/tools/90n-skills/complete-claude-guide-for-product-managers-pack/skills/pmg-score-with-rice",
+      "source_file": "brand/tools/90n-skills/complete-claude-guide-for-product-managers-pack/skills/pmg-score-with-rice/SKILL.md",
+      "license_file": "brand/tools/90n-skills/LICENSE.md",
+      "license_status": "free internal use, no resale"
+    },
+    {
+      "id": "90n-skills/pmg-set-success-metrics",
+      "group": "90n-skills",
+      "skill_name": "pmg-set-success-metrics",
+      "source_dir": "brand/tools/90n-skills/complete-claude-guide-for-product-managers-pack/skills/pmg-set-success-metrics",
+      "source_file": "brand/tools/90n-skills/complete-claude-guide-for-product-managers-pack/skills/pmg-set-success-metrics/SKILL.md",
+      "license_file": "brand/tools/90n-skills/LICENSE.md",
+      "license_status": "free internal use, no resale"
+    },
+    {
+      "id": "90n-skills/pmg-set-up-daci-decision",
+      "group": "90n-skills",
+      "skill_name": "pmg-set-up-daci-decision",
+      "source_dir": "brand/tools/90n-skills/complete-claude-guide-for-product-managers-pack/skills/pmg-set-up-daci-decision",
+      "source_file": "brand/tools/90n-skills/complete-claude-guide-for-product-managers-pack/skills/pmg-set-up-daci-decision/SKILL.md",
+      "license_file": "brand/tools/90n-skills/LICENSE.md",
+      "license_status": "free internal use, no resale"
+    },
+    {
+      "id": "90n-skills/pmg-size-the-market",
+      "group": "90n-skills",
+      "skill_name": "pmg-size-the-market",
+      "source_dir": "brand/tools/90n-skills/complete-claude-guide-for-product-managers-pack/skills/pmg-size-the-market",
+      "source_file": "brand/tools/90n-skills/complete-claude-guide-for-product-managers-pack/skills/pmg-size-the-market/SKILL.md",
+      "license_file": "brand/tools/90n-skills/LICENSE.md",
+      "license_status": "free internal use, no resale"
+    },
+    {
+      "id": "90n-skills/pmg-spec-the-ai-feature",
+      "group": "90n-skills",
+      "skill_name": "pmg-spec-the-ai-feature",
+      "source_dir": "brand/tools/90n-skills/complete-claude-guide-for-product-managers-pack/skills/pmg-spec-the-ai-feature",
+      "source_file": "brand/tools/90n-skills/complete-claude-guide-for-product-managers-pack/skills/pmg-spec-the-ai-feature/SKILL.md",
+      "license_file": "brand/tools/90n-skills/LICENSE.md",
+      "license_status": "free internal use, no resale"
+    },
+    {
+      "id": "90n-skills/pmg-synthesise-interviews",
+      "group": "90n-skills",
+      "skill_name": "pmg-synthesise-interviews",
+      "source_dir": "brand/tools/90n-skills/complete-claude-guide-for-product-managers-pack/skills/pmg-synthesise-interviews",
+      "source_file": "brand/tools/90n-skills/complete-claude-guide-for-product-managers-pack/skills/pmg-synthesise-interviews/SKILL.md",
+      "license_file": "brand/tools/90n-skills/LICENSE.md",
+      "license_status": "free internal use, no resale"
+    },
+    {
+      "id": "90n-skills/pmg-triage-feature-requests",
+      "group": "90n-skills",
+      "skill_name": "pmg-triage-feature-requests",
+      "source_dir": "brand/tools/90n-skills/complete-claude-guide-for-product-managers-pack/skills/pmg-triage-feature-requests",
+      "source_file": "brand/tools/90n-skills/complete-claude-guide-for-product-managers-pack/skills/pmg-triage-feature-requests/SKILL.md",
+      "license_file": "brand/tools/90n-skills/LICENSE.md",
+      "license_status": "free internal use, no resale"
+    },
+    {
+      "id": "90n-skills/pmg-write-competitive-analysis",
+      "group": "90n-skills",
+      "skill_name": "pmg-write-competitive-analysis",
+      "source_dir": "brand/tools/90n-skills/complete-claude-guide-for-product-managers-pack/skills/pmg-write-competitive-analysis",
+      "source_file": "brand/tools/90n-skills/complete-claude-guide-for-product-managers-pack/skills/pmg-write-competitive-analysis/SKILL.md",
+      "license_file": "brand/tools/90n-skills/LICENSE.md",
+      "license_status": "free internal use, no resale"
+    },
+    {
+      "id": "90n-skills/pmg-write-one-pager",
+      "group": "90n-skills",
+      "skill_name": "pmg-write-one-pager",
+      "source_dir": "brand/tools/90n-skills/complete-claude-guide-for-product-managers-pack/skills/pmg-write-one-pager",
+      "source_file": "brand/tools/90n-skills/complete-claude-guide-for-product-managers-pack/skills/pmg-write-one-pager/SKILL.md",
+      "license_file": "brand/tools/90n-skills/LICENSE.md",
+      "license_status": "free internal use, no resale"
+    },
+    {
+      "id": "90n-skills/pmg-write-pr-faq",
+      "group": "90n-skills",
+      "skill_name": "pmg-write-pr-faq",
+      "source_dir": "brand/tools/90n-skills/complete-claude-guide-for-product-managers-pack/skills/pmg-write-pr-faq",
+      "source_file": "brand/tools/90n-skills/complete-claude-guide-for-product-managers-pack/skills/pmg-write-pr-faq/SKILL.md",
+      "license_file": "brand/tools/90n-skills/LICENSE.md",
+      "license_status": "free internal use, no resale"
+    },
+    {
+      "id": "90n-skills/pmg-write-product-strategy",
+      "group": "90n-skills",
+      "skill_name": "pmg-write-product-strategy",
+      "source_dir": "brand/tools/90n-skills/complete-claude-guide-for-product-managers-pack/skills/pmg-write-product-strategy",
+      "source_file": "brand/tools/90n-skills/complete-claude-guide-for-product-managers-pack/skills/pmg-write-product-strategy/SKILL.md",
+      "license_file": "brand/tools/90n-skills/LICENSE.md",
+      "license_status": "free internal use, no resale"
+    },
+    {
+      "id": "90n-skills/pmg-write-product-vision",
+      "group": "90n-skills",
+      "skill_name": "pmg-write-product-vision",
+      "source_dir": "brand/tools/90n-skills/complete-claude-guide-for-product-managers-pack/skills/pmg-write-product-vision",
+      "source_file": "brand/tools/90n-skills/complete-claude-guide-for-product-managers-pack/skills/pmg-write-product-vision/SKILL.md",
+      "license_file": "brand/tools/90n-skills/LICENSE.md",
+      "license_status": "free internal use, no resale"
+    },
+    {
+      "id": "90n-skills/pmg-write-prototype-brief",
+      "group": "90n-skills",
+      "skill_name": "pmg-write-prototype-brief",
+      "source_dir": "brand/tools/90n-skills/complete-claude-guide-for-product-managers-pack/skills/pmg-write-prototype-brief",
+      "source_file": "brand/tools/90n-skills/complete-claude-guide-for-product-managers-pack/skills/pmg-write-prototype-brief/SKILL.md",
+      "license_file": "brand/tools/90n-skills/LICENSE.md",
+      "license_status": "free internal use, no resale"
+    },
+    {
+      "id": "90n-skills/pmg-write-release-notes",
+      "group": "90n-skills",
+      "skill_name": "pmg-write-release-notes",
+      "source_dir": "brand/tools/90n-skills/complete-claude-guide-for-product-managers-pack/skills/pmg-write-release-notes",
+      "source_file": "brand/tools/90n-skills/complete-claude-guide-for-product-managers-pack/skills/pmg-write-release-notes/SKILL.md",
+      "license_file": "brand/tools/90n-skills/LICENSE.md",
+      "license_status": "free internal use, no resale"
+    },
+    {
+      "id": "90n-skills/pmg-write-the-prd",
+      "group": "90n-skills",
+      "skill_name": "pmg-write-the-prd",
+      "source_dir": "brand/tools/90n-skills/complete-claude-guide-for-product-managers-pack/skills/pmg-write-the-prd",
+      "source_file": "brand/tools/90n-skills/complete-claude-guide-for-product-managers-pack/skills/pmg-write-the-prd/SKILL.md",
+      "license_file": "brand/tools/90n-skills/LICENSE.md",
+      "license_status": "free internal use, no resale"
+    },
+    {
+      "id": "90n-skills/pmg-write-user-stories",
+      "group": "90n-skills",
+      "skill_name": "pmg-write-user-stories",
+      "source_dir": "brand/tools/90n-skills/complete-claude-guide-for-product-managers-pack/skills/pmg-write-user-stories",
+      "source_file": "brand/tools/90n-skills/complete-claude-guide-for-product-managers-pack/skills/pmg-write-user-stories/SKILL.md",
+      "license_file": "brand/tools/90n-skills/LICENSE.md",
+      "license_status": "free internal use, no resale"
+    },
+    {
+      "id": "90n-skills/pmg-write-weekly-update",
+      "group": "90n-skills",
+      "skill_name": "pmg-write-weekly-update",
+      "source_dir": "brand/tools/90n-skills/complete-claude-guide-for-product-managers-pack/skills/pmg-write-weekly-update",
+      "source_file": "brand/tools/90n-skills/complete-claude-guide-for-product-managers-pack/skills/pmg-write-weekly-update/SKILL.md",
+      "license_file": "brand/tools/90n-skills/LICENSE.md",
+      "license_status": "free internal use, no resale"
+    },
+    {
+      "id": "90n-skills/assumption-mapper",
+      "group": "90n-skills",
+      "skill_name": "assumption-mapper",
+      "source_dir": "brand/tools/90n-skills/design-thinking-pack/skills/assumption-mapper",
+      "source_file": "brand/tools/90n-skills/design-thinking-pack/skills/assumption-mapper/SKILL.md",
+      "license_file": "brand/tools/90n-skills/LICENSE.md",
+      "license_status": "free internal use, no resale"
+    },
+    {
+      "id": "90n-skills/concept-card-writer",
+      "group": "90n-skills",
+      "skill_name": "concept-card-writer",
+      "source_dir": "brand/tools/90n-skills/design-thinking-pack/skills/concept-card-writer",
+      "source_file": "brand/tools/90n-skills/design-thinking-pack/skills/concept-card-writer/SKILL.md",
+      "license_file": "brand/tools/90n-skills/LICENSE.md",
+      "license_status": "free internal use, no resale"
+    },
+    {
+      "id": "90n-skills/design-challenge-framer",
+      "group": "90n-skills",
+      "skill_name": "design-challenge-framer",
+      "source_dir": "brand/tools/90n-skills/design-thinking-pack/skills/design-challenge-framer",
+      "source_file": "brand/tools/90n-skills/design-thinking-pack/skills/design-challenge-framer/SKILL.md",
+      "license_file": "brand/tools/90n-skills/LICENSE.md",
+      "license_status": "free internal use, no resale"
+    },
+    {
+      "id": "90n-skills/desk-research-digest",
+      "group": "90n-skills",
+      "skill_name": "desk-research-digest",
+      "source_dir": "brand/tools/90n-skills/design-thinking-pack/skills/desk-research-digest",
+      "source_file": "brand/tools/90n-skills/design-thinking-pack/skills/desk-research-digest/SKILL.md",
+      "license_file": "brand/tools/90n-skills/LICENSE.md",
+      "license_status": "free internal use, no resale"
+    },
+    {
+      "id": "90n-skills/dfv-checker",
+      "group": "90n-skills",
+      "skill_name": "dfv-checker",
+      "source_dir": "brand/tools/90n-skills/design-thinking-pack/skills/dfv-checker",
+      "source_file": "brand/tools/90n-skills/design-thinking-pack/skills/dfv-checker/SKILL.md",
+      "license_file": "brand/tools/90n-skills/LICENSE.md",
+      "license_status": "free internal use, no resale"
+    },
+    {
+      "id": "90n-skills/diary-study-designer",
+      "group": "90n-skills",
+      "skill_name": "diary-study-designer",
+      "source_dir": "brand/tools/90n-skills/design-thinking-pack/skills/diary-study-designer",
+      "source_file": "brand/tools/90n-skills/design-thinking-pack/skills/diary-study-designer/SKILL.md",
+      "license_file": "brand/tools/90n-skills/LICENSE.md",
+      "license_status": "free internal use, no resale"
+    },
+    {
+      "id": "90n-skills/empathy-map-builder",
+      "group": "90n-skills",
+      "skill_name": "empathy-map-builder",
+      "source_dir": "brand/tools/90n-skills/design-thinking-pack/skills/empathy-map-builder",
+      "source_file": "brand/tools/90n-skills/design-thinking-pack/skills/empathy-map-builder/SKILL.md",
+      "license_file": "brand/tools/90n-skills/LICENSE.md",
+      "license_status": "free internal use, no resale"
+    },
+    {
+      "id": "90n-skills/five-whys-runner",
+      "group": "90n-skills",
+      "skill_name": "five-whys-runner",
+      "source_dir": "brand/tools/90n-skills/design-thinking-pack/skills/five-whys-runner",
+      "source_file": "brand/tools/90n-skills/design-thinking-pack/skills/five-whys-runner/SKILL.md",
+      "license_file": "brand/tools/90n-skills/LICENSE.md",
+      "license_status": "free internal use, no resale"
+    },
+    {
+      "id": "90n-skills/hmw-generator",
+      "group": "90n-skills",
+      "skill_name": "hmw-generator",
+      "source_dir": "brand/tools/90n-skills/design-thinking-pack/skills/hmw-generator",
+      "source_file": "brand/tools/90n-skills/design-thinking-pack/skills/hmw-generator/SKILL.md",
+      "license_file": "brand/tools/90n-skills/LICENSE.md",
+      "license_status": "free internal use, no resale"
+    },
+    {
+      "id": "90n-skills/idea-expander",
+      "group": "90n-skills",
+      "skill_name": "idea-expander",
+      "source_dir": "brand/tools/90n-skills/design-thinking-pack/skills/idea-expander",
+      "source_file": "brand/tools/90n-skills/design-thinking-pack/skills/idea-expander/SKILL.md",
+      "license_file": "brand/tools/90n-skills/LICENSE.md",
+      "license_status": "free internal use, no resale"
+    },
+    {
+      "id": "90n-skills/insight-playback-builder",
+      "group": "90n-skills",
+      "skill_name": "insight-playback-builder",
+      "source_dir": "brand/tools/90n-skills/design-thinking-pack/skills/insight-playback-builder",
+      "source_file": "brand/tools/90n-skills/design-thinking-pack/skills/insight-playback-builder/SKILL.md",
+      "license_file": "brand/tools/90n-skills/LICENSE.md",
+      "license_status": "free internal use, no resale"
+    },
+    {
+      "id": "90n-skills/insight-writer",
+      "group": "90n-skills",
+      "skill_name": "insight-writer",
+      "source_dir": "brand/tools/90n-skills/design-thinking-pack/skills/insight-writer",
+      "source_file": "brand/tools/90n-skills/design-thinking-pack/skills/insight-writer/SKILL.md",
+      "license_file": "brand/tools/90n-skills/LICENSE.md",
+      "license_status": "free internal use, no resale"
+    },
+    {
+      "id": "90n-skills/interview-debriefer",
+      "group": "90n-skills",
+      "skill_name": "interview-debriefer",
+      "source_dir": "brand/tools/90n-skills/design-thinking-pack/skills/interview-debriefer",
+      "source_file": "brand/tools/90n-skills/design-thinking-pack/skills/interview-debriefer/SKILL.md",
+      "license_file": "brand/tools/90n-skills/LICENSE.md",
+      "license_status": "free internal use, no resale"
+    },
+    {
+      "id": "90n-skills/interview-guide-designer",
+      "group": "90n-skills",
+      "skill_name": "interview-guide-designer",
+      "source_dir": "brand/tools/90n-skills/design-thinking-pack/skills/interview-guide-designer",
+      "source_file": "brand/tools/90n-skills/design-thinking-pack/skills/interview-guide-designer/SKILL.md",
+      "license_file": "brand/tools/90n-skills/LICENSE.md",
+      "license_status": "free internal use, no resale"
+    },
+    {
+      "id": "90n-skills/journey-builder",
+      "group": "90n-skills",
+      "skill_name": "journey-builder",
+      "source_dir": "brand/tools/90n-skills/design-thinking-pack/skills/journey-builder",
+      "source_file": "brand/tools/90n-skills/design-thinking-pack/skills/journey-builder/SKILL.md",
+      "license_file": "brand/tools/90n-skills/LICENSE.md",
+      "license_status": "free internal use, no resale"
+    },
+    {
+      "id": "90n-skills/jtbd-writer",
+      "group": "90n-skills",
+      "skill_name": "jtbd-writer",
+      "source_dir": "brand/tools/90n-skills/design-thinking-pack/skills/jtbd-writer",
+      "source_file": "brand/tools/90n-skills/design-thinking-pack/skills/jtbd-writer/SKILL.md",
+      "license_file": "brand/tools/90n-skills/LICENSE.md",
+      "license_status": "free internal use, no resale"
+    },
+    {
+      "id": "90n-skills/observation-plan-builder",
+      "group": "90n-skills",
+      "skill_name": "observation-plan-builder",
+      "source_dir": "brand/tools/90n-skills/design-thinking-pack/skills/observation-plan-builder",
+      "source_file": "brand/tools/90n-skills/design-thinking-pack/skills/observation-plan-builder/SKILL.md",
+      "license_file": "brand/tools/90n-skills/LICENSE.md",
+      "license_status": "free internal use, no resale"
+    },
+    {
+      "id": "90n-skills/participant-screener-builder",
+      "group": "90n-skills",
+      "skill_name": "participant-screener-builder",
+      "source_dir": "brand/tools/90n-skills/design-thinking-pack/skills/participant-screener-builder",
+      "source_file": "brand/tools/90n-skills/design-thinking-pack/skills/participant-screener-builder/SKILL.md",
+      "license_file": "brand/tools/90n-skills/LICENSE.md",
+      "license_status": "free internal use, no resale"
+    },
+    {
+      "id": "90n-skills/persona-designer",
+      "group": "90n-skills",
+      "skill_name": "persona-designer",
+      "source_dir": "brand/tools/90n-skills/design-thinking-pack/skills/persona-designer",
+      "source_file": "brand/tools/90n-skills/design-thinking-pack/skills/persona-designer/SKILL.md",
+      "license_file": "brand/tools/90n-skills/LICENSE.md",
+      "license_status": "free internal use, no resale"
+    },
+    {
+      "id": "90n-skills/problem-statement-writer",
+      "group": "90n-skills",
+      "skill_name": "problem-statement-writer",
+      "source_dir": "brand/tools/90n-skills/design-thinking-pack/skills/problem-statement-writer",
+      "source_file": "brand/tools/90n-skills/design-thinking-pack/skills/problem-statement-writer/SKILL.md",
+      "license_file": "brand/tools/90n-skills/LICENSE.md",
+      "license_status": "free internal use, no resale"
+    },
+    {
+      "id": "90n-skills/prototype-planner",
+      "group": "90n-skills",
+      "skill_name": "prototype-planner",
+      "source_dir": "brand/tools/90n-skills/design-thinking-pack/skills/prototype-planner",
+      "source_file": "brand/tools/90n-skills/design-thinking-pack/skills/prototype-planner/SKILL.md",
+      "license_file": "brand/tools/90n-skills/LICENSE.md",
+      "license_status": "free internal use, no resale"
+    },
+    {
+      "id": "90n-skills/recommendation-writer",
+      "group": "90n-skills",
+      "skill_name": "recommendation-writer",
+      "source_dir": "brand/tools/90n-skills/design-thinking-pack/skills/recommendation-writer",
+      "source_file": "brand/tools/90n-skills/design-thinking-pack/skills/recommendation-writer/SKILL.md",
+      "license_file": "brand/tools/90n-skills/LICENSE.md",
+      "license_status": "free internal use, no resale"
+    },
+    {
+      "id": "90n-skills/research-kickoff-brief",
+      "group": "90n-skills",
+      "skill_name": "research-kickoff-brief",
+      "source_dir": "brand/tools/90n-skills/design-thinking-pack/skills/research-kickoff-brief",
+      "source_file": "brand/tools/90n-skills/design-thinking-pack/skills/research-kickoff-brief/SKILL.md",
+      "license_file": "brand/tools/90n-skills/LICENSE.md",
+      "license_status": "free internal use, no resale"
+    },
+    {
+      "id": "90n-skills/riskiest-assumption-finder",
+      "group": "90n-skills",
+      "skill_name": "riskiest-assumption-finder",
+      "source_dir": "brand/tools/90n-skills/design-thinking-pack/skills/riskiest-assumption-finder",
+      "source_file": "brand/tools/90n-skills/design-thinking-pack/skills/riskiest-assumption-finder/SKILL.md",
+      "license_file": "brand/tools/90n-skills/LICENSE.md",
+      "license_status": "free internal use, no resale"
+    },
+    {
+      "id": "90n-skills/role-play-designer",
+      "group": "90n-skills",
+      "skill_name": "role-play-designer",
+      "source_dir": "brand/tools/90n-skills/design-thinking-pack/skills/role-play-designer",
+      "source_file": "brand/tools/90n-skills/design-thinking-pack/skills/role-play-designer/SKILL.md",
+      "license_file": "brand/tools/90n-skills/LICENSE.md",
+      "license_status": "free internal use, no resale"
+    },
+    {
+      "id": "90n-skills/stakeholder-mapper",
+      "group": "90n-skills",
+      "skill_name": "stakeholder-mapper",
+      "source_dir": "brand/tools/90n-skills/design-thinking-pack/skills/stakeholder-mapper",
+      "source_file": "brand/tools/90n-skills/design-thinking-pack/skills/stakeholder-mapper/SKILL.md",
+      "license_file": "brand/tools/90n-skills/LICENSE.md",
+      "license_status": "free internal use, no resale"
+    },
+    {
+      "id": "90n-skills/storyboard-writer",
+      "group": "90n-skills",
+      "skill_name": "storyboard-writer",
+      "source_dir": "brand/tools/90n-skills/design-thinking-pack/skills/storyboard-writer",
+      "source_file": "brand/tools/90n-skills/design-thinking-pack/skills/storyboard-writer/SKILL.md",
+      "license_file": "brand/tools/90n-skills/LICENSE.md",
+      "license_status": "free internal use, no resale"
+    },
+    {
+      "id": "90n-skills/survey-analyzer",
+      "group": "90n-skills",
+      "skill_name": "survey-analyzer",
+      "source_dir": "brand/tools/90n-skills/design-thinking-pack/skills/survey-analyzer",
+      "source_file": "brand/tools/90n-skills/design-thinking-pack/skills/survey-analyzer/SKILL.md",
+      "license_file": "brand/tools/90n-skills/LICENSE.md",
+      "license_status": "free internal use, no resale"
+    },
+    {
+      "id": "90n-skills/survey-designer",
+      "group": "90n-skills",
+      "skill_name": "survey-designer",
+      "source_dir": "brand/tools/90n-skills/design-thinking-pack/skills/survey-designer",
+      "source_file": "brand/tools/90n-skills/design-thinking-pack/skills/survey-designer/SKILL.md",
+      "license_file": "brand/tools/90n-skills/LICENSE.md",
+      "license_status": "free internal use, no resale"
+    },
+    {
+      "id": "90n-skills/test-debrief-synthesizer",
+      "group": "90n-skills",
+      "skill_name": "test-debrief-synthesizer",
+      "source_dir": "brand/tools/90n-skills/design-thinking-pack/skills/test-debrief-synthesizer",
+      "source_file": "brand/tools/90n-skills/design-thinking-pack/skills/test-debrief-synthesizer/SKILL.md",
+      "license_file": "brand/tools/90n-skills/LICENSE.md",
+      "license_status": "free internal use, no resale"
+    },
+    {
+      "id": "90n-skills/test-script-designer",
+      "group": "90n-skills",
+      "skill_name": "test-script-designer",
+      "source_dir": "brand/tools/90n-skills/design-thinking-pack/skills/test-script-designer",
+      "source_file": "brand/tools/90n-skills/design-thinking-pack/skills/test-script-designer/SKILL.md",
+      "license_file": "brand/tools/90n-skills/LICENSE.md",
+      "license_status": "free internal use, no resale"
+    },
+    {
+      "id": "90n-skills/transcript-synthesizer",
+      "group": "90n-skills",
+      "skill_name": "transcript-synthesizer",
+      "source_dir": "brand/tools/90n-skills/design-thinking-pack/skills/transcript-synthesizer",
+      "source_file": "brand/tools/90n-skills/design-thinking-pack/skills/transcript-synthesizer/SKILL.md",
+      "license_file": "brand/tools/90n-skills/LICENSE.md",
+      "license_status": "free internal use, no resale"
+    },
+    {
+      "id": "90n-skills/value-impact-matrix",
+      "group": "90n-skills",
+      "skill_name": "value-impact-matrix",
+      "source_dir": "brand/tools/90n-skills/design-thinking-pack/skills/value-impact-matrix",
+      "source_file": "brand/tools/90n-skills/design-thinking-pack/skills/value-impact-matrix/SKILL.md",
+      "license_file": "brand/tools/90n-skills/LICENSE.md",
+      "license_status": "free internal use, no resale"
+    },
+    {
+      "id": "taste-skill/taste-skill",
+      "group": "taste-skill",
+      "skill_name": "taste-skill",
+      "source_dir": "brand/tools/taste-skill",
+      "source_file": "brand/tools/taste-skill/SKILL.md",
+      "license_file": "brand/tools/taste-skill/PROVENANCE.txt",
+      "license_status": "MIT"
+    },
+    {
+      "id": "floorplan/floorplan",
+      "group": "floorplan",
+      "skill_name": "floorplan",
+      "source_dir": "brand/tools/floorplan",
+      "source_file": "brand/tools/floorplan/SKILL.md",
+      "license_file": "brand/tools/floorplan/PROVENANCE.txt",
+      "license_status": "MIT"
+    },
+    {
+      "id": "may11leven/may11leven-3d-ui",
+      "group": "may11leven",
+      "skill_name": "may11leven-3d-ui",
+      "source_dir": "brand/tools/may11leven-3d-ui",
+      "source_file": "brand/tools/may11leven-3d-ui/SKILL.md",
+      "license_file": "",
+      "license_status": "ours"
+    },
+    {
+      "id": "stageshow/stageshow",
+      "group": "stageshow",
+      "skill_name": "stageshow",
+      "source_dir": "brand/tools/stageshow",
+      "source_file": "brand/tools/stageshow/SKILL.md",
+      "license_file": "brand/tools/stageshow/LICENSE",
+      "license_status": "MIT"
     }
   ]
 }

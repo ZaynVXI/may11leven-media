@@ -1,5 +1,13 @@
 # Reference board (from Zayn)
-Studios Zayn sent to learn from: Holographik, .raw, Nuevo.Tokyo, Blacklead, Artycoders, Leoverse, Advetree, WOB Studio, Obrazur, Serhii, kayvon.ai.
+
+## Our mentors
+Studios Zayn chose for us to learn from. We study all of them, take the thinking, and turn it into our own style and ideas. We never copy a layout, line, product idea or face.
+- **Pixie and Dixie (PXDX, @pxdx.baddies, dribbble.com/PXDX)**: product concepts shown as working prototypes in motion; full carousels per product (Rosie: about 7 slides); UI details posts; how they train Claude. Refs: `pixie-dixie/`, `pxdx-dribbble/`, `pxdx-ui-details/`, `pxdx-rosie/`, `../motion-refs/`. Notes: `learning/prototype-posts.md`, `learning/ui-details.md`, `learning/motion-learnings.md`.
+- **Qclay**: product visual languages, aura glass, data written as sentences. Refs: `qclay/`. Notes: `learning/qclay.md`.
+- **Motto**: presentation, captions, case studies. Notes: `learning/motto*.md`.
+- **Holographik, .raw, Nuevo.Tokyo, Blacklead, Artycoders, Leoverse, Advetree, WOB Studio, Obrazur, Serhii, kayvon.ai, Artemii Lebedev, Satto, Kalypso, Obys, Zachary Winterton**: see the sections below and `learning/`.
+
+**What stays ours whatever we learn:** problem-first concepts from Africa first, then the Gulf and the world; real free stock and our own renders, never AI imagery; hands, not faces; a colour world taken from each product's own place; plain-English copy with comment 11 and both emails; quiet, minimal layouts with lots of air. Each piece names which mentor taught which move, and what we changed to make it ours.
 Screenshots of their feeds and posts, plus frame sheets of their reels (wob-reel-*-frames.jpg).
 Use: before planning or designing, open at least 3 refs that match the job and name the one idea you take from each. Compare our next post side by side with one ref. Never copy layouts, lines or faces.
 The quality bar Zayn loved: the Inzu booking prototype reel (week3/inzu-booking-prototype.mp4) - real product feel, real states, sound, calm motion.

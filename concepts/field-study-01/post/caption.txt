@@ -1,0 +1,21 @@
+Field Study 01: Zanzibar hotel websites, opened on a phone.
+
+We took every hotel, guest house and hostel on Unguja that OpenStreetMap lists with a website. 107 listings. 51 independent places with a site that works.
+
+We opened each homepage the way a guest would, on a mid-range Android phone.
+
+What we found:
+→ Median wait for the main image or headline: 9.6 seconds.
+→ 86% are slower than Google's "poor" line.
+→ About 1 in 6 listed websites is gone or taken over.
+→ Half send "Book" to a different web address.
+→ 16% show a room price. 2 of 51 give a reason to book direct.
+
+Method: Google Lighthouse 12, mobile profile, 3 runs per site, median used. Lab estimates, not real-guest data. Homepages only. Prices and offers checked by eye. Chains left out. No business is named, and per-site results stay private.
+
+We build hotel websites and booking tools, so we have an interest here. That's why the method is public.
+
+Comment 11 and we'll test your hotel's website for free.
+hello@may11levenlabs.com · may11leven.labs@gmail.com
+
+#may11levenlabs #zanzibar #hotelmarketing #webdesign #hospitality

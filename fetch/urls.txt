@@ -1,8 +1,2 @@
-snd_pianoambiance4.mp3 https://cdn.freesound.org/previews/387/387588_9497060-hq.mp3
-snd_ambientpianoloop85.mp3 https://cdn.freesound.org/previews/506/506692_11009121-hq.mp3
-snd_hakrenjazzy.mp3 https://cdn.freesound.org/previews/414/414813_9497060-hq.mp3
-snd_hakrenjazzy.mp3 https://cdn.freesound.org/previews/426/426751_9497060-hq.mp3
-snd_hakrenjazzy.mp3 https://cdn.freesound.org/previews/426/426750_9497060-hq.mp3
-snd_roomtoneofficequie.mp3 https://cdn.freesound.org/previews/135/135097_658546-hq.mp3
-snd_iphonetaps.mp3 https://cdn.freesound.org/previews/171/171424_553852-hq.mp3
-snd_smartphoneclick.mp3 https://cdn.freesound.org/previews/444/444683_5357386-hq.mp3
+stone_street.jpg https://images.pexels.com/photos/29205959/pexels-photo-29205959.jpeg?auto=compress&cs=tinysrgb&w=2600
+stone_boats.jpg https://images.pexels.com/photos/4995594/pexels-photo-4995594.jpeg?auto=compress&cs=tinysrgb&w=2600

@@ -1,0 +1,2 @@
+WARN: p2.png: check spelling ["doesn''t"]
+WARN: p6.png: check spelling ['apps']

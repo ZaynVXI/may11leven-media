@@ -1,0 +1,1 @@
+source: https://github.com/heygen-com/hyperframes @ 63c8f8e (Apache-2.0). Free HTML-to-video renderer. Always run with HYPERFRAMES_NO_TELEMETRY=1 and DO_NOT_TRACK=1; skip the usage beacon. Never use the Pro plan or HeyGen AI media (avatars, generated video, voice): our no-AI-imagery rule. Free only.
