@@ -25,3 +25,13 @@ Refs: brand/refs/pxdx-rosie/08-09. The same screen in dark and light mode over o
 
 ## 3D UI effect (tutorial)
 Refs: brand/refs/pxdx-3d-ui/. Turned into the skill may11leven-3d-ui (recipe and CSS proof in brand/tools/may11leven-3d-ui/).
+
+## The bar for the next project (Zayn, 19 Nov: "our next project should be better than these")
+After hours and Term v2 set the floor, not the target. Gaps against PXDX that the next product has to close:
+1. **One signature move per product.** PXDX products each have a thing you remember (a 3D glass key, an ASCII face, a colour set). Ours had good screens but no single move. Pick it in the brief, from the 3D UI, ASCII or transitions skills or something new.
+2. **Motion with physics, not fades.** Our loops ease in and out. PXDX uses springs, overshoot and stagger, and things touch each other. Use spring curves and let one element push another.
+3. **Fewer flat text slides.** Our manifesto and offer slides are type on a dark field. PXDX makes even the text slides visual (UI cropped huge, a detail magnified). At most one pure-text slide per carousel.
+4. **A hero nobody has used.** Check `hero-ledger.md`. Build the set, props and light for this product only.
+5. **Colour from a place, chosen first.** Write the product's colour set (4–6 swatches with names) before any screen, PXDX colour-set style.
+6. **Sound.** PXDX reels carry designed UI sound. Add soft clicks, ticks and a landing sound to the reel cut.
+7. **Daily check.** Each morning's PXDX study ends with one line in this file: "What would beat this?" The next project's brief quotes the best three.
