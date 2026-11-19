@@ -89,3 +89,10 @@ Start every site or app screen from these instead of designing components from s
 - https://maxibestof.one/websites/popular - monthly popular-site roundups (didn't load from here; try in the built-in browser when linked).
 - https://brandpad.io/goodnotes-guidelines - Motto's Goodnotes guidelines in public: full hex palette, type, clear-space rules. Brandpad hosts other public guidelines worth searching.
 - https://toimi.pro/blog/best-real-estate-website-designs/ - real-estate site review; 111 West 57th's unit selector is the one to study.
+
+### UI/UX resources from Zayn (19 Nov): go here first for mockups and motion
+Zayn: "always go there to find UI/UX resources, like good mockups and motion design templates." Free tiers only; ask before paying. Check each item's licence before commercial use and never resell.
+- **shaders.com**: WebGPU shader effects as components (React, Vue, Svelte, Solid, plain JS), with a free design editor and code export. The library is MIT licensed; presets marked free can be used commercially; Pro presets and sections need a paid plan. Use for hero backgrounds, gradients, liquid and glass effects on sites and in motion. https://shaders.com
+- **ls.graphics**: high-end device and branding mockups (Figma, Photoshop, Sketch, plus a Figma plugin and an online generator). It has a free set that its own page says can be used commercially; the rest is paid. Use for device scenes (phones in hands, on fabric, on desks) and print. https://www.ls.graphics
+- **ContentCore.xyz**: 3D mockups and 3D motion templates (devices, abstract 3D shapes). I couldn't check its licence or prices from here, so open the site and read its terms before using anything. https://contentcore.xyz
+Rule: a mockup only *presents* our work. The screens, packaging and type are always ours; never let a template's look become a product's look (hero-ledger.md still applies).
