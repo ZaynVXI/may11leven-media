@@ -1,0 +1,49 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><title>ASCII / dither / halftone</title><style>
+html,body{margin:0;height:100%;background:var(--bg,#1238E8);overflow:hidden}
+canvas{display:block;width:100vw;height:100vh}
+</style></head><body><canvas id="c"></canvas><script>
+/* May11Leven ASCII effect. No libraries. Source: an <img>, <video> or any canvas (e.g. a three.js renderer).
+   Modes: 'ascii' (character ramp), 'dither' (Bayer 4x4 ordered dither), 'dots' (halftone).
+   Options via URL: ?src=img.jpg&mode=ascii&cell=10&fg=%23ECEAE4&bg=%231238E8&invert=0&lens=1 */
+const q=new URLSearchParams(location.search);
+const O={src:q.get('src')||'../../../posts/after-hours/img/roof.jpg',mode:q.get('mode')||'ascii',cell:+(q.get('cell')||10),
+  fg:q.get('fg')||'#ECEAE4',bg:q.get('bg')||'#1238E8',invert:q.get('invert')==='1',lens:q.get('lens')!=='0',
+  ramp:q.get('ramp')||' .:-=+*#%@',contrast:+(q.get('contrast')||1.35),t:+(q.get('t')||-1)};
+document.body.style.setProperty('--bg',O.bg);
+const c=document.getElementById('c'),x=c.getContext('2d');
+const s=document.createElement('canvas'),sx=s.getContext('2d',{willReadFrequently:true});
+const B=[0,8,2,10,12,4,14,6,3,11,1,9,15,7,13,5];   // Bayer 4x4
+let src,mx=-1e4,my=-1e4,W,H,dpr=Math.min(2,devicePixelRatio||1);
+function fit(){W=innerWidth;H=innerHeight;c.width=W*dpr;c.height=H*dpr;x.setTransform(dpr,0,0,dpr,0,0)}
+addEventListener('resize',fit);fit();
+addEventListener('pointermove',e=>{mx=e.clientX;my=e.clientY});
+function lum(d,i){return (0.2126*d[i]+0.7152*d[i+1]+0.0722*d[i+2])/255}
+function frame(now){
+  const cell=O.cell, cols=Math.ceil(W/cell), rows=Math.ceil(H/cell);
+  s.width=cols;s.height=rows;
+  // cover-fit the source into the grid
+  const sw=src.videoWidth||src.naturalWidth||src.width, sh=src.videoHeight||src.naturalHeight||src.height;
+  const k=Math.max(cols/sw,rows/sh), dw=sw*k, dh=sh*k;
+  sx.drawImage(src,(cols-dw)/2,(rows-dh)/2,dw,dh);
+  const d=sx.getImageData(0,0,cols,rows).data;
+  x.fillStyle=O.bg;x.fillRect(0,0,W,H);x.fillStyle=O.fg;
+  x.font=`500 ${cell*1.05}px "IBM Plex Mono",ui-monospace,monospace`;x.textAlign='center';x.textBaseline='middle';
+  const t=(O.t>=0?O.t:now/1000);
+  for(let r=0;r<rows;r++)for(let q2=0;q2<cols;q2++){
+    const i=(r*cols+q2)*4; let v=lum(d,i);
+    v=Math.min(1,Math.max(0,(v-.5)*O.contrast+.5)); if(O.invert)v=1-v;
+    const px=q2*cell+cell/2, py=r*cell+cell/2;
+    // lens: brighten and add a slow ripple near the pointer (the interactive part)
+    if(O.lens){const dd=Math.hypot(px-mx,py-my); if(dd<160){const f=1-dd/160; v=Math.min(1,v+.35*f*f+.08*Math.sin(dd*.08-t*4)*f)}}
+    v=Math.min(1,Math.max(0,v));
+    if(O.mode==='ascii'){const ch=O.ramp[Math.min(O.ramp.length-1,Math.floor(v*O.ramp.length))]; if(ch!==' ')x.fillText(ch,px,py)}
+    else if(O.mode==='dither'){ if(v>(B[(r%4)*4+(q2%4)]+.5)/16) x.fillRect(q2*cell,r*cell,cell-1,cell-1)}
+    else { const rad=cell*.5*Math.sqrt(v); if(rad>.4){x.beginPath();x.arc(px,py,rad,0,6.283);x.fill()} }
+  }
+  requestAnimationFrame(frame);
+}
+const ext=O.src.split('.').pop().toLowerCase();
+if(['mp4','webm','mov'].includes(ext)){src=document.createElement('video');Object.assign(src,{src:O.src,muted:true,loop:true,playsInline:true,autoplay:true});src.oncanplay=()=>{src.play();requestAnimationFrame(frame)};src.oncanplay.once=1}
+else{src=new Image();src.onload=()=>requestAnimationFrame(frame);src.src=O.src}
+window.ASCII=O; // tweak live from the console
+</script></body></html>
