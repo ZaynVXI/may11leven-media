@@ -1,0 +1,1 @@
+Source: github.com/nextlevelbuilder/ui-ux-pro-max-skill (MIT), commit 0fa6f35. Inspected: local data and scripts only; no network calls in the core search scripts.

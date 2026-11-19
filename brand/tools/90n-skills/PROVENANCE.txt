@@ -1,0 +1,3 @@
+Source: github.com/polar-bear-org/claude-skills (90n, https://90n.ai), packs design-thinking-pack and complete-claude-guide-for-product-managers-pack, cloned 2026-11 at commit 95f0180.
+Licence: free for internal and own client work, not for resale or redistribution as a product (LICENSE.md). Inspected: markdown only, no scripts.
+Restore: cp -r brand/tools/90n-skills/*/skills/* ~/.claude/skills/

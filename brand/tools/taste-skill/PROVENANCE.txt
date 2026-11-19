@@ -1,0 +1,2 @@
+Source: github.com/Leonxlnx/taste-skill (MIT), commit f6b7657. Inspected: local data and scripts only; no network calls in the core search scripts.
+assets/ (38 MB of example media) left out of the repo copy; it is in ~/.claude/skills/taste-skill when installed. Restore with: git clone --depth 1 https://github.com/Leonxlnx/taste-skill and copy skills/taste-skill.
