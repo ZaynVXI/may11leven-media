@@ -5,7 +5,7 @@ description: Second research round. Deeper evidence for Nod, a worldwide scan of
 
 # Idea scan 2: deeper Nod research and new ideas worldwide
 
-Research only. Nothing here is built or posted until Zayn decides. Zayn's brief: "don't rush; ideas in any trending industry worldwide, even the creative industry, as long as our services solve a real problem."
+Research only. Nothing here is built or posted until the founder decides. The founder's brief: "don't rush; ideas in any trending industry worldwide, even the creative industry, as long as our services solve a real problem."
 
 ## Part 1: Nod, deeper
 
