@@ -63,3 +63,18 @@ The studio behind the Bloom brand in the Figma Motion video. The founder's YouTu
 3. Publish "from" prices once Zayn sets them.
 4. Our site FAQ uses the same doubts as the Second Thoughts series, so the posts and the site sell the same answers.
 5. Founder-style video is how Nonstop markets; we can't show a face, so our equivalent is screen-and-hands process videos with no face.
+
+## Update: marketing strategy around our services (second research round)
+**What changed in the evidence**
+- **Word of mouth is weakening for everyone.** RSW/US's 2026 outlook: the share of marketers finding agencies through networking fell from 73% to 58% (2022 to 2025), through past relationships from 67% to 48%, and through friends or co-workers from 60% to 35%. Marketers now find agencies through search, AI platforms, content and direct outreach, and want concrete outcomes, not vague AI promises (Agility PR, RSW/US 2026). For a new studio with no past clients, that's good news: being findable and visibly useful matters more than a network we don't have yet.
+- **Instagram rewards sends and originality.** Mosseri names watch time, likes and sends as the top signals; sends (DMs) matter most for reaching non-followers, and original creators get more distribution than reposts. Buffer's analysis of 4M+ posts: carousels earn 12% more engagement than reels, reels get 36% more reach (Buffer, 2026).
+
+**Our strategy from here**
+1. **Make every "free first look" real and specific to a service.** Not "comment 11 for a free look" alone, but a named, useful thing per service: an accessibility first-look report for a web shop (Ally, see brand/ideas/idea-scan-2.md), a brand clinic at 16 px, a homepage review, a photo-consent check (Nod). A real deliverable is the proof a new studio lacks.
+2. **Post things people send to their boss.** Law-and-money explainers travel by DM: "Is your shop accessible under the EU law? 5 checks", "Can you post this guest's photo?", "Which of your expenses will KRA reject?". One sendable explainer, then the product carousel, then the reel. Carousels for engagement, reels for reach.
+3. **Be findable by search and AI.** Our own site needs real case pages with clear questions and answers, structured so AI search can cite them (ai-seo skill). Clients now shortlist before they ever message us.
+4. **Partners instead of a network.** Social media managers in Nairobi (Nod as the consent layer inside their retainer), accountants (Receipt), web agencies without accessibility skills (Ally, white-label). Partners were 15% of agencies' top referral source in SparkToro's data.
+5. **LinkedIn for the B2B ideas.** Accessibility (EU) and compliance (Kenya) are LinkedIn topics; keep posts professional, sourced, and in documents people save.
+6. **Credit and case rights in every project.** Each client project ends with a case study we're allowed to publish, so referrals have something to point at.
+
+Sources: Agility PR on RSW/US 2026 outlook https://www.agilitypr.com/pr-agency-news/new-rsw-us-2026-outlook-report-finds-referrals-and-networking-losing-effectiveness-agencies-must-take-a-more-proactive-approach-to-new-business/ · Buffer, Instagram algorithm 2026 https://buffer.com/resources/instagram-algorithms/
