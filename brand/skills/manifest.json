@@ -5192,6 +5192,15 @@
       "source_file": "brand/tools/may11leven-3d-ui/SKILL.md",
       "license_file": "",
       "license_status": "ours"
+    },
+    {
+      "id": "stageshow/stageshow",
+      "group": "stageshow",
+      "skill_name": "stageshow",
+      "source_dir": "brand/tools/stageshow",
+      "source_file": "brand/tools/stageshow/SKILL.md",
+      "license_file": "brand/tools/stageshow/LICENSE",
+      "license_status": "MIT"
     }
   ]
 }
