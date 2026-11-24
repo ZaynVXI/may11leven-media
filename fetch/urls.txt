@@ -1,3 +1,7 @@
-models.json https://api.polyhaven.com/assets?t=models
-textures.json https://api.polyhaven.com/assets?t=textures
-hdris.json https://api.polyhaven.com/assets?t=hdris
+f_black_walnut_veneer_01.json https://api.polyhaven.com/files/black_walnut_veneer_01
+f_clay_plaster.json https://api.polyhaven.com/files/clay_plaster
+f_coral_stone_wall.json https://api.polyhaven.com/files/coral_stone_wall
+f_wooden_lantern_01.json https://api.polyhaven.com/files/wooden_lantern_01
+f_brass_candleholders.json https://api.polyhaven.com/files/brass_candleholders
+f_courtyard_night.json https://api.polyhaven.com/files/courtyard_night
+f_brown_photostudio_02.json https://api.polyhaven.com/files/brown_photostudio_02
