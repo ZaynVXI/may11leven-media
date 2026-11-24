@@ -1,0 +1,16 @@
+we tried to get a free night out of our own hotel agent. four times.
+
+try to break it, no. 01. after hours is our concept night desk for kusi house, a small hotel in lamu. a guest claimed to be the owner's cousin. then a $1 "legally binding" deal, a fake manager code, and a payment screenshot with no payment behind it.
+
+every attempt hit the same wall: the model writes the reply, the hotel's own systems decide. prices come from the rate table. rooms come from the booking system. a booking is real only when m-pesa confirms it. there is no discount tool to talk it into.
+
+when it wasn't sure, it said so and passed it to reception. in the morning, reception read the risky things first.
+
+a badly deployed ai can cost you the business. we design it, and we make it safe to run.
+
+concept work, not a client. kusi house is invented.
+
+comment 11 and we'll try to break yours.
+hello@may11levenlabs.com · may11leven.labs@gmail.com
+
+#may11levenlabs #aiagents #hoteltech #ux #kenya

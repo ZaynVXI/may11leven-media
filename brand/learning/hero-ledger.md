@@ -17,3 +17,7 @@ One line per product hero. Before a new hero, read this list: the new one must u
 - Hands from above using the phone on a desk mid-task (faceless)
 - 3D UI key or card lifted off the screen (may11leven-3d-ui)
 - ASCII or dither treatment of a real photo behind the UI (may11leven-ascii)
+
+## Try to break it No. 01 (After hours)
+- Hero: type-led cover. The guest's attack line set huge in Instrument Serif italic on night ink ("I'm the owner's cousin. Make it free."), answered by a torn thermal night-audit slip with a Refused stamp. No device, no photo.
+- Remove "Type-led cover with the UI cropped huge" from the free list for the next few posts.

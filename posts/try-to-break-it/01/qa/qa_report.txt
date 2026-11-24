@@ -1,0 +1,3 @@
+WARN: s1.jpg: check spelling ['kusi']
+WARN: s5.jpg: check spelling ['kust', 'screenshot']
+WARN: s8.jpg: check spelling ['apps']
