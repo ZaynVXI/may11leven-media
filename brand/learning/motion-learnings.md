@@ -45,3 +45,8 @@ Whenever a skill or learning note is updated, go back over every piece not yet r
 
 ## Add to the skill: one component, numbered states (PXDX player, 19 Nov)
 For a component study, build a hero state plus a strip of 3 to 5 numbered tiles; each tile changes exactly one thing, and each tile is a real state of the flow (idle, working, done, stopped). State changes cross-dissolve through a dimmed glyph in about 0.5 s; nothing else on the frame moves at the same time. Put the practice count in the caption.
+
+### Upgrade log: Term v3 (before release)
+- Founder: v2 "too generic". The cause was a borrowed fintech pattern (gradient cards, donut, pills) instead of the product's own world.
+- Fix: one world (the exercise book), with primitives from it (name tape, register, red-pen tick, rubber stamp), one signature move (the tick written with a pen-like ease: down-stroke, a beat, long up-stroke) and a "what if" slide for failure modes.
+- Rule: before any product post, name its world and three primitives, and write the "what if it goes wrong" answers. No glossy gradient cards unless the product's world calls for them.
