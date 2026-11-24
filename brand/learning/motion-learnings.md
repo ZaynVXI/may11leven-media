@@ -50,3 +50,6 @@ For a component study, build a hero state plus a strip of 3 to 5 numbered tiles;
 - Founder: v2 "too generic". The cause was a borrowed fintech pattern (gradient cards, donut, pills) instead of the product's own world.
 - Fix: one world (the exercise book), with primitives from it (name tape, register, red-pen tick, rubber stamp), one signature move (the tick written with a pen-like ease: down-stroke, a beat, long up-stroke) and a "what if" slide for failure modes.
 - Rule: before any product post, name its world and three primitives, and write the "what if it goes wrong" answers. No glossy gradient cards unless the product's world calls for them.
+
+### Rule (24 Nov): reels are 20–40 seconds
+Carousel loops (6–8 s) are slides, not reels. Every product or service post gets a real reel of 20–40 s: a hook in the first 2 s, a story, the "what if" moment, a payoff that loops. Cut on rhythm with real pages, over B-roll from the client's world (see lebedev-nova.md, motto-maisa.md).
