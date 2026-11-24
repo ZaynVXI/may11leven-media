@@ -27,7 +27,7 @@ Zayn's standing rules, in one place. Every agent (Claude, Codex, CodeRabbit) rea
 - Captions carry both emails and "comment 11"; lowercase on Instagram. Alt text on every image.
 - Market the whole studio (all seven services), not one service.
 - **Weekly rhythm:** one product idea a week, never several at once; the other days carry marketing for our other services (sendable explainers, first-look offers, studio work). Ideas live in `brand/ideas/` and are released one by one. If an idea gets people really excited, we consider building it as our own real product.
-- Prepare, show Zayn, schedule in Buffer only after he approves. Never contact leads. Free tools only; ask before spending.
+- Prepare, show Zayn, schedule in Buffer only after he approves. Once a post is scheduled, Claude may upgrade it (media, copy, timing) whenever it falls below the bar, without asking again; report the change afterwards. Never contact leads. Free tools only; ask before spending.
 - When skills improve, go back and upgrade work that hasn't shipped yet.
 
 ## 6. Roles
