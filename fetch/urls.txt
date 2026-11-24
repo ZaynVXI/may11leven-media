@@ -1,5 +1,7 @@
-oa_printer.json https://api.openverse.org/v1/audio/?q=receipt%20printer&license=cc0,by&page_size=10
-oa_stamp.json https://api.openverse.org/v1/audio/?q=rubber%20stamp&license=cc0,by&page_size=10
-oa_waves.json https://api.openverse.org/v1/audio/?q=gentle%20sea%20waves%20night&license=cc0,by&page_size=10
-oa_paper.json https://api.openverse.org/v1/audio/?q=paper%20tear&license=cc0,by&page_size=10
-oa_keys.json https://api.openverse.org/v1/audio/?q=phone%20typing&license=cc0,by&page_size=10
+sfx_printer.mp3 https://cdn.freesound.org/previews/316/316962_3784934-hq.mp3
+sfx_printer2.mp3 https://cdn.freesound.org/previews/476/476011_9945386-hq.mp3
+sfx_stamp.mp3 https://cdn.freesound.org/previews/448/448474_9090982-hq.mp3
+sfx_stamp2.mp3 https://cdn.freesound.org/previews/461/461888_9681967-hq.mp3
+sfx_waves.mp3 https://cdn.freesound.org/previews/587/587164_9129912-hq.mp3
+sfx_tear.mp3 https://cdn.freesound.org/previews/140/140461_2522406-hq.mp3
+sfx_typing.mp3 https://cdn.freesound.org/previews/365/365543_5407590-hq.mp3
