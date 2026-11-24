@@ -1,0 +1,123 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><style>
+@font-face{font-family:G;font-weight:100 900;src:url(../../../brand/fonts/library/geist/Geist[wght].ttf)}
+@font-face{font-family:PM;src:url(../../../brand/fonts/PlexMono.ttf)}
+@font-face{font-family:PMM;src:url(../../../brand/fonts/PlexMonoMed.ttf)}
+/* Term v3: the app is an exercise book. Children are sewn name tapes in school colours.
+   Fridays are a class register; each saving lands as a red-pen tick. */
+:root{--paper:#F3EFE4;--ink:#1C1A17;--ink2:#7A746A;--rule:rgba(52,78,120,.11);--margin:rgba(196,58,43,.38);
+  --pen:#C23A2B;--maroon:#7A2232;--maroon2:#93303F;--green:#1E5438;--green2:#2B6A49;--thread:#F2DDA9}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:432px;height:964px;background:transparent;font-family:G;color:var(--ink);-webkit-font-smoothing:antialiased;overflow:hidden;font-feature-settings:"tnum" 1}
+#scr{position:absolute;inset:0;border-radius:26px;overflow:hidden;background-color:var(--paper);
+  background-image:repeating-linear-gradient(transparent 0 27px,var(--rule) 27px 28px);background-position:0 12px}
+#scr::before{content:"";position:absolute;top:0;bottom:0;left:34px;width:1.5px;background:var(--margin)}
+#off{position:absolute;inset:0;background:#050506;border-radius:26px;pointer-events:none;z-index:9}
+.sb{position:absolute;left:0;right:0;top:0;height:40px;display:flex;align-items:center;justify-content:space-between;padding:0 22px;font:600 14px G;background:var(--paper);z-index:2}
+.lbl{font:400 11px PM;letter-spacing:.08em;text-transform:uppercase;color:var(--ink2)}
+.hd{position:absolute;left:48px;right:18px;top:56px;display:flex;justify-content:space-between;align-items:flex-end}
+.hn{font:600 30px/1 G;letter-spacing:-.03em;margin-top:8px}
+.me{width:38px;height:38px;border-radius:50%;border:1.5px solid var(--ink);display:flex;align-items:center;justify-content:center;font:600 14px G}
+.sum{position:absolute;left:48px;right:18px;top:126px}
+.sl{display:flex;justify-content:space-between;align-items:baseline;font:500 14px G}
+.sl span:last-child{color:var(--ink2);font-weight:400}
+.bar{margin-top:9px;height:6px;border-radius:3px;background:rgba(28,26,23,.08);display:flex;gap:2px;overflow:hidden}
+.bar b{display:block;height:100%}
+/* name tape: woven ribbon with a stitched edge */
+.tape{position:relative;height:40px;border-radius:3px;display:flex;align-items:center;padding:0 14px;gap:10px;
+  font:500 12px PMM;letter-spacing:.14em;text-transform:uppercase;color:var(--thread);box-shadow:0 1px 0 rgba(0,0,0,.12),0 6px 14px rgba(28,26,23,.10)}
+.tape::before{content:"";position:absolute;inset:0;border-radius:3px;background-image:repeating-linear-gradient(90deg,rgba(255,255,255,.05) 0 1px,transparent 1px 3px),repeating-linear-gradient(0deg,rgba(0,0,0,.08) 0 1px,transparent 1px 3px)}
+.tape::after{content:"";position:absolute;inset:4px;border:1px dashed rgba(242,221,169,.55);border-radius:2px}
+.tape span{position:relative}
+.tape .x{margin-left:auto;opacity:.75}
+.m{background:linear-gradient(180deg,var(--maroon2),var(--maroon))}.g{background:linear-gradient(180deg,var(--green2),var(--green))}
+.kid{position:absolute;left:48px;right:18px}
+.amt{margin-top:16px;display:flex;align-items:baseline;gap:7px;font:500 44px/1 G;letter-spacing:-.04em}
+.amt small{font:500 15px G;letter-spacing:0;color:var(--ink2)}
+.digits{position:relative;display:inline-block;height:44px;overflow:hidden}
+.digits span{display:block}
+.of{margin-top:6px;font:400 14px G;color:var(--ink2)}
+/* register: one cell per Friday of term */
+.reg{margin-top:16px}
+.rh{display:flex;justify-content:space-between}
+.grid{margin-top:8px;display:grid;grid-template-columns:repeat(12,1fr);border-top:1px solid rgba(28,26,23,.25);border-left:1px solid rgba(28,26,23,.25)}
+.grid i{position:relative;display:block;height:28px;border-right:1px solid rgba(28,26,23,.25);border-bottom:1px solid rgba(28,26,23,.25)}
+.grid i.past::after{content:"";position:absolute;inset:0;background:rgba(28,26,23,.035)}
+.grid svg{position:absolute;left:50%;top:50%;width:20px;height:20px;margin:-10px 0 0 -10px;overflow:visible}
+.grid path{fill:none;stroke:var(--pen);stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round}
+.wk{display:grid;grid-template-columns:repeat(12,1fr);margin-top:5px;font:400 9.5px PM;color:var(--ink2);text-align:center}
+.st{margin-top:12px;font:500 13px G;display:flex;align-items:center;gap:8px}
+.st i{width:7px;height:7px;border-radius:50%;background:var(--ink)}
+.stamp{position:absolute;right:6px;top:66px;transform:rotate(-7deg);border:2px solid var(--green);color:var(--green);border-radius:6px;padding:6px 10px 5px;font:500 13px PMM;letter-spacing:.16em;text-transform:uppercase;opacity:.9}
+.stamp::after{content:"";position:absolute;inset:2px;border:1px solid rgba(30,84,56,.5);border-radius:4px}
+.rows{position:absolute;left:48px;right:18px;top:668px;border-top:1px solid rgba(28,26,23,.22)}
+.rw{display:flex;justify-content:space-between;align-items:center;height:48px;border-bottom:1px solid rgba(28,26,23,.12);font:500 13.5px G}
+.rw .lbl{font-size:10.5px}
+.act{position:absolute;left:18px;right:18px;bottom:26px;height:54px;border-radius:999px;background:var(--ink);color:var(--paper);display:flex;align-items:center;justify-content:space-between;padding:0 6px 0 22px;font:600 15px G}
+.act b{width:42px;height:42px;border-radius:50%;background:rgba(243,239,228,.12);display:flex;align-items:center;justify-content:center}
+/* iOS banner */
+#nt{position:absolute;left:10px;right:10px;top:8px;background:rgba(252,250,245,.97);border:1px solid rgba(28,26,23,.06);border-radius:22px;padding:12px;display:flex;gap:12px;align-items:center;box-shadow:0 16px 36px rgba(28,26,23,.18);z-index:5}
+#nt .ic{width:38px;height:38px;border-radius:10px;background:var(--ink);display:flex;align-items:center;justify-content:center}
+#nt .t1{font:600 13px G}#nt .t2{font:400 13px/1.3 G;color:#5E584F;margin-top:2px}
+#nt .tm{margin-left:auto;align-self:flex-start;font:400 11px G;color:var(--ink2)}
+</style></head><body>
+<div id="scr">
+  <div class="sb"><span>18:01</span><span style="display:flex;gap:6px;align-items:center"><svg width="17" height="11" viewBox="0 0 17 11"><rect x="0" y="7" width="3" height="4" rx="1" fill="#1C1A17"/><rect x="4.5" y="5" width="3" height="6" rx="1" fill="#1C1A17"/><rect x="9" y="2.5" width="3" height="8.5" rx="1" fill="#1C1A17"/><rect x="13.5" y="0" width="3" height="11" rx="1" fill="#1C1A17"/></svg><svg width="25" height="12" viewBox="0 0 25 12"><rect x=".5" y=".5" width="21" height="11" rx="3" fill="none" stroke="#1C1A17" opacity=".4"/><rect x="2" y="2" width="12" height="8" rx="1.6" fill="#1C1A17"/></svg></span></div>
+  <div class="hd"><div><div class="lbl">Friday 18:01</div><div class="hn">Term 1</div></div><div class="me">W</div></div>
+  <div class="sum"><div class="sl"><span>Set aside <span id="fam">KES 40,450</span></span><span>of 46,400</span></div>
+    <div class="bar"><b id="bm" style="background:var(--maroon2);width:46%"></b><b style="background:var(--green2);width:41%"></b></div></div>
+
+  <div class="kid" style="top:192px">
+    <div class="tape m"><span>Form 2</span><span>·</span><span>Hill School</span><span class="x">Locked</span></div>
+    <div class="amt"><small>KES</small><span class="digits" id="dg"><span id="d0">21,550</span><span id="d1">22,300</span></span></div>
+    <div class="of" id="f2s">of 27,500 · KES 5,950 to go</div>
+    <div class="reg"><div class="rh"><span class="lbl">Register · Fridays</span><span class="lbl" id="cnt">4 of 12</span></div>
+      <div class="grid" id="g1"></div><div class="wk" id="wk"></div></div>
+    <div class="st"><i></i><span id="fr">On track · 8 Fridays left</span></div>
+  </div>
+
+  <div class="kid" style="top:482px">
+    <div class="tape g"><span>Grade 5</span><span>·</span><span>River Academy</span><span class="x">Paid</span></div>
+    <div class="amt" style="font-size:34px"><small>KES</small>18,900</div>
+    <div class="of">Paid to the school · receipt kept</div>
+    <div class="stamp" id="stp">Covered</div>
+  </div>
+  <div class="rows">
+    <div class="rw"><span class="lbl">Next Friday</span><span>18:00 · KES 750 from M-Pesa</span></div>
+    <div class="rw"><span class="lbl">Pays only</span><span>Hill School's checked paybill</span></div>
+    <div class="rw"><span class="lbl">Emergency</span><span>Unlock in 48 h · both parents</span></div>
+  </div>
+
+  <div class="act">Pay the school<b><svg width="14" height="14" viewBox="0 0 12 12"><path d="M2 6h8M6.5 2.5 10 6l-3.5 3.5" stroke="#F3EFE4" stroke-width="1.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg></b></div>
+  <div id="nt"><div class="ic"><svg width="18" height="18" viewBox="0 0 20 20"><path d="M4 10.5l4 4 8-9" fill="none" stroke="#F3EFE4" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></div><div><div class="t1">KES 750 saved for Form 2</div><div class="t2">Ticked in the register. 7 Fridays to go.</div></div><div class="tm">now</div></div>
+</div>
+<div id="off"></div>
+<script>
+const TICK='M4 10.5 C5.5 12 7 13.5 8 15 C10 11 13 7 16.5 3.5';
+function cells(id,n,filled){const g=document.getElementById(id);let h='';for(let k=0;k<12;k++){h+=`<i class="${k<filled?'past':''}">${k<n?`<svg viewBox="0 0 20 20"><path d="${TICK}" style="transform:rotate(${(k*37%9)-4}deg);transform-origin:10px 10px"/></svg>`:''}</i>`}g.innerHTML=h}
+cells('g1',5,5);
+document.getElementById('wk').innerHTML=Array.from({length:12},(_,k)=>`<span>${k+1}</span>`).join('');
+const live=document.querySelectorAll('#g1 path')[4]; const L=live.getTotalLength(); live.style.strokeDasharray=L;
+const cl=x=>Math.max(0,Math.min(1,x)),
+  sp=x=>{x=cl(x);if(x>=1)return 1;const z=.65,w=8,wd=w*Math.sqrt(1-z*z);return 1-Math.exp(-z*w*x)*(Math.cos(wd*x)+z*w/wd*Math.sin(wd*x))},
+  eo=x=>1-Math.pow(1-cl(x),3), io=x=>{x=cl(x);return x<.5?4*x*x*x:1-Math.pow(-2*x+2,3)/2},
+  pen=x=>{x=cl(x);return x<.62? .55*eo(x/.62): .55+.45*eo((x-.62)/.38)}; // a pen stroke: down-stroke, tiny pause, long up-stroke
+const $=id=>document.getElementById(id), D=8;
+function render(t){
+  t=((t%D)+D)%D;
+  $('off').style.opacity = t<.5 ? 1-eo(t/.5) : t>7.3 ? io((t-7.3)/.6) : 0;
+  const nIn=sp((t-.9)/.6), nOut=io((t-5.6)/.4), n=nIn*(1-nOut);
+  $('nt').style.transform=`translateY(${-90*(1-n)}px) scale(${.96+.04*n})`; $('nt').style.opacity=cl(n);
+  // the tick is written 1.6-2.3, then the number rolls (cause, then effect)
+  live.style.strokeDashoffset = L*(1-pen((t-1.6)/.7));
+  const ps=sp((t-2.2)/.8), p=cl(ps);
+  $('d0').style.transform=$('d1').style.transform=`translateY(${-44*ps}px)`;
+  $('d0').style.opacity=1-p; $('d1').style.opacity=p;
+  $('d0').style.filter=`blur(${Math.max(0,3*p)}px)`; $('d1').style.filter=`blur(${Math.max(0,3*(1-p))}px)`;
+  $('f2s').textContent = p<.5 ? 'of 27,500 · KES 5,950 to go' : 'of 27,500 · KES 5,200 to go';
+  $('fr').textContent  = p<.5 ? 'On track · 8 Fridays left' : 'On track · 7 Fridays left';
+  $('cnt').textContent = p<.5 ? '4 of 12' : '5 of 12';
+  const fp=cl(sp((t-2.5)/.7)); $('fam').textContent = fp<.5 ? 'KES 40,450' : 'KES 41,200'; $('bm').style.width=(46+2*fp)+'%';
+  const s=sp((t-4.0)/.5); $('stp').style.transform=`rotate(-7deg) scale(${1+.06*(1-cl(s))*Math.sin(cl((t-4.0)/.5)*Math.PI)})`;
+}
+window.render=render;render(0);
+</script></body></html>

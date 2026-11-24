@@ -1,0 +1,77 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><style>
+@font-face{font-family:G;font-weight:100 900;src:url(../../../brand/fonts/library/geist/Geist[wght].ttf)}
+@font-face{font-family:PM;src:url(../../../brand/fonts/PlexMono.ttf)}
+@font-face{font-family:PMM;src:url(../../../brand/fonts/PlexMonoMed.ttf)}
+:root{--paper:#F3EFE4;--ink:#1C1A17;--ink2:#7A746A;--rule:rgba(52,78,120,.12);--pen:#C23A2B;--maroon:#7A2232;--maroon2:#93303F;--thread:#F2DDA9}
+*{margin:0;padding:0;box-sizing:border-box}
+body{width:1080px;height:1350px;overflow:hidden;font-family:G;color:var(--ink);-webkit-font-smoothing:antialiased;font-feature-settings:"tnum" 1;background-color:var(--paper);
+  background-image:repeating-linear-gradient(transparent 0 53px,var(--rule) 53px 54px);background-position:0 20px}
+body::before{content:"";position:absolute;top:0;bottom:0;left:96px;width:2px;background:rgba(196,58,43,.32)}
+.lab{position:absolute;font:400 20px/1 PM;letter-spacing:.08em;text-transform:uppercase;color:var(--ink2)}
+#c{position:absolute;inset:0}
+.tape{position:absolute;left:132px;right:72px;top:330px;height:72px;border-radius:5px;display:flex;align-items:center;padding:0 26px;gap:18px;font:500 22px PMM;letter-spacing:.16em;text-transform:uppercase;color:var(--thread);background:linear-gradient(180deg,var(--maroon2),var(--maroon));box-shadow:0 2px 0 rgba(0,0,0,.12),0 14px 30px rgba(28,26,23,.14)}
+.tape::before{content:"";position:absolute;inset:0;border-radius:5px;background-image:repeating-linear-gradient(90deg,rgba(255,255,255,.05) 0 1px,transparent 1px 4px),repeating-linear-gradient(0deg,rgba(0,0,0,.09) 0 1px,transparent 1px 4px)}
+.tape::after{content:"";position:absolute;inset:7px;border:1.5px dashed rgba(242,221,169,.55);border-radius:3px}
+.tape span{position:relative}.tape .x{margin-left:auto;opacity:.75}
+.amt{position:absolute;left:132px;top:480px;display:flex;align-items:baseline;gap:18px}
+.amt small{font:500 34px G;color:var(--ink2)}
+.dg{position:relative;display:inline-block;height:170px;overflow:hidden;font:500 170px/1 G;letter-spacing:-.05em}
+.dg span{display:block}
+.of{position:absolute;left:132px;top:680px;font:400 34px G;color:#4A453E}
+.grid{position:absolute;left:132px;right:72px;top:810px;display:grid;grid-template-columns:repeat(6,1fr);border-top:2px solid rgba(28,26,23,.3);border-left:2px solid rgba(28,26,23,.3)}
+.grid i{position:relative;display:block;height:150px;border-right:2px solid rgba(28,26,23,.3);border-bottom:2px solid rgba(28,26,23,.3)}
+.grid svg{position:absolute;left:50%;top:50%;width:92px;height:92px;margin:-46px 0 0 -46px;overflow:visible}
+.grid path{fill:none;stroke:var(--pen);stroke-width:2.3;stroke-linecap:round;stroke-linejoin:round}
+.wk{position:absolute;left:132px;right:72px;top:976px;display:grid;grid-template-columns:repeat(6,1fr);font:400 20px PM;color:var(--ink2);text-align:center}
+#hi{position:absolute;left:0;top:0;width:0;height:150px;background:rgba(194,58,43,.07)}
+.chip{position:absolute;left:132px;top:1090px;display:flex;align-items:center;gap:16px;font:500 30px G}
+.chip b{font-weight:500;color:var(--pen)}
+#pen{position:absolute;width:300px;height:22px;border-radius:11px;background:linear-gradient(90deg,#1C1A17 0 82%,#B9B2A4 82% 92%,#2B2926 92%);transform-origin:0 50%;box-shadow:0 18px 26px rgba(28,26,23,.22)}
+#pen::before{content:"";position:absolute;left:-20px;top:3px;border-right:22px solid #C23A2B;border-top:8px solid transparent;border-bottom:8px solid transparent}
+</style></head><body>
+<svg width="0" height="0" style="position:absolute"><filter id="rough"><feTurbulence type="fractalNoise" baseFrequency=".9" numOctaves="2" seed="4"/><feDisplacementMap in="SourceGraphic" scale="2.2"/></filter></svg>
+<div class="lab" style="top:62px;left:132px">Friday 18:00</div><div class="lab" style="top:62px;right:72px">05 / 08</div>
+<div id="c">
+  <div class="tape"><span>Form 2</span><span>·</span><span>Hill School</span><span class="x">Locked</span></div>
+  <div class="amt"><small>KES</small><span class="dg"><span id="d0">21,550</span><span id="d1">22,300</span></span></div>
+  <div class="of" id="of">of 27,500 · KES 5,950 to go</div>
+  <div class="grid" id="g"></div>
+  <div class="wk"><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span><span>7</span></div>
+  <div class="chip" id="ch"><b>+ KES 750</b><span>from M-Pesa · 7 Fridays left</span></div>
+</div>
+<div class="lab" style="bottom:58px;left:132px">Concept · Term</div>
+<script>
+const T='M4 10.5 C5.5 12 7 13.5 8 15 C10 11 13 7 16.5 3.5';
+const g=document.getElementById('g');let h='';
+for(let k=0;k<6;k++){const r=(k*37%9)-4;h+=`<i>${k<3?`<svg viewBox="0 0 20 20" style="filter:url(#rough)"><path d="${T}" style="transform:rotate(${r}deg);transform-origin:10px 10px"/></svg>`:''}</i>`}
+g.innerHTML=h;
+// the live cell (week 5) gets its own path
+const live=document.createElementNS('http://www.w3.org/2000/svg','svg');live.setAttribute('viewBox','0 0 20 20');live.style.filter='url(#rough)';
+live.innerHTML=`<path d="${T}" style="transform:rotate(-2deg);transform-origin:10px 10px"/>`;g.children[3].appendChild(live);
+// shift: the grid shows weeks 2-7, existing ticks are weeks 2,3,4 (cells 0-2) and the live one is week 5 (cell 3)
+const P=live.querySelector('path'),L=P.getTotalLength();P.style.strokeDasharray=L;
+const cl=x=>Math.max(0,Math.min(1,x)),
+ sp=x=>{x=cl(x);if(x>=1)return 1;const z=.65,w=8,wd=w*Math.sqrt(1-z*z);return 1-Math.exp(-z*w*x)*(Math.cos(wd*x)+z*w/wd*Math.sin(wd*x))},
+ eo=x=>1-Math.pow(1-cl(x),3), io=x=>{x=cl(x);return x<.5?4*x*x*x:1-Math.pow(-2*x+2,3)/2};
+const $=id=>document.getElementById(id), D=7.2;
+// pen path in page coordinates (cell 3 centre)
+function render(t){
+  t=((t%D)+D)%D;
+  // a pen stroke: quick down-stroke, a beat, long up-stroke (1.2-2.0)
+  const u=cl((t-1.2)/.8), pen = u<.38 ? .42*eo(u/.38) : u<.48 ? .42 : .42+.58*eo((u-.48)/.52);
+  P.style.strokeDashoffset=L*(1-pen);
+  // the live cell warms slightly while it is written, then settles
+  const w=Math.sin(cl((t-1.0)/1.6)*Math.PI); g.children[3].style.background=`rgba(194,58,43,${.07*w})`;
+  // the number rolls after the tick (cause, then effect)
+  const ps=sp((t-2.2)/.85), p=cl(ps);
+  $('d0').style.transform=$('d1').style.transform=`translateY(${-170*ps}px)`;
+  $('d0').style.opacity=1-p; $('d1').style.opacity=p;
+  $('of').textContent = p<.5 ? 'of 27,500 · KES 5,950 to go' : 'of 27,500 · KES 5,200 to go';
+  const c=sp((t-2.7)/.7); $('ch').style.opacity=cl(c); $('ch').style.transform=`translateY(${24*(1-c)}px)`;
+  // reset for the loop: a soft dissolve 6.5-7.2
+  const f = t<6.5?1 : t<6.85 ? 1-io((t-6.5)/.35) : io((t-6.85)/.35);
+  $('c').style.opacity=f;
+  if(t>=6.85){P.style.strokeDashoffset=L;$('d0').style.transform=$('d1').style.transform='translateY(0)';$('d0').style.opacity=1;$('d1').style.opacity=0;$('of').textContent='of 27,500 · KES 5,950 to go';$('ch').style.opacity=0}
+}
+window.render=render;render(0);
+</script></body></html>
