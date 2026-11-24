@@ -11,6 +11,11 @@ Zayn's standing rules, in one place. Every agent (Claude, Codex, CodeRabbit) rea
 ## 2. Research before designing
 - Go back to Zayn's references (`brand/refs/`, `brand/motion-refs/`) and the design sites he shared (`brand/learning/sites.md`): Awwwards, Dribbble, Mobbin, Minimal Gallery, Bencho, BoardUI, Transitions.dev, Beautiful UI, shaders.com, ls.graphics, ContentCore and the rest listed there. Look at several, not one.
 - Ideas start from a real problem with sources (`brand/ideas/next-product-research.md` is the model), never from needing something to post. Quality over quantity; never rush.
+- **Hard gate, no exceptions (Zayn: "Always follow our workflow and research and resources"):** no layout, render or reel starts until the job's folder holds the three items below, and Zayn has seen the plan.
+  - `INVENTORY.md`: the skills (each opened, with what it adds), tools, photo sources and mockup method, plus a slide plan with one presentation type per slide.
+  - `moodboard.jpg`: at least three reference studios from `brand/refs/`, actually opened.
+  - A steal list.
+  - Every job starts by loading the may11leven-design-workflow skill. Working from memory or notes alone is a fail, even for a "quick" post. (Lesson: Try to break it No. 01 v1, built without this gate, came out generic.)
 
 ## 3. Skills and tools: pick the right ones, never just one
 - Go through the skill library first (`brand/skills/README.md`, `brand/skills/manifest.json`, the router in `.agents/skills/may11leven-skill-library/SKILL.md`) and pick every skill the task needs, including the 90n design thinking and product management packs.
