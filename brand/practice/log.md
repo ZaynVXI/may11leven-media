@@ -93,3 +93,10 @@ PXDX move applied: hero state + numbered strip 01 Check / 02 Sending / 03 Sent /
 ## Try to break it No. 01, v1 (rebuilt)
 - What fell short: I designed from my notes without opening the reference screenshots. I skipped the steal list, the judgement brief and the side-by-side Pass 0. The result was 8 flat text slides with no material, no device and no photo, which breaks motto-maisa rule 2 (at most one text slide).
 - Fix to the process: no design work starts until posts/<piece>/BRIEF.md exists, with a reference contact sheet (at least 3 studios from brand/refs, opened and looked at), a steal list, the 7-line judgement brief and a slide plan that lists one presentation type per slide. Pass 0 is scored against that sheet, side by side.
+- Also learned on this job:
+  - The v1 sound was synthesised, which breaks the real-recordings rule.
+  - v1 should have continued the After hours v2 product world (Kusi chat, sail mark) instead of starting a new look.
+  - lebedev-02 to 07 are Lebedev question cards, not Motto.
+  - Harvey II is the model for AI product posts.
+  - Inter Tight isn't in Figma; the Kusi foundations use Inter.
+  - Standing order from Zayn: update the workflow every time something new is learned. The design-workflow skill now has a lessons list, and WORKFLOW-RULES has the hard gate.
