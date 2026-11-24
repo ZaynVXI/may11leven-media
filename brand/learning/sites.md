@@ -101,3 +101,10 @@ Rule: a mockup only *presents* our work. The screens, packaging and type are alw
 - https://content-hub.dribbble.com/agencies/ultimate-dribbble-select-best-shots/ (Dribbble Select "Best Shots of the Year" 2026: curated, grouped by branding, web, apps, product, UI/UX; good for a yearly read of where calm product design is going)
 - https://www.hontran.dev/blog/best-award-winning-websites-2026 (a juror's list of 2026 award winners with the reason each won and its stack)
 - Awwwards Sites of the Day page returned a cached July 2025 list from here, so use web search for current winners.
+
+### Added from Zayn (20–24 Nov), checked (notes in study-backlog-nov-24.md)
+- Study sites, visit often: **nngroup.com** (psychology and usability research; start with the psychology study guide), **ixdf.org** (free UX library; five dimensions of interaction design), **motion.zajno.com** (UI motion guide), **holographik.co** (system identities, numbered principles).
+- Bookmarks: modulify.ai, motionin.design, landdding.com, wonderlist.design, iconly.design, fontinlogo.com, on.design, godly.website, 60fps.design, footer.design.
+- UI/UX: scrolltide.co (3D and scroll components), Navbar Gallery, cta.gallery, Refero Styles (styles.refero.design).
+- Craft tools: Squoosh (squoosh.app), Mockups Design (mockups-design.com), Letterform Archive, Poly Haven, VTracer, ScaryRobot GenFX, UNCUT.wtf (check each font licence).
+- Ideas only, never output (AI-generated): lumalabs.ai, lummi.ai.
