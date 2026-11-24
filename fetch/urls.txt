@@ -1,2 +1,3 @@
-stone_street.jpg https://images.pexels.com/photos/29205959/pexels-photo-29205959.jpeg?auto=compress&cs=tinysrgb&w=2600
-stone_boats.jpg https://images.pexels.com/photos/4995594/pexels-photo-4995594.jpeg?auto=compress&cs=tinysrgb&w=2600
+models.json https://api.polyhaven.com/assets?t=models
+textures.json https://api.polyhaven.com/assets?t=textures
+hdris.json https://api.polyhaven.com/assets?t=hdris
