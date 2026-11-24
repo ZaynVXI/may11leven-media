@@ -40,7 +40,7 @@ Everything the studio uses, in one place. After a fresh workspace, run `bash set
 |---|---|---|
 | CLI-Anything (HKUDS, Apache-2.0) | Installed: GIMP, LibreOffice, Inkscape, Audacity and Blender harnesses (`cli-anything-gimp` etc.); skills vendored in `brand/tools/cli-anything/` | Agent-usable commands for our desktop tools. The Blender harness needs the Blender app; our pipeline uses `bpy`, so keep using that. |
 | agent-skills (Addy Osmani, MIT) | Vendored in `brand/tools/agent-skills/` (skills only, no hooks) | 24 engineering skills: spec, plan, TDD, security, accessibility, shipping. The accessibility audit uses pinned `@axe-core/cli` and `pa11y` through npx. |
-| Kokoro TTS (kokoro-onnx, Apache-2.0 model) | Installed; model in `~/.cache/kokoro/` | Voiceovers from built-in voices (bf_emma, bm_george). No cloning, no consent issue. |
+| Kokoro TTS (kokoro-onnx, Apache-2.0 model) | Installed; model in `~/.cache/kokoro/` | Voiceovers from built-in voices (bf_emma, bm_george). No cloning, no consent issue. Caution: Meta asks for a label on realistic AI audio, so for our own posts use Zayn's recorded voice or no voice. Use Kokoro for drafts, timing tests and client work where AI voice is agreed and disclosed. |
 | Voicebox (MIT), VoiceStudio (AGPL-3.0) | Not installed here | Desktop apps for voice cloning. Run on Zayn's computer when linked. Clone only Zayn's own voice, or someone who gave clear written consent. AGPL: don't ship it inside client products. |
 | Open Generative AI (MIT) | Not installed | AI image and video front end, sold as "no content filters", built on a paid API (MuAPI). Conflicts with our no-AI-imagery rule. |
 | Lummi, Luma | Not installed | AI-generated images and video. Ideas only. |
