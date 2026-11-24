@@ -1,123 +1,111 @@
-"""Try to break it No. 01 hero: a night-desk receipt printer on a Lamu hardwood counter (Blender, Cycles).
-usage: python3 hero.py slip.png out.png W H SAMPLES [cam]   cam: hero | top"""
-import bpy, sys, math, bmesh, mathutils
-a = sys.argv[1:]
-SLIP, OUT, W, H, SAMP = a[0], a[1], int(a[2]), int(a[3]), int(a[4]); CAM = a[5] if len(a) > 5 else 'hero'
-def lin(h):
-    c = [int(h[i:i + 2], 16) / 255 for i in (0, 2, 4)]
-    return [x / 12.92 if x <= .04045 else ((x + .055) / 1.055) ** 2.4 for x in c] + [1]
-bpy.ops.wm.read_factory_settings(use_empty=True)
-sc = bpy.context.scene; sc.render.engine = 'CYCLES'; sc.cycles.samples = SAMP; sc.cycles.use_denoising = True
-sc.cycles.max_bounces = 6; sc.render.resolution_x, sc.render.resolution_y = W, H
-sc.view_settings.view_transform = 'AgX'; sc.view_settings.look = 'AgX - Medium High Contrast'; sc.view_settings.exposure = 0.0
-def mat(name, base, rough, metal=0.0):
-    m = bpy.data.materials.new(name); m.use_nodes = True; b = m.node_tree.nodes['Principled BSDF']
-    b.inputs['Base Color'].default_value = base; b.inputs['Roughness'].default_value = rough; b.inputs['Metallic'].default_value = metal
-    return m, b
-def box(sx, sy, sz, loc, m, bev=0.002, seg=4):
-    bpy.ops.mesh.primitive_cube_add(size=1, location=loc); o = bpy.context.object; o.scale = (sx, sy, sz); bpy.ops.object.transform_apply(scale=True)
-    b = o.modifiers.new('b', 'BEVEL'); b.width = bev; b.segments = seg; o.data.materials.append(m); bpy.ops.object.shade_smooth(); return o
-def cyl(r, d, loc, m, rot=(0, 0, 0), v=48):
-    bpy.ops.mesh.primitive_cylinder_add(radius=r, depth=d, location=loc, rotation=rot, vertices=v); o = bpy.context.object
-    o.data.materials.append(m); bpy.ops.object.shade_smooth(); b = o.modifiers.new('b', 'BEVEL'); b.width = min(r, d) * .15; b.segments = 3; return o
+"""Try to break it No. 01, hero: Kusi House night desk. A thermal audit slip curls out of the receipt printer on a
+black-walnut counter, stamped REFUSED; the Kusi phone lies cropped at the edge showing the guest's chat; a Lamu wooden
+lantern glows behind on coral stone. CC0 Poly Haven assets (walnut veneer, coral stone wall, wooden lantern, HDRI).
+usage: python3 hero.py OUT W H SAMPLES [variant]   variant: hero | top | morning"""
+import sys, math, bpy, bmesh
+from mathutils import Vector
+sys.path.insert(0, "/home/claude/r3d"); import real as R
+OUT, W, H, SAMP = sys.argv[1], int(sys.argv[2]), int(sys.argv[3]), int(sys.argv[4])
+VAR = sys.argv[5] if len(sys.argv) > 5 else "hero"
+D = "/home/claude/may11leven-media/posts/try-to-break-it/01/v2/"
+sc = R.reset()
 
-# --- hardwood counter: dark mahogany grain along X, oiled
-wm, wb = mat('wood', lin('3A2216'), 0.38); wb.inputs['Coat Weight'].default_value = 0.25; wb.inputs['Coat Roughness'].default_value = 0.2
-N, L = wm.node_tree.nodes, wm.node_tree.links
-tc = N.new('ShaderNodeTexCoord'); mp = N.new('ShaderNodeMapping'); mp.inputs['Scale'].default_value = (2.5, 40, 2.5)
-wv = N.new('ShaderNodeTexWave'); wv.wave_type = 'BANDS'; wv.inputs['Scale'].default_value = 3; wv.inputs['Distortion'].default_value = 6; wv.inputs['Detail'].default_value = 6; wv.inputs['Detail Roughness'].default_value = .7
-nz = N.new('ShaderNodeTexNoise'); nz.inputs['Scale'].default_value = 300; nz.inputs['Detail'].default_value = 8
-cr = N.new('ShaderNodeValToRGB'); cr.color_ramp.elements[0].color = lin('24130B'); cr.color_ramp.elements[1].color = lin('5A3420')
-mix = N.new('ShaderNodeMath'); mix.operation = 'MULTIPLY_ADD'; mix.inputs[1].default_value = .85; mix.inputs[2].default_value = 0
-L.new(tc.outputs['Object'], mp.inputs['Vector']); L.new(mp.outputs['Vector'], wv.inputs['Vector']); L.new(mp.outputs['Vector'], nz.inputs['Vector'])
-ad = N.new('ShaderNodeMath'); ad.operation = 'ADD'; L.new(wv.outputs['Fac'], ad.inputs[0]); m2 = N.new('ShaderNodeMath'); m2.operation = 'MULTIPLY'; m2.inputs[1].default_value = .18
-L.new(nz.outputs['Fac'], m2.inputs[0]); L.new(m2.outputs[0], ad.inputs[1]); L.new(ad.outputs[0], cr.inputs['Fac']); L.new(cr.outputs['Color'], wb.inputs['Base Color'])
-bu = N.new('ShaderNodeBump'); bu.inputs['Strength'].default_value = .08; bu.inputs['Distance'].default_value = .0003; L.new(nz.outputs['Fac'], bu.inputs['Height']); L.new(bu.outputs['Normal'], wb.inputs['Normal'])
-counter = box(1.6, 0.7, 0.05, (0, 0.05, -0.025), wm, 0.006)
-# carved front band (a step and a bead along the front edge)
-box(1.6, 0.03, 0.03, (0, -0.31, -0.07), wm, 0.004)
-# --- lime plaster wall behind, out of focus
-pm, pb = mat('plaster', lin('E6DED0'), 0.92)
-pn = pm.node_tree.nodes; pl = pm.node_tree.links
-n2 = pn.new('ShaderNodeTexNoise'); n2.inputs['Scale'].default_value = 18; n2.inputs['Detail'].default_value = 10; n2.inputs['Roughness'].default_value = .65
-b2 = pn.new('ShaderNodeBump'); b2.inputs['Strength'].default_value = .35; pl.new(n2.outputs['Fac'], b2.inputs['Height']); pl.new(b2.outputs['Normal'], pb.inputs['Normal'])
-bpy.ops.mesh.primitive_plane_add(size=3, location=(0, 0.42, 0.6), rotation=(math.radians(90), 0, 0)); bpy.context.object.data.materials.append(pm)
-# --- receipt printer: warm-grey plastic body, black lid, paper slot
-body_m, _ = mat('printer', lin('2C2B2A'), 0.5)
-lid_m, _ = mat('lid', lin('1B1B1C'), 0.32)
-PX, PY = 0.03, 0.06
-body = box(0.105, 0.15, 0.07, (PX, PY, 0.035), body_m, 0.014, 6)
-lid = box(0.10, 0.085, 0.012, (PX, PY + 0.03, 0.075), lid_m, 0.006, 5)
-slot = box(0.088, 0.004, 0.004, (PX, PY - 0.016, 0.0805), lin and mat('slot', lin('050505'), .8)[0], 0.001, 2)
-led_m, led_b = mat('led', lin('2E6B45'), .3); led_b.inputs['Emission Color'].default_value = lin('59D98A'); led_b.inputs['Emission Strength'].default_value = 6
-cyl(0.0022, 0.002, (PX + 0.04, PY - 0.065, 0.071), led_m)
-feed_m, _ = mat('feed', lin('3A3938'), .4); cyl(0.007, 0.004, (PX - 0.03, PY - 0.06, 0.071), feed_m)
-# --- the slip: a strip that rises from the slot and curls toward the camera
-img = bpy.data.images.load(SLIP); iw, ih = img.size
-PW = 0.08; PL = PW * ih / iw
-bm = bmesh.new(); n = 120
-pos = mathutils.Vector((PX, PY - 0.016, 0.081)); ang = 0.0; pts = []
+def mat(name, col, rough=.5, metal=0., coat=0.):
+    m = bpy.data.materials.new(name); m.use_nodes = True; p = m.node_tree.nodes["Principled BSDF"]
+    p.inputs["Base Color"].default_value = R.lin(col); p.inputs["Roughness"].default_value = rough
+    p.inputs["Metallic"].default_value = metal; p.inputs["Coat Weight"].default_value = coat; return m, p
+def box(sx, sy, sz, loc, m, bev=.002, seg=4, rotz=0):
+    bpy.ops.mesh.primitive_cube_add(size=1, location=loc); o = bpy.context.object; o.scale = (sx, sy, sz)
+    bpy.ops.object.transform_apply(scale=True); o.rotation_euler[2] = math.radians(rotz)
+    b = o.modifiers.new("b", "BEVEL"); b.width = bev; b.segments = seg; o.data.materials.append(m); bpy.ops.object.shade_smooth(); return o
+def cyl(r, d, loc, m, rot=(0, 0, 0)):
+    bpy.ops.mesh.primitive_cylinder_add(radius=r, depth=d, location=loc, rotation=rot, vertices=48); o = bpy.context.object
+    o.data.materials.append(m); bpy.ops.object.shade_smooth(); b = o.modifiers.new("b", "BEVEL"); b.width = min(r, d) * .2; b.segments = 3; return o
+
+# --- set: black walnut counter, coral stone wall behind
+counter = box(1.8, .9, .05, (0, .1, -.025), R.pbr("black_walnut_veneer_01", scale=2.2, tint="5A3F2E", rough_mul=.7), .004)
+bpy.context.view_layer.objects.active = counter; bpy.ops.object.mode_set(mode="EDIT"); bpy.ops.uv.cube_project(cube_size=1.0); bpy.ops.object.mode_set(mode="OBJECT")
+bpy.ops.mesh.primitive_plane_add(size=3, location=(0, .55, .6), rotation=(math.radians(90), 0, 0)); wall = bpy.context.object
+wall.data.materials.append(R.pbr("coral_stone_wall", scale=2.0, tint="E8DCC8"))
+
+# --- receipt printer: graphite body, black lid, paper slot, green power LED
+PX, PY = .03, .07
+body = box(.105, .15, .07, (PX, PY, .035), mat("printer", "2A2A29", .5)[0], .008, 5)
+box(.104, .006, .003, (PX, PY - .0195, .0786), mat("cutter", "8E8C88", .3, 1.)[0], .001, 2)
+box(.002, .12, .0006, (PX - .05, PY + .005, .0700), mat("seam", "101010", .8)[0], .0002, 1)
+cyl(.0065, .003, (PX - .03, PY - .066, .0712), mat("btn", "3A3937", .35)[0])
+box(.10, .085, .012, (PX, PY + .03, .075), mat("lid", "1A1A1B", .3)[0], .006, 5)
+box(.088, .004, .004, (PX, PY - .016, .0805), mat("slot", "050505", .9)[0], .001, 2)
+lm, lp = mat("led", "2E6B45", .3); lp.inputs["Emission Color"].default_value = R.lin("59D98A"); lp.inputs["Emission Strength"].default_value = 8
+cyl(.0022, .002, (PX + .04, PY - .066, .071), lm)
+
+# --- the slip: rises out of the slot and curls toward the camera; REFUSED sits low, near the slot
+img = bpy.data.images.load(D + "slip_cousin.png"); iw, ih = img.size
+PWd = .08; PL0 = PWd * ih / iw; PL = PL0 * 1.55
+bm = bmesh.new(); n = 140; pos = Vector((PX, PY - .016, .081)); ang = 0.0; pts = []
 for i in range(n + 1):
-    s = i / n; pts.append((pos.copy(), ang))
-    k = 0 if s < .45 else (s - .45) / .55; ang = math.radians(78) * k ** 1.6          # bend forward (toward -Y)
-    pos += mathutils.Vector((0, -math.sin(ang), math.cos(ang))) * (PL / n)
-uvl = []
-for i, (p, an) in enumerate(pts):
-    tw = math.radians(4) * (i / n)                                                  # slight twist
+    s = i / n; pts.append(pos.copy())
+    k = 0 if s < .5 else (s - .5) / .5; ang = math.radians(96) * k ** 1.4
+    pos += Vector((0, -math.sin(ang), math.cos(ang))) * (PL / n)
+for i, p in enumerate(pts):
     for sx in (-1, 1):
-        x = sx * PW / 2; v = bm.verts.new((p.x + x * math.cos(tw), p.y + x * math.sin(tw) * .3, p.z + sx * 0.0006 * math.sin(i * .3)))
-bm.verts.ensure_lookup_table()
-for i in range(n):
-    f = bm.faces.new((bm.verts[2 * i], bm.verts[2 * i + 1], bm.verts[2 * i + 3], bm.verts[2 * i + 2]))
+        bm.verts.new((p.x + sx * PWd / 2, p.y + sx * .0012 * (i / n), p.z + .0004 * math.sin(i * .25 + sx)))
+bm.verts.ensure_lookup_table(); bm.verts.index_update()
+for i in range(n): bm.faces.new((bm.verts[2 * i], bm.verts[2 * i + 1], bm.verts[2 * i + 3], bm.verts[2 * i + 2]))
 uv = bm.loops.layers.uv.new()
 for f in bm.faces:
-    for lp in f.loops:
-        idx = lp.vert.index; i, sx = idx // 2, idx % 2
-        lp[uv].uv = (sx, i / n)   # v=0 at the slot = bottom of the slip (last printed)
-me = bpy.data.meshes.new('slip'); bm.to_mesh(me); slip = bpy.data.objects.new('slip', me); sc.collection.objects.link(slip)
-sm, sb = mat('paper', (1, 1, 1, 1), 0.55); sb.inputs['Subsurface Weight'].default_value = 0.0
-it = sm.node_tree.nodes.new('ShaderNodeTexImage'); it.image = img; it.extension = 'EXTEND'
-gm = sm.node_tree.nodes.new('ShaderNodeGamma'); gm.inputs['Gamma'].default_value = 1.08
-sm.node_tree.links.new(it.outputs['Color'], gm.inputs['Color']); sm.node_tree.links.new(gm.outputs['Color'], sb.inputs['Base Color'])
-# thin paper: let a little light through from behind
-tr = sm.node_tree.nodes.new('ShaderNodeBsdfTranslucent'); tr.inputs['Color'].default_value = lin('F2E7D2')
-mx = sm.node_tree.nodes.new('ShaderNodeMixShader'); mx.inputs['Fac'].default_value = 0.12
-outn = sm.node_tree.nodes['Material Output']
-sm.node_tree.links.new(sb.outputs['BSDF'], mx.inputs[1]); sm.node_tree.links.new(tr.outputs['BSDF'], mx.inputs[2]); sm.node_tree.links.new(mx.outputs['Shader'], outn.inputs['Surface'])
-slip.data.materials.append(sm); sol = slip.modifiers.new('s', 'SOLIDIFY'); sol.thickness = 0.00012
+    for lo in f.loops: idx = lo.vert.index; lo[uv].uv = (idx % 2, (idx // 2) / n * PL / PL0)
+me = bpy.data.meshes.new("slip"); bm.to_mesh(me); slip = bpy.data.objects.new("slip", me); sc.collection.objects.link(slip)
+sm, sp = mat("paper", "FFFFFF", .62); nt = sm.node_tree
+it = nt.nodes.new("ShaderNodeTexImage"); it.image = img; it.extension = "EXTEND"
+nt.links.new(it.outputs["Color"], sp.inputs["Base Color"])
+fib = nt.nodes.new("ShaderNodeTexNoise"); fib.inputs["Scale"].default_value = 900; fb = nt.nodes.new("ShaderNodeBump"); fb.inputs["Strength"].default_value = .05
+nt.links.new(fib.outputs["Fac"], fb.inputs["Height"]); nt.links.new(fb.outputs["Normal"], sp.inputs["Normal"])
+tr = nt.nodes.new("ShaderNodeBsdfTranslucent"); tr.inputs["Color"].default_value = R.lin("F2E6CF")
+mx = nt.nodes.new("ShaderNodeMixShader"); mx.inputs["Fac"].default_value = .15
+nt.links.new(sp.outputs["BSDF"], mx.inputs[1]); nt.links.new(tr.outputs["BSDF"], mx.inputs[2]); nt.links.new(mx.outputs[0], nt.nodes["Material Output"].inputs["Surface"])
+slip.data.materials.append(sm); slip.modifiers.new("s", "SOLIDIFY").thickness = .00012
 bpy.context.view_layer.objects.active = slip; slip.select_set(True); bpy.ops.object.shade_smooth()
-# --- brass bell on a wooden base
-brass, _ = mat('brass', lin('C39A52'), 0.22, 1.0)
-cyl(0.034, 0.01, (-0.17, 0.15, 0.005), wm)
-bpy.ops.mesh.primitive_uv_sphere_add(radius=0.03, location=(-0.17, 0.15, 0.01), segments=64, ring_count=32); bell = bpy.context.object
-bell.scale = (1, 1, .82); bell.data.materials.append(brass); bpy.ops.object.shade_smooth()
-cyl(0.003, 0.012, (-0.17, 0.15, 0.04), brass); cyl(0.006, 0.003, (-0.17, 0.15, 0.047), brass)
-# --- room key: carved wooden fob with a brass ring and key
-fob_m, _ = mat('fob', lin('6B4A2E'), .5)
-k_ang = math.radians(28)
-cyl(0.011, 0.07, (0.17, -0.07, 0.011), fob_m, rot=(0, math.radians(90), k_ang))
-bpy.ops.mesh.primitive_torus_add(major_radius=0.012, minor_radius=0.0016, location=(0.13 - 0.00, -0.09, 0.002)); tor = bpy.context.object; tor.data.materials.append(brass)
-key = box(0.045, 0.008, 0.0025, (0.10, -0.105, 0.0013), brass, 0.001); key.rotation_euler[2] = k_ang
-# --- pen on a guest card
-card_m, _ = mat('card', lin('EDE7DA'), .7)
-cd = box(0.09, 0.055, 0.0006, (-0.12, -0.08, 0.0003), card_m, 0.0003, 1); cd.rotation_euler[2] = math.radians(-12)
-pen_m, _ = mat('pen', lin('101012'), .25)
-cyl(0.0045, 0.14, (-0.115, -0.075, 0.005), pen_m, rot=(0, math.radians(90), math.radians(-30)))
-# --- light: warm desk lamp from the left (out of frame), cool night spill from the right doorway
-def area(loc, rot, size, power, col):
-    bpy.ops.object.light_add(type='AREA', location=loc, rotation=[math.radians(r) for r in rot]); l = bpy.context.object
-    l.data.size = size; l.data.energy = power; l.data.color = col; return l
-area((-0.42, -0.08, 0.32), (0, -52, 10), 0.14, 14, (1.0, 0.70, 0.42))
-area((0.55, 0.25, 0.25), (70, 0, 115), 0.6, 4, (0.45, 0.60, 0.95))
-area((0.05, 0.36, 0.30), (-60, 0, 0), 0.25, 1.4, (1.0, 0.8, 0.6))   # bounce on the wall behind the slip
-w0 = bpy.data.worlds.new('w'); sc.world = w0; w0.use_nodes = True; w0.node_tree.nodes['Background'].inputs['Color'].default_value = lin('0B0D12'); w0.node_tree.nodes['Background'].inputs['Strength'].default_value = 0.4
-# --- camera
-bpy.ops.object.camera_add(); cam = bpy.context.object; sc.camera = cam
-if CAM == 'top':
-    cam.location = (0.0, 0.0, 0.62); cam.rotation_euler = (0, 0, 0); cam.data.lens = 50
+
+# --- the Kusi phone lying on the counter, screen live (emission + glossy coat), cropped by the frame
+PW, PH, PT = .0715, .147, .0078
+root = bpy.data.objects.new("phone", None); sc.collection.objects.link(root)
+bpy.ops.mesh.primitive_cube_add(size=1, location=(0, 0, PT / 2)); pb = bpy.context.object; pb.scale = (PW, PH, PT); bpy.ops.object.transform_apply(scale=True)
+bv = pb.modifiers.new("bv", "BEVEL"); bv.width = .0095; bv.segments = 14; bv.limit_method = "ANGLE"
+pb.data.materials.append(mat("ti", "1A1A1C", .3, 1.0)[0]); bpy.ops.object.shade_smooth(); pb.parent = root
+bpy.ops.mesh.primitive_plane_add(size=1, location=(0, 0, PT + .0001)); bz = bpy.context.object; bz.scale = (PW - .0014, PH - .0014, 1); bpy.ops.object.transform_apply(scale=True)
+b2 = bz.modifiers.new("bv", "BEVEL"); b2.width = .0092; b2.segments = 10; b2.affect = "VERTICES"; bz.data.materials.append(mat("bezel", "040405", .05, coat=1.)[0]); bz.parent = root
+bpy.ops.mesh.primitive_plane_add(size=1, location=(0, 0, PT + .0002)); sc_ = bpy.context.object; sc_.scale = (PW - .0046, PH - .0046, 1); bpy.ops.object.transform_apply(scale=True)
+b3 = sc_.modifiers.new("bv", "BEVEL"); b3.width = .0086; b3.segments = 10; b3.affect = "VERTICES"
+gm, gp = mat("glass", "FFFFFF", .03, coat=1.); gt = gm.node_tree.nodes.new("ShaderNodeTexImage"); gt.image = bpy.data.images.load(D + "scr_chat.png"); gt.interpolation = "Cubic"
+gm.node_tree.links.new(gt.outputs["Color"], gp.inputs["Base Color"]); gm.node_tree.links.new(gt.outputs["Color"], gp.inputs["Emission Color"]); gp.inputs["Emission Strength"].default_value = (.22 if VAR != "morning" else .1)
+gp.inputs["Coat Roughness"].default_value = .03; sc_.data.materials.append(gm); sc_.parent = root
+root.location = (-.07, -.05, 0)
+if VAR == "hero": root.location = (5, 5, 0)   # the phone gets its own slide; the hero stays one object; root.rotation_euler = (0, 0, math.radians(18))
+
+# --- props from the house: a room key on a carved fob, a Lamu wooden lantern glowing behind
+fob = mat("fob", "6B4A2E", .5)[0]; brass = mat("brass", "C39A52", .24, 1.)[0]
+cyl(.011, .07, (.115, -.075, .011), fob, rot=(0, math.radians(90), math.radians(24)))
+bpy.ops.mesh.primitive_torus_add(major_radius=.012, minor_radius=.0016, location=(.075, -.094, .0018)); bpy.context.object.data.materials.append(brass)
+box(.045, .008, .0025, (.046, -.107, .0013), brass, .001, 2, rotz=24)
+fl = bpy.data.lights.new("glow", "POINT"); fl.energy = 2.2; fl.color = (1, .62, .3); fl.shadow_soft_size = .05
+fo = bpy.data.objects.new("glow", fl); sc.collection.objects.link(fo); fo.location = (-.22, .40, .16)   # a lamp off-frame warming the coral wall
+
+# --- light
+if VAR == "morning":
+    R.world_hdri("brown_photostudio_02", strength=.5, rot=120)
+    R.area((-.9, -.2, .7), size=1.4, energy=55, color=(1, .97, .92)); fl.energy = 0
 else:
-    cam.location = (0.16, -0.50, 0.115); cam.data.lens = 70
-    tgt = mathutils.Vector((0.035, 0.03, 0.11)); d = tgt - cam.location; cam.rotation_euler = d.to_track_quat('-Z', 'Y').to_euler()
-    cam.data.dof.use_dof = True; cam.data.dof.aperture_fstop = 2.8
-    cam.data.dof.focus_distance = (mathutils.Vector((PX, PY - 0.03, 0.1)) - cam.location).length
-sc.render.filepath = OUT; bpy.ops.render.render(write_still=True); print('Saved:', OUT)
+    R.world_hdri("courtyard_night", strength=.12, rot=200)
+    R.area((-.45, -.12, .34), target=(PX, PY - .02, .08), size=.16, energy=10, color=(1, .70, .43))   # desk lamp, out of frame left
+    R.area((.6, .2, .28), target=(0, 0, .05), size=.7, energy=3.5, color=(.45, .6, .95))               # night spill from the door
+    R.area((PX, .36, .22), target=(PX, PY, .12), size=.25, energy=1.2, color=(1, .82, .62))             # bounce off the wall onto the slip back
+
+# --- camera
+if VAR == "top":
+    R.camera((0, .02, .62), (0, .02, 0), lens=50, fstop=8)
+else:
+    R.camera((.12, -.42, .10), (.0, .03, .095), lens=60, fstop=3.2, focus=(PX, PY - .04, .09))
+sc.view_settings.exposure = -0.2 if VAR != "morning" else 0
+R.render(OUT, W, H, SAMP)
+R.finish(OUT, grain=.012, vignette=.18, warm=.02)

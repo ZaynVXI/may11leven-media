@@ -1,0 +1,9 @@
+WARN: s2.jpg: text "|" within 40px of the edge
+WARN: s2.jpg: text "hold" within 40px of the edge
+WARN: s2.jpg: text "it" within 40px of the edge
+WARN: s2.jpg: text "for" within 40px of the edge
+WARN: s2.jpg: text "you?" within 40px of the edge
+WARN: s4.jpg: check spelling ['kusi', 'kust', 'syste']
+WARN: s5.jpg: text "<" within 40px of the edge
+WARN: s5.jpg: check spelling ['kusi', 'screenshot']
+WARN: s7.jpg: check spelling ['apps', 'maylileven']
