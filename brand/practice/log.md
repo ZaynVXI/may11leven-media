@@ -74,3 +74,50 @@ Matching reference: holographik-13 (price ladder).
 - After scores: idea 4 · type 4 · colour 4 · air 4 · fidelity 4 · finish 4 · usability 4 · truth 4.
 - Checks run: webaudit on after.html returned 0 failures (before: 12). Gesso `npx @gessobuild/anti-slop check` could not run here (the download was blocked by the workspace), so the rules were checked by hand from brand/tools/claude-42/anti-slop-design/references/rules.md: cream-default-wash, heavy-box-shadow, floating-hero-card and missing text-wrap fixed; still flagged on purpose: single-font-page (one face is the system). Writing: slopbeth deslop_lint on the page copy returned 0 phrase, structure or dash hits.
 - Still missing: the 390 px mobile version and a scroll state (the ladder should stay pinned while the photo changes per floor). Next: the mobile ladder and the 8 s reel in reels.md.
+
+## 12 App component: Tuma name check (practice/thu-tuma-before.jpg -> -after.jpg, side by side with PXDX: thu-tuma-vs-pxdx.jpg, code brand/code/practice/tuma)
+Concept, not a client. The one job: before mobile money leaves your phone, show whose name it goes to and make "Not them" as easy as "Yes". Research in brand/code/practice/tuma/RESEARCH.md: Safaricom's Hakikisha redesign (name first, plain Yes / No) cut daily reversal requests from about 12,000 to 4,000 (techcabal.com).
+Visual language: Soft glass and aura (last piece Ikiyaga was warm editorial). Colour from Nairobi in November: jacaranda violet as the one accent on dusk ink. Type: Atkinson Hyperlegible Next (built so 0/O and 1/l can't be confused) + Geist Mono for numbers.
+Steal list (the thinking, not the look), refs: pxdx-player, pxdx-dribbble/podcast-ui-details, qclay/17-aura-glass, lebedev-02, motto/workbook-02.
+- One component, numbered real states, each changing one thing (PXDX player).
+- Money as a calm sentence, one colour mood behind frosted surfaces (Qclay aura); one question, one answer (Lebedev question card).
+- The structure is the cover; nothing decorates (Motto workbooks).
+PXDX move applied: hero state + numbered strip 01 Check / 02 Sending / 03 Sent / 04 Stopped, practice count in the caption.
+- Before scores: idea 4 · type 3 · colour 2 · air 3 · fidelity 3 · detail 3 · motion 1 · finish 3 · usability 3 · truth 4. Gaps: the amount was the biggest thing, but the research says the name must be; the name was 24 px capitals. The "Yes, send" button was a violet-to-amber gradient with a second amber aura blob: two accents and a slop tell. The strip showed four bare icons (avatar, spinner, tick, cross) that said nothing about the flow and had no labels. Heavy black shadow and a decorative glass panel around everything. Bold 700 everywhere.
+- Fix: the name became the hero (52 px, sentence case, weight 600), the amount moved below a hairline at 36 px Regular; one accent (jacaranda #B9A2E6), solid, amber removed; the two choices are equal halves of one nested track (outer radius 44, padding 8, inner 36); the strip became four mini cards of the real component, labelled, each changing only the footer; the glass panel removed.
+- Anti-slop pass (by hand against brand/tools/claude-42/anti-slop-design/references/rules.md; the npx detector isn't installed here): fixed dark-glow (violet shadows on the card and the button, removed), ghost-card (hairline + wide halo on one surface, kept the hairline), over-rounded-card (40 -> 32 px card, 28 -> 24 px tiles), gradient-fill (gone). Kept on purpose and declared: purple-violet-wash (violet is the jacaranda accent, set once as --accent with --slop-allow).
+- A11y check (own script: contrast measured on a render with the text hidden, since /home/claude/a11y and webaudit aren't present this session): grey text 7.8:1 on the card and ≥ 6.7:1 on the brightest aura behind the caption (first pass was 4.1:1 there, so the grey went from #B4ABC1 to #C2BACE); "Yes, send" label 8.3:1; non-text: "Not them" border 3.2:1, "Yes" fill 7.0:1 against the track; status icons always paired with a word.
+- After scores: idea 4 · type 4 · colour 4 · air 4 · fidelity 4 · detail 4 · motion 1 · finish 4 · usability 4 · truth 5.
+- Still missing: motion (the PXDX reference is a loop; ours is a still) and a real-world plate. Next: a 6 s loop where the card stays centred and the four states cut behind it on the beat (reels.md, Obrazur dock idea), each state change a 0.5 s dim cross-dissolve, with a soft tick per cut.
+
+## Try to break it No. 01, v1 (rebuilt)
+- What fell short: I designed from my notes without opening the reference screenshots. I skipped the steal list, the judgement brief and the side-by-side Pass 0. The result was 8 flat text slides with no material, no device and no photo, which breaks motto-maisa rule 2 (at most one text slide).
+- Fix to the process: no design work starts until posts/<piece>/BRIEF.md exists, with a reference contact sheet (at least 3 studios from brand/refs, opened and looked at), a steal list, the 7-line judgement brief and a slide plan that lists one presentation type per slide. Pass 0 is scored against that sheet, side by side.
+- Also learned on this job:
+  - The v1 sound was synthesised, which breaks the real-recordings rule.
+  - v1 should have continued the After hours v2 product world (Kusi chat, sail mark) instead of starting a new look.
+  - lebedev-02 to 07 are Lebedev question cards, not Motto.
+  - Harvey II is the model for AI product posts.
+  - Inter Tight isn't in Figma; the Kusi foundations use Inter.
+  - Standing order from Zayn: update the workflow every time something new is learned. The design-workflow skill now has a lessons list, and WORKFLOW-RULES has the hard gate.
+
+## 12 Web: Miwa juice bar order page (practice/wed-miwa-before.jpg -> -after.jpg, side by side with the PXDX ref in wed-miwa-vs-pxdx-noal.jpg; code brand/code/practice/miwa)
+Concept, not a client. A Nairobi CBD juice bar's order page that answers the questions you'd otherwise ask: what's fresh, how much, how big, do you deliver, how do I pay. Research in brand/code/practice/miwa/RESEARCH.md (KES 250 a glass is the real price at Smoothie DJS on Lower State House Road; the 350 ml size, radius, times and stock are concept values and the page says so).
+Visual language: Bright consumer, kept minimal (flat colour, round shapes, no photo). The last practice page, Ikiyaga, was warm editorial on a photo.
+Steal list (the thinking, not the look), refs: pxdx-noal, holographik-13, satto-07, motto workbook-02, Satto Zeroframe.
+- The required notice lives in the hero in the shop's voice, and "no" is as easy as "yes" (PXDX NOAL, made into a real choice).
+- The menu is the hero list; one row lifted drives the big panel (Holographik ladder, Satto index).
+- One big numeral in the panel corner, the structure does the rest (Motto workbook).
+Matching reference: brand/refs/pxdx-noal/01-noal.jpg.
+- Before scores: idea 3 · type 3 · colour 3 · air 4 · fidelity 3 · detail 2 · motion 1 · finish 3 · usability 2 · truth 3. Gaps: a sticky cookie bar across the bottom with only "Accept" and "By continuing you agree" (not real consent, and it would hide focused controls); "350 ml" and "KES 250" repeated on all seven rows; a gradient on the panel; a heavy shadow under the selected row and the button; an uppercase tracked kicker above the headline; a bold, generic headline ("Freshly pressed juice, delivered"); a "Add to cart" button that doesn't name the drink; nothing about delivery or payment; a big empty panel with no idea in it.
+- Fix: price and size said once ("Every glass KES 250", "350 ml each"), rows show the time each juice was pressed; the panel is flat hibiscus filled to today's stock (18 of 40) with a tick per glass, so the one picture is real data; the notice became a band at the top of the panel in the shop's voice ("One cookie keeps your order. Can we count visits too?") with "No thanks" and "Yes, count" the same size; delivery radius, time and M-Pesa in the lede; button "Add hibiscus · KES 250"; one weight (Bricolage 500), DM Mono for readings; rows are a listbox with aria-selected.
+- After scores: idea 4 · type 4 · colour 4 · air 4 · fidelity 4 · detail 4 · motion 1 · finish 4 · usability 4 · truth 4.
+- Checks run: Gesso anti-slop (`npx @gessobuild/anti-slop check`, it downloaded this time). Before: 4 hits (gradient fill, floating hero card, hero kicker eyebrow, over-rounded card). First after: 4 hits (heavy box shadow, dark glow, over-rounded card, nested cards); fixed shadow to one 3 px layer, panel radius 40 to 28, notice turned from a card into a flush band. Final: 1 hit, layout/nested-cards on the notice band, kept on purpose (it's the PXDX move, now a band with no radius or fill of its own). Contrast: our own Playwright pass over every text node, 0 failures (lowest 6.4:1). Focus: tabbed every control, 0 obscured (SC 2.4.11). Writing: no em dashes, no filler, by hand (slopbeth linter not run today).
+- Still missing: motion (the 6 s reel in reels.md: list fixed, panel cutting through four drinks, the count ticking 19 to 18) and the 390 px phone layout, which is where this order page would really be used. Next: the phone layout first.
+
+## Lessons from the PR #37 review (Codex and CodeRabbit)
+- **Concept posts describe design intent, not tests we never ran.** Write "designed against", not "we tried". No pass counts such as 40/40 until a run record exists.
+- **Check a stock photo's real location before naming a place.** The "Lamu rooftop" was tagged Moroccan on Pexels.
+- **Check sound previews.** One author reported distortion in the preview we used; read the sound page before mixing.
+- **Make UI states agree with each other.** A trace that says "$220 matches" next to a reply with no price is a visible lie. So is a family total that switches later than the child amount.
+- **Guardrail copy must match the mechanism.** "Can't" needs a hard limit behind it (no tool exists, and prices are filled in from structured fields), not a word list.

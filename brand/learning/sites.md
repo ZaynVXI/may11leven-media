@@ -96,3 +96,21 @@ Zayn: "always go there to find UI/UX resources, like good mockups and motion des
 - **ls.graphics**: high-end device and branding mockups (Figma, Photoshop, Sketch, plus a Figma plugin and an online generator). It has a free set that its own page says can be used commercially; the rest is paid. Use for device scenes (phones in hands, on fabric, on desks) and print. https://www.ls.graphics
 - **ContentCore.xyz**: 3D mockups and 3D motion templates (devices, abstract 3D shapes). I couldn't check its licence or prices from here, so open the site and read its terms before using anything. https://contentcore.xyz
 Rule: a mockup only *presents* our work. The screens, packaging and type are always ours; never let a template's look become a product's look (hero-ledger.md still applies).
+
+### Added from the daily sweep (19 Nov), checked
+- https://content-hub.dribbble.com/agencies/ultimate-dribbble-select-best-shots/ (Dribbble Select "Best Shots of the Year" 2026: curated, grouped by branding, web, apps, product, UI/UX; good for a yearly read of where calm product design is going)
+- https://www.hontran.dev/blog/best-award-winning-websites-2026 (a juror's list of 2026 award winners with the reason each won and its stack)
+- Awwwards Sites of the Day page returned a cached July 2025 list from here, so use web search for current winners.
+
+### Added from Zayn (20–24 Nov), checked (notes in study-backlog-nov-24.md)
+- Study sites, visit often: **nngroup.com** (psychology and usability research; start with the psychology study guide), **ixdf.org** (free UX library; five dimensions of interaction design), **motion.zajno.com** (UI motion guide), **holographik.co** (system identities, numbered principles).
+- Bookmarks: modulify.ai, motionin.design, landdding.com, wonderlist.design, iconly.design, fontinlogo.com, on.design, godly.website, 60fps.design, footer.design.
+- UI/UX: scrolltide.co (3D and scroll components), Navbar Gallery, cta.gallery, Refero Styles (styles.refero.design).
+- Craft tools: Squoosh (squoosh.app), Mockups Design (mockups-design.com), Letterform Archive, Poly Haven, VTracer, ScaryRobot GenFX, UNCUT.wtf (check each font licence).
+- Ideas only, never output (AI-generated): lumalabs.ai, lummi.ai.
+
+## New finds (web day)
+- godly.website/i/... single-interaction posts (Payment Swipe, Cinema Seat Preview, Crypto Transfer Security Checks): best current source for component-level motion. The home feed loads from our workspace.
+- onepagelove.com: each site page has a one-paragraph description of the design (Hoy, Soma, Solea), and section galleries with counts (Pricing Table 340 examples, FAQ 374, Lead Capture 531). Loads from our workspace.
+- zeroframe.framer.website: Satto's template; its CSS is readable, so type and colour can be measured exactly.
+- Blocked or challenged today: land-book.com (403), lapa.ninja (403), siteinspire.com (429), awwwards.com (no response), dribbble shot pages (202 challenge; profile pages and cdn images still load).

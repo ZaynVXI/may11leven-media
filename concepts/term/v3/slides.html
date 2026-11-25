@@ -1,0 +1,135 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><style>
+@font-face{font-family:G;font-weight:100 900;src:url(../../../brand/fonts/library/geist/Geist[wght].ttf)}
+@font-face{font-family:PM;src:url(../../../brand/fonts/PlexMono.ttf)}
+@font-face{font-family:PMM;src:url(../../../brand/fonts/PlexMonoMed.ttf)}
+/* Term v3: one world, the exercise book. Paper, blue rules, red margin, red-pen ticks, sewn name tapes. */
+:root{--paper:#F3EFE4;--ink:#1C1A17;--ink2:#7A746A;--rule:rgba(52,78,120,.12);--pen:#C23A2B;--maroon:#7A2232;--maroon2:#93303F;--green:#1E5438;--green2:#2B6A49;--thread:#F2DDA9}
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#777;font-family:G;color:var(--ink);-webkit-font-smoothing:antialiased;font-feature-settings:"tnum" 1}
+.s{width:1080px;height:1350px;position:relative;overflow:hidden;background-color:var(--paper);
+  background-image:repeating-linear-gradient(transparent 0 53px,var(--rule) 53px 54px);background-position:0 20px}
+.s::before{content:"";position:absolute;top:0;bottom:0;left:96px;width:2px;background:rgba(196,58,43,.32)}
+.lab{position:absolute;font:400 20px/1 PM;letter-spacing:.08em;text-transform:uppercase;color:var(--ink2)}
+.tl{top:62px;left:132px}.tr{top:62px;right:72px}.bl{bottom:58px;left:132px}.br{bottom:58px;right:72px}
+h2{position:absolute;left:132px;font:500 96px/1 G;letter-spacing:-.045em}
+.sub{position:absolute;left:132px;font:400 32px/1.35 G;color:#4A453E;letter-spacing:-.01em}
+.tape{position:relative;height:72px;border-radius:5px;display:flex;align-items:center;padding:0 26px;gap:18px;font:500 22px PMM;letter-spacing:.16em;text-transform:uppercase;color:var(--thread);box-shadow:0 2px 0 rgba(0,0,0,.12),0 14px 30px rgba(28,26,23,.14)}
+.tape::before{content:"";position:absolute;inset:0;border-radius:5px;background-image:repeating-linear-gradient(90deg,rgba(255,255,255,.05) 0 1px,transparent 1px 4px),repeating-linear-gradient(0deg,rgba(0,0,0,.09) 0 1px,transparent 1px 4px)}
+.tape::after{content:"";position:absolute;inset:7px;border:1.5px dashed rgba(242,221,169,.55);border-radius:3px}
+.tape span{position:relative}.tape .x{margin-left:auto;opacity:.75}
+.m{background:linear-gradient(180deg,var(--maroon2),var(--maroon))}.g{background:linear-gradient(180deg,var(--green2),var(--green))}
+.grid{display:grid;border-top:2px solid rgba(28,26,23,.3);border-left:2px solid rgba(28,26,23,.3)}
+.grid i{position:relative;display:block;border-right:2px solid rgba(28,26,23,.3);border-bottom:2px solid rgba(28,26,23,.3)}
+.grid svg{position:absolute;left:50%;top:50%;overflow:visible}
+.grid path{fill:none;stroke:var(--pen);stroke-linecap:round;stroke-linejoin:round}
+.note{position:absolute;font:500 22px/1.3 G;color:var(--pen)}
+.note b{font-weight:600}
+.ln{position:absolute;height:2px;background:var(--pen);transform-origin:0 50%}
+.dot{position:absolute;width:12px;height:12px;border-radius:50%;background:var(--pen);margin:-6px 0 0 -6px}
+.row{display:grid;grid-template-columns:330px 1fr;align-items:start;padding:30px 0;border-bottom:2px solid rgba(28,26,23,.18);font:400 30px/1.3 G}
+.row .k{font:500 30px/1.3 G}
+.stamp{position:absolute;border:4px solid currentColor;border-radius:12px;padding:14px 24px 12px;font:500 30px PMM;letter-spacing:.18em;text-transform:uppercase}
+.stamp::after{content:"";position:absolute;inset:5px;border:2px solid currentColor;opacity:.5;border-radius:8px}
+.ink{filter:url(#rough)}
+</style></head><body>
+<svg width="0" height="0" style="position:absolute"><filter id="rough"><feTurbulence type="fractalNoise" baseFrequency=".9" numOctaves="2" seed="4"/><feDisplacementMap in="SourceGraphic" scale="2.2"/></filter></svg>
+
+<!-- 2: the idea -->
+<section class="s" id="s2">
+  <div class="lab tl">Concept · Term</div><div class="lab tr">02 / 08</div>
+  <h2 style="top:230px">Every Friday,<br>a tick.</h2>
+  <div class="sub" style="top:480px;width:820px">Term saves school fees a little each week, from M-Pesa. Locked until the school is paid.</div>
+  <div style="position:absolute;left:132px;right:72px;top:770px">
+    <div class="tape m"><span>Form 2</span><span>·</span><span>Hill School</span></div>
+    <div class="grid" id="r1" style="margin-top:22px;grid-template-columns:repeat(12,1fr)"></div>
+    <div style="margin-top:18px;display:grid;grid-template-columns:repeat(12,1fr);font:400 18px PM;color:var(--ink2);text-align:center"><span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span><span>7</span><span>8</span><span>9</span><span>10</span><span>11</span><span>12</span></div>
+    <div style="margin-top:40px;font:500 30px G;display:flex;align-items:center;gap:14px"><i style="width:12px;height:12px;border-radius:50%;background:var(--ink)"></i>On track · 7 Fridays left</div>
+  </div>
+  <div class="lab bl">May11Leven Labs</div>
+</section>
+
+<!-- 3: the problem -->
+<section class="s" id="s3">
+  <div style="position:absolute;left:0;top:0;width:1080px;height:700px;background:url(../img/classroom_ke.jpg) center 60%/cover;filter:grayscale(1) contrast(1.08) brightness(.8)"></div>
+  <div style="position:absolute;left:0;top:0;width:1080px;height:700px;background:linear-gradient(rgba(10,10,12,.15),rgba(10,10,12,.55))"></div>
+  <div style="position:absolute;left:0;right:0;top:270px;text-align:center;font:500 64px/1.1 G;letter-spacing:-.035em;color:#F3EFE4">January arrives as one bill.</div>
+  <div style="position:absolute;left:0;right:0;top:380px;text-align:center;font:400 22px PM;letter-spacing:.08em;color:rgba(243,239,228,.85)">KES 27,500 · DUE THE FIRST WEEK</div>
+  <div style="position:absolute;left:132px;right:72px;top:790px">
+    <div class="tape m"><span>Form 2</span><span>·</span><span>Hill School</span><span class="x">Weekly</span></div>
+    <div style="margin-top:44px;display:flex;align-items:baseline;gap:18px"><span style="font:500 32px G;color:var(--ink2)">KES</span><span style="font:500 150px/1 G;letter-spacing:-.05em">750</span><span style="font:400 34px G;color:#4A453E;margin-left:10px">every Friday<br>from M-Pesa</span></div>
+  </div>
+  <svg class="ink" style="position:absolute;left:880px;top:1010px" width="120" height="120" viewBox="0 0 20 20"><path d="M4 10.5 C5.5 12 7 13.5 8 15 C10 11 13 7 16.5 3.5" fill="none" stroke="#C23A2B" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+  <div class="lab bl">Concept data</div><div class="lab br">03 / 08</div>
+</section>
+
+<!-- 4: the app, marked like homework -->
+<section class="s" id="s4">
+  <div class="lab tl">The app</div><div class="lab tr">04 / 08</div>
+  <div style="position:absolute;left:300px;top:150px;width:468px;height:1030px;border-radius:66px;background:#141313;padding:14px;box-shadow:0 50px 90px rgba(28,26,23,.25),0 0 0 2px rgba(28,26,23,.5)">
+    <img src="phone_s4.png" style="width:440px;height:982px;border-radius:52px;display:block" alt="">
+  </div>
+  <!-- margin notes, teacher style (positions measured from the phone image: left 314, top 164, scale 1.019) -->
+  <div class="dot" style="left:340px;top:380px"></div><div class="ln" style="left:340px;top:379px;width:50px;transform:rotate(180deg)"></div>
+  <div class="note" style="left:112px;top:350px;width:170px;text-align:right">Name tape in school colours</div>
+  <div class="dot" style="left:540px;top:540px"></div><div class="ln" style="left:540px;top:539px;width:320px"></div>
+  <div class="note" style="left:872px;top:510px;width:170px">One tick each Friday</div>
+  <div class="dot" style="left:740px;top:742px"></div><div class="ln" style="left:740px;top:741px;width:120px"></div>
+  <div class="note" style="left:872px;top:712px;width:170px">Paid, receipt kept</div>
+  <div class="dot" style="left:340px;top:918px"></div><div class="ln" style="left:340px;top:917px;width:50px;transform:rotate(180deg)"></div>
+  <div class="note" style="left:112px;top:888px;width:170px;text-align:right">Safety rules in plain words</div>
+  <div class="lab bl">Concept · Term</div>
+</section>
+
+<!-- 6: what if it goes wrong -->
+<section class="s" id="s6">
+  <div class="lab tl">What if</div><div class="lab tr">06 / 08</div>
+  <h2 style="top:180px">If something<br>goes wrong.</h2>
+  <div style="position:absolute;left:132px;right:72px;top:470px;border-top:2px solid rgba(28,26,23,.5)">
+    <div class="row"><span class="k">A fake school number</span><span>Pays only paybills we've checked against the school's bank letter.</span></div>
+    <div class="row"><span class="k">An emergency</span><span>Unlock after 48 hours, with both parents agreeing.</span></div>
+    <div class="row"><span class="k">Fees go up</span><span>Works out the new Friday amount and asks first.</span></div>
+    <div class="row"><span class="k">M-Pesa fails</span><span>Tries again Saturday and tells you. Never silently.</span></div>
+  </div>
+  <div class="lab bl">Concept rules · to test</div>
+</section>
+
+<!-- 7: the receipt -->
+<section class="s" id="s7">
+  <div class="lab tl">Term opens</div><div class="lab tr">07 / 08</div>
+  <div style="position:absolute;left:200px;top:220px;width:680px;height:880px;background:#FCFAF4;box-shadow:0 2px 0 rgba(28,26,23,.06),0 40px 80px rgba(28,26,23,.18);transform:rotate(-1.5deg);padding:64px 60px">
+    <div style="font:400 20px PM;letter-spacing:.1em;text-transform:uppercase;color:var(--ink2)">Receipt · Term 1</div>
+    <div style="margin-top:22px;font:500 44px/1.1 G;letter-spacing:-.025em">River Academy</div>
+    <div style="margin-top:6px;font:400 26px G;color:#4A453E">Grade 5 · school fees</div>
+    <div style="margin-top:70px;display:flex;align-items:baseline;gap:14px"><span style="font:500 30px G;color:var(--ink2)">KES</span><span style="font:500 128px/1 G;letter-spacing:-.05em">18,900</span></div>
+    <div style="margin-top:64px;border-top:2px dashed rgba(28,26,23,.25);font:400 26px G">
+      <div style="display:flex;justify-content:space-between;padding:20px 0;border-bottom:1px solid rgba(28,26,23,.1)"><span style="color:var(--ink2)">From</span><span>Grade 5 savings</span></div>
+      <div style="display:flex;justify-content:space-between;padding:20px 0;border-bottom:1px solid rgba(28,26,23,.1)"><span style="color:var(--ink2)">To</span><span>Checked school paybill</span></div>
+      <div style="display:flex;justify-content:space-between;padding:20px 0"><span style="color:var(--ink2)">Charge</span><span>KES 0</span></div>
+    </div>
+    <div class="stamp ink" style="right:56px;bottom:70px;color:#1E5438;transform:rotate(-9deg);opacity:.88">Received</div>
+  </div>
+  <div class="lab bl">Concept data</div>
+</section>
+
+<!-- 8: the ending (peak-end: the full register) -->
+<section class="s" id="s8" style="background-color:#1C1A17;background-image:repeating-linear-gradient(transparent 0 53px,rgba(243,239,228,.05) 53px 54px);color:#F3EFE4">
+  <div class="lab tl" style="color:rgba(243,239,228,.55)">Term · 12 Fridays</div><div class="lab tr" style="color:rgba(243,239,228,.55)">08 / 08</div>
+  <div class="grid" id="r3" style="position:absolute;left:132px;right:72px;top:190px;grid-template-columns:repeat(4,1fr);border-color:rgba(243,239,228,.25)"></div>
+  <h2 style="top:770px;color:#F3EFE4">A calmer January.</h2>
+  <div class="sub" style="top:880px;width:820px;color:rgba(243,239,228,.72)">We design money apps people trust, and the brand, site and AI around them.</div>
+  <div style="position:absolute;left:132px;right:72px;top:1060px;padding-top:28px;border-top:1px solid rgba(243,239,228,.2);font:400 22px/1.6 PM;letter-spacing:.04em;color:rgba(243,239,228,.6)">BRAND · WEBSITES · APPS · PACKAGING AND 3D · AI AUTOMATION · AI AGENTS · CONTENT</div>
+  <div style="position:absolute;left:132px;bottom:130px;font:500 30px G"><span style="color:#FF4A1C">Comment 11</span> for a free first look.</div>
+  <img src="../../../brand/figma/may11leven-logo-white.svg" style="position:absolute;left:132px;bottom:52px;width:190px" alt="">
+  <div class="lab br" style="color:rgba(243,239,228,.55)">may11levenlabs.com</div>
+</section>
+
+<script>
+const T='M4 10.5 C5.5 12 7 13.5 8 15 C10 11 13 7 16.5 3.5';
+function fill(id,n,ticks,h,sz,sw,col,last){const g=document.getElementById(id);let s='';for(let k=0;k<n;k++){const r=(k*37%9)-4;
+  let inner='';if(k<ticks){inner=`<svg width="${sz}" height="${sz}" viewBox="0 0 20 20" style="margin:${-sz/2}px 0 0 ${-sz/2}px" class="ink"><path d="${T}" stroke-width="${sw}" style="transform:rotate(${r}deg);transform-origin:10px 10px;stroke:${col}"/></svg>`}
+  if(last&&k==n-1){inner=`<div class="stamp ink" style="left:50%;top:50%;transform:translate(-50%,-50%) rotate(-8deg);color:#FF4A1C;font-size:24px;padding:10px 16px 8px">Paid</div>`}
+  s+=`<i style="height:${h}px">${inner}</i>`}g.innerHTML=s}
+fill('r1',12,5,150,70,2.3,'#C23A2B');
+fill('r3',12,11,170,80,2.2,'#E2574A',true);
+</script>
+</body></html>

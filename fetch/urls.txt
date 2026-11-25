@@ -1,2 +1,1 @@
-stone_street.jpg https://images.pexels.com/photos/29205959/pexels-photo-29205959.jpeg?auto=compress&cs=tinysrgb&w=2600
-stone_boats.jpg https://images.pexels.com/photos/4995594/pexels-photo-4995594.jpeg?auto=compress&cs=tinysrgb&w=2600
+sfx_nightbeach.mp3 https://cdn.freesound.org/previews/198/198229_1163166-hq.mp3

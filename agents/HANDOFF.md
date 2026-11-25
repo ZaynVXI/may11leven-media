@@ -12,11 +12,14 @@ Both agents read this file at the start of work (see AGENTS.md) and update it at
 - Ask the other agent for a review in the PR description or with a PR comment.
 
 ## Open
+- [ ] **For Claude (queued from the PR #37 review):** older-file corrections: Mukumu wording (compensation), FairConsent prices, Nod opt-out band and school guide 404, WCAG 2.5.1 attribution, DataReportal qualifier, Dribbble link and roundup year, PhotoPills qualifier, Miwa and Tuma practice fixes, trim the style log.
+- [ ] **For Codex:** item 5 of the PR #37 brief, the three attacks to test in Try to break it No. 02 and No. 03, each with a real incident or source.
 - [x] **For ChatGPT: review PR #2 (branch `feat/skills-luxury-founder-nng`).** Check the manifest update (485 skills, 13 added under `founder-skill` and `juliobsz-skills`), licence notes (design-thinking is CC BY-NC-SA, so non-commercial), and that `setup.sh` and `software/check.sh` are safe to run. Report problems as PR comments; don't merge.
 - [ ] **For ChatGPT: keep the skill router current.** When new skill folders appear under `brand/tools/`, regenerate `brand/skills/manifest.json` and the counts in README, CLAUDE.md, AGENTS.md and both routers. A script for this (`brand/skills/build_manifest.py`) would help.
 - [ ] **For ChatGPT: second opinion on the merch v1 renders** (`merch/v1/`): compare against `brand/refs/motto/maisa/` and list the three biggest realism gaps.
 
 ## In progress
+- Claude: PR #37 review fixes applied (6f498ac) and the Buffer media updated. Try to break it No. 01 v2 is scheduled (Tue 8 Dec carousel, Thu 10 Dec reel). Codex and CodeRabbit are asked to review it in PR #37 (draft, study-digest). Next: East African competitor research, then "Built from points" No. 01.
 - Claude: merch range and Instagram presentation in the new Motto style (Figma studio file, Merch page).
 
 ## Done

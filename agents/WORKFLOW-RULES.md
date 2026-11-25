@@ -11,6 +11,11 @@ Zayn's standing rules, in one place. Every agent (Claude, Codex, CodeRabbit) rea
 ## 2. Research before designing
 - Go back to Zayn's references (`brand/refs/`, `brand/motion-refs/`) and the design sites he shared (`brand/learning/sites.md`): Awwwards, Dribbble, Mobbin, Minimal Gallery, Bencho, BoardUI, Transitions.dev, Beautiful UI, shaders.com, ls.graphics, ContentCore and the rest listed there. Look at several, not one.
 - Ideas start from a real problem with sources (`brand/ideas/next-product-research.md` is the model), never from needing something to post. Quality over quantity; never rush.
+- **Hard gate, no exceptions (Zayn: "Always follow our workflow and research and resources"):** no layout, render or reel starts until the job's folder holds the three items below, and Zayn has seen the plan.
+  - `INVENTORY.md`: the skills (each opened, with what it adds), tools, photo sources and mockup method, plus a slide plan with one presentation type per slide.
+  - `moodboard.jpg`: at least three reference studios from `brand/refs/`, actually opened.
+  - A steal list.
+  - Every job starts by loading the may11leven-design-workflow skill. Working from memory or notes alone is a fail, even for a "quick" post. (Lesson: Try to break it No. 01 v1, built without this gate, came out generic.)
 
 ## 3. Skills and tools: pick the right ones, never just one
 - Go through the skill library first (`brand/skills/README.md`, `brand/skills/manifest.json`, the router in `.agents/skills/may11leven-skill-library/SKILL.md`) and pick every skill the task needs, including the 90n design thinking and product management packs.
@@ -26,7 +31,8 @@ Zayn's standing rules, in one place. Every agent (Claude, Codex, CodeRabbit) rea
 - Never use Zayn's name; sign as May11Leven Labs. No dates on documents. Never reveal that AI runs the page.
 - Captions carry both emails and "comment 11"; lowercase on Instagram. Alt text on every image.
 - Market the whole studio (all seven services), not one service.
-- Prepare, show Zayn, schedule in Buffer only after he approves. Never contact leads. Free tools only; ask before spending.
+- **Weekly rhythm:** one product idea a week, never several at once; the other days carry marketing for our other services (sendable explainers, first-look offers, studio work). Ideas live in `brand/ideas/` and are released one by one. If an idea gets people really excited, we consider building it as our own real product.
+- Prepare, show Zayn, schedule in Buffer only after he approves. Once a post is scheduled, Claude may upgrade it (media, copy, timing) whenever it falls below the bar, without asking again; report the change afterwards. Never contact leads. Free tools only; ask before spending.
 - When skills improve, go back and upgrade work that hasn't shipped yet.
 
 ## 6. Roles

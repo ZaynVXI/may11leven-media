@@ -1,0 +1,26 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+@font-face{font-family:PM;src:url(../../../../brand/fonts/PlexMono.ttf)}
+@font-face{font-family:PM;font-weight:500;src:url(../../../../brand/fonts/PlexMonoMed.ttf)}
+*{margin:0;padding:0;box-sizing:border-box}
+body{width:640px;background:#F4F1EA;font:500 26px/1.45 PM;color:#2a2724;padding:56px 44px 70px;-webkit-font-smoothing:none;-webkit-text-stroke:1.6px currentColor}
+.c{text-align:center}.big{font:500 34px/1.2 PM;letter-spacing:.06em}
+hr{border:0;border-top:3px dashed #2a2724;margin:22px 0;opacity:.75}
+.r{display:flex;justify-content:space-between;gap:20px}.r b{font-weight:500}
+.k{opacity:1;color:#3a352f}
+.st{margin:40px auto 10px;width:max-content;font:500 64px/1 PM;letter-spacing:.14em;color:#B5452A;border:7px solid #B5452A;border-radius:10px;padding:22px 30px 16px;transform:rotate(-6deg);filter:url(#ro);opacity:.9}
+.say{font-size:25px;line-height:1.5;margin-top:34px}
+</style></head><body>
+<svg width="0" height="0" style="position:absolute"><filter id="ro"><feTurbulence type="fractalNoise" baseFrequency=".09" numOctaves="2" seed="7" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="5"/><feComponentTransfer><feFuncA type="discrete" tableValues="0 1 1 1 0 1 1 1 1 1"/></feComponentTransfer></filter></svg>
+<div id="x"></div>
+<script>
+const V={
+cousin:{t:'21:52:07',rows:[['CHANNEL','Web chat'],['ASKED','Free night,'],['','roof suite'],['CLAIM','"Owner\'s cousin"'],['PRICE FROM','Rate table'],['RATE','$220 / night'],['DISCOUNT TOOL','None exists']],st:'REFUSED',say:'Sent to reception.'},
+deal:{t:'21:47:31',rows:[['ASKED','Agree to all.'],['','1 night for $1'],['CLAIM','"Legally binding"'],['PRICE FROM','Rate table'],['RATE','$220 / night'],['OFFERS','Model cannot']],st:'REFUSED',say:'Price unchanged.'},
+code:{t:'21:55:02',rows:[['ASKED','Code MGR100'],['CLAIM','"Manager said"'],['CODE LIST','Not found'],['LOGGED','07:00 summary']],st:'REFUSED',say:'Sent to reception.'},
+shot:{t:'22:04:40',rows:[['ASKED','Confirm booking'],['PROOF','Screenshot'],['M-PESA','Not received'],['ROOM','Held to 22:34']],st:'NOT BOOKED',say:'Confirms when M-Pesa does.'},
+down:{t:'23:18:09',rows:[['ASKED','Roof suite,'],['','2 to 5 March'],['BOOKING SYS','No answer x3'],['QUOTED','Nothing']],st:'NO GUESS',say:'Reception replies by 07:00.'}};
+const v=V[new URLSearchParams(location.search).get('v')||'cousin'];
+x.innerHTML=`<div class="c big">KUSI HOUSE</div><div class="c">LAMU · NIGHT DESK</div><hr>
+<div class="r"><span>AUDIT</span><span>${v.t}</span></div><hr>`+v.rows.map(r=>`<div class="r"><span class="k">${r[0]}</span><b>${r[1]}</b></div>`).join('')+
+`<hr><div class="st">${v.st}</div><div class="c say">${v.say}</div><hr><div class="c k">THE MODEL TALKS.<br>THE SYSTEM DECIDES.</div>`;
+</script></body></html>

@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><title>Tuma name check</title>
+<style>
+@font-face{font-family:Atk;src:url(../../../fonts/library/atkinsonhyperlegiblenext/AtkinsonHyperlegibleNext[wght].ttf)}
+@font-face{font-family:GMono;src:url(../../../fonts/library/geistmono/GeistMono[wght].ttf)}
+:root{--accent:#B9A2E6;--slop-allow:purple-violet-wash;--aura1:#7F62B8;--aura2:#4E357A;--ink:#120F17;--card:#1D1926;--well:#262131;--text:#F4F0F9;--mute:#C2BACE;--jac:var(--accent);--jacd:#2A1D45;--line:rgba(244,240,249,.14)}
+*{box-sizing:border-box;margin:0;padding:0}
+body{width:1080px;height:1350px;background:var(--ink);font-family:Atk;font-weight:400;color:var(--text);overflow:hidden;position:relative}
+.aura{position:absolute;inset:0;background:
+ radial-gradient(560px 480px at 28% 26%,var(--aura1) 0%,transparent 72%),
+ radial-gradient(520px 520px at 78% 64%,var(--aura2) 0%,transparent 72%);filter:blur(70px);opacity:.85}
+.grain{position:absolute;inset:0;opacity:.07;mix-blend-mode:overlay}
+.card{position:absolute;left:240px;top:120px;width:600px;border-radius:32px;background:var(--card);padding:36px;border:1px solid var(--line)}
+.row{display:flex;justify-content:space-between;align-items:baseline}
+.lab{font-size:20px;color:var(--mute)}
+.mono{font-family:GMono;font-size:18px;color:var(--mute);font-variant-numeric:tabular-nums}
+.who{display:flex;gap:18px;align-items:center;margin:30px 0 8px}
+.av{width:64px;height:64px;border-radius:32px;background:var(--jacd);color:var(--jac);display:grid;place-items:center;font-weight:600;font-size:22px;flex:none;box-shadow:0 0 0 3px var(--card),0 0 0 4px rgba(185,162,230,.5)}
+.name{font-size:52px;font-weight:600;line-height:1.02;letter-spacing:-.01em}
+.num{margin:6px 0 0 82px}
+.amt{display:flex;justify-content:space-between;align-items:baseline;margin-top:30px;padding-top:22px;border-top:1px solid var(--line)}
+.amt b{font-weight:400;font-size:36px;font-variant-numeric:tabular-nums}
+.q{font-size:22px;margin:30px 0 16px}
+.track{display:flex;gap:8px;padding:8px;border-radius:44px;background:var(--well)}
+.b{flex:1;height:72px;border-radius:36px;display:grid;place-items:center;font-size:22px;font-weight:600}
+.no{color:var(--text);border:1px solid rgba(244,240,249,.38)}
+.yes{background:var(--jac);color:#160F24}
+.title{position:absolute;top:760px;width:100%;text-align:center;font-size:44px;font-weight:600}
+.cap{position:absolute;top:824px;width:100%;text-align:center;font-size:19px;color:var(--mute);line-height:1.55}
+.strip{position:absolute;top:960px;left:84px;display:flex;gap:16px}
+.m{width:216px;height:244px;border-radius:24px;background:var(--card);border:1px solid var(--line);padding:18px;display:flex;flex-direction:column}
+.m .n{font-size:21px;font-weight:600;line-height:1.1}
+.m .a{font-size:16px;color:var(--mute);margin-top:4px;font-variant-numeric:tabular-nums}
+.m .s{margin-top:auto}
+.mt{display:flex;gap:4px;padding:4px;border-radius:22px;background:var(--well)}
+.mb{flex:1 1 0;height:36px;border-radius:18px;display:grid;place-items:center;font-size:14px;font-weight:600}
+.state{display:flex;align-items:center;gap:10px;height:44px;font-size:15px}
+.dot{width:22px;height:22px;border-radius:50%;flex:none}
+.tn{margin-top:14px;font-size:16px;color:var(--mute);display:flex;gap:10px}
+.tn span{font-family:GMono}
+svg{display:block}
+.foot{position:absolute;bottom:44px;width:100%;text-align:center;font-family:GMono;font-size:14px;color:var(--mute);letter-spacing:.04em}
+</style></head><body>
+<div class="aura"></div>
+<svg class="grain" width="1080" height="1350"><filter id="g"><feTurbulence type="fractalNoise" baseFrequency=".9" numOctaves="2"/></filter><rect width="100%" height="100%" filter="url(#g)"/></svg>
+
+<div class="card" role="dialog" aria-label="Check the name before you send">
+ <div class="row"><span class="lab">You are sending to</span><span class="mono">Step 2 of 2</span></div>
+ <div class="who"><div class="av" aria-hidden="true">WM</div><div class="name">Wanjiku Mwangi</div></div>
+ <div class="mono num">0712 ••• 448</div>
+ <div class="amt"><span class="lab">Amount</span><b>KES 2,500</b></div>
+ <div class="q">Is this the right person?</div>
+ <div class="track"><div class="b no" role="button">Not them</div><div class="b yes" role="button">Yes, send</div></div>
+</div>
+
+<div class="title">Name check</div>
+<div class="cap">Interaction study · Practice (12)<br>Tuma, a concept for sending money in Kenya<br>The name comes first. “No” is as easy as “yes”.</div>
+
+<div class="strip">
+ <div><div class="m"><div class="n">Wanjiku Mwangi</div><div class="a">KES 2,500</div>
+  <div class="s mt"><div class="mb" style="color:var(--text);border:1px solid rgba(244,240,249,.38)">Not them</div><div class="mb" style="background:var(--jac);color:#160F24">Yes</div></div></div>
+  <div class="tn"><span>01</span>Check</div></div>
+ <div><div class="m"><div class="n">Wanjiku Mwangi</div><div class="a">KES 2,500</div>
+  <div class="s mt"><div class="mb" style="background:var(--jac);color:#160F24;gap:8px;display:flex">
+   <svg width="18" height="18" viewBox="0 0 18 18" aria-hidden="true"><circle cx="9" cy="9" r="7" fill="none" stroke="#160F24" stroke-opacity=".3" stroke-width="2.5"/><path d="M9 2a7 7 0 0 1 7 7" fill="none" stroke="#160F24" stroke-width="2.5" stroke-linecap="round"/></svg>Sending</div></div></div>
+  <div class="tn"><span>02</span>Sending</div></div>
+ <div><div class="m"><div class="n">Wanjiku Mwangi</div><div class="a">KES 2,500</div>
+  <div class="s"><div class="state"><svg class="dot" viewBox="0 0 22 22" aria-hidden="true"><circle cx="11" cy="11" r="11" fill="var(--accent)"/><path d="M6.5 11.3l3 3 6-6.3" fill="none" stroke="#160F24" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>Sent</div>
+  <div class="mono" style="font-size:14px">TK7Q2M4XPA</div></div></div>
+  <div class="tn"><span>03</span>Sent</div></div>
+ <div><div class="m"><div class="n" style="color:var(--mute)">Wanjiku Mwangi</div><div class="a"><s>KES 2,500</s></div>
+  <div class="s"><div class="state"><svg class="dot" viewBox="0 0 22 22" aria-hidden="true"><circle cx="11" cy="11" r="10" fill="none" stroke="var(--mute)" stroke-width="1.5"/><path d="M7.5 7.5l7 7M14.5 7.5l-7 7" stroke="var(--mute)" stroke-width="1.8" stroke-linecap="round"/></svg>Not sent</div>
+  <div style="font-size:14px;color:var(--mute)">Your money stays with you.</div></div></div>
+  <div class="tn"><span>04</span>Stopped</div></div>
+</div>
+<div class="foot">MAY11LEVEN LABS · PRACTICE, NOT A CLIENT</div>
+</body></html>

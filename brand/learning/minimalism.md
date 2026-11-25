@@ -21,3 +21,11 @@ One principle per study session. Each one is a rule we can check on a frame, not
 5. **Let the sentence be the grid.** On Motto's shelf, the Offporter site (picked by Browsing Mode as Site of the Week) has no hero image at all: its one-line promise is split word by word across sixteen numbered columns, I. to XVI., with empty space above and below. The copy is the layout. When a page feels like it needs more elements, first try spreading the one sentence that matters across the structure.
    - Check: can the frame be explained by one sentence that is also visible on it? If the layout needs a second paragraph to fill space, the grid is wrong, not the copy.
    - Ours: a lodge homepage where the three things a late guest needs (shuttle · check-in · price) sit as numbered columns across the fold, before any photo.
+
+6. **Make "no" as easy as "yes".** Minimal isn't one big button and a faint escape link. Safaricom's Hakikisha used to cancel a wrong payment only if you dialled 1 within 15 seconds; many people didn't understand it. The redesign put the recipient's name first and asked a plain Yes or No, and daily reversal requests fell from about 12,000 to 4,000 (techcabal.com). Two equal choices are calmer than one loud one, because nobody has to hunt for the way out.
+   - Check: is the safe choice the same size and as easy to reach as the main one? If the user needs to read small print to back out, the screen is busy, however empty it looks.
+   - Ours: the Tuma name check (practice) sets "Not them" and "Yes, send" as two equal halves of one track; the name is the largest type on the card, the amount second.
+
+7. **Say the shared fact once.** Every fresh juice at Smoothie DJS on Lower State House Road costs KES 250 (Uber Eats listing). Our first Miwa draft printed "350 ml" and "KES 250" on all seven rows: fourteen repeats of two facts. The headline now says "Every glass KES 250" once, and the rows spend that space on the one thing that differs, the time each juice was pressed.
+   - Check: scan a column. If every cell holds the same value, lift it into a heading and give the column to what changes.
+   - Ours: Miwa (practice), rows read name, ingredients, pressed time; price and size live in the headline and the lede.

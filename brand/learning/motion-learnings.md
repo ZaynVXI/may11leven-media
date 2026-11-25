@@ -42,3 +42,14 @@ Zayn pointed out PXDX's hands are completely black. Hero rule: the hand is a sil
 Whenever a skill or learning note is updated, go back over every piece not yet released (scheduled posts, drafts, concepts) and apply the upgrade where it fits. If a scheduled post changes, re-upload with commit-pinned URLs and edit the Buffer post before its slot. Log what changed in this file.
 - 19 Nov, after the PXDX bar: Term deposit loop, Term hero and After hours pay loop moved from ease-in-out to a damped spring (zeta .65, omega 8, about 7% overshoot, settled by the end of each move). In the Term deposit loop the landing KES 750 now nudges the card 10px and it springs back. After hours: the "Check your phone" and "Booked" layers start earlier so the springier box is never shown empty. Loops still close on frame 0. Gotcha: spring values above 1 broke CSS blur (negative radius is ignored, so the old blur stuck); clamp anything that can't go past 1.
 - 19 Nov, same pass: stories f5/f6 and both LinkedIn documents checked against the ui-details checklist; nothing fell short, so no changes. Term s2 already carries a visual (fanned cards), so the "at most one pure-text slide" rule holds; left as is. Buffer: After hours IG and Term IG now point at the spring versions (commit bcfecd1); schedules unchanged.
+
+## Add to the skill: one component, numbered states (PXDX player, 19 Nov)
+For a component study, build a hero state plus a strip of 3 to 5 numbered tiles; each tile changes exactly one thing, and each tile is a real state of the flow (idle, working, done, stopped). State changes cross-dissolve through a dimmed glyph in about 0.5 s; nothing else on the frame moves at the same time. Put the practice count in the caption.
+
+### Upgrade log: Term v3 (before release)
+- Founder: v2 "too generic". The cause was a borrowed fintech pattern (gradient cards, donut, pills) instead of the product's own world.
+- Fix: one world (the exercise book), with primitives from it (name tape, register, red-pen tick, rubber stamp), one signature move (the tick written with a pen-like ease: down-stroke, a beat, long up-stroke) and a "what if" slide for failure modes.
+- Rule: before any product post, name its world and three primitives, and write the "what if it goes wrong" answers. No glossy gradient cards unless the product's world calls for them.
+
+### Rule (24 Nov): every post gets a real reel, usually 20–40 seconds
+This works with the 19 Nov correction above: length still follows the content, so a case study can run to 60 s. Zayn's point is that a 6–8 s loop is a slide, not a reel. Every product or service post gets a real reel, normally 20–40 s: a hook in the first 2 s, a story, the "what if" moment, a payoff that loops. Cut on rhythm with real pages, over B-roll from the client's world (see lebedev-nova.md, motto-maisa.md).

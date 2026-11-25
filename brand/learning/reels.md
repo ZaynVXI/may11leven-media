@@ -57,3 +57,25 @@ Sheets: reel-207abe5b (Lebedev: Haven Foods, Contour, a studio site), satto-reel
 - Cover: Lebedev's collage frame works as a still post; Satto's word stack works at thumbnail size because it is only type.
 - External (june-mango-design.squarespace.com): the usual method records a scroll and masks it into a laptop mockup in Photoshop. We do the same in code: a Playwright 1440x900 scroll recording placed into a Blender device on a real surface, which avoids template mockups.
 - For us: an Ikiyaga reel, 8 s. Frame 1 is the ladder with every price already there; the selected row steps down one flat per beat (hard 1-frame changes) while the detail strip updates; the last beat cuts to the wetland photo with "Every price, on the first page." Cover = the ladder still.
+
+## Study: one fixed object while the world cuts behind it; windows that type themselves
+Sheets: obrazur-reel-f8fc8ff3-frames (brand/refs/), satto-reel-84404d9d (brand/refs/).
+- Obrazur: a frosted macOS-style dock with three icons sits dead centre for the whole reel. Behind it the background hard-cuts through sixteen brand worlds (green stationery, magenta fabric, a tote bag, a red mailer box, a forklift in a warehouse, a blue 3D plinth), and only the middle icon changes to that client's app icon. Hook: the dock is a familiar object in the first frame, so the eye locks on it and the cuts feel fast without being chaotic. Cut rhythm: very short holds (two frames per world in the sheet, so a fraction of a second each), one cut per beat. Camera: none, all stills. Type: none on screen, the icons are the type. Transition: hard cut, no fades. Cover: the first world with the dock. Sound: needs a beat for every cut (not in the sheet).
+- Satto: three browser windows in a row on black; mono labels (CUSTOM WEBSITES, CREATIVE PORTFOLIO, FRAMER TEMPLATES) type in letter by letter beside each window and scramble out. Windows slide sideways, the copy line ("WE KEEP IT SIMPLE AND INTENTIONAL") types across the top. Camera: a slow pan. Type in and out: typewriter on, glitch off. Cover: the middle window, centred.
+- Our take: one fixed object from our product (the Tuma name-check card) stays centred while the four states cut behind it on the beat, the card's footer changing each time (check, sending, sent, stopped). 6 s, hard cuts, one tick sound per cut.
+
+## External: Kapwing video accessibility guide (2026) and Instagram's October changes (metricool.com, updated 14 Nov)
+- Kapwing: captions must carry meaningful non-speech sound ("[soft click]") and be checked by hand, since auto-captions miss terms; sans-serif, a solid or semi-transparent plate behind text on busy footage.
+- Metricool news log: from 28 Oct creators can no longer link reels into a series, so each reel must stand alone; carousels with music show in the Reels tab again, so our carousels should carry a quiet track; Trial Reels are capped per 30 days, so save them for real A/B tests of a cover or a hook.
+
+## Study: a fixed numeral over cutting screens; a fixed headline with one window (Satto)
+Sheets: brand/refs/satto-reel-b91bada9.jpg, brand/refs/satto-reel-6bea36ce.jpg. (The first sheet's screens include faces in the client photos; we take the structure only.)
+- **Hook:** (b91bada9) the first frame is already the system: a tall dot-matrix numeral running the full height, so the cover reads as type, not as a screenshot. (6bea36ce) a serif headline split top and bottom, the product in a window between.
+- **Cut rhythm:** the type never moves; only what's under or between it cuts. Each screen holds long enough to read one thing (a hero, a photo strip, a stats page), then hard-cuts.
+- **Camera:** none. Flat screen captures, full bleed, no device, no tilt.
+- **Type in and out:** the type is there from frame one and stays to the last; no animated entry. The numeral is the brand mark of the reel.
+- **Transitions:** hard cuts inside the window; the frame around it is the constant.
+- **Sound:** not in the sheets.
+- **Cover:** the frame with type plus the darkest, simplest screen.
+- **External (opus.pro, Instagram Reels hook formulas, vendor blog, Nov 2025):** grab attention in 1 to 2 s and pay it off by 3 s; cut the intro; on-screen text repeats the hook; "pattern then break" (three quick cuts, change on the fourth beat); a sound change at the hook. Its numbers (60% 3-second hold as the bar) are the author's own and unsourced, so we use them as a rule of thumb only. Its advice to open on a face close-up doesn't apply to us; we open on the product's one number instead.
+- **For Miwa (6 s):** the drink list stays fixed on the left like Satto's type; the panel hard-cuts through four drinks on the beat, each flooding its own colour with its stock level, and the fourth beat breaks the pattern: the hibiscus count ticks from 19 to 18 with a soft pour sound.

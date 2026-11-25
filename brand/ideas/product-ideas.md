@@ -106,6 +106,6 @@ D2C is also the clearest service package for us to sell: makers who now sell thr
 Infrastructure (data centres, cloud, networks) needs capital we don't have. Our role there is the brand, product design and website for an infrastructure company, e.g. a concept for an African edge-hosting or local-cloud provider. That is a strong dream-client category, not something we build.
 
 ## Next
-- **Decided 19 Nov:** Nod (photo and content consent) is the next product concept. Research and scores: `brand/ideas/next-product-research.md`.
+- **Shortlisted 19 Nov (not decided; Zayn picks):** Nod (photo and content consent) leads the shortlist. Research and scores: `brand/ideas/next-product-research.md`.
 - Pick one for the next deep concept (after Kusi House). Strongest for us: #2 Consent (the cybersecurity edge, nobody else in our space can design it credibly) and #1 Direct (backed by our own research).
 - Build it Mandate-deep: 6–8 real screens, named agents, one story with numbers, a slow-scroll walkthrough, the product site, and a case-study caption.

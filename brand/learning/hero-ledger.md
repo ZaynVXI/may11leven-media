@@ -17,3 +17,8 @@ One line per product hero. Before a new hero, read this list: the new one must u
 - Hands from above using the phone on a desk mid-task (faceless)
 - 3D UI key or card lifted off the screen (may11leven-3d-ui)
 - ASCII or dither treatment of a real photo behind the UI (may11leven-ascii)
+
+## Try to break it No. 01 (After hours), v2
+- **Hero:** a Blender still. A graphite receipt printer sits on a black-walnut counter, with a coral-stone Lamu wall out of focus behind it. The audit slip curls up out of frame, stamped REFUSED. Warm desk-lamp key light, night HDRI. 60 mm, low three-quarter view, one object, lots of air.
+- **New primitive for the series:** the audit slip (a torn edge, a dashed rule and a stamp). Future "Try to break it" posts reuse the slip, but each gets a new hero object.
+- **v1** (a type-led cover in huge serif italic) was retired as too generic and never posted. The type-led cover idea is still free.

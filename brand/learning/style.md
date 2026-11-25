@@ -154,3 +154,42 @@ Queued for the Instagram grid, in order: After hours carousel (dark night photo)
 - Dark/light: dark, dark, loud, light, dark, light, light. Balanced enough once the After hours pair is split.
 - Gap: about a week with nothing on Instagram between the After hours reel and What we do.
 - Status: every Metricool item is still a draft, so none will auto-publish until it's approved there. Two LinkedIn drafts whose slots were this morning have passed without going out.
+
+## Artemii Lebedev: the question card and the Krutoyar label (rotation)
+Sources: our refs lebedev-01 to 07 (the "Designer's Inner Voice" carousel), lebedev-08 to 17 (studio and client sites in scenes), and artlebedev.com/krutoyar (whiskey brand platform, identity and label, released 20.08.2025, "made in 66 days").
+### Colour (measured from lebedev-02, 2061x2576)
+- Ground #F1F1F1, hairline grid #C9C9C9, card #010101, type white. Cover (lebedev-01): the same grey ground with one photographic swirl of green glass behind a light card. Product scenes (lebedev-15): near-black #040000 with a sage #9BA79D surface. Colour enters only through a photo or a material, never as a UI fill.
+### Typography
+- One neo-grotesk, regular weight, about 4% of the card width for the question, set in two lines top-left; the answer sits below the middle after a "→", at about half that size. Small numerals in the corners (issue and volume). Sentence case throughout.
+### Grid and ideas
+- The card fills about 46% of the frame width (3:4) and sits on a visible hairline grid whose lines pass the card's corners; small crosses mark the intersections. One question per slide, one answer per question, the same position every slide, so a swipe reads like turning pages.
+- Krutoyar: the platform comes from a real place (Krutoyar island and its stone labyrinth, walked by sailors before going to sea) and makes it a ritual at the table. Two independent marks: a wordmark whose T reads as a ship's bow with anchor-hook serifs, and an emblem built as a fingerprint labyrinth hiding K and Я. Both have their own short animation. Note: some recent Lebedev marks start from their generative designer (Ironov) and are finished by people; we take the thinking, and our own marks are always drawn by us.
+### How they present it on Instagram
+- A carousel of identical cards on the grid, the cover the only slide with an image. Sites are shown on devices placed in a real material scene (keyboard, steel bar, sage cushion), never on flat colour.
+### Try this week
+- A "question card" carousel for our own page: one real question a founder in our markets asks ("Do I need a website if I sell on WhatsApp?"), the answer after an arrow, same position every slide, our hairline grid visible. Only the cover gets an image, a real material from the client's place.
+
+## Feed check (Thu, Buffer "My organization" + Metricool 7782767, read only)
+Next Instagram feed tiles in order: After hours carousel (Buffer, 20 Nov), After hours reel (Buffer, 23 Nov), Term carousel (Buffer, 25 Nov), then Metricool drafts: What we do carousel (1 Dec), Kora Dental reel (3 Dec), ata carousel (5 Dec), type and mark study carousel (8 Dec 10:00), night-shift type reel (8 Dec 10:00). Stories left out.
+- Flag: two After hours tiles back to back (20 and 23 Nov), same product and same cover world. Breaks service rotation; move Term to 23 Nov or put a non-automation tile between them.
+- Flag: Kora Dental (3 Dec) opens on "this booking came in at 21:47", the same time and premise as After hours. Three of eight tiles are about "after hours" (After hours x2, Kora) plus the night-shift reel makes four. Change Kora's hook time and lead with the clinic, or swap it for a web or social tile.
+- Flag: the type study carousel and the night-shift reel are both set for 8 Dec at 10:00 in Metricool (both drafts). One needs another slot.
+- Rotation: 05/06 automation and agents appear in four of eight tiles; 02 web and 07 social have no tile of their own (only inside What we do).
+- Covers and dark/light balance: Buffer covers are dark (After hours silhouette, Term dark slide); Metricool draft covers were not opened from here, so balance per row wasn't checked.
+
+## Satto: Zeroframe and the one-weight studio site (rotation)
+Source: zeroframe.framer.website (Satto's Framer template, updated Sep 2026; framer.com/marketplace/templates/zeroframe) measured from the page's own CSS, plus our refs satto-reel-b91bada9 and satto-reel-6bea36ce.
+- **Colour (measured):** #FFFFFF and #000000 carry almost everything (481 and 152 uses), near-black #0F0F0F for dark sections, a grey ladder #E6E6E6 / #BFBFBF / #999999 / #7A7A7A / #616161 for idle and meta text. No accent; the work's photos are the colour.
+- **Type:** Apfel Grotezk at one weight (500 is the only weight in the CSS) for everything, Spline Sans Mono for labels. Scale 12 / 14 / 16 / 32 / 48 / 64 / 114 px. Mono labels at 12 px tracked +0.04em; display at -0.01em. Nav in lowercase (index, works, about, contact).
+- **Grid and structure:** index-first: a works list of name, field and year (Altaure, Skincare & Wellness, 2025). Stats as zero-padded three-digit counters (012 clients, 010 honors, 016 works). Values as single words. Twelve pages (index, home, works, project, studio, journal, article, careers, archive, contact, 404, privacy).
+- **Ideas:** one weight and one grey ladder make the hierarchy; the counters turn a boast into a reading. A detail lesson the other way: the live page has the typo "clietns" beside "012". At this level of restraint one typo is the loudest thing on the page.
+- **How they present on Instagram:** (b91bada9) a vertical dot-matrix numeral runs the full height of the frame while the site screens cut underneath it, so the type holds still and the pages change. (6bea36ce) a big serif line fixed top and bottom ("Built for designers, studios... Framer templates minimal") with one window in the middle cutting between three templates: a dark product hero, an architecture photo strip, a stats page.
+- **Try this week:** set a page in one weight with a five-step grey ladder, and give the stats as zero-padded counters. Then read every word aloud once for typos before export.
+
+## Feed check (Wed, Buffer "My organization", read only)
+Metricool blog 7782767 answered 403 "Access denied" today, so the check is from Buffer only. Instagram feed posts queued: Term carousel (1 Dec), Term reel (3 Dec), Try to break it carousel (8 Dec), Try to break it reel (10 Dec). Stories, LinkedIn and Facebook not counted.
+- Only 4 feed tiles are queued, not 9, and they are two products twice. Each carousel is followed by its own reel, so the grid shows Term, Term, Break, Break: two pairs of near-matching covers and only two services (apps, AI agents) across four tiles.
+- Dark/light: Term is light (maroon jumper on pale), Break is dark (night counter), so the row balances, but the two dark Break tiles sit side by side.
+- Loud tiles: none flagged; both covers have one focal point.
+- To check by eye: the Term reel cover is taken at 25.2 s and the Break reel cover at 1.0 s; confirm both frames are clean, still covers and not mid-transition.
+- Suggest: put one tile from another service (brand identity, packaging or web, e.g. the Field Study or a Miwa-style web piece once it's a real post) between each product's carousel and reel.
