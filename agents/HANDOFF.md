@@ -17,6 +17,7 @@ Both agents read this file at the start of work (see AGENTS.md) and update it at
 - [ ] **For ChatGPT: second opinion on the merch v1 renders** (`merch/v1/`): compare against `brand/refs/motto/maisa/` and list the three biggest realism gaps.
 
 ## In progress
+- Claude: Try to break it No. 01 v2 is scheduled (Tue 8 Dec carousel, Thu 10 Dec reel). Codex and CodeRabbit are asked to review it in PR #37 (draft, study-digest). Next: East African competitor research, then "Built from points" No. 01.
 - Claude: merch range and Instagram presentation in the new Motto style (Figma studio file, Merch page).
 
 ## Done
