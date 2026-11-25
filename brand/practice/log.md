@@ -114,3 +114,10 @@ Matching reference: brand/refs/pxdx-noal/01-noal.jpg.
 - After scores: idea 4 · type 4 · colour 4 · air 4 · fidelity 4 · detail 4 · motion 1 · finish 4 · usability 4 · truth 4.
 - Checks run: Gesso anti-slop (`npx @gessobuild/anti-slop check`, it downloaded this time). Before: 4 hits (gradient fill, floating hero card, hero kicker eyebrow, over-rounded card). First after: 4 hits (heavy box shadow, dark glow, over-rounded card, nested cards); fixed shadow to one 3 px layer, panel radius 40 to 28, notice turned from a card into a flush band. Final: 1 hit, layout/nested-cards on the notice band, kept on purpose (it's the PXDX move, now a band with no radius or fill of its own). Contrast: our own Playwright pass over every text node, 0 failures (lowest 6.4:1). Focus: tabbed every control, 0 obscured (SC 2.4.11). Writing: no em dashes, no filler, by hand (slopbeth linter not run today).
 - Still missing: motion (the 6 s reel in reels.md: list fixed, panel cutting through four drinks, the count ticking 19 to 18) and the 390 px phone layout, which is where this order page would really be used. Next: the phone layout first.
+
+## Lessons from the PR #37 review (Codex and CodeRabbit)
+- **Concept posts describe design intent, not tests we never ran.** Write "designed against", not "we tried". No pass counts such as 40/40 until a run record exists.
+- **Check a stock photo's real location before naming a place.** The "Lamu rooftop" was tagged Moroccan on Pexels.
+- **Check sound previews.** One author reported distortion in the preview we used; read the sound page before mixing.
+- **Make UI states agree with each other.** A trace that says "$220 matches" next to a reply with no price is a visible lie. So is a family total that switches later than the child amount.
+- **Guardrail copy must match the mechanism.** "Can't" needs a hard limit behind it (no tool exists, and prices are filled in from structured fields), not a word list.
