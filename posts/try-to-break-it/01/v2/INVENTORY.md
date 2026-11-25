@@ -75,3 +75,10 @@ Pass 0 scores 4 or more on every criterion against Maisa, Harvey and Lebedev sid
 5. The Kusi House chat. A guest sends a payment screenshot; the assistant confirms only when M-Pesa confirms to the hotel. Below: "A screenshot isn't money."
 6. A Lamu rooftop with crenellated walls at night, lanterns glowing on the floor. A small glass panel reads: 23:18, night desk, booking system not answering, no guess.
 7. Dark card: "Can your AI be talked into a free night?" Ours can't. The seven May11Leven Labs services. Comment 11 and we'll try to break yours.
+- **Printer rebuilt.** I researched the cube-shaped thermal printers hotel desks actually use (Epson TM-m30III, Star mC-Print3) and modelled ours on that type, with no brand marks. The new model has:
+  - a rounded matte graphite cube on a recessed base
+  - a flush top lid with a hairline gap
+  - a serrated tear bar in front of the paper exit
+  - power (with a green ring) and feed keys
+  - one status LED and a groove across the front
+  The slip now comes out of the real exit.

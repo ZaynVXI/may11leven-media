@@ -28,21 +28,39 @@ bpy.context.view_layer.objects.active = counter; bpy.ops.object.mode_set(mode="E
 bpy.ops.mesh.primitive_plane_add(size=3, location=(0, .55, .6), rotation=(math.radians(90), 0, 0)); wall = bpy.context.object
 wall.data.materials.append(R.pbr("coral_stone_wall", scale=2.0, tint="E8DCC8"))
 
-# --- receipt printer: graphite body, black lid, paper slot, green power LED
+# --- receipt printer, modelled after the cube-shaped front-exit thermal printers used at hotel desks (Epson TM-m30
+# class), unbranded: rounded matte graphite cube on a recessed plinth, a flush top lid with a hairline gap, the paper
+# exit behind a serrated tear bar, power and feed keys on the front deck, one status LED, a groove across the front.
 PX, PY = .03, .07
-body = box(.105, .15, .07, (PX, PY, .035), mat("printer", "2A2A29", .5)[0], .008, 5)
-box(.104, .006, .003, (PX, PY - .0195, .0786), mat("cutter", "8E8C88", .3, 1.)[0], .001, 2)
-box(.002, .12, .0006, (PX - .05, PY + .005, .0700), mat("seam", "101010", .8)[0], .0002, 1)
-cyl(.0065, .003, (PX - .03, PY - .066, .0712), mat("btn", "3A3937", .35)[0])
-box(.10, .085, .012, (PX, PY + .03, .075), mat("lid", "1A1A1B", .3)[0], .006, 5)
-box(.088, .004, .004, (PX, PY - .016, .0805), mat("slot", "050505", .9)[0], .001, 2)
-lm, lp = mat("led", "2E6B45", .3); lp.inputs["Emission Color"].default_value = R.lin("59D98A"); lp.inputs["Emission Strength"].default_value = 8
-cyl(.0022, .002, (PX + .04, PY - .066, .071), lm)
+W_, D_, H_ = .118, .124, .104
+gm_, gp_ = mat("printer", "2B2A29", .58)
+nz_ = gm_.node_tree.nodes.new("ShaderNodeTexNoise"); nz_.inputs["Scale"].default_value = 1400; nz_.inputs["Detail"].default_value = 4
+bz_ = gm_.node_tree.nodes.new("ShaderNodeBump"); bz_.inputs["Strength"].default_value = .04
+gm_.node_tree.links.new(nz_.outputs["Fac"], bz_.inputs["Height"]); gm_.node_tree.links.new(bz_.outputs["Normal"], gp_.inputs["Normal"])
+black = mat("gap", "060606", .9)[0]
+box(W_ - .03, D_ - .03, .004, (PX, PY, .002), black, .002, 2)                       # recessed plinth: the shadow line at the base
+body = box(W_, D_, H_, (PX, PY, .003 + H_ / 2), gm_, .012, 8)
+TOP = .003 + H_
+box(W_ - .008, .088, .002, (PX, PY + .014, TOP - .0006), black, .004, 3)               # hairline gap around the lid
+box(W_ - .011, .085, .003, (PX, PY + .014, TOP + .0004), mat("lid", "1E1E1F", .34)[0], .004, 4)
+EX = PY + .014 - .0425 - .004                                                           # paper exit, just in front of the lid
+box(.092, .004, .003, (PX, EX, TOP - .0002), black, .001, 2)
+steel = mat("steel", "9A9894", .28, 1.)[0]
+box(.096, .0035, .0022, (PX, EX - .0042, TOP + .0003), steel, .0006, 2)                 # tear bar
+for i in range(32):                                                                     # its serrated teeth
+    bpy.ops.mesh.primitive_cone_add(vertices=4, radius1=.0014, depth=.0018, location=(PX - .0465 + i * .003, EX - .0028, TOP + .0012), rotation=(math.radians(-90), 0, math.radians(45)))
+    bpy.context.object.data.materials.append(steel)
+key = mat("key", "262625", .42)[0]
+cyl(.0058, .0016, (PX - .041, PY - .049, TOP + .0005), key); cyl(.0058, .0016, (PX - .024, PY - .049, TOP + .0005), key)
+lm, lp = mat("led", "2E6B45", .3); lp.inputs["Emission Color"].default_value = R.lin("59D98A"); lp.inputs["Emission Strength"].default_value = 10
+bpy.ops.mesh.primitive_torus_add(major_radius=.0062, minor_radius=.0005, location=(PX - .041, PY - .049, TOP + .0013)); bpy.context.object.data.materials.append(lm)
+box(.100, .0012, .0011, (PX, PY - D_ / 2 - .0002, TOP - .016), black, .0003, 1)       # groove across the front face
+cyl(.0014, .001, (PX + .045, PY - D_ / 2 - .0003, TOP - .009), lm, rot=(math.radians(90), 0, 0))
 
 # --- the slip: rises out of the slot and curls toward the camera; REFUSED sits low, near the slot
 img = bpy.data.images.load(D + "slip_cousin.png"); iw, ih = img.size
 PWd = .08; PL0 = PWd * ih / iw; PL = PL0 * 1.55
-bm = bmesh.new(); n = 140; pos = Vector((PX, PY - .016, .081)); ang = 0.0; pts = []
+bm = bmesh.new(); n = 140; pos = Vector((PX, EX, TOP)); ang = 0.0; pts = []
 for i in range(n + 1):
     s = i / n; pts.append(pos.copy())
     k = 0 if s < .5 else (s - .5) / .5; ang = math.radians(96) * k ** 1.4
@@ -97,7 +115,7 @@ if VAR == "morning":
     R.area((-.9, -.2, .7), size=1.4, energy=55, color=(1, .97, .92)); fl.energy = 0
 else:
     R.world_hdri("courtyard_night", strength=.12, rot=200)
-    R.area((-.45, -.12, .34), target=(PX, PY - .02, .08), size=.16, energy=10, color=(1, .70, .43))   # desk lamp, out of frame left
+    R.area((-.45, -.12, .34), target=(PX, PY - .02, .12), size=.16, energy=10, color=(1, .70, .43))   # desk lamp, out of frame left
     R.area((.6, .2, .28), target=(0, 0, .05), size=.7, energy=3.5, color=(.45, .6, .95))               # night spill from the door
     R.area((PX, .36, .22), target=(PX, PY, .12), size=.25, energy=1.2, color=(1, .82, .62))             # bounce off the wall onto the slip back
 
@@ -105,7 +123,7 @@ else:
 if VAR == "top":
     R.camera((0, .02, .62), (0, .02, 0), lens=50, fstop=8)
 else:
-    R.camera((.12, -.42, .10), (.0, .03, .095), lens=60, fstop=3.2, focus=(PX, PY - .04, .09))
+    R.camera((.13, -.44, .13), (.0, .03, .125), lens=60, fstop=3.2, focus=(PX, EX - .02, .135))
 sc.view_settings.exposure = -0.2 if VAR != "morning" else 0
 R.render(OUT, W, H, SAMP)
 R.finish(OUT, grain=.012, vignette=.18, warm=.02)
