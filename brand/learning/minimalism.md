@@ -21,3 +21,7 @@ One principle per study session. Each one is a rule we can check on a frame, not
 5. **Let the sentence be the grid.** On Motto's shelf, the Offporter site (picked by Browsing Mode as Site of the Week) has no hero image at all: its one-line promise is split word by word across sixteen numbered columns, I. to XVI., with empty space above and below. The copy is the layout. When a page feels like it needs more elements, first try spreading the one sentence that matters across the structure.
    - Check: can the frame be explained by one sentence that is also visible on it? If the layout needs a second paragraph to fill space, the grid is wrong, not the copy.
    - Ours: a lodge homepage where the three things a late guest needs (shuttle · check-in · price) sit as numbered columns across the fold, before any photo.
+
+6. **One label replaces a paragraph.** On the .raw homepage every project tile carries two small white chips in its top-left corner, "Branding" and "Web Design", and nothing else explains the work. The viewer knows what was bought before they read a word, so the image can stay quiet.
+   - Check: cover the caption. Can someone still tell which service this piece sells? If not, add one chip; never add a sentence.
+   - Ours: two Plex Mono chips on every carousel cover and case study tile ([ web ] [ 3d ]), always top left, always the same size, Bone on photo or Ink on Bone. They replace the "what we did" paragraph.
