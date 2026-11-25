@@ -67,3 +67,15 @@ Sheets: obrazur-reel-f8fc8ff3-frames (brand/refs/), satto-reel-84404d9d (brand/r
 ## External: Kapwing video accessibility guide (2026) and Instagram's October changes (metricool.com, updated 14 Nov)
 - Kapwing: captions must carry meaningful non-speech sound ("[soft click]") and be checked by hand, since auto-captions miss terms; sans-serif, a solid or semi-transparent plate behind text on busy footage.
 - Metricool news log: from 28 Oct creators can no longer link reels into a series, so each reel must stand alone; carousels with music show in the Reels tab again, so our carousels should carry a quiet track; Trial Reels are capped per 30 days, so save them for real A/B tests of a cover or a hook.
+
+## Study: a fixed numeral over cutting screens; a fixed headline with one window (Satto)
+Sheets: brand/refs/satto-reel-b91bada9.jpg, brand/refs/satto-reel-6bea36ce.jpg. (The first sheet's screens include faces in the client photos; we take the structure only.)
+- **Hook:** (b91bada9) the first frame is already the system: a tall dot-matrix numeral running the full height, so the cover reads as type, not as a screenshot. (6bea36ce) a serif headline split top and bottom, the product in a window between.
+- **Cut rhythm:** the type never moves; only what's under or between it cuts. Each screen holds long enough to read one thing (a hero, a photo strip, a stats page), then hard-cuts.
+- **Camera:** none. Flat screen captures, full bleed, no device, no tilt.
+- **Type in and out:** the type is there from frame one and stays to the last; no animated entry. The numeral is the brand mark of the reel.
+- **Transitions:** hard cuts inside the window; the frame around it is the constant.
+- **Sound:** not in the sheets.
+- **Cover:** the frame with type plus the darkest, simplest screen.
+- **External (opus.pro, Instagram Reels hook formulas, vendor blog, Nov 2025):** grab attention in 1 to 2 s and pay it off by 3 s; cut the intro; on-screen text repeats the hook; "pattern then break" (three quick cuts, change on the fourth beat); a sound change at the hook. Its numbers (60% 3-second hold as the bar) are the author's own and unsourced, so we use them as a rule of thumb only. Its advice to open on a face close-up doesn't apply to us; we open on the product's one number instead.
+- **For Miwa (6 s):** the drink list stays fixed on the left like Satto's type; the panel hard-cuts through four drinks on the beat, each flooding its own colour with its stock level, and the fourth beat breaks the pattern: the hibiscus count ticks from 19 to 18 with a soft pour sound.

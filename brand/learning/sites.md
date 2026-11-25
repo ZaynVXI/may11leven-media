@@ -108,3 +108,9 @@ Rule: a mockup only *presents* our work. The screens, packaging and type are alw
 - UI/UX: scrolltide.co (3D and scroll components), Navbar Gallery, cta.gallery, Refero Styles (styles.refero.design).
 - Craft tools: Squoosh (squoosh.app), Mockups Design (mockups-design.com), Letterform Archive, Poly Haven, VTracer, ScaryRobot GenFX, UNCUT.wtf (check each font licence).
 - Ideas only, never output (AI-generated): lumalabs.ai, lummi.ai.
+
+## New finds (web day)
+- godly.website/i/... single-interaction posts (Payment Swipe, Cinema Seat Preview, Crypto Transfer Security Checks): best current source for component-level motion. The home feed loads from our workspace.
+- onepagelove.com: each site page has a one-paragraph description of the design (Hoy, Soma, Solea), and section galleries with counts (Pricing Table 340 examples, FAQ 374, Lead Capture 531). Loads from our workspace.
+- zeroframe.framer.website: Satto's template; its CSS is readable, so type and colour can be measured exactly.
+- Blocked or challenged today: land-book.com (403), lapa.ninja (403), siteinspire.com (429), awwwards.com (no response), dribbble shot pages (202 challenge; profile pages and cdn images still load).

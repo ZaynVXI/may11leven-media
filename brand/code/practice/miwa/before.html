@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><title>Miwa juice bar</title>
+<style>
+@font-face{font-family:B;src:url("../../../fonts/library/bricolagegrotesque/BricolageGrotesque%5Bopsz,wdth,wght%5D.ttf")}
+@font-face{font-family:M;src:url(../../../fonts/library/dmmono/DMMono-Regular.ttf)}
+:root{--pulp:#F3F1E7;--ink:#2A1E14;--grey:#8A8070;--hib:#7E1631}
+*{box-sizing:border-box;margin:0;padding:0}
+body{width:1440px;height:1024px;background:var(--pulp);color:var(--ink);font-family:B;font-weight:500;overflow:hidden}
+header{display:flex;justify-content:space-between;align-items:center;padding:28px 64px;font-size:16px}
+.logo{font-size:28px;font-weight:700}
+nav a{margin:0 18px;color:var(--ink);text-decoration:none}
+.wrap{display:grid;grid-template-columns:640px 1fr;gap:64px;padding:24px 64px}
+h1{font-size:72px;line-height:1;letter-spacing:-.03em;font-weight:700;margin:20px 0 40px}
+.kick{font-family:M;font-size:13px;color:var(--grey);text-transform:uppercase;letter-spacing:.1em}
+ul{list-style:none}
+li{display:grid;grid-template-columns:28px 1fr 90px 90px;align-items:center;padding:16px 0;border-bottom:1px solid #DDD8C8;font-size:20px}
+li .dot{width:18px;height:18px;border-radius:50%}
+li small{display:block;font-size:14px;color:var(--grey)}
+li .m{font-family:M;font-size:14px;color:var(--grey)}
+li.sel{background:#fff;border-radius:12px;padding:16px;box-shadow:0 8px 30px rgba(0,0,0,.12)}
+.panel{background:linear-gradient(160deg,#9b1d3e,#5e0f24);border-radius:40px;padding:48px;color:#F3F1E7;position:relative;height:820px}
+.panel h2{font-size:120px;letter-spacing:-.04em;line-height:.9;font-weight:700;margin-top:220px}
+.panel p{font-size:22px;margin-top:16px;opacity:.7}
+.big{position:absolute;right:48px;top:48px;font-family:M;font-size:16px}
+.btn{position:absolute;left:48px;right:48px;bottom:48px;background:#F3F1E7;color:var(--hib);border-radius:999px;padding:22px;text-align:center;font-size:20px;box-shadow:0 10px 30px rgba(0,0,0,.3)}
+.toast{position:fixed;left:0;right:0;bottom:0;background:var(--ink);color:#fff;padding:20px 64px;display:flex;justify-content:space-between;font-size:15px}
+.toast b{background:#fff;color:var(--ink);padding:8px 18px;border-radius:999px}
+</style></head><body>
+<header><div class="logo">miwa</div><nav><a href="#">Menu</a><a href="#">Delivery</a><a href="#">About</a></nav><div>Cart (0)</div></header>
+<div class="wrap">
+<section>
+<div class="kick">Fresh juice bar · Nairobi CBD</div>
+<h1>Freshly pressed juice, delivered.</h1>
+<ul>
+<li><span class="dot" style="background:#C9CF8A"></span><span>Sugarcane<small>with mint</small></span><span class="m">350 ml</span><span>KES 250</span></li>
+<li class="sel"><span class="dot" style="background:#7E1631"></span><span>Hibiscus<small>ginger, lime</small></span><span class="m">350 ml</span><span>KES 250</span></li>
+<li><span class="dot" style="background:#F2A21B"></span><span>Mango<small>just mango</small></span><span class="m">350 ml</span><span>KES 250</span></li>
+<li><span class="dot" style="background:#E9C02A"></span><span>Passion<small>passion, water</small></span><span class="m">350 ml</span><span>KES 250</span></li>
+<li><span class="dot" style="background:#7A4A22"></span><span>Tamarind<small>tamarind, honey</small></span><span class="m">350 ml</span><span>KES 250</span></li>
+<li><span class="dot" style="background:#D9D36A"></span><span>Pineapple mint<small>pineapple, mint</small></span><span class="m">350 ml</span><span>KES 250</span></li>
+<li><span class="dot" style="background:#F06C6C"></span><span>Watermelon lemonade<small>watermelon, lemon</small></span><span class="m">350 ml</span><span>KES 250</span></li>
+</ul>
+</section>
+<section class="panel"><div class="big">350 ml</div><h2>Hibiscus</h2><p>Hibiscus, ginger, lime. Pressed at 7:00.</p><div class="btn">Add to cart</div></section>
+</div>
+<div class="toast"><span>We use cookies to improve your experience. By continuing you agree to our cookie policy.</span><b>Accept</b></div>
+</body></html>

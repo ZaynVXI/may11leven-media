@@ -41,3 +41,8 @@ Also current, and skipped: bento grids for one-message pages, glass on every car
 ## What we skip
 - AI-generated imagery as a style (it breaks our no-AI-label rule).
 - Trends that become the subject instead of the product. If the trend is the first thing you notice, cut it back.
+
+## Sweep: single interactions, scroll-run demos, data drawn as the picture
+1. **One interaction is the whole post.** godly.website, Recent feed: nearly every new entry is a single component state change, not a site: Payment Swipe, Crypto Transfer Security Checks, Cinema Seat Preview, Moody Status Badges, Position Slider, Pop-Up Room Book. Fits 03 apps, 02 web and 06 AI agents; languages Bright consumer and Terminal and ops. Our move: post one real state change from our own flows (the Tuma name check going check, sending, sent, stopped) as a 4 s loop with nothing around it.
+2. **The demo is the real interaction, run by scroll.** onepagelove.com/hoy: the landing page recreates the Mac menu-bar flow and plays it as you scroll, on wide white space with round avatars. Fits 02 web and 03 apps; languages Swiss data and Soft glass. Our move: the Ikiyaga price ladder stays pinned while scroll changes the floor and the photo, so the page itself is the walkthrough.
+3. **The product's own data is the illustration.** onepagelove.com/soma draws each person's voice pattern as a fine botanical line on ivory; onepagelove.com/solea uses pixel waveforms on near-black with two restrained accents. Fits 01 brand identity, 02 web and 07 social; languages Technical figure and Swiss data. Our move: draw the picture from a number the product already has. Today's Miwa panel is filled to the morning's stock level (18 of 40 glasses), and the fill is the only image on the page.

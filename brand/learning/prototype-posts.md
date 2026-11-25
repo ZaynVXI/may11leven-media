@@ -88,3 +88,5 @@ Refs: `brand/refs/pxdx-rosie/`, loops in `brand/motion-refs/reference-4/5-rosie-
 **Caption:** one line saying what it is ("Interface design for voice assistant device"), two or three sentences of the product story (what it does, the human benefit), a sign-off themed to the product ("Lots of quality time, Pixie and Dixie"), five hashtags.
 
 **Our rule (Zayn):** a good product gets a full carousel, about 7 to 10 slides mixing stills and short loops, not 3 to 4 frames. Order: hero loop → manifesto → split moments → full screens with states → feature loops → system or detail slide → offer. Our caption keeps its own rules (lowercase, comment 11, both emails) and adds a themed sign-off as May11Leven Labs.
+
+- **Add to the skill (PXDX NOAL):** required notices (cookies, age, allergens, delivery area) go inside the hero as a small band or toast in the product's voice, with "no" the same size as "yes" and nothing hidden under it. Never a sticky bar across the bottom.
