@@ -16,6 +16,7 @@ async def main():
         for i,t in enumerate(ts):
             im=await frame(t)
             if t>DUR-LOOP: a=(t-(DUR-LOOP))/LOOP; im=cv2.addWeighted(im,1-a,first,a,0)
-            cv2.imwrite(f'{od}/'+(f'still_{t:.2f}.png' if only else f'f{i:04d}.png'),im)
+            p_=f'{od}/'+(f'still_{t:.2f}.png' if only else f'f{i:04d}.png')
+            if not cv2.imwrite(p_,im): raise SystemExit('frame not written: '+p_)
         await b.close()
 asyncio.run(main())

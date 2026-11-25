@@ -11,7 +11,7 @@ Follows on from `competitor-analysis-agencies.md`. Sources are listed at the bot
 
 | Who | Base | What they sell | Where | What they say about safety |
 |---|---|---|---|---|
-| **Inntelo AI × CityBlue Hotels** | UK vendor, African hotel group | AI concierge agents across CityBlue's hotels: guest requests, task priority, faster replies (announced April 2026) | Kenya, Rwanda and Tanzania now; Ghana, Uganda and Zambia next | Nothing on guardrails or handoff. Only that staff stay for in-person service. |
+| **Inntelo AI × CityBlue Hotels** | UK vendor, African hotel group | CityBlue selected Inntelo to deploy AI concierge agents (announced April 2026). The articles don't show the agents live yet. | CityBlue operates in Kenya, Rwanda and Tanzania, with Ghana, Uganda and Zambia next | Nothing on guardrails or handoff. Only that staff stay for in-person service. |
 | **Bellboy** | Dubai, founded 2025 | AI "employees" on voice, WhatsApp and email, 24/7, 60+ languages, pushing direct bookings. Certified OPERA Cloud integration. | Live at 22+ hotels, with Rotana as an anchor client and 125+ in the pipeline (their figures) | Acts on live hotel data, not scripts. Nothing public on refusals, price checks or audits. |
 | **Prism Digital** | UAE | A WhatsApp auto-chatbot service for hotels (press release) | UAE | Not stated |
 | **Chatlyn** | Austria, with a Dubai office | Guest messaging platform (all channels) | Europe and UAE | Not stated in the announcement |
@@ -20,7 +20,7 @@ Follows on from `competitor-analysis-agencies.md`. Sources are listed at the bot
 
 ## What this changes for us
 1. **The market is moving now.** A big hotel group in Kenya, Rwanda and Tanzania has an AI concierge, and a Dubai startup has 22 hotels live. "AI agents for hotels" is no longer a gap by itself.
-2. **The gap is safety you can see.** None of these vendors publishes refusal behaviour, a price check, a handoff rule or an audit log. That's exactly what "Try to break it" shows. Keep doing it in public; it's our proof.
+2. **The gap is safety you can see.** SleekFlow does list when staff should take over (complaints, a request for a person). None of the sources we read shows refusal behaviour, a price check or an audit log under attack. That's exactly what "Try to break it" shows. Keep doing it in public; it's our proof.
 3. **The gap is small and independent hotels.** Bellboy's strength (OPERA Cloud) suits chains. Most guesthouses in Lamu, Zanzibar, Kigali and Jinja don't run OPERA; they run WhatsApp, a spreadsheet and M-Pesa. That's where After hours is designed to live.
 4. **We are a studio, not a platform.** Don't fight Bellboy or Inntelo on scale. Our offer is to:
    - design the guest experience and the brand around the agent

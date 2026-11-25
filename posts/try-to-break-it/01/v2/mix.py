@@ -1,10 +1,12 @@
 """Real-sound mix for the Try to break it No. 01 reel (v2). All CC0 recordings (credits in CREDITS.md):
-ambient piano loop (85 bpm) + evening ocean waves as the bed, a real Epson receipt printer, rubber-stamp hits,
+ambient piano loop (85 bpm) + a night beach recording as the bed, a real Epson receipt printer, rubber-stamp hits,
 phone taps and a paper tear, each placed on the frame the picture moves. Target -14 LUFS, true peak <= -1.5 dBTP."""
 import numpy as np, soundfile as sf, pyloudnorm as pyln
 from scipy.signal import resample_poly
 S = "/home/claude/sfx/"; SR = 48000; DUR = 31.0; N = int(SR * DUR)
-def ld(n): y, sr = sf.read(S + n + ".wav"); return y if y.ndim == 1 else y.mean(1)
+def ld(n):
+    y, sr = sf.read(S + n + ".wav"); y = y if y.ndim == 1 else y.mean(1)
+    return y if sr == SR else resample_poly(y, SR, sr)
 def seg(y, a, b): return y[int(a * SR):int(b * SR)].copy()
 mix = np.zeros(N)
 def put(y, at, db=0.0, fade=.004):
@@ -13,7 +15,7 @@ def put(y, at, db=0.0, fade=.004):
     i = int(at * SR); j = min(N, i + len(y)); mix[i:j] += y[:j - i]
 # bed: piano loop repeated, sea underneath; both duck slightly under the cues
 pia = ld("snd_ambientpianoloop85"); bed = np.tile(pia, int(np.ceil(N / len(pia))) + 1)[:N]
-sea = ld("sfx_waves"); sea = seg(sea, 30, 30 + DUR)
+sea = ld("sfx_nightbeach"); sea = seg(sea, 40, 40 + DUR)   # replaces the ocean preview its author says is distorted
 env = np.ones(N); env[:int(.6 * SR)] = np.linspace(0, 1, int(.6 * SR)); env[-int(1.2 * SR):] = np.linspace(1, .0, int(1.2 * SR))
 mix += bed * env * 10 ** (-17 / 20)
 seaenv = np.ones(N) * 10 ** (-21 / 20); a, b = int(19.4 * SR), int(23.0 * SR); seaenv[a:b] = 10 ** (-13 / 20)   # the roof: the sea comes up

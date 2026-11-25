@@ -25,7 +25,7 @@ The language model writes the sentences a guest reads. It never decides a fact t
 ## The architecture
 ```
 Guest (WhatsApp / site chat)
-   │  free text = DATA, never instructions
+   │  free text is untrusted input: it can change nothing by itself (enforced by the tools, not by the prompt)
    ▼
 Conversation model ──asks──► Tools (narrow, read-mostly)
    │                          ├─ check_availability(dates, room)  → hotel PMS / channel manager
@@ -36,9 +36,15 @@ Conversation model ──asks──► Tools (narrow, read-mostly)
    │                          └─ hand_to_person(reason)            → morning queue + alert
    ▼
 Reply checker (plain code, not AI)
-   - every number in the reply must match a quote object or a policy card
-   - no promise words ("free", "guaranteed", "discount", "refund") unless a card allows them
+   - prices, totals, dates and fees are never typed by the model: they are inserted by code from named
+     fields of the signed quote ({nightly_rate}, {total}, {deposit}), so "the total is 220" can't pass
+     when the total is 660
+   - any number left in the model's own text must match the same field it is labelled as, or the reply is blocked
+   - commitment language (free, comp, waive, guarantee, refund, upgrade, "on the house", and paraphrases
+     caught by a small classifier) is blocked unless a policy card allows it; unsure → hand_to_person
    - fails → reply blocked, safe fallback sent, case flagged
+   - the real guard is the state: whatever the model says, no booking, price or payment status changes
+     except through a tool call that the system validates (hold, quote, webhook)
    ▼
 Guest sees the reply
 
@@ -62,7 +68,7 @@ Every tool call ──► audit log (who, what, source, result)
 | If this happens | The system does | The guest reads |
 |---|---|---|
 | PMS is down | No quote, case queued, reception alerted | "I can't confirm rooms right now. Reception will reply by 07:00." |
-| Room sold while guest pays | Hold expires or is taken; payment auto-refunded by the provider | "That room was just taken. Your payment is being returned. Here are two others." |
+| Payment arrives after the hold expired | The webhook is valid but the hold is gone: the system re-checks live availability. If the room is still free, it books it. If not, it opens a tracked refund case with the payment provider, and reception owns it until the money is back. The guest is never told "returned" before the refund is confirmed. | "Your payment arrived after the hold ended. Reception is sorting it now and will confirm by 07:00, either the room or your refund." |
 | Guest asks for a free night | No tool can do it; message logged | "I can't change prices. I've passed this to reception." |
 | Guest claims to have paid | Nothing changes without the webhook | "I'll confirm as soon as the payment arrives." |
 | Model writes a price not in the quote | Reply blocked, fallback sent, flagged | The correct quote card, re-sent |

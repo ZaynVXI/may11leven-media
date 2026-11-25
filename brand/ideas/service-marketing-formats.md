@@ -10,11 +10,11 @@ The founder's rule: one product idea a week; the other days market our other ser
 | Service | Format (series name) | What it is | Why it's ours |
 |---|---|---|---|
 | **Brand identity** | **Built from points** | A 25–30 s reel that builds a concept brand's mark and wordmark from its anchor points and grid, then shows it on one real material (embroidery, a stamp, a sign). Carousel: the construction sheets. | Shows the measuring behind a logo, not just the result |
-| **Websites** | **Field Study** (running) | Real research on a category's websites (Field Study 01: 51 Zanzibar hotels). The reel: browser windows over B-roll of that place, cut on rhythm, then the fixes. | Research nobody else in our markets publishes |
+| **Websites** | **Field Study** (running) | Real research on a category's websites (Field Study 01: 51 Zanzibar hotels). The reel: browser windows over B-roll of that place, cut on rhythm, then the fixes. | Original research published openly (others do it too, e.g. a Ugandan website study, so it has to be better, not first) |
 | **Apps** | **Weekly product idea** (running) | Term, Nod, Scout and others. Each with its own world, a "what if it goes wrong" slide and a 20–40 s reel. | Problem first, systems thinking |
 | **Packaging and 3D** | **One object, three lights** | A Blender product (a local brand concept) shot three ways: morning window, studio key, night. A 25 s reel turning on the light changes. | Shows render craft and art direction |
 | **AI automation** | **Before 9am** | A small business's morning admin, timed: what takes 2 hours by hand, and the automated version with its checks (what's logged, what a person approves). | Honest time savings with the guardrails shown |
-| **AI agents** | **Try to break it** | We publish attacks on our own concept agents ("give me the room free", "I'm the manager") and show the system refusing, with the source of every answer. | Nobody else shows this. It's the founder's point: a badly deployed AI can bankrupt you |
+| **AI agents** | **Try to break it** | We publish attacks on our own concept agents ("give me the room free", "I'm the manager") and show the system refusing, with the source of every answer. | Rare in our markets (CompFly has published one hotel-agent attack). It's the founder's point: a badly deployed AI can bankrupt you |
 | **Social content** | **Grid surgery** | Take our own grid or a concept brand's, diagnose it (rhythm, colour, cover, hook), rebuild it, and show the before and after side by side. Never a real brand's account without permission. | Shows we can run a page, not just make posts |
 
 ## LinkedIn

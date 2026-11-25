@@ -13,7 +13,7 @@ The founder's brief: "There are 1,000 new AI agencies daily. Be the one that sta
 Freelancers and small shops selling chatbots, "AI receptionists" and n8n, Make or Zapier workflows. Builds usually cost $1,500–15,000 and retainers $500–5,000 a month (Ciela's reported ranges; not independently checked).
 
 **What they get wrong**
-- **Wrappers, not systems.** They sell a chatbot or a single workflow that never connects to the business's real data. When the bot doesn't know, it guesses (Runframe).
+- **Wrappers, not systems (a risk to check, not a rule).** Runframe's own assessment is that many agencies sell a chatbot or single workflow that never touches the business's real data, so the bot guesses. It also says some agencies do good work. Check each competitor before assuming it.
 - **Build and leave.** Automations break as APIs, prompts and processes change, and fixing them becomes another paid project (Runframe). One agency lost a $2,500-a-month client after a lead workflow failed silently for three days and about 40 leads were lost (Indie Hackers).
 - **No failure plan.** Their pitches don't say what happens when the bot is wrong or attacked. The Air Canada, Chevrolet $1 Tahoe, DPD and Cursor cases show where that ends (see after-hours-guardrails.md).
 - **"We work with any platform."** Spread thin, so they're slow to find what broke (Runframe).
@@ -30,7 +30,7 @@ HiJiffy (from $200 a month) and Asksuite (from $300 a month). Both connect to do
 - HiJiffy: slow support, robotic replies, misses rephrased questions, gets stuck in loops; sync delays and setup trouble.
 - Both: one product for every hotel, so the brand voice, local payments and the small independent hotel's reality come second.
 
-**Our opening:** small independent hotels and guest houses in East Africa (Field Study 01: 51 Zanzibar hotels, 16% show a price, half send "Book" to another site). They need the website, the booking flow and a safe agent together. These tools sell only the chat.
+**Our opening:** small independent hotels and guest houses in East Africa (Field Study 01: 51 Zanzibar hotels, 16% show a price, half send "Book" to another site). They need the website, the booking flow and a safe agent together. HiJiffy and Asksuite do connect to live availability and booking engines. What they don't offer is the brand, the website, local payments such as M-Pesa, and a public safety record. That's what we add.
 
 ### 3. Premium creative studios (our bar, not our enemy)
 Motto, Holographik, Qclay, Zajno, .raw, Artemii Lebedev. Their craft is the standard we hold ourselves to.

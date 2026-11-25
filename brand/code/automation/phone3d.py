@@ -2,7 +2,7 @@
 a real comb-like prop and window-blind light. usage: DIR OUT W H SAMPLES"""
 import sys, math, bpy
 from mathutils import Vector, noise
-sys.path.insert(0, "/home/claude/r3d"); import real as R
+sys.path.insert(0, __import__("os").path.join(__import__("os").path.dirname(__import__("os").path.abspath(__file__)), "../../../brand/code/r3d")); import real as R
 OUT, W, H, SAMP = sys.argv[1], int(sys.argv[2]), int(sys.argv[3]), int(sys.argv[4])
 sc = R.reset()
 

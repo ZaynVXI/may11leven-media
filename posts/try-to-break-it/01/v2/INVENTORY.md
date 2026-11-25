@@ -49,7 +49,7 @@ The phone is the Blender model from brand/code/automation/phone3d.py. The screen
 3. **UI decision:** the night desk console, cropped. Each row has its source (Price · rate table · $220; Discount tool · none exists; Passed to reception · 21:52). Title: "Every number has a source."
 4. **Knolling (Blender, top-down):** four audit slips laid on the counter, stamped Refused, Refused, Not booked and No guess, with a pen.
 5. **UI decision:** the "I paid" screenshot against the M-Pesa check (held until 22:34, not booked). Title: "A screenshot isn't money."
-6. **Film still:** the Lamu rooftop at night with a Kusi glass pill: "Booking system not answering · no guess · reception by 07:00".
+6. **Film still:** a rooftop at night (Pexels; not identified as Lamu, so unnamed) with a Kusi glass pill: "Booking system not answering · no guess · reception by 07:00".
 7. **Morning (Blender, same counter, daylight):** the 07:00 summary on paper beside a coffee cup. Risky items come first; prices changed: 0.
 8. **Question card, the only text slide:** "Can your AI be talked into a free night?" Answer: "Ours can't. Comment 11 and we'll try to break yours." Plus the services.
 
@@ -73,7 +73,7 @@ Pass 0 scores 4 or more on every criterion against Maisa, Harvey and Lebedev sid
 3. The night desk console, showing a six-step trace for the free-night request, each step with its source and result: price from the rate table, no discount tool exists, the reply checked against the quote, handed to reception. Below: "Every number has a source."
 4. From above: four audit slips laid out on a walnut counter, stamped Refused, Refused, Refused and Not booked, with a black pen and a room key on a wooden fob.
 5. The Kusi House chat. A guest sends a payment screenshot; the assistant confirms only when M-Pesa confirms to the hotel. Below: "A screenshot isn't money."
-6. A Lamu rooftop with crenellated walls at night, lanterns glowing on the floor. A small glass panel reads: 23:18, night desk, booking system not answering, no guess.
+6. A rooftop with crenellated walls at night, lanterns glowing on the floor. A small glass panel reads: 23:18, night desk, booking system not answering, no guess.
 7. Dark card: "Can your AI be talked into a free night?" Ours can't. The seven May11Leven Labs services. Comment 11 and we'll try to break yours.
 - **Printer rebuilt.** I researched the cube-shaped thermal printers hotel desks actually use (Epson TM-m30III, Star mC-Print3) and modelled ours on that type, with no brand marks. The new model has:
   - a rounded matte graphite cube on a recessed base

@@ -4,7 +4,7 @@ lantern glows behind on coral stone. CC0 Poly Haven assets (walnut veneer, coral
 usage: python3 hero.py OUT W H SAMPLES [variant]   variant: hero | top | morning"""
 import sys, math, bpy, bmesh
 from mathutils import Vector
-sys.path.insert(0, "/home/claude/r3d"); import real as R
+sys.path.insert(0, __import__("os").path.join(__import__("os").path.dirname(__import__("os").path.abspath(__file__)), "../../../../brand/code/r3d")); import real as R
 OUT, W, H, SAMP = sys.argv[1], int(sys.argv[2]), int(sys.argv[3]), int(sys.argv[4])
 VAR = sys.argv[5] if len(sys.argv) > 5 else "hero"
 D = "/home/claude/may11leven-media/posts/try-to-break-it/01/v2/"

@@ -25,7 +25,7 @@ How they're built:
 OS-like windows; mono uppercase type; "6 Ongoing projects" counter; "Currently building" and "Industry" columns; dated article list with READ links; live local time and "Serbia, Belgrade & New York"; "Press ESC for effects (?)". Shown on a MacBook over a perforated metal plate, and on a phone lying on a ribbed aluminium suitcase next to its red lock: the contact form ("What's next? The first conversation.").
 
 ## Rules we adopt
-1. **Reels run 20–40 seconds.** Carousel loops (6–8 s) are slides, not reels. Every product or service post gets a real reel.
+1. **Reels usually run 20–40 seconds** (a case study up to 60; see motion-learnings.md). Carousel loops (6–8 s) are slides, not reels. Every product or service post gets a real reel.
 2. **B-roll from the client's world behind the screens** (free stock: Pexels and Unsplash video; no recognisable faces from reference material). Term: classroom, uniforms, M-Pesa kiosk street. After hours: dusk rooftops, boats, a reception desk at night.
 3. **Cut on rhythm, every 0.5–1 s, with real pages.** Build the pages fully first so there's enough to show.
 4. **Put devices on materials that mean something** (glass tubes for pharma, a suitcase for a designer who travels). For us: a school jumper, a hotel key on brass, a wooden reception counter.
