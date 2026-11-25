@@ -116,7 +116,7 @@ function render(t){
   $('f2s').textContent = p<.5 ? 'of 27,500 · KES 5,950 to go' : 'of 27,500 · KES 5,200 to go';
   $('fr').textContent  = p<.5 ? 'On track · 8 Fridays left' : 'On track · 7 Fridays left';
   $('cnt').textContent = p<.5 ? '4 of 12' : '5 of 12';
-  const fp=cl(sp((t-2.5)/.7)); $('fam').textContent = fp<.5 ? 'KES 40,450' : 'KES 41,200'; $('bm').style.width=(46+2*fp)+'%';
+  const fp=cl(sp((t-2.5)/.7)); $('fam').textContent = p<.5 ? 'KES 40,450' : 'KES 41,200'; $('bm').style.width=(46+2*fp)+'%';
   const s=sp((t-4.0)/.5); $('stp').style.transform=`rotate(-7deg) scale(${1+.06*(1-cl(s))*Math.sin(cl((t-4.0)/.5)*Math.PI)})`;
 }
 window.render=render;render(0);
