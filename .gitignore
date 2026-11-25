@@ -1,2 +1,3 @@
 concepts/ata3/render.log
 concepts/**/frames_*/
+__pycache__/
