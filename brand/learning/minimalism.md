@@ -25,3 +25,7 @@ One principle per study session. Each one is a rule we can check on a frame, not
 6. **One label replaces a paragraph.** On the .raw homepage every project tile carries two small white chips in its top-left corner, "Branding" and "Web Design", and nothing else explains the work. The viewer knows what was bought before they read a word, so the image can stay quiet.
    - Check: cover the caption. Can someone still tell which service this piece sells? If not, add one chip; never add a sentence.
    - Ours: two Plex Mono chips on every carousel cover and case study tile ([ web ] [ 3d ]), always top left, always the same size, Bone on photo or Ink on Bone. They replace the "what we did" paragraph.
+
+7. **Let the material carry the luxury.** On Motto's shelf, the Patch:Work (1) Logo Archive cover is grey kraft board with five centred lines of gold foil and eight tiny crop ticks. There is no image, no second colour and no layout trick; the board and the foil are the whole brand. When a frame needs to feel expensive, change the material or the finish before adding anything.
+   - Check: could you describe the frame in two words, one material and one finish ("kraft, foil")? If you need a third, something is decoration.
+   - Ours: Brand Clinic 01 as a Blender still: recycled grey board, the title and the numeral in one foil (copper, not gold, so it's ours), crop ticks at the edges, shot flat on Bone with a soft key light. No accent, no labels on the cover; the chips move to slide 2.
