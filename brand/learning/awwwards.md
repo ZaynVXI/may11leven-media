@@ -22,8 +22,30 @@ description: The living Awwwards file. Who won recently, what the winners do, an
 6. **Restraint wins in serious sectors.** Recent winners include a biotech manufacturer (Polpharma Biologics, Nov 25, score 7.36) and an earlier biotech SOTD (Bright Biotech, a two-colour palette). Trust sectors win with calm layouts, real photography and strict palettes, the same direction as Lebedev's Nova.
 7. **Our mentors keep winning.** Holographik won again with DeepBook (Nov 3) and earlier Slush, CoMinVi and Permian. Studying them is studying the award bar.
 8. **One real object carries the whole story** (Better Off, MotiveOne, nominated). A 3D model of the client's real place stays on screen while the copy changes, and each service appears as a layer on it (lines, cutaway). Pair it with proof cards (step counter, mono label, giant light numeral, a source line) and a search that is never empty. Full study: `brand/learning/betteroff.md`.
+9. **One motion vocabulary per product.** Both of today's winners use one ease, one duration and one reveal for everything (expo.out, 1.1 s, a 14 to 16% rise), and keep WebGL for one hero moment, loaded only when near and paused off screen. Write it as tokens before any screen (--ease, --dur, --rise) and use the same values in the reel cut, so site, app and post move the same way. Reduced motion is part of the token set, not a patch.
 
 ## Log (newest first)
+
+### Note on today's picks
+The late-November winners (Polpharma Biologics, Two26 Studio) have no write-up we could reach: the agency pages refused the fetch, and the only Polpharma case page found (flyingbisons.com) is an older corporate rebuild with no award or design notes. So today's two are 2026 Sites of the Day whose builders published how they made them. We read the write-ups only; we have not seen either site.
+
+### fromanother (artist-led creative agency): Site of the Day, 14 May 2026 (7.44), Developer Award (7.25), FWA of the Day
+- Source: hontran.dev/blog/fromanother-award-winning-creative-agency-website (developer's own build note, 1 Jul 2026).
+- **Problem:** an agency's site is its pitch, so it has to out-craft the portfolio it shows, and the team must add work and roles without a developer.
+- **Idea:** one shared motion system across the site, WebGL kept for hero moments only, and a headless CMS the studio runs.
+- **Decisions:** Prismic as the CMS, so a new project is a content entry, not code; WebGL mounted only when near the viewport (IntersectionObserver, 200 px margin) and disposed when it leaves; one reveal grammar for everything (expo.out, 1.1 s, rise of 16%, fade from 0, starts at 85% of the viewport), animating only transform and opacity.
+- **Type and colour:** not stated.
+- **Fits:** 02 web, 07 social (the studio's own site as content).
+- **Rule for us:** rule 9 below.
+
+### Minh Pham portfolio (designer at Fantasy): Site of the Day (7.37), developer score 7.77
+- Source: hontran.dev/blog/minh-pham-portfolio-case-study (build note, 27 Jun 2026). Date of the award not given.
+- **Problem:** a designer's portfolio where spacing, type scale and easing must match the design file exactly, and work images must stay at full quality.
+- **Idea:** "designed, not decorated": one ease and one timing scale for the whole site.
+- **Decisions:** fluid type tokens with clamp() (display from 3rem to 9rem); one scroll reveal (expo.out, 1.1 s, rise of 14%, fires once); a WebGL transition that displaces between two full-resolution images, with device pixel ratio capped at 2; reduced motion handled with gsap.matchMedia; the WebGL loop pauses off screen.
+- **Type and colour:** not stated.
+- **Fits:** 02 web, 01 brand (a portfolio is an identity).
+- **Rule for us:** rule 9 below.
 
 ### Late November 2026 winners
 **Sites of the Day:**

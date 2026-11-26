@@ -29,3 +29,7 @@ One principle per study session. Each one is a rule we can check on a frame, not
 7. **Say the shared fact once.** Every fresh juice at Smoothie DJS on Lower State House Road costs KES 250 (Uber Eats listing). Our first Miwa draft printed "350 ml" and "KES 250" on all seven rows: fourteen repeats of two facts. The headline now says "Every glass KES 250" once, and the rows spend that space on the one thing that differs, the time each juice was pressed.
    - Check: scan a column. If every cell holds the same value, lift it into a heading and give the column to what changes.
    - Ours: Miwa (practice), rows read name, ingredients, pressed time; price and size live in the headline and the lede.
+
+8. **Draw the thing instead of describing it.** PXDX's tennis app replaces a court list with the club's floor plan (dribbble.com/shots/24603734); the Kenya Railways FAQ says the coach and seat number only arrive in the confirmation after you pay (metickets.krc.co.ke/faqs.php, item 10). A dropdown plus "auto-assigned" rows is four controls that say nothing; one drawing of the coach answers "where will we sit?" before anyone asks.
+   - Check: if a choice has a shape in the real world (seats, rooms, plots, shelves), is that shape on the screen? If the user has to imagine it, add the drawing and remove the list.
+   - Ours: the coach seat picker (practice): one coach outline, 64 seats, four in the accent, no dropdowns.

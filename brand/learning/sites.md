@@ -120,3 +120,7 @@ Rule: a mockup only *presents* our work. The screens, packaging and type are alw
   - **Use:** poster and street placements for identity work ("Built from points", brand case studies). These are real photos, not renders, which suits our no-AI rule.
   - **Open with:** Photopea (free, opens PSD smart objects). We don't use Photoshop.
   - **Not done:** signing up for the freebies needs Zayn's email and his OK. Buying needs his OK.
+
+## Added (Thu)
+- **hontran.dev/blog** (build notes by a creative developer behind several Awwwards Sites of the Day: fromanother, Minh Pham, Iventions, By-Kin). Each note gives the brief, the motion tokens (ease, duration, rise) and the performance rules. Use when writing the motion tokens for any site.
+- **metickets.krc.co.ke/faqs.php** (Kenya Railways booking FAQ: fares, times, booking rules). A model of the source we want behind every transport concept: the operator's own rules.

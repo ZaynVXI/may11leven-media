@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><title>Coach seats after</title>
+<style>
+@font-face{font-family:H;src:url(../../../fonts/library/hankengrotesk/HankenGrotesk[wght].ttf);font-weight:100 900}
+@font-face{font-family:M;src:url(../../../fonts/library/redhatmono/RedHatMono[wght].ttf);font-weight:300 700}
+:root{--paper:#F1EFE8;--ink:#121212;--grey:#5F5E5A;--line:#C9C6BC;--taken:#D9D6CD;--accent:#A63E25;--track:#E4E1D8}
+*{box-sizing:border-box}
+body{margin:0;width:1080px;height:1350px;background:var(--paper);color:var(--ink);font-family:H,sans-serif;font-feature-settings:"tnum";padding:72px}
+.mono{font-family:M,monospace;font-size:20px;letter-spacing:.01em}
+.top{display:flex;justify-content:space-between;border-bottom:1px solid var(--ink);padding-bottom:18px;color:var(--ink)}
+.hero{display:grid;grid-template-columns:300px 1fr;align-items:end;margin-top:40px}
+.num{font-size:400px;line-height:.74;font-weight:600;letter-spacing:-.04em}
+.say h1{font-size:60px;font-weight:600;line-height:1.02;margin:0 0 18px;letter-spacing:-.015em}
+.say p{margin:0;color:var(--grey)}
+.times{margin-top:56px;display:flex;gap:0;background:var(--track);border-radius:22px;padding:6px}
+.times div{flex:1;text-align:center;padding:18px 0;border-radius:16px;font-size:24px;color:var(--grey)}
+.times .on{background:#fff;color:var(--ink);font-weight:600;box-shadow:0 1px 2px rgba(18,18,18,.12),0 4px 12px rgba(18,18,18,.06)}
+.map{margin-top:44px;position:relative}
+.coach{border:1.5px solid var(--ink);border-radius:56px;padding:26px 44px 26px 70px;position:relative}
+.cols{display:grid;grid-template-columns:repeat(16,1fr);gap:8px}
+.rown{text-align:center;color:var(--grey);font-size:15px;margin-bottom:8px}
+.rown.lit{color:var(--accent);font-weight:600}
+.seat{height:40px;border-radius:10px;border:1.5px solid var(--ink);display:flex;align-items:center;justify-content:center;font-size:14px}
+.t{border-color:var(--taken);background:linear-gradient(to top right,var(--taken) calc(50% - 1px),#6F6C65 calc(50% - 1px),#6F6C65 calc(50% + 1px),var(--taken) calc(50% + 1px))}
+.y{background:var(--accent);border-color:var(--accent);color:#fff;font-weight:600}
+.aisle{height:30px;grid-column:1/-1;display:flex;align-items:center;justify-content:center;color:var(--grey);font-size:15px}
+.letters{position:absolute;left:30px;top:59px;display:grid;gap:8px;color:var(--grey);font-size:15px}
+.letters span{height:40px;display:flex;align-items:center}
+.letters .gap{height:30px}
+.legend{display:flex;gap:36px;margin-top:20px;color:var(--grey);align-items:center}
+.legend i{display:inline-block;width:22px;height:22px;border-radius:6px;border:1.5px solid var(--ink);vertical-align:-5px;margin-right:10px}
+.legend .lt{border-color:var(--taken);background:linear-gradient(to top right,var(--taken) calc(50% - 1px),#6F6C65 calc(50% - 1px),#6F6C65 calc(50% + 1px),var(--taken) calc(50% + 1px))} .legend .ly{background:var(--accent);border-color:var(--accent)}
+.fare{margin-top:56px;border-top:1px solid var(--ink);padding-top:20px;display:flex;justify-content:space-between;align-items:baseline}
+.fare .g{color:var(--grey)}
+.pay{margin-top:24px;width:100%;display:flex;justify-content:space-between;align-items:center;background:var(--accent);color:#fff;border-radius:24px;padding:10px 10px 10px 36px;font-size:28px;font-weight:600}
+.pay span.in{background:#fff;color:var(--accent);border-radius:14px;padding:16px 24px;font-size:22px}
+.note{margin-top:24px;color:var(--grey);font-size:19px;line-height:1.45;max-width:780px}
+</style></head><body>
+<div class="top mono"><span>Nairobi to Mombasa · 3:00 pm</span><span>Coach 7 · Economy</span></div>
+
+<div class="hero">
+  <div class="num" aria-hidden="true">4</div>
+  <div class="say">
+    <h1>Four seats,<br>together.</h1>
+    <p class="mono">Rows 9 and 10, seats A and B</p>
+  </div>
+</div>
+
+<div class="times" role="radiogroup" aria-label="Departure">
+  <div role="radio" aria-checked="false">8:00 am</div>
+  <div role="radio" aria-checked="true" class="on">3:00 pm</div>
+  <div role="radio" aria-checked="false">10:00 pm</div>
+</div>
+
+<div class="map">
+  <div class="coach">
+    <div class="cols mono" id="nums"></div>
+    <div class="cols mono" id="seats"></div>
+  </div>
+  <div class="letters mono"><span>A</span><span>B</span><span class="gap"></span><span>C</span><span>D</span></div>
+  <div class="legend mono"><span><i></i>Free</span><span><i class="lt"></i>Taken</span><span><i class="ly"></i>Yours</span><span style="margin-left:auto">Concept layout</span></div>
+</div>
+
+<div class="fare mono"><span>4 × KES 1,500, Economy</span><span class="g">Cancel up to 48 h before, 30% fee</span></div>
+<div class="pay" role="button">Pay with M-Pesa<span class="in">KES 6,000</span></div>
+<p class="note">Today the coach and seat arrive by text after you pay. Here you see where your family sits first. Real fares and times, Kenya Railways.</p>
+
+<script>
+const taken=new Set(['1A','1B','1C','2C','2D','3A','4B','4C','4D','5A','5B','6D','7A','7C','8B','8C','8D','11A','11D','12B','12C','13A','13B','14C','15A','15D','16B']);
+const mine=new Set(['9A','9B','10A','10B']);
+const nums=document.getElementById('nums'),seats=document.getElementById('seats');
+for(let r=1;r<=16;r++){const d=document.createElement('div');d.className='rown'+((r==9||r==10)?' lit':'');d.textContent=r;nums.appendChild(d)}
+['A','B',null,'C','D'].forEach(L=>{
+ if(!L){const a=document.createElement('div');a.className='aisle';a.textContent='aisle';seats.appendChild(a);return}
+ for(let r=1;r<=16;r++){const s=document.createElement('div');const id=r+L;
+  s.className='seat'+(mine.has(id)?' y':taken.has(id)?' t':'');
+  s.setAttribute('aria-label',`Seat ${id}, ${mine.has(id)?'yours':taken.has(id)?'taken':'free'}`);
+  if(mine.has(id))s.textContent=L;seats.appendChild(s)}
+});
+</script>
+</body></html>

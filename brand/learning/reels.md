@@ -79,3 +79,15 @@ Sheets: brand/refs/satto-reel-b91bada9.jpg, brand/refs/satto-reel-6bea36ce.jpg. 
 - **Cover:** the frame with type plus the darkest, simplest screen.
 - **External (opus.pro, Instagram Reels hook formulas, vendor blog, Nov 2025):** grab attention in 1 to 2 s and pay it off by 3 s; cut the intro; on-screen text repeats the hook; "pattern then break" (three quick cuts, change on the fourth beat); a sound change at the hook. Its numbers (60% 3-second hold as the bar) are the author's own and unsourced, so we use them as a rule of thumb only. Its advice to open on a face close-up doesn't apply to us; we open on the product's one number instead.
 - **For Miwa (6 s):** the drink list stays fixed on the left like Satto's type; the panel hard-cuts through four drinks on the beat, each flooding its own colour with its stock level, and the fourth beat breaks the pattern: the hibiscus count ticks from 19 to 18 with a soft pour sound.
+
+## Study: the services list as the reel; a lit wall as the constant (WOB)
+Sheets: brand/refs/wob-reel-cd59233d-frames.jpg and brand/refs/wob-reel-2d32051d-frames.jpg.
+- **Hook:** (cd59233d) frame one is two lines of a list on butter cream, "01 Brand Strategy / 02 Brand Design". You read it before you know it's an ad. (2d32051d) a sunlit plaster wall with a window shadow and "WOB x" in the middle: a question waiting for a name.
+- **Cut rhythm:** the list grows one line per beat to 10, then one project card per service fans in on top (sunglasses packaging, a yoga poster, a red car in snow, a sticker wall, a Carbon tray), each held about half a second, then they leave in reverse order and the list returns. The second reel alternates the empty wall with a brand collage, four times.
+- **Camera:** none; flat. The wall reel fakes depth with the real window shadow.
+- **Type in and out:** list lines appear without animation, one per beat; the end card types "WOB ST" then "WOB STUDIO" with a text cursor box. The wall reel ends "WOB x YOUR BRAND?".
+- **Transitions:** hard cuts; cards stack with a slight rotation and a hard shadow, like prints dropped on a table.
+- **Sound:** not in the sheets.
+- **Cover:** the full list of ten on cream (it reads as a menu in the grid).
+- **External (giovanniperilli.com/en/blog/new-instagram-features-november-2026, 24 Nov):** Instagram's Edits app got a carousel editor (8 Oct, iPhone first) that mixes photos and video on one canvas with saved font, colour and audio presets, and a free Mac version (5 Nov) with a multi-track timeline, auto captions and 4K export with no watermark. Instagram is testing 90-minute horizontal "Features" with up to eight Reels clips linked to them (26 Oct, test only). Buffer quotes Mosseri that the share of impressions going to posts under 24 hours old has grown (secondhand).
+- **For us:** the WOB services reel is today's style.md "try this week". Build it in HyperFrames, then do the captions in Edits for Mac (free) and save our type and colour as presets so every reel starts from the same kit.

@@ -193,3 +193,24 @@ Metricool blog 7782767 answered 403 "Access denied" today, so the check is from 
 - Loud tiles: none flagged; both covers have one focal point.
 - To check by eye: the Term reel cover is taken at 25.2 s and the Break reel cover at 1.0 s; confirm both frames are clean, still covers and not mid-transition.
 - Suggest: put one tile from another service (brand identity, packaging or web, e.g. the Field Study or a Miwa-style web piece once it's a real post) between each product's carousel and reel.
+
+## WOB Studio: the services list as the reel (rotation)
+Refs (ours, newest online work not reachable today: wob.studio refused the fetch, so this is a close read of what Zayn saved): brand/refs/wob-41d52a73.jpg (their grid), wob-reel-2d32051d-frames.jpg, wob-reel-cd59233d-frames.jpg. Boutique studio, "for brands with soul", work for Carbon Uniforms, Cowgirl Ranch, Kas di Kos, a racquet club and others.
+### Colour (measured from our refs)
+Butter cream #FFF6CF (grid tiles) and #FCF4CF (reel ground), near-black #181818 for the booking tile, a wall of warm plaster #D8D0BD with window-shadow #BAB1A2 in the reel. The work brings its own colour (Carbon green, Cowgirl tan, a royal blue); the studio's frame stays cream and black.
+### Typography
+A light neo-grotesk in caps for posters ("OUR SERVICES", "NOW BOOKING SEPTEMBER/OCTOBER") with a small italic serif for asides in curly brackets ("{fill out our enquiry form, link in bio}"); a tracked mono-spaced caption row in the corners (@WOB.STUDIO / WWW.WOB.STUDIO top, BOUTIQUE STUDIO / FOR BRANDS WITH SOUL bottom). The reel list uses a small sans with superscript numerals (01 Brand Strategy ... 10 Creative Partnerships).
+### Grid and ideas
+Every text tile has the same four-corner frame, so the grid reads as one system even when the middles change. Product tiles are real still life (a fig with earrings inside, a cigarette case on a print, uniform swatches pinned to a wall). The services reel builds the list one line at a time (01 to 10), then project cards fan in over the list, one per service, and leave; the end card types "WOB ST" then "WOB STUDIO". The other reel holds a sunlit wall with a window shadow as the constant and drops brand collages in and out of it, then ends "WOB x YOUR BRAND?".
+### How they present it on Instagram
+Text tiles and object tiles alternate; the text tiles sell (services, booking window, client love), the object tiles prove taste. Booking is announced as a season ("Now booking September/October"), a calm way to say there's a queue.
+### Try this week
+Build our services reel the WOB way but ours: the seven services appear as a numbered list, one line per beat, and each line gets one real piece of our work fanned over it for half a second (01 brand: a mark; 03 apps: Term; 06 agents: the audit slip). End on the 11 mark. Keep our corner frame (handle top left, the two emails bottom) on every text tile.
+
+## Feed check (Thu, Buffer "My organization", read only; Metricool 7782767 returned 403 "Access denied to blog")
+Next grid tiles queued: Term carousel (1 Dec, light, 03 apps), Term reel (3 Dec, light, 03 apps), Try to break it carousel (8 Dec, dark walnut, 06 agents), Try to break it reel (10 Dec, dark, 06 agents). Stories on 27 Nov and 1 Dec don't touch the grid.
+- Covers: clean, one focal point each (phone on jumper; printer and slip). Pass.
+- Dark/light: two light then two dark. Rows of three will put both Terms next to each other and the two After hours tiles next to each other. Flag: interleave (Term, Break, Term reel, Break reel) or put a 01 brand or 02 web tile between them.
+- Loud tiles: none loud. Pass.
+- Service rotation: only 03 and 06 in the next four. Flag: nothing queued for 01 brand, 02 web, 04 packaging and 3D, 05 automation or 07 social. Candidates already built: Miwa (02 web, practice) or today's coach seat picker (03 apps) are practice only; a 01 or 04 piece is the real gap.
+- Only 4 grid tiles are queued, not 9; 7 of 10 Buffer scheduled slots are used.

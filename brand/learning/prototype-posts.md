@@ -90,3 +90,5 @@ Refs: `brand/refs/pxdx-rosie/`, loops in `brand/motion-refs/reference-4/5-rosie-
 **Our rule (Zayn):** a good product gets a full carousel, about 7 to 10 slides mixing stills and short loops, not 3 to 4 frames. Order: hero loop → manifesto → split moments → full screens with states → feature loops → system or detail slide → offer. Our caption keeps its own rules (lowercase, comment 11, both emails) and adds a themed sign-off as May11Leven Labs.
 
 - **Add to the skill (PXDX NOAL):** required notices (cookies, age, allergens, delivery area) go inside the hero as a small band or toast in the product's voice, with "no" the same size as "yes" and nothing hidden under it. Never a sticky bar across the bottom.
+
+- **Add to the skill (PXDX tennis courts):** when a product asks the user to choose a place (seat, room, court, desk, plot), draw the place as the picker with its real legend, and say the answer in one numeral and one line ("4 seats, together"). The money rule (deposit, cancel fee) sits on the price line, not in small print at the bottom.
