@@ -114,3 +114,9 @@ Rule: a mockup only *presents* our work. The screens, packaging and type are alw
 - onepagelove.com: each site page has a one-paragraph description of the design (Hoy, Soma, Solea), and section galleries with counts (Pricing Table 340 examples, FAQ 374, Lead Capture 531). Loads from our workspace.
 - zeroframe.framer.website: Satto's template; its CSS is readable, so type and colour can be measured exactly.
 - Blocked or challenged today: land-book.com (403), lapa.ninja (403), siteinspire.com (429), awwwards.com (no response), dribbble shot pages (202 challenge; profile pages and cdn images still load).
+
+## Mockup sources (checked)
+- **June Mockups** (junemockups.com, sent by Zayn). Photoshop PSD mockups photographed in real cities (Amsterdam, Basel, Hannover, Barcelona): wheatpaste posters, city lights, billboards, ad columns, shop windows, tram stops, t-shirts. Single files cost €9–13 and bundles €13.99–25. A free pack of 5 comes with the newsletter, which needs an email signup. The licence isn't on the homepage; read the terms before any commercial use.
+  - **Use:** poster and street placements for identity work ("Built from points", brand case studies). These are real photos, not renders, which suits our no-AI rule.
+  - **Open with:** Photopea (free, opens PSD smart objects). We don't use Photoshop.
+  - **Not done:** signing up for the freebies needs Zayn's email and his OK. Buying needs his OK.
