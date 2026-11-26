@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "generated_from_commit": "9eb5240a96124290b951265bec1e8dbf18597560",
-  "skill_count": 495,
+  "skill_count": 611,
   "installed_targets": [
     ".claude/skills",
     ".agents/skills"
@@ -14,27 +14,120 @@
       "installed_as_skill": false
     }
   ],
-  "groups": {
-    "blender-skills": 94,
-    "claude-42": 35,
-    "earshot": 2,
-    "emil-skills": 2,
-    "everything-claude-code": 314,
-    "gimp-reference-levybytes": 1,
-    "hallmark": 1,
-    "headroom": 1,
-    "img2threejs": 1,
-    "impeccable": 1,
-    "playwright-cli": 1,
-    "real-sfx": 1,
-    "refero": 1,
-    "replica": 11,
-    "taste-skill": 1,
-    "ui-skills": 4,
-    "ui-ux-pro-max": 1,
-    "founder-skill": 11,
-    "juliobsz-skills": 2
-  },
+  "groups": [
+    [
+      "90n-skills",
+      75
+    ],
+    [
+      "anatomy",
+      1
+    ],
+    [
+      "anthropic-skills",
+      19
+    ],
+    [
+      "blender-skills",
+      94
+    ],
+    [
+      "claude-42",
+      35
+    ],
+    [
+      "earshot",
+      2
+    ],
+    [
+      "emil-skills",
+      2
+    ],
+    [
+      "everything-claude-code",
+      314
+    ],
+    [
+      "floorplan",
+      1
+    ],
+    [
+      "founder-skill",
+      11
+    ],
+    [
+      "gimp-reference-levybytes",
+      1
+    ],
+    [
+      "hallmark",
+      1
+    ],
+    [
+      "headroom",
+      1
+    ],
+    [
+      "hyperframes",
+      9
+    ],
+    [
+      "img2threejs",
+      1
+    ],
+    [
+      "impeccable",
+      1
+    ],
+    [
+      "jakub-skills",
+      16
+    ],
+    [
+      "juliobsz-skills",
+      2
+    ],
+    [
+      "may11leven",
+      1
+    ],
+    [
+      "playwright-cli",
+      1
+    ],
+    [
+      "real-sfx",
+      1
+    ],
+    [
+      "refero",
+      1
+    ],
+    [
+      "replica",
+      11
+    ],
+    [
+      "shadcn-skills",
+      2
+    ],
+    [
+      "stageshow",
+      1
+    ],
+    [
+      "taste-skill",
+      2
+    ],
+    [
+      "ui-skills",
+      4
+    ],
+    [
+      "ui-ux-pro-max",
+      1
+    ]
+  ],
   "skills": [
     {
       "id": "blender-skills-analog-found-footage-horror",
@@ -5201,6 +5294,339 @@
       "source_file": "brand/tools/stageshow/SKILL.md",
       "license_file": "brand/tools/stageshow/LICENSE",
       "license_status": "MIT"
+    },
+    {
+      "id": "anthropic-skills-academy-guide",
+      "group": "anthropic-skills",
+      "skill_name": "academy-guide",
+      "source_dir": "brand/tools/anthropic-skills/academy-guide",
+      "source_file": "brand/tools/anthropic-skills/academy-guide/SKILL.md",
+      "license_file": "brand/tools/anthropic-skills/academy-guide/LICENSE.txt",
+      "license_status": "license-file-present-apache-2.0"
+    },
+    {
+      "id": "anthropic-skills-algorithmic-art",
+      "group": "anthropic-skills",
+      "skill_name": "algorithmic-art",
+      "source_dir": "brand/tools/anthropic-skills/algorithmic-art",
+      "source_file": "brand/tools/anthropic-skills/algorithmic-art/SKILL.md",
+      "license_file": "brand/tools/anthropic-skills/algorithmic-art/LICENSE.txt",
+      "license_status": "license-file-present-apache-2.0"
+    },
+    {
+      "id": "anthropic-skills-brand-guidelines",
+      "group": "anthropic-skills",
+      "skill_name": "brand-guidelines",
+      "source_dir": "brand/tools/anthropic-skills/brand-guidelines",
+      "source_file": "brand/tools/anthropic-skills/brand-guidelines/SKILL.md",
+      "license_file": "brand/tools/anthropic-skills/brand-guidelines/LICENSE.txt",
+      "license_status": "license-file-present-apache-2.0"
+    },
+    {
+      "id": "anthropic-skills-canvas-design",
+      "group": "anthropic-skills",
+      "skill_name": "canvas-design",
+      "source_dir": "brand/tools/anthropic-skills/canvas-design",
+      "source_file": "brand/tools/anthropic-skills/canvas-design/SKILL.md",
+      "license_file": "brand/tools/anthropic-skills/canvas-design/LICENSE.txt",
+      "license_status": "license-file-present-apache-2.0"
+    },
+    {
+      "id": "anthropic-skills-claude-api",
+      "group": "anthropic-skills",
+      "skill_name": "claude-api",
+      "source_dir": "brand/tools/anthropic-skills/claude-api",
+      "source_file": "brand/tools/anthropic-skills/claude-api/SKILL.md",
+      "license_file": "brand/tools/anthropic-skills/claude-api/LICENSE.txt",
+      "license_status": "license-file-present-apache-2.0"
+    },
+    {
+      "id": "anthropic-skills-discernment-nudge",
+      "group": "anthropic-skills",
+      "skill_name": "discernment-nudge",
+      "source_dir": "brand/tools/anthropic-skills/discernment-nudge",
+      "source_file": "brand/tools/anthropic-skills/discernment-nudge/SKILL.md",
+      "license_file": "brand/tools/anthropic-skills/discernment-nudge/LICENSE.txt",
+      "license_status": "license-file-present-apache-2.0"
+    },
+    {
+      "id": "anthropic-skills-doc-coauthoring",
+      "group": "anthropic-skills",
+      "skill_name": "doc-coauthoring",
+      "source_dir": "brand/tools/anthropic-skills/doc-coauthoring",
+      "source_file": "brand/tools/anthropic-skills/doc-coauthoring/SKILL.md",
+      "license_file": "brand/tools/anthropic-skills/doc-coauthoring/LICENSE.txt",
+      "license_status": "license-file-present-apache-2.0"
+    },
+    {
+      "id": "anthropic-skills-docx",
+      "group": "anthropic-skills",
+      "skill_name": "docx",
+      "source_dir": "brand/tools/anthropic-skills/docx",
+      "source_file": "brand/tools/anthropic-skills/docx/SKILL.md",
+      "license_file": "brand/tools/anthropic-skills/docx/LICENSE.txt",
+      "license_status": "license-file-present-apache-2.0"
+    },
+    {
+      "id": "anthropic-skills-frontend-design",
+      "group": "anthropic-skills",
+      "skill_name": "frontend-design",
+      "source_dir": "brand/tools/anthropic-skills/frontend-design",
+      "source_file": "brand/tools/anthropic-skills/frontend-design/SKILL.md",
+      "license_file": "brand/tools/anthropic-skills/frontend-design/LICENSE.txt",
+      "license_status": "license-file-present-apache-2.0"
+    },
+    {
+      "id": "anthropic-skills-internal-comms",
+      "group": "anthropic-skills",
+      "skill_name": "internal-comms",
+      "source_dir": "brand/tools/anthropic-skills/internal-comms",
+      "source_file": "brand/tools/anthropic-skills/internal-comms/SKILL.md",
+      "license_file": "brand/tools/anthropic-skills/internal-comms/LICENSE.txt",
+      "license_status": "license-file-present-apache-2.0"
+    },
+    {
+      "id": "anthropic-skills-mcp-builder",
+      "group": "anthropic-skills",
+      "skill_name": "mcp-builder",
+      "source_dir": "brand/tools/anthropic-skills/mcp-builder",
+      "source_file": "brand/tools/anthropic-skills/mcp-builder/SKILL.md",
+      "license_file": "brand/tools/anthropic-skills/mcp-builder/LICENSE.txt",
+      "license_status": "license-file-present-apache-2.0"
+    },
+    {
+      "id": "anthropic-skills-pdf",
+      "group": "anthropic-skills",
+      "skill_name": "pdf",
+      "source_dir": "brand/tools/anthropic-skills/pdf",
+      "source_file": "brand/tools/anthropic-skills/pdf/SKILL.md",
+      "license_file": "brand/tools/anthropic-skills/pdf/LICENSE.txt",
+      "license_status": "license-file-present-apache-2.0"
+    },
+    {
+      "id": "anthropic-skills-pptx",
+      "group": "anthropic-skills",
+      "skill_name": "pptx",
+      "source_dir": "brand/tools/anthropic-skills/pptx",
+      "source_file": "brand/tools/anthropic-skills/pptx/SKILL.md",
+      "license_file": "brand/tools/anthropic-skills/pptx/LICENSE.txt",
+      "license_status": "license-file-present-apache-2.0"
+    },
+    {
+      "id": "anthropic-skills-skill-creator",
+      "group": "anthropic-skills",
+      "skill_name": "skill-creator",
+      "source_dir": "brand/tools/anthropic-skills/skill-creator",
+      "source_file": "brand/tools/anthropic-skills/skill-creator/SKILL.md",
+      "license_file": "brand/tools/anthropic-skills/skill-creator/LICENSE.txt",
+      "license_status": "license-file-present-apache-2.0"
+    },
+    {
+      "id": "anthropic-skills-slack-gif-creator",
+      "group": "anthropic-skills",
+      "skill_name": "slack-gif-creator",
+      "source_dir": "brand/tools/anthropic-skills/slack-gif-creator",
+      "source_file": "brand/tools/anthropic-skills/slack-gif-creator/SKILL.md",
+      "license_file": "brand/tools/anthropic-skills/slack-gif-creator/LICENSE.txt",
+      "license_status": "license-file-present-apache-2.0"
+    },
+    {
+      "id": "anthropic-skills-theme-factory",
+      "group": "anthropic-skills",
+      "skill_name": "theme-factory",
+      "source_dir": "brand/tools/anthropic-skills/theme-factory",
+      "source_file": "brand/tools/anthropic-skills/theme-factory/SKILL.md",
+      "license_file": "brand/tools/anthropic-skills/theme-factory/LICENSE.txt",
+      "license_status": "license-file-present-apache-2.0"
+    },
+    {
+      "id": "anthropic-skills-web-artifacts-builder",
+      "group": "anthropic-skills",
+      "skill_name": "web-artifacts-builder",
+      "source_dir": "brand/tools/anthropic-skills/web-artifacts-builder",
+      "source_file": "brand/tools/anthropic-skills/web-artifacts-builder/SKILL.md",
+      "license_file": "brand/tools/anthropic-skills/web-artifacts-builder/LICENSE.txt",
+      "license_status": "license-file-present-apache-2.0"
+    },
+    {
+      "id": "anthropic-skills-webapp-testing",
+      "group": "anthropic-skills",
+      "skill_name": "webapp-testing",
+      "source_dir": "brand/tools/anthropic-skills/webapp-testing",
+      "source_file": "brand/tools/anthropic-skills/webapp-testing/SKILL.md",
+      "license_file": "brand/tools/anthropic-skills/webapp-testing/LICENSE.txt",
+      "license_status": "license-file-present-apache-2.0"
+    },
+    {
+      "id": "anthropic-skills-xlsx",
+      "group": "anthropic-skills",
+      "skill_name": "xlsx",
+      "source_dir": "brand/tools/anthropic-skills/xlsx",
+      "source_file": "brand/tools/anthropic-skills/xlsx/SKILL.md",
+      "license_file": "brand/tools/anthropic-skills/xlsx/LICENSE.txt",
+      "license_status": "license-file-present-apache-2.0"
+    },
+    {
+      "id": "jakub-skills-afk",
+      "group": "jakub-skills",
+      "skill_name": "afk",
+      "source_dir": "brand/tools/jakub-skills/afk",
+      "source_file": "brand/tools/jakub-skills/afk/SKILL.md",
+      "license_file": "brand/tools/jakub-skills/LICENSE",
+      "license_status": "license-file-present-mit"
+    },
+    {
+      "id": "jakub-skills-better-accessibility",
+      "group": "jakub-skills",
+      "skill_name": "better-accessibility",
+      "source_dir": "brand/tools/jakub-skills/better-accessibility",
+      "source_file": "brand/tools/jakub-skills/better-accessibility/SKILL.md",
+      "license_file": "brand/tools/jakub-skills/LICENSE",
+      "license_status": "license-file-present-mit"
+    },
+    {
+      "id": "jakub-skills-better-colors",
+      "group": "jakub-skills",
+      "skill_name": "better-colors",
+      "source_dir": "brand/tools/jakub-skills/better-colors",
+      "source_file": "brand/tools/jakub-skills/better-colors/SKILL.md",
+      "license_file": "brand/tools/jakub-skills/LICENSE",
+      "license_status": "license-file-present-mit"
+    },
+    {
+      "id": "jakub-skills-better-interface",
+      "group": "jakub-skills",
+      "skill_name": "better-interface",
+      "source_dir": "brand/tools/jakub-skills/better-interface",
+      "source_file": "brand/tools/jakub-skills/better-interface/SKILL.md",
+      "license_file": "brand/tools/jakub-skills/LICENSE",
+      "license_status": "license-file-present-mit"
+    },
+    {
+      "id": "jakub-skills-better-layout",
+      "group": "jakub-skills",
+      "skill_name": "better-layout",
+      "source_dir": "brand/tools/jakub-skills/better-layout",
+      "source_file": "brand/tools/jakub-skills/better-layout/SKILL.md",
+      "license_file": "brand/tools/jakub-skills/LICENSE",
+      "license_status": "license-file-present-mit"
+    },
+    {
+      "id": "jakub-skills-better-motion",
+      "group": "jakub-skills",
+      "skill_name": "better-motion",
+      "source_dir": "brand/tools/jakub-skills/better-motion",
+      "source_file": "brand/tools/jakub-skills/better-motion/SKILL.md",
+      "license_file": "brand/tools/jakub-skills/LICENSE",
+      "license_status": "license-file-present-mit"
+    },
+    {
+      "id": "jakub-skills-better-typography",
+      "group": "jakub-skills",
+      "skill_name": "better-typography",
+      "source_dir": "brand/tools/jakub-skills/better-typography",
+      "source_file": "brand/tools/jakub-skills/better-typography/SKILL.md",
+      "license_file": "brand/tools/jakub-skills/LICENSE",
+      "license_status": "license-file-present-mit"
+    },
+    {
+      "id": "jakub-skills-better-ui",
+      "group": "jakub-skills",
+      "skill_name": "better-ui",
+      "source_dir": "brand/tools/jakub-skills/better-ui",
+      "source_file": "brand/tools/jakub-skills/better-ui/SKILL.md",
+      "license_file": "brand/tools/jakub-skills/LICENSE",
+      "license_status": "license-file-present-mit"
+    },
+    {
+      "id": "jakub-skills-better-writing",
+      "group": "jakub-skills",
+      "skill_name": "better-writing",
+      "source_dir": "brand/tools/jakub-skills/better-writing",
+      "source_file": "brand/tools/jakub-skills/better-writing/SKILL.md",
+      "license_file": "brand/tools/jakub-skills/LICENSE",
+      "license_status": "license-file-present-mit"
+    },
+    {
+      "id": "jakub-skills-break",
+      "group": "jakub-skills",
+      "skill_name": "break",
+      "source_dir": "brand/tools/jakub-skills/break",
+      "source_file": "brand/tools/jakub-skills/break/SKILL.md",
+      "license_file": "brand/tools/jakub-skills/LICENSE",
+      "license_status": "license-file-present-mit"
+    },
+    {
+      "id": "jakub-skills-build-design",
+      "group": "jakub-skills",
+      "skill_name": "build-design",
+      "source_dir": "brand/tools/jakub-skills/build-design",
+      "source_file": "brand/tools/jakub-skills/build-design/SKILL.md",
+      "license_file": "brand/tools/jakub-skills/LICENSE",
+      "license_status": "license-file-present-mit"
+    },
+    {
+      "id": "jakub-skills-explain-interface",
+      "group": "jakub-skills",
+      "skill_name": "explain-interface",
+      "source_dir": "brand/tools/jakub-skills/explain-interface",
+      "source_file": "brand/tools/jakub-skills/explain-interface/SKILL.md",
+      "license_file": "brand/tools/jakub-skills/LICENSE",
+      "license_status": "license-file-present-mit"
+    },
+    {
+      "id": "jakub-skills-interface-review",
+      "group": "jakub-skills",
+      "skill_name": "interface-review",
+      "source_dir": "brand/tools/jakub-skills/interface-review",
+      "source_file": "brand/tools/jakub-skills/interface-review/SKILL.md",
+      "license_file": "brand/tools/jakub-skills/LICENSE",
+      "license_status": "license-file-present-mit"
+    },
+    {
+      "id": "jakub-skills-state-machine",
+      "group": "jakub-skills",
+      "skill_name": "state-machine",
+      "source_dir": "brand/tools/jakub-skills/state-machine",
+      "source_file": "brand/tools/jakub-skills/state-machine/SKILL.md",
+      "license_file": "brand/tools/jakub-skills/LICENSE",
+      "license_status": "license-file-present-mit"
+    },
+    {
+      "id": "jakub-skills-upskill",
+      "group": "jakub-skills",
+      "skill_name": "upskill",
+      "source_dir": "brand/tools/jakub-skills/upskill",
+      "source_file": "brand/tools/jakub-skills/upskill/SKILL.md",
+      "license_file": "brand/tools/jakub-skills/LICENSE",
+      "license_status": "license-file-present-mit"
+    },
+    {
+      "id": "jakub-skills-variant",
+      "group": "jakub-skills",
+      "skill_name": "variant",
+      "source_dir": "brand/tools/jakub-skills/variant",
+      "source_file": "brand/tools/jakub-skills/variant/SKILL.md",
+      "license_file": "brand/tools/jakub-skills/LICENSE",
+      "license_status": "license-file-present-mit"
+    },
+    {
+      "id": "shadcn-skills-migrate-radix-to-base",
+      "group": "shadcn-skills",
+      "skill_name": "migrate-radix-to-base",
+      "source_dir": "brand/tools/shadcn-skills/migrate-radix-to-base",
+      "source_file": "brand/tools/shadcn-skills/migrate-radix-to-base/SKILL.md",
+      "license_file": "brand/tools/shadcn-skills/LICENSE.md",
+      "license_status": "license-file-present-mit"
+    },
+    {
+      "id": "shadcn-skills-shadcn",
+      "group": "shadcn-skills",
+      "skill_name": "shadcn",
+      "source_dir": "brand/tools/shadcn-skills/shadcn",
+      "source_file": "brand/tools/shadcn-skills/shadcn/SKILL.md",
+      "license_file": "brand/tools/shadcn-skills/LICENSE.md",
+      "license_status": "license-file-present-mit"
     }
   ]
 }
