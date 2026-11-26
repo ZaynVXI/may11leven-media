@@ -21,6 +21,7 @@ description: The living Awwwards file. Who won recently, what the winners do, an
 5. **Personality can be honest about machines.** Büro's site has a navigation "böt" that says it isn't AI: it's "a human pretending to think like a machine". For our AI agent work, label clearly what's automated and what isn't; a wink is fine, pretending is not.
 6. **Restraint wins in serious sectors.** Recent winners include a biotech manufacturer (Polpharma Biologics, Nov 25, score 7.36) and an earlier biotech SOTD (Bright Biotech, a two-colour palette). Trust sectors win with calm layouts, real photography and strict palettes, the same direction as Lebedev's Nova.
 7. **Our mentors keep winning.** Holographik won again with DeepBook (Nov 3) and earlier Slush, CoMinVi and Permian. Studying them is studying the award bar.
+8. **One real object carries the whole story** (Better Off, MotiveOne, nominated). A 3D model of the client's real place stays on screen while the copy changes, and each service appears as a layer on it (lines, cutaway). Pair it with proof cards (step counter, mono label, giant light numeral, a source line) and a search that is never empty. Full study: `brand/learning/betteroff.md`.
 
 ## Log (newest first)
 

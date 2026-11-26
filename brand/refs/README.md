@@ -5,7 +5,7 @@ Studios Zayn chose for us to learn from. We study all of them, take the thinking
 - **Pixie and Dixie (PXDX, @pxdx.baddies, dribbble.com/PXDX)**: product concepts shown as working prototypes in motion; full carousels per product (Rosie: about 7 slides); UI details posts; how they train Claude. Refs: `pixie-dixie/`, `pxdx-dribbble/`, `pxdx-ui-details/`, `pxdx-rosie/`, `../motion-refs/`. Notes: `learning/prototype-posts.md`, `learning/ui-details.md`, `learning/motion-learnings.md`.
 - **Qclay**: product visual languages, aura glass, data written as sentences. Refs: `qclay/`. Notes: `learning/qclay.md`.
 - **Motto**: presentation, captions, case studies. Notes: `learning/motto*.md`.
-- **Holographik, .raw, Nuevo.Tokyo, Blacklead, Artycoders, Leoverse, Advetree, WOB Studio, Obrazur, Serhii, kayvon.ai, Artemii Lebedev, Satto, Kalypso, Obys, Zachary Winterton**: see the sections below and `learning/`.
+- **Holographik, .raw, Nuevo.Tokyo, Blacklead, Artycoders, Leoverse, Advetree, WOB Studio, Obrazur, Serhii, kayvon.ai, Artemii Lebedev, Satto, Kalypso, Obys, Zachary Winterton, Better Off Studio**: see the sections below and `learning/`.
 
 **What stays ours whatever we learn:** problem-first concepts from Africa first, then the Gulf and the world; real free stock and our own renders, never AI imagery; hands, not faces; a colour world taken from each product's own place; plain-English copy with comment 11 and both emails; quiet, minimal layouts with lots of air. Each piece names which mentor taught which move, and what we changed to make it ours.
 Screenshots of their feeds and posts, plus frame sheets of their reels (wob-reel-*-frames.jpg).
@@ -57,3 +57,6 @@ Free tool directory, not a design reference. Notes: brand/learning/openalternati
 
 ## Refero Styles
 Style systems from real product sites. Notes: brand/learning/refero-styles.md. Studied: teenage engineering, monopo saigon, Apple iPhone, Raycast.
+
+## Better Off Studio (betteroff.studio): MotiveOne site (Awwwards nominee)
+- `betteroff/`: key frames from Zayn's IG reels, mobile menu + typeahead search, desktop search panel. One 3D warehouse as the hero, services as glowing layers, proof cards with giant light numerals. Notes: `learning/betteroff.md`.
