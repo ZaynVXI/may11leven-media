@@ -214,3 +214,28 @@ Next grid tiles queued: Term carousel (1 Dec, light, 03 apps), Term reel (3 Dec,
 - Loud tiles: none loud. Pass.
 - Service rotation: only 03 and 06 in the next four. Flag: nothing queued for 01 brand, 02 web, 04 packaging and 3D, 05 automation or 07 social. Candidates already built: Miwa (02 web, practice) or today's coach seat picker (03 apps) are practice only; a 01 or 04 piece is the real gap.
 - Only 4 grid tiles are queued, not 9; 7 of 10 Buffer scheduled slots are used.
+
+## Qclay: the newest ten shots, and the app icon as the cover (rotation)
+Refs: brand/refs/qclay/15.jpg, 16.jpg (the glass app-icon cover), 17-aura-glass.jpg, and their newest ten shot titles from dribbble.com/qclay/shots (read today through a summary; the shot pages and images did not load, so nothing new was saved). Earlier notes: brand/learning/qclay.md.
+### What they posted lately
+Newest first: Fitness App UI Design, Logistics AI Platform, AI Platform, Perq AI Assistant, Health Activity App UI, Mobile App, Mobile App, Crypto Platform UI, Mobile App, NightShift AI Platform. Six of ten are AI or platform concepts, three are titled only "Mobile App", and NightShift is still being posted from new angles.
+### Colour (measured from our refs, 5-colour quantise)
+- App-icon cover (16.jpg): lavender haze #C1BCFA, indigo #5143A7, night navy #021025 and #10143F. One hue family, light at the top and night at the bottom, with the icon at the seam.
+- Speed-test set (15.jpg): #C0BEEF, #5658AF, #212349, #08091C, the same family again.
+- Aura money app (17): graphite #211F22 with mist greys #C8CFD0, #D7DDDD and sage #8D9685.
+### Typography
+A neutral neo-grotesk in two weights at most; one huge numeral per frame, small grey labels, mono for IDs and status pills (see qclay.md). The icon cover has no type at all.
+### Grid and presentation
+The carousel opens on the product's app icon alone: one rounded glass square, centred, on a blurred colour field taken from the product's palette, with a few points of grain. Slide 2 onwards shows fragments of screens. The cover is the brand before it is the UI.
+### How they present it on Instagram and Dribbble
+Volume and repetition: one build, several posts, generic titles ("Mobile App"), and the offer line at the end of every caption. The work sells; the titles don't.
+### Try this week
+Open the next product carousel on its app icon, but ours: drawn from the product's own primitive (Mita's icon is the meter's LCD window in its green, Term's is the red tick on ruled paper), shot as a real object on a real surface, not glass on a gradient. And never title a post "Mobile App": the title is the promise (8 words or fewer).
+
+## Feed check (Fri, Buffer "My organization", read only; Metricool 7782767 still returns 403 "Access denied to blog")
+Grid tiles queued (Vienna time): Term carousel Tue 1 Dec 10:00 am (03 apps), Term reel Thu 3 Dec 10:00 am (03 apps), Try to break it carousel Tue 8 Dec 10:00 am (06 agents), Try to break it reel Thu 10 Dec 10:00 am (06 agents). Stories and Facebook copies left out of the grid count.
+- **Covers, checked by eye today (yesterday's open item):** the Break reel cover at 1.0 s is clean (one chat bubble over the rooftop, one focal point). Pass. The Term reel cover at 25.2 s is the dark end card (ticks, "A calmer January.", the services line, "Comment 11" and the logo): a text-heavy call to action, not a cover. **Flag:** set the cover offset to a frame of the register or the phone on the jumper.
+- **Dark/light:** with that end card as the cover, the top row (Break reel, Break carousel, Term reel) is three dark tiles in a row. **Flag.** Fixing the Term cover to a light frame also fixes the balance.
+- **Loud tiles:** none loud. Pass.
+- **Service rotation:** still only 03 and 06, each pair side by side. **Flag** (same as yesterday): nothing queued for 01, 02, 04, 05 or 07. Only 4 of the next 9 tiles exist.
+- Nothing was changed in Buffer; these are notes for Zayn.

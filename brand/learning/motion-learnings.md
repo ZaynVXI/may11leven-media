@@ -53,3 +53,7 @@ For a component study, build a hero state plus a strip of 3 to 5 numbered tiles;
 
 ### Rule (24 Nov): every post gets a real reel, usually 20–40 seconds
 This works with the 19 Nov correction above: length still follows the content, so a case study can run to 60 s. Zayn's point is that a 6–8 s loop is a slide, not a reel. Every product or service post gets a real reel, normally 20–40 s: a hook in the first 2 s, a story, the "what if" moment, a payoff that loops. Cut on rhythm with real pages, over B-roll from the client's world (see lebedev-nova.md, motto-maisa.md).
+
+## Add to the skill: values swap inside a sentence (PXDX widgets)
+- When a reading changes, only the lit value moves: the old value fades out in the first 40% of the duration and rises 16 px; the new one starts at 35% and settles from 16 px below. One ease (cubic-bezier(.22,1,.36,1)), 600 ms, never a full crossfade where two numbers sit on top of each other.
+- Change one thing at a time, 0.4 s apart (number, then the sentence value, then the advice line), and loop by playing the same order back, so the seam is invisible. Built in brand/code/practice/mita-widgets/after.html (render(t) is deterministic, captured with capture.py).

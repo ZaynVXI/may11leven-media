@@ -124,3 +124,9 @@ Rule: a mockup only *presents* our work. The screens, packaging and type are alw
 ## Added (Thu)
 - **hontran.dev/blog** (build notes by a creative developer behind several Awwwards Sites of the Day: fromanother, Minh Pham, Iventions, By-Kin). Each note gives the brief, the motion tokens (ease, duration, rise) and the performance rules. Use when writing the motion tokens for any site.
 - **metickets.krc.co.ke/faqs.php** (Kenya Railways booking FAQ: fares, times, booking rules). A model of the source we want behind every transport concept: the operator's own rules.
+
+## Added (Fri)
+- **animorio.com/en/journal** (build teardowns of award-winning sites: stack, every motion timing, colours in hex, and an honest list of what's broken: missing alt text, keyboard traps, files left in production). Read Polpharma Biologics today. The best source we have for "what the jury didn't check".
+- **apple.com/newsroom, Apple Design Awards** (yearly winners by category, with one line on why each won; the Inclusivity and Visuals categories are the ones to read for app work).
+- **async.com/blog** (practical short-form video editing guides with dated, specific tips; read "How to edit Instagram Reels: 17 tips", Aug 2026).
+- Blocked today: godly.website, land-book.com, siteinspire.com, minimal.gallery, designspells.com, dribbble.com profile and popular pages (all refused from the workspace).

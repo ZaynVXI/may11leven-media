@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Mita widgets (concept)</title>
+<style>
+@font-face{font-family:Archivo;src:url(../../../fonts/Archivo.ttf);font-weight:100 900;font-stretch:62% 125%}
+@font-face{font-family:Plex;src:url(../../../fonts/PlexMono.ttf)}
+:root{
+  --ground:#E7E6E1; --ink:#0E0F0C; --muted:#5C5D57;
+  --wall:#141512; --tile:#1F201C; --tile-line:#2C2D28;
+  --on:#F4F3EE; --off:#9A9A92; --lcd:#C5D17E; --lcd-ink:#10140A;
+  --ease:cubic-bezier(.22,1,.36,1); --dur:600ms; --rise:16px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{background:var(--ground)}
+body{width:1080px;height:1350px;position:relative;overflow:hidden;font-family:Archivo,system-ui,sans-serif;font-weight:400;color:var(--ink);font-feature-settings:"tnum" 1}
+.label{position:absolute;font:400 20px/1.35 Plex,monospace;letter-spacing:.02em;color:var(--muted)}
+.tl{left:56px;top:52px}.tr{right:56px;top:52px;text-align:right}
+.cap{left:56px;top:52px}
+.cap .t{font:400 40px/1.1 Archivo;letter-spacing:-.01em;color:var(--ink);margin-bottom:14px}
+
+/* the screen fragment: a phone screen at 2x, cropped by the frame edge (no fake hardware) */
+.screen{position:absolute;left:147px;top:318px;width:786px;height:1100px;background:var(--wall);border-radius:110px 110px 0 0;overflow:hidden}
+.status{position:absolute;left:0;right:0;top:0;height:108px;display:flex;justify-content:space-between;align-items:center;padding:20px 64px 0 84px;color:var(--on);font-size:34px}
+.island{position:absolute;left:50%;top:22px;width:250px;height:74px;margin-left:-125px;background:#000;border-radius:40px}
+.icons{display:flex;gap:12px;align-items:center}
+
+/* iOS widget sizes at 2x: small 316x316, medium 676x316, gap 44 */
+.w{position:absolute;background:var(--tile);border-radius:44px;box-shadow:inset 0 0 0 2px var(--tile-line);overflow:hidden}
+.med{left:55px;top:170px;width:676px;height:316px;padding:40px 44px}
+.s1{left:55px;top:530px;width:316px;height:316px;background:var(--lcd);box-shadow:none;padding:34px 36px;color:var(--lcd-ink)}
+.s2{left:415px;top:530px;width:316px;height:316px;padding:34px 36px}
+.wl{position:absolute;font:400 22px/1 Plex,monospace;letter-spacing:.02em}
+
+/* sentence widget: the PXDX move, values lit, words quiet */
+.sent{font-size:42px;line-height:1.32;letter-spacing:-.005em;color:var(--off);text-wrap:pretty}
+.v{color:var(--on);display:inline-block;position:relative}
+.swap{display:inline-grid}
+.swap>span{grid-area:1/1;will-change:transform,opacity}
+
+/* small: the one number */
+.num{position:absolute;left:30px;bottom:66px;font-size:150px;line-height:.8;font-stretch:72%;letter-spacing:-.02em;display:grid}
+.num>span{grid-area:1/1}
+.unit{left:36px;bottom:30px;color:var(--lcd-ink)}
+
+/* small: what the last token bought */
+.buy{font-size:30px;line-height:1.2;color:var(--off)}
+.buy .k{display:block;margin-top:6px;font-size:56px;line-height:1;font-stretch:72%;color:var(--on)}
+.bar{position:absolute;left:36px;right:36px;bottom:132px;height:14px;display:flex;gap:4px}
+.bar i{display:block;height:100%;border-radius:7px;transform-origin:left center}
+.legend{position:absolute;left:36px;right:36px;bottom:30px;font:400 20px/1.5 Plex,monospace;color:var(--off);display:grid;grid-template-columns:1fr auto}
+.legend b{font-weight:400;color:var(--on)}
+.sw{display:inline-block;width:12px;height:12px;border-radius:6px;margin-right:10px;vertical-align:0}
+
+/* dock hint so it reads as a home screen */
+.apps{position:absolute;left:55px;top:890px;display:grid;grid-template-columns:repeat(4,128px);gap:54px 54px}
+.app{width:128px;height:128px;border-radius:30px;background:#262722;box-shadow:inset 0 0 0 2px #30312b}
+.app.mita{background:var(--lcd);box-shadow:none;display:grid;place-items:center;font:400 40px/1 Archivo;font-stretch:72%;color:var(--lcd-ink)}
+</style>
+</head>
+<body>
+<div class="label tr">Home screen widgets<br>Concept</div>
+
+<div class="screen" role="img" aria-label="A phone home screen with three Mita widgets: a sentence saying about 4 days of power are left at the usual 3.1 kWh a day, a green tile reading 12.4 kWh left, and a tile showing the last KES 1,000 token bought 35.2 kWh, split into energy, taxes and arrears.">
+  <div class="island"></div>
+  <div class="status"><span>9:41</span>
+    <span class="icons">
+      <svg width="34" height="22" viewBox="0 0 17 11" fill="#F4F3EE"><rect x="0" y="7" width="3" height="4" rx=".8"/><rect x="4.6" y="5" width="3" height="6" rx=".8"/><rect x="9.2" y="2.5" width="3" height="8.5" rx=".8"/><rect x="13.8" y="0" width="3" height="11" rx=".8"/></svg>
+      <svg width="30" height="22" viewBox="0 0 15 11" fill="none" stroke="#F4F3EE" stroke-width="1.6" stroke-linecap="round"><path d="M1.2 4a9 9 0 0 1 12.6 0"/><path d="M3.6 6.5a5.6 5.6 0 0 1 7.8 0"/><circle cx="7.5" cy="9.2" r="1" fill="#F4F3EE" stroke="none"/></svg>
+      <svg width="52" height="24" viewBox="0 0 26 12"><rect x=".5" y=".5" width="22" height="11" rx="3.2" fill="none" stroke="#F4F3EE" stroke-opacity=".45"/><rect x="2" y="2" width="15" height="8" rx="2" fill="#F4F3EE"/><rect x="23.6" y="4" width="1.6" height="4" rx=".8" fill="#F4F3EE" fill-opacity=".45"/></svg>
+    </span></div>
+
+  <div class="w med">
+    <div class="wl" style="right:44px;top:40px;color:var(--off)">Mita</div>
+    <p class="sent">You have <span class="v swap"><span id="d1">about 4 days</span><span id="d2">about 15 days</span></span><br>of power at your usual <span class="v">3.1&nbsp;kWh</span> a&nbsp;day.<br><span class="swap"><span id="t1">Top up before <span class="v">Sunday night</span>.</span><span id="t2">You're set for <span class="v">two weeks</span>.</span></span></p>
+  </div>
+
+  <div class="w s1">
+    <div class="wl" style="left:36px;top:34px">Left</div>
+    <div class="num"><span id="n1">12.4</span><span id="n2">47.6</span></div>
+    <div class="wl unit">kWh</div>
+  </div>
+
+  <div class="w s2">
+    <p class="buy">KES 1,000 bought<span class="k">35.2 kWh</span></p>
+    <div class="bar"><i id="b1" style="flex:683;background:#F4F3EE"></i><i id="b2" style="flex:317;background:#8E8E86"></i><i id="b3" style="flex:0 0 14px;background:transparent;box-shadow:inset 0 0 0 2px #8E8E86"></i></div>
+    <div class="legend">
+      <span><span class="sw" style="background:#F4F3EE"></span>Energy</span><b>683</b>
+      <span><span class="sw" style="background:#8E8E86"></span>Taxes</span><b>317</b>
+      <span><span class="sw" style="box-shadow:inset 0 0 0 2px #8E8E86"></span>Arrears</span><b>0</b>
+    </div>
+  </div>
+
+  </div>
+
+<div class="label cap"><div class="t">Mita widgets</div>Prepaid power, read as a sentence<br>Practice (14)</div>
+
+<script>
+// One motion vocabulary (Awwwards rule 9): one ease, one duration, one rise. render(t) is deterministic so frames can be captured.
+const E=t=>1-Math.pow(1-t,3)*(1-t)*(1-t); // ease-out quint-ish, matches --ease feel
+const clamp=x=>Math.max(0,Math.min(1,x));
+const DUR=.6, RISE=16;
+function swap(a,b,t0,t){ // crossfade two layers with a 16px rise, starting at t0
+  const p=E(clamp((t-t0)/DUR));
+  // the old value leaves in the first 40% and the new one arrives after it, so two numbers never sit on top of each other
+  a.style.opacity=1-clamp(p/.4); a.style.transform=`translateY(${-RISE*p}px)`;
+  b.style.opacity=clamp((p-.35)/.65); b.style.transform=`translateY(${RISE*(1-p)}px)`;
+}
+function state(t){ // 8 s loop: hold low, top-up lands, hold high, ease back
+  const T=t%8; const fwd=T<5.2; const tt=fwd?T:T-4.0; // reverse plays the same choreography back from 5.2 s
+  const order=fwd? [1.0,1.4,1.8] : [2.0,1.6,1.2];
+  const pick=(a,b,i)=>{ if(fwd) swap(a,b,order[i],tt); else swap(b,a,order[i],tt); };
+  pick(n1,n2,0); pick(d1,d2,1); pick(t1,t2,2);
+}
+function render(t){ state(t); }
+window.render=render; render(0);
+</script>
+</body>
+</html>
